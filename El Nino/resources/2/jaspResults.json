@@ -1,0 +1,258 @@
+{
+   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "data" : {
+      "oneWayAnovaTable" : {
+         "citations" : [
+            "Aaron Bahde and Philipp Berens (2019). University of Tuebingen.",
+            "Ulric Lund and Claudio Agostinelli (2017). Circular (Version 0.4-93): Circular Statistics [R Package]."
+         ],
+         "colCombines" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {
+               "fac" : true
+            },
+            "listType" : "bool",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "",
+            "type" : "list"
+         },
+         "colFormats" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {
+               "p" : "dp:3;p:.001",
+               "w" : "dp:3"
+            },
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "colFormats",
+            "type" : "list"
+         },
+         "colNames" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {},
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [ "fac", "testName", "p", "w", "df", "hasTenMeasurementsPerGroup" ],
+            "title" : "colNames",
+            "type" : "list"
+         },
+         "colOvertitles" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {},
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "colOvertitles",
+            "type" : "list"
+         },
+         "colRowCombinations" : [],
+         "colTitles" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {
+               "df" : "df",
+               "fac" : "Cases",
+               "p" : "p",
+               "testName" : "Test",
+               "w" : "W"
+            },
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "colTitles",
+            "type" : "list"
+         },
+         "colTypes" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {
+               "df" : "integer",
+               "fac" : "string",
+               "p" : "pvalue",
+               "testName" : "string",
+               "w" : "number"
+            },
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "colTypes",
+            "type" : "list"
+         },
+         "data" : [
+            [ "JaspColumn_1_Encoded" ],
+            [ "Watson-Wheeler" ],
+            [ 4.024468008445584e-08 ],
+            [ 40.152888067971524 ],
+            [ 4.0 ],
+            [ true ]
+         ],
+         "error" : false,
+         "errorMessage" : "",
+         "escapeHtml" : true,
+         "expectedColumnCount" : 0,
+         "expectedRowCount" : 0,
+         "footnotes" : [
+            {
+               "cols" : null,
+               "rows" : null,
+               "symbol" : "<em>Note.</em>",
+               "text" : "All statistics are calculated on a normalized period of 2\u03c0."
+            },
+            {
+               "cols" : [ "df" ],
+               "rows" : null,
+               "symbol" : "",
+               "text" : "The degrees of freedom of the \u03c7\u00b2-distribution to which W is compared."
+            }
+         ],
+         "messages" : [],
+         "name" : "oneWayAnovaTable",
+         "nestedOptionMustBe" : {},
+         "nestedOptionMustContain" : {},
+         "optionMustBe" : {
+            "customPeriod" : 360.0,
+            "dependent" : "JaspColumn_0_Encoded",
+            "fixedFactors" : [ "JaspColumn_1_Encoded" ],
+            "period" : "custom",
+            "watsonWheeler" : true,
+            "watsonWilliams" : false
+         },
+         "optionMustContain" : {},
+         "position" : 9999,
+         "rowNames" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {},
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [ "JaspColumn_1_Encoded" ],
+            "title" : "rowNames",
+            "type" : "list"
+         },
+         "rowTitles" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {},
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "rowTitles",
+            "type" : "list"
+         },
+         "showSpecifiedColumnsOnly" : true,
+         "specifiedColumns" : [ "df", "fac", "p", "testName", "w" ],
+         "status" : "complete",
+         "title" : "One-way ANOVA",
+         "transposeTable" : false,
+         "transposeWithOvertitle" : false,
+         "type" : "table"
+      }
+   },
+   "data_order" : {
+      "oneWayAnovaTable" : 0
+   },
+   "error" : false,
+   "errorMessage" : "",
+   "escapeHtml" : true,
+   "initCollapsed" : false,
+   "messages" : [],
+   "name" : "",
+   "nestedOptionMustBe" : {},
+   "nestedOptionMustContain" : {},
+   "optionMustBe" : {},
+   "optionMustContain" : {},
+   "options" : {
+      ".meta" : {
+         "dependent" : {
+            "shouldEncode" : true
+         },
+         "fixedFactors" : {
+            "shouldEncode" : true
+         }
+      },
+      "customPeriod" : 360.0,
+      "dependent" : "JaspColumn_0_Encoded",
+      "fixedFactors" : [ "JaspColumn_1_Encoded" ],
+      "harrisonKanji" : false,
+      "period" : "custom",
+      "plotHeight" : 320,
+      "plotWidth" : 480,
+      "watsonWheeler" : true,
+      "watsonWilliams" : false
+   },
+   "order_increment" : 1,
+   "position" : 9999,
+   "relativePathKeep" : "resources/2/state",
+   "title" : "Circular Multiple-Sample Tests",
+   "type" : "results"
+}

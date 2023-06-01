@@ -1,0 +1,509 @@
+{
+   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "data" : {
+      "corBayesTable" : {
+         "citations" : [
+            "Ly, A., Marsman, M., Wagenmakers, E.-J. (2018). Analytic Posteriors for Pearson's Correlation Coefficient. Statistica Neerlandica, 72(1), 4-13.",
+            "Ly, A., Verhagen, A. J. & Wagenmakers, E.-J. (2016). Harold Jeffreys's Default Bayes Factor Hypothesis Tests: Explanation, Extension, and Application in Psychology. Journal of Mathematical Psychology, 72, 19-32."
+         ],
+         "colCombines" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {},
+            "listType" : "bool",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "",
+            "type" : "list"
+         },
+         "colFormats" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {
+               "pearsonbf" : "sf:4;dp:3",
+               "pearsonstat" : "sf:4;dp:3"
+            },
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "colFormats",
+            "type" : "list"
+         },
+         "colNames" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {},
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [ "variable1", "separator", "variable2", "pearsonstat", "pearsonbf" ],
+            "title" : "colNames",
+            "type" : "list"
+         },
+         "colOvertitles" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {},
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "colOvertitles",
+            "type" : "list"
+         },
+         "colRowCombinations" : [],
+         "colTitles" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {
+               "pearsonbf" : "BF\u2081\u2080",
+               "pearsonstat" : "Pearson's r",
+               "separator" : "",
+               "variable1" : "",
+               "variable2" : ""
+            },
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "colTitles",
+            "type" : "list"
+         },
+         "colTypes" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {
+               "pearsonbf" : "number",
+               "pearsonstat" : "number",
+               "separator" : "separator",
+               "variable1" : "string",
+               "variable2" : "string"
+            },
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "colTypes",
+            "type" : "list"
+         },
+         "data" : [
+            [ "JaspColumn_1_Encoded" ],
+            [ "-" ],
+            [ "JaspColumn_2_Encoded" ],
+            [ 0.39309236340185344 ],
+            [ 6.3319447205506494 ]
+         ],
+         "error" : false,
+         "errorMessage" : "",
+         "escapeHtml" : true,
+         "expectedColumnCount" : 4,
+         "expectedRowCount" : 1,
+         "footnotes" : [],
+         "messages" : [],
+         "name" : "corBayesTable",
+         "nestedOptionMustBe" : {},
+         "nestedOptionMustContain" : {},
+         "optionMustBe" : {
+            "alternative" : "twoSided",
+            "bayesFactorReport" : true,
+            "bayesFactorType" : "BF10",
+            "ci" : false,
+            "ciLevel" : 0.94999999999999996,
+            "kendall" : false,
+            "naAction" : "pairwise",
+            "pairwiseDisplay" : true,
+            "pearson" : true,
+            "posteriorMedian" : false,
+            "priorWidth" : "1",
+            "sampleSize" : false,
+            "seed" : 1,
+            "setSeed" : false,
+            "spearman" : false,
+            "supportCorrelationFlagged" : false,
+            "variables" : [ "JaspColumn_1_Encoded", "JaspColumn_2_Encoded" ]
+         },
+         "optionMustContain" : {},
+         "position" : 1,
+         "rowNames" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {},
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [ "JaspColumn_1_Encoded-JaspColumn_2_Encoded" ],
+            "title" : "rowNames",
+            "type" : "list"
+         },
+         "rowTitles" : {
+            "citations" : [],
+            "error" : false,
+            "errorMessage" : "",
+            "escapeHtml" : true,
+            "fields" : {},
+            "listType" : "string",
+            "messages" : [],
+            "name" : "",
+            "nestedOptionMustBe" : {},
+            "nestedOptionMustContain" : {},
+            "optionMustBe" : {},
+            "optionMustContain" : {},
+            "position" : 9999,
+            "rows" : [],
+            "title" : "rowTitles",
+            "type" : "list"
+         },
+         "showSpecifiedColumnsOnly" : true,
+         "specifiedColumns" : [ "pearsonbf", "pearsonstat", "separator", "variable1", "variable2" ],
+         "status" : "complete",
+         "title" : "Bayesian Pearson Correlations",
+         "transposeTable" : false,
+         "transposeWithOvertitle" : false,
+         "type" : "table"
+      },
+      "corModel" : {
+         "citations" : [],
+         "environmentName" : "state_1",
+         "error" : false,
+         "errorMessage" : "",
+         "escapeHtml" : true,
+         "messages" : [],
+         "name" : "corModel",
+         "nestedOptionMustBe" : {},
+         "nestedOptionMustContain" : {},
+         "optionMustBe" : {
+            "ciLevel" : 0.94999999999999996,
+            "naAction" : "pairwise",
+            "priorWidth" : "1",
+            "seed" : 1,
+            "setSeed" : false,
+            "variables" : [ "JaspColumn_1_Encoded", "JaspColumn_2_Encoded" ]
+         },
+         "optionMustContain" : {},
+         "position" : 9999,
+         "title" : "",
+         "type" : "state"
+      },
+      "pairsPlotCollection" : {
+         "citations" : [],
+         "data" : {
+            "Height Ratio-Popular Vote" : {
+               "citations" : [],
+               "data" : {
+                  "priorPosteriorPlot" : {
+                     "aspectRatio" : 0.0,
+                     "citations" : [],
+                     "editOptions" : {
+                        "errorType" : "validationError",
+                        "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+                     },
+                     "environmentName" : "plot_1",
+                     "error" : false,
+                     "errorMessage" : "",
+                     "escapeHtml" : true,
+                     "filePathPng" : "resources/0/_1_t1681915621446.png",
+                     "height" : 400,
+                     "messages" : [],
+                     "name" : "priorPosteriorPlot",
+                     "nestedOptionMustBe" : {},
+                     "nestedOptionMustContain" : {},
+                     "optionMustBe" : {
+                        "alternative" : "twoSided",
+                        "ciLevel" : 0.94999999999999996,
+                        "pairsMethod" : "pearson",
+                        "priorPosteriorPlot" : true,
+                        "priorPosteriorPlotAdditionalEstimationInfo" : true,
+                        "priorPosteriorPlotAdditionalTestingInfo" : true,
+                        "priorWidth" : "1",
+                        "seed" : 1,
+                        "setSeed" : false
+                     },
+                     "optionMustContain" : {},
+                     "position" : 2,
+                     "resizedByUser" : false,
+                     "revision" : 0,
+                     "status" : "complete",
+                     "title" : "Prior and Posterior",
+                     "type" : "plot",
+                     "width" : 530
+                  },
+                  "scatterPlot" : {
+                     "aspectRatio" : 0.0,
+                     "citations" : [],
+                     "editOptions" : {
+                        "error" : "success",
+                        "xAxis" : {
+                           "settings" : {
+                              "breaks" : [
+                                 0.90000000000000002,
+                                 0.94999999999999996,
+                                 1,
+                                 1.05,
+                                 1.1000000000000001,
+                                 1.1499999999999999,
+                                 1.2
+                              ],
+                              "breaksType" : "manual",
+                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
+                              "labels" : [ "0.90", "0.95", "1.00", "1.05", "1.10", "1.15", "1.20" ],
+                              "limits" : [ 0.90000000000000002, 1.2 ],
+                              "limitsType" : "breaks",
+                              "range" : [ 0.90000000000000002, 1.2, 0.050000000000000003 ],
+                              "title" : "JaspColumn_1_Encoded",
+                              "titleType" : "character"
+                           },
+                           "type" : "ScaleContinuous"
+                        },
+                        "yAxis" : {
+                           "settings" : {
+                              "breaks" : [
+                                 0.40000000000000002,
+                                 0.45000000000000001,
+                                 0.5,
+                                 0.55000000000000004,
+                                 0.59999999999999998,
+                                 0.65000000000000002,
+                                 0.69999999999999996
+                              ],
+                              "breaksType" : "manual",
+                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
+                              "labels" : [ "0.40", "0.45", "0.50", "0.55", "0.60", "0.65", "0.70" ],
+                              "limits" : [ 0.40000000000000002, 0.69999999999999996 ],
+                              "limitsType" : "breaks",
+                              "range" : [ 0.40000000000000002, 0.69999999999999996, 0.050000000000000003 ],
+                              "title" : "JaspColumn_2_Encoded",
+                              "titleType" : "character"
+                           },
+                           "type" : "ScaleContinuous"
+                        }
+                     },
+                     "environmentName" : "plot_0",
+                     "error" : false,
+                     "errorMessage" : "",
+                     "escapeHtml" : true,
+                     "filePathPng" : "resources/0/_0_t1681915621227.png",
+                     "height" : 400,
+                     "messages" : [],
+                     "name" : "scatterPlot",
+                     "nestedOptionMustBe" : {},
+                     "nestedOptionMustContain" : {},
+                     "optionMustBe" : {
+                        "pairsMethod" : "pearson",
+                        "scatterPlot" : true,
+                        "scatterPlotAdditionalInfo" : false
+                     },
+                     "optionMustContain" : {},
+                     "position" : 1,
+                     "resizedByUser" : false,
+                     "revision" : 0,
+                     "status" : "complete",
+                     "title" : "Scatterplot",
+                     "type" : "plot",
+                     "width" : 530
+                  }
+               },
+               "data_order" : {
+                  "priorPosteriorPlot" : 1,
+                  "scatterPlot" : 0
+               },
+               "error" : false,
+               "errorMessage" : "",
+               "escapeHtml" : true,
+               "initCollapsed" : false,
+               "messages" : [],
+               "name" : "Height Ratio-Popular Vote",
+               "nestedOptionMustBe" : {},
+               "nestedOptionMustContain" : {},
+               "optionMustBe" : {},
+               "optionMustContain" : {
+                  "pairs" : [ "JaspColumn_1_Encoded", "JaspColumn_2_Encoded" ]
+               },
+               "order_increment" : 2,
+               "position" : 9999,
+               "title" : "JaspColumn_1_Encoded - JaspColumn_2_Encoded",
+               "type" : "container"
+            }
+         },
+         "data_order" : {
+            "Height Ratio-Popular Vote" : 0
+         },
+         "error" : false,
+         "errorMessage" : "",
+         "escapeHtml" : true,
+         "initCollapsed" : false,
+         "messages" : [],
+         "name" : "pairsPlotCollection",
+         "nestedOptionMustBe" : {},
+         "nestedOptionMustContain" : {},
+         "optionMustBe" : {
+            "naAction" : "pairwise"
+         },
+         "optionMustContain" : {},
+         "order_increment" : 1,
+         "position" : 3,
+         "title" : "Bayesian Correlation Pairwise Plots",
+         "type" : "container"
+      },
+      "posteriorLine-Height Ratio-Popular Vote" : {
+         "citations" : [],
+         "environmentName" : "state_2",
+         "error" : false,
+         "errorMessage" : "",
+         "escapeHtml" : true,
+         "messages" : [],
+         "name" : "posteriorLine-Height Ratio-Popular Vote",
+         "nestedOptionMustBe" : {},
+         "nestedOptionMustContain" : {},
+         "optionMustBe" : {
+            "alternative" : "twoSided",
+            "naAction" : "pairwise",
+            "priorWidth" : "1",
+            "seed" : 1,
+            "setSeed" : false
+         },
+         "optionMustContain" : {},
+         "position" : 9999,
+         "title" : "",
+         "type" : "state"
+      },
+      "priorWidth" : {
+         "citations" : [],
+         "environmentName" : "state_0",
+         "error" : false,
+         "errorMessage" : "",
+         "escapeHtml" : true,
+         "messages" : [],
+         "name" : "priorWidth",
+         "nestedOptionMustBe" : {},
+         "nestedOptionMustContain" : {},
+         "optionMustBe" : {
+            "priorWidth" : "1"
+         },
+         "optionMustContain" : {},
+         "position" : 9999,
+         "title" : "",
+         "type" : "state"
+      }
+   },
+   "data_order" : {
+      "corBayesTable" : 2,
+      "corModel" : 1,
+      "pairsPlotCollection" : 3,
+      "posteriorLine-Height Ratio-Popular Vote" : 4,
+      "priorWidth" : 0
+   },
+   "error" : false,
+   "errorMessage" : "",
+   "escapeHtml" : true,
+   "initCollapsed" : false,
+   "messages" : [],
+   "name" : "",
+   "nestedOptionMustBe" : {},
+   "nestedOptionMustContain" : {},
+   "optionMustBe" : {},
+   "optionMustContain" : {},
+   "options" : {
+      ".meta" : {
+         "priorWidth" : {
+            "isRCode" : true
+         },
+         "variablePairs" : {
+            "shouldEncode" : true
+         },
+         "variables" : {
+            "shouldEncode" : true
+         }
+      },
+      "alternative" : "twoSided",
+      "bayesFactorReport" : true,
+      "bayesFactorType" : "BF10",
+      "bfRobustnessPlot" : false,
+      "bfRobustnessPlotAdditionalInfo" : false,
+      "bfSequentialPlot" : false,
+      "bfSequentialPlotAdditionalInfo" : false,
+      "ci" : false,
+      "ciLevel" : 0.94999999999999996,
+      "kendall" : false,
+      "matrixPlot" : false,
+      "matrixPlotDensity" : false,
+      "matrixPlotPosterior" : false,
+      "naAction" : "pairwise",
+      "pairsMethod" : "pearson",
+      "pairwiseDisplay" : true,
+      "pearson" : true,
+      "plotHeight" : 240,
+      "plotWidth" : 320,
+      "posteriorMedian" : false,
+      "priorPosteriorPlot" : true,
+      "priorPosteriorPlotAdditionalEstimationInfo" : true,
+      "priorPosteriorPlotAdditionalTestingInfo" : true,
+      "priorWidth" : "1",
+      "sampleSize" : false,
+      "scatterPlot" : true,
+      "scatterPlotAdditionalInfo" : false,
+      "seed" : 1,
+      "setSeed" : false,
+      "spearman" : false,
+      "supportCorrelationFlagged" : false,
+      "variablePairs" : [
+         [ "JaspColumn_1_Encoded", "JaspColumn_2_Encoded" ]
+      ],
+      "variables" : [ "JaspColumn_1_Encoded", "JaspColumn_2_Encoded" ]
+   },
+   "order_increment" : 5,
+   "position" : 9999,
+   "relativePathKeep" : "resources/0/state",
+   "title" : "Bayesian Correlation",
+   "type" : "results"
+}

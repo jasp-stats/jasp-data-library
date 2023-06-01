@@ -1,0 +1,1133 @@
+{
+   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "data" : {
+      "NRoperatorGraph" : {
+         "aspectRatio" : 0.0,
+         "citations" : [],
+         "editOptions" : {
+            "error" : "success",
+            "xAxis" : {
+               "settings" : {
+                  "labels" : [ "A", "B", "C" ],
+                  "title" : "JaspColumn_1_Encoded",
+                  "titleType" : "character"
+               },
+               "type" : "ScaleDiscrete"
+            },
+            "yAxis" : {
+               "settings" : {
+                  "breaks" : [ 6, 8, 10, 12 ],
+                  "breaksType" : "range",
+                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
+                  "labels" : [ "6", "8", "10", "12" ],
+                  "limits" : [ 4.8189535939999999, 12.819364869999999 ],
+                  "limitsType" : "manual",
+                  "range" : [ 6, 12, 2 ],
+                  "title" : "Measurement",
+                  "titleType" : "character"
+               },
+               "type" : "ScaleContinuous"
+            }
+         },
+         "environmentName" : "plot_20",
+         "error" : false,
+         "errorMessage" : "",
+         "escapeHtml" : true,
+         "filePathPng" : "resources/0/_18_t707982943.png",
+         "height" : 600,
+         "messages" : [],
+         "name" : "NRoperatorGraph",
+         "nestedOptionMustBe" : {},
+         "nestedOptionMustContain" : {},
+         "optionMustBe" : {
+            "NRoperatorGraph" : true,
+            "gaugeByOperator" : null,
+            "gaugeRRmethod" : null
+         },
+         "optionMustContain" : {},
+         "position" : 9999,
+         "resizedByUser" : false,
+         "revision" : 0,
+         "status" : "complete",
+         "title" : "Measurements by Operator",
+         "type" : "plot",
+         "width" : 600
+      },
+      "NRpartOperatorGraph" : {
+         "citations" : [],
+         "data" : {
+            "A" : {
+               "aspectRatio" : 0.0,
+               "citations" : [],
+               "editOptions" : {
+                  "error" : "success",
+                  "xAxis" : {
+                     "settings" : {
+                        "labels" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+                        "title" : "JaspColumn_0_Encoded",
+                        "titleType" : "character"
+                     },
+                     "type" : "ScaleDiscrete"
+                  },
+                  "yAxis" : {
+                     "settings" : {
+                        "breaks" : [ 5, 6, 7, 8, 9, 10, 11, 12 ],
+                        "breaksType" : "range",
+                        "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
+                        "labels" : [ "5", "6", "7", "8", "9", "10", "11", "12" ],
+                        "limits" : [ 5, 12 ],
+                        "limitsType" : "breaks",
+                        "range" : [ 5, 12, 1 ],
+                        "title" : "Measurement",
+                        "titleType" : "character"
+                     },
+                     "type" : "ScaleContinuous"
+                  }
+               },
+               "environmentName" : "plot_17",
+               "error" : false,
+               "errorMessage" : "",
+               "escapeHtml" : true,
+               "filePathPng" : "resources/0/_15_t707982238.png",
+               "height" : 300,
+               "messages" : [],
+               "name" : "A",
+               "nestedOptionMustBe" : {},
+               "nestedOptionMustContain" : {},
+               "optionMustBe" : {},
+               "optionMustContain" : {},
+               "position" : 9999,
+               "resizedByUser" : false,
+               "revision" : 0,
+               "status" : "complete",
+               "title" : "Operator A",
+               "type" : "plot",
+               "width" : 600
+            },
+            "B" : {
+               "aspectRatio" : 0.0,
+               "citations" : [],
+               "editOptions" : {
+                  "error" : "success",
+                  "xAxis" : {
+                     "settings" : {
+                        "labels" : [ "11", "12", "13", "14", "15", "16", "17", "18", "19", "20" ],
+                        "title" : "JaspColumn_0_Encoded",
+                        "titleType" : "character"
+                     },
+                     "type" : "ScaleDiscrete"
+                  },
+                  "yAxis" : {
+                     "settings" : {
+                        "breaks" : [ 5, 6, 7, 8, 9, 10, 11 ],
+                        "breaksType" : "range",
+                        "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
+                        "labels" : [ "5", "6", "7", "8", "9", "10", "11" ],
+                        "limits" : [ 5, 11 ],
+                        "limitsType" : "breaks",
+                        "range" : [ 5, 11, 1 ],
+                        "title" : "Measurement",
+                        "titleType" : "character"
+                     },
+                     "type" : "ScaleContinuous"
+                  }
+               },
+               "environmentName" : "plot_18",
+               "error" : false,
+               "errorMessage" : "",
+               "escapeHtml" : true,
+               "filePathPng" : "resources/0/_16_t707982465.png",
+               "height" : 300,
+               "messages" : [],
+               "name" : "B",
+               "nestedOptionMustBe" : {},
+               "nestedOptionMustContain" : {},
+               "optionMustBe" : {},
+               "optionMustContain" : {},
+               "position" : 9999,
+               "resizedByUser" : false,
+               "revision" : 0,
+               "status" : "complete",
+               "title" : "Operator B",
+               "type" : "plot",
+               "width" : 600
+            },
+            "C" : {
+               "aspectRatio" : 0.0,
+               "citations" : [],
+               "editOptions" : {
+                  "error" : "success",
+                  "xAxis" : {
+                     "settings" : {
+                        "labels" : [ "21", "22", "23", "24", "25", "26", "27", "28", "29", "30" ],
+                        "title" : "JaspColumn_0_Encoded",
+                        "titleType" : "character"
+                     },
+                     "type" : "ScaleDiscrete"
+                  },
+                  "yAxis" : {
+                     "settings" : {
+                        "breaks" : [ 5, 6, 7, 8, 9, 10, 11 ],
+                        "breaksType" : "range",
+                        "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
+                        "labels" : [ "5", "6", "7", "8", "9", "10", "11" ],
+                        "limits" : [ 5, 11 ],
+                        "limitsType" : "breaks",
+                        "range" : [ 5, 11, 1 ],
+                        "title" : "Measurement",
+                        "titleType" : "character"
+                     },
+                     "type" : "ScaleContinuous"
+                  }
+               },
+               "environmentName" : "plot_19",
+               "error" : false,
+               "errorMessage" : "",
+               "escapeHtml" : true,
+               "filePathPng" : "resources/0/_17_t707982725.png",
+               "height" : 300,
+               "messages" : [],
+               "name" : "C",
+               "nestedOptionMustBe" : {},
+               "nestedOptionMustContain" : {},
+               "optionMustBe" : {},
+               "optionMustContain" : {},
+               "position" : 9999,
+               "resizedByUser" : false,
+               "revision" : 0,
+               "status" : "complete",
+               "title" : "Operator C",
+               "type" : "plot",
+               "width" : 600
+            }
+         },
+         "data_order" : {
+            "A" : 0,
+            "B" : 1,
+            "C" : 2
+         },
+         "error" : false,
+         "errorMessage" : "",
+         "escapeHtml" : true,
+         "initCollapsed" : false,
+         "messages" : [],
+         "name" : "NRpartOperatorGraph",
+         "nestedOptionMustBe" : {},
+         "nestedOptionMustContain" : {},
+         "optionMustBe" : {
+            "NRpartOperatorGraph" : true,
+            "NRpartOperatorGraphAll" : false
+         },
+         "optionMustContain" : {},
+         "order_increment" : 3,
+         "position" : 9999,
+         "title" : "Measurements by part x operator",
+         "type" : "container"
+      },
+      "NRrCharts" : {
+         "aspectRatio" : 0.0,
+         "citations" : [],
+         "editOptions" : {
+            "error" : "success",
+            "xAxis" : {
+               "settings" : {
+                  "breaks" : [],
+                  "breaksType" : "manual",
+                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
+                  "labels" : [],
+                  "limits" : [ 0, 1 ],
+                  "limitsType" : "data",
+                  "range" : [ "NA", 0 ],
+                  "title" : null,
+                  "titleType" : "NULL"
+               },
+               "type" : "ScaleContinuous"
+            },
+            "yAxis" : {
+               "settings" : {
+                  "breaks" : [],
+                  "breaksType" : "manual",
+                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
+                  "labels" : [],
+                  "limits" : [ 0, 1 ],
+                  "limitsType" : "data",
+                  "range" : [ "NA", 0 ],
+                  "title" : null,
+                  "titleType" : "NULL"
+               },
+               "type" : "ScaleContinuous"
+            }
+         },
+         "environmentName" : "plot_15",
+         "error" : false,
+         "errorMessage" : "",
+         "escapeHtml" : true,
+         "filePathPng" : "resources/0/_13_t707980603.png",
+         "height" : 300,
+         "messages" : [],
+         "name" : "NRrCharts",
+         "nestedOptionMustBe" : {},
+         "nestedOptionMustContain" : {},
+         "optionMustBe" : {
+            "NRrCharts" : true
+         },
+         "optionMustContain" : {},
+         "position" : 9999,
+         "resizedByUser" : false,
+         "revision" : 0,
+         "status" : "complete",
+         "title" : "Range Chart by Operator",
+         "type" : "plot",
+         "width" : 2500
+      },
+      "NRxbarCharts" : {
+         "aspectRatio" : 0.0,
+         "citations" : [],
+         "editOptions" : {
+            "error" : "success",
+            "xAxis" : {
+               "settings" : {
+                  "breaks" : [],
+                  "breaksType" : "manual",
+                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
+                  "labels" : [],
+                  "limits" : [ 0, 1 ],
+                  "limitsType" : "data",
+                  "range" : [ "NA", 0 ],
+                  "title" : null,
+                  "titleType" : "NULL"
+               },
+               "type" : "ScaleContinuous"
+            },
+            "yAxis" : {
+               "settings" : {
+                  "breaks" : [],
+                  "breaksType" : "manual",
+                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
+                  "labels" : [],
+                  "limits" : [ 0, 1 ],
+                  "limitsType" : "data",
+                  "range" : [ "NA", 0 ],
+                  "title" : null,
+                  "titleType" : "NULL"
+               },
+               "type" : "ScaleContinuous"
+            }
+         },
+         "environmentName" : "plot_16",
+         "error" : false,
+         "errorMessage" : "",
+         "escapeHtml" : true,
+         "filePathPng" : "resources/0/_14_t707981669.png",
+         "height" : 300,
+         "messages" : [],
+         "name" : "NRxbarCharts",
+         "nestedOptionMustBe" : {},
+         "nestedOptionMustContain" : {},
+         "optionMustBe" : {
+            "NRxbarCharts" : true
+         },
+         "optionMustContain" : {},
+         "position" : 9999,
+         "resizedByUser" : false,
+         "revision" : 0,
+         "status" : "complete",
+         "title" : "Xbar Chart by Operator",
+         "type" : "plot",
+         "width" : 2500
+      },
+      "gaugeRRNonRep" : {
+         "citations" : [],
+         "data" : {
+            "Plot" : {
+               "aspectRatio" : 0.0,
+               "citations" : [],
+               "editOptions" : {
+                  "error" : "success",
+                  "xAxis" : {
+                     "settings" : {
+                        "labels" : [ "Gauge r&R", "Repeat", "Reprod", "Part-to-Part" ],
+                        "title" : "",
+                        "titleType" : "character"
+                     },
+                     "type" : "ScaleDiscrete"
+                  },
+                  "yAxis" : {
+                     "settings" : {
+                        "breaks" : [ 0, 200, 400, 600, 800, 1000, 1200 ],
+                        "breaksType" : "range",
+                        "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
+                        "labels" : [ "0", "200", "400", "600", "800", "1000", "1200" ],
+                        "limits" : [ 0, 1200 ],
+                        "limitsType" : "breaks",
+                        "range" : [ 0, 1200, 200 ],
+                        "title" : "Percent",
+                        "titleType" : "character"
+                     },
+                     "type" : "ScaleContinuous"
+                  }
+               },
+               "environmentName" : "plot_14",
+               "error" : false,
+               "errorMessage" : "",
+               "escapeHtml" : true,
+               "filePathPng" : "resources/0/_12_t707979690.png",
+               "height" : 500,
+               "messages" : [],
+               "name" : "Plot",
+               "nestedOptionMustBe" : {},
+               "nestedOptionMustContain" : {},
+               "optionMustBe" : {
+                  "NRgaugeVarCompGraph" : true
+               },
+               "optionMustContain" : {},
+               "position" : 9999,
+               "resizedByUser" : false,
+               "revision" : 0,
+               "status" : "complete",
+               "title" : "Components of Variation",
+               "type" : "plot",
+               "width" : 850
+            },
+            "Table1" : {
+               "citations" : [],
+               "colCombines" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "bool",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "",
+                  "type" : "list"
+               },
+               "colFormats" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {
+                     "F.value" : "sf:4;dp:3",
+                     "MS" : "sf:4;dp:3",
+                     "SS" : "sf:4;dp:3",
+                     "p.value" : "dp:3;p:.001"
+                  },
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colFormats",
+                  "type" : "list"
+               },
+               "colNames" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [ "sources", "DF", "SS", "MS", "F.value", "p.value" ],
+                  "title" : "colNames",
+                  "type" : "list"
+               },
+               "colOvertitles" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colOvertitles",
+                  "type" : "list"
+               },
+               "colRowCombinations" : [],
+               "colTitles" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {
+                     "DF" : "df",
+                     "F.value" : "F",
+                     "MS" : "Mean Square",
+                     "SS" : "Sum of Squares",
+                     "p.value" : "p",
+                     "sources" : "Source"
+                  },
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colTitles",
+                  "type" : "list"
+               },
+               "colTypes" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {
+                     "DF" : "integer",
+                     "F.value" : "number",
+                     "MS" : "number",
+                     "SS" : "number",
+                     "p.value" : "pvalue",
+                     "sources" : "string"
+                  },
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colTypes",
+                  "type" : "list"
+               },
+               "data" : [
+                  [
+                     "JaspColumn_1_Encoded",
+                     "JaspColumn_0_Encoded(JaspColumn_1_Encoded)",
+                     "Repeatability",
+                     "Total"
+                  ],
+                  [ 2.0, 27.0, 60.0, 89.0 ],
+                  [
+                     1.7372399512716223,
+                     253.30798463107627,
+                     56.290792386590546,
+                     311.33601696893845
+                  ],
+                  [ 0.86861997563581117, 9.3817772085583808, 0.93817987310984241, "" ],
+                  [ 0.092585866870023945, 9.9999770592605319, "", "" ],
+                  [ 0.91185907463856775, 1.1128747856415748e-13, "", "" ]
+               ],
+               "error" : false,
+               "errorMessage" : "",
+               "escapeHtml" : true,
+               "expectedColumnCount" : 0,
+               "expectedRowCount" : 0,
+               "footnotes" : [],
+               "messages" : [],
+               "name" : "Table1",
+               "nestedOptionMustBe" : {},
+               "nestedOptionMustContain" : {},
+               "optionMustBe" : {},
+               "optionMustContain" : {},
+               "position" : 9999,
+               "rowNames" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "rowNames",
+                  "type" : "list"
+               },
+               "rowTitles" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "rowTitles",
+                  "type" : "list"
+               },
+               "showSpecifiedColumnsOnly" : false,
+               "specifiedColumns" : [ "DF", "F.value", "MS", "SS", "p.value", "sources" ],
+               "status" : "complete",
+               "title" : "Gauge r&R (Nested)",
+               "transposeTable" : false,
+               "transposeWithOvertitle" : false,
+               "type" : "table"
+            },
+            "Table2" : {
+               "citations" : [],
+               "colCombines" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "bool",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "",
+                  "type" : "list"
+               },
+               "colFormats" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {
+                     "Var" : "sf:4;dp:3",
+                     "percentVar" : "sf:4;dp:3"
+                  },
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colFormats",
+                  "type" : "list"
+               },
+               "colNames" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [ "sources", "Var", "percentVar" ],
+                  "title" : "colNames",
+                  "type" : "list"
+               },
+               "colOvertitles" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colOvertitles",
+                  "type" : "list"
+               },
+               "colRowCombinations" : [],
+               "colTitles" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {
+                     "Var" : "Variation",
+                     "percentVar" : "% Contribution",
+                     "sources" : "Source"
+                  },
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colTitles",
+                  "type" : "list"
+               },
+               "colTypes" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {
+                     "Var" : "number",
+                     "percentVar" : "number",
+                     "sources" : "string"
+                  },
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colTypes",
+                  "type" : "list"
+               },
+               "data" : [
+                  [
+                     "Total Gauge r &amp; R",
+                     "Repeatability",
+                     "Reproducibility",
+                     "Part-To-Part",
+                     "Total Variation"
+                  ],
+                  [
+                     0.93817987310984241,
+                     0.93817987310984241,
+                     0.0,
+                     2.8145324451495131,
+                     3.7527123182593556
+                  ],
+                  [
+                     25.000047793298592,
+                     25.000047793298592,
+                     0.0,
+                     74.999952206701408,
+                     100.0
+                  ]
+               ],
+               "error" : false,
+               "errorMessage" : "",
+               "escapeHtml" : true,
+               "expectedColumnCount" : 0,
+               "expectedRowCount" : 0,
+               "footnotes" : [],
+               "messages" : [],
+               "name" : "Table2",
+               "nestedOptionMustBe" : {},
+               "nestedOptionMustContain" : {},
+               "optionMustBe" : {},
+               "optionMustContain" : {},
+               "position" : 9999,
+               "rowNames" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "rowNames",
+                  "type" : "list"
+               },
+               "rowTitles" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "rowTitles",
+                  "type" : "list"
+               },
+               "showSpecifiedColumnsOnly" : false,
+               "specifiedColumns" : [ "Var", "percentVar", "sources" ],
+               "status" : "complete",
+               "title" : "Variance Components",
+               "transposeTable" : false,
+               "transposeWithOvertitle" : false,
+               "type" : "table"
+            },
+            "Table3" : {
+               "citations" : [],
+               "colCombines" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "bool",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "",
+                  "type" : "list"
+               },
+               "colFormats" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {
+                     "SD" : "sf:4;dp:3",
+                     "percentStudyVar" : "sf:4;dp:3",
+                     "percentTolerance" : "sf:4;dp:3",
+                     "studyVar" : "sf:4;dp:3"
+                  },
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colFormats",
+                  "type" : "list"
+               },
+               "colNames" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [ "source", "SD", "studyVar", "percentStudyVar", "percentTolerance" ],
+                  "title" : "colNames",
+                  "type" : "list"
+               },
+               "colOvertitles" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colOvertitles",
+                  "type" : "list"
+               },
+               "colRowCombinations" : [],
+               "colTitles" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {
+                     "SD" : "Std. Deviation",
+                     "percentStudyVar" : "% Study Variation",
+                     "percentTolerance" : "% Tolerance",
+                     "source" : "Source",
+                     "studyVar" : "Study Variation"
+                  },
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colTitles",
+                  "type" : "list"
+               },
+               "colTypes" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {
+                     "SD" : "number",
+                     "percentStudyVar" : "number",
+                     "percentTolerance" : "number",
+                     "source" : "string",
+                     "studyVar" : "number"
+                  },
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "colTypes",
+                  "type" : "list"
+               },
+               "data" : [
+                  [
+                     "Total Gauge r &amp; R",
+                     "Repeatability",
+                     "Reproducibility",
+                     "Part-To-Part",
+                     "Total Variation"
+                  ],
+                  [
+                     0.96859685788765726,
+                     0.96859685788765726,
+                     0.0,
+                     1.6776568317595566,
+                     1.9371918640804155
+                  ],
+                  [
+                     5.8115811473259438,
+                     5.8115811473259438,
+                     0.0,
+                     10.06594099055734,
+                     11.623151184482493
+                  ],
+                  [
+                     50.000047793275762,
+                     50.000047793275762,
+                     0.0,
+                     86.602512784965683,
+                     100.0
+                  ],
+                  [
+                     581.15811473259441,
+                     581.15811473259441,
+                     0.0,
+                     1006.5940990557341,
+                     1162.3151184482492
+                  ]
+               ],
+               "error" : false,
+               "errorMessage" : "",
+               "escapeHtml" : true,
+               "expectedColumnCount" : 0,
+               "expectedRowCount" : 0,
+               "footnotes" : [
+                  {
+                     "cols" : null,
+                     "rows" : null,
+                     "symbol" : "<em>Note.</em>",
+                     "text" : "Number of distinct categories = 2"
+                  },
+                  {
+                     "cols" : null,
+                     "rows" : null,
+                     "symbol" : "<em>Note.</em>",
+                     "text" : "Study Variation is calculated as Std. Deviation * 6"
+                  }
+               ],
+               "messages" : [],
+               "name" : "Table3",
+               "nestedOptionMustBe" : {},
+               "nestedOptionMustContain" : {},
+               "optionMustBe" : {},
+               "optionMustContain" : {},
+               "position" : 9999,
+               "rowNames" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "rowNames",
+                  "type" : "list"
+               },
+               "rowTitles" : {
+                  "citations" : [],
+                  "error" : false,
+                  "errorMessage" : "",
+                  "escapeHtml" : true,
+                  "fields" : {},
+                  "listType" : "string",
+                  "messages" : [],
+                  "name" : "",
+                  "nestedOptionMustBe" : {},
+                  "nestedOptionMustContain" : {},
+                  "optionMustBe" : {},
+                  "optionMustContain" : {},
+                  "position" : 9999,
+                  "rows" : [],
+                  "title" : "rowTitles",
+                  "type" : "list"
+               },
+               "showSpecifiedColumnsOnly" : false,
+               "specifiedColumns" : [ "SD", "percentStudyVar", "percentTolerance", "source", "studyVar" ],
+               "status" : "complete",
+               "title" : "Gauge Evaluation",
+               "transposeTable" : false,
+               "transposeWithOvertitle" : false,
+               "type" : "table"
+            }
+         },
+         "data_order" : {
+            "Plot" : 3,
+            "Table1" : 0,
+            "Table2" : 1,
+            "Table3" : 2
+         },
+         "error" : false,
+         "errorMessage" : "",
+         "escapeHtml" : true,
+         "initCollapsed" : false,
+         "messages" : [],
+         "name" : "gaugeRRNonRep",
+         "nestedOptionMustBe" : {},
+         "nestedOptionMustContain" : {},
+         "optionMustBe" : {
+            "NRgaugeVarCompGraph" : true,
+            "NRhistoricalStandardDeviationValue" : 3.0,
+            "NRstandardDeviationReference" : "studyStandardDeviation",
+            "NRstudyVarMultiplier" : 6.0,
+            "NRstudyVarMultiplierType" : "svmSD",
+            "NRtolerance" : 1.0
+         },
+         "optionMustContain" : {},
+         "order_increment" : 4,
+         "position" : 1,
+         "title" : "Gauge r&R Tables",
+         "type" : "container"
+      }
+   },
+   "data_order" : {
+      "NRoperatorGraph" : 4,
+      "NRpartOperatorGraph" : 3,
+      "NRrCharts" : 1,
+      "NRxbarCharts" : 2,
+      "gaugeRRNonRep" : 0
+   },
+   "error" : false,
+   "errorMessage" : "",
+   "escapeHtml" : true,
+   "initCollapsed" : false,
+   "messages" : [],
+   "name" : "",
+   "nestedOptionMustBe" : {},
+   "nestedOptionMustContain" : {},
+   "optionMustBe" : {},
+   "optionMustContain" : {},
+   "options" : {
+      ".meta" : {
+         "measurements" : {
+            "shouldEncode" : true
+         },
+         "measurementsWide" : {
+            "shouldEncode" : true
+         },
+         "operators" : {
+            "shouldEncode" : true
+         },
+         "parts" : {
+            "shouldEncode" : true
+         }
+      },
+      "NRgaugeRR" : true,
+      "NRgaugeVarCompGraph" : true,
+      "NRhistoricalStandardDeviationValue" : 3.0,
+      "NRoperatorGraph" : true,
+      "NRpartOperatorGraph" : true,
+      "NRpartOperatorGraphAll" : false,
+      "NRrCharts" : true,
+      "NRstandardDeviationReference" : "studyStandardDeviation",
+      "NRstudyVarMultiplier" : 6.0,
+      "NRstudyVarMultiplierType" : "svmSD",
+      "NRtolerance" : 1.0,
+      "NRxbarCharts" : true,
+      "anovaGaugeNestedDate" : "",
+      "anovaGaugeNestedMisc" : "",
+      "anovaGaugeNestedName" : "",
+      "anovaGaugeNestedReport" : false,
+      "anovaGaugeNestedReportedBy" : "",
+      "anovaGaugeNestedTitle" : "",
+      "gaugeNRToleranceEnabled" : true,
+      "gaugeRRNonRepDataFormat" : "gaugeRRNonRepLongFormat",
+      "measurements" : "JaspColumn_2_Encoded",
+      "measurementsWide" : [],
+      "operators" : "JaspColumn_1_Encoded",
+      "parts" : "JaspColumn_0_Encoded",
+      "plotHeight" : 320,
+      "plotWidth" : 480,
+      "reportAverageChartByOperator" : true,
+      "reportMeasurementsByOperatorPlot" : true,
+      "reportMetaData" : true,
+      "reportRChartByOperator" : true,
+      "reportVariationComponents" : true
+   },
+   "order_increment" : 5,
+   "position" : 9999,
+   "relativePathKeep" : "resources/0/state",
+   "title" : "Gauge r&R (non-replicable measurements)",
+   "type" : "results"
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		<title>JASP</title>		<style>			p {margin-top:1em; margin-bottom:1em;}			body {font-family: sans-serif;}		</style>	</head>
+	<body style='display: block; padding: 0px; margin: 0px; '>
+<div style="display:inline-block"><div style='padding: 0px; text-align: start; margin-bottom: 0px; margin-top: 0px; margin-left: 0px; margin-right: 0px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px 20.4px; display: block; float: none; '><h1 style='padding: 0px; text-align: start; margin: 14.07px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 21px; font: 700 21px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Distributions: Normal distribution</h1></div><div style='margin: 7.2px 20.4px; padding: 0px; max-width: 840px; min-width: 480px; display: block; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); border-top-style: solid; border-top-width: 0.996094px; border-top-color: rgb(205, 205, 205); border-bottom-style: solid; border-bottom-width: 0.996094px; border-bottom-color: rgb(205, 205, 205); '><p><strong>Description:</strong></p><p>This fictional data set, "Distributions", provides variables generated from eight continous and four discrete probability distributions. </p><p>Variable names indicate the probability distribution it was simulated from, the number of samples (10, 100, or 1000), and the parameter values in parentheses.</p><p>The purpose of this JASP file is do demonstrate the use of the Discover Distributions module. Specifically, we will focus on one particular distribution: the Normal (Gaussian) distribution. First, we will investigate its theoretical defininition. Then, we try to fit the Normal distribution to data. Then, we assess whether the Normal distribution fits the data.</p><p><strong>References</strong></p><p>Blitzstein, J. K., &amp; Hwang, J. (2014).&nbsp;<em>Introduction to probability.</em>&nbsp;Chapman and Hall/CRC.</p><p>Leemis, L. M., &amp; Pasupathy, R. (2019). The ties that bind.&nbsp;<em>Significance</em>.</p><p><br></p><p>For relationships with other distributions, visit www.math.wm.edu/~leemis/chart/UDR/UDR.html.</p><p>https://en.wikipedia.org/wiki/List_of_probability_distributions</p></div><div style='padding: 0px 12px 12px; text-align: start; margin-bottom: 8.4px; margin-top: 0px; margin-left: 8.4px; margin-right: 8.4px; display: block; float: none; position: relative; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h2 style='padding: 0px; text-align: start; margin: 14.94px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 18px; font: 700 18px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Normal</h2></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 1.2px; margin-left: 0px; margin-right: 7.2px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div>
+	<span style='padding: 0px; text-align: start; margin: 0px; display: block; float: none; vertical-align: baseline; font-size: 12px; font: 12px Arial; font-weight: 400; color: rgb(0, 0, 0); ' >
+		<p></p>
+
+		<p>
+			<b>
+			Parameters
+			</b>
+
+			<br></br>
+
+		      mean: μ ∈ ℝ 
+
+			<br></br>
+
+		 variance: σ
+
+			<sup>
+			2
+			</sup>
+
+		 ∈ ℝ
+
+			<sup>
+			+
+			</sup>
+
+			<br></br>
+
+			<br></br>
+
+		      
+
+			<b>
+			Support
+			</b>
+
+			<br></br>
+
+		      x ∈ ℝ
+
+			<br></br>
+
+			<br></br>
+
+		      
+
+			<b>
+			Moments
+			</b>
+
+			<br></br>
+
+		      E(X) = μ
+
+			<br></br>
+
+		      Var(X) = σ
+
+			<sup>
+			2
+			</sup>
+
+		 
+		</p>
+
+		<p></p>
+	</span>
+</div>
+</div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h3 style='padding: 0px; text-align: start; margin: 7.5px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 15px; font: 700 15px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Probability Density Function</h3></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 1.2px; margin-left: 0px; margin-right: 7.2px; display: inline-block; float: none; position: relative; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h4 style='padding: 0px; text-align: start; margin: 6.9px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 13.8px; font: 700 13.8px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Density Plot</h4></div><img src="resources/1/_0_t1681915996197.png" style="width:600px; height:320px;" /></div></div></div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h3 style='padding: 0px; text-align: start; margin: 7.5px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 15px; font: 700 15px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Cumulative Distribution Function</h3></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 1.2px; margin-left: 0px; margin-right: 7.2px; display: inline-block; float: none; position: relative; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h4 style='padding: 0px; text-align: start; margin: 6.9px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 13.8px; font: 700 13.8px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Cumulative Probability Plot</h4></div><img src="resources/1/_1_t1681915996416.png" style="width:600px; height:320px;" /></div></div></div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h3 style='padding: 0px; text-align: start; margin: 7.5px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 15px; font: 700 15px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Quantile Function</h3></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 1.2px; margin-left: 0px; margin-right: 7.2px; display: inline-block; float: none; position: relative; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h4 style='padding: 0px; text-align: start; margin: 6.9px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 13.8px; font: 700 13.8px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Quantile Plot</h4></div><img src="resources/1/_2_t1681915996687.png" style="width:600px; height:320px;" /></div></div></div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h3 style='padding: 0px; text-align: start; margin: 7.5px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 15px; font: 700 15px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Overview - Normal100(mu=0,sigma=1)</h3></div><div style='padding: 0px 7.2px 0px 0px; text-align: start; margin-bottom: 7.2px; margin-top: 1.2px; margin-left: 0px; margin-right: 7.2px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div><table style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(128, 128, 128); border-style: none; padding: 0px; text-align: start; margin-bottom: 24px; margin-top: 0px; display: table; float: none; color: rgb(0, 0, 0); ' ><thead><tr><th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 6px 10px 6px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="20" ><div><div><span style='padding: 0px; text-align: left; margin: 0px; display: inline-block; float: none; vertical-align: middle; font-size: 12px; font: 12px Arial; font-weight: 400; color: rgb(0, 0, 0); ' >Descriptives</span>
+<div></div>
+<div></div>
+</div>
+</div>
+</th>
+</tr>
+<tr><th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Variable</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >n</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Mean</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Variance</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Std. deviation</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Minimum</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >25% Quantile</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Median</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >75% Quantile</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Maximum</th>
+</tr>
+</thead>
+<tbody><tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >Normal100(mu=0,sigma=1)</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >100</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.130</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.836</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.915</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >-2.215</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >-0.494</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.114</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.704</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >2.402</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+</tr>
+<tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 1.9987px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 1px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="20" ></td>
+</tr>
+</tbody>
+<tfoot></tfoot>
+</table>
+</div>
+</div></div><div style='padding: 0px 7.2px 0px 0px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div><table style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(128, 128, 128); border-style: none; padding: 0px; text-align: start; margin-bottom: 24px; margin-top: 0px; display: table; float: none; color: rgb(0, 0, 0); ' ><thead><tr><th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 6px 10px 6px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="6" ><div><div><span style='padding: 0px; text-align: left; margin: 0px; display: inline-block; float: none; vertical-align: middle; font-size: 12px; font: 12px Arial; font-weight: 400; color: rgb(0, 0, 0); ' >Observed Moments</span>
+<div></div>
+<div></div>
+</div>
+</div>
+</th>
+</tr>
+<tr><th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Moment</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Raw</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Central</th>
+</tr>
+</thead>
+<tbody><tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >1</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.130</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.130</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+</tr>
+<tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >2</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.845</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.828</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+</tr>
+<tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 1.9987px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 1px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="6" ></td>
+</tr>
+</tbody>
+<tfoot></tfoot>
+</table>
+</div>
+</div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: inline-block; float: none; position: relative; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h4 style='padding: 0px; text-align: start; margin: 6.9px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 13.8px; font: 700 13.8px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Histogram</h4></div><img src="resources/1/_3_t1681915996845.png" style="width:500px; height:320px;" /></div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: inline-block; float: none; position: relative; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h4 style='padding: 0px; text-align: start; margin: 6.9px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 13.8px; font: 700 13.8px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Empirical Cumulative Distribution</h4></div><img src="resources/1/_4_t1681915996978.png" style="width:500px; height:320px;" /></div></div></div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h3 style='padding: 0px; text-align: start; margin: 7.5px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 15px; font: 700 15px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Maximum likelihood</h3></div><div style='padding: 0px 7.2px 0px 0px; text-align: start; margin-bottom: 7.2px; margin-top: 1.2px; margin-left: 0px; margin-right: 7.2px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div><table style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(128, 128, 128); border-style: none; padding: 0px; text-align: start; margin-bottom: 24px; margin-top: 0px; display: table; float: none; color: rgb(0, 0, 0); ' ><thead><tr><th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 6px 10px 6px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="10" ><div><div><span style='padding: 0px; text-align: left; margin: 0px; display: inline-block; float: none; vertical-align: middle; font-size: 12px; font: 12px Arial; font-weight: 400; color: rgb(0, 0, 0); ' >Estimated Parameters</span>
+<div></div>
+<div></div>
+</div>
+</div>
+</th>
+</tr>
+<tr><th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 3px 1px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="6" ></th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 1px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="4" >95% CI</th>
+</tr>
+<tr><th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Parameter</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Estimate</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >SE</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Lower</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Upper</th>
+</tr>
+</thead>
+<tbody><tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >μ</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.130</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.091</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >-0.048</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.309</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+</tr>
+<tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >σ²</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.828</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.117</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.599</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >1.058</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+</tr>
+<tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 1.9987px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 1px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="10" ></td>
+</tr>
+</tbody>
+<tfoot><tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="10" ><em>Note.</em>
+ Standard errors and confidence intervals were calculated using the delta method.</td>
+</tr>
+</tfoot>
+</table>
+</div>
+</div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h4 style='padding: 0px; text-align: start; margin: 6.9px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 13.8px; font: 700 13.8px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Fit Assessment</h4></div><div style='padding: 0px 7.2px 0px 0px; text-align: start; margin-bottom: 7.2px; margin-top: 1.2px; margin-left: 0px; margin-right: 7.2px; display: block; float: none; position: static; '>
+<div style="display:inline-block; ">
+<div><table style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(128, 128, 128); border-style: none; padding: 0px; text-align: start; margin-bottom: 24px; margin-top: 0px; display: table; float: none; color: rgb(0, 0, 0); ' ><thead><tr><th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 6px 10px 6px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="6" ><div><div><span style='padding: 0px; text-align: left; margin: 0px; display: inline-block; float: none; vertical-align: middle; font-size: 12px; font: 12px Arial; font-weight: 400; color: rgb(0, 0, 0); ' >Fit Statistics</span>
+<div></div>
+<div></div>
+</div>
+</div>
+</th>
+</tr>
+<tr><th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Test</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >Statistic</th>
+<th style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0.996094px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 3px 12px; text-align: center; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="2" >p</th>
+</tr>
+</thead>
+<tbody><tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >Kolmogorov-Smirnov</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.043</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.993</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 10.8px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+</tr>
+<tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >Cramér-von Mises</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.022</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.995</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+</tr>
+<tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >Anderson-Darling</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.134</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.999</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+</tr>
+<tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >Shapiro-Wilk</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.996</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 0px 1px 12px; text-align: right; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' >0.994</td>
+<td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none; padding: 1px 12px 1px 0px; text-align: left; margin: 0px 0px 9.6px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' ></td>
+</tr>
+<tr><td style='border-collapse: collapse; border-top-width: 0px; border-bottom-width: 1.9987px; border-left-width: 0px; border-right-width: 0px; border-color: rgb(0, 0, 0); border-style: none none solid; padding: 1px; text-align: right; margin: 0px; display: table-cell; float: none; font-size: 12px; font-weight: 400; font: 12px Arial; color: rgb(0, 0, 0); ' colspan="6" ></td>
+</tr>
+</tbody>
+<tfoot></tfoot>
+</table>
+</div>
+</div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: inline-block; float: none; position: relative; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h5 style='padding: 0px; text-align: start; margin: 6.3px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 12.6px; font: 700 12.6px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Histogram vs. Theoretical PDF</h5></div><img src="resources/1/_5_t1681915997821.png" style="width:320px; height:320px;" /></div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: inline-block; float: none; position: relative; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h5 style='padding: 0px; text-align: start; margin: 6.3px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 12.6px; font: 700 12.6px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Q-Q plot</h5></div><img src="resources/1/_6_t1681915998000.png" style="width:320px; height:320px;" /></div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: inline-block; float: none; position: relative; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h5 style='padding: 0px; text-align: start; margin: 6.3px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 12.6px; font: 700 12.6px Arial; font-weight: 700; color: rgb(0, 0, 0); '>Empirical vs. Theoretical CDF</h5></div><img src="resources/1/_7_t1681915998115.png" style="width:320px; height:320px;" /></div></div><div style='padding: 0px 7.2px; text-align: start; margin-bottom: 7.2px; margin-top: 7.2px; margin-left: 0px; margin-right: 7.2px; display: inline-block; float: none; position: relative; '>
+<div style="display:inline-block; ">
+<div  style='padding: 0px; margin: 0px; display: block; float: none; '><h5 style='padding: 0px; text-align: start; margin: 6.3px 0px; display: inline-block; float: none; vertical-align: middle; font-size: 12.6px; font: 700 12.6px Arial; font-weight: 700; color: rgb(0, 0, 0); '>P-P plot</h5></div><img src="resources/1/_8_t1681915998278.png" style="width:320px; height:320px;" /></div></div></div></div></div></div></div></div></div></div></div>	</body>
+</html>

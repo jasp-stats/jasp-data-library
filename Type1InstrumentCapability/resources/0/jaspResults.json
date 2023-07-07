@@ -35,11 +35,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_59",
+         "environmentName" : "plot_11",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_55_t708225693.png",
+         "filePathPng" : "resources/0/_3_t-840000829.png",
          "height" : 400,
          "messages" : [],
          "name" : "biasHistogram",
@@ -78,24 +78,24 @@
             },
             "yAxis" : {
                "settings" : {
-                  "breaks" : [ -5.5, -5, -4.5, -4, -3.5, -3 ],
+                  "breaks" : [ -5.5, -5, -4.5, -4, -3.5, -3, -2.5 ],
                   "breaksType" : "manual",
                   "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                  "labels" : [ "-5.5", "-5.0", "-4.5", "-4.0", "-3.5", "-3.0" ],
-                  "limits" : [ -5.5, -3 ],
+                  "labels" : [ "-5.5", "-5.0", "-4.5", "-4.0", "-3.5", "-3.0", "-2.5" ],
+                  "limits" : [ -5.5, -2.5 ],
                   "limitsType" : "breaks",
-                  "range" : [ -5.5, -3, 0.5 ],
+                  "range" : [ -5.5, -2.5, 0.5 ],
                   "title" : "JaspColumn_1_Encoded",
                   "titleType" : "character"
                },
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_58",
+         "environmentName" : "plot_10",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_54_t708225077.png",
+         "filePathPng" : "resources/0/_2_t-840001364.png",
          "height" : 300,
          "messages" : [],
          "name" : "biasRun",
@@ -265,8 +265,8 @@
                   [ 0.05400000000000027 ],
                   [ 0.4200145770065119 ],
                   [ 2.5200874620390712 ],
-                  [ 10.0 ],
-                  [ 0.5400000000000027 ]
+                  [ 15.0 ],
+                  [ 0.36000000000000182 ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -288,7 +288,7 @@
                "optionMustBe" : {
                   "biasReferenceValue" : -4.0,
                   "biasTable" : true,
-                  "biasTolerance" : 10.0
+                  "biasTolerance" : 15.0
                },
                "optionMustContain" : {},
                "position" : 9999,
@@ -466,10 +466,10 @@
                   "type" : "list"
                },
                "data" : [
-                  [ 0.79000000000000004 ],
-                  [ 0.75 ],
-                  [ 25.199999999999999 ],
-                  [ 26.640000000000001 ]
+                  [ 1.1899999999999999 ],
+                  [ 1.1499999999999999 ],
+                  [ 16.800000000000001 ],
+                  [ 17.43 ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -483,7 +483,7 @@
                "nestedOptionMustContain" : {},
                "optionMustBe" : {
                   "biasReferenceValue" : -4.0,
-                  "biasTolerance" : 10.0,
+                  "biasTolerance" : 15.0,
                   "biastable" : null
                },
                "optionMustContain" : {},
@@ -706,7 +706,7 @@
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
             "biasReferenceValue" : -4.0,
-            "biasTolerance" : 10.0,
+            "biasTolerance" : 15.0,
             "biasTtest" : true
          },
          "optionMustContain" : {},
@@ -792,7 +792,7 @@
       "biasRunDots" : true,
       "biasRunTolLims" : true,
       "biasTable" : true,
-      "biasTolerance" : 10.0,
+      "biasTolerance" : 15.0,
       "biasTtest" : true,
       "biasTtestConfidenceIntervalPercent" : 0.94999999999999996,
       "measurements" : "JaspColumn_1_Encoded",

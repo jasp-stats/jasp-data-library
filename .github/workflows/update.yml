@@ -18,8 +18,6 @@ jobs:
       - name: fetch jasp-desktop dataset
         uses: actions/checkout@v4
         with:
-          sparse-checkout: |
-            Resources
           path: jasp-desktop
       - name: checkout main
         uses: actions/checkout@v4

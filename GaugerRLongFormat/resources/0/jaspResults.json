@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "gaugeANOVA" : {
          "citations" : [],
@@ -484,11 +484,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_4",
+               "environmentName" : "plot_0",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_4_t707942641.png",
+               "filePathPng" : "resources/0/_0_t1695291252946.png",
                "height" : 500,
                "messages" : [],
                "name" : "VarCompGraph",
@@ -649,17 +649,17 @@
                      243.49204822913956,
                      1.7372399518077235,
                      9.8159364055256901,
-                     56.290792385530445,
+                     56.290792385530438,
                      311.33601697200345
                   ],
                   [
                      27.054672025459951,
                      0.86861997590386175,
                      0.54532980030698275,
-                     0.9381798730921741
+                     0.93817987309217399
                   ],
-                  [ 28.837404000460676, 0.92585654501513881, 0.58126358915547238 ],
-                  [ 6.6673022029708074e-09, 0.4142577453765115, 0.89932032155570685 ]
+                  [ 28.83740400046068, 0.92585654501513892, 0.58126358915547249 ],
+                  [ 6.6673022029708074e-09, 0.41425774537651172, 0.89932032155570685 ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -977,11 +977,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_12",
+         "environmentName" : "plot_8",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_10_t707947976.png",
+         "filePathPng" : "resources/0/_6_t1695291255639.png",
          "height" : 400,
          "messages" : [],
          "name" : "gaugeByInteraction",
@@ -1028,11 +1028,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_11",
+         "environmentName" : "plot_7",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_9_t707947595.png",
+         "filePathPng" : "resources/0/_5_t1695291255413.png",
          "height" : 600,
          "messages" : [],
          "name" : "gaugeByOperator",
@@ -1079,11 +1079,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_10",
+         "environmentName" : "plot_6",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_8_t707947333.png",
+         "filePathPng" : "resources/0/_4_t1695291255280.png",
          "height" : 300,
          "messages" : [],
          "name" : "gaugeByPart",
@@ -1136,11 +1136,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_5",
+         "environmentName" : "plot_1",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_5_t707943850.png",
+         "filePathPng" : "resources/0/_1_t1695291253532.png",
          "height" : 300,
          "messages" : [],
          "name" : "gaugeRchart",
@@ -1167,11 +1167,11 @@
             "errorType" : "validationError",
             "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
          },
-         "environmentName" : "plot_9",
+         "environmentName" : "plot_5",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_7_t707946093.png",
+         "filePathPng" : "resources/0/_3_t1695291254572.png",
          "height" : 700,
          "messages" : [],
          "name" : "gaugeScatterOperators",
@@ -1225,11 +1225,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_6",
+         "environmentName" : "plot_2",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_6_t707945045.png",
+         "filePathPng" : "resources/0/_2_t1695291254062.png",
          "height" : 300,
          "messages" : [],
          "name" : "gaugeXbarChart",
@@ -1259,11 +1259,11 @@
                   "errorType" : "validationError",
                   "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
                },
-               "environmentName" : "plot_13",
+               "environmentName" : "plot_9",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_11_t707948667.png",
+               "filePathPng" : "resources/0/_7_t1695291255958.png",
                "height" : 320,
                "messages" : [],
                "name" : "plot",

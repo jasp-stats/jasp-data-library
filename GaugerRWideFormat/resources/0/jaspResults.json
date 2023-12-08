@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "gaugeANOVA" : {
          "citations" : [],
@@ -135,12 +135,12 @@
                      "Total Variation"
                   ],
                   [
-                     0.15792972459639082,
-                     0.13454415954415899,
-                     0.02338556505223182,
-                     0.02338556505223182,
+                     0.15792972459638799,
+                     0.13454415954415608,
+                     0.023385565052231917,
+                     0.023385565052231917,
                      10.856106890366149,
-                     11.01403661496254
+                     11.014036614962537
                   ],
                   [
                      1.4299999999999999,
@@ -353,20 +353,20 @@
                      "Total Variation"
                   ],
                   [
-                     0.39740372997292162,
-                     0.36680261659938984,
-                     0.1529233960263498,
-                     0.1529233960263498,
+                     0.39740372997291806,
+                     0.3668026165993859,
+                     0.15292339602635013,
+                     0.15292339602635013,
                      3.2948606784454708,
-                     3.3187402150458447
+                     3.3187402150458443
                   ],
                   [
-                     2.3844223798375297,
-                     2.200815699596339,
-                     0.9175403761580988,
-                     0.9175403761580988,
+                     2.3844223798375084,
+                     2.2008156995963155,
+                     0.9175403761581008,
+                     0.9175403761581008,
                      19.769164070672826,
-                     19.912441290275069
+                     19.912441290275066
                   ],
                   [
                      11.970000000000001,
@@ -492,11 +492,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_28",
+               "environmentName" : "plot_0",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_26_t708015361.png",
+               "filePathPng" : "resources/0/_0_t1695291279402.png",
                "height" : 500,
                "messages" : [],
                "name" : "VarCompGraph",
@@ -656,18 +656,18 @@
                   [
                      880.55555555555554,
                      1.6722222222222272,
-                     2.8277777777777828,
+                     2.8277777777775555,
                      7.6666666666666679,
-                     892.72222222222217
+                     892.72222222222194
                   ],
                   [
                      97.839506172839506,
                      0.83611111111111358,
-                     0.15709876543209905,
+                     0.15709876543208642,
                      0.1277777777777778
                   ],
-                  [ 765.70048309178731, 6.5434782608695841, 1.2294685990338186 ],
-                  [ 2.2217851988919091e-21, 0.0073155788200196985, 0.2683554632325989 ]
+                  [ 765.70048309178731, 6.5434782608695841, 1.2294685990337197 ],
+                  [ 2.2217851988919091e-21, 0.0073155788200196985, 0.26835546323267084 ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -867,12 +867,12 @@
                   [
                      880.55555555555554,
                      1.6722222222222272,
-                     10.494444444444401,
-                     892.72222222222217
+                     10.494444444444174,
+                     892.72222222222194
                   ],
-                  [ 97.839506172839506, 0.83611111111111358, 0.13454415954415899 ],
-                  [ 727.19251808717434, 6.2143991529910441 ],
-                  [ 2.1958506608053152e-71, 0.0031313086678957814 ]
+                  [ 97.839506172839506, 0.83611111111111358, 0.13454415954415608 ],
+                  [ 727.19251808719002, 6.2143991529911791 ],
+                  [ 2.1958506608034448e-71, 0.0031313086678954115 ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -985,11 +985,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_36",
+         "environmentName" : "plot_8",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_32_t708020082.png",
+         "filePathPng" : "resources/0/_6_t1695291282094.png",
          "height" : 400,
          "messages" : [],
          "name" : "gaugeByInteraction",
@@ -1036,11 +1036,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_35",
+         "environmentName" : "plot_7",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_31_t708019737.png",
+         "filePathPng" : "resources/0/_5_t1695291281876.png",
          "height" : 600,
          "messages" : [],
          "name" : "gaugeByOperator",
@@ -1087,11 +1087,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_34",
+         "environmentName" : "plot_6",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_30_t708019448.png",
+         "filePathPng" : "resources/0/_4_t1695291281743.png",
          "height" : 300,
          "messages" : [],
          "name" : "gaugeByPart",
@@ -1144,11 +1144,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_29",
+         "environmentName" : "plot_1",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_27_t708016259.png",
+         "filePathPng" : "resources/0/_1_t1695291279985.png",
          "height" : 300,
          "messages" : [],
          "name" : "gaugeRchart",
@@ -1175,11 +1175,11 @@
             "errorType" : "validationError",
             "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
          },
-         "environmentName" : "plot_33",
+         "environmentName" : "plot_5",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_29_t708018271.png",
+         "filePathPng" : "resources/0/_3_t1695291281045.png",
          "height" : 700,
          "messages" : [],
          "name" : "gaugeScatterOperators",
@@ -1233,11 +1233,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_30",
+         "environmentName" : "plot_2",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_28_t708017341.png",
+         "filePathPng" : "resources/0/_2_t1695291280539.png",
          "height" : 300,
          "messages" : [],
          "name" : "gaugeXbarChart",
@@ -1267,11 +1267,11 @@
                   "errorType" : "validationError",
                   "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
                },
-               "environmentName" : "plot_37",
+               "environmentName" : "plot_9",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_33_t708020758.png",
+               "filePathPng" : "resources/0/_7_t1695291282410.png",
                "height" : 320,
                "messages" : [],
                "name" : "plot",

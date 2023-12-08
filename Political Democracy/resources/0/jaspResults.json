@@ -1,6 +1,6 @@
 {
    "citations" : [
-      "JASP Team (2023). JASP (Version 0.17.2) [Computer software].",
+      "JASP Team (2023). JASP (Version 0.18.1) [Computer software].",
       "Rosseel, Y. (2012). lavaan: An R Package for Structural Equation Modeling. Journal of Statistical Software, 48(2), 1-36. URL http://www.jstatsoft.org/v48/i02/"
    ],
    "data" : {
@@ -357,13 +357,7 @@
                            "cols" : null,
                            "rows" : null,
                            "symbol" : "<em>Note.</em>",
-                           "text" : "T-size CFI is computed for <i>\u03b1 = 0.05</i>"
-                        },
-                        {
-                           "cols" : null,
-                           "rows" : null,
-                           "symbol" : "<em>Note.</em>",
-                           "text" : "The T-size equivalents of the conventional CFI cut-off values (poor < 0.90 < fair < 0.95 < close) are <b>poor < 0.756 < fair < 0.837 < close</b> for model: Model 1"
+                           "text" : "T-size CFI is computed for <i>\u03b1 = 0.05</i>. The T-size equivalents of the\n                                      conventional CFI cut-off values (poor < 0.90 < fair < 0.95 < close) are <b>poor\n                                      < 0.756 < fair < 0.837 < close</b> for model: Model 1."
                         }
                      ],
                      "messages" : [],
@@ -576,13 +570,7 @@
                            "cols" : null,
                            "rows" : null,
                            "symbol" : "<em>Note.</em>",
-                           "text" : "T-size RMSEA is computed for <i>\u03b1 = 0.05</i>"
-                        },
-                        {
-                           "cols" : null,
-                           "rows" : null,
-                           "symbol" : "<em>Note.</em>",
-                           "text" : "The T-size equivalents of the conventional RMSEA cut-off values (close < 0.05 < fair < 0.08 < poor) are <b>close < 0.102 < fair < 0.125 < poor</b> for model: Model 1"
+                           "text" : "T-size RMSEA is computed for <i>\u03b1 = 0.05</i>. The T-size equivalents of the\n                                        conventional RMSEA cut-off values (close < 0.05 < fair < 0.08 < poor) are\n                                        <b>close < 0.102 < fair < 0.125 < poor</b> for model: Model 1."
                         }
                      ],
                      "messages" : [],

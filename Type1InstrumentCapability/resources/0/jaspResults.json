@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "biasHistogram" : {
          "aspectRatio" : 0.0,
@@ -35,11 +35,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_11",
+         "environmentName" : "plot_1",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_3_t-840000829.png",
+         "filePathPng" : "resources/0/_1_t1695291368376.png",
          "height" : 400,
          "messages" : [],
          "name" : "biasHistogram",
@@ -91,11 +91,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_10",
+         "environmentName" : "plot_0",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_2_t-840001364.png",
+         "filePathPng" : "resources/0/_0_t1695291368001.png",
          "height" : 300,
          "messages" : [],
          "name" : "biasRun",
@@ -263,8 +263,8 @@
                   [ -4.0 ],
                   [ -3.9459999999999997 ],
                   [ 0.05400000000000027 ],
-                  [ 0.4200145770065119 ],
-                  [ 2.5200874620390712 ],
+                  [ 0.42001457700651201 ],
+                  [ 2.5200874620390721 ],
                   [ 15.0 ],
                   [ 0.36000000000000182 ]
                ],
@@ -688,10 +688,10 @@
          },
          "data" : [
             [ 49.0 ],
-            [ 0.054000000000000069 ],
-            [ -0.065366822047619733 ],
-            [ 0.17336682204761986 ],
-            [ 0.90910573762018765 ],
+            [ 0.054000000000000076 ],
+            [ -0.065366822047619719 ],
+            [ 0.17336682204761988 ],
+            [ 0.90910573762018776 ],
             [ 0.36774434928833499 ]
          ],
          "error" : false,

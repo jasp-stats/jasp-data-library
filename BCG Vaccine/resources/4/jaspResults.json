@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "modelContainer" : {
          "citations" : [],
@@ -156,9 +156,9 @@
                   [ 0.18602831756929283 ],
                   [ -4.0056354920190111 ],
                   [ 6.1850967282111544e-05 ],
-                  [ -1.1097704355080167 ],
+                  [ -1.1097704339165368 ],
                   [],
-                  [ -0.38055282724426948 ]
+                  [ -0.38055282883574942 ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -446,7 +446,7 @@
                               "breaksType" : "range",
                               "expand" : [ 0.29999999999999999, 0, 0.29999999999999999, 0 ],
                               "labels" : [ "-3", "-2", "-1", "0", "1", "2" ],
-                              "limits" : [ -26.765442966544999, 18.791376825532101 ],
+                              "limits" : [ -26.7654429102272, 18.7913767630032 ],
                               "limitsType" : "data",
                               "range" : [ -3, 2, 1 ],
                               "title" : "Effect Size",
@@ -488,7 +488,7 @@
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/4/_1_t1681916174834.png",
+                     "filePathPng" : "resources/4/_1_t1695290187132.png",
                      "height" : 460,
                      "messages" : [],
                      "name" : "forest",

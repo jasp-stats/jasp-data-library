@@ -1,6 +1,6 @@
 {
    "citations" : [
-      "JASP Team (2023). JASP (Version 0.17.2) [Computer software].",
+      "JASP Team (2023). JASP (Version 0.18.1) [Computer software].",
       "Revelle, W. (2018) psych: Procedures for Personality and Psychological Research, Northwestern University, Evanston, Illinois, USA, https://CRAN.R-project.org/package=psych Version = 1.8.12."
    ],
    "data" : {
@@ -848,7 +848,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/2/_1_t1681915800684.png",
+               "filePathPng" : "resources/2/_1_t1695289818517.png",
                "height" : 419,
                "messages" : [],
                "name" : "path",
@@ -892,7 +892,7 @@
                         "breaksType" : "range",
                         "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
                         "labels" : [ "0", "1", "2", "3" ],
-                        "limits" : [ -0.48836849922894099, 3.2639882252409 ],
+                        "limits" : [ 0.059986466692232399, 3.5511685863254701 ],
                         "limitsType" : "data",
                         "range" : [ 0, 3, 1 ],
                         "title" : "Eigenvalue",
@@ -905,7 +905,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/2/_0_t1681915799599.png",
+               "filePathPng" : "resources/2/_0_t1695289817316.png",
                "height" : 320,
                "messages" : [],
                "name" : "scree",

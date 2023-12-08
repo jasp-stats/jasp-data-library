@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "classProportionsTable" : {
          "citations" : [],
@@ -500,14 +500,14 @@
             "type" : "list"
          },
          "data" : [
-            [ 49 ],
+            [ 29 ],
             [ "rectangular" ],
             [ "Euclidean" ],
             [ 4500 ],
             [ 1126 ],
             [ 1406 ],
-            [ 0.81261101243339251 ],
-            [ 0.79374110953058319 ]
+            [ 0.81527531083481342 ],
+            [ 0.79089615931721191 ]
          ],
          "error" : false,
          "errorMessage" : "",
@@ -785,8 +785,8 @@
          "data" : [
             [ "Observed", "" ],
             [ "No", "Yes" ],
-            [ 895, 166 ],
-            [ 124, 221 ]
+            [ 891, 166 ],
+            [ 128, 221 ]
          ],
          "error" : false,
          "errorMessage" : "",
@@ -967,7 +967,7 @@
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/1/_1_t1681916097442.png",
+         "filePathPng" : "resources/1/_1_t1695290128290.png",
          "height" : 300,
          "messages" : [],
          "name" : "errorVsKPlot",
@@ -1100,7 +1100,7 @@
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/1/_0_t1681916097328.png",
+         "filePathPng" : "resources/1/_0_t1695290128173.png",
          "height" : 30,
          "messages" : [],
          "name" : "plotDataSplit",
@@ -1200,7 +1200,7 @@
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/1/_2_t1681916098104.png",
+         "filePathPng" : "resources/1/_2_t1695290129820.png",
          "height" : 300,
          "messages" : [],
          "name" : "rocCurve",

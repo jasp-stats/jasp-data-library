@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "capabilityAnalysis" : {
          "citations" : [],
@@ -47,11 +47,11 @@
                            "type" : "ScaleContinuous"
                         }
                      },
-                     "environmentName" : "plot_47",
+                     "environmentName" : "plot_3",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/0/_43_t708118101.png",
+                     "filePathPng" : "resources/0/_3_t1695291317411.png",
                      "height" : 400,
                      "messages" : [],
                      "name" : "capabilityPlot",
@@ -834,8 +834,8 @@
                         [ 0.0 ],
                         [ 100 ],
                         [ -7.0800000000000001 ],
-                        [ 1.8563568100073342 ],
-                        [ 1.7626827171109203 ]
+                        [ 1.8563568100073344 ],
+                        [ 1.7626827171109198 ]
                      ],
                      "error" : false,
                      "errorMessage" : "",
@@ -987,11 +987,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_44",
+               "environmentName" : "plot_0",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_40_t708116782.png",
+               "filePathPng" : "resources/0/_0_t1695291316648.png",
                "height" : 550,
                "messages" : [],
                "name" : "plot",
@@ -1080,11 +1080,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_45",
+         "environmentName" : "plot_1",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_41_t708117225.png",
+         "filePathPng" : "resources/0/_1_t1695291316962.png",
          "height" : 400,
          "messages" : [],
          "name" : "histogram",
@@ -1181,11 +1181,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_46",
+               "environmentName" : "plot_2",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_42_t708117700.png",
+               "filePathPng" : "resources/0/_2_t1695291317167.png",
                "height" : 600,
                "messages" : [],
                "name" : "ProbabilityPlot",
@@ -1335,9 +1335,9 @@
                "data" : [
                   [ 100 ],
                   [ -7.0800000000000001 ],
-                  [ 1.8563568100073342 ],
-                  [ 0.43091877025528902 ],
-                  [ 0.30099141764647241 ]
+                  [ 1.8563568100073344 ],
+                  [ 0.4309187702552606 ],
+                  [ 0.3009914176465196 ]
                ],
                "error" : false,
                "errorMessage" : "",

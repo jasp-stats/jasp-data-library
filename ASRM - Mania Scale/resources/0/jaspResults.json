@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "inverseWishartPriorScale" : {
          "citations" : [],
@@ -539,6 +539,7 @@
                "optionMustBe" : {
                   "averageInterItemCorrelation" : false,
                   "coefficientType" : "unstandardized",
+                  "effectiveSampleSize" : false,
                   "inverseGammaPriorScale" : 1,
                   "inverseGammaPriorShape" : 2,
                   "inverseWishartPriorDf" : 5.0,
@@ -711,6 +712,7 @@
                "nestedOptionMustContain" : {},
                "optionMustBe" : {
                   "averageInterItemCorrelation" : false,
+                  "effectiveSampleSize" : false,
                   "meanSdScoresMethod" : "sumScores",
                   "rHat" : true,
                   "scaleAlpha" : true,
@@ -839,6 +841,7 @@
       "burnin" : 50,
       "chains" : 3,
       "coefficientType" : "unstandardized",
+      "effectiveSampleSize" : false,
       "inverseGammaPriorScale" : 1,
       "inverseGammaPriorShape" : 2,
       "inverseWishartPriorDf" : 5.0,

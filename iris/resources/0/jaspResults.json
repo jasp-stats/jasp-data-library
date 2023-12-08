@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "clusterDensities" : {
          "citations" : [],
@@ -41,7 +41,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_0_t1681916018121.png",
+               "filePathPng" : "resources/0/_0_t1695290049418.png",
                "height" : 600,
                "messages" : [],
                "name" : "oneFigure",
@@ -902,7 +902,7 @@
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_1_t1681916018836.png",
+         "filePathPng" : "resources/0/_1_t1695290049977.png",
          "height" : 300,
          "messages" : [],
          "name" : "plot2dCluster",
@@ -1010,6 +1010,7 @@
       "distance" : "euclidean",
       "elbowMethodPlot" : false,
       "manualNumberOfClusters" : 3,
+      "matrixPlot" : false,
       "maxNumberIterations" : 25,
       "maxNumberOfClusters" : 10,
       "modelOptimization" : "manual",

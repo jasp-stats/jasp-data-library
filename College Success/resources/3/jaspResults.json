@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "modelContainer" : {
          "citations" : [],
@@ -436,11 +436,17 @@
                   [
                      null,
                      null,
-                     0.64924537085213396,
-                     0.5389404913227831,
-                     0.64510860315381591
+                     0.64924537085213496,
+                     0.53894049132278377,
+                     0.6451086031538168
                   ],
-                  [ null, null, 1.5402497189737385, 1.855492426530406, 1.5501265912610467 ],
+                  [
+                     null,
+                     null,
+                     1.5402497189737361,
+                     1.8554924265304038,
+                     1.5501265912610447
+                  ],
                   [
                      2.5326001359206232,
                      0.0099803976702746988,
@@ -858,7 +864,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/3/_6_t1681915563767.png",
+               "filePathPng" : "resources/3/_6_t1695288671710.png",
                "height" : 400,
                "messages" : [],
                "name" : "residualsQQPlot",
@@ -917,7 +923,7 @@
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/3/_3_t1681915563262.png",
+                     "filePathPng" : "resources/3/_3_t1695288671207.png",
                      "height" : 400,
                      "messages" : [],
                      "name" : "hse",
@@ -971,7 +977,7 @@
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/3/_1_t1681915562915.png",
+                     "filePathPng" : "resources/3/_1_t1695288670147.png",
                      "height" : 400,
                      "messages" : [],
                      "name" : "hsm",
@@ -1025,7 +1031,7 @@
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/3/_2_t1681915563095.png",
+                     "filePathPng" : "resources/3/_2_t1695288671036.png",
                      "height" : 400,
                      "messages" : [],
                      "name" : "hss",
@@ -1101,7 +1107,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/3/_5_t1681915563605.png",
+               "filePathPng" : "resources/3/_5_t1695288671541.png",
                "height" : 400,
                "messages" : [],
                "name" : "residualsVsHistPlot",
@@ -1158,7 +1164,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/3/_4_t1681915563440.png",
+               "filePathPng" : "resources/3/_4_t1695288671376.png",
                "height" : 400,
                "messages" : [],
                "name" : "residualsVsPredPlot",

@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "NRoperatorGraph" : {
          "aspectRatio" : 0.0,
@@ -29,11 +29,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_20",
+         "environmentName" : "plot_6",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_18_t707982943.png",
+         "filePathPng" : "resources/0/_6_t1695291264281.png",
          "height" : 600,
          "messages" : [],
          "name" : "NRoperatorGraph",
@@ -63,7 +63,18 @@
                   "error" : "success",
                   "xAxis" : {
                      "settings" : {
-                        "labels" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+                        "labels" : [
+                           "1.000000",
+                           "2.000000",
+                           "3.000000",
+                           "4.000000",
+                           "5.000000",
+                           "6.000000",
+                           "7.000000",
+                           "8.000000",
+                           "9.000000",
+                           "10.000000"
+                        ],
                         "title" : "JaspColumn_0_Encoded",
                         "titleType" : "character"
                      },
@@ -84,11 +95,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_17",
+               "environmentName" : "plot_3",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_15_t707982238.png",
+               "filePathPng" : "resources/0/_3_t1695291263934.png",
                "height" : 300,
                "messages" : [],
                "name" : "A",
@@ -111,7 +122,18 @@
                   "error" : "success",
                   "xAxis" : {
                      "settings" : {
-                        "labels" : [ "11", "12", "13", "14", "15", "16", "17", "18", "19", "20" ],
+                        "labels" : [
+                           "11.000000",
+                           "12.000000",
+                           "13.000000",
+                           "14.000000",
+                           "15.000000",
+                           "16.000000",
+                           "17.000000",
+                           "18.000000",
+                           "19.000000",
+                           "20.000000"
+                        ],
                         "title" : "JaspColumn_0_Encoded",
                         "titleType" : "character"
                      },
@@ -132,11 +154,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_18",
+               "environmentName" : "plot_4",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_16_t707982465.png",
+               "filePathPng" : "resources/0/_4_t1695291264047.png",
                "height" : 300,
                "messages" : [],
                "name" : "B",
@@ -159,7 +181,18 @@
                   "error" : "success",
                   "xAxis" : {
                      "settings" : {
-                        "labels" : [ "21", "22", "23", "24", "25", "26", "27", "28", "29", "30" ],
+                        "labels" : [
+                           "21.000000",
+                           "22.000000",
+                           "23.000000",
+                           "24.000000",
+                           "25.000000",
+                           "26.000000",
+                           "27.000000",
+                           "28.000000",
+                           "29.000000",
+                           "30.000000"
+                        ],
                         "title" : "JaspColumn_0_Encoded",
                         "titleType" : "character"
                      },
@@ -180,11 +213,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_19",
+               "environmentName" : "plot_5",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_17_t707982725.png",
+               "filePathPng" : "resources/0/_5_t1695291264153.png",
                "height" : 300,
                "messages" : [],
                "name" : "C",
@@ -258,11 +291,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_15",
+         "environmentName" : "plot_1",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_13_t707980603.png",
+         "filePathPng" : "resources/0/_1_t1695291263021.png",
          "height" : 300,
          "messages" : [],
          "name" : "NRrCharts",
@@ -314,11 +347,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_16",
+         "environmentName" : "plot_2",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_14_t707981669.png",
+         "filePathPng" : "resources/0/_2_t1695291263561.png",
          "height" : 300,
          "messages" : [],
          "name" : "NRxbarCharts",
@@ -367,11 +400,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_14",
+               "environmentName" : "plot_0",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_12_t707979690.png",
+               "filePathPng" : "resources/0/_0_t1695291262441.png",
                "height" : 500,
                "messages" : [],
                "name" : "Plot",

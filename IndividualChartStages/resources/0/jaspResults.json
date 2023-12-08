@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "CorPlot" : {
          "citations" : [],
@@ -62,11 +62,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_39",
+               "environmentName" : "plot_1",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_35_t708039815.png",
+               "filePathPng" : "resources/0/_1_t1695291289954.png",
                "height" : 500,
                "messages" : [],
                "name" : "Yield",
@@ -120,11 +120,11 @@
                         "errorType" : "validationError",
                         "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
                      },
-                     "environmentName" : "plot_38",
+                     "environmentName" : "plot_0",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/0/_34_t708038413.png",
+                     "filePathPng" : "resources/0/_0_t1695291289195.png",
                      "height" : 650,
                      "messages" : [],
                      "name" : "Plot",
@@ -194,7 +194,7 @@
                         "optionMustBe" : {},
                         "optionMustContain" : {},
                         "position" : 9999,
-                        "rows" : [ "test1", "test2", "test3", "test4", "test5", "test6" ],
+                        "rows" : [],
                         "title" : "colNames",
                         "type" : "list"
                      },
@@ -253,20 +253,13 @@
                         "title" : "colTypes",
                         "type" : "list"
                      },
-                     "data" : [ [], [], [], [], [], [] ],
+                     "data" : [],
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
                      "expectedColumnCount" : 0,
                      "expectedRowCount" : 0,
-                     "footnotes" : [
-                        {
-                           "cols" : null,
-                           "rows" : null,
-                           "symbol" : "<em>Note.</em>",
-                           "text" : "Numbers are data points where test violations occur."
-                        }
-                     ],
+                     "footnotes" : [],
                      "messages" : [],
                      "name" : "Table1",
                      "nestedOptionMustBe" : {},
@@ -310,10 +303,10 @@
                         "title" : "rowTitles",
                         "type" : "list"
                      },
-                     "showSpecifiedColumnsOnly" : true,
+                     "showSpecifiedColumnsOnly" : false,
                      "specifiedColumns" : [],
                      "status" : "complete",
-                     "title" : "Test results for JaspColumn_0_Encoded for Individuals chart",
+                     "title" : "Test results for individuals chart",
                      "transposeTable" : false,
                      "transposeWithOvertitle" : false,
                      "type" : "table"
@@ -370,7 +363,7 @@
                         "optionMustBe" : {},
                         "optionMustContain" : {},
                         "position" : 9999,
-                        "rows" : [ "test1", "test2", "test3" ],
+                        "rows" : [],
                         "title" : "colNames",
                         "type" : "list"
                      },
@@ -429,20 +422,13 @@
                         "title" : "colTypes",
                         "type" : "list"
                      },
-                     "data" : [ [], [], [] ],
+                     "data" : [],
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
                      "expectedColumnCount" : 0,
                      "expectedRowCount" : 0,
-                     "footnotes" : [
-                        {
-                           "cols" : null,
-                           "rows" : null,
-                           "symbol" : "<em>Note.</em>",
-                           "text" : "Numbers are data points where test violations occur."
-                        }
-                     ],
+                     "footnotes" : [],
                      "messages" : [],
                      "name" : "Table2",
                      "nestedOptionMustBe" : {},
@@ -486,10 +472,10 @@
                         "title" : "rowTitles",
                         "type" : "list"
                      },
-                     "showSpecifiedColumnsOnly" : true,
+                     "showSpecifiedColumnsOnly" : false,
                      "specifiedColumns" : [],
                      "status" : "complete",
-                     "title" : "Test results for JaspColumn_0_Encoded for Range chart",
+                     "title" : "Test results for range chart",
                      "transposeTable" : false,
                      "transposeWithOvertitle" : false,
                      "type" : "table"
@@ -529,13 +515,13 @@
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
             "ImRchart" : true,
-            "ccChartName" : "",
+            "ccChartName" : null,
             "ccDate" : "",
             "ccMisc" : "",
             "ccName" : "",
             "ccReport" : null,
             "ccReportedBy" : "",
-            "ccSubTitle" : "",
+            "ccSubTitle" : null,
             "ccTitle" : "",
             "manualTicks" : false,
             "movingRangeLength" : 2.0,
@@ -577,16 +563,13 @@
             "shouldEncode" : true
          }
       },
-      "CCReport" : false,
       "CI" : 0.94999999999999996,
       "CorPlot" : true,
       "ImRchart" : true,
-      "ccChartName" : "",
       "ccDate" : "",
       "ccMisc" : "",
       "ccName" : "",
       "ccReportedBy" : "",
-      "ccSubTitle" : "",
       "ccTitle" : "",
       "manualTicks" : false,
       "movingRangeLength" : 2.0,
@@ -594,8 +577,12 @@
       "nTicks" : 5.0,
       "plotHeight" : 320,
       "plotWidth" : 480,
+      "reportAutocorrelationChart" : false,
+      "reportIMRChart" : true,
+      "reportMetaData" : true,
       "split" : "JaspColumn_2_Encoded",
       "subgroups" : "JaspColumn_1_Encoded",
+      "variableChartIndividualsReport" : false,
       "variables" : "JaspColumn_0_Encoded"
    },
    "order_increment" : 2,

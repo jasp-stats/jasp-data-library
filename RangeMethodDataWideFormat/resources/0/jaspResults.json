@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "ScatterOperatorParts" : {
          "aspectRatio" : 0.0,
@@ -29,11 +29,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_52",
+         "environmentName" : "plot_0",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_48_t708156732.png",
+         "filePathPng" : "resources/0/_0_t1695291339869.png",
          "height" : 320,
          "messages" : [],
          "name" : "ScatterOperatorParts",
@@ -85,11 +85,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_54",
+         "environmentName" : "plot_2",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_50_t708157398.png",
+         "filePathPng" : "resources/0/_2_t1695291340339.png",
          "height" : 320,
          "messages" : [],
          "name" : "ScatterOperators",
@@ -258,12 +258,12 @@
          },
          "data" : [
             [ 5 ],
-            [ 0.70000000000000007 ],
+            [ 0.69999999999999996 ],
             [ 1.1910499999999999 ],
             [ 2.0 ],
             [ 0.0 ],
-            [ 0.58771672054069946 ],
-            [ 29.385836027034973 ],
+            [ 0.58771672054069934 ],
+            [ 29.385836027034966 ],
             [ "\u221e" ]
          ],
          "error" : false,
@@ -372,11 +372,11 @@
                "type" : "ScaleContinuous"
             }
          },
-         "environmentName" : "plot_53",
+         "environmentName" : "plot_1",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_49_t708157006.png",
+         "filePathPng" : "resources/0/_1_t1695291340063.png",
          "height" : 400,
          "messages" : [],
          "name" : "rangeRchart",
@@ -404,11 +404,11 @@
                   "errorType" : "validationError",
                   "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
                },
-               "environmentName" : "plot_55",
+               "environmentName" : "plot_3",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_51_t708157903.png",
+               "filePathPng" : "resources/0/_3_t1695291341320.png",
                "height" : 320,
                "messages" : [],
                "name" : "plot",

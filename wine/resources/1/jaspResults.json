@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
    "data" : {
       "clusterInfoTable" : {
          "citations" : [],
@@ -805,7 +805,7 @@
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/1/_0_t1681916105982.png",
+         "filePathPng" : "resources/1/_0_t1695290138433.png",
          "height" : 300,
          "messages" : [],
          "name" : "optimPlot",
@@ -894,7 +894,7 @@
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/1/_1_t1681916106440.png",
+         "filePathPng" : "resources/1/_1_t1695290138999.png",
          "height" : 300,
          "messages" : [],
          "name" : "plot2dCluster",
@@ -1018,6 +1018,7 @@
       "elbowMethodPlot" : true,
       "featureImportanceTable" : true,
       "manualNumberOfClusters" : 3,
+      "matrixPlot" : false,
       "maxNumberOfClusters" : 10,
       "modelOptimization" : "optimized",
       "modelOptimizationMethod" : "bic",

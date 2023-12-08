@@ -29,6 +29,7 @@ jobs:
         run: |
           python datalib/.scripts/dataGatherScript.py jasp-desktop datalib
       - name: GIT add,commit and push all changed files to main
+        continue-on-error: true
         env: 
           CI_COMMIT_MESSAGE: Automated push
           CI_COMMIT_AUTHOR: Actions

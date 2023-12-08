@@ -31,17 +31,17 @@ jobs:
       - uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.3.2'        
-      - name: Run script
-        run: |
+    #   - name: Run script
+    #     run: |
           
-      - name: GIT push to gh-pages
-        env: 
-          CI_COMMIT_MESSAGE: Automated push
-          CI_COMMIT_AUTHOR: Actions
-        run: |
-          cd datalib
-          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
-          git config --global user.email "username@users.noreply.github.com"
-          git add -A
-          git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
-          git push
+    #   - name: GIT push to gh-pages
+    #     env: 
+    #       CI_COMMIT_MESSAGE: Automated push
+    #       CI_COMMIT_AUTHOR: Actions
+    #     run: |
+    #       cd datalib
+    #       git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+    #       git config --global user.email "username@users.noreply.github.com"
+    #       git add -A
+    #       git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+    #       git push

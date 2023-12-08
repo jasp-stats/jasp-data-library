@@ -1,0 +1,28 @@
+name: Update data library
+
+on:
+  push:
+      branches: ["main"]
+  workflow_dispatch:
+  schedule:
+      # every day at 5&19 UTC
+      - cron:  '0 5,19 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: fetch jasp-desktop dataset
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            Resources
+          path: jasp-desktop
+      - name: checkout main
+        uses: actions/checkout@v4
+        with:
+          path: datalib
+      - uses: tree

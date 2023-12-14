@@ -1,7 +1,7 @@
 ## Make links, then generate MD's
 # Part 1: generate links:
 allFiles <- list.files(path = "~/datalib/")
-
+print(allFiles)
 myFileLinks <- list()
 for (thisFile in allFiles) {
   

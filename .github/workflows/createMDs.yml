@@ -36,7 +36,7 @@ jobs:
       - name: Run script
         run: |
           cd gh-pages
-          dscdsvdfs
+          echo test
           Rscript GenerateMDs.R
           cd -          
       - name: GIT push to gh-pages

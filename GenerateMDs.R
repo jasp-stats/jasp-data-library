@@ -1,12 +1,12 @@
 ## Make links, then generate MD's
 # Part 1: generate links:
-allFiles <- list.files(path = "~/datalib/")
+allFiles <- list.files(path = "../datalib/")
 print(allFiles)
 myFileLinks <- list()
 for (thisFile in allFiles) {
   
   
-  subFiles <- list.files(path = paste0("~/datalib/", thisFile))
+  subFiles <- list.files(path = paste0("../datalib/", thisFile))
   
   if (paste0(thisFile, ".jasp") %in% subFiles) {
     
@@ -48,7 +48,7 @@ for (thisFile in allFiles) {
   }
 }
 
-analysisNames <- list.files("~/jasp-desktop/Resources/Data Sets/Data Library/")
+analysisNames <- list.files("../jasp-desktop/Resources/Data Sets/Data Library/")
 # Extract numbers from the beginning of each string
 numbers <- as.numeric(gsub("^([0-9]+).*", "\\1", analysisNames))
 # Sort the vector based on the extracted numbers
@@ -56,7 +56,7 @@ analysisNames <- analysisNames[order(numbers)]
 analysisList <- list()
 for (thisAnalysis in analysisNames) {
   
-  subFiles <- list.files(path = paste0("~/jasp-desktop/Resources/Data Sets/Data Library/", thisAnalysis))
+  subFiles <- list.files(path = paste0("../jasp-desktop/Resources/Data Sets/Data Library/", thisAnalysis))
   
   thisAnalysisData <- subFiles[grepl(x = subFiles, pattern = ".jasp")]
   thisAnalysisData <- gsub(x = thisAnalysisData, pattern = ".jasp", replacement = "")

@@ -1,14 +1,11 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: UpdateSite
 
 on:
   workflow_run:
-    workflows: [Update data library]
-    types: [completed]
-    branches: [main]
-
-
-  # Allows you to run this workflow manually from the Actions tab
+    workflows: [CreateMDs]
+    types:
+      - completed  
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -33,6 +30,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: gh-pages
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact

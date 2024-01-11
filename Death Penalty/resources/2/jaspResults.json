@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
+   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
    "data" : {
       "Container" : {
          "citations" : [],
@@ -131,16 +131,14 @@
                   "type" : "list"
                },
                "data" : [
-                  [ 1, 2, 3, 4, 5 ],
+                  [ 1, 2, 3 ],
                   [
                      "JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded",
                      "JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded",
-                     "JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded",
-                     "JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded",
-                     "JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded"
+                     "JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded"
                   ],
-                  [ 0.57950000000000002, 0.318, 0.085500000000000007, 0.016, 0.001 ],
-                  [ 1.0, 1.8223270440251571, 6.7777777777777777, 36.21875, 579.5 ]
+                  [ 0.52200000000000002, 0.40500000000000003, 0.072999999999999995 ],
+                  [ 1.0, 1.288888888888889, 7.1506849315068504 ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -152,7 +150,7 @@
                      "cols" : null,
                      "rows" : null,
                      "symbol" : "<em>Note.</em>",
-                     "text" : "Total number of models visited = 5"
+                     "text" : "Total number of models visited = 3"
                   }
                ],
                "messages" : [],

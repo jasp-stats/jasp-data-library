@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
+   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
    "data" : {
       "AAAtableGraphs" : {
          "citations" : [],
@@ -615,7 +615,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_0_t1695291240387.png",
+               "filePathPng" : "resources/0/_0_t1704964659781.png",
                "height" : 500,
                "messages" : [],
                "name" : "PlotVs",
@@ -663,7 +663,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_1_t1695291240576.png",
+               "filePathPng" : "resources/0/_1_t1704964659941.png",
                "height" : 500,
                "messages" : [],
                "name" : "PlotWithin",
@@ -1104,13 +1104,13 @@
          "nestedOptionMustBe" : {},
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
-            "measurements" : [
+            "measurementsWideFormat" : [
                "JaspColumn_3_Encoded",
                "JaspColumn_4_Encoded",
                "JaspColumn_5_Encoded"
             ],
-            "operators" : "JaspColumn_2_Encoded",
-            "parts" : "JaspColumn_0_Encoded",
+            "operator" : "JaspColumn_2_Encoded",
+            "part" : "JaspColumn_0_Encoded",
             "standard" : "JaspColumn_1_Encoded"
          },
          "optionMustContain" : {},
@@ -1258,7 +1258,7 @@
          "nestedOptionMustBe" : {},
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
-            "AAAcohensKappa" : true
+            "cohensKappa" : true
          },
          "optionMustContain" : {},
          "position" : 9999,
@@ -1444,7 +1444,7 @@
          "nestedOptionMustBe" : {},
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
-            "AAAcohensKappa" : true
+            "cohensKappa" : true
          },
          "optionMustContain" : {},
          "position" : 9999,
@@ -1639,7 +1639,7 @@
          "nestedOptionMustBe" : {},
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
-            "AAAfleissKappa" : true
+            "fleissKappa" : true
          },
          "optionMustContain" : {},
          "position" : 9999,
@@ -1706,37 +1706,37 @@
    "optionMustContain" : {},
    "options" : {
       ".meta" : {
-         "measurements" : {
+         "measurementLongFormat" : {
             "shouldEncode" : true
          },
-         "measurementsLong" : {
+         "measurementsWideFormat" : {
             "shouldEncode" : true
          },
-         "operators" : {
+         "operator" : {
             "shouldEncode" : true
          },
-         "parts" : {
+         "part" : {
             "shouldEncode" : true
          },
          "standard" : {
             "shouldEncode" : true
          }
       },
-      "AAAcohensKappa" : true,
-      "AAAdataFormat" : "AAAwideFormat",
-      "AAAfleissKappa" : true,
-      "AAAkendallTau" : false,
-      "PositiveRef" : "Yes",
-      "measurements" : [
+      "cohensKappa" : true,
+      "dataFormat" : "wideFormat",
+      "fleissKappa" : true,
+      "kendallsTau" : false,
+      "measurementLongFormat" : "",
+      "measurementsWideFormat" : [
          "JaspColumn_3_Encoded",
          "JaspColumn_4_Encoded",
          "JaspColumn_5_Encoded"
       ],
-      "measurementsLong" : "",
-      "operators" : "JaspColumn_2_Encoded",
-      "parts" : "JaspColumn_0_Encoded",
+      "operator" : "JaspColumn_2_Encoded",
+      "part" : "JaspColumn_0_Encoded",
       "plotHeight" : 320,
       "plotWidth" : 480,
+      "positiveReference" : "Yes",
       "standard" : "JaspColumn_1_Encoded"
    },
    "order_increment" : 4,

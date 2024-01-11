@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
+   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
    "data" : {
       "anovaContainer" : {
          "citations" : [],
@@ -35,9 +35,9 @@
                   "effectSizeEtaSquared" : true,
                   "effectSizeOmegaSquared" : false,
                   "effectSizePartialEtaSquared" : true,
-                  "homogeneityCorrectionBrown" : null,
-                  "homogeneityCorrectionNone" : null,
-                  "homogeneityCorrectionWelch" : null,
+                  "homogeneityCorrectionBrown" : false,
+                  "homogeneityCorrectionNone" : true,
+                  "homogeneityCorrectionWelch" : false,
                   "sumOfSquares" : "type3"
                },
                "optionMustContain" : {},
@@ -196,17 +196,17 @@
                },
                "data" : [
                   [ "JaspColumn_0_Encoded", "JaspColumn_2_Encoded", "Residuals" ],
-                  [ 25.185194208382114, 15.075747709916925, 79.047115537946354 ],
+                  [ 25.1851942083821, 15.075747709916925, 79.047115537946368 ],
                   [ 2.0, 1.0, 26.0 ],
-                  [ 12.592597104191057, 15.075747709916925, 3.0402736745363983 ],
-                  [ 4.1419288038637712, 4.9586811332752072, "" ],
-                  [ 0.027446542863995789, 0.034833380647440737, "" ],
-                  [ 0.22696179821311613, 0.13585834523806184, "" ],
-                  [ 0.24162559833582936, 0.16017094242252736, "" ],
+                  [ 12.59259710419105, 15.075747709916925, 3.0402736745363987 ],
+                  [ 4.1419288038637685, 4.9586811332752063, "" ],
+                  [ 0.027446542863995869, 0.034833380647440765, "" ],
+                  [ 0.22696179821311602, 0.13585834523806184, "" ],
+                  [ 0.24162559833582922, 0.16017094242252733, "" ],
                   [ 110.96666666666664, 110.96666666666664, 110.96666666666664 ],
                   [ true, true, true ],
                   [ "None", "", "" ],
-                  [ 0.16757441961105543, 0.10556790664989725, "" ]
+                  [ 0.16757441961105526, 0.10556790664989724, "" ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -230,9 +230,9 @@
                   "effectSizeEtaSquared" : true,
                   "effectSizeOmegaSquared" : false,
                   "effectSizePartialEtaSquared" : true,
-                  "homogeneityCorrectionBrown" : null,
-                  "homogeneityCorrectionNone" : null,
-                  "homogeneityCorrectionWelch" : null,
+                  "homogeneityCorrectionBrown" : false,
+                  "homogeneityCorrectionNone" : true,
+                  "homogeneityCorrectionWelch" : false,
                   "vovkSellke" : false
                },
                "optionMustContain" : {},
@@ -424,11 +424,11 @@
                         "type" : "list"
                      },
                      "data" : [
-                        [ 4.6179380584683312 ],
+                        [ 4.6179380584683241 ],
                         [ 2.0 ],
                         [ 27.0 ],
-                        [ 0.018838116229125852 ],
-                        [ 4.9166884771764146 ]
+                        [ 0.018838116229125974 ],
+                        [ 4.9166884771763897 ]
                      ],
                      "error" : false,
                      "errorMessage" : "",
@@ -525,7 +525,7 @@
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/7/_1_t1695288285291.png",
+                     "filePathPng" : "resources/7/_1_t1704904999936.png",
                      "height" : 300,
                      "messages" : [],
                      "name" : "qqPlot",
@@ -712,14 +712,14 @@
                            },
                            "data" : [
                               [ "Low Dose - Placebo", "High Dose - Placebo" ],
-                              [ 1.7856801148142254, 2.2248813218355576 ],
-                              [ 0.84935530699675232, 0.80281090547039868 ],
+                              [ 1.7856801148142241, 2.2248813218355554 ],
+                              [ 0.84935530699675177, 0.80281090547039835 ],
                               [ 26.0, 26.0 ],
-                              [ 2.1023947223315029, 2.7713640991609494 ],
-                              [ 0.045353558085710309, 0.010175013850847847 ],
+                              [ 2.1023947223315025, 2.7713640991609481 ],
+                              [ 0.045353558085710337, 0.010175013850847873 ],
                               [ "Low Dose - Placebo", "High Dose - Placebo" ],
-                              [ 0.039805277414846296, 0.57467987197761272 ],
-                              [ 3.5315549522136047, 3.8750827716935028 ],
+                              [ 0.039805277414846074, 0.57467987197761117 ],
+                              [ 3.531554952213602, 3.8750827716934997 ],
                               [ true, false ]
                            ],
                            "error" : false,
@@ -865,7 +865,7 @@
                            "error" : false,
                            "errorMessage" : "",
                            "escapeHtml" : true,
-                           "filePathPng" : "resources/7/_2_t1695288285496.png",
+                           "filePathPng" : "resources/7/_2_t1704905000108.png",
                            "height" : 300,
                            "messages" : [],
                            "name" : "",
@@ -1302,11 +1302,11 @@
                      },
                      "data" : [
                         [ "Placebo", "Low Dose", "High Dose" ],
-                        [ 2.9263700632541307, 4.7120501780683561, 5.1512513850896884 ],
-                        [ 1.4051550375506119, 3.1280871542850539, 3.8687856009693968 ],
-                        [ 4.4475850889576494, 6.2960132018516584, 6.4337171692099799 ],
-                        [ 0.59620445705692016, 0.62079705934814755, 0.50263230614745247 ],
-                        [ 4.9083330871086526, 7.5903229680503426, 10.248548137648985 ],
+                        [ 2.9263700632541321, 4.7120501780683561, 5.1512513850896875 ],
+                        [ 1.4051550375506134, 3.1280871542850539, 3.8687856009693959 ],
+                        [ 4.4475850889576503, 6.2960132018516584, 6.433717169209979 ],
+                        [ 0.59620445705692005, 0.62079705934814755, 0.50263230614745247 ],
+                        [ 4.9083330871086552, 7.5903229680503426, 10.248548137648983 ],
                         [ 26.0, 26.0, 26.0 ],
                         [
                            0.00012840134614655607,
@@ -1593,6 +1593,9 @@
          "rainCloudSeparatePlots" : {
             "shouldEncode" : true
          },
+         "randomFactors" : {
+            "shouldEncode" : true
+         },
          "restrictedMarginalMeanTerms" : {
             "shouldEncode" : true
          },
@@ -1633,6 +1636,9 @@
       "effectSizePartialEtaSquared" : true,
       "factorCovariateIndependenceCheck" : false,
       "fixedFactors" : [ "JaspColumn_0_Encoded" ],
+      "homogeneityCorrectionBrown" : false,
+      "homogeneityCorrectionNone" : true,
+      "homogeneityCorrectionWelch" : false,
       "homogeneityTests" : true,
       "kruskalWallisFactors" : [],
       "marginalMeanBootstrap" : false,

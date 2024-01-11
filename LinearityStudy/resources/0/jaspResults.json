@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
+   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
    "data" : {
       "LB" : {
          "citations" : [],
@@ -42,7 +42,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_0_t1695291296340.png",
+               "filePathPng" : "resources/0/_0_t1704964711375.png",
                "height" : 500,
                "messages" : [],
                "name" : "plot1",
@@ -90,7 +90,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_1_t1695291297247.png",
+               "filePathPng" : "resources/0/_1_t1704964712225.png",
                "height" : 500,
                "messages" : [],
                "name" : "plot2",
@@ -480,10 +480,10 @@
                },
                "data" : [
                   [ "Intercept", "Slope" ],
-                  [ 0.73666666666666758, -0.13166666666666668 ],
-                  [ 10.1575188601321, -12.042559411499155 ],
-                  [ 0.072524272591612704, 0.010933445471810693 ],
-                  [ 1.7337995954622947e-14, 2.0377155822858581e-17 ]
+                  [ 0.73666666666666802, -0.13166666666666677 ],
+                  [ 10.157518860132104, -12.042559411499161 ],
+                  [ 0.072524272591612718, 0.010933445471810695 ],
+                  [ 1.7337995954622698e-14, 2.0377155822858153e-17 ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -678,8 +678,8 @@
                "data" : [
                   [ 0.23953978864653708 ],
                   [ 0.71431841593224177 ],
-                  [ 13.166666666666668 ],
-                  [ 0.79000000000000004 ]
+                  [ 13.166666666666677 ],
+                  [ 0.79000000000000059 ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -784,24 +784,24 @@
    "optionMustContain" : {},
    "options" : {
       ".meta" : {
-         "measurements" : {
+         "measurement" : {
             "shouldEncode" : true
          },
-         "parts" : {
+         "part" : {
             "shouldEncode" : true
          },
          "standard" : {
             "shouldEncode" : true
          }
       },
-      "EnablePV" : true,
-      "LBgraph" : true,
-      "LBpercentGraph" : true,
-      "LBtableBias" : true,
-      "LBtableLinearity" : true,
-      "linearityProcessVariation" : 6.0,
-      "measurements" : "JaspColumn_2_Encoded",
-      "parts" : "JaspColumn_0_Encoded",
+      "biasTable" : true,
+      "linearityAndBiasPlot" : true,
+      "linearityTable" : true,
+      "manualProcessVariation" : true,
+      "manualProcessVariationValue" : 6.0,
+      "measurement" : "JaspColumn_2_Encoded",
+      "part" : "JaspColumn_0_Encoded",
+      "percentProcessVariationPlot" : true,
       "plotHeight" : 320,
       "plotWidth" : 480,
       "standard" : "JaspColumn_1_Encoded"

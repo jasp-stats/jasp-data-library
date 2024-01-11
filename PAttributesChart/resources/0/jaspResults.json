@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
+   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
    "data" : {
       "NelsonTable" : {
          "citations" : [],
@@ -123,7 +123,7 @@
                "cols" : null,
                "rows" : null,
                "symbol" : "<em>Note.</em>",
-               "text" : "Numbers are data points where test violations occur."
+               "text" : "Points where a test failed."
             }
          ],
          "messages" : [],
@@ -131,9 +131,9 @@
          "nestedOptionMustBe" : {},
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
-            "Attributes" : "Defectives",
-            "D" : "JaspColumn_2_Encoded",
-            "TypeDefectives" : "pchart",
+            "attributesChart" : "defectives",
+            "attributesChartDefectivesChartType" : "pChart",
+            "defectiveOrDefect" : "JaspColumn_2_Encoded",
             "timeStamp" : "JaspColumn_0_Encoded",
             "total" : "JaspColumn_1_Encoded"
          },
@@ -270,16 +270,16 @@
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_0_t1695291310303.png",
+         "filePathPng" : "resources/0/_0_t1704964724375.png",
          "height" : 500,
          "messages" : [],
          "name" : "PchartPlot",
          "nestedOptionMustBe" : {},
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
-            "Attributes" : "Defectives",
-            "D" : "JaspColumn_2_Encoded",
-            "TypeDefectives" : "pchart",
+            "attributesChart" : "defectives",
+            "attributesChartDefectivesChartType" : "pChart",
+            "defectiveOrDefect" : "JaspColumn_2_Encoded",
             "timeStamp" : "JaspColumn_0_Encoded",
             "total" : "JaspColumn_1_Encoded"
          },
@@ -309,7 +309,7 @@
    "optionMustContain" : {},
    "options" : {
       ".meta" : {
-         "D" : {
+         "defectiveOrDefect" : {
             "shouldEncode" : true
          },
          "timeStamp" : {
@@ -319,23 +319,23 @@
             "shouldEncode" : true
          }
       },
-      "AAppraiser" : "",
-      "AFrequency" : "",
-      "AID" : "",
-      "AMeasurement" : "",
-      "AMisc" : "",
-      "AName" : "",
-      "AOperator" : "",
-      "AReport" : false,
-      "ASize" : "",
-      "ATime" : "",
-      "ATitle" : "",
-      "Attributes" : "Defectives",
-      "D" : "JaspColumn_2_Encoded",
-      "TypeDefectives" : "pchart",
-      "TypeDefects" : "cchart",
+      "attributesChart" : "defectives",
+      "attributesChartDefectivesChartType" : "pChart",
+      "attributesChartDefectsChartType" : "cChart",
+      "defectiveOrDefect" : "JaspColumn_2_Encoded",
       "plotHeight" : 320,
       "plotWidth" : 480,
+      "report" : false,
+      "reportAppraiser" : "",
+      "reportFrequency" : "",
+      "reportId" : "",
+      "reportMeasurementName" : "",
+      "reportMeasusrementSystemName" : "",
+      "reportMiscellaneous" : "",
+      "reportReportedBy" : "",
+      "reportSubgroupSize" : "",
+      "reportTime" : "",
+      "reportTitle" : "",
       "timeStamp" : "JaspColumn_0_Encoded",
       "total" : "JaspColumn_1_Encoded"
    },

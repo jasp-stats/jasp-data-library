@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
+   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
    "data" : {
       "anovaContainer" : {
          "citations" : [],
@@ -187,11 +187,11 @@
                },
                "data" : [
                   [ "JaspColumn_0_Encoded", "Residuals" ],
-                  [ 16.843803418803418, 94.122863247863265 ],
+                  [ 16.843803418803404, 94.122863247863265 ],
                   [ 2.0, 27.0 ],
-                  [ 8.421901709401709, 3.4860319721430839 ],
-                  [ 2.4158991589007814, "" ],
-                  [ 0.10833903432967497, "" ],
+                  [ 8.4219017094017019, 3.4860319721430839 ],
+                  [ 2.4158991589007797, "" ],
+                  [ 0.1083390343296752, "" ],
                   [ 110.96666666666664, 110.96666666666664 ],
                   [ true, true ],
                   [ "None", "" ]
@@ -479,6 +479,9 @@
             "shouldEncode" : true
          },
          "rainCloudSeparatePlots" : {
+            "shouldEncode" : true
+         },
+         "randomFactors" : {
             "shouldEncode" : true
          },
          "restrictedMarginalMeanTerms" : {

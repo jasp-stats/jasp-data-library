@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.1) [Computer software]." ],
+   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
    "data" : {
       "biasHistogram" : {
          "aspectRatio" : 0.0,
@@ -39,14 +39,14 @@
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_1_t1695291368376.png",
+         "filePathPng" : "resources/0/_1_t1704964779835.png",
          "height" : 400,
          "messages" : [],
          "name" : "biasHistogram",
          "nestedOptionMustBe" : {},
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
-            "biasHistogram" : true
+            "histogram" : true
          },
          "optionMustContain" : {},
          "position" : 4,
@@ -95,14 +95,14 @@
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/0/_0_t1695291368001.png",
+         "filePathPng" : "resources/0/_0_t1704964779488.png",
          "height" : 300,
          "messages" : [],
          "name" : "biasRun",
          "nestedOptionMustBe" : {},
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
-            "biasRun" : true
+            "runChart" : true
          },
          "optionMustContain" : {},
          "position" : 1,
@@ -286,9 +286,9 @@
                "nestedOptionMustBe" : {},
                "nestedOptionMustContain" : {},
                "optionMustBe" : {
-                  "biasReferenceValue" : -4.0,
                   "biasTable" : true,
-                  "biasTolerance" : 15.0
+                  "referenceValue" : -4.0,
+                  "toleranceRange" : 15.0
                },
                "optionMustContain" : {},
                "position" : 9999,
@@ -482,9 +482,9 @@
                "nestedOptionMustBe" : {},
                "nestedOptionMustContain" : {},
                "optionMustBe" : {
-                  "biasReferenceValue" : -4.0,
-                  "biasTolerance" : 15.0,
-                  "biastable" : null
+                  "biastable" : null,
+                  "referenceValue" : -4.0,
+                  "toleranceRange" : 15.0
                },
                "optionMustContain" : {},
                "position" : 9999,
@@ -705,9 +705,9 @@
          "nestedOptionMustBe" : {},
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
-            "biasReferenceValue" : -4.0,
-            "biasTolerance" : 15.0,
-            "biasTtest" : true
+            "referenceValue" : -4.0,
+            "tTest" : true,
+            "toleranceRange" : 15.0
          },
          "optionMustContain" : {},
          "position" : 3,
@@ -774,30 +774,30 @@
    "optionMustContain" : {},
    "options" : {
       ".meta" : {
-         "measurements" : {
+         "measurement" : {
             "shouldEncode" : true
          }
       },
-      "BiasStudyVarMultiplier" : "6",
-      "biasBinWidthType" : "sturges",
-      "biasHistMean" : true,
-      "biasHistMeanConfidenceInterval" : true,
-      "biasHistMeanConfidenceIntervalPercent" : 0.94999999999999996,
-      "biasHistRef" : true,
-      "biasHistogram" : true,
-      "biasNumberOfBins" : 30.0,
-      "biasPercentCG" : 20.0,
-      "biasReferenceValue" : -4.0,
-      "biasRun" : true,
-      "biasRunDots" : true,
-      "biasRunTolLims" : true,
       "biasTable" : true,
-      "biasTolerance" : 15.0,
-      "biasTtest" : true,
-      "biasTtestConfidenceIntervalPercent" : 0.94999999999999996,
-      "measurements" : "JaspColumn_1_Encoded",
+      "histogram" : true,
+      "histogramBinWidthType" : "sturges",
+      "histogramManualNumberOfBins" : 30.0,
+      "histogramMeanCi" : true,
+      "histogramMeanCiLevel" : 0.94999999999999996,
+      "histogramMeanLine" : true,
+      "histogramReferenceValueLine" : true,
+      "measurement" : "JaspColumn_1_Encoded",
+      "percentToleranceForCg" : 20.0,
       "plotHeight" : 320,
-      "plotWidth" : 480
+      "plotWidth" : 480,
+      "referenceValue" : -4.0,
+      "runChart" : true,
+      "runChartIndividualMeasurementDots" : true,
+      "runChartToleranceLimitLines" : true,
+      "studyVarianceMultiplier" : "6",
+      "tTest" : true,
+      "tTestCiLevel" : 0.94999999999999996,
+      "toleranceRange" : 15.0
    },
    "order_increment" : 4,
    "position" : 9999,

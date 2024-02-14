@@ -1,0 +1,14 @@
+---
+title: "`r params$chapter_title`"
+output:
+  bookdown::gitbook:
+    config:
+      toc:
+        before: |
+          <li><a href="./">Introduction</a></li>
+      download: ["pdf"]
+---
+
+# `r params$chapter_title`
+
+`r params$chapter_content`

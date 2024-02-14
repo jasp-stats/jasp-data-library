@@ -24,6 +24,7 @@ def gather_datasets(path_str, out_path):
         extract_target_path = out_path / file.stem
         extract_target_path.mkdir(parents=True, exist_ok=True)
         copy(file.absolute(), extract_target_path.absolute())
+        print(file.absolute())
         with ZipFile(file.absolute(), 'r') as zip:
             members = ['index.html'] + [i for i in zip.namelist() if i.startswith('resources') and i.find('state') == -1] 
             zip.extractall(path=extract_target_path.absolute(), members=members)

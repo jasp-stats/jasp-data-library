@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
    "data" : {
       "formula" : {
          "citations" : [],
@@ -89,7 +89,7 @@
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/1/_0_t1704905533940.png",
+         "filePathPng" : "resources/1/_0_t1702645734904.png",
          "height" : 30,
          "messages" : [],
          "name" : "plotDataSplit",
@@ -186,7 +186,7 @@
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
-         "filePathPng" : "resources/1/_1_t1704905534058.png",
+         "filePathPng" : "resources/1/_1_t1702645735026.png",
          "height" : 300,
          "messages" : [],
          "name" : "predictedPerformancePlot",
@@ -548,14 +548,14 @@
             "type" : "list"
          },
          "data" : [
-            [ 23 ],
+            [ 15 ],
             [ 0.10000000000000001 ],
             [ "Gaussian" ],
             [ 252 ],
             [ 64 ],
             [ 79 ],
-            [ 16.878571381564637 ],
-            [ 17.113733846248795 ]
+            [ 13.601861022993134 ],
+            [ 19.486178685146822 ]
          ],
          "error" : false,
          "errorMessage" : "",

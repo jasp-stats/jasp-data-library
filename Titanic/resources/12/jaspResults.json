@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
    "data" : {
       "estimatesPlot" : {
          "citations" : [],
@@ -42,7 +42,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/12/_0_t1704905138664.png",
+               "filePathPng" : "resources/12/_0_t1702645338158.png",
                "height" : 320,
                "messages" : [],
                "name" : "Age",
@@ -94,7 +94,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/12/_1_t1704905138833.png",
+               "filePathPng" : "resources/12/_1_t1702645338367.png",
                "height" : 320,
                "messages" : [],
                "name" : "PClass",
@@ -1223,7 +1223,7 @@
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/12/_2_t1704905138980.png",
+               "filePathPng" : "resources/12/_2_t1702645338518.png",
                "height" : 320,
                "messages" : [],
                "name" : "squaredPearson",
@@ -1306,9 +1306,6 @@
             "shouldEncode" : true
          },
          "modelTerms" : {
-            "shouldEncode" : true
-         },
-         "weights" : {
             "shouldEncode" : true
          }
       },

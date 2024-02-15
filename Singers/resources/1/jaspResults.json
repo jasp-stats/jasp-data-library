@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
    "data" : {
       "collectionPosthoc" : {
          "citations" : [
@@ -300,13 +300,13 @@
                         },
                         "yAxis" : {
                            "settings" : {
-                              "breaks" : [ 64, 66, 68, 70, 72, 74, 76 ],
+                              "breaks" : [ 60, 65, 70, 75, 80 ],
                               "breaksType" : "range",
                               "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "64", "66", "68", "70", "72", "74", "76" ],
-                              "limits" : [ 64, 76 ],
+                              "labels" : [ "60", "65", "70", "75", "80" ],
+                              "limits" : [ 60, 80 ],
                               "limitsType" : "breaks",
-                              "range" : [ 64, 76, 2 ],
+                              "range" : [ 60, 80, 5 ],
                               "title" : "JaspColumn_1_Encoded",
                               "titleType" : "character"
                            },
@@ -317,7 +317,7 @@
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/1/_0_t1704904969526.png",
+                     "filePathPng" : "resources/1/_0_t1702645140461.png",
                      "height" : 300,
                      "messages" : [],
                      "name" : "",
@@ -331,7 +331,7 @@
                      "status" : "complete",
                      "title" : "",
                      "type" : "plot",
-                     "width" : 300
+                     "width" : 430
                   }
                },
                "data_order" : {
@@ -350,7 +350,7 @@
                   "descriptivePlotCi" : true,
                   "descriptivePlotCiLevel" : 0.94999999999999996,
                   "descriptivePlotHorizontalAxis" : "JaspColumn_7_Encoded",
-                  "descriptivePlotSeparateLines" : "",
+                  "descriptivePlotSeparateLines" : "JaspColumn_3_Encoded",
                   "descriptivePlotSeparatePlot" : "",
                   "descriptivePlotYAxisLabel" : null
                },
@@ -531,9 +531,9 @@
             ],
             [ 0.60000000000000009, 0.60000000000000009, 0.20000000000000001 ],
             [ 0.39999999999999991, 0.39999999999999991, 0.80000000000000004 ],
-            [ 1.0, 0.99580599943301207, 0.093165979131512616 ],
-            [ 0.0, 0.0041940005669879321, 0.90683402086848741 ],
-            [ "\u221e", 158.29055234617107, 0.41095052451731479 ]
+            [ 0.99999999999999378, 0.99575898450572953, 0.092668007534397467 ],
+            [ 6.2172489379008766e-15, 0.0042410154942704725, 0.90733199246560248 ],
+            [ 107228562556439.66, 156.52838899095113, 0.40852965972280791 ]
          ],
          "error" : false,
          "errorMessage" : "",
@@ -790,30 +790,30 @@
                0.20000000000000001
             ],
             [
-               1.101629443794803e-40,
-               0.90264002030149948,
-               0.093165979131512616,
-               0.0041940005669927,
-               8.9494344530823955e-39
+               1.1139787573804514e-40,
+               0.90309097697133212,
+               0.092668007534397467,
+               0.0042410154942642215,
+               9.0497579993509223e-39
             ],
             [
-               4.4065177751792285e-40,
-               37.084642913719172,
-               0.4109505245173124,
-               0.016846657157641828,
-               3.5797737812329718e-38
+               4.4559150295218219e-40,
+               37.275826285204971,
+               0.40852965972280958,
+               0.01703631324549635,
+               3.6199031997403825e-38
             ],
             [
                1.0,
-               8.1936809640105378e+39,
-               8.4571068480688089e+38,
+               8.1068958540553586e+39,
+               8.3186512238625259e+38,
                3.8070883005319373e+37,
                81.238155928858944
             ],
             [
                "",
-               1.5268420180223603,
-               1.4092003709899219,
+               1.4401666310984058,
+               1.2250530014567891,
                1.7086085461376179e-43,
                0.0027001407407505175
             ]
@@ -1019,7 +1019,7 @@
       "descriptivePlotCi" : true,
       "descriptivePlotCiLevel" : 0.94999999999999996,
       "descriptivePlotHorizontalAxis" : "JaspColumn_7_Encoded",
-      "descriptivePlotSeparateLines" : "",
+      "descriptivePlotSeparateLines" : "JaspColumn_3_Encoded",
       "descriptivePlotSeparatePlot" : "",
       "descriptives" : false,
       "effects" : true,

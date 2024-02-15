@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
    "data" : {
       "localTestContainer" : {
          "citations" : [],
@@ -23,7 +23,6 @@
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
-                  "processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
                   "processModels$!_SEP_!$1$!_SEP_!$processRelationships" : [
                      {
                         "processDependent" : "DonationAttitude",
@@ -219,9 +218,9 @@
          "data" : [
             [ "Model 1" ],
             [ 8.0 ],
-            [ 1111.7717311326012 ],
-            [ 1141.9384543338858 ],
-            [ -546.88586556630059 ],
+            [ 1111.771731132601 ],
+            [ 1141.9384543338856 ],
+            [ -546.88586556630048 ],
             [ 211 ],
             [ 0 ]
          ],
@@ -251,7 +250,6 @@
                   "conceptualPathPlot" : true,
                   "independentCovariances" : false,
                   "inputType" : "inputVariables",
-                  "intercepts" : false,
                   "localTestBootstrap" : false,
                   "localTestBootstrapSamples" : 1000,
                   "localTestType" : "cis",
@@ -349,7 +347,7 @@
                "data" : {
                   "contrasts" : {
                      "citations" : [],
-                     "environmentName" : "state_7",
+                     "environmentName" : "state_31",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -365,7 +363,7 @@
                   },
                   "fittedModel" : {
                      "citations" : [],
-                     "environmentName" : "state_11",
+                     "environmentName" : "state_35",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -381,7 +379,7 @@
                   },
                   "graph" : {
                      "citations" : [],
-                     "environmentName" : "state_6",
+                     "environmentName" : "state_30",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -397,7 +395,7 @@
                   },
                   "modProbes" : {
                      "citations" : [],
-                     "environmentName" : "state_8",
+                     "environmentName" : "state_32",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -413,7 +411,7 @@
                   },
                   "resCovGraph" : {
                      "citations" : [],
-                     "environmentName" : "state_9",
+                     "environmentName" : "state_33",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -429,7 +427,7 @@
                   },
                   "syntax" : {
                      "citations" : [],
-                     "environmentName" : "state_10",
+                     "environmentName" : "state_34",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -503,7 +501,52 @@
                   "naAction" : "listwise",
                   "standardizedEstimates" : "unstandardized"
                },
-               "optionMustContain" : {},
+               "optionMustContain" : {
+                  "processModels" : {
+                     "conceptualPathPlot" : true,
+                     "independentCovariances" : false,
+                     "inputType" : "inputVariables",
+                     "localTestBootstrap" : false,
+                     "localTestBootstrapSamples" : 1000.0,
+                     "localTestType" : "cis",
+                     "localTests" : false,
+                     "mediationEffects" : true,
+                     "mediatorCovariances" : false,
+                     "modelNumber" : 1.0,
+                     "modelNumberIndependent" : "",
+                     "modelNumberMediators" : [],
+                     "modelNumberModeratorW" : "",
+                     "modelNumberModeratorZ" : "",
+                     "name" : "Model 1",
+                     "pathCoefficients" : true,
+                     "processRelationships" : [
+                        {
+                           "processDependent" : "DonationAttitude",
+                           "processIndependent" : "Framing",
+                           "processType" : "mediators",
+                           "processVariable" : "Justification",
+                           "value" : "#"
+                        },
+                        {
+                           "processDependent" : "Justification",
+                           "processIndependent" : "Framing",
+                           "processType" : "moderators",
+                           "processVariable" : "Skepticism",
+                           "value" : "#2"
+                        },
+                        {
+                           "processDependent" : "DonationAttitude",
+                           "processIndependent" : "Framing",
+                           "processType" : "moderators",
+                           "processVariable" : "Skepticism",
+                           "value" : "#3"
+                        }
+                     ],
+                     "residualCovariances" : false,
+                     "statisticalPathPlot" : true,
+                     "totalEffects" : false
+                  }
+               },
                "order_increment" : 6,
                "position" : 9999,
                "title" : "Model 1",
@@ -730,52 +773,52 @@
                         [ "Climate", "Climate", "Climate", "Climate", "Climate", "Climate" ],
                         [ "16", "50", "84", "16", "50", "84" ],
                         [
-                           0.18419471705673332,
-                           0.20210236049968888,
-                           0.23791764738560003,
-                           0.22197877575662658,
-                           -0.00077729839962706153,
-                           -0.44628944671213477
+                           0.1841947170567341,
+                           0.20210236049968927,
+                           0.23791764738559959,
+                           0.22197877575662189,
+                           -0.00077729839962859784,
+                           -0.44628944671213
                         ],
                         [
-                           0.17931020808393877,
-                           0.13925413131048314,
-                           0.18422940939798141,
-                           0.13778659544794991,
-                           0.10653922730343703,
-                           0.14330107196166761
+                           0.17931020808393822,
+                           0.1392541313104832,
+                           0.18422940939798063,
+                           0.13778659544794936,
+                           0.106539227303437,
+                           0.14330107196166728
                         ],
                         [
-                           1.0272405515837002,
-                           1.4513203924203755,
-                           1.2914205618042158,
-                           1.6110331707882353,
-                           -0.0072958892165907929,
-                           -3.1143482780890515
+                           1.0272405515837078,
+                           1.4513203924203777,
+                           1.2914205618042189,
+                           1.6110331707882077,
+                           -0.0072958892166052145,
+                           -3.1143482780890253
                         ],
                         [
-                           0.30430720758090146,
-                           0.14669066545310661,
-                           0.1965578844706668,
-                           0.10717249279265695,
-                           0.9941787742807735,
-                           0.0018435174150914779
+                           0.30430720758089791,
+                           0.14669066545310594,
+                           0.19655788447066569,
+                           0.10717249279266294,
+                           0.99417877428076196,
+                           0.0018435174150917
                         ],
                         [
-                           -0.16724683284816946,
-                           -0.070830721567269495,
-                           -0.12316535992752839,
-                           -0.048077988873745731,
-                           -0.20959034685508995,
-                           -0.72715438670298571
+                           -0.16724683284816758,
+                           -0.070830721567269217,
+                           -0.12316535992752733,
+                           -0.048077988873749311,
+                           -0.20959034685509145,
+                           -0.72715438670298038
                         ],
                         [
-                           0.53563626696163613,
-                           0.47503544256664726,
-                           0.59900065469872843,
-                           0.49203554038699893,
-                           0.20803575005583583,
-                           -0.16542450672128378
+                           0.5356362669616358,
+                           0.47503544256664776,
+                           0.59900065469872654,
+                           0.4920355403869931,
+                           0.20803575005583427,
+                           -0.16542450672127967
                         ]
                      ],
                      "error" : false,
@@ -1038,58 +1081,58 @@
                            "JaspColumn_3_Encoded"
                         ],
                         [
-                           0.16031785913279256,
-                           -0.92268736120358985,
-                           -0.04257113726734274,
-                           0.014923036202462974,
-                           -0.56247315878982529,
-                           0.10508201962851214,
-                           0.20118413842228744
+                           0.16031785913279389,
+                           -0.92268736120358952,
+                           -0.042571137267342393,
+                           0.014923036202462632,
+                           -0.56247315878981585,
+                           0.10508201962851364,
+                           0.20118413842228466
                         ],
                         [
-                           0.26446723167695102,
-                           0.083025582013284249,
-                           0.046374935546373452,
-                           0.068100583861290184,
-                           0.21584407827884819,
-                           0.037766386070847584,
-                           0.054742494413771707
+                           0.2644672316769493,
+                           0.083025582013284235,
+                           0.046374935546373203,
+                           0.068100583861289518,
+                           0.21584407827884694,
+                           0.037766386070847445,
+                           0.054742494413771318
                         ],
                         [
-                           0.60619176945377562,
-                           -11.113289890048083,
-                           -0.91797728160232084,
-                           0.21913227987675954,
-                           -2.6059235132833631,
-                           2.7824218984412297,
-                           3.6750999488922638
+                           0.60619176945378461,
+                           -11.113289890048081,
+                           -0.91797728160231828,
+                           0.21913227987675665,
+                           -2.6059235132833343,
+                           2.7824218984412794,
+                           3.6750999488922393
                         ],
                         [
-                           0.54438741757613029,
+                           0.5443874175761243,
                            0.0,
-                           0.3586307598366667,
-                           0.82654700608140352,
-                           0.0091626920015706048,
-                           0.0053954849838639962,
+                           0.35863075983666803,
+                           0.82654700608140574,
+                           0.009162692001571493,
+                           0.005395484983863108,
                            0.00023775631906941541
                         ],
                         [
-                           -0.35802839004504189,
-                           -1.0854145117451035,
-                           -0.13346434072360103,
-                           -0.11855165549181541,
-                           -0.98551977849261174,
-                           0.03106126310341574,
-                           0.093890820947409817
+                           -0.35802839004503711,
+                           -1.0854145117451031,
+                           -0.13346434072360019,
+                           -0.11855165549181446,
+                           -0.98551977849259997,
+                           0.031061263103417502,
+                           0.093890820947407805
                         ],
                         [
-                           0.67866410831062707,
-                           -0.7599602106620762,
-                           0.048322066188915533,
-                           0.14839772789674135,
-                           -0.13942653908703878,
-                           0.17910277615360853,
-                           0.30847745589716508
+                           0.67866410831062485,
+                           -0.75996021066207597,
+                           0.048322066188915394,
+                           0.14839772789673972,
+                           -0.13942653908703179,
+                           0.17910277615360978,
+                           0.30847745589716152
                         ]
                      ],
                      "error" : false,
@@ -1101,7 +1144,6 @@
                      "messages" : [],
                      "name" : "pathCoefficientsTable",
                      "nestedOptionMustBe" : {
-                        "processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
                         "processModels$!_SEP_!$1$!_SEP_!$pathCoefficients" : true
                      },
                      "nestedOptionMustContain" : {},
@@ -1182,7 +1224,6 @@
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
-                  "processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
                   "processModels$!_SEP_!$1$!_SEP_!$processRelationships" : [
                      {
                         "processDependent" : "DonationAttitude",
@@ -1213,7 +1254,7 @@
                   "parameterLabels" : false
                },
                "optionMustContain" : {},
-               "order_increment" : 2,
+               "order_increment" : 3,
                "position" : 9999,
                "title" : "Model 1",
                "type" : "container"
@@ -1236,7 +1277,6 @@
                         "conceptualPathPlot" : true,
                         "independentCovariances" : false,
                         "inputType" : "inputVariables",
-                        "intercepts" : false,
                         "localTestBootstrap" : false,
                         "localTestBootstrapSamples" : 1000,
                         "localTestType" : "cis",
@@ -1281,15 +1321,15 @@
                },
                "optionMustContain" : {},
                "position" : 1,
-               "rawtext" : "<b>Important</b>: Parameter estimates can only be interpreted as causal effects if all confounding effects are accounted for and if the causal effect directions are correctly specified.",
-               "text" : "<p><b>Important</b>: Parameter estimates can only be interpreted as causal effects if all confounding effects are accounted for and if the causal effect directions are correctly specified. </p>",
+               "rawtext" : "<b>Important</b>: Parameter estimates are causal effects and need to be treated and interpreted as such. Causal effects are only meaningful if all confounding effects are accounted for and their directions are correctly specified.",
+               "text" : "<p><b>Important</b>: Parameter estimates are causal effects and need to be treated and interpreted as such. Causal effects are only meaningful if all confounding effects are accounted for and their directions are correctly specified. </p>",
                "title" : "hide me",
                "type" : "html"
             }
          },
          "data_order" : {
-            "Model 1" : 1,
-            "warning" : 0
+            "Model 1" : 0,
+            "warning" : 1
          },
          "error" : false,
          "errorMessage" : "",
@@ -1356,11 +1396,11 @@
                            "type" : "ScaleContinuous"
                         }
                      },
-                     "environmentName" : "plot_2",
+                     "environmentName" : "plot_7",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/1/_2_t1704964867911.png",
+                     "filePathPng" : "resources/1/_1_t-1936772453.png",
                      "height" : 480,
                      "messages" : [],
                      "name" : "conceptPathPlot",
@@ -1418,11 +1458,11 @@
                            "type" : "ScaleContinuous"
                         }
                      },
-                     "environmentName" : "plot_3",
+                     "environmentName" : "plot_8",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/1/_3_t1704964868113.png",
+                     "filePathPng" : "resources/1/_2_t-1936772065.png",
                      "height" : 480,
                      "messages" : [],
                      "name" : "statPathPlot",
@@ -1469,7 +1509,6 @@
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
-                  "processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
                   "processModels$!_SEP_!$1$!_SEP_!$processRelationships" : [
                      {
                         "processDependent" : "DonationAttitude",
@@ -1534,10 +1573,10 @@
    },
    "data_order" : {
       "localTestContainer" : 4,
-      "modelSummaryTable" : 2,
-      "modelsContainer" : 0,
+      "modelSummaryTable" : 0,
+      "modelsContainer" : 1,
       "parEstContainer" : 3,
-      "pathPlotContainer" : 1
+      "pathPlotContainer" : 2
    },
    "error" : false,
    "errorMessage" : "",
@@ -1559,6 +1598,31 @@
          },
          "factors" : {
             "shouldEncode" : true
+         },
+         "processModels" : {
+            "modelNumberIndependent" : {
+               "shouldEncode" : true
+            },
+            "modelNumberMediators" : {
+               "shouldEncode" : true
+            },
+            "modelNumberModeratorW" : {
+               "shouldEncode" : true
+            },
+            "modelNumberModeratorZ" : {
+               "shouldEncode" : true
+            },
+            "processRelationships" : {
+               "processDependent" : {
+                  "shouldEncode" : true
+               },
+               "processIndependent" : {
+                  "shouldEncode" : true
+               },
+               "processVariable" : {
+                  "shouldEncode" : true
+               }
+            }
          }
       },
       "aicWeights" : false,
@@ -1575,7 +1639,6 @@
       "factors" : [ "JaspColumn_1_Encoded" ],
       "independentCovariancesForAllModels" : false,
       "inputType" : "inputVariables",
-      "interceptsForAllModels" : false,
       "localTestBootstrapForAllModels" : false,
       "localTestBootstrapSamplesForAllModels" : 1000,
       "localTestCorrectionForAllModels" : "bonferroni",
@@ -1612,7 +1675,6 @@
             "conceptualPathPlot" : true,
             "independentCovariances" : false,
             "inputType" : "inputVariables",
-            "intercepts" : false,
             "localTestBootstrap" : false,
             "localTestBootstrapSamples" : 1000,
             "localTestType" : "cis",
@@ -1654,7 +1716,6 @@
             "totalEffects" : false
          }
       ],
-      "rSquared" : false,
       "residualCovariancesForAllModels" : false,
       "standardizedEstimates" : "unstandardized",
       "statisticalPathPlotsCovariances" : false,

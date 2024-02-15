@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
    "data" : {
       "localTestContainer" : {
          "citations" : [],
@@ -187,40 +187,40 @@
                            ""
                         ],
                         [
-                           -0.094698787808513762,
+                           -0.094698787808513554,
                            0.12921933438752167,
-                           0.069343311756395937,
-                           -0.30451899940967464,
-                           -0.28087388929735307,
-                           0.22507748946697109,
-                           -0.39724167029294427
+                           0.069343311756395798,
+                           -0.30451899940967458,
+                           -0.2808738892973528,
+                           0.22507748946697101,
+                           -0.39724167029294416
                         ],
                         [
-                           0.80198693197614057,
-                           0.21604756338197778,
+                           0.80198693197614779,
+                           0.21604756338197806,
                            1.0,
-                           1.1598660049433262e-06,
-                           1.1382074968710393e-05,
-                           0.00096770770016584191,
-                           1.8391112779899253e-11
+                           1.1598660049433377e-06,
+                           1.1382074968710676e-05,
+                           0.00096770770016585048,
+                           1.839111277989945e-11
                         ],
                         [
-                           -0.20982487544397294,
-                           0.011969306395496543,
-                           -0.048270517645332786,
-                           -0.40800029691599249,
-                           -0.38618864965918109,
-                           0.1107799405904404,
-                           -0.49368611610293478
+                           -0.20982487544397274,
+                           0.011969306395496487,
+                           -0.048270517645332918,
+                           -0.40800029691599238,
+                           -0.38618864965918082,
+                           0.11077994059044027,
+                           -0.49368611610293467
                         ],
                         [
-                           0.022988515043942073,
-                           0.243021769264713,
-                           0.185075128705049,
-                           -0.19424952004167892,
-                           -0.16902628904757427,
-                           0.33378638017494572,
-                           -0.293846522688059
+                           0.022988515043942268,
+                           0.24302176926471294,
+                           0.18507512870504889,
+                           -0.19424952004167881,
+                           -0.169026289047574,
+                           0.33378638017494561,
+                           -0.29384652268805889
                         ]
                      ],
                      "error" : false,
@@ -324,7 +324,6 @@
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
-                  "processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
                   "processModels$!_SEP_!$1$!_SEP_!$processRelationships" : [
                      {
                         "processDependent" : "Fatigue",
@@ -533,9 +532,9 @@
          "data" : [
             [ "Model 1" ],
             [ null ],
-            [ 3255.1981887200168 ],
-            [ 3302.4504535612168 ],
-            [ -1614.5990943600084 ],
+            [ 3255.1981887200182 ],
+            [ 3302.4504535612182 ],
+            [ -1614.5990943600091 ],
             [ 280 ],
             [ 9 ]
          ],
@@ -571,7 +570,6 @@
                   "conceptualPathPlot" : true,
                   "independentCovariances" : false,
                   "inputType" : "inputVariables",
-                  "intercepts" : false,
                   "localTestBootstrap" : false,
                   "localTestBootstrapSamples" : 1000,
                   "localTestType" : "cis",
@@ -676,7 +674,7 @@
                "data" : {
                   "contrasts" : {
                      "citations" : [],
-                     "environmentName" : "state_1",
+                     "environmentName" : "state_13",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -692,7 +690,7 @@
                   },
                   "fittedModel" : {
                      "citations" : [],
-                     "environmentName" : "state_5",
+                     "environmentName" : "state_17",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -708,7 +706,7 @@
                   },
                   "graph" : {
                      "citations" : [],
-                     "environmentName" : "state_0",
+                     "environmentName" : "state_12",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -724,7 +722,7 @@
                   },
                   "modProbes" : {
                      "citations" : [],
-                     "environmentName" : "state_2",
+                     "environmentName" : "state_14",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -740,7 +738,7 @@
                   },
                   "resCovGraph" : {
                      "citations" : [],
-                     "environmentName" : "state_3",
+                     "environmentName" : "state_15",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -756,7 +754,7 @@
                   },
                   "syntax" : {
                      "citations" : [],
-                     "environmentName" : "state_4",
+                     "environmentName" : "state_16",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -843,7 +841,59 @@
                   "naAction" : "listwise",
                   "standardizedEstimates" : "unstandardized"
                },
-               "optionMustContain" : {},
+               "optionMustContain" : {
+                  "processModels" : {
+                     "conceptualPathPlot" : true,
+                     "independentCovariances" : false,
+                     "inputType" : "inputVariables",
+                     "localTestBootstrap" : false,
+                     "localTestBootstrapSamples" : 1000.0,
+                     "localTestType" : "cis",
+                     "localTests" : true,
+                     "mediationEffects" : true,
+                     "mediatorCovariances" : false,
+                     "modelNumber" : 1.0,
+                     "modelNumberIndependent" : "",
+                     "modelNumberMediators" : [],
+                     "modelNumberModeratorW" : "",
+                     "modelNumberModeratorZ" : "",
+                     "name" : "Model 1",
+                     "pathCoefficients" : true,
+                     "processRelationships" : [
+                        {
+                           "processDependent" : "Fatigue",
+                           "processIndependent" : "Age",
+                           "processType" : "mediators",
+                           "processVariable" : "AudAttention",
+                           "value" : "#"
+                        },
+                        {
+                           "processDependent" : "Fatigue",
+                           "processIndependent" : "Age",
+                           "processType" : "mediators",
+                           "processVariable" : "HearImpair",
+                           "value" : "#2"
+                        },
+                        {
+                           "processDependent" : "Fatigue",
+                           "processIndependent" : "Age",
+                           "processType" : "mediators",
+                           "processVariable" : "Memory",
+                           "value" : "#3"
+                        },
+                        {
+                           "processDependent" : "Fatigue",
+                           "processIndependent" : "Age",
+                           "processType" : "moderators",
+                           "processVariable" : "MoodDisturb",
+                           "value" : "#4"
+                        }
+                     ],
+                     "residualCovariances" : false,
+                     "statisticalPathPlot" : true,
+                     "totalEffects" : true
+                  }
+               },
                "order_increment" : 6,
                "position" : 9999,
                "title" : "Model 1",
@@ -1076,52 +1126,52 @@
                            "a3 \u273b b3"
                         ],
                         [
-                           -0.096870902064184139,
-                           -0.09350212881533769,
-                           -0.086431654978144049,
-                           -0.0064907909308138173,
-                           0.055502211287193161,
-                           -0.026184993076921032
+                           -0.096870902064184236,
+                           -0.093502128815337718,
+                           -0.086431654978143924,
+                           -0.0064907909308138216,
+                           0.055502211287193105,
+                           -0.026184993076921091
                         ],
                         [
-                           0.066927845891851523,
-                           0.053474255873399171,
-                           0.067945081387643144,
-                           0.014227182182414371,
-                           0.017596308310443873,
-                           0.018360721188615904
+                           0.066927845891851565,
+                           0.053474255873399205,
+                           0.067945081387643214,
+                           0.014227182182414378,
+                           0.01759630831044387,
+                           0.018360721188615925
                         ],
                         [
-                           -1.4473930958530699,
-                           -1.7485447396725802,
-                           -1.2720811162920025,
-                           -0.45622463026001131,
-                           3.1541963409592642,
-                           -1.4261418605471972
+                           -1.4473930958530703,
+                           -1.7485447396725795,
+                           -1.2720811162919994,
+                           -0.45622463026001137,
+                           3.1541963409592619,
+                           -1.4261418605471989
                         ],
                         [
-                           0.14778685833657179,
-                           0.080369745582993923,
-                           0.20334429986605285,
+                           0.14778685833657157,
+                           0.080369745582994145,
+                           0.20334429986605396,
                            0.64822845559696773,
                            0.0016094076863935047,
-                           0.15382739769905296
+                           0.15382739769905251
                         ],
                         [
-                           -0.20817376563740503,
-                           -0.18764245808727631,
-                           -0.23153040573111991,
-                           -0.044912639159762943,
-                           0.023710516226210693,
-                           -0.064582872238296896
+                           -0.21317585434787051,
+                           -0.19677268665716177,
+                           -0.22707580475655648,
+                           -0.03903673076219203,
+                           0.023502505507821632,
+                           -0.068624421693431831
                         ],
                         [
-                           0.020970607425262744,
-                           0.0060449438559470898,
-                           0.068111826052371552,
-                           0.020885391952515365,
-                           0.10088004181973054,
-                           0.01016465890181052
+                           0.021821465729060407,
+                           0.0051884300183787152,
+                           0.065000575040535163,
+                           0.020588258102761523,
+                           0.099498468894726341,
+                           0.0086715640543452641
                         ]
                      ],
                      "error" : false,
@@ -1410,69 +1460,69 @@
                         [ "c1", "b1", "b2", "b3", "c2", "c3", "a1", "a2", "a3" ],
                         [
                            -0.091978563024402105,
-                           0.014059085204679897,
-                           0.23488829487644838,
-                           -0.30102606924730752,
-                           0.32054115508895176,
-                           0.0056428362627243761,
+                           0.014059085204679906,
+                           0.23488829487644802,
+                           -0.30102606924730801,
+                           0.32054115508895131,
+                           0.005642836262724495,
                            -0.46167946465344739,
-                           0.23629194173505927,
-                           0.086985798746250079
+                           0.23629194173505938,
+                           0.086985798746250134
                         ],
                         [
-                           0.05145550033660224,
-                           0.030696734719483549,
-                           0.047047630231660052,
-                           0.045889281459688104,
-                           0.048269561202185,
-                           0.047165984611974895,
-                           0.089000154840429432,
-                           0.058069112719967585,
-                           0.059534907852710359
+                           0.051455500336602268,
+                           0.030696734719483559,
+                           0.047047630231660038,
+                           0.045889281459688125,
+                           0.048269561202185007,
+                           0.047165984611974944,
+                           0.089000154840429446,
+                           0.058069112719967654,
+                           0.059534907852710324
                         ],
                         [
-                           -1.7875360733587946,
-                           0.45799937137145874,
-                           4.9925637852506233,
-                           -6.5598340107318274,
-                           6.6406477934678625,
-                           0.1196378345357753,
-                           -5.187400690270751,
-                           4.0691502016666456,
-                           1.4610889960803055
+                           -1.7875360733587937,
+                           0.45799937137145885,
+                           4.9925637852506171,
+                           -6.5598340107318354,
+                           6.6406477934678518,
+                           0.11963783453577768,
+                           -5.1874006902707501,
+                           4.069150201666643,
+                           1.4610889960803073
                         ],
                         [
-                           0.07385088715361765,
-                           0.64695289289965374,
+                           0.073850887153617872,
+                           0.64695289289965352,
                            5.9583026534859584e-07,
                            5.386779911020767e-11,
                            3.1230795727310579e-11,
-                           0.90477004733436717,
+                           0.90477004733436517,
                            2.1324957755197715e-07,
                            4.7184922568055399e-05,
-                           0.14399101964695182
+                           0.14399101964695138
                         ],
                         [
-                           -0.18494333438407271,
-                           -0.045537604202961636,
-                           0.1302765337824732,
-                           -0.42415262058687792,
-                           0.2037278925015262,
-                           -0.092147208376407178,
-                           -0.61204072676697197,
-                           0.11840670885981262,
-                           -0.04070329166745517
+                           -0.19022067841459542,
+                           -0.04674838699831025,
+                           0.13443144472907456,
+                           -0.4197344551152129,
+                           0.21153872519991593,
+                           -0.086223393054585998,
+                           -0.62490450315305268,
+                           0.11054814048535633,
+                           -0.04054597202368778
                         ],
                         [
-                           0.011842054798783501,
-                           0.089521137018694449,
-                           0.34032616332541155,
-                           -0.19032602890630679,
-                           0.4366935187386663,
-                           0.094753207240459575,
-                           -0.28867200037521479,
-                           0.3609093116892314,
-                           0.2044103122628585
+                           0.0090912267849573916,
+                           0.078376174735113144,
+                           0.3314693066607316,
+                           -0.18409673219461756,
+                           0.4472319583429491,
+                           0.096515623286886315,
+                           -0.30302540743341172,
+                           0.35502643375178983,
+                           0.20661782473593329
                         ]
                      ],
                      "error" : false,
@@ -1491,7 +1541,6 @@
                      "messages" : [],
                      "name" : "pathCoefficientsTable",
                      "nestedOptionMustBe" : {
-                        "processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
                         "processModels$!_SEP_!$1$!_SEP_!$pathCoefficients" : true
                      },
                      "nestedOptionMustContain" : {},
@@ -1739,40 +1788,40 @@
                            "a1 \u273b b1 \uff0b a2 \u273b b2 \uff0b a3 \u273b b3"
                         ],
                         [
-                           -0.074044474784725825,
-                           -0.070675701535879376,
+                           -0.074044474784726047,
+                           -0.070675701535879529,
                            -0.063605227698685735,
-                           0.02282642727945831
+                           0.022826427279458196
                         ],
                         [
-                           0.068174477644522447,
-                           0.055026528943717942,
-                           0.069173383111956532,
-                           0.029140330498707352
+                           0.068174477644522488,
+                           0.055026528943717977,
+                           0.069173383111956588,
+                           0.029140330498707373
                         ],
                         [
-                           -1.0861025612958988,
-                           -1.2843932352732566,
-                           -0.91950436478928921,
-                           0.78332767298129569
+                           -1.0861025612959014,
+                           -1.2843932352732585,
+                           -0.91950436478928843,
+                           0.78332767298129125
                         ],
                         [
-                           0.27743361931942045,
-                           0.19900439871056519,
-                           0.35783182366026933,
-                           0.4334347167781083
+                           0.27743361931941934,
+                           0.1990043987105643,
+                           0.35783182366026978,
+                           0.43343471677811096
                         ],
                         [
-                           -0.19788689951004002,
-                           -0.1821838550923206,
-                           -0.21630360441218088,
-                           -0.046893961589497324
+                           -0.20370752648838797,
+                           -0.18280342868749797,
+                           -0.21854909956005303,
+                           -0.040620061014188767
                         ],
                         [
-                           0.044725379939847376,
-                           0.035719536897675576,
-                           0.096556452620073022,
-                           0.08897663706595306
+                           0.054963662072009388,
+                           0.035300014534159062,
+                           0.099290340524890497,
+                           0.097019766065510563
                         ]
                      ],
                      "error" : false,
@@ -1890,7 +1939,6 @@
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
-                  "processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
                   "processModels$!_SEP_!$1$!_SEP_!$processRelationships" : [
                      {
                         "processDependent" : "Fatigue",
@@ -1951,7 +1999,6 @@
                         "conceptualPathPlot" : true,
                         "independentCovariances" : false,
                         "inputType" : "inputVariables",
-                        "intercepts" : false,
                         "localTestBootstrap" : false,
                         "localTestBootstrapSamples" : 1000,
                         "localTestType" : "cis",
@@ -2003,8 +2050,8 @@
                },
                "optionMustContain" : {},
                "position" : 1,
-               "rawtext" : "<b>Important</b>: Parameter estimates can only be interpreted as causal effects if all confounding effects are accounted for and if the causal effect directions are correctly specified.",
-               "text" : "<p><b>Important</b>: Parameter estimates can only be interpreted as causal effects if all confounding effects are accounted for and if the causal effect directions are correctly specified. </p>",
+               "rawtext" : "<b>Important</b>: Parameter estimates are causal effects and need to be treated and interpreted as such. Causal effects are only meaningful if all confounding effects are accounted for and their directions are correctly specified.",
+               "text" : "<p><b>Important</b>: Parameter estimates are causal effects and need to be treated and interpreted as such. Causal effects are only meaningful if all confounding effects are accounted for and their directions are correctly specified. </p>",
                "title" : "hide me",
                "type" : "html"
             }
@@ -2084,11 +2131,11 @@
                            "type" : "ScaleContinuous"
                         }
                      },
-                     "environmentName" : "plot_0",
+                     "environmentName" : "plot_4",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/9/_0_t1704964857644.png",
+                     "filePathPng" : "resources/9/_0_t-1927458499.png",
                      "height" : 480,
                      "messages" : [],
                      "name" : "conceptPathPlot",
@@ -2146,11 +2193,11 @@
                            "type" : "ScaleContinuous"
                         }
                      },
-                     "environmentName" : "plot_1",
+                     "environmentName" : "plot_5",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/9/_1_t1704964857919.png",
+                     "filePathPng" : "resources/9/_1_t-1927457930.png",
                      "height" : 480,
                      "messages" : [],
                      "name" : "statPathPlot",
@@ -2197,7 +2244,6 @@
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
-                  "processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
                   "processModels$!_SEP_!$1$!_SEP_!$processRelationships" : [
                      {
                         "processDependent" : "Fatigue",
@@ -2322,7 +2368,6 @@
       "factors" : [],
       "independentCovariancesForAllModels" : false,
       "inputType" : "inputVariables",
-      "interceptsForAllModels" : false,
       "localTestBootstrapForAllModels" : false,
       "localTestBootstrapSamplesForAllModels" : 1000,
       "localTestCorrectionForAllModels" : "bonferroni",
@@ -2359,7 +2404,6 @@
             "conceptualPathPlot" : true,
             "independentCovariances" : false,
             "inputType" : "inputVariables",
-            "intercepts" : false,
             "localTestBootstrap" : false,
             "localTestBootstrapSamples" : 1000,
             "localTestType" : "cis",
@@ -2408,7 +2452,6 @@
             "totalEffects" : true
          }
       ],
-      "rSquared" : false,
       "residualCovariancesForAllModels" : false,
       "standardizedEstimates" : "unstandardized",
       "statisticalPathPlotsCovariances" : false,

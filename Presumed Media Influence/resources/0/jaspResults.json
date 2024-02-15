@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
    "data" : {
       "localTestContainer" : {
          "citations" : [],
@@ -23,7 +23,6 @@
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
-                  "processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
                   "processModels$!_SEP_!$1$!_SEP_!$processRelationships" : [
                      {
                         "processDependent" : "Intention",
@@ -205,9 +204,9 @@
          "data" : [
             [ "Model 1" ],
             [ 4.0 ],
-            [ 850.05650537845759 ],
-            [ 864.11742715531966 ],
-            [ -420.02825268922879 ],
+            [ 850.05650537845736 ],
+            [ 864.11742715531943 ],
+            [ -420.02825268922868 ],
             [ 123 ],
             [ 0 ]
          ],
@@ -237,7 +236,6 @@
                   "conceptualPathPlot" : true,
                   "independentCovariances" : false,
                   "inputType" : "inputVariables",
-                  "intercepts" : false,
                   "localTestBootstrap" : false,
                   "localTestBootstrapSamples" : 1000,
                   "localTestType" : "cis",
@@ -321,7 +319,7 @@
                "data" : {
                   "contrasts" : {
                      "citations" : [],
-                     "environmentName" : "state_1",
+                     "environmentName" : "state_13",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -337,7 +335,7 @@
                   },
                   "fittedModel" : {
                      "citations" : [],
-                     "environmentName" : "state_5",
+                     "environmentName" : "state_17",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -353,7 +351,7 @@
                   },
                   "graph" : {
                      "citations" : [],
-                     "environmentName" : "state_0",
+                     "environmentName" : "state_12",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -369,7 +367,7 @@
                   },
                   "modProbes" : {
                      "citations" : [],
-                     "environmentName" : "state_2",
+                     "environmentName" : "state_14",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -385,7 +383,7 @@
                   },
                   "resCovGraph" : {
                      "citations" : [],
-                     "environmentName" : "state_3",
+                     "environmentName" : "state_15",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -401,7 +399,7 @@
                   },
                   "syntax" : {
                      "citations" : [],
-                     "environmentName" : "state_4",
+                     "environmentName" : "state_16",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
@@ -461,7 +459,38 @@
                   "naAction" : "listwise",
                   "standardizedEstimates" : "unstandardized"
                },
-               "optionMustContain" : {},
+               "optionMustContain" : {
+                  "processModels" : {
+                     "conceptualPathPlot" : true,
+                     "independentCovariances" : false,
+                     "inputType" : "inputVariables",
+                     "localTestBootstrap" : false,
+                     "localTestBootstrapSamples" : 1000.0,
+                     "localTestType" : "cis",
+                     "localTests" : false,
+                     "mediationEffects" : true,
+                     "mediatorCovariances" : false,
+                     "modelNumber" : 1.0,
+                     "modelNumberIndependent" : "",
+                     "modelNumberMediators" : [],
+                     "modelNumberModeratorW" : "",
+                     "modelNumberModeratorZ" : "",
+                     "name" : "Model 1",
+                     "pathCoefficients" : true,
+                     "processRelationships" : [
+                        {
+                           "processDependent" : "Intention",
+                           "processIndependent" : "Condition",
+                           "processType" : "mediators",
+                           "processVariable" : "MediaInfluence",
+                           "value" : "#"
+                        }
+                     ],
+                     "residualCovariances" : false,
+                     "statisticalPathPlot" : false,
+                     "totalEffects" : false
+                  }
+               },
                "order_increment" : 6,
                "position" : 9999,
                "title" : "Model 1",
@@ -661,12 +690,12 @@
                         [ "", "\u2192" ],
                         [ "", "JaspColumn_3_Encoded" ],
                         [ "Front", "Front" ],
-                        [ 0.25435419085438066, 0.24133546431803299 ],
-                        [ 0.25268353822863637, 0.12689748865806919 ],
-                        [ 1.0066116401466272, 1.9018143453439171 ],
-                        [ 0.31412143852920593, 0.057195430190053687 ],
-                        [ -0.24865561729969526, 0.01827227160064477 ],
-                        [ 0.80451590524304928, 0.53057606199323148 ]
+                        [ 0.25435419085438055, 0.24133546431803318 ],
+                        [ 0.25268353822863615, 0.12689748865806919 ],
+                        [ 1.0066116401466276, 1.9018143453439187 ],
+                        [ 0.31412143852920571, 0.057195430190053465 ],
+                        [ -0.24809365647290313, 0.0049178245395227593 ],
+                        [ 0.77733095620593884, 0.50919369290833949 ]
                      ],
                      "error" : false,
                      "errorMessage" : "",
@@ -925,12 +954,12 @@
                            "JaspColumn_3_Encoded",
                            "JaspColumn_1_Encoded"
                         ],
-                        [ 0.25435419085438066, 0.50644848342832394, 0.47652519893899226 ],
-                        [ 0.25268353822863637, 0.095857475915469226, 0.23376726447837171 ],
-                        [ 1.0066116401466272, 5.2833488321237407, 2.0384599186815597 ],
-                        [ 0.31412143852920593, 1.2684353500880263e-07, 0.041503959254918454 ],
-                        [ -0.24865561729969526, 0.32950657451770915, 0.017622648259955978 ],
-                        [ 0.80451590524304928, 0.65512417174304127, 0.89772703534726939 ]
+                        [ 0.25435419085438055, 0.5064484834283246, 0.47652519893899203 ],
+                        [ 0.25268353822863615, 0.095857475915469212, 0.23376726447837146 ],
+                        [ 1.0066116401466276, 5.2833488321237487, 2.0384599186815611 ],
+                        [ 0.31412143852920571, 1.2684353500880263e-07, 0.041503959254918232 ],
+                        [ -0.24809365647290313, 0.33856539940210401, -0.0082116353416953943 ],
+                        [ 0.77733095620593884, 0.66016888761965131, 0.87682861725754957 ]
                      ],
                      "error" : false,
                      "errorMessage" : "",
@@ -948,7 +977,6 @@
                      "messages" : [],
                      "name" : "pathCoefficientsTable",
                      "nestedOptionMustBe" : {
-                        "processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
                         "processModels$!_SEP_!$1$!_SEP_!$pathCoefficients" : true
                      },
                      "nestedOptionMustContain" : {},
@@ -1029,7 +1057,6 @@
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
-                  "processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
                   "processModels$!_SEP_!$1$!_SEP_!$processRelationships" : [
                      {
                         "processDependent" : "Intention",
@@ -1046,7 +1073,7 @@
                   "parameterLabels" : false
                },
                "optionMustContain" : {},
-               "order_increment" : 2,
+               "order_increment" : 3,
                "position" : 9999,
                "title" : "Model 1",
                "type" : "container"
@@ -1069,7 +1096,6 @@
                         "conceptualPathPlot" : true,
                         "independentCovariances" : false,
                         "inputType" : "inputVariables",
-                        "intercepts" : false,
                         "localTestBootstrap" : false,
                         "localTestBootstrapSamples" : 1000,
                         "localTestType" : "cis",
@@ -1100,8 +1126,8 @@
                },
                "optionMustContain" : {},
                "position" : 1,
-               "rawtext" : "<b>Important</b>: Parameter estimates can only be interpreted as causal effects if all confounding effects are accounted for and if the causal effect directions are correctly specified.",
-               "text" : "<p><b>Important</b>: Parameter estimates can only be interpreted as causal effects if all confounding effects are accounted for and if the causal effect directions are correctly specified. </p>",
+               "rawtext" : "<b>Important</b>: Parameter estimates are causal effects and need to be treated and interpreted as such. Causal effects are only meaningful if all confounding effects are accounted for and their directions are correctly specified.",
+               "text" : "<p><b>Important</b>: Parameter estimates are causal effects and need to be treated and interpreted as such. Causal effects are only meaningful if all confounding effects are accounted for and their directions are correctly specified. </p>",
                "title" : "hide me",
                "type" : "html"
             }
@@ -1175,11 +1201,11 @@
                            "type" : "ScaleContinuous"
                         }
                      },
-                     "environmentName" : "plot_0",
+                     "environmentName" : "plot_2",
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/0/_0_t1704964891876.png",
+                     "filePathPng" : "resources/0/_0_t-1938788748.png",
                      "height" : 480,
                      "messages" : [],
                      "name" : "conceptPathPlot",
@@ -1222,7 +1248,6 @@
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
                   "processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
-                  "processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
                   "processModels$!_SEP_!$1$!_SEP_!$processRelationships" : [
                      {
                         "processDependent" : "Intention",
@@ -1314,7 +1339,6 @@
       "factors" : [ "JaspColumn_0_Encoded" ],
       "independentCovariancesForAllModels" : false,
       "inputType" : "inputVariables",
-      "interceptsForAllModels" : false,
       "localTestBootstrapForAllModels" : false,
       "localTestBootstrapSamplesForAllModels" : 1000,
       "localTestCorrectionForAllModels" : "bonferroni",
@@ -1351,7 +1375,6 @@
             "conceptualPathPlot" : true,
             "independentCovariances" : false,
             "inputType" : "inputVariables",
-            "intercepts" : false,
             "localTestBootstrap" : false,
             "localTestBootstrapSamples" : 1000,
             "localTestType" : "cis",
@@ -1379,7 +1402,6 @@
             "totalEffects" : false
          }
       ],
-      "rSquared" : false,
       "residualCovariancesForAllModels" : false,
       "standardizedEstimates" : "unstandardized",
       "statisticalPathPlotsCovariances" : false,

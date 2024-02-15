@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
    "data" : {
       "anovaContainer" : {
          "citations" : [],
@@ -525,7 +525,7 @@
                      "error" : false,
                      "errorMessage" : "",
                      "escapeHtml" : true,
-                     "filePathPng" : "resources/7/_1_t1704904999936.png",
+                     "filePathPng" : "resources/7/_1_t1702645171844.png",
                      "height" : 300,
                      "messages" : [],
                      "name" : "qqPlot",
@@ -865,7 +865,7 @@
                            "error" : false,
                            "errorMessage" : "",
                            "escapeHtml" : true,
-                           "filePathPng" : "resources/7/_2_t1704905000108.png",
+                           "filePathPng" : "resources/7/_2_t1702645172035.png",
                            "height" : 300,
                            "messages" : [],
                            "name" : "",
@@ -1591,9 +1591,6 @@
             "shouldEncode" : true
          },
          "rainCloudSeparatePlots" : {
-            "shouldEncode" : true
-         },
-         "randomFactors" : {
             "shouldEncode" : true
          },
          "restrictedMarginalMeanTerms" : {

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.340">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The JASP Data Library - 18&nbsp; Miscellaneous</title>
+<title>The JASP Data Library - 18&nbsp; Quality Control</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,8 +62,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -70,13 +78,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../myChapters/chapter_18.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Miscellaneous</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../myChapters/chapter_18.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Quality Control</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -85,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="../">The JASP Data Library</a> 
@@ -209,30 +217,44 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../myChapters/chapter_18.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Miscellaneous</span></span></a>
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Quality Control</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../myChapters/chapter_19.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Books</span></span></a>
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Survival</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#anscombes-quartet" id="toc-anscombes-quartet" class="nav-link active" data-scroll-target="#anscombes-quartet"><span class="header-section-number">18.1</span> Anscombe’s Quartet</a></li>
-  <li><a href="#missing-data" id="toc-missing-data" class="nav-link" data-scroll-target="#missing-data"><span class="header-section-number">18.2</span> Missing Data</a></li>
-  <li><a href="#the-datasaurus-dozen-long" id="toc-the-datasaurus-dozen-long" class="nav-link" data-scroll-target="#the-datasaurus-dozen-long"><span class="header-section-number">18.3</span> The Datasaurus Dozen (Long)</a></li>
-  <li><a href="#the-datasaurus-dozen-wide" id="toc-the-datasaurus-dozen-wide" class="nav-link" data-scroll-target="#the-datasaurus-dozen-wide"><span class="header-section-number">18.4</span> The Datasaurus Dozen (Wide)</a></li>
-  <li><a href="#water-tasting" id="toc-water-tasting" class="nav-link" data-scroll-target="#water-tasting"><span class="header-section-number">18.5</span> Water Tasting</a></li>
+  <li><a href="#attributesagreementanalysislongformat" id="toc-attributesagreementanalysislongformat" class="nav-link active" data-scroll-target="#attributesagreementanalysislongformat"><span class="header-section-number">18.1</span> AttributesAgreementAnalysisLongFormat</a></li>
+  <li><a href="#attributesagreementanalysiswideformat" id="toc-attributesagreementanalysiswideformat" class="nav-link" data-scroll-target="#attributesagreementanalysiswideformat"><span class="header-section-number">18.2</span> AttributesAgreementAnalysisWideFormat</a></li>
+  <li><a href="#factorialdesignanalysis" id="toc-factorialdesignanalysis" class="nav-link" data-scroll-target="#factorialdesignanalysis"><span class="header-section-number">18.3</span> FactorialDesignAnalysis</a></li>
+  <li><a href="#gaugerrlongformat" id="toc-gaugerrlongformat" class="nav-link" data-scroll-target="#gaugerrlongformat"><span class="header-section-number">18.4</span> GaugerRLongFormat</a></li>
+  <li><a href="#gaugerrnestedlongformat" id="toc-gaugerrnestedlongformat" class="nav-link" data-scroll-target="#gaugerrnestedlongformat"><span class="header-section-number">18.5</span> GaugerRNestedLongFormat</a></li>
+  <li><a href="#gaugerrnestedwideformat" id="toc-gaugerrnestedwideformat" class="nav-link" data-scroll-target="#gaugerrnestedwideformat"><span class="header-section-number">18.6</span> GaugerRNestedWideFormat</a></li>
+  <li><a href="#gaugerrwideformat" id="toc-gaugerrwideformat" class="nav-link" data-scroll-target="#gaugerrwideformat"><span class="header-section-number">18.7</span> GaugerRWideFormat</a></li>
+  <li><a href="#individualchartstages" id="toc-individualchartstages" class="nav-link" data-scroll-target="#individualchartstages"><span class="header-section-number">18.8</span> IndividualChartStages</a></li>
+  <li><a href="#linearitystudy" id="toc-linearitystudy" class="nav-link" data-scroll-target="#linearitystudy"><span class="header-section-number">18.9</span> LinearityStudy</a></li>
+  <li><a href="#npattributeschart" id="toc-npattributeschart" class="nav-link" data-scroll-target="#npattributeschart"><span class="header-section-number">18.10</span> NPAttributesChart</a></li>
+  <li><a href="#pattributeschart" id="toc-pattributeschart" class="nav-link" data-scroll-target="#pattributeschart"><span class="header-section-number">18.11</span> PAttributesChart</a></li>
+  <li><a href="#processcapabilitystudylongformat" id="toc-processcapabilitystudylongformat" class="nav-link" data-scroll-target="#processcapabilitystudylongformat"><span class="header-section-number">18.12</span> ProcessCapabilityStudyLongFormat</a></li>
+  <li><a href="#processcapabilitystudywideformat" id="toc-processcapabilitystudywideformat" class="nav-link" data-scroll-target="#processcapabilitystudywideformat"><span class="header-section-number">18.13</span> ProcessCapabilityStudyWideFormat</a></li>
+  <li><a href="#rangemethoddatalongformat" id="toc-rangemethoddatalongformat" class="nav-link" data-scroll-target="#rangemethoddatalongformat"><span class="header-section-number">18.14</span> RangeMethodDataLongFormat</a></li>
+  <li><a href="#rangemethoddatawideformat" id="toc-rangemethoddatawideformat" class="nav-link" data-scroll-target="#rangemethoddatawideformat"><span class="header-section-number">18.15</span> RangeMethodDataWideFormat</a></li>
+  <li><a href="#responsesurfacedesignanalysis" id="toc-responsesurfacedesignanalysis" class="nav-link" data-scroll-target="#responsesurfacedesignanalysis"><span class="header-section-number">18.16</span> ResponseSurfaceDesignAnalysis</a></li>
+  <li><a href="#subgroupchartlongformat" id="toc-subgroupchartlongformat" class="nav-link" data-scroll-target="#subgroupchartlongformat"><span class="header-section-number">18.17</span> SubgroupChartLongFormat</a></li>
+  <li><a href="#subgroupchartwideformat" id="toc-subgroupchartwideformat" class="nav-link" data-scroll-target="#subgroupchartwideformat"><span class="header-section-number">18.18</span> SubgroupChartWideFormat</a></li>
+  <li><a href="#type1instrumentcapability" id="toc-type1instrumentcapability" class="nav-link" data-scroll-target="#type1instrumentcapability"><span class="header-section-number">18.19</span> Type1InstrumentCapability</a></li>
   </ul>
 </nav>
     </div>
@@ -241,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Miscellaneous</span></h1>
+<h1 class="title"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Quality Control</span></h1>
 </div>
 
 
@@ -254,64 +276,234 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<section id="anscombes-quartet" class="level2" data-number="18.1">
-<h2 data-number="18.1" class="anchored" data-anchor-id="anscombes-quartet"><span class="header-section-number">18.1</span> Anscombe’s Quartet</h2>
+
+<section id="attributesagreementanalysislongformat" class="level2" data-number="18.1">
+<h2 data-number="18.1" class="anchored" data-anchor-id="attributesagreementanalysislongformat"><span class="header-section-number">18.1</span> AttributesAgreementAnalysisLongFormat</h2>
 <table class="table">
 <tbody>
 <tr class="odd">
-<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/Anscombe's%20Quartet/Anscombe's%20Quartet.jasp">.jasp</a></td>
-<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Anscombe's%20Quartet/Anscombe's_Quartet.html">.html</a></td>
-<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Anscombe's%20Quartet/Anscombe's%20Quartet.csv">.csv</a></td>
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/AttributesAgreementAnalysisLongFormat/AttributesAgreementAnalysisLongFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/AttributesAgreementAnalysisLongFormat/AttributesAgreementAnalysisLongFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/AttributesAgreementAnalysisLongFormat/AttributesAgreementAnalysisLongFormat.csv">.csv</a></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="missing-data" class="level2" data-number="18.2">
-<h2 data-number="18.2" class="anchored" data-anchor-id="missing-data"><span class="header-section-number">18.2</span> Missing Data</h2>
+<section id="attributesagreementanalysiswideformat" class="level2" data-number="18.2">
+<h2 data-number="18.2" class="anchored" data-anchor-id="attributesagreementanalysiswideformat"><span class="header-section-number">18.2</span> AttributesAgreementAnalysisWideFormat</h2>
 <table class="table">
 <tbody>
 <tr class="odd">
-<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/Missing%20Data/Missing%20Data.jasp">.jasp</a></td>
-<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Missing%20Data/Missing_Data.html">.html</a></td>
-<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Missing%20Data/Missing%20Data.csv">.csv</a></td>
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/AttributesAgreementAnalysisWideFormat/AttributesAgreementAnalysisWideFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/AttributesAgreementAnalysisWideFormat/AttributesAgreementAnalysisWideFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/AttributesAgreementAnalysisWideFormat/AttributesAgreementAnalysisWideFormat.csv">.csv</a></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="the-datasaurus-dozen-long" class="level2" data-number="18.3">
-<h2 data-number="18.3" class="anchored" data-anchor-id="the-datasaurus-dozen-long"><span class="header-section-number">18.3</span> The Datasaurus Dozen (Long)</h2>
+<section id="factorialdesignanalysis" class="level2" data-number="18.3">
+<h2 data-number="18.3" class="anchored" data-anchor-id="factorialdesignanalysis"><span class="header-section-number">18.3</span> FactorialDesignAnalysis</h2>
 <table class="table">
 <tbody>
 <tr class="odd">
-<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/The%20Datasaurus%20Dozen%20(Long)/The%20Datasaurus%20Dozen%20(Long).jasp">.jasp</a></td>
-<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/The%20Datasaurus%20Dozen%20(Long)/The_Datasaurus_Dozen_(Long).html">.html</a></td>
-<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/The%20Datasaurus%20Dozen%20(Long)/The%20Datasaurus%20Dozen%20(Long).csv">.csv</a></td>
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/FactorialDesignAnalysis/FactorialDesignAnalysis.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/FactorialDesignAnalysis/FactorialDesignAnalysis.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/FactorialDesignAnalysis/FactorialDesignAnalysis.csv">.csv</a></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="the-datasaurus-dozen-wide" class="level2" data-number="18.4">
-<h2 data-number="18.4" class="anchored" data-anchor-id="the-datasaurus-dozen-wide"><span class="header-section-number">18.4</span> The Datasaurus Dozen (Wide)</h2>
+<section id="gaugerrlongformat" class="level2" data-number="18.4">
+<h2 data-number="18.4" class="anchored" data-anchor-id="gaugerrlongformat"><span class="header-section-number">18.4</span> GaugerRLongFormat</h2>
 <table class="table">
 <tbody>
 <tr class="odd">
-<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/The%20Datasaurus%20Dozen%20(Wide)/The%20Datasaurus%20Dozen%20(Wide).jasp">.jasp</a></td>
-<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/The%20Datasaurus%20Dozen%20(Wide)/The_Datasaurus_Dozen_(Wide).html">.html</a></td>
-<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/The%20Datasaurus%20Dozen%20(Wide)/The%20Datasaurus%20Dozen%20(Wide).csv">.csv</a></td>
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/GaugerRLongFormat/GaugerRLongFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/GaugerRLongFormat/GaugerRLongFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/GaugerRLongFormat/GaugerRLongFormat.csv">.csv</a></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="water-tasting" class="level2" data-number="18.5">
-<h2 data-number="18.5" class="anchored" data-anchor-id="water-tasting"><span class="header-section-number">18.5</span> Water Tasting</h2>
+<section id="gaugerrnestedlongformat" class="level2" data-number="18.5">
+<h2 data-number="18.5" class="anchored" data-anchor-id="gaugerrnestedlongformat"><span class="header-section-number">18.5</span> GaugerRNestedLongFormat</h2>
 <table class="table">
 <tbody>
 <tr class="odd">
-<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/Water%20Tasting/Water%20Tasting.jasp">.jasp</a></td>
-<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Water%20Tasting/Water_Tasting.html">.html</a></td>
-<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Water%20Tasting/Water%20Tasting.csv">.csv</a></td>
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/GaugerRNestedLongFormat/GaugerRNestedLongFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/GaugerRNestedLongFormat/GaugerRNestedLongFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/GaugerRNestedLongFormat/GaugerRNestedLongFormat.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gaugerrnestedwideformat" class="level2" data-number="18.6">
+<h2 data-number="18.6" class="anchored" data-anchor-id="gaugerrnestedwideformat"><span class="header-section-number">18.6</span> GaugerRNestedWideFormat</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/GaugerRNestedWideFormat/GaugerRNestedWideFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/GaugerRNestedWideFormat/GaugerRNestedWideFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/GaugerRNestedWideFormat/GaugerRNestedWideFormat.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gaugerrwideformat" class="level2" data-number="18.7">
+<h2 data-number="18.7" class="anchored" data-anchor-id="gaugerrwideformat"><span class="header-section-number">18.7</span> GaugerRWideFormat</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/GaugerRWideFormat/GaugerRWideFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/GaugerRWideFormat/GaugerRWideFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/GaugerRWideFormat/GaugerRWideFormat.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="individualchartstages" class="level2" data-number="18.8">
+<h2 data-number="18.8" class="anchored" data-anchor-id="individualchartstages"><span class="header-section-number">18.8</span> IndividualChartStages</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/IndividualChartStages/IndividualChartStages.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/IndividualChartStages/IndividualChartStages.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/IndividualChartStages/IndividualChartStages.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="linearitystudy" class="level2" data-number="18.9">
+<h2 data-number="18.9" class="anchored" data-anchor-id="linearitystudy"><span class="header-section-number">18.9</span> LinearityStudy</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/LinearityStudy/LinearityStudy.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/LinearityStudy/LinearityStudy.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/LinearityStudy/LinearityStudy.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="npattributeschart" class="level2" data-number="18.10">
+<h2 data-number="18.10" class="anchored" data-anchor-id="npattributeschart"><span class="header-section-number">18.10</span> NPAttributesChart</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/NPAttributesChart/NPAttributesChart.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/NPAttributesChart/NPAttributesChart.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/NPAttributesChart/NPAttributesChart.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pattributeschart" class="level2" data-number="18.11">
+<h2 data-number="18.11" class="anchored" data-anchor-id="pattributeschart"><span class="header-section-number">18.11</span> PAttributesChart</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/PAttributesChart/PAttributesChart.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/PAttributesChart/PAttributesChart.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/PAttributesChart/PAttributesChart.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="processcapabilitystudylongformat" class="level2" data-number="18.12">
+<h2 data-number="18.12" class="anchored" data-anchor-id="processcapabilitystudylongformat"><span class="header-section-number">18.12</span> ProcessCapabilityStudyLongFormat</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/ProcessCapabilityStudyLongFormat/ProcessCapabilityStudyLongFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/ProcessCapabilityStudyLongFormat/ProcessCapabilityStudyLongFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/ProcessCapabilityStudyLongFormat/ProcessCapabilityStudyLongFormat.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="processcapabilitystudywideformat" class="level2" data-number="18.13">
+<h2 data-number="18.13" class="anchored" data-anchor-id="processcapabilitystudywideformat"><span class="header-section-number">18.13</span> ProcessCapabilityStudyWideFormat</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/ProcessCapabilityStudyWideFormat/ProcessCapabilityStudyWideFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/ProcessCapabilityStudyWideFormat/ProcessCapabilityStudyWideFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/ProcessCapabilityStudyWideFormat/ProcessCapabilityStudyWideFormat.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="rangemethoddatalongformat" class="level2" data-number="18.14">
+<h2 data-number="18.14" class="anchored" data-anchor-id="rangemethoddatalongformat"><span class="header-section-number">18.14</span> RangeMethodDataLongFormat</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/RangeMethodDataLongFormat/RangeMethodDataLongFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/RangeMethodDataLongFormat/RangeMethodDataLongFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/RangeMethodDataLongFormat/RangeMethodDataLongFormat.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="rangemethoddatawideformat" class="level2" data-number="18.15">
+<h2 data-number="18.15" class="anchored" data-anchor-id="rangemethoddatawideformat"><span class="header-section-number">18.15</span> RangeMethodDataWideFormat</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/RangeMethodDataWideFormat/RangeMethodDataWideFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/RangeMethodDataWideFormat/RangeMethodDataWideFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/RangeMethodDataWideFormat/RangeMethodDataWideFormat.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="responsesurfacedesignanalysis" class="level2" data-number="18.16">
+<h2 data-number="18.16" class="anchored" data-anchor-id="responsesurfacedesignanalysis"><span class="header-section-number">18.16</span> ResponseSurfaceDesignAnalysis</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/ResponseSurfaceDesignAnalysis/ResponseSurfaceDesignAnalysis.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/ResponseSurfaceDesignAnalysis/ResponseSurfaceDesignAnalysis.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/ResponseSurfaceDesignAnalysis/ResponseSurfaceDesignAnalysis.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="subgroupchartlongformat" class="level2" data-number="18.17">
+<h2 data-number="18.17" class="anchored" data-anchor-id="subgroupchartlongformat"><span class="header-section-number">18.17</span> SubgroupChartLongFormat</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/SubgroupChartLongFormat/SubgroupChartLongFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/SubgroupChartLongFormat/SubgroupChartLongFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/SubgroupChartLongFormat/SubgroupChartLongFormat.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="subgroupchartwideformat" class="level2" data-number="18.18">
+<h2 data-number="18.18" class="anchored" data-anchor-id="subgroupchartwideformat"><span class="header-section-number">18.18</span> SubgroupChartWideFormat</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/SubgroupChartWideFormat/SubgroupChartWideFormat.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/SubgroupChartWideFormat/SubgroupChartWideFormat.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/SubgroupChartWideFormat/SubgroupChartWideFormat.csv">.csv</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="type1instrumentcapability" class="level2" data-number="18.19">
+<h2 data-number="18.19" class="anchored" data-anchor-id="type1instrumentcapability"><span class="header-section-number">18.19</span> Type1InstrumentCapability</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/Type1InstrumentCapability/Type1InstrumentCapability.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Type1InstrumentCapability/Type1InstrumentCapability.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Type1InstrumentCapability/Type1InstrumentCapability.csv">.csv</a></td>
 </tr>
 </tbody>
 </table>
@@ -399,10 +591,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -412,8 +603,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -426,6 +626,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -469,6 +788,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -494,6 +814,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -555,17 +901,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../myChapters/chapter_17.html" class="pagination-link">
+      <a href="../myChapters/chapter_17.html" class="pagination-link" aria-label="Mixed Models">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Mixed Models</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../myChapters/chapter_19.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Books</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../myChapters/chapter_19.html" class="pagination-link" aria-label="Survival">
+        <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Survival</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 

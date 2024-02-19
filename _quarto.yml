@@ -6,9 +6,9 @@ book:
   title: "The JASP Data Library"
   author: "The JASP Team"
   date: today
-  sidebar:
-    chapters:
+  chapters:
     - index.qmd
+  sidebar:
     contents:
       - index.qmd
       - auto: "myChapters/chapter*"

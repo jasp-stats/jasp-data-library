@@ -1,0 +1,44 @@
+bibliography: references.bib
+book:
+  author: The JASP Team
+  chapters:
+  - index.qmd
+  - myChapters/chapter_1.md
+  - myChapters/chapter_2.md
+  - myChapters/chapter_3.md
+  - myChapters/chapter_4.md
+  - myChapters/chapter_5.md
+  - myChapters/chapter_6.md
+  - myChapters/chapter_7.md
+  - myChapters/chapter_8.md
+  - myChapters/chapter_9.md
+  - myChapters/chapter_10.md
+  - myChapters/chapter_11.md
+  - myChapters/chapter_12.md
+  - myChapters/chapter_13.md
+  - myChapters/chapter_14.md
+  - myChapters/chapter_15.md
+  - myChapters/chapter_16.md
+  - myChapters/chapter_17.md
+  - myChapters/chapter_18.md
+  - myChapters/chapter_19.md
+  - myChapters/chapter_20.md
+  - myChapters/chapter_21.md
+  - myChapters/chapter_22.md
+  date: today
+  sidebar:
+    contents:
+    - index.qmd
+    - auto: myChapters/chapter*
+  title: The JASP Data Library
+editor: visual
+format:
+  html:
+    theme: bootstrap
+  pdf:
+    documentclass: scrreprt
+new_session: false
+project:
+  output-dir: docs
+  type: book
+url_sanitize: false

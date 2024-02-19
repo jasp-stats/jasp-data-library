@@ -1,0 +1,1202 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The JASP Data Library",
+    "section": "",
+    "text": "Preface\nThis is the documentation for the examples contained in the JASP Data Library. The data sets are available in .jasp, html, and .csv format. This documentation will grow over time, and therefore we have added an edition number to the book title.\nThe example data sets come from various sources. For educational purposes we have included the material from two popular statistical textbooks, Field (2017) and Moore et al. (2012). This means it is now easy for teachers and students to use JASP and analyze the classic ‘Looks or Personality’ example from Andy Field, or the ‘College Success’ example from Moore, McCaib, and Craig. We also added the original example data sets that JASP users may be familiar with (ever wonder what the ‘Kitchen Rolls’ data set was all about?). A number of publicly available data sets have been added as well.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#copyright",
+    "href": "index.html#copyright",
+    "title": "The JASP Data Library",
+    "section": "Copyright",
+    "text": "Copyright\nMost data sets contained in the JASP Data Library are already publicly available because they have been presented in academic articles and books. The legal consensus is that such data are facts and therefore do not fall under copyright protection. An exception concerns data that have not been collected but constructed in order to serve an educational purpose, as is the case for most data sets from Andy Field’s popular course books. For these data sets, the source is acknowledged as follows:\n\nThis data set comes from Field, A. P. (2017). Discovering Statistics Using IBM SPSS Statistics (5th ed.). London: Sage. The data set was constructed by Andy Field who therefore owns the copyright. Andy Field generously agreed that we can include the data set in the JASP data library. This data set is also publicly available on the website that accompanies Andy Field’s book: https://edge.sagepub.com/field5e. Without Andy Field’s explicit consent, this data set may not be distributed for commercial purposes, this data set may not be edited, and this data set may not be presented without acknowledging its source (i.e., the terms of a CC BY-NC-ND license; https://creativecommons.org/licenses/by-nc-nd/3.0/). ”",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_1.html",
+    "href": "myChapters/chapter_1.html",
+    "title": "1  Descriptives",
+    "section": "",
+    "text": "1.1 Sleep",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Descriptives</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_1.html#sleep",
+    "href": "myChapters/chapter_1.html#sleep",
+    "title": "1  Descriptives",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Descriptives</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_2.html",
+    "href": "myChapters/chapter_2.html",
+    "title": "2  T-Tests",
+    "section": "",
+    "text": "2.1 Directed Reading Activities",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>T-Tests</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_2.html#directed-reading-activities",
+    "href": "myChapters/chapter_2.html#directed-reading-activities",
+    "title": "2  T-Tests",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>T-Tests</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_2.html#eye-movements",
+    "href": "myChapters/chapter_2.html#eye-movements",
+    "title": "2  T-Tests",
+    "section": "2.2 Eye Movements",
+    "text": "2.2 Eye Movements\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>T-Tests</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_2.html#invisibility-cloak",
+    "href": "myChapters/chapter_2.html#invisibility-cloak",
+    "title": "2  T-Tests",
+    "section": "2.3 Invisibility Cloak",
+    "text": "2.3 Invisibility Cloak\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>T-Tests</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_2.html#kitchen-rolls",
+    "href": "myChapters/chapter_2.html#kitchen-rolls",
+    "title": "2  T-Tests",
+    "section": "2.4 Kitchen Rolls",
+    "text": "2.4 Kitchen Rolls\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>T-Tests</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_2.html#moon-and-aggression",
+    "href": "myChapters/chapter_2.html#moon-and-aggression",
+    "title": "2  T-Tests",
+    "section": "2.5 Moon and Aggression",
+    "text": "2.5 Moon and Aggression\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>T-Tests</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_2.html#stereograms",
+    "href": "myChapters/chapter_2.html#stereograms",
+    "title": "2  T-Tests",
+    "section": "2.6 Stereograms",
+    "text": "2.6 Stereograms\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>T-Tests</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_2.html#weight-gain",
+    "href": "myChapters/chapter_2.html#weight-gain",
+    "title": "2  T-Tests",
+    "section": "2.7 Weight Gain",
+    "text": "2.7 Weight Gain\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>T-Tests</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html",
+    "href": "myChapters/chapter_3.html",
+    "title": "3  ANOVA",
+    "section": "",
+    "text": "3.1 Alcohol Attitudes",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#alcohol-attitudes",
+    "href": "myChapters/chapter_3.html#alcohol-attitudes",
+    "title": "3  ANOVA",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#beer-goggles",
+    "href": "myChapters/chapter_3.html#beer-goggles",
+    "title": "3  ANOVA",
+    "section": "3.2 Beer Goggles",
+    "text": "3.2 Beer Goggles\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#bugs",
+    "href": "myChapters/chapter_3.html#bugs",
+    "title": "3  ANOVA",
+    "section": "3.3 Bugs",
+    "text": "3.3 Bugs\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#bush-tucker-food",
+    "href": "myChapters/chapter_3.html#bush-tucker-food",
+    "title": "3  ANOVA",
+    "section": "3.4 Bush Tucker Food",
+    "text": "3.4 Bush Tucker Food\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#erotic-pictures-and-love",
+    "href": "myChapters/chapter_3.html#erotic-pictures-and-love",
+    "title": "3  ANOVA",
+    "section": "3.5 Erotic Pictures and Love",
+    "text": "3.5 Erotic Pictures and Love\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#facebook-friends",
+    "href": "myChapters/chapter_3.html#facebook-friends",
+    "title": "3  ANOVA",
+    "section": "3.6 Facebook Friends",
+    "text": "3.6 Facebook Friends\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#heart-rate",
+    "href": "myChapters/chapter_3.html#heart-rate",
+    "title": "3  ANOVA",
+    "section": "3.7 Heart Rate",
+    "text": "3.7 Heart Rate\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#looks-or-personality",
+    "href": "myChapters/chapter_3.html#looks-or-personality",
+    "title": "3  ANOVA",
+    "section": "3.8 Looks or Personality",
+    "text": "3.8 Looks or Personality\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#pain-thresholds",
+    "href": "myChapters/chapter_3.html#pain-thresholds",
+    "title": "3  ANOVA",
+    "section": "3.9 Pain Thresholds",
+    "text": "3.9 Pain Thresholds\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#response-to-eye-color",
+    "href": "myChapters/chapter_3.html#response-to-eye-color",
+    "title": "3  ANOVA",
+    "section": "3.10 Response to Eye Color",
+    "text": "3.10 Response to Eye Color\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#singers",
+    "href": "myChapters/chapter_3.html#singers",
+    "title": "3  ANOVA",
+    "section": "3.11 Singers",
+    "text": "3.11 Singers\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#stroop",
+    "href": "myChapters/chapter_3.html#stroop",
+    "title": "3  ANOVA",
+    "section": "3.12 Stroop",
+    "text": "3.12 Stroop\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#tooth-growth",
+    "href": "myChapters/chapter_3.html#tooth-growth",
+    "title": "3  ANOVA",
+    "section": "3.13 Tooth Growth",
+    "text": "3.13 Tooth Growth\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_3.html#viagra",
+    "href": "myChapters/chapter_3.html#viagra",
+    "title": "3  ANOVA",
+    "section": "3.14 Viagra",
+    "text": "3.14 Viagra\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ANOVA</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html",
+    "href": "myChapters/chapter_4.html",
+    "title": "4  Regression",
+    "section": "",
+    "text": "4.1 Adam Sandler",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#adam-sandler",
+    "href": "myChapters/chapter_4.html#adam-sandler",
+    "title": "4  Regression",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#album-sales",
+    "href": "myChapters/chapter_4.html#album-sales",
+    "title": "4  Regression",
+    "section": "4.2 Album Sales",
+    "text": "4.2 Album Sales\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#auction",
+    "href": "myChapters/chapter_4.html#auction",
+    "title": "4  Regression",
+    "section": "4.3 Auction",
+    "text": "4.3 Auction\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#big-five-personality-traits",
+    "href": "myChapters/chapter_4.html#big-five-personality-traits",
+    "title": "4  Regression",
+    "section": "4.4 Big Five Personality Traits",
+    "text": "4.4 Big Five Personality Traits\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#college-success",
+    "href": "myChapters/chapter_4.html#college-success",
+    "title": "4  Regression",
+    "section": "4.5 College Success",
+    "text": "4.5 College Success\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#exam-anxiety",
+    "href": "myChapters/chapter_4.html#exam-anxiety",
+    "title": "4  Regression",
+    "section": "4.6 Exam Anxiety",
+    "text": "4.6 Exam Anxiety\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#fidgeting-and-fat-gain",
+    "href": "myChapters/chapter_4.html#fidgeting-and-fat-gain",
+    "title": "4  Regression",
+    "section": "4.7 Fidgeting and Fat Gain",
+    "text": "4.7 Fidgeting and Fat Gain\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#glasgow-norms",
+    "href": "myChapters/chapter_4.html#glasgow-norms",
+    "title": "4  Regression",
+    "section": "4.8 Glasgow Norms",
+    "text": "4.8 Glasgow Norms\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#physical-activity-and-bmi",
+    "href": "myChapters/chapter_4.html#physical-activity-and-bmi",
+    "title": "4  Regression",
+    "section": "4.9 Physical Activity and BMI",
+    "text": "4.9 Physical Activity and BMI\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#presidents-height",
+    "href": "myChapters/chapter_4.html#presidents-height",
+    "title": "4  Regression",
+    "section": "4.10 Presidents’ Height",
+    "text": "4.10 Presidents’ Height\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#the-biggest-liar",
+    "href": "myChapters/chapter_4.html#the-biggest-liar",
+    "title": "4  Regression",
+    "section": "4.11 The Biggest Liar",
+    "text": "4.11 The Biggest Liar\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#titanic",
+    "href": "myChapters/chapter_4.html#titanic",
+    "title": "4  Regression",
+    "section": "4.12 Titanic",
+    "text": "4.12 Titanic\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#turbines",
+    "href": "myChapters/chapter_4.html#turbines",
+    "title": "4  Regression",
+    "section": "4.13 Turbines",
+    "text": "4.13 Turbines\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_4.html#world-happiness",
+    "href": "myChapters/chapter_4.html#world-happiness",
+    "title": "4  Regression",
+    "section": "4.14 World Happiness",
+    "text": "4.14 World Happiness\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_5.html",
+    "href": "myChapters/chapter_5.html",
+    "title": "5  Frequencies",
+    "section": "",
+    "text": "5.1 Dancing Cats and Dogs",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Frequencies</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_5.html#dancing-cats-and-dogs",
+    "href": "myChapters/chapter_5.html#dancing-cats-and-dogs",
+    "title": "5  Frequencies",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Frequencies</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_5.html#dancing-cats",
+    "href": "myChapters/chapter_5.html#dancing-cats",
+    "title": "5  Frequencies",
+    "section": "5.2 Dancing Cats",
+    "text": "5.2 Dancing Cats\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Frequencies</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_5.html#death-penalty",
+    "href": "myChapters/chapter_5.html#death-penalty",
+    "title": "5  Frequencies",
+    "section": "5.3 Death Penalty",
+    "text": "5.3 Death Penalty\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Frequencies</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_5.html#emily-rosa",
+    "href": "myChapters/chapter_5.html#emily-rosa",
+    "title": "5  Frequencies",
+    "section": "5.4 Emily Rosa",
+    "text": "5.4 Emily Rosa\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Frequencies</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_5.html#health-habits",
+    "href": "myChapters/chapter_5.html#health-habits",
+    "title": "5  Frequencies",
+    "section": "5.5 Health Habits",
+    "text": "5.5 Health Habits\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Frequencies</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_5.html#hungry-zombies",
+    "href": "myChapters/chapter_5.html#hungry-zombies",
+    "title": "5  Frequencies",
+    "section": "5.6 Hungry Zombies",
+    "text": "5.6 Hungry Zombies\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Frequencies</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_5.html#listerism",
+    "href": "myChapters/chapter_5.html#listerism",
+    "title": "5  Frequencies",
+    "section": "5.7 Listerism",
+    "text": "5.7 Listerism\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Frequencies</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_5.html#memory-of-life-stresses",
+    "href": "myChapters/chapter_5.html#memory-of-life-stresses",
+    "title": "5  Frequencies",
+    "section": "5.8 Memory of Life Stresses",
+    "text": "5.8 Memory of Life Stresses\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Frequencies</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_5.html#mooc-bias",
+    "href": "myChapters/chapter_5.html#mooc-bias",
+    "title": "5  Frequencies",
+    "section": "5.9 MOOC Bias",
+    "text": "5.9 MOOC Bias\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Frequencies</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_5.html#sun-block-lotions",
+    "href": "myChapters/chapter_5.html#sun-block-lotions",
+    "title": "5  Frequencies",
+    "section": "5.10 Sun Block Lotions",
+    "text": "5.10 Sun Block Lotions\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Frequencies</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_6.html",
+    "href": "myChapters/chapter_6.html",
+    "title": "6  Factor",
+    "section": "",
+    "text": "6.1 G Factor",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Factor</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_6.html#g-factor",
+    "href": "myChapters/chapter_6.html#g-factor",
+    "title": "6  Factor",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Factor</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_6.html#mental-ability",
+    "href": "myChapters/chapter_6.html#mental-ability",
+    "title": "6  Factor",
+    "section": "6.2 Mental Ability",
+    "text": "6.2 Mental Ability\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Factor</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_7.html",
+    "href": "myChapters/chapter_7.html",
+    "title": "7  Audit",
+    "section": "",
+    "text": "7.1 sinoForest",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Audit</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_7.html#sinoforest",
+    "href": "myChapters/chapter_7.html#sinoforest",
+    "title": "7  Audit",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Audit</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_9.html",
+    "href": "myChapters/chapter_9.html",
+    "title": "9  Discover Distributions",
+    "section": "",
+    "text": "9.1 Normal distribution",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Discover Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_9.html#normal-distribution",
+    "href": "myChapters/chapter_9.html#normal-distribution",
+    "title": "9  Discover Distributions",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Discover Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_10.html",
+    "href": "myChapters/chapter_10.html",
+    "title": "10  Machine Learning",
+    "section": "",
+    "text": "10.1 iris",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Machine Learning</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_10.html#iris",
+    "href": "myChapters/chapter_10.html#iris",
+    "title": "10  Machine Learning",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Machine Learning</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_10.html#penguins",
+    "href": "myChapters/chapter_10.html#penguins",
+    "title": "10  Machine Learning",
+    "section": "10.2 penguins",
+    "text": "10.2 penguins\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Machine Learning</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_10.html#policecadetevaluation",
+    "href": "myChapters/chapter_10.html#policecadetevaluation",
+    "title": "10  Machine Learning",
+    "section": "10.3 policeCadetEvaluation",
+    "text": "10.3 policeCadetEvaluation\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Machine Learning</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_10.html#spiral",
+    "href": "myChapters/chapter_10.html#spiral",
+    "title": "10  Machine Learning",
+    "section": "10.4 spiral",
+    "text": "10.4 spiral\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Machine Learning</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_10.html#studentgrades",
+    "href": "myChapters/chapter_10.html#studentgrades",
+    "title": "10  Machine Learning",
+    "section": "10.5 studentGrades",
+    "text": "10.5 studentGrades\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Machine Learning</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_10.html#telcocustomerchurn",
+    "href": "myChapters/chapter_10.html#telcocustomerchurn",
+    "title": "10  Machine Learning",
+    "section": "10.6 telcoCustomerChurn",
+    "text": "10.6 telcoCustomerChurn\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Machine Learning</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_10.html#wine",
+    "href": "myChapters/chapter_10.html#wine",
+    "title": "10  Machine Learning",
+    "section": "10.7 wine",
+    "text": "10.7 wine\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Machine Learning</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_11.html",
+    "href": "myChapters/chapter_11.html",
+    "title": "11  Meta-Analysis",
+    "section": "",
+    "text": "11.1 BCG Vaccine",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Meta-Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_11.html#bcg-vaccine",
+    "href": "myChapters/chapter_11.html#bcg-vaccine",
+    "title": "11  Meta-Analysis",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Meta-Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_12.html",
+    "href": "myChapters/chapter_12.html",
+    "title": "12  Network Analysis",
+    "section": "",
+    "text": "12.1 BFI Network",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Network Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_12.html#bfi-network",
+    "href": "myChapters/chapter_12.html#bfi-network",
+    "title": "12  Network Analysis",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Network Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_13.html",
+    "href": "myChapters/chapter_13.html",
+    "title": "13  Reliability",
+    "section": "",
+    "text": "13.1 ASRM - Mania Scale",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reliability</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_13.html#asrm---mania-scale",
+    "href": "myChapters/chapter_13.html#asrm---mania-scale",
+    "title": "13  Reliability",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reliability</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_13.html#fear-of-statistics",
+    "href": "myChapters/chapter_13.html#fear-of-statistics",
+    "title": "13  Reliability",
+    "section": "13.2 Fear of Statistics",
+    "text": "13.2 Fear of Statistics\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reliability</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_13.html#interrater-data-from-shrout-and-fleiss-1979",
+    "href": "myChapters/chapter_13.html#interrater-data-from-shrout-and-fleiss-1979",
+    "title": "13  Reliability",
+    "section": "13.3 Interrater Data from Shrout and Fleiss (1979)",
+    "text": "13.3 Interrater Data from Shrout and Fleiss (1979)\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reliability</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_14.html",
+    "href": "myChapters/chapter_14.html",
+    "title": "14  SEM",
+    "section": "",
+    "text": "14.1 Grand Point Average",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>SEM</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_14.html#grand-point-average",
+    "href": "myChapters/chapter_14.html#grand-point-average",
+    "title": "14  SEM",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>SEM</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_14.html#political-democracy",
+    "href": "myChapters/chapter_14.html#political-democracy",
+    "title": "14  SEM",
+    "section": "14.2 Political Democracy",
+    "text": "14.2 Political Democracy\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>SEM</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_14.html#social-participation",
+    "href": "myChapters/chapter_14.html#social-participation",
+    "title": "14  SEM",
+    "section": "14.3 Social Participation",
+    "text": "14.3 Social Participation\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>SEM</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_15.html",
+    "href": "myChapters/chapter_15.html",
+    "title": "15  Prophet",
+    "section": "",
+    "text": "15.1 JASP Webpage Visits",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Prophet</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_15.html#jasp-webpage-visits",
+    "href": "myChapters/chapter_15.html#jasp-webpage-visits",
+    "title": "15  Prophet",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Prophet</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_16.html",
+    "href": "myChapters/chapter_16.html",
+    "title": "16  Circular Statistics",
+    "section": "",
+    "text": "16.1 El Nino",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Circular Statistics</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_16.html#el-nino",
+    "href": "myChapters/chapter_16.html#el-nino",
+    "title": "16  Circular Statistics",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Circular Statistics</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_17.html",
+    "href": "myChapters/chapter_17.html",
+    "title": "17  Mixed Models",
+    "section": "",
+    "text": "17.1 Larks and Owls",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Mixed Models</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_17.html#larks-and-owls",
+    "href": "myChapters/chapter_17.html#larks-and-owls",
+    "title": "17  Mixed Models",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Mixed Models</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html",
+    "href": "myChapters/chapter_18.html",
+    "title": "18  Quality Control",
+    "section": "",
+    "text": "18.1 AttributesAgreementAnalysisLongFormat",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#attributesagreementanalysislongformat",
+    "href": "myChapters/chapter_18.html#attributesagreementanalysislongformat",
+    "title": "18  Quality Control",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#attributesagreementanalysiswideformat",
+    "href": "myChapters/chapter_18.html#attributesagreementanalysiswideformat",
+    "title": "18  Quality Control",
+    "section": "18.2 AttributesAgreementAnalysisWideFormat",
+    "text": "18.2 AttributesAgreementAnalysisWideFormat\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#factorialdesignanalysis",
+    "href": "myChapters/chapter_18.html#factorialdesignanalysis",
+    "title": "18  Quality Control",
+    "section": "18.3 FactorialDesignAnalysis",
+    "text": "18.3 FactorialDesignAnalysis\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#gaugerrlongformat",
+    "href": "myChapters/chapter_18.html#gaugerrlongformat",
+    "title": "18  Quality Control",
+    "section": "18.4 GaugerRLongFormat",
+    "text": "18.4 GaugerRLongFormat\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#gaugerrnestedlongformat",
+    "href": "myChapters/chapter_18.html#gaugerrnestedlongformat",
+    "title": "18  Quality Control",
+    "section": "18.5 GaugerRNestedLongFormat",
+    "text": "18.5 GaugerRNestedLongFormat\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#gaugerrnestedwideformat",
+    "href": "myChapters/chapter_18.html#gaugerrnestedwideformat",
+    "title": "18  Quality Control",
+    "section": "18.6 GaugerRNestedWideFormat",
+    "text": "18.6 GaugerRNestedWideFormat\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#gaugerrwideformat",
+    "href": "myChapters/chapter_18.html#gaugerrwideformat",
+    "title": "18  Quality Control",
+    "section": "18.7 GaugerRWideFormat",
+    "text": "18.7 GaugerRWideFormat\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#individualchartstages",
+    "href": "myChapters/chapter_18.html#individualchartstages",
+    "title": "18  Quality Control",
+    "section": "18.8 IndividualChartStages",
+    "text": "18.8 IndividualChartStages\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#linearitystudy",
+    "href": "myChapters/chapter_18.html#linearitystudy",
+    "title": "18  Quality Control",
+    "section": "18.9 LinearityStudy",
+    "text": "18.9 LinearityStudy\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#npattributeschart",
+    "href": "myChapters/chapter_18.html#npattributeschart",
+    "title": "18  Quality Control",
+    "section": "18.10 NPAttributesChart",
+    "text": "18.10 NPAttributesChart\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#pattributeschart",
+    "href": "myChapters/chapter_18.html#pattributeschart",
+    "title": "18  Quality Control",
+    "section": "18.11 PAttributesChart",
+    "text": "18.11 PAttributesChart\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#processcapabilitystudylongformat",
+    "href": "myChapters/chapter_18.html#processcapabilitystudylongformat",
+    "title": "18  Quality Control",
+    "section": "18.12 ProcessCapabilityStudyLongFormat",
+    "text": "18.12 ProcessCapabilityStudyLongFormat\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#processcapabilitystudywideformat",
+    "href": "myChapters/chapter_18.html#processcapabilitystudywideformat",
+    "title": "18  Quality Control",
+    "section": "18.13 ProcessCapabilityStudyWideFormat",
+    "text": "18.13 ProcessCapabilityStudyWideFormat\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#rangemethoddatalongformat",
+    "href": "myChapters/chapter_18.html#rangemethoddatalongformat",
+    "title": "18  Quality Control",
+    "section": "18.14 RangeMethodDataLongFormat",
+    "text": "18.14 RangeMethodDataLongFormat\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#rangemethoddatawideformat",
+    "href": "myChapters/chapter_18.html#rangemethoddatawideformat",
+    "title": "18  Quality Control",
+    "section": "18.15 RangeMethodDataWideFormat",
+    "text": "18.15 RangeMethodDataWideFormat\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#responsesurfacedesignanalysis",
+    "href": "myChapters/chapter_18.html#responsesurfacedesignanalysis",
+    "title": "18  Quality Control",
+    "section": "18.16 ResponseSurfaceDesignAnalysis",
+    "text": "18.16 ResponseSurfaceDesignAnalysis\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#subgroupchartlongformat",
+    "href": "myChapters/chapter_18.html#subgroupchartlongformat",
+    "title": "18  Quality Control",
+    "section": "18.17 SubgroupChartLongFormat",
+    "text": "18.17 SubgroupChartLongFormat\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#subgroupchartwideformat",
+    "href": "myChapters/chapter_18.html#subgroupchartwideformat",
+    "title": "18  Quality Control",
+    "section": "18.18 SubgroupChartWideFormat",
+    "text": "18.18 SubgroupChartWideFormat\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_18.html#type1instrumentcapability",
+    "href": "myChapters/chapter_18.html#type1instrumentcapability",
+    "title": "18  Quality Control",
+    "section": "18.19 Type1InstrumentCapability",
+    "text": "18.19 Type1InstrumentCapability\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quality Control</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_19.html",
+    "href": "myChapters/chapter_19.html",
+    "title": "19  Survival",
+    "section": "",
+    "text": "19.1 Leukemia",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Survival</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_19.html#leukemia",
+    "href": "myChapters/chapter_19.html#leukemia",
+    "title": "19  Survival",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Survival</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_20.html",
+    "href": "myChapters/chapter_20.html",
+    "title": "20  Process",
+    "section": "",
+    "text": "20.1 Age and Fatigue",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Process</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_20.html#age-and-fatigue",
+    "href": "myChapters/chapter_20.html#age-and-fatigue",
+    "title": "20  Process",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Process</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_20.html#climate-change-disasters",
+    "href": "myChapters/chapter_20.html#climate-change-disasters",
+    "title": "20  Process",
+    "section": "20.2 Climate Change Disasters",
+    "text": "20.2 Climate Change Disasters\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Process</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_20.html#presumed-media-influence",
+    "href": "myChapters/chapter_20.html#presumed-media-influence",
+    "title": "20  Process",
+    "section": "20.3 Presumed Media Influence",
+    "text": "20.3 Presumed Media Influence\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Process</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_21.html",
+    "href": "myChapters/chapter_21.html",
+    "title": "21  Miscellaneous",
+    "section": "",
+    "text": "21.1 Anscombe’s Quartet",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Miscellaneous</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_21.html#anscombes-quartet",
+    "href": "myChapters/chapter_21.html#anscombes-quartet",
+    "title": "21  Miscellaneous",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Miscellaneous</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_21.html#missing-data",
+    "href": "myChapters/chapter_21.html#missing-data",
+    "title": "21  Miscellaneous",
+    "section": "21.2 Missing Data",
+    "text": "21.2 Missing Data\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Miscellaneous</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_21.html#the-datasaurus-dozen-long",
+    "href": "myChapters/chapter_21.html#the-datasaurus-dozen-long",
+    "title": "21  Miscellaneous",
+    "section": "21.3 The Datasaurus Dozen (Long)",
+    "text": "21.3 The Datasaurus Dozen (Long)\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Miscellaneous</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_21.html#the-datasaurus-dozen-wide",
+    "href": "myChapters/chapter_21.html#the-datasaurus-dozen-wide",
+    "title": "21  Miscellaneous",
+    "section": "21.4 The Datasaurus Dozen (Wide)",
+    "text": "21.4 The Datasaurus Dozen (Wide)\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Miscellaneous</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_22.html",
+    "href": "myChapters/chapter_22.html",
+    "title": "22  Books",
+    "section": "",
+    "text": "22.1 Field - Discovering Statistics",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Books</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_22.html#field---discovering-statistics",
+    "href": "myChapters/chapter_22.html#field---discovering-statistics",
+    "title": "22  Books",
+    "section": "",
+    "text": "22.1.1 Fear of Statistics\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.2 Invisibility Cloak\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.3 Alcohol Attitudes\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.4 Beer Goggles\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.5 Bush Tucker Food\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.6 Looks or Personality\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.7 Viagra\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.8 Album Sales\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.9 Exam Anxiety\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.10 The Biggest Liar\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.11 Dancing Cats\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.12 Dancing Cats and Dogs\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Books</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_22.html#moore-mccabe-craig---introduction-to-the-practice-of-statistics",
+    "href": "myChapters/chapter_22.html#moore-mccabe-craig---introduction-to-the-practice-of-statistics",
+    "title": "22  Books",
+    "section": "22.2 Moore, McCabe, & Craig - Introduction to the Practice of Statistics",
+    "text": "22.2 Moore, McCabe, & Craig - Introduction to the Practice of Statistics\n\n22.2.1 Directed Reading Activities\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.2 Moon and Aggression\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.3 Weight Gain\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.4 Facebook Friends\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.5 Heart Rate\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.6 Response to Eye Color\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.7 College Success\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.8 Fidgeting and Fat Gain\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.9 Physical Activity and BMI\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.10 Health Habits\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Books</span>"
+    ]
+  }
+]

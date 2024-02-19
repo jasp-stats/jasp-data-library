@@ -1,10 +1,37 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
    "data" : {
-      "NelsonTables" : {
+      "controlCharts" : {
          "citations" : [],
          "data" : {
-            "NelsonTableS" : {
+            "plot" : {
+               "aspectRatio" : 0.0,
+               "citations" : [],
+               "editOptions" : {
+                  "errorType" : "validationError",
+                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+               },
+               "environmentName" : "plot_0",
+               "error" : false,
+               "errorMessage" : "",
+               "escapeHtml" : true,
+               "filePathPng" : "resources/0/_0_t1702646147560.png",
+               "height" : 500,
+               "messages" : [],
+               "name" : "plot",
+               "nestedOptionMustBe" : {},
+               "nestedOptionMustContain" : {},
+               "optionMustBe" : {},
+               "optionMustContain" : {},
+               "position" : 9999,
+               "resizedByUser" : false,
+               "revision" : 0,
+               "status" : "complete",
+               "title" : "X-bar & s control chart",
+               "type" : "plot",
+               "width" : 1200
+            },
+            "secondTable" : {
                "citations" : [],
                "colCombines" : {
                   "citations" : [],
@@ -56,7 +83,7 @@
                   "optionMustBe" : {},
                   "optionMustContain" : {},
                   "position" : 9999,
-                  "rows" : [ "test1", "test2", "test3" ],
+                  "rows" : [],
                   "title" : "colNames",
                   "type" : "list"
                },
@@ -115,22 +142,15 @@
                   "title" : "colTypes",
                   "type" : "list"
                },
-               "data" : [ [], [], [] ],
+               "data" : [],
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
                "expectedColumnCount" : 0,
                "expectedRowCount" : 0,
-               "footnotes" : [
-                  {
-                     "cols" : null,
-                     "rows" : null,
-                     "symbol" : "<em>Note.</em>",
-                     "text" : "Numbers are data points where test violations occur."
-                  }
-               ],
+               "footnotes" : [],
                "messages" : [],
-               "name" : "NelsonTableS",
+               "name" : "secondTable",
                "nestedOptionMustBe" : {},
                "nestedOptionMustContain" : {},
                "optionMustBe" : {},
@@ -172,7 +192,7 @@
                   "title" : "rowTitles",
                   "type" : "list"
                },
-               "showSpecifiedColumnsOnly" : true,
+               "showSpecifiedColumnsOnly" : false,
                "specifiedColumns" : [],
                "status" : "complete",
                "title" : "Test results for s chart",
@@ -180,7 +200,7 @@
                "transposeWithOvertitle" : false,
                "type" : "table"
             },
-            "NelsonTableX" : {
+            "xBarTable" : {
                "citations" : [],
                "colCombines" : {
                   "citations" : [],
@@ -232,7 +252,7 @@
                   "optionMustBe" : {},
                   "optionMustContain" : {},
                   "position" : 9999,
-                  "rows" : [ "test1", "test2", "test3", "test4", "test5", "test6" ],
+                  "rows" : [],
                   "title" : "colNames",
                   "type" : "list"
                },
@@ -291,22 +311,15 @@
                   "title" : "colTypes",
                   "type" : "list"
                },
-               "data" : [ [], [], [], [], [], [] ],
+               "data" : [],
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
                "expectedColumnCount" : 0,
                "expectedRowCount" : 0,
-               "footnotes" : [
-                  {
-                     "cols" : null,
-                     "rows" : null,
-                     "symbol" : "<em>Note.</em>",
-                     "text" : "Numbers are data points where test violations occur."
-                  }
-               ],
+               "footnotes" : [],
                "messages" : [],
-               "name" : "NelsonTableX",
+               "name" : "xBarTable",
                "nestedOptionMustBe" : {},
                "nestedOptionMustContain" : {},
                "optionMustBe" : {},
@@ -348,111 +361,65 @@
                   "title" : "rowTitles",
                   "type" : "list"
                },
-               "showSpecifiedColumnsOnly" : true,
+               "showSpecifiedColumnsOnly" : false,
                "specifiedColumns" : [],
                "status" : "complete",
-               "title" : "Test results for X-bar chart",
+               "title" : "Test results for x-bar chart",
                "transposeTable" : false,
                "transposeWithOvertitle" : false,
                "type" : "table"
             }
          },
          "data_order" : {
-            "NelsonTableS" : 1,
-            "NelsonTableX" : 0
+            "plot" : 0,
+            "secondTable" : 2,
+            "xBarTable" : 1
          },
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
          "initCollapsed" : false,
          "messages" : [],
-         "name" : "NelsonTables",
+         "name" : "controlCharts",
          "nestedOptionMustBe" : {},
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
-            "CCDataFormat" : "CCwideFormat",
-            "CCSubgroupSize" : 5.0,
-            "Phase2" : false,
-            "SD" : 3.0,
-            "TypeChart" : "Schart",
-            "Wlimits" : true,
-            "mean" : 0.0,
-            "subgroups" : "JaspColumn_0_Encoded",
-            "variables" : [
-               "JaspColumn_1_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_5_Encoded"
-            ],
-            "variablesLong" : ""
-         },
-         "optionMustContain" : {},
-         "order_increment" : 2,
-         "position" : 2,
-         "title" : "Out-of-control Signals",
-         "type" : "container"
-      },
-      "SPlot" : {
-         "aspectRatio" : 0.0,
-         "citations" : [],
-         "editOptions" : {
-            "errorType" : "validationError",
-            "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-         },
-         "environmentName" : "plot_57",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "filePathPng" : "resources/0/_53_t708211735.png",
-         "height" : 500,
-         "messages" : [],
-         "name" : "SPlot",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "CCDataFormat" : "CCwideFormat",
-            "CCReport" : false,
-            "CCSubgroupSize" : 5.0,
-            "Phase2" : false,
-            "SD" : 3.0,
-            "TypeChart" : "Schart",
-            "Wlimits" : true,
             "axisLabels" : "",
-            "ccChartName" : "",
-            "ccDate" : "",
-            "ccMisc" : "",
-            "ccName" : "",
-            "ccReportedBy" : "",
-            "ccSubTitle" : "",
-            "ccTitle" : "",
-            "manualTicks" : false,
-            "mean" : 0.0,
-            "nTicks" : 5.0,
-            "subgroupSizeUnequal" : "assumeEqualSize",
-            "subgroups" : "JaspColumn_0_Encoded",
-            "variables" : [
-               "JaspColumn_1_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_5_Encoded"
-            ],
-            "variablesLong" : ""
+            "chartType" : "xBarAndS",
+            "dataFormat" : "wideFormat",
+            "fixedSubgroupSizeValue" : 5,
+            "knownParameters" : false,
+            "knownParametersMean" : 0.0,
+            "knownParametersSd" : 3.0,
+            "manualSubgroupSizeValue" : 5.0,
+            "manualTicks" : null,
+            "measurementLongFormat" : "",
+            "nTicks" : null,
+            "report" : false,
+            "reportChartName" : "",
+            "reportDate" : "",
+            "reportMeasurementName" : "",
+            "reportMiscellaneous" : "",
+            "reportReportedBy" : "",
+            "reportSubtitle" : "",
+            "reportTitle" : "",
+            "stages" : "",
+            "subgroup" : "JaspColumn_0_Encoded",
+            "subgroupSizeType" : "groupingVariable",
+            "subgroupSizeUnequal" : "fixedSubgroupSize",
+            "variables" : null,
+            "warningLimits" : true,
+            "xBarAndSUnbiasingConstant" : true
          },
          "optionMustContain" : {},
+         "order_increment" : 3,
          "position" : 1,
-         "resizedByUser" : false,
-         "revision" : 0,
-         "status" : "complete",
-         "title" : "X-bar & s Control Chart",
-         "type" : "plot",
-         "width" : 1200
+         "title" : "",
+         "type" : "container"
       }
    },
    "data_order" : {
-      "NelsonTables" : 1,
-      "SPlot" : 0
+      "controlCharts" : 0
    },
    "error" : false,
    "errorMessage" : "",
@@ -469,49 +436,53 @@
          "axisLabels" : {
             "shouldEncode" : true
          },
-         "subgroups" : {
+         "measurementLongFormat" : {
             "shouldEncode" : true
          },
-         "variables" : {
+         "measurementsWideFormat" : {
             "shouldEncode" : true
          },
-         "variablesLong" : {
+         "stages" : {
+            "shouldEncode" : true
+         },
+         "subgroup" : {
             "shouldEncode" : true
          }
       },
-      "CCDataFormat" : "CCwideFormat",
-      "CCReport" : false,
-      "CCSubgroupSize" : 5.0,
-      "Phase2" : false,
-      "SD" : 3.0,
-      "TypeChart" : "Schart",
-      "Wlimits" : true,
       "axisLabels" : "",
-      "ccChartName" : "",
-      "ccDate" : "",
-      "ccMisc" : "",
-      "ccName" : "",
-      "ccReportedBy" : "",
-      "ccSubTitle" : "",
-      "ccTitle" : "",
-      "manualTicks" : false,
-      "mean" : 0.0,
-      "nTicks" : 5.0,
-      "plotHeight" : 320,
-      "plotWidth" : 480,
-      "subgroupSizeType" : "groupingVariable",
-      "subgroupSizeUnequal" : "assumeEqualSize",
-      "subgroups" : "JaspColumn_0_Encoded",
-      "variables" : [
+      "chartType" : "xBarAndS",
+      "dataFormat" : "wideFormat",
+      "fixedSubgroupSizeValue" : 5,
+      "knownParameters" : false,
+      "knownParametersMean" : 0.0,
+      "knownParametersSd" : 3.0,
+      "manualSubgroupSizeValue" : 5.0,
+      "measurementLongFormat" : "",
+      "measurementsWideFormat" : [
          "JaspColumn_1_Encoded",
          "JaspColumn_2_Encoded",
          "JaspColumn_3_Encoded",
          "JaspColumn_4_Encoded",
          "JaspColumn_5_Encoded"
       ],
-      "variablesLong" : ""
+      "plotHeight" : 320,
+      "plotWidth" : 480,
+      "report" : false,
+      "reportChartName" : "",
+      "reportDate" : "",
+      "reportMeasurementName" : "",
+      "reportMiscellaneous" : "",
+      "reportReportedBy" : "",
+      "reportSubtitle" : "",
+      "reportTitle" : "",
+      "stages" : "",
+      "subgroup" : "JaspColumn_0_Encoded",
+      "subgroupSizeType" : "groupingVariable",
+      "subgroupSizeUnequal" : "fixedSubgroupSize",
+      "warningLimits" : true,
+      "xBarAndSUnbiasingConstant" : true
    },
-   "order_increment" : 2,
+   "order_increment" : 1,
    "position" : 9999,
    "relativePathKeep" : "resources/0/state",
    "title" : "Variables Charts for Subgroups",

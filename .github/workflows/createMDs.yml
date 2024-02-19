@@ -1,0 +1,59 @@
+name: CreateMDs
+
+on:
+  workflow_run:
+    workflows: [UpdateDL]
+    types:
+      - completed  
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          path: gh-pages
+          ref: gh-pages
+      - name: checkout main
+        uses: actions/checkout@v4
+        with:
+          path: datalib
+          ref: main
+      - name: fetch jasp-desktop
+        uses: actions/checkout@v4
+        with:
+          repository: jasp-stats/jasp-desktop
+          ref: stable
+          path: jasp-desktop
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3.2'
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true 
+      - name: Run script
+        run: |
+          cd gh-pages
+          echo test
+          Rscript GenerateMDs.R
+          python .scripts/gen_index.py
+          quarto render
+          cd -          
+      - name: GIT push to gh-pages
+        continue-on-error: true
+        env: 
+          CI_COMMIT_MESSAGE: Automated push
+          CI_COMMIT_AUTHOR: Actions
+        run: |
+          cd gh-pages
+          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+          git config --global user.email "username@users.noreply.github.com"
+          git add -A
+          git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+          git push

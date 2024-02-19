@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
    "data" : {
       "LB" : {
          "citations" : [],
@@ -38,11 +38,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_40",
+               "environmentName" : "plot_0",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_36_t708056418.png",
+               "filePathPng" : "resources/0/_0_t1702646087409.png",
                "height" : 500,
                "messages" : [],
                "name" : "plot1",
@@ -86,11 +86,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_41",
+               "environmentName" : "plot_1",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/0/_37_t708057619.png",
+               "filePathPng" : "resources/0/_1_t1702646088325.png",
                "height" : 500,
                "messages" : [],
                "name" : "plot2",
@@ -260,15 +260,15 @@
                      0.025000000000000355,
                      -0.29166666666666696,
                      -0.61666666666666714,
-                     -0.053333333333333413
+                     -0.053333333333333371
                   ],
                   [
                      2.8723331044428388e-08,
                      0.35399132526768329,
-                     0.66713071076281394,
+                     0.66713071076281427,
                      6.4194805055435815e-07,
                      1.5544448003802881e-08,
-                     0.35630710147211342
+                     0.3563071014721132
                   ],
                   [
                      8.1944444444444446,
@@ -276,7 +276,7 @@
                      0.41666666666667257,
                      4.861111111111116,
                      10.277777777777786,
-                     0.88888888888889028
+                     0.88888888888888962
                   ]
                ],
                "error" : false,
@@ -480,10 +480,10 @@
                },
                "data" : [
                   [ "Intercept", "Slope" ],
-                  [ 0.73666666666666614, -0.13166666666666668 ],
-                  [ 10.157518860132111, -12.04255941149918 ],
-                  [ 0.072524272591612482, 0.01093344547181067 ],
-                  [ 1.7337995954622259e-14, 2.0377155822856837e-17 ]
+                  [ 0.73666666666666802, -0.13166666666666677 ],
+                  [ 10.157518860132104, -12.042559411499161 ],
+                  [ 0.072524272591612718, 0.010933445471810695 ],
+                  [ 1.7337995954622698e-14, 2.0377155822858153e-17 ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -676,10 +676,10 @@
                   "type" : "list"
                },
                "data" : [
-                  [ 0.23953978864653683 ],
-                  [ 0.71431841593224243 ],
-                  [ 13.166666666666668 ],
-                  [ 0.79000000000000004 ]
+                  [ 0.23953978864653708 ],
+                  [ 0.71431841593224177 ],
+                  [ 13.166666666666677 ],
+                  [ 0.79000000000000059 ]
                ],
                "error" : false,
                "errorMessage" : "",
@@ -784,24 +784,24 @@
    "optionMustContain" : {},
    "options" : {
       ".meta" : {
-         "measurements" : {
+         "measurement" : {
             "shouldEncode" : true
          },
-         "parts" : {
+         "part" : {
             "shouldEncode" : true
          },
          "standard" : {
             "shouldEncode" : true
          }
       },
-      "EnablePV" : true,
-      "LBgraph" : true,
-      "LBpercentGraph" : true,
-      "LBtableBias" : true,
-      "LBtableLinearity" : true,
-      "linearityProcessVariation" : 6.0,
-      "measurements" : "JaspColumn_2_Encoded",
-      "parts" : "JaspColumn_0_Encoded",
+      "biasTable" : true,
+      "linearityAndBiasPlot" : true,
+      "linearityTable" : true,
+      "manualProcessVariation" : true,
+      "manualProcessVariationValue" : 6.0,
+      "measurement" : "JaspColumn_2_Encoded",
+      "part" : "JaspColumn_0_Encoded",
+      "percentProcessVariationPlot" : true,
       "plotHeight" : 320,
       "plotWidth" : 480,
       "standard" : "JaspColumn_1_Encoded"

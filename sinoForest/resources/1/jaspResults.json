@@ -1,5 +1,5 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.17.2) [Computer software]." ],
+   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
    "data" : {
       "benfordsLawContainer" : {
          "citations" : [],
@@ -47,11 +47,11 @@
                      "type" : "ScaleContinuous"
                   }
                },
-               "environmentName" : "plot_9",
+               "environmentName" : "plot_0",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
-               "filePathPng" : "resources/1/_9_t1681998339251.png",
+               "filePathPng" : "resources/1/_0_t1702645547374.png",
                "height" : 400,
                "messages" : [],
                "name" : "benfordsLawPlot",
@@ -117,8 +117,10 @@
                   "errorMessage" : "",
                   "escapeHtml" : true,
                   "fields" : {
+                     "bf" : "sf:4;dp:3",
                      "exp" : "sf:4;dp:3",
-                     "obs" : "sf:4;dp:3"
+                     "obs" : "sf:4;dp:3",
+                     "pval" : "dp:3;p:.001"
                   },
                   "listType" : "string",
                   "messages" : [],
@@ -146,7 +148,7 @@
                   "optionMustBe" : {},
                   "optionMustContain" : {},
                   "position" : 9999,
-                  "rows" : [ "digit", "count", "obs", "exp" ],
+                  "rows" : [ "digit", "count", "exp", "obs", "pval", "bf" ],
                   "title" : "colNames",
                   "type" : "list"
                },
@@ -175,10 +177,12 @@
                   "errorMessage" : "",
                   "escapeHtml" : true,
                   "fields" : {
+                     "bf" : "BF\u2081\u2080",
                      "count" : "Count",
                      "digit" : "Leading digit",
                      "exp" : "Benford's law",
-                     "obs" : "Relative frequency"
+                     "obs" : "Relative frequency",
+                     "pval" : "p"
                   },
                   "listType" : "string",
                   "messages" : [],
@@ -198,10 +202,12 @@
                   "errorMessage" : "",
                   "escapeHtml" : true,
                   "fields" : {
+                     "bf" : "number",
                      "count" : "integer",
                      "digit" : "integer",
                      "exp" : "number",
-                     "obs" : "number"
+                     "obs" : "number",
+                     "pval" : "pvalue"
                   },
                   "listType" : "string",
                   "messages" : [],
@@ -219,6 +225,17 @@
                   [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0 ],
                   [ 231.0, 124.0, 97.0, 70.0, 64.0, 54.0, 40.0, 54.0, 38.0 ],
                   [
+                     0.3010299956639812,
+                     0.17609125905568124,
+                     0.12493873660829995,
+                     0.09691001300805642,
+                     0.079181246047624818,
+                     0.066946789630613221,
+                     0.057991946977686733,
+                     0.051152522447381284,
+                     0.045757490560675143
+                  ],
+                  [
                      0.29922279792746115,
                      0.16062176165803108,
                      0.12564766839378239,
@@ -230,15 +247,26 @@
                      0.049222797927461141
                   ],
                   [
-                     0.3010299956639812,
-                     0.17609125905568124,
-                     0.12493873660829995,
-                     0.09691001300805642,
-                     0.079181246047624818,
-                     0.066946789630613221,
-                     0.057991946977686733,
-                     0.051152522447381284,
-                     0.045757490560675143
+                     0.93748019437793539,
+                     0.27715120735629689,
+                     0.95657916940067411,
+                     0.62626797044413218,
+                     0.68910154007722957,
+                     0.71870886348143481,
+                     0.53735827301545469,
+                     0.021868296690659417,
+                     0.60551243867676596
+                  ],
+                  [
+                     0.04152294249024667,
+                     0.063545869080266423,
+                     0.029942548851142475,
+                     0.030854185130593955,
+                     0.026739636123203996,
+                     0.024315460239490799,
+                     0.026458404201431928,
+                     0.28990205872858077,
+                     0.02166866535630059
                   ]
                ],
                "error" : false,
@@ -246,12 +274,32 @@
                "escapeHtml" : true,
                "expectedColumnCount" : 0,
                "expectedRowCount" : 0,
-               "footnotes" : [],
+               "footnotes" : [
+                  {
+                     "cols" : [ "bf" ],
+                     "rows" : null,
+                     "symbol" : "",
+                     "text" : "Bayes factors are computed using a beta(1, 1) prior."
+                  },
+                  {
+                     "cols" : [ "pval" ],
+                     "rows" : null,
+                     "symbol" : "",
+                     "text" : "The <i>p</i>-values are based on independent binomial distributions."
+                  },
+                  {
+                     "cols" : null,
+                     "rows" : null,
+                     "symbol" : "<em>Note.</em>",
+                     "text" : "The null hypothesis specifies that the relative frequency of a digit is equal to its expected relative frequency under Benford's law."
+                  }
+               ],
                "messages" : [],
                "name" : "benfordsLawTable",
                "nestedOptionMustBe" : {},
                "nestedOptionMustContain" : {},
                "optionMustBe" : {
+                  "confidenceInterval" : false,
                   "summaryTable" : true
                },
                "optionMustContain" : {},
@@ -293,7 +341,7 @@
                   "type" : "list"
                },
                "showSpecifiedColumnsOnly" : false,
-               "specifiedColumns" : [ "count", "digit", "exp", "obs" ],
+               "specifiedColumns" : [ "bf", "count", "digit", "exp", "obs", "pval" ],
                "status" : "complete",
                "title" : "<b>Table 2.</b> Frequency Table",
                "transposeTable" : false,
@@ -327,6 +375,7 @@
                   "escapeHtml" : true,
                   "fields" : {
                      "bf" : "sf:4;dp:3",
+                     "mad" : "sf:4;dp:3",
                      "pvalue" : "dp:3;p:.001"
                   },
                   "listType" : "string",
@@ -355,7 +404,7 @@
                   "optionMustBe" : {},
                   "optionMustContain" : {},
                   "position" : 9999,
-                  "rows" : [ "test", "N", "value", "df", "pvalue", "bf" ],
+                  "rows" : [ "test", "N", "mad", "value", "df", "pvalue", "bf" ],
                   "title" : "colNames",
                   "type" : "list"
                },
@@ -387,6 +436,7 @@
                      "N" : "n",
                      "bf" : "BF\u2081\u2080",
                      "df" : "df",
+                     "mad" : "MAD",
                      "pvalue" : "p",
                      "test" : "",
                      "value" : "X\u00b2"
@@ -412,6 +462,7 @@
                      "N" : "integer",
                      "bf" : "number",
                      "df" : "integer",
+                     "mad" : "number",
                      "pvalue" : "pvalue",
                      "test" : "string",
                      "value" : "string"
@@ -431,6 +482,7 @@
                "data" : [
                   [ "JaspColumn_1_Encoded" ],
                   [ 772.0 ],
+                  [ 0.0065981352195086697 ],
                   [ 7.6520000000000001 ],
                   [ 8.0 ],
                   [ 0.46820638130036768 ],
@@ -501,16 +553,16 @@
                   "type" : "list"
                },
                "showSpecifiedColumnsOnly" : false,
-               "specifiedColumns" : [ "N", "bf", "df", "pvalue", "test", "value" ],
+               "specifiedColumns" : [ "N", "bf", "df", "mad", "pvalue", "test", "value" ],
                "status" : "complete",
-               "title" : "<b>Table 1.</b> Goodness-of-fit Test",
+               "title" : "<b>Table 1.</b> Omnibus Test - Benford's Law",
                "transposeTable" : false,
                "transposeWithOvertitle" : false,
                "type" : "table"
             },
             "result" : {
                "citations" : [],
-               "environmentName" : "state_81",
+               "environmentName" : "state_2",
                "error" : false,
                "errorMessage" : "",
                "escapeHtml" : true,
@@ -519,6 +571,7 @@
                "nestedOptionMustBe" : {},
                "nestedOptionMustContain" : {},
                "optionMustBe" : {
+                  "concentration" : 1.0,
                   "confidence" : 0.94999999999999996,
                   "digits" : "first",
                   "distribution" : "benford",
@@ -546,6 +599,7 @@
          "nestedOptionMustBe" : {},
          "nestedOptionMustContain" : {},
          "optionMustBe" : {
+            "concentration" : 1.0,
             "confidence" : 0.94999999999999996,
             "digits" : "first",
             "distribution" : "benford",
@@ -575,8 +629,8 @@
                "optionMustBe" : {},
                "optionMustContain" : {},
                "position" : 1,
-               "rawtext" : "The <i>p</i> value is 0.46821 >= \u03b1 and the null hypothesis that the first digits in the data set are distributed according to Benford's law is not rejected. The Bayes factor indicates that the data are 6899678 times more likely to occur under the null hypothesis than under the alternative hypothesis.",
-               "text" : "<p>The <i>p</i> value is 0.46821 >= \u03b1 and the null hypothesis that the first digits in the data set are distributed according to Benford's law is not rejected. The Bayes factor indicates that the data are 6899678 times more likely to occur under the null hypothesis than under the alternative hypothesis. </p>",
+               "rawtext" : "The <i>p</i>-value is 0.46821 >= \u03b1 and the null hypothesis that the first digits in the data set are distributed according to Benford's law is not rejected. The Bayes factor indicates that the data are 6899678 times more likely to occur under the null hypothesis than under the alternative hypothesis.",
+               "text" : "<p>The <i>p</i>-value is 0.46821 >= \u03b1 and the null hypothesis that the first digits in the data set are distributed according to Benford's law is not rejected. The Bayes factor indicates that the data are 6899678 times more likely to occur under the null hypothesis than under the alternative hypothesis. </p>",
                "title" : "hide me",
                "type" : "html"
             }
@@ -601,7 +655,7 @@
          },
          "optionMustContain" : {},
          "order_increment" : 1,
-         "position" : 5,
+         "position" : 3,
          "title" : "<u>Conclusion</u>",
          "type" : "container"
       },
@@ -620,14 +674,14 @@
          "optionMustBe" : {},
          "optionMustContain" : {},
          "position" : 99,
-         "rawtext" : "Created by JASP for Audit (Version 0.17.2) on Apr 20 2023 at 15:45:39.",
-         "text" : "<p>Created by JASP for Audit (Version 0.17.2) on Apr 20 2023 at 15:45:39. </p>",
+         "rawtext" : "Created by JASP for Audit (Version 0.18.2) on Dec 15 2023 at 14:05:47.",
+         "text" : "<p>Created by JASP for Audit (Version 0.18.2) on Dec 15 2023 at 14:05:47. </p>",
          "title" : "hide me",
          "type" : "html"
       },
       "figNumber" : {
          "citations" : [],
-         "environmentName" : "state_84",
+         "environmentName" : "state_5",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
@@ -690,7 +744,7 @@
       },
       "tabNumber" : {
          "citations" : [],
-         "environmentName" : "state_82",
+         "environmentName" : "state_3",
          "error" : false,
          "errorMessage" : "",
          "escapeHtml" : true,
@@ -731,7 +785,9 @@
       },
       "bayesFactorType" : "BF10",
       "benfordsLawPlot" : true,
+      "concentration" : 1.0,
       "confidence" : 0.94999999999999996,
+      "confidenceInterval" : false,
       "digits" : "first",
       "distribution" : "benford",
       "explanatoryText" : true,
@@ -739,6 +795,8 @@
       "matchTable" : false,
       "plotHeight" : 320,
       "plotWidth" : 480,
+      "robustnessPlot" : false,
+      "sequentialPlot" : false,
       "summaryTable" : true,
       "values" : "JaspColumn_1_Encoded"
    },

@@ -35,8 +35,6 @@ jobs:
           r-version: '4.3.2'
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          tinytex: true 
       - name: Run script
         run: |
           cd gh-pages

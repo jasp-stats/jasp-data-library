@@ -35,12 +35,14 @@ jobs:
           r-version: '4.3.2'
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true 
       - name: Run script
         run: |
           cd gh-pages
           echo test
           Rscript GenerateMDs.R
-          quarto preview --render all --no-watch-inputs --no-browse
+          quarto render
           cd -          
       - name: GIT push to gh-pages
         continue-on-error: true

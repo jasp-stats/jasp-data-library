@@ -42,6 +42,7 @@ jobs:
           cd gh-pages
           echo test
           Rscript GenerateMDs.R
+          python .scripts/gen_index.py
           quarto render
           cd -          
       - name: GIT push to gh-pages

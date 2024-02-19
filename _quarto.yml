@@ -7,6 +7,8 @@ book:
   author: "The JASP Team"
   date: today
   sidebar:
+    chapters:
+    - index.qmd
     contents:
       - index.qmd
       - auto: "myChapters/chapter*"

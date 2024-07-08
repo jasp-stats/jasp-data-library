@@ -1,25 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The JASP Data Library",
-    "section": "",
-    "text": "Preface\nThis is the documentation for the examples contained in the JASP Data Library. The data sets are available in .jasp, html, and .csv format. This documentation will grow over time, and therefore we have added an edition number to the book title.\nThe example data sets come from various sources. For educational purposes we have included the material from two popular statistical textbooks, Field (2017) and Moore et al. (2012). This means it is now easy for teachers and students to use JASP and analyze the classic ‘Looks or Personality’ example from Andy Field, or the ‘College Success’ example from Moore, McCaib, and Craig. We also added the original example data sets that JASP users may be familiar with (ever wonder what the ‘Kitchen Rolls’ data set was all about?). A number of publicly available data sets have been added as well.",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "index.html#copyright",
-    "href": "index.html#copyright",
-    "title": "The JASP Data Library",
-    "section": "Copyright",
-    "text": "Copyright\nMost data sets contained in the JASP Data Library are already publicly available because they have been presented in academic articles and books. The legal consensus is that such data are facts and therefore do not fall under copyright protection. An exception concerns data that have not been collected but constructed in order to serve an educational purpose, as is the case for most data sets from Andy Field’s popular course books. For these data sets, the source is acknowledged as follows:\n\nThis data set comes from Field, A. P. (2017). Discovering Statistics Using IBM SPSS Statistics (5th ed.). London: Sage. The data set was constructed by Andy Field who therefore owns the copyright. Andy Field generously agreed that we can include the data set in the JASP data library. This data set is also publicly available on the website that accompanies Andy Field’s book: https://edge.sagepub.com/field5e. Without Andy Field’s explicit consent, this data set may not be distributed for commercial purposes, this data set may not be edited, and this data set may not be presented without acknowledging its source (i.e., the terms of a CC BY-NC-ND license; https://creativecommons.org/licenses/by-nc-nd/3.0/). ”",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
     "objectID": "myChapters/chapter_1.html",
     "href": "myChapters/chapter_1.html",
     "title": "1  Descriptives",
@@ -1197,6 +1177,26 @@
     "text": "22.2 Moore, McCabe, & Craig - Introduction to the Practice of Statistics\n\n22.2.1 Directed Reading Activities\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.2 Moon and Aggression\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.3 Weight Gain\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.4 Facebook Friends\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.5 Heart Rate\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.6 Response to Eye Color\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.7 College Success\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.8 Fidgeting and Fat Gain\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.9 Physical Activity and BMI\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.10 Health Habits\n\n\n\n.jasp\n.html\n.csv",
     "crumbs": [
       "<span class='chapter-number'>22</span>  <span class='chapter-title'>Books</span>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The JASP Data Library",
+    "section": "",
+    "text": "Preface\nThis is the documentation for the examples contained in the JASP Data Library. The data sets are available in .jasp, html, and .csv format. This documentation will grow over time, and therefore we have added an edition number to the book title.\nThe example data sets come from various sources. For educational purposes we have included the material from two popular statistical textbooks, Field (2017) and Moore et al. (2012). This means it is now easy for teachers and students to use JASP and analyze the classic ‘Looks or Personality’ example from Andy Field, or the ‘College Success’ example from Moore, McCaib, and Craig. We also added the original example data sets that JASP users may be familiar with (ever wonder what the ‘Kitchen Rolls’ data set was all about?). A number of publicly available data sets have been added as well.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#copyright",
+    "href": "index.html#copyright",
+    "title": "The JASP Data Library",
+    "section": "Copyright",
+    "text": "Copyright\nMost data sets contained in the JASP Data Library are already publicly available because they have been presented in academic articles and books. The legal consensus is that such data are facts and therefore do not fall under copyright protection. An exception concerns data that have not been collected but constructed in order to serve an educational purpose, as is the case for most data sets from Andy Field’s popular course books. For these data sets, the source is acknowledged as follows:\n\nThis data set comes from Field, A. P. (2017). Discovering Statistics Using IBM SPSS Statistics (5th ed.). London: Sage. The data set was constructed by Andy Field who therefore owns the copyright. Andy Field generously agreed that we can include the data set in the JASP data library. This data set is also publicly available on the website that accompanies Andy Field’s book: https://edge.sagepub.com/field5e. Without Andy Field’s explicit consent, this data set may not be distributed for commercial purposes, this data set may not be edited, and this data set may not be presented without acknowledging its source (i.e., the terms of a CC BY-NC-ND license; https://creativecommons.org/licenses/by-nc-nd/3.0/). ”",
+    "crumbs": [
+      "Preface"
     ]
   }
 ]

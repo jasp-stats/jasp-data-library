@@ -1,942 +1,1247 @@
 {
-   "citations" : [ "JASP Team (2024). JASP (Version 0.18.3) [Computer software]." ],
-   "data" : {
-      "containerPlotsPredictionPrior" : {
-         "citations" : [],
-         "data" : {
-            "priorPredictivePerformanceDistributionPlotPrior" : {
-               "aspectRatio" : 0.0,
-               "citations" : [],
-               "editOptions" : {
-                  "error" : "success",
-                  "xAxis" : {
-                     "settings" : {
-                        "breaks" : [ 0, 20, 40, 60, 80, 100 ],
-                        "breaksType" : "range",
-                        "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                        "labels" : [ "0", "20", "40", "60", "80", "100" ],
-                        "limits" : [ -0.5, 100.5 ],
-                        "limitsType" : "manual",
-                        "range" : [ 0, 100, 20 ],
-                        "title" : "Predicted number of successes",
-                        "titleType" : "character"
-                     },
-                     "type" : "ScaleContinuous"
-                  },
-                  "yAxis" : {
-                     "settings" : {
-                        "breaks" : [ 0, 0.01, 0.02, 0.029999999999999999, 0.040000000000000001 ],
-                        "breaksType" : "manual",
-                        "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                        "labels" : [ "0.00", "0.01", "0.02", "0.03", "0.04" ],
-                        "limits" : [ 0, 0.040000000000000001 ],
-                        "limitsType" : "breaks",
-                        "range" : [ 0, 0.040000000000000001, 0.01 ],
-                        "title" : "Probability",
-                        "titleType" : "character"
-                     },
-                     "type" : "ScaleContinuous"
-                  }
-               },
-               "environmentName" : "plot_29",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/1/_7_t-1676724709.png",
-               "height" : 400,
-               "messages" : [],
-               "name" : "priorPredictivePerformanceDistributionPlotPrior",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "colorPalette" : "colorblind",
-                  "dataCountsFailures" : 0,
-                  "dataCountsSuccesses" : 0,
-                  "dataInputType" : "variable",
-                  "dataSequenceFailures" : [],
-                  "dataSequenceSequenceOfObservations" : "",
-                  "dataSequenceSuccesses" : [],
-                  "dataVariableFailures" : [ "odd" ],
-                  "dataVariableSelected" : "JaspColumn_1_Encoded",
-                  "dataVariableSuccesses" : [ "even" ],
-                  "models" : [
-                     {
-                        "betaPriorAlpha" : "2",
-                        "betaPriorBeta" : "2",
-                        "name" : "Pie is Not Normal",
-                        "priorWeight" : ".5",
-                        "spikePoint" : "0.5",
-                        "type" : "beta",
-                        "value" : "#"
-                     },
-                     {
-                        "betaPriorAlpha" : "1",
-                        "betaPriorBeta" : "1",
-                        "name" : "Pie is Normal",
-                        "priorWeight" : ".5",
-                        "spikePoint" : "0.5",
-                        "type" : "spike",
-                        "value" : "#2"
-                     }
-                  ],
-                  "priorPredictivePerformanceDistributionPlotJoinType" : "overlying",
-                  "priorPredictivePerformanceDistributionPlotMarginalCi" : false,
-                  "priorPredictivePerformanceDistributionPlotMarginalCiLower" : 0.25,
-                  "priorPredictivePerformanceDistributionPlotMarginalCiMass" : 0.94999999999999996,
-                  "priorPredictivePerformanceDistributionPlotMarginalCiType" : "central",
-                  "priorPredictivePerformanceDistributionPlotMarginalCiUpper" : 0.75,
-                  "priorPredictivePerformanceDistributionPlotMarginalPointEstimate" : false,
-                  "priorPredictivePerformanceDistributionPlotMarginalPointEstimateType" : "mean",
-                  "priorPredictivePerformanceDistributionPlotObservedNumberOfSuccessess" : true
-               },
-               "optionMustContain" : {},
-               "position" : 2,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "",
-               "type" : "plot",
-               "width" : 700
-            }
-         },
-         "data_order" : {
-            "priorPredictivePerformanceDistributionPlotPrior" : 0
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "containerPlotsPredictionPrior",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "priorPredictivePerformanceDistributionPlot" : true,
-            "priorPredictivePerformanceDistributionPlotType" : "joint"
-         },
-         "optionMustContain" : {},
-         "order_increment" : 1,
-         "position" : 4,
-         "title" : "Joint Prior Prediction Plots",
-         "type" : "container"
-      },
-      "containerSequentialTests" : {
-         "citations" : [],
-         "data" : {
-            "sequentialAnalysisPredictivePerformancePlot" : {
-               "aspectRatio" : 0.0,
-               "citations" : [],
-               "editOptions" : {
-                  "error" : "success",
-                  "xAxis" : {
-                     "settings" : {
-                        "breaks" : [ 0, 20, 40, 60, 80, 100 ],
-                        "breaksType" : "range",
-                        "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                        "labels" : [ "0", "20", "40", "60", "80", "100" ],
-                        "limits" : [ 0, 100 ],
-                        "limitsType" : "breaks",
-                        "range" : [ 0, 100, 20 ],
-                        "title" : "Observation",
-                        "titleType" : "character"
-                     },
-                     "type" : "ScaleContinuous"
-                  },
-                  "yAxis" : {
-                     "settings" : {
-                        "breaks" : [ 0, 1, 2, 3, 4, 5, 6 ],
-                        "breaksType" : "range",
-                        "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                        "labels" : [ "0", "1", "2", "3", "4", "5", "6" ],
-                        "limits" : [ 0, 6 ],
-                        "limitsType" : "breaks",
-                        "range" : [ 0, 6, 1 ],
-                        "title" : "\"BF\"[\"10\"]",
-                        "titleType" : "expression"
-                     },
-                     "type" : "ScaleContinuous"
-                  }
-               },
-               "environmentName" : "plot_72",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/1/_14_t-1676556101.png",
-               "height" : 400,
-               "messages" : [],
-               "name" : "sequentialAnalysisPredictivePerformancePlot",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "colorPalette" : "colorblind",
-                  "dataCountsFailures" : 0,
-                  "dataCountsSuccesses" : 0,
-                  "dataInputType" : "variable",
-                  "dataSequenceFailures" : [],
-                  "dataSequenceSequenceOfObservations" : "",
-                  "dataSequenceSuccesses" : [],
-                  "dataVariableFailures" : [ "odd" ],
-                  "dataVariableSelected" : "JaspColumn_1_Encoded",
-                  "dataVariableSuccesses" : [ "even" ],
-                  "models" : [
-                     {
-                        "betaPriorAlpha" : "2",
-                        "betaPriorBeta" : "2",
-                        "name" : "Pie is Not Normal",
-                        "priorWeight" : ".5",
-                        "spikePoint" : "0.5",
-                        "type" : "beta",
-                        "value" : "#"
-                     },
-                     {
-                        "betaPriorAlpha" : "1",
-                        "betaPriorBeta" : "1",
-                        "name" : "Pie is Normal",
-                        "priorWeight" : ".5",
-                        "spikePoint" : "0.5",
-                        "type" : "spike",
-                        "value" : "#2"
-                     }
-                  ],
-                  "sequentialAnalysisPredictivePerformancePlotBfComparison" : "vs",
-                  "sequentialAnalysisPredictivePerformancePlotBfType" : "BF10",
-                  "sequentialAnalysisPredictivePerformancePlotBfVsHypothesis" : "Pie is Not Normal"
-               },
-               "optionMustContain" : {},
-               "position" : 2,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "",
-               "type" : "plot",
-               "width" : 700
-            }
-         },
-         "data_order" : {
-            "sequentialAnalysisPredictivePerformancePlot" : 0
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "containerSequentialTests",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "sequentialAnalysisPredictivePerformancePlot" : true,
-            "sequentialAnalysisPredictivePerformancePlotType" : "BF"
-         },
-         "optionMustContain" : {},
-         "order_increment" : 1,
-         "position" : 8,
-         "title" : "Bayes Factor Sequential Analysis",
-         "type" : "container"
-      },
-      "posteriorDistributionPlotConditionalCiBf" : {
-         "citations" : [],
-         "environmentName" : "state_1",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "posteriorDistributionPlotConditionalCiBf",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "posteriorDistributionPlotConditionalCiBf" : "1"
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "posteriorDistributionPlotMarginalCiBf" : {
-         "citations" : [],
-         "environmentName" : "state_0",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "posteriorDistributionPlotMarginalCiBf",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "posteriorDistributionPlotMarginalCiBf" : "1"
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "summaryContainer" : {
-         "citations" : [],
-         "data" : {
-            "summaryTable" : {
-               "citations" : [],
-               "colCombines" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "bool",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "",
-                  "type" : "list"
-               },
-               "colFormats" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "proportion" : "sf:4;dp:3"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colFormats",
-                  "type" : "list"
-               },
-               "colNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [ "variable", "counts", "proportion" ],
-                  "title" : "colNames",
-                  "type" : "list"
-               },
-               "colOvertitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colOvertitles",
-                  "type" : "list"
-               },
-               "colRowCombinations" : [],
-               "colTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "counts" : "Counts",
-                     "proportion" : "Proportion",
-                     "variable" : ""
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTitles",
-                  "type" : "list"
-               },
-               "colTypes" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "counts" : "integer",
-                     "proportion" : "number",
-                     "variable" : "string"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTypes",
-                  "type" : "list"
-               },
-               "data" : [
-                  [ "Successes", "Failures", "Total" ],
-                  [ 51, 49, 100 ],
-                  [ 0.51000000000000001, 0.48999999999999999, "" ]
-               ],
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "expectedColumnCount" : 0,
-               "expectedRowCount" : 3,
-               "footnotes" : [],
-               "messages" : [],
-               "name" : "summaryTable",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "dataCountsFailures" : 0,
-                  "dataCountsSuccesses" : 0,
-                  "dataInputType" : "variable",
-                  "dataSequenceFailures" : [],
-                  "dataSequenceSequenceOfObservations" : "",
-                  "dataSequenceSuccesses" : [],
-                  "dataSummary" : true,
-                  "dataVariableFailures" : [ "odd" ],
-                  "dataVariableSelected" : "JaspColumn_1_Encoded",
-                  "dataVariableSuccesses" : [ "even" ],
-                  "models" : [
-                     {
-                        "betaPriorAlpha" : "2",
-                        "betaPriorBeta" : "2",
-                        "name" : "Pie is Not Normal",
-                        "priorWeight" : ".5",
-                        "spikePoint" : "0.5",
-                        "type" : "beta",
-                        "value" : "#"
-                     },
-                     {
-                        "betaPriorAlpha" : "1",
-                        "betaPriorBeta" : "1",
-                        "name" : "Pie is Normal",
-                        "priorWeight" : ".5",
-                        "spikePoint" : "0.5",
-                        "type" : "spike",
-                        "value" : "#2"
-                     }
-                  ]
-               },
-               "optionMustContain" : {},
-               "position" : 2,
-               "rowNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowNames",
-                  "type" : "list"
-               },
-               "rowTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowTitles",
-                  "type" : "list"
-               },
-               "showSpecifiedColumnsOnly" : false,
-               "specifiedColumns" : [ "counts", "proportion", "variable" ],
-               "status" : "complete",
-               "title" : "Data Summary",
-               "transposeTable" : false,
-               "transposeWithOvertitle" : false,
-               "type" : "table"
-            }
-         },
-         "data_order" : {
-            "summaryTable" : 0
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "summaryContainer",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {},
-         "optionMustContain" : {},
-         "order_increment" : 1,
-         "position" : 1,
-         "title" : "Data Input",
-         "type" : "container"
-      },
-      "testsContainer" : {
-         "citations" : [],
-         "data" : {
-            "testsTable" : {
-               "citations" : [],
-               "colCombines" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "bool",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "",
-                  "type" : "list"
-               },
-               "colFormats" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "bf" : "sf:4;dp:3",
-                     "logLik" : "sf:4;dp:3",
-                     "posterior" : "sf:4;dp:3",
-                     "prior" : "sf:4;dp:3"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colFormats",
-                  "type" : "list"
-               },
-               "colNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [ "hypothesis", "prior", "logLik", "posterior", "bf" ],
-                  "title" : "colNames",
-                  "type" : "list"
-               },
-               "colOvertitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colOvertitles",
-                  "type" : "list"
-               },
-               "colRowCombinations" : [],
-               "colTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "bf" : "BF\u2081\u2080",
-                     "hypothesis" : "Hypothesis",
-                     "logLik" : "log(likelihood)",
-                     "posterior" : "P(H|data)",
-                     "prior" : "P(H)"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTitles",
-                  "type" : "list"
-               },
-               "colTypes" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "bf" : "number",
-                     "hypothesis" : "string",
-                     "logLik" : "number",
-                     "posterior" : "number",
-                     "prior" : "number"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTypes",
-                  "type" : "list"
-               },
-               "data" : [
-                  [ "Pie is Not Normal", "Pie is Normal" ],
-                  [ 0.5, 0.5 ],
-                  [ -4.21979612511754, -2.5506790312732845 ],
-                  [ 0.15854192865761793, 0.84145807134238204 ],
-                  [ null, 5.3074797214027081 ]
-               ],
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "expectedColumnCount" : 0,
-               "expectedRowCount" : 2,
-               "footnotes" : [
-                  {
-                     "cols" : null,
-                     "rows" : null,
-                     "symbol" : "<em>Note.</em>",
-                     "text" : "These results are based on 51 successes and 49 failures."
-                  }
-               ],
-               "messages" : [],
-               "name" : "testsTable",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "dataCountsFailures" : 0,
-                  "dataCountsSuccesses" : 0,
-                  "dataInputType" : "variable",
-                  "dataSequenceFailures" : [],
-                  "dataSequenceSequenceOfObservations" : "",
-                  "dataSequenceSuccesses" : [],
-                  "dataVariableFailures" : [ "odd" ],
-                  "dataVariableSelected" : "JaspColumn_1_Encoded",
-                  "dataVariableSuccesses" : [ "even" ],
-                  "models" : [
-                     {
-                        "betaPriorAlpha" : "2",
-                        "betaPriorBeta" : "2",
-                        "name" : "Pie is Not Normal",
-                        "priorWeight" : ".5",
-                        "spikePoint" : "0.5",
-                        "type" : "beta",
-                        "value" : "#"
-                     },
-                     {
-                        "betaPriorAlpha" : "1",
-                        "betaPriorBeta" : "1",
-                        "name" : "Pie is Normal",
-                        "priorWeight" : ".5",
-                        "spikePoint" : "0.5",
-                        "type" : "spike",
-                        "value" : "#2"
-                     }
-                  ],
-                  "priorPredictivePerformanceBfComparison" : "vs",
-                  "priorPredictivePerformanceBfType" : "BF10",
-                  "priorPredictivePerformanceBfVsHypothesis" : "Pie is Not Normal"
-               },
-               "optionMustContain" : {},
-               "position" : 2,
-               "rowNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowNames",
-                  "type" : "list"
-               },
-               "rowTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowTitles",
-                  "type" : "list"
-               },
-               "showSpecifiedColumnsOnly" : false,
-               "specifiedColumns" : [ "bf", "hypothesis", "logLik", "posterior", "prior" ],
-               "status" : "complete",
-               "title" : "Testing Summary",
-               "transposeTable" : false,
-               "transposeWithOvertitle" : false,
-               "type" : "table"
-            }
-         },
-         "data_order" : {
-            "testsTable" : 0
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "testsContainer",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {},
-         "optionMustContain" : {},
-         "order_increment" : 1,
-         "position" : 2,
-         "title" : "Hypotheses",
-         "type" : "container"
-      }
-   },
-   "data_order" : {
-      "containerPlotsPredictionPrior" : 5,
-      "containerSequentialTests" : 6,
-      "posteriorDistributionPlotConditionalCiBf" : 1,
-      "posteriorDistributionPlotMarginalCiBf" : 0,
-      "summaryContainer" : 2,
-      "testsContainer" : 3
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "betaPriorAlpha" : {
-            "isRCode" : true
-         },
-         "dataVariableSelected" : {
-            "shouldEncode" : true
-         },
-         "models" : {
-            "betaPriorAlpha" : {
-               "isRCode" : true
-            },
-            "betaPriorBeta" : {
-               "isRCode" : true
-            },
-            "priorWeight" : {
-               "isRCode" : true
-            },
-            "spikePoint" : {
-               "isRCode" : true
-            }
-         },
-         "posteriorDistributionPlotConditionalCiBf" : {
-            "isRCode" : true
-         },
-         "posteriorDistributionPlotMarginalCiBf" : {
-            "isRCode" : true
-         }
-      },
-      "colorPalette" : "colorblind",
-      "dataCountsFailures" : 0,
-      "dataCountsSuccesses" : 0,
-      "dataInputType" : "variable",
-      "dataSequenceFailures" : [],
-      "dataSequenceSequenceOfObservations" : "",
-      "dataSequenceSuccesses" : [],
-      "dataSummary" : true,
-      "dataVariableFailures" : [ "odd" ],
-      "dataVariableSelected" : "JaspColumn_1_Encoded",
-      "dataVariableSuccesses" : [ "even" ],
-      "introductoryText" : false,
-      "models" : [
-         {
-            "betaPriorAlpha" : "2",
-            "betaPriorBeta" : "2",
-            "name" : "Pie is Not Normal",
-            "priorWeight" : ".5",
-            "spikePoint" : "0.5",
-            "type" : "beta",
-            "value" : "#"
-         },
-         {
-            "betaPriorAlpha" : "1",
-            "betaPriorBeta" : "1",
-            "name" : "Pie is Normal",
-            "priorWeight" : ".5",
-            "spikePoint" : "0.5",
-            "type" : "spike",
-            "value" : "#2"
-         }
-      ],
-      "plotHeight" : 320,
-      "plotWidth" : 480,
-      "posteriorDistributionPlot" : false,
-      "posteriorDistributionPlotConditionalCi" : false,
-      "posteriorDistributionPlotConditionalCiBf" : "1",
-      "posteriorDistributionPlotConditionalCiLower" : 0.25,
-      "posteriorDistributionPlotConditionalCiMass" : 0.94999999999999996,
-      "posteriorDistributionPlotConditionalCiType" : "central",
-      "posteriorDistributionPlotConditionalCiUpper" : 0.75,
-      "posteriorDistributionPlotConditionalPointEstimate" : false,
-      "posteriorDistributionPlotConditionalPointEstimateType" : "mean",
-      "posteriorDistributionPlotJointType" : "overlying",
-      "posteriorDistributionPlotMarginalCi" : false,
-      "posteriorDistributionPlotMarginalCiBf" : "1",
-      "posteriorDistributionPlotMarginalCiLower" : 0.25,
-      "posteriorDistributionPlotMarginalCiMass" : 0.94999999999999996,
-      "posteriorDistributionPlotMarginalCiType" : "central",
-      "posteriorDistributionPlotMarginalCiUpper" : 0.75,
-      "posteriorDistributionPlotMarginalPointEstimate" : false,
-      "posteriorDistributionPlotMarginalPointEstimateType" : "mean",
-      "posteriorDistributionPlotObservedProportion" : false,
-      "posteriorDistributionPlotType" : "conditional",
-      "posteriorPredictionDistributionPlot" : false,
-      "posteriorPredictionDistributionPlotAsSampleProportion" : false,
-      "posteriorPredictionDistributionPlotConditionalCi" : false,
-      "posteriorPredictionDistributionPlotConditionalCiLower" : 0,
-      "posteriorPredictionDistributionPlotConditionalCiMass" : 0.94999999999999996,
-      "posteriorPredictionDistributionPlotConditionalCiType" : "central",
-      "posteriorPredictionDistributionPlotConditionalCiUpper" : 1,
-      "posteriorPredictionDistributionPlotConditionalPointEstimate" : false,
-      "posteriorPredictionDistributionPlotConditionalPointEstimateType" : "mean",
-      "posteriorPredictionDistributionPlotJoinType" : "overlying",
-      "posteriorPredictionDistributionPlotMarginalCi" : false,
-      "posteriorPredictionDistributionPlotMarginalCiLower" : 0.0,
-      "posteriorPredictionDistributionPlotMarginalCiMass" : 0.94999999999999996,
-      "posteriorPredictionDistributionPlotMarginalCiType" : "central",
-      "posteriorPredictionDistributionPlotMarginalCiUpper" : 1.0,
-      "posteriorPredictionDistributionPlotMarginalPointEstimate" : false,
-      "posteriorPredictionDistributionPlotMarginalPointEstimateType" : "mean",
-      "posteriorPredictionDistributionPlotPredictionsTable" : false,
-      "posteriorPredictionDistributionPlotType" : "conditional",
-      "posteriorPredictionNumberOfFutureTrials" : 10,
-      "posteriorPredictionSummaryTable" : false,
-      "posteriorPredictionSummaryTablePointEstimate" : "mean",
-      "priorAndPosteriorDistributionPlot" : false,
-      "priorAndPosteriorDistributionPlotObservedProportion" : true,
-      "priorAndPosteriorDistributionPlotType" : "conditional",
-      "priorDistributionPlot" : false,
-      "priorDistributionPlotConditionalCi" : false,
-      "priorDistributionPlotConditionalCiLower" : 0.25,
-      "priorDistributionPlotConditionalCiMass" : 0.94999999999999996,
-      "priorDistributionPlotConditionalCiType" : "central",
-      "priorDistributionPlotConditionalCiUpper" : 0.75,
-      "priorDistributionPlotConditionalPointEstimate" : false,
-      "priorDistributionPlotConditionalPointEstimateType" : "mean",
-      "priorDistributionPlotJointType" : "overlying",
-      "priorDistributionPlotMarginalCi" : false,
-      "priorDistributionPlotMarginalCiLower" : 0.25,
-      "priorDistributionPlotMarginalCiMass" : 0.94999999999999996,
-      "priorDistributionPlotMarginalCiType" : "central",
-      "priorDistributionPlotMarginalCiUpper" : 0.75,
-      "priorDistributionPlotMarginalPointEstimate" : false,
-      "priorDistributionPlotMarginalPointEstimateType" : "mean",
-      "priorDistributionPlotType" : "conditional",
-      "priorPredictivePerformanceAccuracyPlot" : false,
-      "priorPredictivePerformanceAccuracyPlotType" : "conditional",
-      "priorPredictivePerformanceBfComparison" : "vs",
-      "priorPredictivePerformanceBfType" : "BF10",
-      "priorPredictivePerformanceBfVsHypothesis" : "Pie is Not Normal",
-      "priorPredictivePerformanceDistributionPlot" : true,
-      "priorPredictivePerformanceDistributionPlotConditionalCi" : false,
-      "priorPredictivePerformanceDistributionPlotConditionalCiLower" : 0.25,
-      "priorPredictivePerformanceDistributionPlotConditionalCiMass" : 0.94999999999999996,
-      "priorPredictivePerformanceDistributionPlotConditionalCiType" : "central",
-      "priorPredictivePerformanceDistributionPlotConditionalCiUpper" : 0.75,
-      "priorPredictivePerformanceDistributionPlotConditionalPointEstimate" : false,
-      "priorPredictivePerformanceDistributionPlotConditionalPointEstimateType" : "mean",
-      "priorPredictivePerformanceDistributionPlotJoinType" : "overlying",
-      "priorPredictivePerformanceDistributionPlotMarginalCi" : false,
-      "priorPredictivePerformanceDistributionPlotMarginalCiLower" : 0.25,
-      "priorPredictivePerformanceDistributionPlotMarginalCiMass" : 0.94999999999999996,
-      "priorPredictivePerformanceDistributionPlotMarginalCiType" : "central",
-      "priorPredictivePerformanceDistributionPlotMarginalCiUpper" : 0.75,
-      "priorPredictivePerformanceDistributionPlotMarginalPointEstimate" : false,
-      "priorPredictivePerformanceDistributionPlotMarginalPointEstimateType" : "mean",
-      "priorPredictivePerformanceDistributionPlotObservedNumberOfSuccessess" : true,
-      "priorPredictivePerformanceDistributionPlotPredictionsTable" : false,
-      "priorPredictivePerformanceDistributionPlotType" : "joint",
-      "sequentialAnalysisPredictivePerformancePlot" : true,
-      "sequentialAnalysisPredictivePerformancePlotBfComparison" : "vs",
-      "sequentialAnalysisPredictivePerformancePlotBfType" : "BF10",
-      "sequentialAnalysisPredictivePerformancePlotBfVsHypothesis" : "Pie is Not Normal",
-      "sequentialAnalysisPredictivePerformancePlotType" : "BF",
-      "sequentialAnalysisPredictivePerformancePlotUpdatingTable" : false
-   },
-   "order_increment" : 7,
-   "position" : 9999,
-   "relativePathKeep" : "resources/1/state",
-   "title" : "Binomial Testing for Pie: The First 100 Digits",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"containerPlotsPredictionPrior" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"priorPredictivePerformanceDistributionPlotPrior" : 
+				{
+					"aspectRatio" : 0.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"error" : "success",
+						"xAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									0,
+									20,
+									40,
+									60,
+									80,
+									100
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"0",
+									"20",
+									"40",
+									"60",
+									"80",
+									"100"
+								],
+								"limits" : 
+								[
+									-0.5,
+									100.5
+								],
+								"limitsType" : "manual",
+								"range" : 
+								[
+									0,
+									100,
+									20
+								],
+								"title" : "Predicted number of successes",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						},
+						"yAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									0,
+									0.01,
+									0.02,
+									0.029999999999999999,
+									0.040000000000000001
+								],
+								"breaksType" : "manual",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"0.00",
+									"0.01",
+									"0.02",
+									"0.03",
+									"0.04"
+								],
+								"limits" : 
+								[
+									0,
+									0.040000000000000001
+								],
+								"limitsType" : "breaks",
+								"range" : 
+								[
+									0,
+									0.040000000000000001,
+									0.01
+								],
+								"title" : "Probability",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						}
+					},
+					"environmentName" : "plot_0",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/1/_0_t1720524724453.png",
+					"height" : 400,
+					"messages" : [],
+					"name" : "priorPredictivePerformanceDistributionPlotPrior",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"colorPalette" : "colorblind",
+						"dataCountsFailures" : 0,
+						"dataCountsSuccesses" : 0,
+						"dataInputType" : "variable",
+						"dataSequenceFailures" : [],
+						"dataSequenceSequenceOfObservations" : "",
+						"dataSequenceSuccesses" : [],
+						"dataVariableFailures" : 
+						[
+							"odd"
+						],
+						"dataVariableSelected" : "JaspColumn_1_Encoded",
+						"dataVariableSelected.types" : 
+						[
+							"nominal"
+						],
+						"dataVariableSuccesses" : 
+						[
+							"even"
+						],
+						"models" : 
+						[
+							{
+								"betaPriorAlpha" : "2",
+								"betaPriorBeta" : "2",
+								"name" : "Pie is Not Normal",
+								"priorWeight" : ".5",
+								"spikePoint" : "0.5",
+								"truncationLower" : "0",
+								"truncationUpper" : "1",
+								"type" : "beta",
+								"value" : "#"
+							},
+							{
+								"betaPriorAlpha" : "1",
+								"betaPriorBeta" : "1",
+								"name" : "Pie is Normal",
+								"priorWeight" : ".5",
+								"spikePoint" : "0.5",
+								"truncationLower" : "0",
+								"truncationUpper" : "1",
+								"type" : "spike",
+								"value" : "#2"
+							}
+						],
+						"priorPredictivePerformanceDistributionPlotJoinType" : "overlying",
+						"priorPredictivePerformanceDistributionPlotMarginalCi" : false,
+						"priorPredictivePerformanceDistributionPlotMarginalCiLower" : 0.25,
+						"priorPredictivePerformanceDistributionPlotMarginalCiMass" : 0.94999999999999996,
+						"priorPredictivePerformanceDistributionPlotMarginalCiType" : "central",
+						"priorPredictivePerformanceDistributionPlotMarginalCiUpper" : 0.75,
+						"priorPredictivePerformanceDistributionPlotMarginalPointEstimate" : false,
+						"priorPredictivePerformanceDistributionPlotMarginalPointEstimateType" : "mean",
+						"priorPredictivePerformanceDistributionPlotObservedNumberOfSuccessess" : true
+					},
+					"optionMustContain" : {},
+					"position" : 2,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "",
+					"type" : "plot",
+					"width" : 700
+				}
+			},
+			"data_order" : 
+			{
+				"priorPredictivePerformanceDistributionPlotPrior" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "containerPlotsPredictionPrior",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"priorPredictivePerformanceDistributionPlot" : true,
+				"priorPredictivePerformanceDistributionPlotType" : "joint"
+			},
+			"optionMustContain" : {},
+			"order_increment" : 1,
+			"position" : 4,
+			"title" : "Joint Prior Prediction Plots",
+			"type" : "container"
+		},
+		"containerSequentialTests" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"sequentialAnalysisPredictivePerformancePlot" : 
+				{
+					"aspectRatio" : 0.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"error" : "success",
+						"xAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									0,
+									20,
+									40,
+									60,
+									80,
+									100
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"0",
+									"20",
+									"40",
+									"60",
+									"80",
+									"100"
+								],
+								"limits" : 
+								[
+									0,
+									100
+								],
+								"limitsType" : "breaks",
+								"range" : 
+								[
+									0,
+									100,
+									20
+								],
+								"title" : "Observation",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						},
+						"yAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"0",
+									"1",
+									"2",
+									"3",
+									"4",
+									"5",
+									"6"
+								],
+								"limits" : 
+								[
+									0,
+									6
+								],
+								"limitsType" : "breaks",
+								"range" : 
+								[
+									0,
+									6,
+									1
+								],
+								"title" : "\"BF\"[\"10\"]",
+								"titleType" : "expression"
+							},
+							"type" : "ScaleContinuous"
+						}
+					},
+					"environmentName" : "plot_1",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/1/_1_t1720524724691.png",
+					"height" : 400,
+					"messages" : [],
+					"name" : "sequentialAnalysisPredictivePerformancePlot",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"colorPalette" : "colorblind",
+						"dataCountsFailures" : 0,
+						"dataCountsSuccesses" : 0,
+						"dataInputType" : "variable",
+						"dataSequenceFailures" : [],
+						"dataSequenceSequenceOfObservations" : "",
+						"dataSequenceSuccesses" : [],
+						"dataVariableFailures" : 
+						[
+							"odd"
+						],
+						"dataVariableSelected" : "JaspColumn_1_Encoded",
+						"dataVariableSelected.types" : 
+						[
+							"nominal"
+						],
+						"dataVariableSuccesses" : 
+						[
+							"even"
+						],
+						"models" : 
+						[
+							{
+								"betaPriorAlpha" : "2",
+								"betaPriorBeta" : "2",
+								"name" : "Pie is Not Normal",
+								"priorWeight" : ".5",
+								"spikePoint" : "0.5",
+								"truncationLower" : "0",
+								"truncationUpper" : "1",
+								"type" : "beta",
+								"value" : "#"
+							},
+							{
+								"betaPriorAlpha" : "1",
+								"betaPriorBeta" : "1",
+								"name" : "Pie is Normal",
+								"priorWeight" : ".5",
+								"spikePoint" : "0.5",
+								"truncationLower" : "0",
+								"truncationUpper" : "1",
+								"type" : "spike",
+								"value" : "#2"
+							}
+						],
+						"sequentialAnalysisPredictivePerformancePlotBfComparison" : "vs",
+						"sequentialAnalysisPredictivePerformancePlotBfType" : "BF10",
+						"sequentialAnalysisPredictivePerformancePlotBfVsHypothesis" : "Pie is Not Normal"
+					},
+					"optionMustContain" : {},
+					"position" : 2,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "",
+					"type" : "plot",
+					"width" : 700
+				}
+			},
+			"data_order" : 
+			{
+				"sequentialAnalysisPredictivePerformancePlot" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "containerSequentialTests",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"sequentialAnalysisPredictivePerformancePlot" : true,
+				"sequentialAnalysisPredictivePerformancePlotType" : "BF"
+			},
+			"optionMustContain" : {},
+			"order_increment" : 1,
+			"position" : 8,
+			"title" : "Bayes Factor Sequential Analysis",
+			"type" : "container"
+		},
+		"posteriorDistributionPlotConditionalCiBf" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_1",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "posteriorDistributionPlotConditionalCiBf",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"posteriorDistributionPlotConditionalCiBf" : "1"
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"posteriorDistributionPlotMarginalCiBf" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_0",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "posteriorDistributionPlotMarginalCiBf",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"posteriorDistributionPlotMarginalCiBf" : "1"
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"summaryContainer" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"summaryTable" : 
+				{
+					"citations" : [],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"proportion" : "sf:4;dp:3"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"variable",
+							"counts",
+							"proportion"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"counts" : "Counts",
+							"proportion" : "Proportion",
+							"variable" : ""
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"counts" : "integer",
+							"proportion" : "number",
+							"variable" : "string"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							"Successes",
+							"Failures",
+							"Total"
+						],
+						[
+							51,
+							49,
+							100
+						],
+						[
+							0.51000000000000001,
+							0.48999999999999999,
+							""
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 3,
+					"footnotes" : [],
+					"messages" : [],
+					"name" : "summaryTable",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"dataCountsFailures" : 0,
+						"dataCountsSuccesses" : 0,
+						"dataInputType" : "variable",
+						"dataSequenceFailures" : [],
+						"dataSequenceSequenceOfObservations" : "",
+						"dataSequenceSuccesses" : [],
+						"dataSummary" : true,
+						"dataVariableFailures" : 
+						[
+							"odd"
+						],
+						"dataVariableSelected" : "JaspColumn_1_Encoded",
+						"dataVariableSelected.types" : 
+						[
+							"nominal"
+						],
+						"dataVariableSuccesses" : 
+						[
+							"even"
+						],
+						"models" : 
+						[
+							{
+								"betaPriorAlpha" : "2",
+								"betaPriorBeta" : "2",
+								"name" : "Pie is Not Normal",
+								"priorWeight" : ".5",
+								"spikePoint" : "0.5",
+								"truncationLower" : "0",
+								"truncationUpper" : "1",
+								"type" : "beta",
+								"value" : "#"
+							},
+							{
+								"betaPriorAlpha" : "1",
+								"betaPriorBeta" : "1",
+								"name" : "Pie is Normal",
+								"priorWeight" : ".5",
+								"spikePoint" : "0.5",
+								"truncationLower" : "0",
+								"truncationUpper" : "1",
+								"type" : "spike",
+								"value" : "#2"
+							}
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 2,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : false,
+					"specifiedColumns" : 
+					[
+						"counts",
+						"proportion",
+						"variable"
+					],
+					"status" : "complete",
+					"title" : "Data Summary",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				}
+			},
+			"data_order" : 
+			{
+				"summaryTable" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "summaryContainer",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : {},
+			"optionMustContain" : {},
+			"order_increment" : 1,
+			"position" : 1,
+			"title" : "Data Input",
+			"type" : "container"
+		},
+		"testsContainer" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"testsTable" : 
+				{
+					"citations" : [],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"bf" : "sf:4;dp:3",
+							"logLik" : "sf:4;dp:3",
+							"posterior" : "sf:4;dp:3",
+							"prior" : "sf:4;dp:3"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"hypothesis",
+							"prior",
+							"logLik",
+							"posterior",
+							"bf"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"bf" : "BF\u2081\u2080",
+							"hypothesis" : "Hypothesis",
+							"logLik" : "log(likelihood)",
+							"posterior" : "P(H|data)",
+							"prior" : "P(H)"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"bf" : "number",
+							"hypothesis" : "string",
+							"logLik" : "number",
+							"posterior" : "number",
+							"prior" : "number"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							"Pie is Not Normal",
+							"Pie is Normal"
+						],
+						[
+							0.5,
+							0.5
+						],
+						[
+							-4.21979612511754,
+							-2.5506790312732845
+						],
+						[
+							0.15854192865761793,
+							0.84145807134238204
+						],
+						[
+							null,
+							5.3074797214027081
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 2,
+					"footnotes" : 
+					[
+						{
+							"cols" : null,
+							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : "These results are based on 51 success(es) and 49 failure(s)"
+						}
+					],
+					"messages" : [],
+					"name" : "testsTable",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"dataCountsFailures" : 0,
+						"dataCountsSuccesses" : 0,
+						"dataInputType" : "variable",
+						"dataSequenceFailures" : [],
+						"dataSequenceSequenceOfObservations" : "",
+						"dataSequenceSuccesses" : [],
+						"dataVariableFailures" : 
+						[
+							"odd"
+						],
+						"dataVariableSelected" : "JaspColumn_1_Encoded",
+						"dataVariableSelected.types" : 
+						[
+							"nominal"
+						],
+						"dataVariableSuccesses" : 
+						[
+							"even"
+						],
+						"models" : 
+						[
+							{
+								"betaPriorAlpha" : "2",
+								"betaPriorBeta" : "2",
+								"name" : "Pie is Not Normal",
+								"priorWeight" : ".5",
+								"spikePoint" : "0.5",
+								"truncationLower" : "0",
+								"truncationUpper" : "1",
+								"type" : "beta",
+								"value" : "#"
+							},
+							{
+								"betaPriorAlpha" : "1",
+								"betaPriorBeta" : "1",
+								"name" : "Pie is Normal",
+								"priorWeight" : ".5",
+								"spikePoint" : "0.5",
+								"truncationLower" : "0",
+								"truncationUpper" : "1",
+								"type" : "spike",
+								"value" : "#2"
+							}
+						],
+						"priorPredictivePerformanceBfComparison" : "vs",
+						"priorPredictivePerformanceBfType" : "BF10",
+						"priorPredictivePerformanceBfVsHypothesis" : "Pie is Not Normal"
+					},
+					"optionMustContain" : {},
+					"position" : 2,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : false,
+					"specifiedColumns" : 
+					[
+						"bf",
+						"hypothesis",
+						"logLik",
+						"posterior",
+						"prior"
+					],
+					"status" : "complete",
+					"title" : "Testing Summary",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				}
+			},
+			"data_order" : 
+			{
+				"testsTable" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "testsContainer",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : {},
+			"optionMustContain" : {},
+			"order_increment" : 1,
+			"position" : 2,
+			"title" : "Hypotheses",
+			"type" : "container"
+		}
+	},
+	"data_order" : 
+	{
+		"containerPlotsPredictionPrior" : 4,
+		"containerSequentialTests" : 5,
+		"posteriorDistributionPlotConditionalCiBf" : 1,
+		"posteriorDistributionPlotMarginalCiBf" : 0,
+		"summaryContainer" : 2,
+		"testsContainer" : 3
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"dataVariableSelected" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"posteriorDistributionPlotConditionalCiBf" : 
+			{
+				"isRCode" : true
+			},
+			"posteriorDistributionPlotMarginalCiBf" : 
+			{
+				"isRCode" : true
+			}
+		},
+		"colorPalette" : "colorblind",
+		"dataCountsFailures" : 0,
+		"dataCountsSuccesses" : 0,
+		"dataInputType" : "variable",
+		"dataSequenceFailures" : [],
+		"dataSequenceSequenceOfObservations" : "",
+		"dataSequenceSuccesses" : [],
+		"dataSummary" : true,
+		"dataVariableFailures" : 
+		[
+			"odd"
+		],
+		"dataVariableSelected" : "JaspColumn_1_Encoded",
+		"dataVariableSelected.types" : 
+		[
+			"nominal"
+		],
+		"dataVariableSuccesses" : 
+		[
+			"even"
+		],
+		"introductoryText" : false,
+		"models" : 
+		[
+			{
+				"betaPriorAlpha" : "2",
+				"betaPriorBeta" : "2",
+				"name" : "Pie is Not Normal",
+				"priorWeight" : ".5",
+				"spikePoint" : "0.5",
+				"truncationLower" : "0",
+				"truncationUpper" : "1",
+				"type" : "beta",
+				"value" : "#"
+			},
+			{
+				"betaPriorAlpha" : "1",
+				"betaPriorBeta" : "1",
+				"name" : "Pie is Normal",
+				"priorWeight" : ".5",
+				"spikePoint" : "0.5",
+				"truncationLower" : "0",
+				"truncationUpper" : "1",
+				"type" : "spike",
+				"value" : "#2"
+			}
+		],
+		"plotHeight" : 320,
+		"plotWidth" : 480,
+		"posteriorDistributionPlot" : false,
+		"posteriorDistributionPlotConditionalCi" : false,
+		"posteriorDistributionPlotConditionalCiBf" : "1",
+		"posteriorDistributionPlotConditionalCiLower" : 0.25,
+		"posteriorDistributionPlotConditionalCiMass" : 0.94999999999999996,
+		"posteriorDistributionPlotConditionalCiType" : "central",
+		"posteriorDistributionPlotConditionalCiUpper" : 0.75,
+		"posteriorDistributionPlotConditionalPointEstimate" : false,
+		"posteriorDistributionPlotConditionalPointEstimateType" : "mean",
+		"posteriorDistributionPlotJointType" : "overlying",
+		"posteriorDistributionPlotMarginalCi" : false,
+		"posteriorDistributionPlotMarginalCiBf" : "1",
+		"posteriorDistributionPlotMarginalCiLower" : 0.25,
+		"posteriorDistributionPlotMarginalCiMass" : 0.94999999999999996,
+		"posteriorDistributionPlotMarginalCiType" : "central",
+		"posteriorDistributionPlotMarginalCiUpper" : 0.75,
+		"posteriorDistributionPlotMarginalPointEstimate" : false,
+		"posteriorDistributionPlotMarginalPointEstimateType" : "mean",
+		"posteriorDistributionPlotObservedProportion" : false,
+		"posteriorDistributionPlotType" : "conditional",
+		"posteriorPredictionDistributionPlot" : false,
+		"posteriorPredictionDistributionPlotAsSampleProportion" : false,
+		"posteriorPredictionDistributionPlotConditionalCi" : false,
+		"posteriorPredictionDistributionPlotConditionalCiLower" : 0,
+		"posteriorPredictionDistributionPlotConditionalCiMass" : 0.94999999999999996,
+		"posteriorPredictionDistributionPlotConditionalCiType" : "central",
+		"posteriorPredictionDistributionPlotConditionalCiUpper" : 1,
+		"posteriorPredictionDistributionPlotConditionalPointEstimate" : false,
+		"posteriorPredictionDistributionPlotConditionalPointEstimateType" : "mean",
+		"posteriorPredictionDistributionPlotJoinType" : "overlying",
+		"posteriorPredictionDistributionPlotMarginalCi" : false,
+		"posteriorPredictionDistributionPlotMarginalCiLower" : 0.0,
+		"posteriorPredictionDistributionPlotMarginalCiMass" : 0.94999999999999996,
+		"posteriorPredictionDistributionPlotMarginalCiType" : "central",
+		"posteriorPredictionDistributionPlotMarginalCiUpper" : 1.0,
+		"posteriorPredictionDistributionPlotMarginalPointEstimate" : false,
+		"posteriorPredictionDistributionPlotMarginalPointEstimateType" : "mean",
+		"posteriorPredictionDistributionPlotPredictionsTable" : false,
+		"posteriorPredictionDistributionPlotType" : "conditional",
+		"posteriorPredictionNumberOfFutureTrials" : 10,
+		"posteriorPredictionSummaryTable" : false,
+		"posteriorPredictionSummaryTablePointEstimate" : "mean",
+		"priorAndPosteriorDistributionPlot" : false,
+		"priorAndPosteriorDistributionPlotObservedProportion" : true,
+		"priorAndPosteriorDistributionPlotType" : "conditional",
+		"priorDistributionPlot" : false,
+		"priorDistributionPlotConditionalCi" : false,
+		"priorDistributionPlotConditionalCiLower" : 0.25,
+		"priorDistributionPlotConditionalCiMass" : 0.94999999999999996,
+		"priorDistributionPlotConditionalCiType" : "central",
+		"priorDistributionPlotConditionalCiUpper" : 0.75,
+		"priorDistributionPlotConditionalPointEstimate" : false,
+		"priorDistributionPlotConditionalPointEstimateType" : "mean",
+		"priorDistributionPlotJointType" : "overlying",
+		"priorDistributionPlotMarginalCi" : false,
+		"priorDistributionPlotMarginalCiLower" : 0.25,
+		"priorDistributionPlotMarginalCiMass" : 0.94999999999999996,
+		"priorDistributionPlotMarginalCiType" : "central",
+		"priorDistributionPlotMarginalCiUpper" : 0.75,
+		"priorDistributionPlotMarginalPointEstimate" : false,
+		"priorDistributionPlotMarginalPointEstimateType" : "mean",
+		"priorDistributionPlotType" : "conditional",
+		"priorPredictivePerformanceAccuracyPlot" : false,
+		"priorPredictivePerformanceAccuracyPlotType" : "conditional",
+		"priorPredictivePerformanceBfComparison" : "vs",
+		"priorPredictivePerformanceBfType" : "BF10",
+		"priorPredictivePerformanceBfVsHypothesis" : "Pie is Not Normal",
+		"priorPredictivePerformanceDistributionPlot" : true,
+		"priorPredictivePerformanceDistributionPlotConditionalCi" : false,
+		"priorPredictivePerformanceDistributionPlotConditionalCiLower" : 0.25,
+		"priorPredictivePerformanceDistributionPlotConditionalCiMass" : 0.94999999999999996,
+		"priorPredictivePerformanceDistributionPlotConditionalCiType" : "central",
+		"priorPredictivePerformanceDistributionPlotConditionalCiUpper" : 0.75,
+		"priorPredictivePerformanceDistributionPlotConditionalPointEstimate" : false,
+		"priorPredictivePerformanceDistributionPlotConditionalPointEstimateType" : "mean",
+		"priorPredictivePerformanceDistributionPlotJoinType" : "overlying",
+		"priorPredictivePerformanceDistributionPlotMarginalCi" : false,
+		"priorPredictivePerformanceDistributionPlotMarginalCiLower" : 0.25,
+		"priorPredictivePerformanceDistributionPlotMarginalCiMass" : 0.94999999999999996,
+		"priorPredictivePerformanceDistributionPlotMarginalCiType" : "central",
+		"priorPredictivePerformanceDistributionPlotMarginalCiUpper" : 0.75,
+		"priorPredictivePerformanceDistributionPlotMarginalPointEstimate" : false,
+		"priorPredictivePerformanceDistributionPlotMarginalPointEstimateType" : "mean",
+		"priorPredictivePerformanceDistributionPlotObservedNumberOfSuccessess" : true,
+		"priorPredictivePerformanceDistributionPlotPredictionsTable" : false,
+		"priorPredictivePerformanceDistributionPlotType" : "joint",
+		"sequentialAnalysisPredictivePerformancePlot" : true,
+		"sequentialAnalysisPredictivePerformancePlotBfComparison" : "vs",
+		"sequentialAnalysisPredictivePerformancePlotBfType" : "BF10",
+		"sequentialAnalysisPredictivePerformancePlotBfVsHypothesis" : "Pie is Not Normal",
+		"sequentialAnalysisPredictivePerformancePlotType" : "BF",
+		"sequentialAnalysisPredictivePerformancePlotUpdatingTable" : false
+	},
+	"order_increment" : 6,
+	"position" : 9999,
+	"relativePathKeep" : "resources/1/state",
+	"title" : "Binomial Testing for Pie: The First 100 Digits",
+	"type" : "results"
 }

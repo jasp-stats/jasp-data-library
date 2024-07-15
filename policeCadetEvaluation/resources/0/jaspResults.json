@@ -1,1176 +1,1546 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
-   "data" : {
-      "classificationResult" : {
-         "citations" : [],
-         "environmentName" : "state_1",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "classificationResult",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "actfct" : null,
-            "algorithm" : null,
-            "baggingFraction" : null,
-            "candidates" : null,
-            "complexityParameter" : 0.001,
-            "cost" : null,
-            "crossoverMethod" : null,
-            "degree" : null,
-            "distanceParameterManual" : null,
-            "elitism" : null,
-            "elitismProportion" : null,
-            "epsilon" : null,
-            "estimationMethod" : null,
-            "gamma" : null,
-            "holdoutData" : "holdoutManual",
-            "interactionDepth" : 30,
-            "layers" : null,
-            "learningRate" : null,
-            "lossFunction" : null,
-            "maxComplexityParameter" : 1.0,
-            "maxCost" : null,
-            "maxGenerations" : null,
-            "maxLayers" : null,
-            "maxNearestNeighbors" : null,
-            "maxNodes" : null,
-            "maxTrainingRepetitions" : null,
-            "maxTrees" : null,
-            "minObservationsForSplit" : 20,
-            "minObservationsInNode" : 7,
-            "modelOptimization" : "manual",
-            "modelValid" : "validationManual",
-            "mutationMethod" : null,
-            "mutationRate" : null,
-            "noOfFolds" : 5,
-            "noOfNearestNeighbours" : null,
-            "noOfPredictors" : null,
-            "noOfTrees" : null,
-            "numberOfPredictors" : null,
-            "populationSize" : null,
-            "predictors" : [
-               "JaspColumn_0_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_6_Encoded"
-            ],
-            "scaleVariables" : false,
-            "seed" : 1,
-            "selectionMethod" : null,
-            "setSeed" : true,
-            "shrinkage" : null,
-            "smoothingParameter" : null,
-            "survivalMethod" : null,
-            "target" : "JaspColumn_8_Encoded",
-            "testDataManual" : 0.20000000000000001,
-            "testSetIndicator" : null,
-            "testSetIndicatorVariable" : "",
-            "threshold" : null,
-            "tolerance" : null,
-            "trainingDataManual" : null,
-            "validationDataManual" : 0.20000000000000001,
-            "validationLeaveOneOut" : null,
-            "weights" : null
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "classificationTable" : {
-         "citations" : [],
-         "colCombines" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "bool",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "",
-            "type" : "list"
-         },
-         "colFormats" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "penalty" : "sf:4;dp:3",
-               "testAcc" : "sf:4;dp:3"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colFormats",
-            "type" : "list"
-         },
-         "colNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [ "penalty", "splits", "nTrain", "nTest", "testAcc" ],
-            "title" : "colNames",
-            "type" : "list"
-         },
-         "colOvertitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colOvertitles",
-            "type" : "list"
-         },
-         "colRowCombinations" : [],
-         "colTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "nTest" : "n(Test)",
-               "nTrain" : "n(Train)",
-               "penalty" : "Complexity penalty",
-               "splits" : "Splits",
-               "testAcc" : "Test Accuracy"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTitles",
-            "type" : "list"
-         },
-         "colTypes" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "nTest" : "integer",
-               "nTrain" : "integer",
-               "penalty" : "number",
-               "splits" : "integer",
-               "testAcc" : "number"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTypes",
-            "type" : "list"
-         },
-         "data" : [
-            [ 0.001 ],
-            [ 22 ],
-            [ 1600 ],
-            [ 400 ],
-            [ 0.79000000000000004 ]
-         ],
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "expectedColumnCount" : 0,
-         "expectedRowCount" : 0,
-         "footnotes" : [],
-         "messages" : [],
-         "name" : "classificationTable",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "actfct" : null,
-            "algorithm" : null,
-            "baggingFraction" : null,
-            "candidates" : null,
-            "complexityParameter" : 0.001,
-            "cost" : null,
-            "crossoverMethod" : null,
-            "degree" : null,
-            "distanceParameterManual" : null,
-            "elitism" : null,
-            "elitismProportion" : null,
-            "epsilon" : null,
-            "estimationMethod" : null,
-            "gamma" : null,
-            "holdoutData" : "holdoutManual",
-            "interactionDepth" : 30,
-            "layers" : null,
-            "learningRate" : null,
-            "lossFunction" : null,
-            "maxComplexityParameter" : 1.0,
-            "maxCost" : null,
-            "maxGenerations" : null,
-            "maxLayers" : null,
-            "maxNearestNeighbors" : null,
-            "maxNodes" : null,
-            "maxTrainingRepetitions" : null,
-            "maxTrees" : null,
-            "minObservationsForSplit" : 20,
-            "minObservationsInNode" : 7,
-            "modelOptimization" : "manual",
-            "modelValid" : "validationManual",
-            "mutationMethod" : null,
-            "mutationRate" : null,
-            "noOfFolds" : 5,
-            "noOfNearestNeighbours" : null,
-            "noOfPredictors" : null,
-            "noOfTrees" : null,
-            "numberOfPredictors" : null,
-            "populationSize" : null,
-            "predictors" : [
-               "JaspColumn_0_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_6_Encoded"
-            ],
-            "saveModel" : false,
-            "savePath" : "",
-            "scaleVariables" : false,
-            "seed" : 1,
-            "selectionMethod" : null,
-            "setSeed" : true,
-            "shrinkage" : null,
-            "smoothingParameter" : null,
-            "survivalMethod" : null,
-            "target" : "JaspColumn_8_Encoded",
-            "testDataManual" : 0.20000000000000001,
-            "testSetIndicator" : null,
-            "testSetIndicatorVariable" : "",
-            "threshold" : null,
-            "tolerance" : null,
-            "trainingDataManual" : null,
-            "validationDataManual" : 0.20000000000000001,
-            "validationLeaveOneOut" : null,
-            "weights" : null
-         },
-         "optionMustContain" : {},
-         "position" : 1,
-         "rowNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowNames",
-            "type" : "list"
-         },
-         "rowTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowTitles",
-            "type" : "list"
-         },
-         "showSpecifiedColumnsOnly" : false,
-         "specifiedColumns" : [ "nTest", "nTrain", "penalty", "splits", "testAcc" ],
-         "status" : "complete",
-         "title" : "Decision Tree Classification",
-         "transposeTable" : false,
-         "transposeWithOvertitle" : false,
-         "type" : "table"
-      },
-      "confusionTable" : {
-         "citations" : [],
-         "colCombines" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "bool",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "",
-            "type" : "list"
-         },
-         "colFormats" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colFormats",
-            "type" : "list"
-         },
-         "colNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [ "obs_name", "varname_obs", "varname_pred1", "varname_pred2" ],
-            "title" : "colNames",
-            "type" : "list"
-         },
-         "colOvertitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "varname_pred1" : "Predicted",
-               "varname_pred2" : "Predicted"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colOvertitles",
-            "type" : "list"
-         },
-         "colRowCombinations" : [],
-         "colTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "obs_name" : "",
-               "varname_obs" : "",
-               "varname_pred1" : "Fail",
-               "varname_pred2" : "Pass"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTitles",
-            "type" : "list"
-         },
-         "colTypes" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "obs_name" : "string",
-               "varname_obs" : "string",
-               "varname_pred1" : "integer",
-               "varname_pred2" : "integer"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTypes",
-            "type" : "list"
-         },
-         "data" : [
-            [ "Observed", "" ],
-            [ "Fail", "Pass" ],
-            [ 0, 3 ],
-            [ 81, 316 ]
-         ],
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "expectedColumnCount" : 0,
-         "expectedRowCount" : 0,
-         "footnotes" : [],
-         "messages" : [],
-         "name" : "confusionTable",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "actfct" : null,
-            "algorithm" : null,
-            "baggingFraction" : null,
-            "candidates" : null,
-            "complexityParameter" : 0.001,
-            "confusionProportions" : false,
-            "confusionTable" : true,
-            "cost" : null,
-            "crossoverMethod" : null,
-            "degree" : null,
-            "distanceParameterManual" : null,
-            "elitism" : null,
-            "elitismProportion" : null,
-            "epsilon" : null,
-            "estimationMethod" : null,
-            "gamma" : null,
-            "holdoutData" : "holdoutManual",
-            "interactionDepth" : 30,
-            "layers" : null,
-            "learningRate" : null,
-            "lossFunction" : null,
-            "maxComplexityParameter" : 1.0,
-            "maxCost" : null,
-            "maxGenerations" : null,
-            "maxLayers" : null,
-            "maxNearestNeighbors" : null,
-            "maxNodes" : null,
-            "maxTrainingRepetitions" : null,
-            "maxTrees" : null,
-            "minObservationsForSplit" : 20,
-            "minObservationsInNode" : 7,
-            "modelOptimization" : "manual",
-            "modelValid" : "validationManual",
-            "mutationMethod" : null,
-            "mutationRate" : null,
-            "noOfFolds" : 5,
-            "noOfNearestNeighbours" : null,
-            "noOfPredictors" : null,
-            "noOfTrees" : null,
-            "numberOfPredictors" : null,
-            "populationSize" : null,
-            "predictors" : [
-               "JaspColumn_0_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_6_Encoded"
-            ],
-            "scaleVariables" : false,
-            "seed" : 1,
-            "selectionMethod" : null,
-            "setSeed" : true,
-            "shrinkage" : null,
-            "smoothingParameter" : null,
-            "survivalMethod" : null,
-            "target" : "JaspColumn_8_Encoded",
-            "testDataManual" : 0.20000000000000001,
-            "testSetIndicator" : null,
-            "testSetIndicatorVariable" : "",
-            "threshold" : null,
-            "tolerance" : null,
-            "trainingDataManual" : null,
-            "validationDataManual" : 0.20000000000000001,
-            "validationLeaveOneOut" : null,
-            "weights" : null
-         },
-         "optionMustContain" : {},
-         "position" : 3,
-         "rowNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [ "Fail", "Pass" ],
-            "title" : "rowNames",
-            "type" : "list"
-         },
-         "rowTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowTitles",
-            "type" : "list"
-         },
-         "showSpecifiedColumnsOnly" : false,
-         "specifiedColumns" : [ "obs_name", "varname_obs", "varname_pred1", "varname_pred2" ],
-         "status" : "complete",
-         "title" : "Confusion Matrix",
-         "transposeTable" : false,
-         "transposeWithOvertitle" : false,
-         "type" : "table"
-      },
-      "decisionTreePlot" : {
-         "aspectRatio" : 0.0,
-         "citations" : [],
-         "editOptions" : {
-            "error" : "success",
-            "xAxis" : {
-               "settings" : {
-                  "breaks" : [ 0.25, 0.5, 0.75, 1 ],
-                  "breaksType" : "manual",
-                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                  "labels" : [ "0.25", "0.50", "0.75", "1.00" ],
-                  "limits" : [ 0.064285714285714293, 1.02142857142857 ],
-                  "limitsType" : "manual",
-                  "range" : [ 0.25, 1, 0.25 ],
-                  "title" : null,
-                  "titleType" : "NULL"
-               },
-               "type" : "ScaleContinuous"
-            },
-            "yAxis" : {
-               "settings" : {
-                  "breaks" : [ 0.40000000000000002, 0.59999999999999998, 0.80000000000000004, 1 ],
-                  "breaksType" : "manual",
-                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                  "labels" : [ "0.4", "0.6", "0.8", "1.0" ],
-                  "limits" : [ 0.25714285714285701, 1.1000000000000001 ],
-                  "limitsType" : "manual",
-                  "range" : [ 0.40000000000000002, 1, 0.20000000000000001 ],
-                  "title" : null,
-                  "titleType" : "NULL"
-               },
-               "type" : "ScaleContinuous"
-            }
-         },
-         "environmentName" : "plot_1",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "filePathPng" : "resources/0/_1_t1702645719034.png",
-         "height" : 500,
-         "messages" : [],
-         "name" : "decisionTreePlot",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "actfct" : null,
-            "algorithm" : null,
-            "baggingFraction" : null,
-            "candidates" : null,
-            "complexityParameter" : 0.001,
-            "cost" : null,
-            "crossoverMethod" : null,
-            "decisionTreePlot" : true,
-            "degree" : null,
-            "distanceParameterManual" : null,
-            "elitism" : null,
-            "elitismProportion" : null,
-            "epsilon" : null,
-            "estimationMethod" : null,
-            "gamma" : null,
-            "holdoutData" : "holdoutManual",
-            "interactionDepth" : 30,
-            "layers" : null,
-            "learningRate" : null,
-            "lossFunction" : null,
-            "maxComplexityParameter" : 1.0,
-            "maxCost" : null,
-            "maxGenerations" : null,
-            "maxLayers" : null,
-            "maxNearestNeighbors" : null,
-            "maxNodes" : null,
-            "maxTrainingRepetitions" : null,
-            "maxTrees" : null,
-            "minObservationsForSplit" : 20,
-            "minObservationsInNode" : 7,
-            "modelOptimization" : "manual",
-            "modelValid" : "validationManual",
-            "mutationMethod" : null,
-            "mutationRate" : null,
-            "noOfFolds" : 5,
-            "noOfNearestNeighbours" : null,
-            "noOfPredictors" : null,
-            "noOfTrees" : null,
-            "numberOfPredictors" : null,
-            "populationSize" : null,
-            "predictors" : [
-               "JaspColumn_0_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_6_Encoded"
-            ],
-            "scaleVariables" : false,
-            "seed" : 1,
-            "selectionMethod" : null,
-            "setSeed" : true,
-            "shrinkage" : null,
-            "smoothingParameter" : null,
-            "survivalMethod" : null,
-            "target" : "JaspColumn_8_Encoded",
-            "testDataManual" : 0.20000000000000001,
-            "testSetIndicator" : null,
-            "testSetIndicatorVariable" : "",
-            "threshold" : null,
-            "tolerance" : null,
-            "trainingDataManual" : null,
-            "validationDataManual" : 0.20000000000000001,
-            "validationLeaveOneOut" : null,
-            "weights" : null
-         },
-         "optionMustContain" : {},
-         "position" : 12,
-         "resizedByUser" : false,
-         "revision" : 0,
-         "status" : "complete",
-         "title" : "Decision Tree Plot",
-         "type" : "plot",
-         "width" : 600
-      },
-      "formula" : {
-         "citations" : [],
-         "environmentName" : "state_0",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "formula",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "predictors" : [
-               "JaspColumn_0_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_6_Encoded"
-            ],
-            "target" : "JaspColumn_8_Encoded"
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "plotDataSplit" : {
-         "aspectRatio" : 0.0,
-         "citations" : [],
-         "editOptions" : {
-            "error" : "success",
-            "xAxis" : {
-               "settings" : {
-                  "breaks" : [ 0, 500, 1000, 1500, 2000, 2500 ],
-                  "breaksType" : "range",
-                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                  "labels" : [ "0", "500", "1000", "1500", "2000", "2500" ],
-                  "limits" : [ 0, 2400 ],
-                  "limitsType" : "manual",
-                  "range" : [ 0, 2500, 500 ],
-                  "title" : null,
-                  "titleType" : "NULL"
-               },
-               "type" : "ScaleContinuous"
-            },
-            "yAxis" : {
-               "settings" : {
-                  "breaks" : [ 0.75, 1, 1.25 ],
-                  "breaksType" : "manual",
-                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                  "labels" : [ "0.75", "1.00", "1.25" ],
-                  "limits" : [ 0.55000000000000004, 1.45 ],
-                  "limitsType" : "data",
-                  "range" : [ 0.75, 1.25, 0.25 ],
-                  "title" : null,
-                  "titleType" : "NULL"
-               },
-               "type" : "ScaleContinuous"
-            }
-         },
-         "environmentName" : "plot_0",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "filePathPng" : "resources/0/_0_t1702645718738.png",
-         "height" : 30,
-         "messages" : [],
-         "name" : "plotDataSplit",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "dataSplitPlot" : true,
-            "holdoutData" : "holdoutManual",
-            "modelOptimization" : "manual",
-            "modelValid" : "validationManual",
-            "predictors" : [
-               "JaspColumn_0_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_6_Encoded"
-            ],
-            "target" : "JaspColumn_8_Encoded",
-            "testDataManual" : 0.20000000000000001,
-            "testSetIndicator" : null,
-            "testSetIndicatorVariable" : "",
-            "trainingDataManual" : null,
-            "validationDataManual" : 0.20000000000000001
-         },
-         "optionMustContain" : {},
-         "position" : 2,
-         "resizedByUser" : false,
-         "revision" : 0,
-         "status" : "complete",
-         "title" : "Data Split",
-         "type" : "plot",
-         "width" : 800
-      },
-      "splitsTable" : {
-         "citations" : [],
-         "colCombines" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "bool",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "",
-            "type" : "list"
-         },
-         "colFormats" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "improve" : "sf:4;dp:3",
-               "index" : "sf:4;dp:3"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colFormats",
-            "type" : "list"
-         },
-         "colNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [ "predictor", "count", "index", "improve" ],
-            "title" : "colNames",
-            "type" : "list"
-         },
-         "colOvertitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colOvertitles",
-            "type" : "list"
-         },
-         "colRowCombinations" : [],
-         "colTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "count" : "Obs. in Split",
-               "improve" : "Improvement",
-               "index" : "Split Point",
-               "predictor" : ""
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTitles",
-            "type" : "list"
-         },
-         "colTypes" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "count" : "integer",
-               "improve" : "number",
-               "index" : "number",
-               "predictor" : "string"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTypes",
-            "type" : "list"
-         },
-         "data" : [
-            [
-               "JaspColumn_3_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_6_Encoded",
-               "JaspColumn_0_Encoded",
-               "JaspColumn_0_Encoded"
-            ],
-            [ 1600.0, 739.0, 524.0, 501.0, 63.0, 215.0 ],
-            [ 10.0, 13.0, 5.0, 7.0, 26.5, 39.5 ],
-            [
-               40.991282128201533,
-               1.2567611314247529,
-               0.65386154342488112,
-               0.69575265646139428,
-               3.306878306878307,
-               1.316866854076153
-            ]
-         ],
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "expectedColumnCount" : 0,
-         "expectedRowCount" : 0,
-         "footnotes" : [
-            {
-               "cols" : null,
-               "rows" : null,
-               "symbol" : "<em>Note.</em>",
-               "text" : "For each level of the tree, only the split with the highest improvement in deviance is shown."
-            }
-         ],
-         "messages" : [],
-         "name" : "splitsTable",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "actfct" : null,
-            "algorithm" : null,
-            "baggingFraction" : null,
-            "candidates" : null,
-            "complexityParameter" : 0.001,
-            "cost" : null,
-            "crossoverMethod" : null,
-            "degree" : null,
-            "distanceParameterManual" : null,
-            "elitism" : null,
-            "elitismProportion" : null,
-            "epsilon" : null,
-            "estimationMethod" : null,
-            "gamma" : null,
-            "holdoutData" : "holdoutManual",
-            "interactionDepth" : 30,
-            "layers" : null,
-            "learningRate" : null,
-            "lossFunction" : null,
-            "maxComplexityParameter" : 1.0,
-            "maxCost" : null,
-            "maxGenerations" : null,
-            "maxLayers" : null,
-            "maxNearestNeighbors" : null,
-            "maxNodes" : null,
-            "maxTrainingRepetitions" : null,
-            "maxTrees" : null,
-            "minObservationsForSplit" : 20,
-            "minObservationsInNode" : 7,
-            "modelOptimization" : "manual",
-            "modelValid" : "validationManual",
-            "mutationMethod" : null,
-            "mutationRate" : null,
-            "noOfFolds" : 5,
-            "noOfNearestNeighbours" : null,
-            "noOfPredictors" : null,
-            "noOfTrees" : null,
-            "numberOfPredictors" : null,
-            "populationSize" : null,
-            "predictors" : [
-               "JaspColumn_0_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_6_Encoded"
-            ],
-            "scaleVariables" : false,
-            "seed" : 1,
-            "selectionMethod" : null,
-            "setSeed" : true,
-            "shrinkage" : null,
-            "smoothingParameter" : null,
-            "splitsTable" : true,
-            "splitsTreeTable" : true,
-            "survivalMethod" : null,
-            "target" : "JaspColumn_8_Encoded",
-            "testDataManual" : 0.20000000000000001,
-            "testSetIndicator" : null,
-            "testSetIndicatorVariable" : "",
-            "threshold" : null,
-            "tolerance" : null,
-            "trainingDataManual" : null,
-            "validationDataManual" : 0.20000000000000001,
-            "validationLeaveOneOut" : null,
-            "weights" : null
-         },
-         "optionMustContain" : {},
-         "position" : 8,
-         "rowNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowNames",
-            "type" : "list"
-         },
-         "rowTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowTitles",
-            "type" : "list"
-         },
-         "showSpecifiedColumnsOnly" : false,
-         "specifiedColumns" : [ "count", "improve", "index", "predictor" ],
-         "status" : "complete",
-         "title" : "Splits in Tree",
-         "transposeTable" : false,
-         "transposeWithOvertitle" : false,
-         "type" : "table"
-      }
-   },
-   "data_order" : {
-      "classificationResult" : 2,
-      "classificationTable" : 0,
-      "confusionTable" : 4,
-      "decisionTreePlot" : 6,
-      "formula" : 1,
-      "plotDataSplit" : 3,
-      "splitsTable" : 5
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "predictionsColumn" : {
-            "shouldEncode" : true
-         },
-         "predictors" : {
-            "shouldEncode" : true
-         },
-         "target" : {
-            "shouldEncode" : true
-         },
-         "testIndicatorColumn" : {
-            "shouldEncode" : true
-         },
-         "testSetIndicatorVariable" : {
-            "shouldEncode" : true
-         }
-      },
-      "addIndicator" : false,
-      "addPredictions" : false,
-      "andrewsCurve" : false,
-      "classProportionsTable" : false,
-      "complexityParameter" : 0.001,
-      "confusionProportions" : false,
-      "confusionTable" : true,
-      "dataSplitPlot" : true,
-      "decisionBoundary" : false,
-      "decisionTreePlot" : true,
-      "featureImportanceTable" : false,
-      "fromIndex" : 1,
-      "holdoutData" : "holdoutManual",
-      "interactionDepth" : 30,
-      "legendShown" : true,
-      "maxComplexityParameter" : 1.0,
-      "minObservationsForSplit" : 20,
-      "minObservationsInNode" : 7,
-      "modelOptimization" : "manual",
-      "modelValid" : "validationManual",
-      "noOfFolds" : 5,
-      "optimPlot" : false,
-      "plotHeight" : 320,
-      "plotWidth" : 480,
-      "pointsShown" : true,
-      "predictionsColumn" : "",
-      "predictors" : [
-         "JaspColumn_0_Encoded",
-         "JaspColumn_2_Encoded",
-         "JaspColumn_3_Encoded",
-         "JaspColumn_4_Encoded",
-         "JaspColumn_6_Encoded"
-      ],
-      "rocCurve" : false,
-      "saveModel" : false,
-      "savePath" : "",
-      "scaleVariables" : false,
-      "seed" : 1,
-      "setSeed" : true,
-      "splitsTable" : true,
-      "splitsTreeTable" : true,
-      "tableShap" : false,
-      "target" : "JaspColumn_8_Encoded",
-      "testDataManual" : 0.20000000000000001,
-      "testIndicatorColumn" : "",
-      "testSetIndicatorVariable" : "",
-      "toIndex" : 5,
-      "validationDataManual" : 0.20000000000000001,
-      "validationMeasures" : false
-   },
-   "order_increment" : 7,
-   "position" : 9999,
-   "relativePathKeep" : "resources/0/state",
-   "title" : "Decision Tree Classification",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"classificationResult" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_1",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "classificationResult",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"actfct" : null,
+				"algorithm" : null,
+				"baggingFraction" : null,
+				"candidates" : null,
+				"complexityParameter" : 0.001,
+				"cost" : null,
+				"crossoverMethod" : null,
+				"degree" : null,
+				"distanceParameterManual" : null,
+				"elitism" : null,
+				"elitismProportion" : null,
+				"epsilon" : null,
+				"estimationMethod" : null,
+				"gamma" : null,
+				"holdoutData" : "holdoutManual",
+				"interactionDepth" : 30,
+				"layers" : null,
+				"learningRate" : null,
+				"lossFunction" : null,
+				"maxComplexityParameter" : 1.0,
+				"maxCost" : null,
+				"maxGenerations" : null,
+				"maxLayers" : null,
+				"maxNearestNeighbors" : null,
+				"maxNodes" : null,
+				"maxTrainingRepetitions" : null,
+				"maxTrees" : null,
+				"minObservationsForSplit" : 20,
+				"minObservationsInNode" : 7,
+				"modelOptimization" : "manual",
+				"modelValid" : "validationManual",
+				"mutationMethod" : null,
+				"mutationRate" : null,
+				"noOfFolds" : 5,
+				"noOfNearestNeighbours" : null,
+				"noOfPredictors" : null,
+				"noOfTrees" : null,
+				"numberOfPredictors" : null,
+				"populationSize" : null,
+				"predictors" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				"predictors.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"nominal",
+					"nominal"
+				],
+				"scaleVariables" : false,
+				"seed" : 1,
+				"selectionMethod" : null,
+				"setSeed" : true,
+				"shrinkage" : null,
+				"smoothingParameter" : null,
+				"survivalMethod" : null,
+				"target" : "JaspColumn_8_Encoded",
+				"target.types" : 
+				[
+					"nominal"
+				],
+				"testDataManual" : 0.20000000000000001,
+				"testSetIndicator" : null,
+				"testSetIndicatorVariable" : "",
+				"threshold" : null,
+				"tolerance" : null,
+				"trainingDataManual" : null,
+				"validationDataManual" : 0.20000000000000001,
+				"validationLeaveOneOut" : null,
+				"weights" : null
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"classificationTable" : 
+		{
+			"citations" : [],
+			"colCombines" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "bool",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "",
+				"type" : "list"
+			},
+			"colFormats" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"penalty" : "sf:4;dp:3",
+					"testAcc" : "sf:4;dp:3"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colFormats",
+				"type" : "list"
+			},
+			"colNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"penalty",
+					"splits",
+					"nTrain",
+					"nTest",
+					"testAcc"
+				],
+				"title" : "colNames",
+				"type" : "list"
+			},
+			"colOvertitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colOvertitles",
+				"type" : "list"
+			},
+			"colRowCombinations" : [],
+			"colTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"nTest" : "n(Test)",
+					"nTrain" : "n(Train)",
+					"penalty" : "Complexity penalty",
+					"splits" : "Splits",
+					"testAcc" : "Test Accuracy"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTitles",
+				"type" : "list"
+			},
+			"colTypes" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"nTest" : "integer",
+					"nTrain" : "integer",
+					"penalty" : "number",
+					"splits" : "integer",
+					"testAcc" : "number"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTypes",
+				"type" : "list"
+			},
+			"data" : 
+			[
+				[
+					0.001
+				],
+				[
+					22
+				],
+				[
+					1600
+				],
+				[
+					400
+				],
+				[
+					0.79000000000000004
+				]
+			],
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"expectedColumnCount" : 0,
+			"expectedRowCount" : 0,
+			"footnotes" : [],
+			"messages" : [],
+			"name" : "classificationTable",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"actfct" : null,
+				"algorithm" : null,
+				"baggingFraction" : null,
+				"candidates" : null,
+				"complexityParameter" : 0.001,
+				"cost" : null,
+				"crossoverMethod" : null,
+				"degree" : null,
+				"distanceParameterManual" : null,
+				"elitism" : null,
+				"elitismProportion" : null,
+				"epsilon" : null,
+				"estimationMethod" : null,
+				"gamma" : null,
+				"holdoutData" : "holdoutManual",
+				"interactionDepth" : 30,
+				"layers" : null,
+				"learningRate" : null,
+				"lossFunction" : null,
+				"maxComplexityParameter" : 1.0,
+				"maxCost" : null,
+				"maxGenerations" : null,
+				"maxLayers" : null,
+				"maxNearestNeighbors" : null,
+				"maxNodes" : null,
+				"maxTrainingRepetitions" : null,
+				"maxTrees" : null,
+				"minObservationsForSplit" : 20,
+				"minObservationsInNode" : 7,
+				"modelOptimization" : "manual",
+				"modelValid" : "validationManual",
+				"mutationMethod" : null,
+				"mutationRate" : null,
+				"noOfFolds" : 5,
+				"noOfNearestNeighbours" : null,
+				"noOfPredictors" : null,
+				"noOfTrees" : null,
+				"numberOfPredictors" : null,
+				"populationSize" : null,
+				"predictors" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				"predictors.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"nominal",
+					"nominal"
+				],
+				"saveModel" : false,
+				"savePath" : "",
+				"scaleVariables" : false,
+				"seed" : 1,
+				"selectionMethod" : null,
+				"setSeed" : true,
+				"shrinkage" : null,
+				"smoothingParameter" : null,
+				"survivalMethod" : null,
+				"target" : "JaspColumn_8_Encoded",
+				"target.types" : 
+				[
+					"nominal"
+				],
+				"testDataManual" : 0.20000000000000001,
+				"testSetIndicator" : null,
+				"testSetIndicatorVariable" : "",
+				"threshold" : null,
+				"tolerance" : null,
+				"trainingDataManual" : null,
+				"validationDataManual" : 0.20000000000000001,
+				"validationLeaveOneOut" : null,
+				"weights" : null
+			},
+			"optionMustContain" : {},
+			"position" : 1,
+			"rowNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowNames",
+				"type" : "list"
+			},
+			"rowTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowTitles",
+				"type" : "list"
+			},
+			"showSpecifiedColumnsOnly" : false,
+			"specifiedColumns" : 
+			[
+				"nTest",
+				"nTrain",
+				"penalty",
+				"splits",
+				"testAcc"
+			],
+			"status" : "complete",
+			"title" : "Model Summary: Decision Tree Classification",
+			"transposeTable" : false,
+			"transposeWithOvertitle" : false,
+			"type" : "table"
+		},
+		"confusionTable" : 
+		{
+			"citations" : [],
+			"colCombines" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "bool",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "",
+				"type" : "list"
+			},
+			"colFormats" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colFormats",
+				"type" : "list"
+			},
+			"colNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"obs_name",
+					"varname_obs",
+					"varname_pred1",
+					"varname_pred2"
+				],
+				"title" : "colNames",
+				"type" : "list"
+			},
+			"colOvertitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"varname_pred1" : "Predicted",
+					"varname_pred2" : "Predicted"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colOvertitles",
+				"type" : "list"
+			},
+			"colRowCombinations" : [],
+			"colTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"obs_name" : "",
+					"varname_obs" : "",
+					"varname_pred1" : "Fail",
+					"varname_pred2" : "Pass"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTitles",
+				"type" : "list"
+			},
+			"colTypes" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"obs_name" : "string",
+					"varname_obs" : "string",
+					"varname_pred1" : "integer",
+					"varname_pred2" : "integer"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTypes",
+				"type" : "list"
+			},
+			"data" : 
+			[
+				[
+					"Observed",
+					""
+				],
+				[
+					"Fail",
+					"Pass"
+				],
+				[
+					0,
+					3
+				],
+				[
+					81,
+					316
+				]
+			],
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"expectedColumnCount" : 0,
+			"expectedRowCount" : 0,
+			"footnotes" : [],
+			"messages" : [],
+			"name" : "confusionTable",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"actfct" : null,
+				"algorithm" : null,
+				"baggingFraction" : null,
+				"candidates" : null,
+				"complexityParameter" : 0.001,
+				"confusionProportions" : false,
+				"confusionTable" : true,
+				"confusionTranspose" : false,
+				"cost" : null,
+				"crossoverMethod" : null,
+				"degree" : null,
+				"distanceParameterManual" : null,
+				"elitism" : null,
+				"elitismProportion" : null,
+				"epsilon" : null,
+				"estimationMethod" : null,
+				"gamma" : null,
+				"holdoutData" : "holdoutManual",
+				"interactionDepth" : 30,
+				"layers" : null,
+				"learningRate" : null,
+				"lossFunction" : null,
+				"maxComplexityParameter" : 1.0,
+				"maxCost" : null,
+				"maxGenerations" : null,
+				"maxLayers" : null,
+				"maxNearestNeighbors" : null,
+				"maxNodes" : null,
+				"maxTrainingRepetitions" : null,
+				"maxTrees" : null,
+				"minObservationsForSplit" : 20,
+				"minObservationsInNode" : 7,
+				"modelOptimization" : "manual",
+				"modelValid" : "validationManual",
+				"mutationMethod" : null,
+				"mutationRate" : null,
+				"noOfFolds" : 5,
+				"noOfNearestNeighbours" : null,
+				"noOfPredictors" : null,
+				"noOfTrees" : null,
+				"numberOfPredictors" : null,
+				"populationSize" : null,
+				"predictors" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				"predictors.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"nominal",
+					"nominal"
+				],
+				"scaleVariables" : false,
+				"seed" : 1,
+				"selectionMethod" : null,
+				"setSeed" : true,
+				"shrinkage" : null,
+				"smoothingParameter" : null,
+				"survivalMethod" : null,
+				"target" : "JaspColumn_8_Encoded",
+				"target.types" : 
+				[
+					"nominal"
+				],
+				"testDataManual" : 0.20000000000000001,
+				"testSetIndicator" : null,
+				"testSetIndicatorVariable" : "",
+				"threshold" : null,
+				"tolerance" : null,
+				"trainingDataManual" : null,
+				"validationDataManual" : 0.20000000000000001,
+				"validationLeaveOneOut" : null,
+				"weights" : null
+			},
+			"optionMustContain" : {},
+			"position" : 3,
+			"rowNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"Fail",
+					"Pass"
+				],
+				"title" : "rowNames",
+				"type" : "list"
+			},
+			"rowTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowTitles",
+				"type" : "list"
+			},
+			"showSpecifiedColumnsOnly" : false,
+			"specifiedColumns" : 
+			[
+				"obs_name",
+				"varname_obs",
+				"varname_pred1",
+				"varname_pred2"
+			],
+			"status" : "complete",
+			"title" : "Confusion Matrix",
+			"transposeTable" : false,
+			"transposeWithOvertitle" : false,
+			"type" : "table"
+		},
+		"decisionTreePlot" : 
+		{
+			"aspectRatio" : 0.0,
+			"citations" : [],
+			"editOptions" : 
+			{
+				"error" : "success",
+				"xAxis" : 
+				{
+					"settings" : 
+					{
+						"breaks" : 
+						[
+							0.25,
+							0.5,
+							0.75,
+							1
+						],
+						"breaksType" : "manual",
+						"expand" : 
+						[
+							0.050000000000000003,
+							0,
+							0.050000000000000003,
+							0
+						],
+						"labels" : 
+						[
+							"0.25",
+							"0.50",
+							"0.75",
+							"1.00"
+						],
+						"limits" : 
+						[
+							0.064285714285714293,
+							1.02142857142857
+						],
+						"limitsType" : "manual",
+						"range" : 
+						[
+							0.25,
+							1,
+							0.25
+						],
+						"title" : null,
+						"titleType" : "NULL"
+					},
+					"type" : "ScaleContinuous"
+				},
+				"yAxis" : 
+				{
+					"settings" : 
+					{
+						"breaks" : 
+						[
+							0.40000000000000002,
+							0.59999999999999998,
+							0.80000000000000004,
+							1
+						],
+						"breaksType" : "manual",
+						"expand" : 
+						[
+							0.050000000000000003,
+							0,
+							0.050000000000000003,
+							0
+						],
+						"labels" : 
+						[
+							"0.4",
+							"0.6",
+							"0.8",
+							"1.0"
+						],
+						"limits" : 
+						[
+							0.25714285714285701,
+							1.1000000000000001
+						],
+						"limitsType" : "manual",
+						"range" : 
+						[
+							0.40000000000000002,
+							1,
+							0.20000000000000001
+						],
+						"title" : null,
+						"titleType" : "NULL"
+					},
+					"type" : "ScaleContinuous"
+				}
+			},
+			"environmentName" : "plot_1",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"filePathPng" : "resources/0/_1_t1720524941415.png",
+			"height" : 500,
+			"messages" : [],
+			"name" : "decisionTreePlot",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"actfct" : null,
+				"algorithm" : null,
+				"baggingFraction" : null,
+				"candidates" : null,
+				"complexityParameter" : 0.001,
+				"cost" : null,
+				"crossoverMethod" : null,
+				"decisionTreePlot" : true,
+				"degree" : null,
+				"distanceParameterManual" : null,
+				"elitism" : null,
+				"elitismProportion" : null,
+				"epsilon" : null,
+				"estimationMethod" : null,
+				"gamma" : null,
+				"holdoutData" : "holdoutManual",
+				"interactionDepth" : 30,
+				"layers" : null,
+				"learningRate" : null,
+				"lossFunction" : null,
+				"maxComplexityParameter" : 1.0,
+				"maxCost" : null,
+				"maxGenerations" : null,
+				"maxLayers" : null,
+				"maxNearestNeighbors" : null,
+				"maxNodes" : null,
+				"maxTrainingRepetitions" : null,
+				"maxTrees" : null,
+				"minObservationsForSplit" : 20,
+				"minObservationsInNode" : 7,
+				"modelOptimization" : "manual",
+				"modelValid" : "validationManual",
+				"mutationMethod" : null,
+				"mutationRate" : null,
+				"noOfFolds" : 5,
+				"noOfNearestNeighbours" : null,
+				"noOfPredictors" : null,
+				"noOfTrees" : null,
+				"numberOfPredictors" : null,
+				"populationSize" : null,
+				"predictors" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				"predictors.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"nominal",
+					"nominal"
+				],
+				"scaleVariables" : false,
+				"seed" : 1,
+				"selectionMethod" : null,
+				"setSeed" : true,
+				"shrinkage" : null,
+				"smoothingParameter" : null,
+				"survivalMethod" : null,
+				"target" : "JaspColumn_8_Encoded",
+				"target.types" : 
+				[
+					"nominal"
+				],
+				"testDataManual" : 0.20000000000000001,
+				"testSetIndicator" : null,
+				"testSetIndicatorVariable" : "",
+				"threshold" : null,
+				"tolerance" : null,
+				"trainingDataManual" : null,
+				"validationDataManual" : 0.20000000000000001,
+				"validationLeaveOneOut" : null,
+				"weights" : null
+			},
+			"optionMustContain" : {},
+			"position" : 12,
+			"resizedByUser" : false,
+			"revision" : 0,
+			"status" : "complete",
+			"title" : "Decision Tree Plot",
+			"type" : "plot",
+			"width" : 600
+		},
+		"formula" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_0",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "formula",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"predictors" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				"predictors.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"nominal",
+					"nominal"
+				],
+				"target" : "JaspColumn_8_Encoded",
+				"target.types" : 
+				[
+					"nominal"
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"plotDataSplit" : 
+		{
+			"aspectRatio" : 0.0,
+			"citations" : [],
+			"editOptions" : 
+			{
+				"error" : "success",
+				"xAxis" : 
+				{
+					"settings" : 
+					{
+						"breaks" : 
+						[
+							0,
+							500,
+							1000,
+							1500,
+							2000,
+							2500
+						],
+						"breaksType" : "range",
+						"expand" : 
+						[
+							0.050000000000000003,
+							0,
+							0.050000000000000003,
+							0
+						],
+						"labels" : 
+						[
+							"0",
+							"500",
+							"1000",
+							"1500",
+							"2000",
+							"2500"
+						],
+						"limits" : 
+						[
+							0,
+							2400
+						],
+						"limitsType" : "manual",
+						"range" : 
+						[
+							0,
+							2500,
+							500
+						],
+						"title" : null,
+						"titleType" : "NULL"
+					},
+					"type" : "ScaleContinuous"
+				},
+				"yAxis" : 
+				{
+					"settings" : 
+					{
+						"breaks" : 
+						[
+							0.75,
+							1,
+							1.25
+						],
+						"breaksType" : "manual",
+						"expand" : 
+						[
+							0.050000000000000003,
+							0,
+							0.050000000000000003,
+							0
+						],
+						"labels" : 
+						[
+							"0.75",
+							"1.00",
+							"1.25"
+						],
+						"limits" : 
+						[
+							0.55000000000000004,
+							1.45
+						],
+						"limitsType" : "data",
+						"range" : 
+						[
+							0.75,
+							1.25,
+							0.25
+						],
+						"title" : null,
+						"titleType" : "NULL"
+					},
+					"type" : "ScaleContinuous"
+				}
+			},
+			"environmentName" : "plot_0",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"filePathPng" : "resources/0/_0_t1720524941126.png",
+			"height" : 30,
+			"messages" : [],
+			"name" : "plotDataSplit",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"dataSplitPlot" : true,
+				"holdoutData" : "holdoutManual",
+				"modelOptimization" : "manual",
+				"modelValid" : "validationManual",
+				"predictors" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				"predictors.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"nominal",
+					"nominal"
+				],
+				"target" : "JaspColumn_8_Encoded",
+				"target.types" : 
+				[
+					"nominal"
+				],
+				"testDataManual" : 0.20000000000000001,
+				"testSetIndicator" : null,
+				"testSetIndicatorVariable" : "",
+				"trainingDataManual" : null,
+				"validationDataManual" : 0.20000000000000001
+			},
+			"optionMustContain" : {},
+			"position" : 2,
+			"resizedByUser" : false,
+			"revision" : 0,
+			"status" : "complete",
+			"title" : "Data Split",
+			"type" : "plot",
+			"width" : 800
+		},
+		"splitsTable" : 
+		{
+			"citations" : [],
+			"colCombines" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "bool",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "",
+				"type" : "list"
+			},
+			"colFormats" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"improve" : "sf:4;dp:3",
+					"index" : "sf:4;dp:3"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colFormats",
+				"type" : "list"
+			},
+			"colNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"predictor",
+					"count",
+					"index",
+					"improve"
+				],
+				"title" : "colNames",
+				"type" : "list"
+			},
+			"colOvertitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colOvertitles",
+				"type" : "list"
+			},
+			"colRowCombinations" : [],
+			"colTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"count" : "Obs. in Split",
+					"improve" : "Improvement",
+					"index" : "Split Point",
+					"predictor" : ""
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTitles",
+				"type" : "list"
+			},
+			"colTypes" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"count" : "integer",
+					"improve" : "number",
+					"index" : "number",
+					"predictor" : "string"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTypes",
+				"type" : "list"
+			},
+			"data" : 
+			[
+				[
+					"JaspColumn_3_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_0_Encoded"
+				],
+				[
+					1600.0,
+					739.0,
+					524.0,
+					501.0,
+					63.0,
+					215.0
+				],
+				[
+					10.0,
+					13.0,
+					5.0,
+					7.0,
+					26.5,
+					39.5
+				],
+				[
+					40.991282128201533,
+					1.2567611314247529,
+					0.65386154342488112,
+					0.69575265646139428,
+					3.306878306878307,
+					1.316866854076153
+				]
+			],
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"expectedColumnCount" : 0,
+			"expectedRowCount" : 0,
+			"footnotes" : 
+			[
+				{
+					"cols" : null,
+					"rows" : null,
+					"symbol" : "<em>Note.</em>",
+					"text" : "For each level of the tree, only the split with the highest improvement in deviance is shown."
+				}
+			],
+			"messages" : [],
+			"name" : "splitsTable",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"actfct" : null,
+				"algorithm" : null,
+				"baggingFraction" : null,
+				"candidates" : null,
+				"complexityParameter" : 0.001,
+				"cost" : null,
+				"crossoverMethod" : null,
+				"degree" : null,
+				"distanceParameterManual" : null,
+				"elitism" : null,
+				"elitismProportion" : null,
+				"epsilon" : null,
+				"estimationMethod" : null,
+				"gamma" : null,
+				"holdoutData" : "holdoutManual",
+				"interactionDepth" : 30,
+				"layers" : null,
+				"learningRate" : null,
+				"lossFunction" : null,
+				"maxComplexityParameter" : 1.0,
+				"maxCost" : null,
+				"maxGenerations" : null,
+				"maxLayers" : null,
+				"maxNearestNeighbors" : null,
+				"maxNodes" : null,
+				"maxTrainingRepetitions" : null,
+				"maxTrees" : null,
+				"minObservationsForSplit" : 20,
+				"minObservationsInNode" : 7,
+				"modelOptimization" : "manual",
+				"modelValid" : "validationManual",
+				"mutationMethod" : null,
+				"mutationRate" : null,
+				"noOfFolds" : 5,
+				"noOfNearestNeighbours" : null,
+				"noOfPredictors" : null,
+				"noOfTrees" : null,
+				"numberOfPredictors" : null,
+				"populationSize" : null,
+				"predictors" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				"predictors.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"nominal",
+					"nominal"
+				],
+				"scaleVariables" : false,
+				"seed" : 1,
+				"selectionMethod" : null,
+				"setSeed" : true,
+				"shrinkage" : null,
+				"smoothingParameter" : null,
+				"splitsTable" : true,
+				"splitsTreeTable" : true,
+				"survivalMethod" : null,
+				"target" : "JaspColumn_8_Encoded",
+				"target.types" : 
+				[
+					"nominal"
+				],
+				"testDataManual" : 0.20000000000000001,
+				"testSetIndicator" : null,
+				"testSetIndicatorVariable" : "",
+				"threshold" : null,
+				"tolerance" : null,
+				"trainingDataManual" : null,
+				"validationDataManual" : 0.20000000000000001,
+				"validationLeaveOneOut" : null,
+				"weights" : null
+			},
+			"optionMustContain" : {},
+			"position" : 8,
+			"rowNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowNames",
+				"type" : "list"
+			},
+			"rowTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowTitles",
+				"type" : "list"
+			},
+			"showSpecifiedColumnsOnly" : false,
+			"specifiedColumns" : 
+			[
+				"count",
+				"improve",
+				"index",
+				"predictor"
+			],
+			"status" : "complete",
+			"title" : "Splits in Tree",
+			"transposeTable" : false,
+			"transposeWithOvertitle" : false,
+			"type" : "table"
+		}
+	},
+	"data_order" : 
+	{
+		"classificationResult" : 2,
+		"classificationTable" : 0,
+		"confusionTable" : 4,
+		"decisionTreePlot" : 6,
+		"formula" : 1,
+		"plotDataSplit" : 3,
+		"splitsTable" : 5
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"predictionsColumn" : 
+			{
+				"shouldEncode" : true
+			},
+			"predictors" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"target" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"testIndicatorColumn" : 
+			{
+				"shouldEncode" : true
+			},
+			"testSetIndicatorVariable" : 
+			{
+				"shouldEncode" : true
+			}
+		},
+		"addIndicator" : false,
+		"addPredictions" : false,
+		"andrewsCurve" : false,
+		"classProportionsTable" : false,
+		"complexityParameter" : 0.001,
+		"confusionProportions" : false,
+		"confusionTable" : true,
+		"confusionTranspose" : false,
+		"dataSplitPlot" : true,
+		"decisionBoundary" : false,
+		"decisionTreePlot" : true,
+		"featureImportancePermutations" : 50,
+		"featureImportanceTable" : false,
+		"fromIndex" : 1,
+		"holdoutData" : "holdoutManual",
+		"interactionDepth" : 30,
+		"legendShown" : true,
+		"maxComplexityParameter" : 1.0,
+		"minObservationsForSplit" : 20,
+		"minObservationsInNode" : 7,
+		"modelOptimization" : "manual",
+		"modelValid" : "validationManual",
+		"noOfFolds" : 5,
+		"optimPlot" : false,
+		"plotHeight" : 320,
+		"plotWidth" : 480,
+		"pointsShown" : true,
+		"predictionsColumn" : "",
+		"predictors" : 
+		[
+			"JaspColumn_0_Encoded",
+			"JaspColumn_2_Encoded",
+			"JaspColumn_3_Encoded",
+			"JaspColumn_4_Encoded",
+			"JaspColumn_6_Encoded"
+		],
+		"predictors.types" : 
+		[
+			"scale",
+			"scale",
+			"scale",
+			"nominal",
+			"nominal"
+		],
+		"rocCurve" : false,
+		"saveModel" : false,
+		"savePath" : "",
+		"scaleVariables" : false,
+		"seed" : 1,
+		"setSeed" : true,
+		"splitsTable" : true,
+		"splitsTreeTable" : true,
+		"tableShap" : false,
+		"target" : "JaspColumn_8_Encoded",
+		"target.types" : 
+		[
+			"nominal"
+		],
+		"testDataManual" : 0.20000000000000001,
+		"testIndicatorColumn" : "",
+		"testSetIndicatorVariable" : "",
+		"toIndex" : 5,
+		"validationDataManual" : 0.20000000000000001,
+		"validationMeasures" : false
+	},
+	"order_increment" : 7,
+	"position" : 9999,
+	"relativePathKeep" : "resources/0/state",
+	"title" : "Decision Tree Classification",
+	"type" : "results"
 }

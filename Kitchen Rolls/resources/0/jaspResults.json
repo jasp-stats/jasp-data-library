@@ -1,693 +1,843 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
-   "data" : {
-      "descriptivesContainer" : {
-         "citations" : [],
-         "data" : {
-            "table" : {
-               "citations" : [],
-               "colCombines" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "variable" : true
-                  },
-                  "listType" : "bool",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "",
-                  "type" : "list"
-               },
-               "colFormats" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "coefOfVariation" : "sf:4;dp:3",
-                     "lowerCI" : "sf:4;dp:3",
-                     "mean" : "sf:4;dp:3",
-                     "sd" : "sf:4;dp:3",
-                     "se" : "sf:4;dp:3",
-                     "upperCI" : "sf:4;dp:3"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colFormats",
-                  "type" : "list"
-               },
-               "colNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [
-                     "variable",
-                     "group",
-                     "N",
-                     "mean",
-                     "sd",
-                     "se",
-                     "coefOfVariation",
-                     "lowerCI",
-                     "upperCI"
-                  ],
-                  "title" : "colNames",
-                  "type" : "list"
-               },
-               "colOvertitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "lowerCI" : "95% Credible Interval",
-                     "upperCI" : "95% Credible Interval"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colOvertitles",
-                  "type" : "list"
-               },
-               "colRowCombinations" : [],
-               "colTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "N" : "N",
-                     "coefOfVariation" : "Coefficient of variation",
-                     "group" : "Group",
-                     "lowerCI" : "Lower",
-                     "mean" : "Mean",
-                     "sd" : "SD",
-                     "se" : "SE",
-                     "upperCI" : "Upper",
-                     "variable" : ""
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTitles",
-                  "type" : "list"
-               },
-               "colTypes" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "N" : "integer",
-                     "coefOfVariation" : "number",
-                     "group" : "string",
-                     "lowerCI" : "number",
-                     "mean" : "number",
-                     "sd" : "number",
-                     "se" : "number",
-                     "upperCI" : "number",
-                     "variable" : "string"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTypes",
-                  "type" : "list"
-               },
-               "data" : [
-                  [ "JaspColumn_16_Encoded", "JaspColumn_16_Encoded" ],
-                  [ "clock", "counter" ],
-                  [ 48, 54 ],
-                  [ 0.640625, 0.71296296296296302 ],
-                  [ 0.49589218316949213, 0.47297695267719081 ],
-                  [ 0.071575871360484378, 0.064364010786423523 ],
-                  [ 0.77407560299628042, 0.66339624531346242 ],
-                  [ 0.49663291977860358, 0.58386510608549791 ],
-                  [ 0.78461708022139642, 0.84206081984042813 ]
-               ],
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "expectedColumnCount" : 0,
-               "expectedRowCount" : 0,
-               "footnotes" : [],
-               "messages" : [],
-               "name" : "table",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "dependent" : [ "JaspColumn_16_Encoded" ],
-                  "descriptives" : true,
-                  "descriptivesPlotCiLevel" : 0.94999999999999996,
-                  "pairs" : null
-               },
-               "optionMustContain" : {},
-               "position" : 1,
-               "rowNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowNames",
-                  "type" : "list"
-               },
-               "rowTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowTitles",
-                  "type" : "list"
-               },
-               "showSpecifiedColumnsOnly" : false,
-               "specifiedColumns" : [
-                  "N",
-                  "coefOfVariation",
-                  "group",
-                  "lowerCI",
-                  "mean",
-                  "sd",
-                  "se",
-                  "upperCI",
-                  "variable"
-               ],
-               "status" : "complete",
-               "title" : "Descriptives",
-               "transposeTable" : false,
-               "transposeWithOvertitle" : false,
-               "type" : "table"
-            }
-         },
-         "data_order" : {
-            "table" : 0
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "descriptivesContainer",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "group" : "JaspColumn_20_Encoded",
-            "naAction" : "perDependent"
-         },
-         "optionMustContain" : {},
-         "order_increment" : 1,
-         "position" : 2,
-         "title" : "",
-         "type" : "container"
-      },
-      "stateVariables" : {
-         "citations" : [],
-         "environmentName" : "state_0",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "stateVariables",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "group" : "JaspColumn_20_Encoded",
-            "naAction" : "perDependent"
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "ttestContainer" : {
-         "citations" : [],
-         "data" : {
-            "inferentialPlots" : {
-               "citations" : [],
-               "data" : {
-                  "mean_NEO" : {
-                     "citations" : [],
-                     "data" : {
-                        "priorAndPosteriorPlot" : {
-                           "aspectRatio" : 0.0,
-                           "citations" : [],
-                           "editOptions" : {
-                              "errorType" : "validationError",
-                              "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-                           },
-                           "environmentName" : "plot_0",
-                           "error" : false,
-                           "errorMessage" : "",
-                           "escapeHtml" : true,
-                           "filePathPng" : "resources/0/_0_t1702644971863.png",
-                           "height" : 400,
-                           "messages" : [],
-                           "name" : "priorAndPosteriorPlot",
-                           "nestedOptionMustBe" : {},
-                           "nestedOptionMustContain" : {},
-                           "optionMustBe" : {
-                              "priorAndPosteriorPlot" : true,
-                              "priorAndPosteriorPlotAdditionalInfo" : true,
-                              "priorAndPosteriorPlotCiLevel" : 0.94999999999999996
-                           },
-                           "optionMustContain" : {},
-                           "position" : 1,
-                           "resizedByUser" : false,
-                           "revision" : 0,
-                           "status" : "complete",
-                           "title" : "Prior and Posterior",
-                           "type" : "plot",
-                           "width" : 530
-                        }
-                     },
-                     "data_order" : {
-                        "priorAndPosteriorPlot" : 0
-                     },
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "initCollapsed" : false,
-                     "messages" : [],
-                     "name" : "mean_NEO",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {},
-                     "optionMustContain" : {
-                        "variables" : "JaspColumn_16_Encoded"
-                     },
-                     "order_increment" : 1,
-                     "position" : 9999,
-                     "title" : "JaspColumn_16_Encoded",
-                     "type" : "container"
-                  }
-               },
-               "data_order" : {
-                  "mean_NEO" : 0
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "inferentialPlots",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "alternative" : "greater",
-                  "test" : "student"
-               },
-               "optionMustContain" : {},
-               "order_increment" : 1,
-               "position" : 9999,
-               "title" : "Inferential Plots",
-               "type" : "container"
-            },
-            "stateTTestResults" : {
-               "citations" : [],
-               "environmentName" : "state_1",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "messages" : [],
-               "name" : "stateTTestResults",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {},
-               "optionMustContain" : {},
-               "position" : 9999,
-               "title" : "",
-               "type" : "state"
-            },
-            "ttestTable" : {
-               "citations" : [
-                  "Morey, R. D., & Rouder, J. N. (2015). BayesFactor (Version 0.9.11-3)[Computer software].",
-                  "Rouder, J. N., Speckman, P. L., Sun, D., Morey, R. D., & Iverson, G. (2009). Bayesian t tests for accepting and rejecting the null hypothesis. Psychonomic Bulletin & Review, 16, 225-237."
-               ],
-               "colCombines" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "bool",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "",
-                  "type" : "list"
-               },
-               "colFormats" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "BF" : "sf:4;dp:3",
-                     "error" : "sf:4;dp:3;~"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colFormats",
-                  "type" : "list"
-               },
-               "colNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [ "variable", "BF", "error" ],
-                  "title" : "colNames",
-                  "type" : "list"
-               },
-               "colOvertitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colOvertitles",
-                  "type" : "list"
-               },
-               "colRowCombinations" : [],
-               "colTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "BF" : "BF\u2080\u208a",
-                     "error" : "error %",
-                     "variable" : ""
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTitles",
-                  "type" : "list"
-               },
-               "colTypes" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "BF" : "number",
-                     "error" : "number",
-                     "variable" : "string"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTypes",
-                  "type" : "list"
-               },
-               "data" : [
-                  [ "JaspColumn_16_Encoded" ],
-                  [ 7.7488508344875289 ],
-                  [ 0.0016390982078025415 ]
-               ],
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "expectedColumnCount" : 0,
-               "expectedRowCount" : 0,
-               "footnotes" : [
-                  {
-                     "cols" : null,
-                     "rows" : null,
-                     "symbol" : "<em>Note.</em>",
-                     "text" : "For all tests, the alternative hypothesis specifies that the location of group <em>clock</em> is greater than the location of group <em>counter</em>."
-                  }
-               ],
-               "messages" : [],
-               "name" : "ttestTable",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "bayesFactorType" : "BF01",
-                  "dependent" : [ "JaspColumn_16_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "rowNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [ "JaspColumn_16_Encoded" ],
-                  "title" : "rowNames",
-                  "type" : "list"
-               },
-               "rowTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowTitles",
-                  "type" : "list"
-               },
-               "showSpecifiedColumnsOnly" : false,
-               "specifiedColumns" : [ "BF", "error", "variable" ],
-               "status" : "complete",
-               "title" : "Bayesian Independent Samples T-Test",
-               "transposeTable" : false,
-               "transposeWithOvertitle" : false,
-               "type" : "table"
-            }
-         },
-         "data_order" : {
-            "inferentialPlots" : 2,
-            "stateTTestResults" : 1,
-            "ttestTable" : 0
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "ttestContainer",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "effectSizeStandardized" : "default",
-            "group" : "JaspColumn_20_Encoded",
-            "informativeCauchyLocation" : 0.0,
-            "informativeCauchyScale" : 0.70699999999999996,
-            "informativeNormalMean" : 0.0,
-            "informativeNormalStd" : 0.70699999999999996,
-            "informativeStandardizedEffectSize" : "cauchy",
-            "informativeTDf" : 1.0,
-            "informativeTLocation" : 0.0,
-            "informativeTScale" : 0.70699999999999996,
-            "naAction" : "perDependent",
-            "priorWidth" : 0.70699999999999996,
-            "test" : "student",
-            "testValue" : null,
-            "wilcoxonSamples" : 1000
-         },
-         "optionMustContain" : {},
-         "order_increment" : 3,
-         "position" : 1,
-         "title" : "",
-         "type" : "container"
-      }
-   },
-   "data_order" : {
-      "descriptivesContainer" : 2,
-      "stateVariables" : 0,
-      "ttestContainer" : 1
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "dependent" : {
-            "shouldEncode" : true
-         },
-         "group" : {
-            "shouldEncode" : true
-         }
-      },
-      "alternative" : "greater",
-      "barPlot" : false,
-      "barPlotCiLevel" : 0.94999999999999996,
-      "barPlotErrorType" : "ci",
-      "barPlotYAxisFixedToZero" : true,
-      "bayesFactorType" : "BF01",
-      "bfRobustnessPlot" : false,
-      "bfRobustnessPlotAdditionalInfo" : false,
-      "bfSequentialPlot" : false,
-      "bfSequentialPlotRobustness" : false,
-      "defaultStandardizedEffectSize" : "cauchy",
-      "dependent" : [ "JaspColumn_16_Encoded" ],
-      "descriptives" : true,
-      "descriptivesPlot" : false,
-      "descriptivesPlotCiLevel" : 0.94999999999999996,
-      "dienesEffectSize" : "uniform",
-      "effectSize" : "standardized",
-      "effectSizeStandardized" : "default",
-      "group" : "JaspColumn_20_Encoded",
-      "halfNormalDienesStd" : 0.70699999999999996,
-      "informativeCauchyLocation" : 0.0,
-      "informativeCauchyScale" : 0.70699999999999996,
-      "informativeNormalMean" : 0.0,
-      "informativeNormalStd" : 0.70699999999999996,
-      "informativeStandardizedEffectSize" : "cauchy",
-      "informativeTDf" : 1.0,
-      "informativeTLocation" : 0.0,
-      "informativeTScale" : 0.70699999999999996,
-      "naAction" : "perDependent",
-      "normalDienesMean" : 0.70699999999999996,
-      "normalDienesStd" : 0.70699999999999996,
-      "plotHeight" : 340,
-      "plotWidth" : 420,
-      "priorAndPosteriorPlot" : true,
-      "priorAndPosteriorPlotAdditionalInfo" : true,
-      "priorAndPosteriorPlotCiLevel" : 0.94999999999999996,
-      "priorWidth" : 0.70699999999999996,
-      "raincloudPlot" : false,
-      "raincloudPlotHorizontal" : false,
-      "seed" : 1,
-      "setSeed" : false,
-      "test" : "student",
-      "uniformDienesLowerBound" : 0.70699999999999996,
-      "uniformDienesUpperBound" : 0.70699999999999996,
-      "wilcoxonSamples" : 1000
-   },
-   "order_increment" : 3,
-   "position" : 9999,
-   "relativePathKeep" : "resources/0/state",
-   "title" : "Bayesian Independent Samples T-Test",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"descriptivesContainer" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"table" : 
+				{
+					"citations" : [],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"variable" : true
+						},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"coefOfVariation" : "sf:4;dp:3",
+							"lowerCI" : "sf:4;dp:3",
+							"mean" : "sf:4;dp:3",
+							"sd" : "sf:4;dp:3",
+							"se" : "sf:4;dp:3",
+							"upperCI" : "sf:4;dp:3"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"variable",
+							"group",
+							"N",
+							"mean",
+							"sd",
+							"se",
+							"coefOfVariation",
+							"lowerCI",
+							"upperCI"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"lowerCI" : "95% Credible Interval",
+							"upperCI" : "95% Credible Interval"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"N" : "N",
+							"coefOfVariation" : "Coefficient of variation",
+							"group" : "Group",
+							"lowerCI" : "Lower",
+							"mean" : "Mean",
+							"sd" : "SD",
+							"se" : "SE",
+							"upperCI" : "Upper",
+							"variable" : ""
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"N" : "integer",
+							"coefOfVariation" : "number",
+							"group" : "string",
+							"lowerCI" : "number",
+							"mean" : "number",
+							"sd" : "number",
+							"se" : "number",
+							"upperCI" : "number",
+							"variable" : "string"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							"JaspColumn_16_Encoded",
+							"JaspColumn_16_Encoded"
+						],
+						[
+							"clock",
+							"counter"
+						],
+						[
+							48,
+							54
+						],
+						[
+							0.640625,
+							0.71296296296296302
+						],
+						[
+							0.49589218316949213,
+							0.47297695267719081
+						],
+						[
+							0.071575871360484378,
+							0.064364010786423523
+						],
+						[
+							0.77407560299628042,
+							0.66339624531346242
+						],
+						[
+							0.49663291977860358,
+							0.58386510608549791
+						],
+						[
+							0.78461708022139642,
+							0.84206081984042813
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 0,
+					"footnotes" : [],
+					"messages" : [],
+					"name" : "table",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"dependent" : 
+						[
+							"JaspColumn_16_Encoded"
+						],
+						"dependent.types" : 
+						[
+							"scale"
+						],
+						"descriptives" : true,
+						"descriptivesPlotCiLevel" : 0.94999999999999996,
+						"pairs" : null
+					},
+					"optionMustContain" : {},
+					"position" : 1,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : false,
+					"specifiedColumns" : 
+					[
+						"N",
+						"coefOfVariation",
+						"group",
+						"lowerCI",
+						"mean",
+						"sd",
+						"se",
+						"upperCI",
+						"variable"
+					],
+					"status" : "complete",
+					"title" : "Descriptives",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				}
+			},
+			"data_order" : 
+			{
+				"table" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "descriptivesContainer",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"group" : "JaspColumn_20_Encoded",
+				"group.types" : 
+				[
+					"nominal"
+				],
+				"naAction" : "perDependent"
+			},
+			"optionMustContain" : {},
+			"order_increment" : 1,
+			"position" : 2,
+			"title" : "",
+			"type" : "container"
+		},
+		"stateVariables" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_0",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "stateVariables",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"group" : "JaspColumn_20_Encoded",
+				"group.types" : 
+				[
+					"nominal"
+				],
+				"naAction" : "perDependent"
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"ttestContainer" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"inferentialPlots" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"mean_NEO" : 
+						{
+							"citations" : [],
+							"data" : 
+							{
+								"priorAndPosteriorPlot" : 
+								{
+									"aspectRatio" : 0.0,
+									"citations" : [],
+									"editOptions" : 
+									{
+										"errorType" : "validationError",
+										"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+									},
+									"environmentName" : "plot_0",
+									"error" : false,
+									"errorMessage" : "",
+									"escapeHtml" : true,
+									"filePathPng" : "resources/0/_0_t1720517192821.png",
+									"height" : 400,
+									"messages" : [],
+									"name" : "priorAndPosteriorPlot",
+									"nestedOptionMustBe" : {},
+									"nestedOptionMustContain" : {},
+									"optionMustBe" : 
+									{
+										"priorAndPosteriorPlot" : true,
+										"priorAndPosteriorPlotAdditionalInfo" : true,
+										"priorAndPosteriorPlotCiLevel" : 0.94999999999999996
+									},
+									"optionMustContain" : {},
+									"position" : 1,
+									"resizedByUser" : false,
+									"revision" : 0,
+									"status" : "complete",
+									"title" : "Prior and Posterior",
+									"type" : "plot",
+									"width" : 530
+								}
+							},
+							"data_order" : 
+							{
+								"priorAndPosteriorPlot" : 0
+							},
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"initCollapsed" : false,
+							"messages" : [],
+							"name" : "mean_NEO",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : 
+							{
+								"variables" : "JaspColumn_16_Encoded"
+							},
+							"order_increment" : 1,
+							"position" : 9999,
+							"title" : "JaspColumn_16_Encoded",
+							"type" : "container"
+						}
+					},
+					"data_order" : 
+					{
+						"mean_NEO" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "inferentialPlots",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"alternative" : "greater",
+						"test" : "student"
+					},
+					"optionMustContain" : {},
+					"order_increment" : 1,
+					"position" : 9999,
+					"title" : "Inferential Plots",
+					"type" : "container"
+				},
+				"stateTTestResults" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_1",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "stateTTestResults",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				},
+				"ttestTable" : 
+				{
+					"citations" : 
+					[
+						"Morey, R. D., & Rouder, J. N. (2015). BayesFactor (Version 0.9.11-3)[Computer software].",
+						"Rouder, J. N., Speckman, P. L., Sun, D., Morey, R. D., & Iverson, G. (2009). Bayesian t tests for accepting and rejecting the null hypothesis. Psychonomic Bulletin & Review, 16, 225-237."
+					],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"BF" : "sf:4;dp:3",
+							"error" : "sf:4;dp:3;~"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"variable",
+							"BF",
+							"error"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"BF" : "BF\u2080\u208a",
+							"error" : "error %",
+							"variable" : ""
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"BF" : "number",
+							"error" : "number",
+							"variable" : "string"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							"JaspColumn_16_Encoded"
+						],
+						[
+							7.7488508344875289
+						],
+						[
+							0.0016390982078025415
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 0,
+					"footnotes" : 
+					[
+						{
+							"cols" : null,
+							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : "For all tests, the alternative hypothesis specifies that the location of group <em>clock</em> is greater than the location of group <em>counter</em>."
+						}
+					],
+					"messages" : [],
+					"name" : "ttestTable",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"bayesFactorType" : "BF01",
+						"dependent" : 
+						[
+							"JaspColumn_16_Encoded"
+						],
+						"dependent.types" : 
+						[
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"JaspColumn_16_Encoded"
+						],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : false,
+					"specifiedColumns" : 
+					[
+						"BF",
+						"error",
+						"variable"
+					],
+					"status" : "complete",
+					"title" : "Bayesian Independent Samples T-Test",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				}
+			},
+			"data_order" : 
+			{
+				"inferentialPlots" : 2,
+				"stateTTestResults" : 1,
+				"ttestTable" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "ttestContainer",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"effectSizeStandardized" : "default",
+				"group" : "JaspColumn_20_Encoded",
+				"group.types" : 
+				[
+					"nominal"
+				],
+				"informativeCauchyLocation" : 0.0,
+				"informativeCauchyScale" : 0.70699999999999996,
+				"informativeNormalMean" : 0.0,
+				"informativeNormalStd" : 0.70699999999999996,
+				"informativeStandardizedEffectSize" : "cauchy",
+				"informativeTDf" : 1.0,
+				"informativeTLocation" : 0.0,
+				"informativeTScale" : 0.70699999999999996,
+				"naAction" : "perDependent",
+				"priorWidth" : 0.70699999999999996,
+				"test" : "student",
+				"testValue" : null,
+				"wilcoxonSamples" : 1000
+			},
+			"optionMustContain" : {},
+			"order_increment" : 3,
+			"position" : 1,
+			"title" : "",
+			"type" : "container"
+		}
+	},
+	"data_order" : 
+	{
+		"descriptivesContainer" : 2,
+		"stateVariables" : 0,
+		"ttestContainer" : 1
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"dependent" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"group" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			}
+		},
+		"alternative" : "greater",
+		"barPlot" : false,
+		"barPlotCiLevel" : 0.94999999999999996,
+		"barPlotErrorType" : "ci",
+		"barPlotYAxisFixedToZero" : true,
+		"bayesFactorType" : "BF01",
+		"bfRobustnessPlot" : false,
+		"bfRobustnessPlotAdditionalInfo" : false,
+		"bfSequentialPlot" : false,
+		"bfSequentialPlotRobustness" : false,
+		"defaultStandardizedEffectSize" : "cauchy",
+		"dependent" : 
+		[
+			"JaspColumn_16_Encoded"
+		],
+		"dependent.types" : 
+		[
+			"scale"
+		],
+		"descriptives" : true,
+		"descriptivesPlot" : false,
+		"descriptivesPlotCiLevel" : 0.94999999999999996,
+		"dienesEffectSize" : "uniform",
+		"effectSize" : "standardized",
+		"effectSizeStandardized" : "default",
+		"group" : "JaspColumn_20_Encoded",
+		"group.types" : 
+		[
+			"nominal"
+		],
+		"halfNormalDienesStd" : 0.70699999999999996,
+		"informativeCauchyLocation" : 0.0,
+		"informativeCauchyScale" : 0.70699999999999996,
+		"informativeNormalMean" : 0.0,
+		"informativeNormalStd" : 0.70699999999999996,
+		"informativeStandardizedEffectSize" : "cauchy",
+		"informativeTDf" : 1.0,
+		"informativeTLocation" : 0.0,
+		"informativeTScale" : 0.70699999999999996,
+		"naAction" : "perDependent",
+		"normalDienesMean" : 0.70699999999999996,
+		"normalDienesStd" : 0.70699999999999996,
+		"plotHeight" : 340,
+		"plotWidth" : 420,
+		"priorAndPosteriorPlot" : true,
+		"priorAndPosteriorPlotAdditionalInfo" : true,
+		"priorAndPosteriorPlotCiLevel" : 0.94999999999999996,
+		"priorWidth" : 0.70699999999999996,
+		"raincloudPlot" : false,
+		"raincloudPlotHorizontal" : false,
+		"seed" : 1,
+		"setSeed" : false,
+		"test" : "student",
+		"uniformDienesLowerBound" : 0.70699999999999996,
+		"uniformDienesUpperBound" : 0.70699999999999996,
+		"wilcoxonSamples" : 1000
+	},
+	"order_increment" : 3,
+	"position" : 9999,
+	"relativePathKeep" : "resources/0/state",
+	"title" : "Bayesian Independent Samples T-Test",
+	"type" : "results"
 }

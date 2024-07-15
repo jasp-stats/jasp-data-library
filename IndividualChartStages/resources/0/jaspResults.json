@@ -1,563 +1,732 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
-   "data" : {
-      "Ichart" : {
-         "citations" : [],
-         "data" : {
-            "plot" : {
-               "aspectRatio" : 0.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_0",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_0_t1702646081137.png",
-               "height" : 500,
-               "messages" : [],
-               "name" : "plot",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {},
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "X-mR control chart",
-               "type" : "plot",
-               "width" : 1200
-            },
-            "tableI" : {
-               "citations" : [],
-               "colCombines" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "bool",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "",
-                  "type" : "list"
-               },
-               "colFormats" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colFormats",
-                  "type" : "list"
-               },
-               "colNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colNames",
-                  "type" : "list"
-               },
-               "colOvertitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colOvertitles",
-                  "type" : "list"
-               },
-               "colRowCombinations" : [],
-               "colTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTitles",
-                  "type" : "list"
-               },
-               "colTypes" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTypes",
-                  "type" : "list"
-               },
-               "data" : [],
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "expectedColumnCount" : 0,
-               "expectedRowCount" : 0,
-               "footnotes" : [],
-               "messages" : [],
-               "name" : "tableI",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {},
-               "optionMustContain" : {},
-               "position" : 9999,
-               "rowNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowNames",
-                  "type" : "list"
-               },
-               "rowTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowTitles",
-                  "type" : "list"
-               },
-               "showSpecifiedColumnsOnly" : false,
-               "specifiedColumns" : [],
-               "status" : "complete",
-               "title" : "Test results for individuals chart",
-               "transposeTable" : false,
-               "transposeWithOvertitle" : false,
-               "type" : "table"
-            },
-            "tableMR" : {
-               "citations" : [],
-               "colCombines" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "bool",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "",
-                  "type" : "list"
-               },
-               "colFormats" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colFormats",
-                  "type" : "list"
-               },
-               "colNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colNames",
-                  "type" : "list"
-               },
-               "colOvertitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colOvertitles",
-                  "type" : "list"
-               },
-               "colRowCombinations" : [],
-               "colTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTitles",
-                  "type" : "list"
-               },
-               "colTypes" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTypes",
-                  "type" : "list"
-               },
-               "data" : [],
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "expectedColumnCount" : 0,
-               "expectedRowCount" : 0,
-               "footnotes" : [],
-               "messages" : [],
-               "name" : "tableMR",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {},
-               "optionMustContain" : {},
-               "position" : 9999,
-               "rowNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowNames",
-                  "type" : "list"
-               },
-               "rowTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowTitles",
-                  "type" : "list"
-               },
-               "showSpecifiedColumnsOnly" : false,
-               "specifiedColumns" : [],
-               "status" : "complete",
-               "title" : "Test results for moving range chart",
-               "transposeTable" : false,
-               "transposeWithOvertitle" : false,
-               "type" : "table"
-            }
-         },
-         "data_order" : {
-            "plot" : 0,
-            "tableI" : 1,
-            "tableMR" : 2
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "Ichart",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "axisLabels" : "JaspColumn_1_Encoded",
-            "report" : false,
-            "reportDate" : "",
-            "reportMeasurementName" : "",
-            "reportMiscellaneous" : "",
-            "reportReportedByBy" : null,
-            "reportTitle" : "",
-            "stage" : "JaspColumn_2_Encoded",
-            "variables" : null,
-            "xmrChart" : true,
-            "xmrChartMovingRangeLength" : 2.0
-         },
-         "optionMustContain" : {},
-         "order_increment" : 3,
-         "position" : 1,
-         "title" : "",
-         "type" : "container"
-      },
-      "autocorrelationPlot" : {
-         "citations" : [],
-         "data" : {
-            "Yield" : {
-               "aspectRatio" : 0.0,
-               "citations" : [],
-               "editOptions" : {
-                  "error" : "success",
-                  "xAxis" : {
-                     "settings" : {
-                        "breaks" : [ 1, 3, 5, 7, 9, 11 ],
-                        "breaksType" : "range",
-                        "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                        "labels" : [ "1", "3", "5", "7", "9", "11" ],
-                        "limits" : [ -0.10000000000000001, 11.1 ],
-                        "limitsType" : "data",
-                        "range" : [ 1, 11, 2 ],
-                        "title" : "Lag",
-                        "titleType" : "character"
-                     },
-                     "type" : "ScaleContinuous"
-                  },
-                  "yAxis" : {
-                     "settings" : {
-                        "breaks" : [
-                           -1,
-                           -0.80000000000000004,
-                           -0.59999999999999998,
-                           -0.40000000000000002,
-                           -0.20000000000000001,
-                           0,
-                           0.20000000000000001,
-                           0.40000000000000002,
-                           0.59999999999999998,
-                           0.80000000000000004,
-                           1
-                        ],
-                        "breaksType" : "manual",
-                        "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                        "labels" : [
-                           "-1.0",
-                           "-0.8",
-                           "-0.6",
-                           "-0.4",
-                           "-0.2",
-                           "0.0",
-                           "0.2",
-                           "0.4",
-                           "0.6",
-                           "0.8",
-                           "1.0"
-                        ],
-                        "limits" : [ -1, 1 ],
-                        "limitsType" : "breaks",
-                        "range" : [ -1, 1, 0.20000000000000001 ],
-                        "title" : "Autocorrelation",
-                        "titleType" : "character"
-                     },
-                     "type" : "ScaleContinuous"
-                  }
-               },
-               "environmentName" : "plot_1",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_1_t1702646081879.png",
-               "height" : 500,
-               "messages" : [],
-               "name" : "Yield",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {},
-               "optionMustContain" : {
-                  "variables" : "JaspColumn_0_Encoded"
-               },
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "Autocorrelation plot",
-               "type" : "plot",
-               "width" : 1200
-            }
-         },
-         "data_order" : {
-            "Yield" : 0
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "autocorrelationPlot",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "autocorrelationPlot" : true,
-            "autocorrelationPlotLagsNumber" : 25.0,
-            "measurement" : "JaspColumn_0_Encoded"
-         },
-         "optionMustContain" : {},
-         "order_increment" : 1,
-         "position" : 2,
-         "title" : "Autocorrelation function",
-         "type" : "container"
-      }
-   },
-   "data_order" : {
-      "Ichart" : 0,
-      "autocorrelationPlot" : 1
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "axisLabels" : {
-            "shouldEncode" : true
-         },
-         "measurement" : {
-            "shouldEncode" : true
-         },
-         "stage" : {
-            "shouldEncode" : true
-         }
-      },
-      "autocorrelationPlot" : true,
-      "autocorrelationPlotCiLevel" : 0.94999999999999996,
-      "autocorrelationPlotLagsNumber" : 25.0,
-      "axisLabels" : "JaspColumn_1_Encoded",
-      "measurement" : "JaspColumn_0_Encoded",
-      "plotHeight" : 320,
-      "plotWidth" : 480,
-      "report" : false,
-      "reportAutocorrelationChart" : false,
-      "reportDate" : "",
-      "reportIMRChart" : true,
-      "reportMeasurementName" : "",
-      "reportMetaData" : true,
-      "reportMiscellaneous" : "",
-      "reportReportedBy" : "",
-      "reportTitle" : "",
-      "stage" : "JaspColumn_2_Encoded",
-      "xmrChart" : true,
-      "xmrChartMovingRangeLength" : 2.0
-   },
-   "order_increment" : 2,
-   "position" : 9999,
-   "relativePathKeep" : "resources/0/state",
-   "title" : "Variables Charts for Individuals",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"Ichart" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"plot" : 
+				{
+					"aspectRatio" : 0.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_0",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_0_t1720529565035.png",
+					"height" : 500,
+					"messages" : [],
+					"name" : "plot",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "X-mR control chart",
+					"type" : "plot",
+					"width" : 1200
+				},
+				"tableI" : 
+				{
+					"citations" : [],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"noViolations"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"noViolations" : "Tests"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"noViolations" : "string"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							"No test violations occurred."
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 0,
+					"footnotes" : [],
+					"messages" : [],
+					"name" : "tableI",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : true,
+					"specifiedColumns" : 
+					[
+						"noViolations"
+					],
+					"status" : "complete",
+					"title" : "Test results for individuals chart",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				},
+				"tableMR" : 
+				{
+					"citations" : [],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"noViolations"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"noViolations" : "Tests"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"noViolations" : "string"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							"No test violations occurred."
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 0,
+					"footnotes" : [],
+					"messages" : [],
+					"name" : "tableMR",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : true,
+					"specifiedColumns" : 
+					[
+						"noViolations"
+					],
+					"status" : "complete",
+					"title" : "Test results for moving range chart",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				}
+			},
+			"data_order" : 
+			{
+				"plot" : 0,
+				"tableI" : 1,
+				"tableMR" : 2
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "Ichart",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"axisLabels" : "JaspColumn_1_Encoded",
+				"axisLabels.types" : 
+				[
+					"nominal"
+				],
+				"controlLimitsNumberOfSigmas" : 3.0,
+				"report" : false,
+				"reportDate" : true,
+				"reportMeasurementName" : true,
+				"reportMiscellaneous" : null,
+				"reportReportedByBy" : null,
+				"reportTitle" : true,
+				"stage" : "JaspColumn_2_Encoded",
+				"stage.types" : 
+				[
+					"nominal"
+				],
+				"variables" : null,
+				"xmrChart" : true,
+				"xmrChartMovingRangeLength" : 2.0
+			},
+			"optionMustContain" : {},
+			"order_increment" : 3,
+			"position" : 1,
+			"title" : "",
+			"type" : "container"
+		},
+		"autocorrelationPlot" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"Yield" : 
+				{
+					"aspectRatio" : 0.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"error" : "success",
+						"xAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									1,
+									3,
+									5,
+									7,
+									9,
+									11
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"1",
+									"3",
+									"5",
+									"7",
+									"9",
+									"11"
+								],
+								"limits" : 
+								[
+									-0.10000000000000001,
+									11.1
+								],
+								"limitsType" : "data",
+								"range" : 
+								[
+									1,
+									11,
+									2
+								],
+								"title" : "Lag",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						},
+						"yAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									-1,
+									-0.80000000000000004,
+									-0.59999999999999998,
+									-0.40000000000000002,
+									-0.20000000000000001,
+									0,
+									0.20000000000000001,
+									0.40000000000000002,
+									0.59999999999999998,
+									0.80000000000000004,
+									1
+								],
+								"breaksType" : "manual",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"-1.0",
+									"-0.8",
+									"-0.6",
+									"-0.4",
+									"-0.2",
+									"0.0",
+									"0.2",
+									"0.4",
+									"0.6",
+									"0.8",
+									"1.0"
+								],
+								"limits" : 
+								[
+									-1,
+									1
+								],
+								"limitsType" : "breaks",
+								"range" : 
+								[
+									-1,
+									1,
+									0.20000000000000001
+								],
+								"title" : "Autocorrelation",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						}
+					},
+					"environmentName" : "plot_1",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_1_t1720529565559.png",
+					"height" : 500,
+					"messages" : [],
+					"name" : "Yield",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : 
+					{
+						"variables" : "JaspColumn_0_Encoded"
+					},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "Autocorrelation plot",
+					"type" : "plot",
+					"width" : 1200
+				}
+			},
+			"data_order" : 
+			{
+				"Yield" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "autocorrelationPlot",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"autocorrelationPlot" : true,
+				"autocorrelationPlotLagsNumber" : 25.0,
+				"measurement" : "JaspColumn_0_Encoded",
+				"measurement.types" : 
+				[
+					"scale"
+				]
+			},
+			"optionMustContain" : {},
+			"order_increment" : 1,
+			"position" : 2,
+			"title" : "Autocorrelation function",
+			"type" : "container"
+		}
+	},
+	"data_order" : 
+	{
+		"Ichart" : 0,
+		"autocorrelationPlot" : 1
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"axisLabels" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"measurement" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"stage" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			}
+		},
+		"autocorrelationPlot" : true,
+		"autocorrelationPlotCiLevel" : 0.94999999999999996,
+		"autocorrelationPlotLagsNumber" : 25.0,
+		"axisLabels" : "JaspColumn_1_Encoded",
+		"axisLabels.types" : 
+		[
+			"nominal"
+		],
+		"controlLimitsNumberOfSigmas" : 3.0,
+		"measurement" : "JaspColumn_0_Encoded",
+		"measurement.types" : 
+		[
+			"scale"
+		],
+		"plotHeight" : 320,
+		"plotWidth" : 480,
+		"report" : false,
+		"reportAutocorrelationChart" : false,
+		"reportChartName" : true,
+		"reportChartNameText" : "",
+		"reportDate" : true,
+		"reportDateText" : "",
+		"reportFootnote" : true,
+		"reportFootnoteText" : "",
+		"reportIMRChart" : true,
+		"reportLocation" : true,
+		"reportLocationText" : "",
+		"reportMeasurementName" : true,
+		"reportMeasurementNameText" : "",
+		"reportMetaData" : true,
+		"reportPerformedBy" : true,
+		"reportPerformedByText" : "",
+		"reportPrintDate" : true,
+		"reportPrintDateText" : "",
+		"reportSubtitle" : true,
+		"reportSubtitleText" : "",
+		"reportTitle" : true,
+		"reportTitleText" : "",
+		"stage" : "JaspColumn_2_Encoded",
+		"stage.types" : 
+		[
+			"nominal"
+		],
+		"xmrChart" : true,
+		"xmrChartMovingRangeLength" : 2.0
+	},
+	"order_increment" : 2,
+	"position" : 9999,
+	"relativePathKeep" : "resources/0/state",
+	"title" : "Variables Charts for Individuals",
+	"type" : "results"
 }

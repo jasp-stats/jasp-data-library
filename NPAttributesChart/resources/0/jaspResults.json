@@ -1,346 +1,502 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
-   "data" : {
-      "NPchartPlot" : {
-         "aspectRatio" : 0.0,
-         "citations" : [],
-         "editOptions" : {
-            "error" : "success",
-            "xAxis" : {
-               "settings" : {
-                  "breaks" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ],
-                  "breaksType" : "range",
-                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                  "labels" : [
-                     "1",
-                     "2",
-                     "3",
-                     "4",
-                     "5",
-                     "6",
-                     "7",
-                     "8",
-                     "9",
-                     "10",
-                     "11",
-                     "12",
-                     "13",
-                     "14",
-                     "15",
-                     "16",
-                     "17",
-                     "18",
-                     "19",
-                     "20"
-                  ],
-                  "limits" : [ 1, 23 ],
-                  "limitsType" : "manual",
-                  "range" : [ 1, 20, 1 ],
-                  "title" : "Sample",
-                  "titleType" : "character"
-               },
-               "type" : "ScaleContinuous"
-            },
-            "yAxis" : {
-               "settings" : {
-                  "breaks" : [ 0, 20, 40, 60, 80, 100 ],
-                  "breaksType" : "range",
-                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                  "labels" : [ "0", "20", "40", "60", "80", "100" ],
-                  "limits" : [ 0, 120 ],
-                  "limitsType" : "manual",
-                  "range" : [ 0, 100, 20 ],
-                  "title" : "Number of defectives",
-                  "titleType" : "character"
-               },
-               "type" : "ScaleContinuous"
-            }
-         },
-         "environmentName" : "plot_0",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "filePathPng" : "resources/0/_0_t1702646094911.png",
-         "height" : 500,
-         "messages" : [],
-         "name" : "NPchartPlot",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "attributesChart" : "defectives",
-            "attributesChartDefectivesChartType" : "npChart",
-            "defectiveOrDefect" : "JaspColumn_2_Encoded",
-            "timeStamp" : "JaspColumn_0_Encoded",
-            "total" : "JaspColumn_1_Encoded"
-         },
-         "optionMustContain" : {},
-         "position" : 1,
-         "resizedByUser" : false,
-         "revision" : 0,
-         "status" : "complete",
-         "title" : "np Chart",
-         "type" : "plot",
-         "width" : 1200
-      },
-      "NelsonTable" : {
-         "citations" : [],
-         "colCombines" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "bool",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "",
-            "type" : "list"
-         },
-         "colFormats" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colFormats",
-            "type" : "list"
-         },
-         "colNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [ "test1", "test2", "test3" ],
-            "title" : "colNames",
-            "type" : "list"
-         },
-         "colOvertitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colOvertitles",
-            "type" : "list"
-         },
-         "colRowCombinations" : [],
-         "colTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "test1" : "Test 1: Beyond limit"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTitles",
-            "type" : "list"
-         },
-         "colTypes" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "test1" : "integer"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTypes",
-            "type" : "list"
-         },
-         "data" : [
-            [
-               "1",
-               "2",
-               "3",
-               "6",
-               "7",
-               "8",
-               "9",
-               "10",
-               "11",
-               "12",
-               "13",
-               "14",
-               "15",
-               "16",
-               "17",
-               "18",
-               "19",
-               "20"
-            ],
-            [],
-            []
-         ],
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "expectedColumnCount" : 0,
-         "expectedRowCount" : 0,
-         "footnotes" : [
-            {
-               "cols" : null,
-               "rows" : null,
-               "symbol" : "<em>Note.</em>",
-               "text" : "Points where a test failed."
-            }
-         ],
-         "messages" : [],
-         "name" : "NelsonTable",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "attributesChart" : "defectives",
-            "attributesChartDefectivesChartType" : "npChart",
-            "defectiveOrDefect" : "JaspColumn_2_Encoded",
-            "timeStamp" : "JaspColumn_0_Encoded",
-            "total" : "JaspColumn_1_Encoded"
-         },
-         "optionMustContain" : {},
-         "position" : 2,
-         "rowNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowNames",
-            "type" : "list"
-         },
-         "rowTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowTitles",
-            "type" : "list"
-         },
-         "showSpecifiedColumnsOnly" : true,
-         "specifiedColumns" : [ "test1" ],
-         "status" : "complete",
-         "title" : "Test results for np chart",
-         "transposeTable" : false,
-         "transposeWithOvertitle" : false,
-         "type" : "table"
-      }
-   },
-   "data_order" : {
-      "NPchartPlot" : 0,
-      "NelsonTable" : 1
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "defectiveOrDefect" : {
-            "shouldEncode" : true
-         },
-         "timeStamp" : {
-            "shouldEncode" : true
-         },
-         "total" : {
-            "shouldEncode" : true
-         }
-      },
-      "attributesChart" : "defectives",
-      "attributesChartDefectivesChartType" : "npChart",
-      "attributesChartDefectsChartType" : "cChart",
-      "defectiveOrDefect" : "JaspColumn_2_Encoded",
-      "plotHeight" : 320,
-      "plotWidth" : 480,
-      "report" : false,
-      "reportAppraiser" : "",
-      "reportFrequency" : "",
-      "reportId" : "",
-      "reportMeasurementName" : "",
-      "reportMeasusrementSystemName" : "",
-      "reportMiscellaneous" : "",
-      "reportReportedBy" : "",
-      "reportSubgroupSize" : "",
-      "reportTime" : "",
-      "reportTitle" : "",
-      "timeStamp" : "JaspColumn_0_Encoded",
-      "total" : "JaspColumn_1_Encoded"
-   },
-   "order_increment" : 2,
-   "position" : 9999,
-   "relativePathKeep" : "resources/0/state",
-   "title" : "Control Charts for Attributes",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"NPchartPlot" : 
+		{
+			"aspectRatio" : 0.0,
+			"citations" : [],
+			"editOptions" : 
+			{
+				"error" : "success",
+				"xAxis" : 
+				{
+					"settings" : 
+					{
+						"breaks" : 
+						[
+							1,
+							2,
+							3,
+							4,
+							5,
+							6,
+							7,
+							8,
+							9,
+							10,
+							11,
+							12,
+							13,
+							14,
+							15,
+							16,
+							17,
+							18,
+							19,
+							20
+						],
+						"breaksType" : "range",
+						"expand" : 
+						[
+							0.050000000000000003,
+							0,
+							0.050000000000000003,
+							0
+						],
+						"labels" : 
+						[
+							"1",
+							"2",
+							"3",
+							"4",
+							"5",
+							"6",
+							"7",
+							"8",
+							"9",
+							"10",
+							"11",
+							"12",
+							"13",
+							"14",
+							"15",
+							"16",
+							"17",
+							"18",
+							"19",
+							"20"
+						],
+						"limits" : 
+						[
+							1,
+							23
+						],
+						"limitsType" : "manual",
+						"range" : 
+						[
+							1,
+							20,
+							1
+						],
+						"title" : "Sample",
+						"titleType" : "character"
+					},
+					"type" : "ScaleContinuous"
+				},
+				"yAxis" : 
+				{
+					"settings" : 
+					{
+						"breaks" : 
+						[
+							0,
+							20,
+							40,
+							60,
+							80,
+							100
+						],
+						"breaksType" : "range",
+						"expand" : 
+						[
+							0.050000000000000003,
+							0,
+							0.050000000000000003,
+							0
+						],
+						"labels" : 
+						[
+							"0",
+							"20",
+							"40",
+							"60",
+							"80",
+							"100"
+						],
+						"limits" : 
+						[
+							0,
+							120
+						],
+						"limitsType" : "manual",
+						"range" : 
+						[
+							0,
+							100,
+							20
+						],
+						"title" : "Number of defectives",
+						"titleType" : "character"
+					},
+					"type" : "ScaleContinuous"
+				}
+			},
+			"environmentName" : "plot_0",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"filePathPng" : "resources/0/_0_t1720529576728.png",
+			"height" : 500,
+			"messages" : [],
+			"name" : "NPchartPlot",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"attributesChart" : "defectives",
+				"attributesChartDefectivesChartType" : "npChart",
+				"defectiveOrDefect" : "JaspColumn_2_Encoded",
+				"defectiveOrDefect.types" : 
+				[
+					"scale"
+				],
+				"timeStamp" : "JaspColumn_0_Encoded",
+				"timeStamp.types" : 
+				[
+					"nominal"
+				],
+				"total" : "JaspColumn_1_Encoded",
+				"total.types" : 
+				[
+					"scale"
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 1,
+			"resizedByUser" : false,
+			"revision" : 0,
+			"status" : "complete",
+			"title" : "np Chart",
+			"type" : "plot",
+			"width" : 1200
+		},
+		"NelsonTable" : 
+		{
+			"citations" : [],
+			"colCombines" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "bool",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "",
+				"type" : "list"
+			},
+			"colFormats" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colFormats",
+				"type" : "list"
+			},
+			"colNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"test1",
+					"test2",
+					"test3"
+				],
+				"title" : "colNames",
+				"type" : "list"
+			},
+			"colOvertitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colOvertitles",
+				"type" : "list"
+			},
+			"colRowCombinations" : [],
+			"colTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"test1" : "Test 1: Beyond limit"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTitles",
+				"type" : "list"
+			},
+			"colTypes" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"test1" : "integer"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTypes",
+				"type" : "list"
+			},
+			"data" : 
+			[
+				[
+					"1",
+					"2",
+					"3",
+					"6",
+					"7",
+					"8",
+					"9",
+					"10",
+					"11",
+					"12",
+					"13",
+					"14",
+					"15",
+					"16",
+					"17",
+					"18",
+					"19",
+					"20"
+				],
+				[],
+				[]
+			],
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"expectedColumnCount" : 0,
+			"expectedRowCount" : 0,
+			"footnotes" : 
+			[
+				{
+					"cols" : null,
+					"rows" : null,
+					"symbol" : "<em>Note.</em>",
+					"text" : "Points where a test failed."
+				}
+			],
+			"messages" : [],
+			"name" : "NelsonTable",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"attributesChart" : "defectives",
+				"attributesChartDefectivesChartType" : "npChart",
+				"defectiveOrDefect" : "JaspColumn_2_Encoded",
+				"defectiveOrDefect.types" : 
+				[
+					"scale"
+				],
+				"timeStamp" : "JaspColumn_0_Encoded",
+				"timeStamp.types" : 
+				[
+					"nominal"
+				],
+				"total" : "JaspColumn_1_Encoded",
+				"total.types" : 
+				[
+					"scale"
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 2,
+			"rowNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowNames",
+				"type" : "list"
+			},
+			"rowTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowTitles",
+				"type" : "list"
+			},
+			"showSpecifiedColumnsOnly" : true,
+			"specifiedColumns" : 
+			[
+				"test1"
+			],
+			"status" : "complete",
+			"title" : "Test results for np chart",
+			"transposeTable" : false,
+			"transposeWithOvertitle" : false,
+			"type" : "table"
+		}
+	},
+	"data_order" : 
+	{
+		"NPchartPlot" : 0,
+		"NelsonTable" : 1
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"defectiveOrDefect" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"timeStamp" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"total" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			}
+		},
+		"attributesChart" : "defectives",
+		"attributesChartDefectivesChartType" : "npChart",
+		"attributesChartDefectsChartType" : "cChart",
+		"defectiveOrDefect" : "JaspColumn_2_Encoded",
+		"defectiveOrDefect.types" : 
+		[
+			"scale"
+		],
+		"plotHeight" : 320,
+		"plotWidth" : 480,
+		"report" : false,
+		"reportAppraiser" : true,
+		"reportAppraiserText" : "",
+		"reportFrequency" : true,
+		"reportFrequencyText" : "",
+		"reportId" : true,
+		"reportIdText" : "",
+		"reportMeasurementName" : true,
+		"reportMeasurementNameText" : "",
+		"reportMeasusrementSystemName" : true,
+		"reportMeasusrementSystemNameText" : "",
+		"reportMetaData" : true,
+		"reportPerformedBy" : true,
+		"reportPerformedByText" : "",
+		"reportSubgroupSize" : true,
+		"reportSubgroupSizeText" : "",
+		"reportTime" : true,
+		"reportTimeText" : "",
+		"reportTitle" : true,
+		"reportTitleText" : "",
+		"timeStamp" : "JaspColumn_0_Encoded",
+		"timeStamp.types" : 
+		[
+			"nominal"
+		],
+		"total" : "JaspColumn_1_Encoded",
+		"total.types" : 
+		[
+			"scale"
+		]
+	},
+	"order_increment" : 2,
+	"position" : 9999,
+	"relativePathKeep" : "resources/0/state",
+	"title" : "Control Charts for Attributes",
+	"type" : "results"
 }

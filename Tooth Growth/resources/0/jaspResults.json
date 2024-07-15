@@ -1,2073 +1,2855 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
-   "data" : {
-      "anovaContainer" : {
-         "citations" : [],
-         "data" : {
-            "afexModel" : {
-               "citations" : [],
-               "environmentName" : "state_1",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "messages" : [],
-               "name" : "afexModel",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {},
-               "optionMustContain" : {},
-               "position" : 9999,
-               "title" : "",
-               "type" : "state"
-            },
-            "anovaResult" : {
-               "citations" : [],
-               "environmentName" : "state_2",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "messages" : [],
-               "name" : "anovaResult",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "effectSizeEstimates" : true,
-                  "effectSizeEtaSquared" : true,
-                  "effectSizeOmegaSquared" : false,
-                  "effectSizePartialEtaSquared" : false,
-                  "homogeneityCorrectionBrown" : false,
-                  "homogeneityCorrectionNone" : true,
-                  "homogeneityCorrectionWelch" : false,
-                  "sumOfSquares" : "type3"
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "title" : "",
-               "type" : "state"
-            },
-            "anovaTable" : {
-               "citations" : [],
-               "colCombines" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "bool",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "",
-                  "type" : "list"
-               },
-               "colFormats" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "F value" : "sf:4;dp:3",
-                     "Mean Sq" : "sf:4;dp:3",
-                     "Pr(>F)" : "dp:3;p:.001",
-                     "Sum Sq" : "sf:4;dp:3",
-                     "eta" : "sf:4;dp:3"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colFormats",
-                  "type" : "list"
-               },
-               "colNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [
-                     "cases",
-                     "Sum Sq",
-                     "Df",
-                     "Mean Sq",
-                     "F value",
-                     "Pr(>F)",
-                     "eta",
-                     "SSt",
-                     ".isNewGroup",
-                     "correction",
-                     "etaPart",
-                     "omega"
-                  ],
-                  "title" : "colNames",
-                  "type" : "list"
-               },
-               "colOvertitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colOvertitles",
-                  "type" : "list"
-               },
-               "colRowCombinations" : [],
-               "colTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "Df" : "df",
-                     "F value" : "F",
-                     "Mean Sq" : "Mean Square",
-                     "Pr(>F)" : "p",
-                     "Sum Sq" : "Sum of Squares",
-                     "cases" : "Cases",
-                     "eta" : "\u03b7\u00b2"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTitles",
-                  "type" : "list"
-               },
-               "colTypes" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "Df" : "integer",
-                     "F value" : "number",
-                     "Mean Sq" : "number",
-                     "Pr(>F)" : "pvalue",
-                     "Sum Sq" : "number",
-                     "cases" : "string",
-                     "eta" : "number"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTypes",
-                  "type" : "list"
-               },
-               "data" : [
-                  [
-                     "JaspColumn_1_Encoded",
-                     "JaspColumn_2_Encoded",
-                     "JaspColumn_1_Encoded \u273b JaspColumn_2_Encoded",
-                     "Residuals"
-                  ],
-                  [
-                     205.35000000000025,
-                     2426.4343333333327,
-                     108.31900000000007,
-                     712.10600000000034
-                  ],
-                  [ 1.0, 2.0, 2.0, 54.0 ],
-                  [
-                     205.35000000000025,
-                     1213.2171666666663,
-                     54.159500000000037,
-                     13.187148148148154
-                  ],
-                  [ 15.571979452497253, 91.999964892867013, 4.1069910940225203, "" ],
-                  [
-                     0.00023118280977342423,
-                     4.0462911959922781e-18,
-                     0.021860268964790996,
-                     ""
-                  ],
-                  [ 0.059483646607756957, 0.70286419479390372, 0.031376718368179311, "" ],
-                  [
-                     3452.2093333333337,
-                     3452.2093333333337,
-                     3452.2093333333337,
-                     3452.2093333333337
-                  ],
-                  [ true, false, false, true ],
-                  [ "None", "", "", "" ],
-                  [ 0.22382544775989272, 0.7731091767606193, 0.13202791236249506, "" ],
-                  [ 0.055451909436261999, 0.69257877124957234, 0.023646559388399858, "" ]
-               ],
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "expectedColumnCount" : 0,
-               "expectedRowCount" : 3,
-               "footnotes" : [
-                  {
-                     "cols" : null,
-                     "rows" : null,
-                     "symbol" : "<em>Note.</em>",
-                     "text" : "Type III Sum of Squares"
-                  }
-               ],
-               "messages" : [],
-               "name" : "anovaTable",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "effectSizeEstimates" : true,
-                  "effectSizeEtaSquared" : true,
-                  "effectSizeOmegaSquared" : false,
-                  "effectSizePartialEtaSquared" : false,
-                  "homogeneityCorrectionBrown" : false,
-                  "homogeneityCorrectionNone" : true,
-                  "homogeneityCorrectionWelch" : false,
-                  "vovkSellke" : false
-               },
-               "optionMustContain" : {},
-               "position" : 1,
-               "rowNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [
-                     "result.JaspColumn_1_Encoded",
-                     "result.JaspColumn_2_Encoded",
-                     "result.JaspColumn_1_Encoded:JaspColumn_2_Encoded",
-                     "result.Residuals"
-                  ],
-                  "title" : "rowNames",
-                  "type" : "list"
-               },
-               "rowTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowTitles",
-                  "type" : "list"
-               },
-               "showSpecifiedColumnsOnly" : true,
-               "specifiedColumns" : [ "Df", "F value", "Mean Sq", "Pr(>F)", "Sum Sq", "cases", "eta" ],
-               "status" : "complete",
-               "title" : "ANOVA - JaspColumn_0_Encoded",
-               "transposeTable" : false,
-               "transposeWithOvertitle" : false,
-               "type" : "table"
-            },
-            "assumptionsContainer" : {
-               "citations" : [],
-               "data" : {
-                  "leveneTable" : {
-                     "citations" : [],
-                     "colCombines" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "bool",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "",
-                        "type" : "list"
-                     },
-                     "colFormats" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {
-                           "F" : "sf:4;dp:3",
-                           "df1" : "sf:4;dp:3",
-                           "df2" : "sf:4;dp:3",
-                           "p" : "dp:3;p:.001"
-                        },
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colFormats",
-                        "type" : "list"
-                     },
-                     "colNames" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [ "F", "df1", "df2", "p", "vovkSellke" ],
-                        "title" : "colNames",
-                        "type" : "list"
-                     },
-                     "colOvertitles" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colOvertitles",
-                        "type" : "list"
-                     },
-                     "colRowCombinations" : [],
-                     "colTitles" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {
-                           "F" : "F",
-                           "df1" : "df1",
-                           "df2" : "df2",
-                           "p" : "p"
-                        },
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colTitles",
-                        "type" : "list"
-                     },
-                     "colTypes" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {
-                           "F" : "number",
-                           "df1" : "number",
-                           "df2" : "number",
-                           "p" : "pvalue"
-                        },
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colTypes",
-                        "type" : "list"
-                     },
-                     "data" : [
-                        [ 1.940130308661425 ],
-                        [ 5.0 ],
-                        [ 54.0 ],
-                        [ 0.10272977489885779 ],
-                        [ 1.5736316711186975 ]
-                     ],
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "expectedColumnCount" : 0,
-                     "expectedRowCount" : 0,
-                     "footnotes" : [],
-                     "messages" : [],
-                     "name" : "leveneTable",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {},
-                     "optionMustContain" : {},
-                     "position" : 9999,
-                     "rowNames" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [ "1" ],
-                        "title" : "rowNames",
-                        "type" : "list"
-                     },
-                     "rowTitles" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "rowTitles",
-                        "type" : "list"
-                     },
-                     "showSpecifiedColumnsOnly" : true,
-                     "specifiedColumns" : [ "F", "df1", "df2", "p" ],
-                     "status" : "complete",
-                     "title" : "Test for Equality of Variances (Levene's)",
-                     "transposeTable" : false,
-                     "transposeWithOvertitle" : false,
-                     "type" : "table"
-                  }
-               },
-               "data_order" : {
-                  "leveneTable" : 0
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "assumptionsContainer",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "homogeneityTests" : true,
-                  "qqPlot" : false
-               },
-               "optionMustContain" : {},
-               "order_increment" : 1,
-               "position" : 9999,
-               "title" : "Assumption Checks",
-               "type" : "container"
-            },
-            "descriptivesContainer" : {
-               "citations" : [],
-               "data" : {
-                  "containerDescriptivesPlots" : {
-                     "citations" : [],
-                     "data" : {
-                        "" : {
-                           "aspectRatio" : 0.0,
-                           "citations" : [],
-                           "editOptions" : {
-                              "error" : "success",
-                              "xAxis" : {
-                                 "settings" : {
-                                    "labels" : [ "500", "1000", "2000" ],
-                                    "title" : "JaspColumn_2_Encoded",
-                                    "titleType" : "character"
-                                 },
-                                 "type" : "ScaleDiscrete"
-                              },
-                              "yAxis" : {
-                                 "settings" : {
-                                    "breaks" : [ 5, 10, 15, 20, 25, 30 ],
-                                    "breaksType" : "range",
-                                    "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                                    "labels" : [ "5", "10", "15", "20", "25", "30" ],
-                                    "limits" : [ 5, 30 ],
-                                    "limitsType" : "breaks",
-                                    "range" : [ 5, 30, 5 ],
-                                    "title" : "JaspColumn_0_Encoded",
-                                    "titleType" : "character"
-                                 },
-                                 "type" : "ScaleContinuous"
-                              }
-                           },
-                           "environmentName" : "plot_0",
-                           "error" : false,
-                           "errorMessage" : "",
-                           "escapeHtml" : true,
-                           "filePathPng" : "resources/0/_0_t1702645160000.png",
-                           "height" : 300,
-                           "messages" : [],
-                           "name" : "",
-                           "nestedOptionMustBe" : {},
-                           "nestedOptionMustContain" : {},
-                           "optionMustBe" : {},
-                           "optionMustContain" : {},
-                           "position" : 9999,
-                           "resizedByUser" : false,
-                           "revision" : 0,
-                           "status" : "complete",
-                           "title" : "",
-                           "type" : "plot",
-                           "width" : 430
-                        }
-                     },
-                     "data_order" : {
-                        "" : 0
-                     },
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "initCollapsed" : false,
-                     "messages" : [],
-                     "name" : "containerDescriptivesPlots",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "dependent" : "JaspColumn_0_Encoded",
-                        "descriptivePlotCiLevel" : 0.94999999999999996,
-                        "descriptivePlotErrorBar" : true,
-                        "descriptivePlotErrorBarPooled" : null,
-                        "descriptivePlotErrorBarType" : "se",
-                        "descriptivePlotHorizontalAxis" : "JaspColumn_2_Encoded",
-                        "descriptivePlotSeparateLines" : "JaspColumn_1_Encoded",
-                        "descriptivePlotSeparatePlot" : "",
-                        "descriptivePlotYAxisLabel" : null
-                     },
-                     "optionMustContain" : {},
-                     "order_increment" : 1,
-                     "position" : 2,
-                     "title" : "Descriptives plots",
-                     "type" : "container"
-                  },
-                  "tableDescriptives" : {
-                     "citations" : [],
-                     "colCombines" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {
-                           "JaspColumn_1_Encoded." : true,
-                           "JaspColumn_2_Encoded." : true
-                        },
-                        "listType" : "bool",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "",
-                        "type" : "list"
-                     },
-                     "colFormats" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {
-                           "Mean" : "sf:4;dp:3",
-                           "SD" : "sf:4;dp:3",
-                           "SE" : "sf:4;dp:3",
-                           "coefOfVariation" : "sf:4;dp:3"
-                        },
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colFormats",
-                        "type" : "list"
-                     },
-                     "colNames" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [
-                           "JaspColumn_1_Encoded.",
-                           "JaspColumn_2_Encoded.",
-                           "N",
-                           "Mean",
-                           "SD",
-                           "SE",
-                           "coefOfVariation",
-                           "Lower",
-                           "Upper"
-                        ],
-                        "title" : "colNames",
-                        "type" : "list"
-                     },
-                     "colOvertitles" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colOvertitles",
-                        "type" : "list"
-                     },
-                     "colRowCombinations" : [],
-                     "colTitles" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {
-                           "JaspColumn_1_Encoded." : "JaspColumn_1_Encoded",
-                           "JaspColumn_2_Encoded." : "JaspColumn_2_Encoded",
-                           "Mean" : "Mean",
-                           "N" : "N",
-                           "SD" : "SD",
-                           "SE" : "SE",
-                           "coefOfVariation" : "Coefficient of variation"
-                        },
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colTitles",
-                        "type" : "list"
-                     },
-                     "colTypes" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {
-                           "JaspColumn_1_Encoded." : "string",
-                           "JaspColumn_2_Encoded." : "string",
-                           "Mean" : "number",
-                           "N" : "integer",
-                           "SD" : "number",
-                           "SE" : "number",
-                           "coefOfVariation" : "number"
-                        },
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colTypes",
-                        "type" : "list"
-                     },
-                     "data" : [
-                        [ "OJ", "OJ", "OJ", "VC", "VC", "VC" ],
-                        [ "1000", "2000", "500", "1000", "2000", "500" ],
-                        [ 10, 10, 10, 10, 10, 10 ],
-                        [
-                           22.699999999999999,
-                           26.059999999999999,
-                           13.23,
-                           16.77,
-                           26.140000000000001,
-                           7.9799999999999995
-                        ],
-                        [
-                           3.9109532796436675,
-                           2.6550580659061551,
-                           4.459708510654032,
-                           2.515308684391993,
-                           4.7977309451679577,
-                           2.7466343040164625
-                        ],
-                        [
-                           1.2367520186179426,
-                           0.83960308082648982,
-                           1.410283659410404,
-                           0.79541044610803158,
-                           1.5171757387403155,
-                           0.86856203002433829
-                        ],
-                        [
-                           0.17228869073320122,
-                           0.10188250444766521,
-                           0.33709059037445444,
-                           0.14998859179439433,
-                           0.18353982192685378,
-                           0.34418976240807803
-                        ],
-                        [
-                           22.699999999999999,
-                           26.059999999999999,
-                           13.23,
-                           16.77,
-                           26.140000000000001,
-                           7.9799999999999995
-                        ],
-                        [ "", "", "", "", "", "" ]
-                     ],
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "expectedColumnCount" : 0,
-                     "expectedRowCount" : 0,
-                     "footnotes" : [],
-                     "messages" : [],
-                     "name" : "tableDescriptives",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "betweenSubjectFactors" : null,
-                        "credibleInterval" : null,
-                        "dependent" : "JaspColumn_0_Encoded",
-                        "descriptives" : true,
-                        "fixedFactors" : [ "JaspColumn_1_Encoded", "JaspColumn_2_Encoded" ]
-                     },
-                     "optionMustContain" : {},
-                     "position" : 1,
-                     "rowNames" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [ "OJ.1000.", "OJ.2000.", "OJ.500.", "VC.1000.", "VC.2000.", "VC.500." ],
-                        "title" : "rowNames",
-                        "type" : "list"
-                     },
-                     "rowTitles" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "rowTitles",
-                        "type" : "list"
-                     },
-                     "showSpecifiedColumnsOnly" : true,
-                     "specifiedColumns" : [
-                        "JaspColumn_1_Encoded.",
-                        "JaspColumn_2_Encoded.",
-                        "Mean",
-                        "N",
-                        "SD",
-                        "SE",
-                        "coefOfVariation"
-                     ],
-                     "status" : "complete",
-                     "title" : "Descriptives - JaspColumn_0_Encoded",
-                     "transposeTable" : false,
-                     "transposeWithOvertitle" : false,
-                     "type" : "table"
-                  }
-               },
-               "data_order" : {
-                  "containerDescriptivesPlots" : 1,
-                  "tableDescriptives" : 0
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "descriptivesContainer",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "dependent" : "JaspColumn_0_Encoded",
-                  "repeatedMeasuresCells" : null
-               },
-               "optionMustContain" : {},
-               "order_increment" : 2,
-               "position" : 9001,
-               "title" : "Descriptives",
-               "type" : "container"
-            },
-            "model" : {
-               "citations" : [],
-               "environmentName" : "state_0",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "messages" : [],
-               "name" : "model",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {},
-               "optionMustContain" : {},
-               "position" : 9999,
-               "title" : "",
-               "type" : "state"
-            },
-            "ordinalRestrictions" : {
-               "citations" : [],
-               "data" : {
-                  "basicInfoContainer" : {
-                     "citations" : [],
-                     "data" : {},
-                     "data_order" : {},
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "initCollapsed" : false,
-                     "messages" : [],
-                     "name" : "basicInfoContainer",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {},
-                     "optionMustContain" : {},
-                     "order_increment" : 0,
-                     "position" : 1,
-                     "title" : "Syntax information",
-                     "type" : "container"
-                  },
-                  "stateUnrestricted" : {
-                     "citations" : [],
-                     "environmentName" : "state_3",
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "messages" : [],
-                     "name" : "stateUnrestricted",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {},
-                     "optionMustContain" : {},
-                     "position" : 9999,
-                     "title" : "",
-                     "type" : "state"
-                  }
-               },
-               "data_order" : {
-                  "basicInfoContainer" : 1,
-                  "stateUnrestricted" : 0
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "ordinalRestrictions",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "restrictedHeterogeneityCorrection" : "none",
-                  "restrictedInterceptInclusion" : false
-               },
-               "optionMustContain" : {},
-               "order_increment" : 2,
-               "position" : 9999,
-               "title" : "Order Restricted Hypotheses",
-               "type" : "container"
-            },
-            "postHocContainer" : {
-               "citations" : [],
-               "data" : {
-                  "postHocStandardContainer" : {
-                     "citations" : [],
-                     "data" : {
-                        "dose" : {
-                           "citations" : [],
-                           "colCombines" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {
-                                 "contrast_A" : true
-                              },
-                              "listType" : "bool",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "",
-                              "type" : "list"
-                           },
-                           "colFormats" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {
-                                 "SE" : "sf:4;dp:3",
-                                 "estimate" : "sf:4;dp:3",
-                                 "t.ratio" : "sf:4;dp:3",
-                                 "tukey" : "dp:3;p:.001"
-                              },
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "colFormats",
-                              "type" : "list"
-                           },
-                           "colNames" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {},
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [
-                                 "contrast_A",
-                                 "contrast_B",
-                                 "estimate",
-                                 "SE",
-                                 "t.ratio",
-                                 "tukey",
-                                 "contrast",
-                                 "df",
-                                 "lower.CL",
-                                 "upper.CL",
-                                 "p.value",
-                                 "scheffe",
-                                 "bonferroni",
-                                 "holm",
-                                 "sidak",
-                                 "cohenD",
-                                 "cohenD_LowerCI",
-                                 "cohenD_UpperCI",
-                                 ".isNewGroup"
-                              ],
-                              "title" : "colNames",
-                              "type" : "list"
-                           },
-                           "colOvertitles" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {},
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "colOvertitles",
-                              "type" : "list"
-                           },
-                           "colRowCombinations" : [],
-                           "colTitles" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {
-                                 "SE" : "SE",
-                                 "contrast_A" : " ",
-                                 "contrast_B" : " ",
-                                 "estimate" : "Mean Difference",
-                                 "t.ratio" : "t",
-                                 "tukey" : "p<sub>tukey</sub>"
-                              },
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "colTitles",
-                              "type" : "list"
-                           },
-                           "colTypes" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {
-                                 "SE" : "number",
-                                 "contrast_A" : "string",
-                                 "contrast_B" : "string",
-                                 "estimate" : "number",
-                                 "t.ratio" : "number",
-                                 "tukey" : "pvalue"
-                              },
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "colTypes",
-                              "type" : "list"
-                           },
-                           "data" : [
-                              [ "500", "500", "1000" ],
-                              [ "1000", "2000", "2000" ],
-                              [ -9.1300000000000026, -15.494999999999999, -6.3649999999999975 ],
-                              [ 1.1483530880416595, 1.1483530880416595, 1.1483530880416595 ],
-                              [ -7.9505163482164019, -13.493236672027722, -5.542720323811321 ],
-                              [
-                                 3.5530656194993071e-10,
-                                 4.3842707242447432e-13,
-                                 2.7075723050273837e-06
-                              ],
-                              [ "500 - 1000", "500 - 2000", "1000 - 2000" ],
-                              [ 54.0, 54.0, 54.0 ],
-                              [ -11.897512475430386, -18.26251247543038, -9.1325124754303797 ],
-                              [ -6.3624875245696204, -12.727487524569618, -3.5974875245696154 ],
-                              [
-                                 3.5530656194993071e-10,
-                                 4.3842707242447432e-13,
-                                 2.7075723050273837e-06
-                              ],
-                              [
-                                 8.1755030446585251e-10,
-                                 5.0426320343208476e-18,
-                                 5.2332192102592193e-06
-                              ],
-                              [ 3.556790823671108e-10, 1.8520020534030406e-18, 2.7363268339996681e-06 ],
-                              [
-                                 2.3711938824474055e-10,
-                                 1.8520020534030406e-18,
-                                 9.1210894466655602e-07
-                              ],
-                              [ 3.5567915279699491e-10, 0.0, 2.7363243383371483e-06 ],
-                              [ -2.5141740234768202, -4.2669360891317982, -1.7527620656549781 ],
-                              [ -3.4979577536037318, -5.5474481090755834, -2.6382985291694729 ],
-                              [ -1.5303902933499083, -2.9864240691880131, -0.86722560214048316 ],
-                              [ true, false, false ]
-                           ],
-                           "error" : false,
-                           "errorMessage" : "",
-                           "escapeHtml" : true,
-                           "expectedColumnCount" : 0,
-                           "expectedRowCount" : 0,
-                           "footnotes" : [
-                              {
-                                 "cols" : null,
-                                 "rows" : null,
-                                 "symbol" : "<em>Note.</em>",
-                                 "text" : "P-value adjusted for comparing a family of 3"
-                              },
-                              {
-                                 "cols" : null,
-                                 "rows" : null,
-                                 "symbol" : "<em>Note.</em>",
-                                 "text" : "Results are averaged over the levels of: JaspColumn_1_Encoded"
-                              }
-                           ],
-                           "messages" : [],
-                           "name" : "dose",
-                           "nestedOptionMustBe" : {},
-                           "nestedOptionMustContain" : {},
-                           "optionMustBe" : {},
-                           "optionMustContain" : {},
-                           "position" : 9999,
-                           "rowNames" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {},
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [ "1", "2", "3" ],
-                              "title" : "rowNames",
-                              "type" : "list"
-                           },
-                           "rowTitles" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {},
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "rowTitles",
-                              "type" : "list"
-                           },
-                           "showSpecifiedColumnsOnly" : true,
-                           "specifiedColumns" : [ "SE", "contrast_A", "contrast_B", "estimate", "t.ratio", "tukey" ],
-                           "status" : "complete",
-                           "title" : "Post Hoc Comparisons - JaspColumn_2_Encoded",
-                           "transposeTable" : false,
-                           "transposeWithOvertitle" : false,
-                           "type" : "table"
-                        },
-                        "supp" : {
-                           "citations" : [],
-                           "colCombines" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {
-                                 "contrast_A" : true
-                              },
-                              "listType" : "bool",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "",
-                              "type" : "list"
-                           },
-                           "colFormats" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {
-                                 "SE" : "sf:4;dp:3",
-                                 "estimate" : "sf:4;dp:3",
-                                 "t.ratio" : "sf:4;dp:3",
-                                 "tukey" : "dp:3;p:.001"
-                              },
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "colFormats",
-                              "type" : "list"
-                           },
-                           "colNames" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {},
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [
-                                 "contrast_A",
-                                 "contrast_B",
-                                 "estimate",
-                                 "SE",
-                                 "t.ratio",
-                                 "tukey",
-                                 "contrast",
-                                 "df",
-                                 "lower.CL",
-                                 "upper.CL",
-                                 "p.value",
-                                 "scheffe",
-                                 "bonferroni",
-                                 "holm",
-                                 "sidak",
-                                 "cohenD",
-                                 "cohenD_LowerCI",
-                                 "cohenD_UpperCI",
-                                 ".isNewGroup"
-                              ],
-                              "title" : "colNames",
-                              "type" : "list"
-                           },
-                           "colOvertitles" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {},
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "colOvertitles",
-                              "type" : "list"
-                           },
-                           "colRowCombinations" : [],
-                           "colTitles" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {
-                                 "SE" : "SE",
-                                 "contrast_A" : " ",
-                                 "contrast_B" : " ",
-                                 "estimate" : "Mean Difference",
-                                 "t.ratio" : "t",
-                                 "tukey" : "p<sub>tukey</sub>"
-                              },
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "colTitles",
-                              "type" : "list"
-                           },
-                           "colTypes" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {
-                                 "SE" : "number",
-                                 "contrast_A" : "string",
-                                 "contrast_B" : "string",
-                                 "estimate" : "number",
-                                 "t.ratio" : "number",
-                                 "tukey" : "pvalue"
-                              },
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "colTypes",
-                              "type" : "list"
-                           },
-                           "data" : [
-                              [ "OJ" ],
-                              [ "VC" ],
-                              [ 3.700000000000002 ],
-                              [ 0.937626370083811 ],
-                              [ 3.9461347483958589 ],
-                              [ 0.00023118280977342423 ],
-                              [ "OJ - VC" ],
-                              [ 54.0 ],
-                              [ 1.8201723105600194 ],
-                              [ 5.5798276894399841 ],
-                              [ 0.00023118280977342423 ],
-                              [ 0.00023118280977342423 ],
-                              [ 0.00023118280977342423 ],
-                              [ 0.00023118280977342423 ],
-                              [ 0.00023118280977342423 ],
-                              [ 1.0188876108285054 ],
-                              [ 0.4651669560349091 ],
-                              [ 1.5726082656221019 ],
-                              [ true ]
-                           ],
-                           "error" : false,
-                           "errorMessage" : "",
-                           "escapeHtml" : true,
-                           "expectedColumnCount" : 0,
-                           "expectedRowCount" : 0,
-                           "footnotes" : [
-                              {
-                                 "cols" : null,
-                                 "rows" : null,
-                                 "symbol" : "<em>Note.</em>",
-                                 "text" : "Results are averaged over the levels of: JaspColumn_2_Encoded"
-                              }
-                           ],
-                           "messages" : [],
-                           "name" : "supp",
-                           "nestedOptionMustBe" : {},
-                           "nestedOptionMustContain" : {},
-                           "optionMustBe" : {},
-                           "optionMustContain" : {},
-                           "position" : 9999,
-                           "rowNames" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {},
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [ "1" ],
-                              "title" : "rowNames",
-                              "type" : "list"
-                           },
-                           "rowTitles" : {
-                              "citations" : [],
-                              "error" : false,
-                              "errorMessage" : "",
-                              "escapeHtml" : true,
-                              "fields" : {},
-                              "listType" : "string",
-                              "messages" : [],
-                              "name" : "",
-                              "nestedOptionMustBe" : {},
-                              "nestedOptionMustContain" : {},
-                              "optionMustBe" : {},
-                              "optionMustContain" : {},
-                              "position" : 9999,
-                              "rows" : [],
-                              "title" : "rowTitles",
-                              "type" : "list"
-                           },
-                           "showSpecifiedColumnsOnly" : true,
-                           "specifiedColumns" : [ "SE", "contrast_A", "contrast_B", "estimate", "t.ratio", "tukey" ],
-                           "status" : "complete",
-                           "title" : "Post Hoc Comparisons - JaspColumn_1_Encoded",
-                           "transposeTable" : false,
-                           "transposeWithOvertitle" : false,
-                           "type" : "table"
-                        }
-                     },
-                     "data_order" : {
-                        "dose" : 1,
-                        "supp" : 0
-                     },
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "initCollapsed" : false,
-                     "messages" : [],
-                     "name" : "postHocStandardContainer",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "postHocCi" : false,
-                        "postHocCiLevel" : 0.94999999999999996,
-                        "postHocCorrectionBonferroni" : false,
-                        "postHocCorrectionHolm" : false,
-                        "postHocCorrectionScheffe" : false,
-                        "postHocCorrectionSidak" : false,
-                        "postHocCorrectionTukey" : true,
-                        "postHocSignificanceFlag" : false,
-                        "postHocTerms" : [
-                           {
-                              "variable" : [ "JaspColumn_1_Encoded" ]
-                           },
-                           {
-                              "variable" : [ "JaspColumn_2_Encoded" ]
-                           }
-                        ],
-                        "postHocTypeStandard" : true,
-                        "postHocTypeStandardBootstrap" : false,
-                        "postHocTypeStandardBootstrapSamples" : 1000,
-                        "postHocTypeStandardEffectSize" : false
-                     },
-                     "optionMustContain" : {},
-                     "order_increment" : 2,
-                     "position" : 9999,
-                     "title" : "Standard",
-                     "type" : "container"
-                  }
-               },
-               "data_order" : {
-                  "postHocStandardContainer" : 0
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "postHocContainer",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "postHocTerms" : [
-                     {
-                        "variable" : [ "JaspColumn_1_Encoded" ]
-                     },
-                     {
-                        "variable" : [ "JaspColumn_2_Encoded" ]
-                     }
-                  ]
-               },
-               "optionMustContain" : {},
-               "order_increment" : 1,
-               "position" : 9999,
-               "title" : "Post Hoc Tests",
-               "type" : "container"
-            },
-            "simpleEffectsContainer" : {
-               "citations" : [],
-               "data" : {
-                  "afexModel" : {
-                     "citations" : [],
-                     "environmentName" : "state_11",
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "messages" : [],
-                     "name" : "afexModel",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {},
-                     "optionMustContain" : {},
-                     "position" : 9999,
-                     "title" : "",
-                     "type" : "state"
-                  },
-                  "anovaResult" : {
-                     "citations" : [],
-                     "environmentName" : "state_12",
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "messages" : [],
-                     "name" : "anovaResult",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "effectSizeEstimates" : true,
-                        "effectSizeEtaSquared" : true,
-                        "effectSizeOmegaSquared" : false,
-                        "effectSizePartialEtaSquared" : false,
-                        "homogeneityCorrectionBrown" : false,
-                        "homogeneityCorrectionNone" : true,
-                        "homogeneityCorrectionWelch" : false,
-                        "sumOfSquares" : "type3"
-                     },
-                     "optionMustContain" : {},
-                     "position" : 9999,
-                     "title" : "",
-                     "type" : "state"
-                  },
-                  "simpleEffectsTable" : {
-                     "citations" : [],
-                     "colCombines" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {
-                           "modOne" : true
-                        },
-                        "listType" : "bool",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "",
-                        "type" : "list"
-                     },
-                     "colFormats" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {
-                           "F value" : "sf:4;dp:3",
-                           "Mean Sq" : "sf:4;dp:3",
-                           "Pr(>F)" : "dp:3;p:.001",
-                           "Sum Sq" : "sf:4;dp:3"
-                        },
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colFormats",
-                        "type" : "list"
-                     },
-                     "colNames" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [
-                           "modOne",
-                           "Sum Sq",
-                           "Df",
-                           "Mean Sq",
-                           "F value",
-                           "Pr(>F)",
-                           ".isNewGroup",
-                           "SSt",
-                           "cases",
-                           "correction",
-                           "eta",
-                           "etaPart",
-                           "omega"
-                        ],
-                        "title" : "colNames",
-                        "type" : "list"
-                     },
-                     "colOvertitles" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colOvertitles",
-                        "type" : "list"
-                     },
-                     "colRowCombinations" : [],
-                     "colTitles" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {
-                           "Df" : "df",
-                           "F value" : "F",
-                           "Mean Sq" : "Mean Square",
-                           "Pr(>F)" : "p",
-                           "Sum Sq" : "Sum of Squares",
-                           "modOne" : "Level of JaspColumn_2_Encoded"
-                        },
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colTitles",
-                        "type" : "list"
-                     },
-                     "colTypes" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {
-                           "Df" : "integer",
-                           "F value" : "number",
-                           "Mean Sq" : "number",
-                           "Pr(>F)" : "pvalue",
-                           "Sum Sq" : "number",
-                           "modOne" : "string"
-                        },
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "colTypes",
-                        "type" : "list"
-                     },
-                     "data" : [
-                        [ "500", "1000", "2000" ],
-                        [ 137.81250000000009, 175.82450000000014, 0.031999999999982265 ],
-                        [ 1.0, 1.0, 1.0 ],
-                        [ 137.81250000000009, 175.82450000000014, 0.031999999999982265 ],
-                        [ 10.450515793996964, 13.33301924151742, 0.0024266050279018033 ],
-                        [ 0.0020924698287901771, 0.00058970066692829153, 0.9608933840813918 ],
-                        [ true, false, false ],
-                        [ 384.70950000000005, 370.42550000000011, 270.63999999999993 ],
-                        [
-                           "JaspColumn_1_Encoded",
-                           "JaspColumn_1_Encoded",
-                           "JaspColumn_1_Encoded"
-                        ],
-                        [ "None", "None", "None" ],
-                        [ 0.35822484238106955, 0.474655497529193, 0.0001182382500738334 ],
-                        [ 0.35822484238106944, 0.47465549752919295, 0.0001182382500738334 ],
-                        [ 0.31146561720369675, 0.43283699539218878, 0.0 ]
-                     ],
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "expectedColumnCount" : 0,
-                     "expectedRowCount" : 0,
-                     "footnotes" : [],
-                     "messages" : [],
-                     "name" : "simpleEffectsTable",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {},
-                     "optionMustContain" : {},
-                     "position" : 9999,
-                     "rowNames" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [
-                           "JaspColumn_1_Encoded",
-                           "JaspColumn_1_Encoded1",
-                           "JaspColumn_1_Encoded2"
-                        ],
-                        "title" : "rowNames",
-                        "type" : "list"
-                     },
-                     "rowTitles" : {
-                        "citations" : [],
-                        "error" : false,
-                        "errorMessage" : "",
-                        "escapeHtml" : true,
-                        "fields" : {},
-                        "listType" : "string",
-                        "messages" : [],
-                        "name" : "",
-                        "nestedOptionMustBe" : {},
-                        "nestedOptionMustContain" : {},
-                        "optionMustBe" : {},
-                        "optionMustContain" : {},
-                        "position" : 9999,
-                        "rows" : [],
-                        "title" : "rowTitles",
-                        "type" : "list"
-                     },
-                     "showSpecifiedColumnsOnly" : true,
-                     "specifiedColumns" : [ "Df", "F value", "Mean Sq", "Pr(>F)", "Sum Sq", "modOne" ],
-                     "status" : "complete",
-                     "title" : "Simple Main Effects - JaspColumn_1_Encoded",
-                     "transposeTable" : false,
-                     "transposeWithOvertitle" : false,
-                     "type" : "table"
-                  }
-               },
-               "data_order" : {
-                  "afexModel" : 2,
-                  "anovaResult" : 3,
-                  "simpleEffectsTable" : 0
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "simpleEffectsContainer",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "simpleMainEffectFactor" : "JaspColumn_1_Encoded",
-                  "simpleMainEffectModeratorFactorOne" : "JaspColumn_2_Encoded",
-                  "simpleMainEffectModeratorFactorTwo" : ""
-               },
-               "optionMustContain" : {},
-               "order_increment" : 4,
-               "position" : 9999,
-               "title" : "Simple Main Effects",
-               "type" : "container"
-            }
-         },
-         "data_order" : {
-            "afexModel" : 1,
-            "anovaResult" : 3,
-            "anovaTable" : 2,
-            "assumptionsContainer" : 4,
-            "descriptivesContainer" : 8,
-            "model" : 0,
-            "ordinalRestrictions" : 5,
-            "postHocContainer" : 6,
-            "simpleEffectsContainer" : 7
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "anovaContainer",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "covariates" : null,
-            "customContrasts" : [],
-            "dependent" : "JaspColumn_0_Encoded",
-            "modelTerms" : [
-               {
-                  "components" : [ "JaspColumn_1_Encoded" ]
-               },
-               {
-                  "components" : [ "JaspColumn_2_Encoded" ]
-               },
-               {
-                  "components" : [ "JaspColumn_1_Encoded", "JaspColumn_2_Encoded" ]
-               }
-            ],
-            "sumOfSquares" : "type3",
-            "wlsWeights" : ""
-         },
-         "optionMustContain" : {},
-         "order_increment" : 9,
-         "position" : 9999,
-         "title" : "",
-         "type" : "container"
-      }
-   },
-   "data_order" : {
-      "anovaContainer" : 0
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "contrasts" : {
-            "shouldEncode" : true
-         },
-         "customContrasts" : {
-            "shouldEncode" : true
-         },
-         "dependent" : {
-            "shouldEncode" : true
-         },
-         "descriptivePlotHorizontalAxis" : {
-            "shouldEncode" : true
-         },
-         "descriptivePlotSeparateLines" : {
-            "shouldEncode" : true
-         },
-         "descriptivePlotSeparatePlot" : {
-            "shouldEncode" : true
-         },
-         "fixedFactors" : {
-            "shouldEncode" : true
-         },
-         "kruskalWallisFactors" : {
-            "shouldEncode" : true
-         },
-         "marginalMeanTerms" : {
-            "shouldEncode" : true
-         },
-         "modelTerms" : {
-            "shouldEncode" : true
-         },
-         "postHocTerms" : {
-            "shouldEncode" : true
-         },
-         "rainCloudHorizontalAxis" : {
-            "shouldEncode" : true
-         },
-         "rainCloudSeparatePlots" : {
-            "shouldEncode" : true
-         },
-         "restrictedMarginalMeanTerms" : {
-            "shouldEncode" : true
-         },
-         "simpleMainEffectFactor" : {
-            "shouldEncode" : true
-         },
-         "simpleMainEffectModeratorFactorOne" : {
-            "shouldEncode" : true
-         },
-         "simpleMainEffectModeratorFactorTwo" : {
-            "shouldEncode" : true
-         },
-         "wlsWeights" : {
-            "shouldEncode" : true
-         }
-      },
-      "contrastCi" : false,
-      "contrastCiLevel" : 0.94999999999999996,
-      "contrasts" : [
-         {
-            "contrast" : "none",
-            "variable" : [ "JaspColumn_1_Encoded" ]
-         },
-         {
-            "contrast" : "none",
-            "variable" : [ "JaspColumn_2_Encoded" ]
-         }
-      ],
-      "customContrasts" : [],
-      "dependent" : "JaspColumn_0_Encoded",
-      "descriptivePlotCiLevel" : 0.94999999999999996,
-      "descriptivePlotErrorBar" : true,
-      "descriptivePlotErrorBarType" : "se",
-      "descriptivePlotHorizontalAxis" : "JaspColumn_2_Encoded",
-      "descriptivePlotSeparateLines" : "JaspColumn_1_Encoded",
-      "descriptivePlotSeparatePlot" : "",
-      "descriptives" : true,
-      "effectSizeEstimates" : true,
-      "effectSizeEtaSquared" : true,
-      "effectSizeOmegaSquared" : false,
-      "effectSizePartialEtaSquared" : false,
-      "fixedFactors" : [ "JaspColumn_1_Encoded", "JaspColumn_2_Encoded" ],
-      "homogeneityCorrectionBrown" : false,
-      "homogeneityCorrectionNone" : true,
-      "homogeneityCorrectionWelch" : false,
-      "homogeneityTests" : true,
-      "kruskalWallisFactors" : [],
-      "marginalMeanBootstrap" : false,
-      "marginalMeanBootstrapSamples" : 1000,
-      "marginalMeanCiCorrection" : "none",
-      "marginalMeanComparedToZero" : false,
-      "marginalMeanTerms" : [],
-      "modelTerms" : [
-         {
-            "components" : [ "JaspColumn_1_Encoded" ]
-         },
-         {
-            "components" : [ "JaspColumn_2_Encoded" ]
-         },
-         {
-            "components" : [ "JaspColumn_1_Encoded", "JaspColumn_2_Encoded" ]
-         }
-      ],
-      "plotHeight" : 320,
-      "plotHeightDescriptivesPlotLegend" : 300,
-      "plotHeightDescriptivesPlotNoLegend" : 300,
-      "plotHeightQQPlot" : 300,
-      "plotWidth" : 480,
-      "plotWidthDescriptivesPlotLegend" : 450,
-      "plotWidthDescriptivesPlotNoLegend" : 350,
-      "plotWidthQQPlot" : 300,
-      "postHocCi" : false,
-      "postHocCiLevel" : 0.94999999999999996,
-      "postHocCorrectionBonferroni" : false,
-      "postHocCorrectionHolm" : false,
-      "postHocCorrectionScheffe" : false,
-      "postHocCorrectionSidak" : false,
-      "postHocCorrectionTukey" : true,
-      "postHocSignificanceFlag" : false,
-      "postHocTerms" : [
-         {
-            "variable" : [ "JaspColumn_1_Encoded" ]
-         },
-         {
-            "variable" : [ "JaspColumn_2_Encoded" ]
-         }
-      ],
-      "postHocTypeDunn" : false,
-      "postHocTypeDunnet" : false,
-      "postHocTypeGames" : false,
-      "postHocTypeStandard" : true,
-      "postHocTypeStandardBootstrap" : false,
-      "postHocTypeStandardBootstrapSamples" : 1000,
-      "postHocTypeStandardEffectSize" : false,
-      "qqPlot" : false,
-      "rainCloudHorizontalAxis" : "",
-      "rainCloudHorizontalDisplay" : false,
-      "rainCloudSeparatePlots" : "",
-      "rainCloudYAxisLabel" : "",
-      "randomFactors" : [],
-      "restrictedAvailableCoefficients" : false,
-      "restrictedBootstrap" : false,
-      "restrictedBootstrapCiLevel" : 0.94999999999999996,
-      "restrictedBootstrapSamples" : 1000,
-      "restrictedHeterogeneityCorrection" : "none",
-      "restrictedInformedHypothesisTestForAllModels" : false,
-      "restrictedInterceptInclusion" : false,
-      "restrictedMarginalMeanForAllModels" : false,
-      "restrictedMarginalMeanTerms" : [],
-      "restrictedModelComparison" : "complement",
-      "restrictedModelComparisonCoefficients" : false,
-      "restrictedModelComparisonCoefficientsHighlight" : true,
-      "restrictedModelComparisonMatrix" : false,
-      "restrictedModelComparisonReference" : "complement",
-      "restrictedModelComparisonWeights" : true,
-      "restrictedModelSummaryForAllModels" : false,
-      "restrictedModels" : [
-         {
-            "informedHypothesisTest" : false,
-            "marginalMean" : false,
-            "name" : "Model 1",
-            "summary" : false,
-            "syntax" : ""
-         }
-      ],
-      "simpleMainEffectFactor" : "JaspColumn_1_Encoded",
-      "simpleMainEffectModeratorFactorOne" : "JaspColumn_2_Encoded",
-      "simpleMainEffectModeratorFactorTwo" : "",
-      "sumOfSquares" : "type3",
-      "vovkSellke" : false,
-      "wlsWeights" : ""
-   },
-   "order_increment" : 1,
-   "position" : 9999,
-   "relativePathKeep" : "resources/0/state",
-   "title" : "ANOVA",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"anovaContainer" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"afexModel" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_1",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "afexModel",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				},
+				"anovaResult" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_2",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "anovaResult",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"effectSizeCi" : false,
+						"effectSizeCiLevel" : 0.94999999999999996,
+						"effectSizeEstimates" : true,
+						"effectSizeEtaSquared" : true,
+						"effectSizeOmegaSquared" : false,
+						"effectSizePartialEtaSquared" : false,
+						"effectSizePartialOmegaSquared" : false,
+						"homogeneityCorrectionBrown" : false,
+						"homogeneityCorrectionNone" : true,
+						"homogeneityCorrectionWelch" : false,
+						"sumOfSquares" : "type3"
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				},
+				"anovaTable" : 
+				{
+					"citations" : [],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"F value" : "sf:4;dp:3",
+							"Mean Sq" : "sf:4;dp:3",
+							"Pr(>F)" : "dp:3;p:.001",
+							"Sum Sq" : "sf:4;dp:3",
+							"eta" : "sf:4;dp:3"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"cases",
+							"Sum Sq",
+							"Df",
+							"Mean Sq",
+							"F value",
+							"Pr(>F)",
+							"eta",
+							".isNewGroup",
+							"correction",
+							"etaLow",
+							"etaHigh",
+							"partialEta",
+							"partialEtaLow",
+							"partialEtaHigh",
+							"omega",
+							"omegaLow",
+							"omegaHigh",
+							"partialOmega",
+							"partialOmegaLow",
+							"partialOmegaHigh"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"Df" : "df",
+							"F value" : "F",
+							"Mean Sq" : "Mean Square",
+							"Pr(>F)" : "p",
+							"Sum Sq" : "Sum of Squares",
+							"cases" : "Cases",
+							"eta" : "\u03b7\u00b2"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"Df" : "integer",
+							"F value" : "number",
+							"Mean Sq" : "number",
+							"Pr(>F)" : "pvalue",
+							"Sum Sq" : "number",
+							"cases" : "string",
+							"eta" : "number"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded \u273b JaspColumn_2_Encoded",
+							"Residuals"
+						],
+						[
+							205.35000000000025,
+							2426.4343333333327,
+							108.31900000000007,
+							712.10600000000034
+						],
+						[
+							1.0,
+							2.0,
+							2.0,
+							54.0
+						],
+						[
+							205.35000000000025,
+							1213.2171666666663,
+							54.159500000000037,
+							13.187148148148154
+						],
+						[
+							15.571979452497253,
+							91.999964892867013,
+							4.1069910940225203,
+							""
+						],
+						[
+							0.00023118280977342423,
+							4.0462911959922781e-18,
+							0.021860268964790996,
+							""
+						],
+						[
+							0.059483646607756964,
+							0.70286419479390383,
+							0.031376718368179318,
+							""
+						],
+						[
+							true,
+							false,
+							true,
+							true
+						],
+						[
+							"None",
+							"",
+							"",
+							""
+						],
+						[
+							0.0,
+							0.56233093104724996,
+							0.0,
+							""
+						],
+						[
+							0.21364664532707814,
+							0.78714735875346065,
+							0.14602066666278005,
+							""
+						],
+						[
+							0.22382544775989272,
+							0.7731091767606193,
+							0.13202791236249506,
+							""
+						],
+						[
+							0.058648644880079634,
+							0.66166186317523956,
+							0.0014655621195306314,
+							""
+						],
+						[
+							0.4020763239727313,
+							0.83821101629061001,
+							0.29497203862672811,
+							""
+						],
+						[
+							0.055451909436262006,
+							0.69257877124957246,
+							0.023646559388399862,
+							""
+						],
+						[
+							0.0,
+							0.54811904977562587,
+							0.0,
+							""
+						],
+						[
+							0.20756419961218037,
+							0.77960502824708422,
+							0.1286432114288529,
+							""
+						],
+						[
+							0.19540824260645626,
+							0.75206604376652575,
+							0.093846978881251722,
+							""
+						],
+						[
+							0.041621492024904144,
+							0.63151742281343459,
+							0.0,
+							""
+						],
+						[
+							0.37412395938124976,
+							0.82298854564483914,
+							0.24688464923963091,
+							""
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 3,
+					"footnotes" : 
+					[
+						{
+							"cols" : null,
+							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : "Type III Sum of Squares"
+						}
+					],
+					"messages" : [],
+					"name" : "anovaTable",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"effectSizeCi" : false,
+						"effectSizeCiLevel" : 0.94999999999999996,
+						"effectSizeEstimates" : true,
+						"effectSizeEtaSquared" : true,
+						"effectSizeOmegaSquared" : false,
+						"effectSizePartialEtaSquared" : false,
+						"effectSizePartialOmegaSquared" : false,
+						"homogeneityCorrectionBrown" : false,
+						"homogeneityCorrectionNone" : true,
+						"homogeneityCorrectionWelch" : false,
+						"vovkSellke" : false
+					},
+					"optionMustContain" : {},
+					"position" : 1,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"result.JaspColumn_1_Encoded",
+							"result.JaspColumn_2_Encoded",
+							"result.JaspColumn_1_Encoded:JaspColumn_2_Encoded",
+							"result.Residuals"
+						],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : true,
+					"specifiedColumns" : 
+					[
+						"Df",
+						"F value",
+						"Mean Sq",
+						"Pr(>F)",
+						"Sum Sq",
+						"cases",
+						"eta"
+					],
+					"status" : "complete",
+					"title" : "ANOVA - JaspColumn_0_Encoded",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				},
+				"assumptionsContainer" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"leveneTable" : 
+						{
+							"citations" : [],
+							"colCombines" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "bool",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "",
+								"type" : "list"
+							},
+							"colFormats" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : 
+								{
+									"F" : "sf:4;dp:3",
+									"df1" : "sf:4;dp:3",
+									"df2" : "sf:4;dp:3",
+									"p" : "dp:3;p:.001"
+								},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colFormats",
+								"type" : "list"
+							},
+							"colNames" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : 
+								[
+									"F",
+									"df1",
+									"df2",
+									"p",
+									"vovkSellke"
+								],
+								"title" : "colNames",
+								"type" : "list"
+							},
+							"colOvertitles" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colOvertitles",
+								"type" : "list"
+							},
+							"colRowCombinations" : [],
+							"colTitles" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : 
+								{
+									"F" : "F",
+									"df1" : "df1",
+									"df2" : "df2",
+									"p" : "p"
+								},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colTitles",
+								"type" : "list"
+							},
+							"colTypes" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : 
+								{
+									"F" : "number",
+									"df1" : "number",
+									"df2" : "number",
+									"p" : "pvalue"
+								},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colTypes",
+								"type" : "list"
+							},
+							"data" : 
+							[
+								[
+									1.940130308661425
+								],
+								[
+									5.0
+								],
+								[
+									54.0
+								],
+								[
+									0.10272977489885779
+								],
+								[
+									1.5736316711186975
+								]
+							],
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"expectedColumnCount" : 0,
+							"expectedRowCount" : 0,
+							"footnotes" : [],
+							"messages" : [],
+							"name" : "leveneTable",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"rowNames" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : 
+								[
+									"1"
+								],
+								"title" : "rowNames",
+								"type" : "list"
+							},
+							"rowTitles" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "rowTitles",
+								"type" : "list"
+							},
+							"showSpecifiedColumnsOnly" : true,
+							"specifiedColumns" : 
+							[
+								"F",
+								"df1",
+								"df2",
+								"p"
+							],
+							"status" : "complete",
+							"title" : "Test for Equality of Variances (Levene's)",
+							"transposeTable" : false,
+							"transposeWithOvertitle" : false,
+							"type" : "table"
+						}
+					},
+					"data_order" : 
+					{
+						"leveneTable" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "assumptionsContainer",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"homogeneityTests" : true,
+						"qqPlot" : false
+					},
+					"optionMustContain" : {},
+					"order_increment" : 1,
+					"position" : 9999,
+					"title" : "Assumption Checks",
+					"type" : "container"
+				},
+				"descriptivesContainer" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"containerDescriptivesPlots" : 
+						{
+							"citations" : [],
+							"data" : 
+							{
+								"" : 
+								{
+									"aspectRatio" : 0.0,
+									"citations" : [],
+									"editOptions" : 
+									{
+										"error" : "success",
+										"xAxis" : 
+										{
+											"settings" : 
+											{
+												"labels" : 
+												[
+													"500",
+													"1000",
+													"2000"
+												],
+												"title" : "JaspColumn_2_Encoded",
+												"titleType" : "character"
+											},
+											"type" : "ScaleDiscrete"
+										},
+										"yAxis" : 
+										{
+											"settings" : 
+											{
+												"breaks" : 
+												[
+													5,
+													10,
+													15,
+													20,
+													25,
+													30
+												],
+												"breaksType" : "range",
+												"expand" : 
+												[
+													0.050000000000000003,
+													0,
+													0.050000000000000003,
+													0
+												],
+												"labels" : 
+												[
+													"5",
+													"10",
+													"15",
+													"20",
+													"25",
+													"30"
+												],
+												"limits" : 
+												[
+													5,
+													30
+												],
+												"limitsType" : "breaks",
+												"range" : 
+												[
+													5,
+													30,
+													5
+												],
+												"title" : "JaspColumn_0_Encoded",
+												"titleType" : "character"
+											},
+											"type" : "ScaleContinuous"
+										}
+									},
+									"environmentName" : "plot_0",
+									"error" : false,
+									"errorMessage" : "",
+									"escapeHtml" : true,
+									"filePathPng" : "resources/0/_0_t1720700265988.png",
+									"height" : 300,
+									"messages" : [],
+									"name" : "",
+									"nestedOptionMustBe" : {},
+									"nestedOptionMustContain" : {},
+									"optionMustBe" : {},
+									"optionMustContain" : {},
+									"position" : 9999,
+									"resizedByUser" : false,
+									"revision" : 0,
+									"status" : "complete",
+									"title" : "",
+									"type" : "plot",
+									"width" : 430
+								}
+							},
+							"data_order" : 
+							{
+								"" : 0
+							},
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"initCollapsed" : false,
+							"messages" : [],
+							"name" : "containerDescriptivesPlots",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"applyMoreyCorrectionErrorBars" : true,
+								"dependent" : "JaspColumn_0_Encoded",
+								"dependent.types" : 
+								[
+									"scale"
+								],
+								"descriptivePlotCiLevel" : 0.94999999999999996,
+								"descriptivePlotErrorBar" : true,
+								"descriptivePlotErrorBarPooled" : null,
+								"descriptivePlotErrorBarType" : "se",
+								"descriptivePlotHorizontalAxis" : "JaspColumn_2_Encoded",
+								"descriptivePlotHorizontalAxis.types" : 
+								[
+									"nominal"
+								],
+								"descriptivePlotSeparateLines" : "JaspColumn_1_Encoded",
+								"descriptivePlotSeparateLines.types" : 
+								[
+									"nominal"
+								],
+								"descriptivePlotSeparatePlot" : "",
+								"descriptivePlotSeparatePlot.types" : [],
+								"descriptivePlotYAxisLabel" : null
+							},
+							"optionMustContain" : {},
+							"order_increment" : 1,
+							"position" : 2,
+							"title" : "Descriptives plots",
+							"type" : "container"
+						},
+						"tableDescriptives" : 
+						{
+							"citations" : [],
+							"colCombines" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : 
+								{
+									"JaspColumn_1_Encoded." : true,
+									"JaspColumn_2_Encoded." : true
+								},
+								"listType" : "bool",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "",
+								"type" : "list"
+							},
+							"colFormats" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : 
+								{
+									"Mean" : "sf:4;dp:3",
+									"SD" : "sf:4;dp:3",
+									"SE" : "sf:4;dp:3",
+									"coefOfVariation" : "sf:4;dp:3"
+								},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colFormats",
+								"type" : "list"
+							},
+							"colNames" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : 
+								[
+									"JaspColumn_1_Encoded.",
+									"JaspColumn_2_Encoded.",
+									"N",
+									"Mean",
+									"SD",
+									"SE",
+									"coefOfVariation",
+									"Lower",
+									"Upper"
+								],
+								"title" : "colNames",
+								"type" : "list"
+							},
+							"colOvertitles" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colOvertitles",
+								"type" : "list"
+							},
+							"colRowCombinations" : [],
+							"colTitles" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : 
+								{
+									"JaspColumn_1_Encoded." : "JaspColumn_1_Encoded",
+									"JaspColumn_2_Encoded." : "JaspColumn_2_Encoded",
+									"Mean" : "Mean",
+									"N" : "N",
+									"SD" : "SD",
+									"SE" : "SE",
+									"coefOfVariation" : "Coefficient of variation"
+								},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colTitles",
+								"type" : "list"
+							},
+							"colTypes" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : 
+								{
+									"JaspColumn_1_Encoded." : "string",
+									"JaspColumn_2_Encoded." : "string",
+									"Mean" : "number",
+									"N" : "integer",
+									"SD" : "number",
+									"SE" : "number",
+									"coefOfVariation" : "number"
+								},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colTypes",
+								"type" : "list"
+							},
+							"data" : 
+							[
+								[
+									"OJ",
+									"OJ",
+									"OJ",
+									"VC",
+									"VC",
+									"VC"
+								],
+								[
+									"500",
+									"1000",
+									"2000",
+									"500",
+									"1000",
+									"2000"
+								],
+								[
+									10,
+									10,
+									10,
+									10,
+									10,
+									10
+								],
+								[
+									13.23,
+									22.699999999999999,
+									26.059999999999999,
+									7.9799999999999995,
+									16.77,
+									26.140000000000001
+								],
+								[
+									4.459708510654032,
+									3.9109532796436675,
+									2.6550580659061551,
+									2.7466343040164625,
+									2.515308684391993,
+									4.7977309451679577
+								],
+								[
+									1.410283659410404,
+									1.2367520186179426,
+									0.83960308082648982,
+									0.86856203002433829,
+									0.79541044610803158,
+									1.5171757387403155
+								],
+								[
+									0.33709059037445444,
+									0.17228869073320122,
+									0.10188250444766521,
+									0.34418976240807803,
+									0.14998859179439433,
+									0.18353982192685378
+								],
+								[
+									13.23,
+									22.699999999999999,
+									26.059999999999999,
+									7.9799999999999995,
+									16.77,
+									26.140000000000001
+								],
+								[
+									"",
+									"",
+									"",
+									"",
+									"",
+									""
+								]
+							],
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"expectedColumnCount" : 0,
+							"expectedRowCount" : 0,
+							"footnotes" : [],
+							"messages" : [],
+							"name" : "tableDescriptives",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"betweenSubjectFactors" : null,
+								"credibleInterval" : null,
+								"dependent" : "JaspColumn_0_Encoded",
+								"dependent.types" : 
+								[
+									"scale"
+								],
+								"descriptives" : true,
+								"fixedFactors" : 
+								[
+									"JaspColumn_1_Encoded",
+									"JaspColumn_2_Encoded"
+								],
+								"fixedFactors.types" : 
+								[
+									"nominal",
+									"nominal"
+								]
+							},
+							"optionMustContain" : {},
+							"position" : 1,
+							"rowNames" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : 
+								[
+									"OJ.500.",
+									"OJ.1000.",
+									"OJ.2000.",
+									"VC.500.",
+									"VC.1000.",
+									"VC.2000."
+								],
+								"title" : "rowNames",
+								"type" : "list"
+							},
+							"rowTitles" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "rowTitles",
+								"type" : "list"
+							},
+							"showSpecifiedColumnsOnly" : true,
+							"specifiedColumns" : 
+							[
+								"JaspColumn_1_Encoded.",
+								"JaspColumn_2_Encoded.",
+								"Mean",
+								"N",
+								"SD",
+								"SE",
+								"coefOfVariation"
+							],
+							"status" : "complete",
+							"title" : "Descriptives - JaspColumn_0_Encoded",
+							"transposeTable" : false,
+							"transposeWithOvertitle" : false,
+							"type" : "table"
+						}
+					},
+					"data_order" : 
+					{
+						"containerDescriptivesPlots" : 1,
+						"tableDescriptives" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "descriptivesContainer",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"dependent" : "JaspColumn_0_Encoded",
+						"dependent.types" : 
+						[
+							"scale"
+						],
+						"repeatedMeasuresCells" : null
+					},
+					"optionMustContain" : {},
+					"order_increment" : 2,
+					"position" : 9001,
+					"title" : "Descriptives",
+					"type" : "container"
+				},
+				"model" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_0",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "model",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				},
+				"ordinalRestrictions" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"basicInfoContainer" : 
+						{
+							"citations" : [],
+							"data" : {},
+							"data_order" : {},
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"initCollapsed" : false,
+							"messages" : [],
+							"name" : "basicInfoContainer",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"order_increment" : 0,
+							"position" : 1,
+							"title" : "Syntax information",
+							"type" : "container"
+						},
+						"stateUnrestricted" : 
+						{
+							"citations" : [],
+							"environmentName" : "state_3",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"messages" : [],
+							"name" : "stateUnrestricted",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"title" : "",
+							"type" : "state"
+						}
+					},
+					"data_order" : 
+					{
+						"basicInfoContainer" : 1,
+						"stateUnrestricted" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "ordinalRestrictions",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"restrictedHeterogeneityCorrection" : "none",
+						"restrictedInterceptInclusion" : false
+					},
+					"optionMustContain" : {},
+					"order_increment" : 2,
+					"position" : 9999,
+					"title" : "Order Restricted Hypotheses",
+					"type" : "container"
+				},
+				"postHocContainer" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"postHocStandardContainer" : 
+						{
+							"citations" : [],
+							"data" : 
+							{
+								"dose1" : 
+								{
+									"citations" : [],
+									"colCombines" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"contrast_A" : true
+										},
+										"listType" : "bool",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "",
+										"type" : "list"
+									},
+									"colFormats" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"SE" : "sf:4;dp:3",
+											"estimate" : "sf:4;dp:3",
+											"t.ratio" : "sf:4;dp:3",
+											"tukey" : "dp:3;p:.001"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colFormats",
+										"type" : "list"
+									},
+									"colNames" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : 
+										[
+											"contrast_A",
+											"contrast_B",
+											"estimate",
+											"SE",
+											"t.ratio",
+											"tukey",
+											"contrast",
+											"df",
+											"lower.CL",
+											"upper.CL",
+											"p.value",
+											"cohenD",
+											"cohenD_LowerCI",
+											"cohenD_UpperCI",
+											".isNewGroup"
+										],
+										"title" : "colNames",
+										"type" : "list"
+									},
+									"colOvertitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colOvertitles",
+										"type" : "list"
+									},
+									"colRowCombinations" : [],
+									"colTitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"SE" : "SE",
+											"contrast_A" : " ",
+											"contrast_B" : " ",
+											"estimate" : "Mean Difference",
+											"t.ratio" : "t",
+											"tukey" : "p<sub>tukey</sub>"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colTitles",
+										"type" : "list"
+									},
+									"colTypes" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"SE" : "number",
+											"contrast_A" : "string",
+											"contrast_B" : "string",
+											"estimate" : "number",
+											"t.ratio" : "number",
+											"tukey" : "pvalue"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colTypes",
+										"type" : "list"
+									},
+									"data" : 
+									[
+										[
+											"500",
+											"500",
+											"1000"
+										],
+										[
+											"1000",
+											"2000",
+											"2000"
+										],
+										[
+											-9.1300000000000026,
+											-15.494999999999999,
+											-6.3649999999999975
+										],
+										[
+											1.1483530880416595,
+											1.1483530880416595,
+											1.1483530880416595
+										],
+										[
+											-7.9505163482164019,
+											-13.493236672027722,
+											-5.542720323811321
+										],
+										[
+											3.5530656194993071e-10,
+											4.3842707242447432e-13,
+											2.7075723050273837e-06
+										],
+										[
+											"500 - 1000",
+											"500 - 2000",
+											"1000 - 2000"
+										],
+										[
+											54.0,
+											54.0,
+											54.0
+										],
+										[
+											-11.897512475430386,
+											-18.26251247543038,
+											-9.1325124754303797
+										],
+										[
+											-6.3624875245696204,
+											-12.727487524569618,
+											-3.5974875245696154
+										],
+										[
+											3.5530656194993071e-10,
+											4.3842707242447432e-13,
+											2.7075723050273837e-06
+										],
+										[
+											-2.5141740234768202,
+											-4.2669360891317982,
+											-1.7527620656549781
+										],
+										[
+											-3.4979577536037318,
+											-5.5474481090755834,
+											-2.6382985291694729
+										],
+										[
+											-1.5303902933499083,
+											-2.9864240691880131,
+											-0.86722560214048316
+										],
+										[
+											true,
+											false,
+											false
+										]
+									],
+									"error" : false,
+									"errorMessage" : "",
+									"escapeHtml" : true,
+									"expectedColumnCount" : 0,
+									"expectedRowCount" : 0,
+									"footnotes" : 
+									[
+										{
+											"cols" : null,
+											"rows" : null,
+											"symbol" : "<em>Note.</em>",
+											"text" : "P-value adjusted for comparing a family of 3"
+										},
+										{
+											"cols" : null,
+											"rows" : null,
+											"symbol" : "<em>Note.</em>",
+											"text" : "Results are averaged over the levels of: JaspColumn_1_Encoded"
+										}
+									],
+									"messages" : [],
+									"name" : "dose1",
+									"nestedOptionMustBe" : {},
+									"nestedOptionMustContain" : {},
+									"optionMustBe" : {},
+									"optionMustContain" : {},
+									"position" : 9999,
+									"rowNames" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : 
+										[
+											"1",
+											"2",
+											"3"
+										],
+										"title" : "rowNames",
+										"type" : "list"
+									},
+									"rowTitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "rowTitles",
+										"type" : "list"
+									},
+									"showSpecifiedColumnsOnly" : true,
+									"specifiedColumns" : 
+									[
+										"SE",
+										"contrast_A",
+										"contrast_B",
+										"estimate",
+										"t.ratio",
+										"tukey"
+									],
+									"status" : "complete",
+									"title" : "Post Hoc Comparisons - JaspColumn_2_Encoded",
+									"transposeTable" : false,
+									"transposeWithOvertitle" : false,
+									"type" : "table"
+								},
+								"supp1" : 
+								{
+									"citations" : [],
+									"colCombines" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"contrast_A" : true
+										},
+										"listType" : "bool",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "",
+										"type" : "list"
+									},
+									"colFormats" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"SE" : "sf:4;dp:3",
+											"estimate" : "sf:4;dp:3",
+											"t.ratio" : "sf:4;dp:3",
+											"tukey" : "dp:3;p:.001"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colFormats",
+										"type" : "list"
+									},
+									"colNames" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : 
+										[
+											"contrast_A",
+											"contrast_B",
+											"estimate",
+											"SE",
+											"t.ratio",
+											"tukey",
+											"contrast",
+											"df",
+											"lower.CL",
+											"upper.CL",
+											"p.value",
+											"cohenD",
+											"cohenD_LowerCI",
+											"cohenD_UpperCI",
+											".isNewGroup"
+										],
+										"title" : "colNames",
+										"type" : "list"
+									},
+									"colOvertitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colOvertitles",
+										"type" : "list"
+									},
+									"colRowCombinations" : [],
+									"colTitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"SE" : "SE",
+											"contrast_A" : " ",
+											"contrast_B" : " ",
+											"estimate" : "Mean Difference",
+											"t.ratio" : "t",
+											"tukey" : "p<sub>tukey</sub>"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colTitles",
+										"type" : "list"
+									},
+									"colTypes" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"SE" : "number",
+											"contrast_A" : "string",
+											"contrast_B" : "string",
+											"estimate" : "number",
+											"t.ratio" : "number",
+											"tukey" : "pvalue"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colTypes",
+										"type" : "list"
+									},
+									"data" : 
+									[
+										[
+											"OJ"
+										],
+										[
+											"VC"
+										],
+										[
+											3.700000000000002
+										],
+										[
+											0.937626370083811
+										],
+										[
+											3.9461347483958589
+										],
+										[
+											0.00023118280977342423
+										],
+										[
+											"OJ - VC"
+										],
+										[
+											54.0
+										],
+										[
+											1.8201723105600194
+										],
+										[
+											5.5798276894399841
+										],
+										[
+											0.00023118280977342423
+										],
+										[
+											1.0188876108285054
+										],
+										[
+											0.4651669560349091
+										],
+										[
+											1.5726082656221019
+										],
+										[
+											true
+										]
+									],
+									"error" : false,
+									"errorMessage" : "",
+									"escapeHtml" : true,
+									"expectedColumnCount" : 0,
+									"expectedRowCount" : 0,
+									"footnotes" : 
+									[
+										{
+											"cols" : null,
+											"rows" : null,
+											"symbol" : "<em>Note.</em>",
+											"text" : "Results are averaged over the levels of: JaspColumn_2_Encoded"
+										}
+									],
+									"messages" : [],
+									"name" : "supp1",
+									"nestedOptionMustBe" : {},
+									"nestedOptionMustContain" : {},
+									"optionMustBe" : {},
+									"optionMustContain" : {},
+									"position" : 9999,
+									"rowNames" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : 
+										[
+											"1"
+										],
+										"title" : "rowNames",
+										"type" : "list"
+									},
+									"rowTitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "rowTitles",
+										"type" : "list"
+									},
+									"showSpecifiedColumnsOnly" : true,
+									"specifiedColumns" : 
+									[
+										"SE",
+										"contrast_A",
+										"contrast_B",
+										"estimate",
+										"t.ratio",
+										"tukey"
+									],
+									"status" : "complete",
+									"title" : "Post Hoc Comparisons - JaspColumn_1_Encoded",
+									"transposeTable" : false,
+									"transposeWithOvertitle" : false,
+									"type" : "table"
+								}
+							},
+							"data_order" : 
+							{
+								"dose1" : 1,
+								"supp1" : 0
+							},
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"initCollapsed" : false,
+							"messages" : [],
+							"name" : "postHocStandardContainer",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"postHocCi" : false,
+								"postHocCiLevel" : 0.94999999999999996,
+								"postHocConditionalTable" : false,
+								"postHocCorrectionBonferroni" : false,
+								"postHocCorrectionHolm" : false,
+								"postHocCorrectionScheffe" : false,
+								"postHocCorrectionSidak" : false,
+								"postHocCorrectionTukey" : true,
+								"postHocLetterAlpha" : 0.050000000000000003,
+								"postHocLetterTable" : false,
+								"postHocSignificanceFlag" : false,
+								"postHocTerms" : 
+								[
+									{
+										"variable" : 
+										[
+											"JaspColumn_1_Encoded"
+										]
+									},
+									{
+										"variable" : 
+										[
+											"JaspColumn_2_Encoded"
+										]
+									}
+								],
+								"postHocTerms.types" : 
+								[
+									"nominal",
+									"nominal"
+								],
+								"postHocTypeStandard" : true,
+								"postHocTypeStandardBootstrap" : false,
+								"postHocTypeStandardBootstrapSamples" : 1000,
+								"postHocTypeStandardEffectSize" : false
+							},
+							"optionMustContain" : {},
+							"order_increment" : 2,
+							"position" : 9999,
+							"title" : "Standard (LSD)",
+							"type" : "container"
+						}
+					},
+					"data_order" : 
+					{
+						"postHocStandardContainer" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "postHocContainer",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"postHocTerms" : 
+						[
+							{
+								"variable" : 
+								[
+									"JaspColumn_1_Encoded"
+								]
+							},
+							{
+								"variable" : 
+								[
+									"JaspColumn_2_Encoded"
+								]
+							}
+						],
+						"postHocTerms.types" : 
+						[
+							"nominal",
+							"nominal"
+						]
+					},
+					"optionMustContain" : {},
+					"order_increment" : 1,
+					"position" : 9999,
+					"title" : "Post Hoc Tests",
+					"type" : "container"
+				},
+				"simpleEffectsContainer" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"afexModel" : 
+						{
+							"citations" : [],
+							"environmentName" : "state_11",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"messages" : [],
+							"name" : "afexModel",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"title" : "",
+							"type" : "state"
+						},
+						"anovaResult" : 
+						{
+							"citations" : [],
+							"environmentName" : "state_12",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"messages" : [],
+							"name" : "anovaResult",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"effectSizeCi" : false,
+								"effectSizeCiLevel" : 0.94999999999999996,
+								"effectSizeEstimates" : true,
+								"effectSizeEtaSquared" : true,
+								"effectSizeOmegaSquared" : false,
+								"effectSizePartialEtaSquared" : false,
+								"effectSizePartialOmegaSquared" : false,
+								"homogeneityCorrectionBrown" : false,
+								"homogeneityCorrectionNone" : true,
+								"homogeneityCorrectionWelch" : false,
+								"sumOfSquares" : "type3"
+							},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"title" : "",
+							"type" : "state"
+						},
+						"simpleEffectsTable" : 
+						{
+							"citations" : [],
+							"colCombines" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : 
+								{
+									"modOne" : true
+								},
+								"listType" : "bool",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "",
+								"type" : "list"
+							},
+							"colFormats" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : 
+								{
+									"F value" : "sf:4;dp:3",
+									"Mean Sq" : "sf:4;dp:3",
+									"Pr(>F)" : "dp:3;p:.001",
+									"Sum Sq" : "sf:4;dp:3"
+								},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colFormats",
+								"type" : "list"
+							},
+							"colNames" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : 
+								[
+									"modOne",
+									"Sum Sq",
+									"Df",
+									"Mean Sq",
+									"F value",
+									"Pr(>F)",
+									".isNewGroup",
+									"cases",
+									"correction",
+									"eta",
+									"etaLow",
+									"etaHigh",
+									"partialEta",
+									"partialEtaLow",
+									"partialEtaHigh",
+									"omega",
+									"omegaLow",
+									"omegaHigh",
+									"partialOmega",
+									"partialOmegaLow",
+									"partialOmegaHigh"
+								],
+								"title" : "colNames",
+								"type" : "list"
+							},
+							"colOvertitles" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colOvertitles",
+								"type" : "list"
+							},
+							"colRowCombinations" : [],
+							"colTitles" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : 
+								{
+									"Df" : "df",
+									"F value" : "F",
+									"Mean Sq" : "Mean Square",
+									"Pr(>F)" : "p",
+									"Sum Sq" : "Sum of Squares",
+									"modOne" : "Level of JaspColumn_2_Encoded"
+								},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colTitles",
+								"type" : "list"
+							},
+							"colTypes" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : 
+								{
+									"Df" : "integer",
+									"F value" : "number",
+									"Mean Sq" : "number",
+									"Pr(>F)" : "pvalue",
+									"Sum Sq" : "number",
+									"modOne" : "string"
+								},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "colTypes",
+								"type" : "list"
+							},
+							"data" : 
+							[
+								[
+									"500",
+									"1000",
+									"2000"
+								],
+								[
+									137.81250000000009,
+									175.82450000000014,
+									0.031999999999982265
+								],
+								[
+									1.0,
+									1.0,
+									1.0
+								],
+								[
+									137.81250000000009,
+									175.82450000000014,
+									0.031999999999982265
+								],
+								[
+									10.450515793996964,
+									13.33301924151742,
+									0.0024266050279018033
+								],
+								[
+									0.0020924698287901771,
+									0.00058970066692829153,
+									0.9608933840813918
+								],
+								[
+									true,
+									false,
+									false
+								],
+								[
+									"JaspColumn_1_Encoded",
+									"JaspColumn_1_Encoded",
+									"JaspColumn_1_Encoded"
+								],
+								[
+									"None",
+									"None",
+									"None"
+								],
+								[
+									0.35822484238106944,
+									0.47465549752919295,
+									0.0001182382500738334
+								],
+								[
+									0.044843182774421092,
+									0.12969861337579763,
+									0.0
+								],
+								[
+									0.61378354937249191,
+									0.69138215510177892,
+									0.00024343594624812433
+								],
+								[
+									0.35822484238106944,
+									0.47465549752919295,
+									0.0001182382500738334
+								],
+								[
+									0.044843182774421092,
+									0.12969861337579763,
+									0.0
+								],
+								[
+									0.61378354937249191,
+									0.69138215510177892,
+									0.00024343594624812433
+								],
+								[
+									0.31146561720369664,
+									0.43283699539218873,
+									0.0
+								],
+								[
+									0.022097394468375438,
+									0.094389366874691294,
+									0.0
+								],
+								[
+									0.58028913401938742,
+									0.66429171445367741,
+									0.0
+								],
+								[
+									0.31146561720369664,
+									0.43283699539218873,
+									0.0
+								],
+								[
+									0.022097394468375438,
+									0.094389366874691294,
+									0.0
+								],
+								[
+									0.58028913401938742,
+									0.66429171445367741,
+									0.0
+								]
+							],
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"expectedColumnCount" : 0,
+							"expectedRowCount" : 0,
+							"footnotes" : [],
+							"messages" : [],
+							"name" : "simpleEffectsTable",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"rowNames" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : 
+								[
+									"JaspColumn_1_Encoded",
+									"JaspColumn_1_Encoded1",
+									"JaspColumn_1_Encoded2"
+								],
+								"title" : "rowNames",
+								"type" : "list"
+							},
+							"rowTitles" : 
+							{
+								"citations" : [],
+								"error" : false,
+								"errorMessage" : "",
+								"escapeHtml" : true,
+								"fields" : {},
+								"listType" : "string",
+								"messages" : [],
+								"name" : "",
+								"nestedOptionMustBe" : {},
+								"nestedOptionMustContain" : {},
+								"optionMustBe" : {},
+								"optionMustContain" : {},
+								"position" : 9999,
+								"rows" : [],
+								"title" : "rowTitles",
+								"type" : "list"
+							},
+							"showSpecifiedColumnsOnly" : true,
+							"specifiedColumns" : 
+							[
+								"Df",
+								"F value",
+								"Mean Sq",
+								"Pr(>F)",
+								"Sum Sq",
+								"modOne"
+							],
+							"status" : "complete",
+							"title" : "Simple Main Effects - JaspColumn_1_Encoded",
+							"transposeTable" : false,
+							"transposeWithOvertitle" : false,
+							"type" : "table"
+						}
+					},
+					"data_order" : 
+					{
+						"afexModel" : 2,
+						"anovaResult" : 3,
+						"simpleEffectsTable" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "simpleEffectsContainer",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"simpleMainEffectFactor" : "JaspColumn_1_Encoded",
+						"simpleMainEffectFactor.types" : 
+						[
+							"nominal"
+						],
+						"simpleMainEffectModeratorFactorOne" : "JaspColumn_2_Encoded",
+						"simpleMainEffectModeratorFactorOne.types" : 
+						[
+							"nominal"
+						],
+						"simpleMainEffectModeratorFactorTwo" : "",
+						"simpleMainEffectModeratorFactorTwo.types" : []
+					},
+					"optionMustContain" : {},
+					"order_increment" : 4,
+					"position" : 9999,
+					"title" : "Simple Main Effects",
+					"type" : "container"
+				}
+			},
+			"data_order" : 
+			{
+				"afexModel" : 1,
+				"anovaResult" : 3,
+				"anovaTable" : 2,
+				"assumptionsContainer" : 4,
+				"descriptivesContainer" : 8,
+				"model" : 0,
+				"ordinalRestrictions" : 5,
+				"postHocContainer" : 6,
+				"simpleEffectsContainer" : 7
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "anovaContainer",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"covariates" : null,
+				"customContrasts" : [],
+				"dependent" : "JaspColumn_0_Encoded",
+				"dependent.types" : 
+				[
+					"scale"
+				],
+				"modelTerms" : 
+				[
+					{
+						"components" : 
+						[
+							"JaspColumn_1_Encoded"
+						]
+					},
+					{
+						"components" : 
+						[
+							"JaspColumn_2_Encoded"
+						]
+					},
+					{
+						"components" : 
+						[
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded"
+						]
+					}
+				],
+				"modelTerms.types" : 
+				[
+					"nominal",
+					"nominal",
+					"unknown"
+				],
+				"sumOfSquares" : "type3",
+				"wlsWeights" : "",
+				"wlsWeights.types" : []
+			},
+			"optionMustContain" : {},
+			"order_increment" : 9,
+			"position" : 9999,
+			"title" : "",
+			"type" : "container"
+		}
+	},
+	"data_order" : 
+	{
+		"anovaContainer" : 0
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"barPlotHorizontalAxis" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"barPlotSeparatePlots" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"contrasts" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"customContrasts" : 
+			{
+				"shouldEncode" : true
+			},
+			"dependent" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"descriptivePlotHorizontalAxis" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"descriptivePlotSeparateLines" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"descriptivePlotSeparatePlot" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"fixedFactors" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"kruskalWallisFactors" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"marginalMeanTerms" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"modelTerms" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"postHocTerms" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"rainCloudHorizontalAxis" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"rainCloudSeparatePlots" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"randomFactors" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"restrictedMarginalMeanTerms" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"simpleMainEffectFactor" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"simpleMainEffectModeratorFactorOne" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"simpleMainEffectModeratorFactorTwo" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"wlsWeights" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			}
+		},
+		"applyMoreyCorrectionErrorBars" : true,
+		"barPlotCiInterval" : 0.94999999999999996,
+		"barPlotErrorBarType" : "ci",
+		"barPlotErrorBars" : false,
+		"barPlotHorizontalAxis" : "",
+		"barPlotHorizontalAxis.types" : [],
+		"barPlotHorizontalZeroFix" : true,
+		"barPlotSeparatePlots" : "",
+		"barPlotSeparatePlots.types" : [],
+		"contrastCi" : false,
+		"contrastCiLevel" : 0.94999999999999996,
+		"contrastEffectSize" : false,
+		"contrasts" : 
+		[
+			{
+				"contrast" : "none",
+				"variable" : 
+				[
+					"JaspColumn_1_Encoded"
+				]
+			},
+			{
+				"contrast" : "none",
+				"variable" : 
+				[
+					"JaspColumn_2_Encoded"
+				]
+			}
+		],
+		"contrasts.types" : 
+		[
+			"nominal",
+			"nominal"
+		],
+		"customContrasts" : [],
+		"dependent" : "JaspColumn_0_Encoded",
+		"dependent.types" : 
+		[
+			"scale"
+		],
+		"descriptivePlotCiLevel" : 0.94999999999999996,
+		"descriptivePlotErrorBar" : true,
+		"descriptivePlotErrorBarType" : "se",
+		"descriptivePlotHorizontalAxis" : "JaspColumn_2_Encoded",
+		"descriptivePlotHorizontalAxis.types" : 
+		[
+			"nominal"
+		],
+		"descriptivePlotSeparateLines" : "JaspColumn_1_Encoded",
+		"descriptivePlotSeparateLines.types" : 
+		[
+			"nominal"
+		],
+		"descriptivePlotSeparatePlot" : "",
+		"descriptivePlotSeparatePlot.types" : [],
+		"descriptives" : true,
+		"effectSizeCi" : false,
+		"effectSizeCiLevel" : 0.94999999999999996,
+		"effectSizeEstimates" : true,
+		"effectSizeEtaSquared" : true,
+		"effectSizeGeneralEtaSquared" : false,
+		"effectSizeOmegaSquared" : false,
+		"effectSizePartialEtaSquared" : false,
+		"effectSizePartialOmegaSquared" : false,
+		"fixedFactors" : 
+		[
+			"JaspColumn_1_Encoded",
+			"JaspColumn_2_Encoded"
+		],
+		"fixedFactors.types" : 
+		[
+			"nominal",
+			"nominal"
+		],
+		"homogeneityCorrectionBrown" : false,
+		"homogeneityCorrectionNone" : true,
+		"homogeneityCorrectionWelch" : false,
+		"homogeneityTests" : true,
+		"kruskalCiLevel" : 0.94999999999999996,
+		"kruskalEffectSizeEstimates" : false,
+		"kruskalEpsilon" : true,
+		"kruskalEta" : false,
+		"kruskalWallisFactors" : [],
+		"kruskalWallisFactors.types" : [],
+		"marginalMeanBootstrap" : false,
+		"marginalMeanBootstrapSamples" : 1000,
+		"marginalMeanCiCorrection" : "none",
+		"marginalMeanComparedToZero" : false,
+		"marginalMeanTerms" : [],
+		"marginalMeanTerms.types" : [],
+		"modelTerms" : 
+		[
+			{
+				"components" : 
+				[
+					"JaspColumn_1_Encoded"
+				]
+			},
+			{
+				"components" : 
+				[
+					"JaspColumn_2_Encoded"
+				]
+			},
+			{
+				"components" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded"
+				]
+			}
+		],
+		"modelTerms.types" : 
+		[
+			"nominal",
+			"nominal",
+			"unknown"
+		],
+		"plotHeight" : 320,
+		"plotHeightDescriptivesPlotLegend" : 300,
+		"plotHeightDescriptivesPlotNoLegend" : 300,
+		"plotHeightQQPlot" : 300,
+		"plotWidth" : 480,
+		"plotWidthDescriptivesPlotLegend" : 450,
+		"plotWidthDescriptivesPlotNoLegend" : 350,
+		"plotWidthQQPlot" : 300,
+		"postHocCi" : false,
+		"postHocCiLevel" : 0.94999999999999996,
+		"postHocConditionalTable" : false,
+		"postHocCorrectionBonferroni" : false,
+		"postHocCorrectionHolm" : false,
+		"postHocCorrectionScheffe" : false,
+		"postHocCorrectionSidak" : false,
+		"postHocCorrectionTukey" : true,
+		"postHocLetterAlpha" : 0.050000000000000003,
+		"postHocLetterTable" : false,
+		"postHocSignificanceFlag" : false,
+		"postHocTerms" : 
+		[
+			{
+				"variable" : 
+				[
+					"JaspColumn_1_Encoded"
+				]
+			},
+			{
+				"variable" : 
+				[
+					"JaspColumn_2_Encoded"
+				]
+			}
+		],
+		"postHocTerms.types" : 
+		[
+			"nominal",
+			"nominal"
+		],
+		"postHocTypeDunn" : false,
+		"postHocTypeDunnet" : false,
+		"postHocTypeGames" : false,
+		"postHocTypeStandard" : true,
+		"postHocTypeStandardBootstrap" : false,
+		"postHocTypeStandardBootstrapSamples" : 1000,
+		"postHocTypeStandardEffectSize" : false,
+		"qqPlot" : false,
+		"rainCloudHorizontalAxis" : "",
+		"rainCloudHorizontalAxis.types" : [],
+		"rainCloudHorizontalDisplay" : false,
+		"rainCloudSeparatePlots" : "",
+		"rainCloudSeparatePlots.types" : [],
+		"rainCloudYAxisLabel" : "",
+		"randomFactors" : [],
+		"randomFactors.types" : [],
+		"restrictedAvailableCoefficients" : false,
+		"restrictedBootstrap" : false,
+		"restrictedBootstrapCiLevel" : 0.94999999999999996,
+		"restrictedBootstrapSamples" : 1000,
+		"restrictedHeterogeneityCorrection" : "none",
+		"restrictedInformedHypothesisTestForAllModels" : false,
+		"restrictedInterceptInclusion" : false,
+		"restrictedMarginalMeanForAllModels" : false,
+		"restrictedMarginalMeanTerms" : [],
+		"restrictedMarginalMeanTerms.types" : [],
+		"restrictedModelComparison" : "complement",
+		"restrictedModelComparisonCoefficients" : false,
+		"restrictedModelComparisonCoefficientsHighlight" : true,
+		"restrictedModelComparisonMatrix" : false,
+		"restrictedModelComparisonReference" : "complement",
+		"restrictedModelComparisonWeights" : true,
+		"restrictedModelSummaryForAllModels" : false,
+		"restrictedModels" : 
+		[
+			{
+				"informedHypothesisTest" : false,
+				"marginalMean" : false,
+				"name" : "Model 1",
+				"summary" : false,
+				"syntax" : ""
+			}
+		],
+		"simpleMainEffectFactor" : "JaspColumn_1_Encoded",
+		"simpleMainEffectFactor.types" : 
+		[
+			"nominal"
+		],
+		"simpleMainEffectModeratorFactorOne" : "JaspColumn_2_Encoded",
+		"simpleMainEffectModeratorFactorOne.types" : 
+		[
+			"nominal"
+		],
+		"simpleMainEffectModeratorFactorTwo" : "",
+		"simpleMainEffectModeratorFactorTwo.types" : [],
+		"sumOfSquares" : "type3",
+		"vovkSellke" : false,
+		"wlsWeights" : "",
+		"wlsWeights.types" : []
+	},
+	"order_increment" : 1,
+	"position" : 9999,
+	"relativePathKeep" : "resources/0/state",
+	"title" : "ANOVA",
+	"type" : "results"
 }

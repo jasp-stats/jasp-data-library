@@ -1,725 +1,1152 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
-   "data" : {
-      "distributionPlots" : {
-         "citations" : [],
-         "data" : {
-            "fuseTime" : {
-               "citations" : [],
-               "data" : {
-                  "NV" : {
-                     "aspectRatio" : 0.0,
-                     "citations" : [],
-                     "editOptions" : {
-                        "error" : "success",
-                        "xAxis" : {
-                           "settings" : {
-                              "breaks" : [ 0, 10, 20, 30, 40, 50 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ 0, 10, 20, 30, 40, 50 ],
-                              "limits" : [ 0, 50 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 0, 50, 10 ],
-                              "title" : "JaspColumn_1_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        },
-                        "yAxis" : {
-                           "settings" : {
-                              "breaks" : [ 0, 5, 10, 15, 20 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "0", "5", "10", "15", "20" ],
-                              "limits" : [ 0, 20 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 0, 20, 5 ],
-                              "title" : "Counts",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        }
-                     },
-                     "environmentName" : "plot_0",
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "filePathPng" : "resources/0/_0_t1702644983706.png",
-                     "height" : 320,
-                     "messages" : [],
-                     "name" : "NV",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "splitBy" : "JaspColumn_2_Encoded"
-                     },
-                     "optionMustContain" : {
-                        "variables" : "JaspColumn_1_Encoded"
-                     },
-                     "position" : 9999,
-                     "resizedByUser" : false,
-                     "revision" : 0,
-                     "status" : "complete",
-                     "title" : "NV",
-                     "type" : "plot",
-                     "width" : 480
-                  },
-                  "VV" : {
-                     "aspectRatio" : 0.0,
-                     "citations" : [],
-                     "editOptions" : {
-                        "error" : "success",
-                        "xAxis" : {
-                           "settings" : {
-                              "breaks" : [ 0, 5, 10, 15, 20 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ 0, 5, 10, 15, 20 ],
-                              "limits" : [ 0, 20 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 0, 20, 5 ],
-                              "title" : "JaspColumn_1_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        },
-                        "yAxis" : {
-                           "settings" : {
-                              "breaks" : [ 0, 2, 4, 6, 8, 10 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "0", "2", "4", "6", "8", "10" ],
-                              "limits" : [ 0, 10 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 0, 10, 2 ],
-                              "title" : "Counts",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        }
-                     },
-                     "environmentName" : "plot_1",
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "filePathPng" : "resources/0/_1_t1702644983911.png",
-                     "height" : 320,
-                     "messages" : [],
-                     "name" : "VV",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "splitBy" : "JaspColumn_2_Encoded"
-                     },
-                     "optionMustContain" : {
-                        "variables" : "JaspColumn_1_Encoded"
-                     },
-                     "position" : 9999,
-                     "resizedByUser" : false,
-                     "revision" : 0,
-                     "status" : "complete",
-                     "title" : "VV",
-                     "type" : "plot",
-                     "width" : 480
-                  }
-               },
-               "data_order" : {
-                  "NV" : 0,
-                  "VV" : 1
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "fuseTime",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "splitBy" : "JaspColumn_2_Encoded"
-               },
-               "optionMustContain" : {
-                  "variables" : "JaspColumn_1_Encoded"
-               },
-               "order_increment" : 2,
-               "position" : 9999,
-               "title" : "JaspColumn_1_Encoded",
-               "type" : "container"
-            },
-            "logFuseTime" : {
-               "citations" : [],
-               "data" : {
-                  "NV" : {
-                     "aspectRatio" : 0.0,
-                     "citations" : [],
-                     "editOptions" : {
-                        "error" : "success",
-                        "xAxis" : {
-                           "settings" : {
-                              "breaks" : [ 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4 ],
-                              "limits" : [ 0.5, 4 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 0.5, 4, 0.5 ],
-                              "title" : "JaspColumn_3_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        },
-                        "yAxis" : {
-                           "settings" : {
-                              "breaks" : [ 0, 2, 4, 6, 8, 10, 12 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "0", "2", "4", "6", "8", "10", "12" ],
-                              "limits" : [ 0, 12 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 0, 12, 2 ],
-                              "title" : "Counts",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        }
-                     },
-                     "environmentName" : "plot_2",
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "filePathPng" : "resources/0/_2_t1702644984077.png",
-                     "height" : 320,
-                     "messages" : [],
-                     "name" : "NV",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "splitBy" : "JaspColumn_2_Encoded"
-                     },
-                     "optionMustContain" : {
-                        "variables" : "JaspColumn_3_Encoded"
-                     },
-                     "position" : 9999,
-                     "resizedByUser" : false,
-                     "revision" : 0,
-                     "status" : "complete",
-                     "title" : "NV",
-                     "type" : "plot",
-                     "width" : 480
-                  },
-                  "VV" : {
-                     "aspectRatio" : 0.0,
-                     "citations" : [],
-                     "editOptions" : {
-                        "error" : "success",
-                        "xAxis" : {
-                           "settings" : {
-                              "breaks" : [ 0, 0.5, 1, 1.5, 2, 2.5, 3 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ 0, 0.5, 1, 1.5, 2, 2.5, 3 ],
-                              "limits" : [ 0, 3 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 0, 3, 0.5 ],
-                              "title" : "JaspColumn_3_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        },
-                        "yAxis" : {
-                           "settings" : {
-                              "breaks" : [ 0, 1, 2, 3, 4, 5, 6, 7 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "0", "1", "2", "3", "4", "5", "6", "7" ],
-                              "limits" : [ 0, 7 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 0, 7, 1 ],
-                              "title" : "Counts",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        }
-                     },
-                     "environmentName" : "plot_3",
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "filePathPng" : "resources/0/_3_t1702644984199.png",
-                     "height" : 320,
-                     "messages" : [],
-                     "name" : "VV",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "splitBy" : "JaspColumn_2_Encoded"
-                     },
-                     "optionMustContain" : {
-                        "variables" : "JaspColumn_3_Encoded"
-                     },
-                     "position" : 9999,
-                     "resizedByUser" : false,
-                     "revision" : 0,
-                     "status" : "complete",
-                     "title" : "VV",
-                     "type" : "plot",
-                     "width" : 480
-                  }
-               },
-               "data_order" : {
-                  "NV" : 0,
-                  "VV" : 1
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "logFuseTime",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "splitBy" : "JaspColumn_2_Encoded"
-               },
-               "optionMustContain" : {
-                  "variables" : "JaspColumn_3_Encoded"
-               },
-               "order_increment" : 2,
-               "position" : 9999,
-               "title" : "JaspColumn_3_Encoded",
-               "type" : "container"
-            }
-         },
-         "data_order" : {
-            "fuseTime" : 0,
-            "logFuseTime" : 1
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "distributionPlots",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "distributionAndCorrelationPlotDensity" : false,
-            "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-            "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-            "distributionAndCorrelationPlotRugMarks" : false,
-            "distributionPlots" : true,
-            "splitBy" : "JaspColumn_2_Encoded"
-         },
-         "optionMustContain" : {},
-         "order_increment" : 2,
-         "position" : 5,
-         "title" : "Distribution Plots",
-         "type" : "container"
-      },
-      "stats" : {
-         "citations" : [],
-         "colCombines" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "bool",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "",
-            "type" : "list"
-         },
-         "colFormats" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "Maximum" : "sf:4;dp:3",
-               "Mean" : "sf:4;dp:3",
-               "Minimum" : "sf:4;dp:3",
-               "Std. Deviation" : "sf:4;dp:3"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colFormats",
-            "type" : "list"
-         },
-         "colNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [
-               "Variable",
-               "Level",
-               "Valid",
-               "Missing",
-               "Mean",
-               "Std. Deviation",
-               "Minimum",
-               "Maximum"
-            ],
-            "title" : "colNames",
-            "type" : "list"
-         },
-         "colOvertitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colOvertitles",
-            "type" : "list"
-         },
-         "colRowCombinations" : [],
-         "colTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "Level" : "",
-               "Maximum" : "Maximum",
-               "Mean" : "Mean",
-               "Minimum" : "Minimum",
-               "Missing" : "Missing",
-               "Std. Deviation" : "Std. Deviation",
-               "Valid" : "Valid",
-               "Variable" : ""
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTitles",
-            "type" : "list"
-         },
-         "colTypes" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "Level" : "string",
-               "Maximum" : "number",
-               "Mean" : "number",
-               "Minimum" : "number",
-               "Missing" : "integer",
-               "Std. Deviation" : "number",
-               "Valid" : "integer",
-               "Variable" : "string"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTypes",
-            "type" : "list"
-         },
-         "data" : [
-            [
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_3_Encoded"
-            ],
-            [ "NV", "VV", "NV", "VV" ],
-            [ 43, 35, 43, 35 ],
-            [ 0, 0, 0, 0 ],
-            [
-               8.5604646511627909,
-               5.5514288571428567,
-               1.820010928239485,
-               1.3894542970018771
-            ],
-            [
-               8.0854116088016532,
-               4.801738899312336,
-               0.81372523140696207,
-               0.8178043303844611
-            ],
-            [ 1.7, 1.0, 0.53062825106217004, 0.0 ],
-            [
-               47.200009999999999,
-               19.700009999999999,
-               3.8543941044558898,
-               2.9806191433580298
-            ]
-         ],
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "expectedColumnCount" : 0,
-         "expectedRowCount" : 0,
-         "footnotes" : [],
-         "messages" : [],
-         "name" : "stats",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "ciBootstrapSamples" : 1000,
-            "coefficientOfVariation" : false,
-            "descriptivesTableTransposed" : false,
-            "iqr" : false,
-            "kurtosis" : false,
-            "mad" : false,
-            "madRobust" : false,
-            "maximum" : true,
-            "mean" : true,
-            "meanCi" : false,
-            "meanCiLevel" : 0.94999999999999996,
-            "meanCiMethod" : "normalModel",
-            "median" : false,
-            "minimum" : true,
-            "missing" : true,
-            "mode" : false,
-            "percentileValues" : [],
-            "percentiles" : false,
-            "quantilesForEqualGroups" : false,
-            "quantilesForEqualGroupsNumber" : 4,
-            "quartiles" : false,
-            "range" : false,
-            "sd" : true,
-            "sdCi" : false,
-            "sdCiLevel" : 0.94999999999999996,
-            "seMean" : false,
-            "shapiroWilkTest" : false,
-            "skewness" : false,
-            "splitBy" : "JaspColumn_2_Encoded",
-            "sum" : false,
-            "valid" : true,
-            "variables" : [ "JaspColumn_1_Encoded", "JaspColumn_3_Encoded" ],
-            "variance" : false,
-            "varianceCi" : false,
-            "varianceCiLevel" : 0.94999999999999996
-         },
-         "optionMustContain" : {},
-         "position" : 1,
-         "rowNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [
-               "JaspColumn_1_Encoded1",
-               "JaspColumn_1_Encoded2",
-               "JaspColumn_3_Encoded1",
-               "JaspColumn_3_Encoded2"
-            ],
-            "title" : "rowNames",
-            "type" : "list"
-         },
-         "rowTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowTitles",
-            "type" : "list"
-         },
-         "showSpecifiedColumnsOnly" : false,
-         "specifiedColumns" : [
-            "Level",
-            "Maximum",
-            "Mean",
-            "Minimum",
-            "Missing",
-            "Std. Deviation",
-            "Valid",
-            "Variable"
-         ],
-         "status" : "complete",
-         "title" : "Descriptive Statistics",
-         "transposeTable" : true,
-         "transposeWithOvertitle" : true,
-         "type" : "table"
-      }
-   },
-   "data_order" : {
-      "distributionPlots" : 1,
-      "stats" : 0
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "densityPlotSeparate" : {
-            "shouldEncode" : true
-         },
-         "heatmapHorizontalAxis" : {
-            "shouldEncode" : true
-         },
-         "heatmapVerticalAxis" : {
-            "shouldEncode" : true
-         },
-         "splitBy" : {
-            "shouldEncode" : true
-         },
-         "variables" : {
-            "shouldEncode" : true
-         }
-      },
-      "boxPlot" : false,
-      "boxPlotBoxPlot" : true,
-      "boxPlotColourPalette" : false,
-      "boxPlotJitter" : false,
-      "boxPlotOutlierLabel" : false,
-      "boxPlotViolin" : false,
-      "chartType" : "_1noCharts",
-      "chartValues" : "_1frequencies",
-      "ciBootstrapSamples" : 1000,
-      "coefficientOfVariation" : false,
-      "colorPalette" : "colorblind",
-      "correlationPlots" : false,
-      "densityPlot" : false,
-      "densityPlotSeparate" : "",
-      "densityPlotTransparency" : 20.0,
-      "descriptivesTableTransposed" : false,
-      "distributionAndCorrelationPlotDensity" : false,
-      "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-      "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-      "distributionAndCorrelationPlotRugMarks" : false,
-      "distributionPlots" : true,
-      "dotPlot" : false,
-      "frequencyTables" : false,
-      "frequencyTablesMaximumDistinctValues" : 10,
-      "heatmapDisplayValue" : false,
-      "heatmapDisplayValueRelativeTextSize" : 1.0,
-      "heatmapHorizontalAxis" : "",
-      "heatmapLegend" : false,
-      "heatmapStatisticContinuous" : "mean",
-      "heatmapStatisticDiscrete" : "mode",
-      "heatmapTileWidthHeightRatio" : 1.0,
-      "heatmapVerticalAxis" : "",
-      "intervalPlot" : false,
-      "iqr" : false,
-      "kurtosis" : false,
-      "likertPlot" : false,
-      "likertPlotAdjustableFontSize" : "normal",
-      "likertPlotAssumeVariablesSameLevel" : false,
-      "mad" : false,
-      "madRobust" : false,
-      "maximum" : true,
-      "mean" : true,
-      "meanCi" : false,
-      "meanCiLevel" : 0.94999999999999996,
-      "meanCiMethod" : "normalModel",
-      "median" : false,
-      "minimum" : true,
-      "missing" : true,
-      "mode" : false,
-      "paretoPlot" : false,
-      "paretoPlotRule" : false,
-      "paretoPlotRuleCi" : 0.94999999999999996,
-      "percentileValues" : [],
-      "percentiles" : false,
-      "pieChart" : false,
-      "plotHeight" : 320,
-      "plotWidth" : 480,
-      "qqPlot" : false,
-      "quantilesForEqualGroups" : false,
-      "quantilesForEqualGroupsNumber" : 4,
-      "quartiles" : false,
-      "range" : false,
-      "scatterPlot" : false,
-      "scatterPlotGraphTypeAbove" : "density",
-      "scatterPlotGraphTypeRight" : "density",
-      "scatterPlotLegend" : true,
-      "scatterPlotRegressionLine" : true,
-      "scatterPlotRegressionLineCi" : true,
-      "scatterPlotRegressionLineCiLevel" : 0.94999999999999996,
-      "scatterPlotRegressionLineType" : "smooth",
-      "sd" : true,
-      "sdCi" : false,
-      "sdCiLevel" : 0.94999999999999996,
-      "seMean" : false,
-      "shapiroWilkTest" : false,
-      "skewness" : false,
-      "splitBy" : "JaspColumn_2_Encoded",
-      "statisticsValuesAreGroupMidpoints" : false,
-      "stemAndLeaf" : false,
-      "stemAndLeafScale" : 1.0,
-      "sum" : false,
-      "valid" : true,
-      "variables" : [ "JaspColumn_1_Encoded", "JaspColumn_3_Encoded" ],
-      "variance" : false,
-      "varianceCi" : false,
-      "varianceCiLevel" : 0.94999999999999996
-   },
-   "order_increment" : 2,
-   "position" : 9999,
-   "relativePathKeep" : "resources/0/state",
-   "title" : "Descriptive Statistics",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"distributionPlots" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"fuseTime" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"NV" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30,
+											40,
+											50
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											0,
+											10,
+											20,
+											30,
+											40,
+											50
+										],
+										"limits" : 
+										[
+											0,
+											50
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											0,
+											50,
+											10
+										],
+										"title" : "JaspColumn_1_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											5,
+											10,
+											15,
+											20
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"5",
+											"10",
+											"15",
+											"20"
+										],
+										"limits" : 
+										[
+											0,
+											20
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											0,
+											20,
+											5
+										],
+										"title" : "Counts",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_0",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_0_t1720517203202.png",
+							"height" : 320,
+							"messages" : [],
+							"name" : "NV",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"splitBy" : "JaspColumn_2_Encoded",
+								"splitBy.types" : 
+								[
+									"nominal"
+								]
+							},
+							"optionMustContain" : 
+							{
+								"variables" : "JaspColumn_1_Encoded"
+							},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "NV",
+							"type" : "plot",
+							"width" : 480
+						},
+						"VV" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											5,
+											10,
+											15,
+											20
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											0,
+											5,
+											10,
+											15,
+											20
+										],
+										"limits" : 
+										[
+											0,
+											20
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											0,
+											20,
+											5
+										],
+										"title" : "JaspColumn_1_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											2,
+											4,
+											6,
+											8,
+											10
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"2",
+											"4",
+											"6",
+											"8",
+											"10"
+										],
+										"limits" : 
+										[
+											0,
+											10
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											0,
+											10,
+											2
+										],
+										"title" : "Counts",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_1",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_1_t1720517203363.png",
+							"height" : 320,
+							"messages" : [],
+							"name" : "VV",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"splitBy" : "JaspColumn_2_Encoded",
+								"splitBy.types" : 
+								[
+									"nominal"
+								]
+							},
+							"optionMustContain" : 
+							{
+								"variables" : "JaspColumn_1_Encoded"
+							},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "VV",
+							"type" : "plot",
+							"width" : 480
+						}
+					},
+					"data_order" : 
+					{
+						"NV" : 0,
+						"VV" : 1
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "fuseTime",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"splitBy" : "JaspColumn_2_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						]
+					},
+					"optionMustContain" : 
+					{
+						"variables" : "JaspColumn_1_Encoded"
+					},
+					"order_increment" : 2,
+					"position" : 9999,
+					"title" : "JaspColumn_1_Encoded",
+					"type" : "container"
+				},
+				"logFuseTime" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"NV" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0.5,
+											1,
+											1.5,
+											2,
+											2.5,
+											3,
+											3.5,
+											4
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											0.5,
+											1,
+											1.5,
+											2,
+											2.5,
+											3,
+											3.5,
+											4
+										],
+										"limits" : 
+										[
+											0.5,
+											4
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											0.5,
+											4,
+											0.5
+										],
+										"title" : "JaspColumn_3_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											2,
+											4,
+											6,
+											8,
+											10,
+											12
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"2",
+											"4",
+											"6",
+											"8",
+											"10",
+											"12"
+										],
+										"limits" : 
+										[
+											0,
+											12
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											0,
+											12,
+											2
+										],
+										"title" : "Counts",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_2",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_2_t1720517203514.png",
+							"height" : 320,
+							"messages" : [],
+							"name" : "NV",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"splitBy" : "JaspColumn_2_Encoded",
+								"splitBy.types" : 
+								[
+									"nominal"
+								]
+							},
+							"optionMustContain" : 
+							{
+								"variables" : "JaspColumn_3_Encoded"
+							},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "NV",
+							"type" : "plot",
+							"width" : 480
+						},
+						"VV" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											0.5,
+											1,
+											1.5,
+											2,
+											2.5,
+											3
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											0,
+											0.5,
+											1,
+											1.5,
+											2,
+											2.5,
+											3
+										],
+										"limits" : 
+										[
+											0,
+											3
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											0,
+											3,
+											0.5
+										],
+										"title" : "JaspColumn_3_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											1,
+											2,
+											3,
+											4,
+											5,
+											6,
+											7
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"1",
+											"2",
+											"3",
+											"4",
+											"5",
+											"6",
+											"7"
+										],
+										"limits" : 
+										[
+											0,
+											7
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											0,
+											7,
+											1
+										],
+										"title" : "Counts",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_3",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_3_t1720517203620.png",
+							"height" : 320,
+							"messages" : [],
+							"name" : "VV",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"splitBy" : "JaspColumn_2_Encoded",
+								"splitBy.types" : 
+								[
+									"nominal"
+								]
+							},
+							"optionMustContain" : 
+							{
+								"variables" : "JaspColumn_3_Encoded"
+							},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "VV",
+							"type" : "plot",
+							"width" : 480
+						}
+					},
+					"data_order" : 
+					{
+						"NV" : 0,
+						"VV" : 1
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "logFuseTime",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"splitBy" : "JaspColumn_2_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						]
+					},
+					"optionMustContain" : 
+					{
+						"variables" : "JaspColumn_3_Encoded"
+					},
+					"order_increment" : 2,
+					"position" : 9999,
+					"title" : "JaspColumn_3_Encoded",
+					"type" : "container"
+				}
+			},
+			"data_order" : 
+			{
+				"fuseTime" : 0,
+				"logFuseTime" : 1
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "distributionPlots",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"distributionAndCorrelationPlotDensity" : false,
+				"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+				"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+				"distributionAndCorrelationPlotRugMarks" : false,
+				"distributionPlots" : true,
+				"splitBy" : "JaspColumn_2_Encoded",
+				"splitBy.types" : 
+				[
+					"nominal"
+				],
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_3_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale"
+				]
+			},
+			"optionMustContain" : {},
+			"order_increment" : 2,
+			"position" : 5,
+			"title" : "Distribution Plots",
+			"type" : "container"
+		},
+		"stats" : 
+		{
+			"citations" : [],
+			"colCombines" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "bool",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "",
+				"type" : "list"
+			},
+			"colFormats" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"Maximum" : "sf:4;dp:3",
+					"Mean" : "sf:4;dp:3",
+					"Minimum" : "sf:4;dp:3",
+					"Std. Deviation" : "sf:4;dp:3"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colFormats",
+				"type" : "list"
+			},
+			"colNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"Variable",
+					"Level",
+					"Valid",
+					"Missing",
+					"Mean",
+					"Std. Deviation",
+					"Minimum",
+					"Maximum"
+				],
+				"title" : "colNames",
+				"type" : "list"
+			},
+			"colOvertitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colOvertitles",
+				"type" : "list"
+			},
+			"colRowCombinations" : [],
+			"colTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"Level" : "",
+					"Maximum" : "Maximum",
+					"Mean" : "Mean",
+					"Minimum" : "Minimum",
+					"Missing" : "Missing",
+					"Std. Deviation" : "Std. Deviation",
+					"Valid" : "Valid",
+					"Variable" : ""
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTitles",
+				"type" : "list"
+			},
+			"colTypes" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"Level" : "string",
+					"Maximum" : "number",
+					"Mean" : "number",
+					"Minimum" : "number",
+					"Missing" : "integer",
+					"Std. Deviation" : "number",
+					"Valid" : "integer",
+					"Variable" : "string"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTypes",
+				"type" : "list"
+			},
+			"data" : 
+			[
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded"
+				],
+				[
+					"NV",
+					"VV",
+					"NV",
+					"VV"
+				],
+				[
+					43,
+					35,
+					43,
+					35
+				],
+				[
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					8.5604646511627909,
+					5.5514288571428567,
+					1.820010928239485,
+					1.3894542970018771
+				],
+				[
+					8.0854116088016532,
+					4.801738899312336,
+					0.81372523140696207,
+					0.8178043303844611
+				],
+				[
+					1.7,
+					1.0,
+					0.53062825106217004,
+					0.0
+				],
+				[
+					47.200009999999999,
+					19.700009999999999,
+					3.8543941044558898,
+					2.9806191433580298
+				]
+			],
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"expectedColumnCount" : 0,
+			"expectedRowCount" : 0,
+			"footnotes" : [],
+			"messages" : [],
+			"name" : "stats",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"ciBootstrapSamples" : 1000,
+				"coefficientOfVariation" : false,
+				"descriptivesTableTransposed" : false,
+				"iqr" : false,
+				"kurtosis" : false,
+				"mad" : false,
+				"madRobust" : false,
+				"maximum" : true,
+				"mean" : true,
+				"meanCi" : false,
+				"meanCiLevel" : 0.94999999999999996,
+				"meanCiMethod" : "normalModel",
+				"median" : false,
+				"minimum" : true,
+				"missing" : true,
+				"mode" : false,
+				"percentileValues" : [],
+				"percentiles" : false,
+				"quantilesForEqualGroups" : false,
+				"quantilesForEqualGroupsNumber" : 4,
+				"quartiles" : false,
+				"range" : false,
+				"sd" : true,
+				"sdCi" : false,
+				"sdCiLevel" : 0.94999999999999996,
+				"seMean" : false,
+				"shapiroWilkTest" : false,
+				"skewness" : false,
+				"splitBy" : "JaspColumn_2_Encoded",
+				"splitBy.types" : 
+				[
+					"nominal"
+				],
+				"sum" : false,
+				"valid" : true,
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_3_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale"
+				],
+				"variance" : false,
+				"varianceCi" : false,
+				"varianceCiLevel" : 0.94999999999999996
+			},
+			"optionMustContain" : {},
+			"position" : 1,
+			"rowNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"JaspColumn_1_Encoded1",
+					"JaspColumn_1_Encoded2",
+					"JaspColumn_3_Encoded1",
+					"JaspColumn_3_Encoded2"
+				],
+				"title" : "rowNames",
+				"type" : "list"
+			},
+			"rowTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowTitles",
+				"type" : "list"
+			},
+			"showSpecifiedColumnsOnly" : false,
+			"specifiedColumns" : 
+			[
+				"Level",
+				"Maximum",
+				"Mean",
+				"Minimum",
+				"Missing",
+				"Std. Deviation",
+				"Valid",
+				"Variable"
+			],
+			"status" : "complete",
+			"title" : "Descriptive Statistics",
+			"transposeTable" : true,
+			"transposeWithOvertitle" : true,
+			"type" : "table"
+		}
+	},
+	"data_order" : 
+	{
+		"distributionPlots" : 1,
+		"stats" : 0
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"densityPlotSeparate" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"heatmapHorizontalAxis" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"heatmapVerticalAxis" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"splitBy" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"variables" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			}
+		},
+		"associationMatrixUse" : "everything",
+		"boxPlot" : false,
+		"boxPlotBoxPlot" : true,
+		"boxPlotColourPalette" : false,
+		"boxPlotJitter" : false,
+		"boxPlotOutlierLabel" : false,
+		"boxPlotViolin" : false,
+		"ciBootstrapSamples" : 1000,
+		"coefficientOfVariation" : false,
+		"colorPalette" : "colorblind",
+		"correlation" : false,
+		"correlationPlots" : false,
+		"covariance" : false,
+		"customHistogramPosition" : "stack",
+		"densityPlot" : false,
+		"densityPlotSeparate" : "",
+		"densityPlotSeparate.types" : [],
+		"densityPlotTransparency" : 20.0,
+		"densityPlotType" : "density",
+		"descriptivesTableTransposed" : false,
+		"distributionAndCorrelationPlotDensity" : false,
+		"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+		"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+		"distributionAndCorrelationPlotRugMarks" : false,
+		"distributionPlots" : true,
+		"dotPlot" : false,
+		"frequencyTables" : false,
+		"frequencyTablesMaximumDistinctValues" : 10,
+		"heatmapDisplayValue" : false,
+		"heatmapDisplayValueRelativeTextSize" : 1.0,
+		"heatmapHorizontalAxis" : "",
+		"heatmapHorizontalAxis.types" : [],
+		"heatmapLegend" : false,
+		"heatmapPlot" : false,
+		"heatmapStatisticContinuous" : "mean",
+		"heatmapStatisticDiscrete" : "mode",
+		"heatmapTileWidthHeightRatio" : 1.0,
+		"heatmapVerticalAxis" : "",
+		"heatmapVerticalAxis.types" : [],
+		"intervalPlot" : false,
+		"iqr" : false,
+		"kurtosis" : false,
+		"likertPlot" : false,
+		"likertPlotAdjustableFontSize" : "normal",
+		"likertPlotAssumeVariablesSameLevel" : false,
+		"mad" : false,
+		"madRobust" : false,
+		"maximum" : true,
+		"mean" : true,
+		"meanCi" : false,
+		"meanCiLevel" : 0.94999999999999996,
+		"meanCiMethod" : "normalModel",
+		"median" : false,
+		"minimum" : true,
+		"missing" : true,
+		"mode" : false,
+		"paretoPlot" : false,
+		"paretoPlotRule" : false,
+		"paretoPlotRuleCi" : 0.94999999999999996,
+		"percentileValues" : [],
+		"percentiles" : false,
+		"pieChart" : false,
+		"plotHeight" : 320,
+		"plotWidth" : 480,
+		"qqPlot" : false,
+		"quantilesForEqualGroups" : false,
+		"quantilesForEqualGroupsNumber" : 4,
+		"quartiles" : false,
+		"range" : false,
+		"scatterPlot" : false,
+		"scatterPlotGraphTypeAbove" : "density",
+		"scatterPlotGraphTypeRight" : "density",
+		"scatterPlotLegend" : true,
+		"scatterPlotRegressionLine" : true,
+		"scatterPlotRegressionLineCi" : true,
+		"scatterPlotRegressionLineCiLevel" : 0.94999999999999996,
+		"scatterPlotRegressionLineType" : "smooth",
+		"sd" : true,
+		"sdCi" : false,
+		"sdCiLevel" : 0.94999999999999996,
+		"seMean" : false,
+		"shapiroWilkTest" : false,
+		"skewness" : false,
+		"splitBy" : "JaspColumn_2_Encoded",
+		"splitBy.types" : 
+		[
+			"nominal"
+		],
+		"statisticsValuesAreGroupMidpoints" : false,
+		"stemAndLeaf" : false,
+		"stemAndLeafScale" : 1.0,
+		"sum" : false,
+		"valid" : true,
+		"variables" : 
+		[
+			"JaspColumn_1_Encoded",
+			"JaspColumn_3_Encoded"
+		],
+		"variables.types" : 
+		[
+			"scale",
+			"scale"
+		],
+		"variance" : false,
+		"varianceCi" : false,
+		"varianceCiLevel" : 0.94999999999999996
+	},
+	"order_increment" : 2,
+	"position" : 9999,
+	"relativePathKeep" : "resources/0/state",
+	"title" : "Descriptive Statistics",
+	"type" : "results"
 }

@@ -1,1040 +1,1346 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
-   "data" : {
-      "matrixPlot" : {
-         "citations" : [],
-         "data" : {
-            "away" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_0",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_0_t1702646208576.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "away",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "away",
-               "type" : "plot",
-               "width" : 520
-            },
-            "bullseye" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_1",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_1_t1702646209202.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "bullseye",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "bullseye",
-               "type" : "plot",
-               "width" : 520
-            },
-            "circle" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_2",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_2_t1702646209607.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "circle",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "circle",
-               "type" : "plot",
-               "width" : 520
-            },
-            "dino" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_3",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_3_t1702646210034.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "dino",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "dino",
-               "type" : "plot",
-               "width" : 520
-            },
-            "dots" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_4",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_4_t1702646210438.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "dots",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "dots",
-               "type" : "plot",
-               "width" : 520
-            },
-            "h_lines" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_5",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_5_t1702646210841.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "h_lines",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "h_lines",
-               "type" : "plot",
-               "width" : 520
-            },
-            "high_lines" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_6",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_6_t1702646211260.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "high_lines",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "high_lines",
-               "type" : "plot",
-               "width" : 520
-            },
-            "slant_down" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_7",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_7_t1702646211679.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "slant_down",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "slant_down",
-               "type" : "plot",
-               "width" : 520
-            },
-            "slant_up" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_8",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_8_t1702646212125.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "slant_up",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "slant_up",
-               "type" : "plot",
-               "width" : 520
-            },
-            "star" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_9",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_9_t1702646212564.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "star",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "star",
-               "type" : "plot",
-               "width" : 520
-            },
-            "v_lines" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_10",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_10_t1702646212985.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "v_lines",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "v_lines",
-               "type" : "plot",
-               "width" : 520
-            },
-            "wide_lines" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_11",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_11_t1702646213410.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "wide_lines",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "wide_lines",
-               "type" : "plot",
-               "width" : 520
-            },
-            "x_shape" : {
-               "aspectRatio" : 1.0,
-               "citations" : [],
-               "editOptions" : {
-                  "errorType" : "validationError",
-                  "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-               },
-               "environmentName" : "plot_12",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "filePathPng" : "resources/0/_12_t1702646213848.png",
-               "height" : 520,
-               "messages" : [],
-               "name" : "x_shape",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "correlationPlots" : true,
-                  "distributionAndCorrelationPlotDensity" : false,
-                  "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-                  "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-                  "distributionAndCorrelationPlotRugMarks" : false,
-                  "splitBy" : "JaspColumn_0_Encoded",
-                  "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "resizedByUser" : false,
-               "revision" : 0,
-               "status" : "complete",
-               "title" : "x_shape",
-               "type" : "plot",
-               "width" : 520
-            }
-         },
-         "data_order" : {
-            "away" : 0,
-            "bullseye" : 1,
-            "circle" : 2,
-            "dino" : 3,
-            "dots" : 4,
-            "h_lines" : 5,
-            "high_lines" : 6,
-            "slant_down" : 7,
-            "slant_up" : 8,
-            "star" : 9,
-            "v_lines" : 10,
-            "wide_lines" : 11,
-            "x_shape" : 12
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "matrixPlot",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "correlationPlots" : true,
-            "splitBy" : "JaspColumn_0_Encoded",
-            "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ]
-         },
-         "optionMustContain" : {},
-         "order_increment" : 13,
-         "position" : 6,
-         "title" : "Correlation plots",
-         "type" : "container"
-      },
-      "stats" : {
-         "citations" : [],
-         "colCombines" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "bool",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "",
-            "type" : "list"
-         },
-         "colFormats" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "Mean" : "sf:4;dp:3",
-               "Std. Deviation" : "sf:4;dp:3"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colFormats",
-            "type" : "list"
-         },
-         "colNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [ "Variable", "Level", "Valid", "Missing", "Mean", "Std. Deviation" ],
-            "title" : "colNames",
-            "type" : "list"
-         },
-         "colOvertitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colOvertitles",
-            "type" : "list"
-         },
-         "colRowCombinations" : [],
-         "colTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "Level" : "",
-               "Mean" : "Mean",
-               "Missing" : "Missing",
-               "Std. Deviation" : "Std. Deviation",
-               "Valid" : "Valid",
-               "Variable" : ""
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTitles",
-            "type" : "list"
-         },
-         "colTypes" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "Level" : "string",
-               "Mean" : "number",
-               "Missing" : "integer",
-               "Std. Deviation" : "number",
-               "Valid" : "integer",
-               "Variable" : "string"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTypes",
-            "type" : "list"
-         },
-         "data" : [
-            [
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded"
-            ],
-            [
-               "away",
-               "bullseye",
-               "circle",
-               "dino",
-               "dots",
-               "h_lines",
-               "high_lines",
-               "slant_down",
-               "slant_up",
-               "star",
-               "v_lines",
-               "wide_lines",
-               "x_shape",
-               "away",
-               "bullseye",
-               "circle",
-               "dino",
-               "dots",
-               "h_lines",
-               "high_lines",
-               "slant_down",
-               "slant_up",
-               "star",
-               "v_lines",
-               "wide_lines",
-               "x_shape"
-            ],
-            [
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142,
-               142
-            ],
-            [
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0,
-               0
-            ],
-            [
-               47.83472062488412,
-               47.830823155217821,
-               47.837717267218309,
-               47.832252816901402,
-               47.839829208755631,
-               47.830251913635209,
-               47.835450203936617,
-               47.835896330588206,
-               47.831495652024437,
-               47.839545225097886,
-               47.836987988168808,
-               47.831601988006156,
-               47.839717279160418,
-               54.266099784204933,
-               54.268730022378875,
-               54.267319706173943,
-               54.263273239436622,
-               54.260303451217609,
-               54.261441783514087,
-               54.268805279741549,
-               54.267848823366201,
-               54.265881785602112,
-               54.267341104495074,
-               54.269927231027459,
-               54.266916301257041,
-               54.26015033403803
-            ],
-            [
-               26.939743418883349,
-               26.935726689885946,
-               26.930036087830342,
-               26.935403486939116,
-               26.930191518085522,
-               26.939876220039832,
-               26.939997961212949,
-               26.936104931637747,
-               26.938608070892251,
-               26.93027468764851,
-               26.93768380697394,
-               26.937901927715231,
-               26.930001686980987,
-               16.769824954157365,
-               16.769239493426749,
-               16.760012659672196,
-               16.765142039116782,
-               16.767735488432596,
-               16.765897904068495,
-               16.766704016169228,
-               16.766758947404618,
-               16.768852670628497,
-               16.768959216276539,
-               16.769958611355818,
-               16.76999961796734,
-               16.769957695819294
-            ]
-         ],
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "expectedColumnCount" : 0,
-         "expectedRowCount" : 0,
-         "footnotes" : [],
-         "messages" : [],
-         "name" : "stats",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "ciBootstrapSamples" : 1000,
-            "coefficientOfVariation" : false,
-            "descriptivesTableTransposed" : false,
-            "iqr" : false,
-            "kurtosis" : false,
-            "mad" : false,
-            "madRobust" : false,
-            "maximum" : false,
-            "mean" : true,
-            "meanCi" : false,
-            "meanCiLevel" : 0.94999999999999996,
-            "meanCiMethod" : "normalModel",
-            "median" : false,
-            "minimum" : false,
-            "missing" : true,
-            "mode" : false,
-            "percentileValues" : [],
-            "percentiles" : false,
-            "quantilesForEqualGroups" : false,
-            "quantilesForEqualGroupsNumber" : 4,
-            "quartiles" : false,
-            "range" : false,
-            "sd" : true,
-            "sdCi" : false,
-            "sdCiLevel" : 0.94999999999999996,
-            "seMean" : false,
-            "shapiroWilkTest" : false,
-            "skewness" : false,
-            "splitBy" : "JaspColumn_0_Encoded",
-            "sum" : false,
-            "valid" : true,
-            "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ],
-            "variance" : false,
-            "varianceCi" : false,
-            "varianceCiLevel" : 0.94999999999999996
-         },
-         "optionMustContain" : {},
-         "position" : 1,
-         "rowNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [
-               "JaspColumn_2_Encoded1",
-               "JaspColumn_2_Encoded2",
-               "JaspColumn_2_Encoded3",
-               "JaspColumn_2_Encoded4",
-               "JaspColumn_2_Encoded5",
-               "JaspColumn_2_Encoded6",
-               "JaspColumn_2_Encoded7",
-               "JaspColumn_2_Encoded8",
-               "JaspColumn_2_Encoded9",
-               "JaspColumn_2_Encoded10",
-               "JaspColumn_2_Encoded11",
-               "JaspColumn_2_Encoded12",
-               "JaspColumn_2_Encoded13",
-               "JaspColumn_1_Encoded1",
-               "JaspColumn_1_Encoded2",
-               "JaspColumn_1_Encoded3",
-               "JaspColumn_1_Encoded4",
-               "JaspColumn_1_Encoded5",
-               "JaspColumn_1_Encoded6",
-               "JaspColumn_1_Encoded7",
-               "JaspColumn_1_Encoded8",
-               "JaspColumn_1_Encoded9",
-               "JaspColumn_1_Encoded10",
-               "JaspColumn_1_Encoded11",
-               "JaspColumn_1_Encoded12",
-               "JaspColumn_1_Encoded13"
-            ],
-            "title" : "rowNames",
-            "type" : "list"
-         },
-         "rowTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowTitles",
-            "type" : "list"
-         },
-         "showSpecifiedColumnsOnly" : false,
-         "specifiedColumns" : [ "Level", "Mean", "Missing", "Std. Deviation", "Valid", "Variable" ],
-         "status" : "complete",
-         "title" : "Descriptive Statistics",
-         "transposeTable" : true,
-         "transposeWithOvertitle" : true,
-         "type" : "table"
-      }
-   },
-   "data_order" : {
-      "matrixPlot" : 1,
-      "stats" : 0
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "densityPlotSeparate" : {
-            "shouldEncode" : true
-         },
-         "heatmapHorizontalAxis" : {
-            "shouldEncode" : true
-         },
-         "heatmapVerticalAxis" : {
-            "shouldEncode" : true
-         },
-         "splitBy" : {
-            "shouldEncode" : true
-         },
-         "variables" : {
-            "shouldEncode" : true
-         }
-      },
-      "boxPlot" : false,
-      "boxPlotBoxPlot" : true,
-      "boxPlotColourPalette" : false,
-      "boxPlotJitter" : false,
-      "boxPlotOutlierLabel" : false,
-      "boxPlotViolin" : false,
-      "chartType" : "_1noCharts",
-      "chartValues" : "_1frequencies",
-      "ciBootstrapSamples" : 1000,
-      "coefficientOfVariation" : false,
-      "colorPalette" : "colorblind",
-      "correlationPlots" : true,
-      "densityPlot" : false,
-      "densityPlotSeparate" : "",
-      "densityPlotTransparency" : 20.0,
-      "descriptivesTableTransposed" : false,
-      "distributionAndCorrelationPlotDensity" : false,
-      "distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
-      "distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
-      "distributionAndCorrelationPlotRugMarks" : false,
-      "distributionPlots" : false,
-      "dotPlot" : false,
-      "frequencyTables" : false,
-      "frequencyTablesMaximumDistinctValues" : 10,
-      "heatmapDisplayValue" : false,
-      "heatmapDisplayValueRelativeTextSize" : 1.0,
-      "heatmapHorizontalAxis" : "",
-      "heatmapLegend" : false,
-      "heatmapStatisticContinuous" : "mean",
-      "heatmapStatisticDiscrete" : "mode",
-      "heatmapTileWidthHeightRatio" : 1.0,
-      "heatmapVerticalAxis" : "",
-      "intervalPlot" : false,
-      "iqr" : false,
-      "kurtosis" : false,
-      "likertPlot" : false,
-      "likertPlotAdjustableFontSize" : "normal",
-      "likertPlotAssumeVariablesSameLevel" : false,
-      "mad" : false,
-      "madRobust" : false,
-      "maximum" : false,
-      "mean" : true,
-      "meanCi" : false,
-      "meanCiLevel" : 0.94999999999999996,
-      "meanCiMethod" : "normalModel",
-      "median" : false,
-      "minimum" : false,
-      "missing" : true,
-      "mode" : false,
-      "paretoPlot" : false,
-      "paretoPlotRule" : false,
-      "paretoPlotRuleCi" : 0.94999999999999996,
-      "percentileValues" : [],
-      "percentiles" : false,
-      "pieChart" : false,
-      "plotHeight" : 320,
-      "plotWidth" : 480,
-      "qqPlot" : false,
-      "quantilesForEqualGroups" : false,
-      "quantilesForEqualGroupsNumber" : 4,
-      "quartiles" : false,
-      "range" : false,
-      "scatterPlot" : false,
-      "scatterPlotGraphTypeAbove" : "density",
-      "scatterPlotGraphTypeRight" : "density",
-      "scatterPlotLegend" : true,
-      "scatterPlotRegressionLine" : true,
-      "scatterPlotRegressionLineCi" : true,
-      "scatterPlotRegressionLineCiLevel" : 0.94999999999999996,
-      "scatterPlotRegressionLineType" : "smooth",
-      "sd" : true,
-      "sdCi" : false,
-      "sdCiLevel" : 0.94999999999999996,
-      "seMean" : false,
-      "shapiroWilkTest" : false,
-      "skewness" : false,
-      "splitBy" : "JaspColumn_0_Encoded",
-      "statisticsValuesAreGroupMidpoints" : false,
-      "stemAndLeaf" : false,
-      "stemAndLeafScale" : 1.0,
-      "sum" : false,
-      "valid" : true,
-      "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_1_Encoded" ],
-      "variance" : false,
-      "varianceCi" : false,
-      "varianceCiLevel" : 0.94999999999999996
-   },
-   "order_increment" : 2,
-   "position" : 9999,
-   "relativePathKeep" : "resources/0/state",
-   "title" : "Descriptive Statistics",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"matrixPlot" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"away" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_0",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_0_t1720534042248.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "away",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "away",
+					"type" : "plot",
+					"width" : 520
+				},
+				"bullseye" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_1",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_1_t1720534042738.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "bullseye",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "bullseye",
+					"type" : "plot",
+					"width" : 520
+				},
+				"circle" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_2",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_2_t1720534043191.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "circle",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "circle",
+					"type" : "plot",
+					"width" : 520
+				},
+				"dino" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_3",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_3_t1720534043642.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "dino",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "dino",
+					"type" : "plot",
+					"width" : 520
+				},
+				"dots" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_4",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_4_t1720534044106.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "dots",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "dots",
+					"type" : "plot",
+					"width" : 520
+				},
+				"h_lines" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_5",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_5_t1720534044598.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "h_lines",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "h_lines",
+					"type" : "plot",
+					"width" : 520
+				},
+				"high_lines" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_6",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_6_t1720534045016.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "high_lines",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "high_lines",
+					"type" : "plot",
+					"width" : 520
+				},
+				"slant_down" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_7",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_7_t1720534045431.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "slant_down",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "slant_down",
+					"type" : "plot",
+					"width" : 520
+				},
+				"slant_up" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_8",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_8_t1720534045854.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "slant_up",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "slant_up",
+					"type" : "plot",
+					"width" : 520
+				},
+				"star" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_9",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_9_t1720534046288.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "star",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "star",
+					"type" : "plot",
+					"width" : 520
+				},
+				"v_lines" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_10",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_10_t1720534046715.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "v_lines",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "v_lines",
+					"type" : "plot",
+					"width" : 520
+				},
+				"wide_lines" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_11",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_11_t1720534047149.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "wide_lines",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "wide_lines",
+					"type" : "plot",
+					"width" : 520
+				},
+				"x_shape" : 
+				{
+					"aspectRatio" : 1.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"errorType" : "validationError",
+						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+					},
+					"environmentName" : "plot_12",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_12_t1720534047584.png",
+					"height" : 520,
+					"messages" : [],
+					"name" : "x_shape",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"correlationPlots" : true,
+						"distributionAndCorrelationPlotDensity" : false,
+						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+						"distributionAndCorrelationPlotRugMarks" : false,
+						"splitBy" : "JaspColumn_0_Encoded",
+						"splitBy.types" : 
+						[
+							"nominal"
+						],
+						"variables" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded"
+						],
+						"variables.types" : 
+						[
+							"scale",
+							"scale"
+						]
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "x_shape",
+					"type" : "plot",
+					"width" : 520
+				}
+			},
+			"data_order" : 
+			{
+				"away" : 0,
+				"bullseye" : 1,
+				"circle" : 2,
+				"dino" : 3,
+				"dots" : 4,
+				"h_lines" : 5,
+				"high_lines" : 6,
+				"slant_down" : 7,
+				"slant_up" : 8,
+				"star" : 9,
+				"v_lines" : 10,
+				"wide_lines" : 11,
+				"x_shape" : 12
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "matrixPlot",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"correlationPlots" : true,
+				"splitBy" : "JaspColumn_0_Encoded",
+				"splitBy.types" : 
+				[
+					"nominal"
+				],
+				"variables" : 
+				[
+					"JaspColumn_2_Encoded",
+					"JaspColumn_1_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale"
+				]
+			},
+			"optionMustContain" : {},
+			"order_increment" : 13,
+			"position" : 6,
+			"title" : "Correlation plots",
+			"type" : "container"
+		},
+		"stats" : 
+		{
+			"citations" : [],
+			"colCombines" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "bool",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "",
+				"type" : "list"
+			},
+			"colFormats" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"Mean" : "sf:4;dp:3",
+					"Std. Deviation" : "sf:4;dp:3"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colFormats",
+				"type" : "list"
+			},
+			"colNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"Variable",
+					"Level",
+					"Valid",
+					"Missing",
+					"Mean",
+					"Std. Deviation"
+				],
+				"title" : "colNames",
+				"type" : "list"
+			},
+			"colOvertitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colOvertitles",
+				"type" : "list"
+			},
+			"colRowCombinations" : [],
+			"colTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"Level" : "",
+					"Mean" : "Mean",
+					"Missing" : "Missing",
+					"Std. Deviation" : "Std. Deviation",
+					"Valid" : "Valid",
+					"Variable" : ""
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTitles",
+				"type" : "list"
+			},
+			"colTypes" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"Level" : "string",
+					"Mean" : "number",
+					"Missing" : "integer",
+					"Std. Deviation" : "number",
+					"Valid" : "integer",
+					"Variable" : "string"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTypes",
+				"type" : "list"
+			},
+			"data" : 
+			[
+				[
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded"
+				],
+				[
+					"away",
+					"bullseye",
+					"circle",
+					"dino",
+					"dots",
+					"h_lines",
+					"high_lines",
+					"slant_down",
+					"slant_up",
+					"star",
+					"v_lines",
+					"wide_lines",
+					"x_shape",
+					"away",
+					"bullseye",
+					"circle",
+					"dino",
+					"dots",
+					"h_lines",
+					"high_lines",
+					"slant_down",
+					"slant_up",
+					"star",
+					"v_lines",
+					"wide_lines",
+					"x_shape"
+				],
+				[
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142,
+					142
+				],
+				[
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				[
+					47.83472062488412,
+					47.830823155217821,
+					47.837717267218309,
+					47.832252816901402,
+					47.839829208755631,
+					47.830251913635209,
+					47.835450203936617,
+					47.835896330588206,
+					47.831495652024437,
+					47.839545225097886,
+					47.836987988168808,
+					47.831601988006156,
+					47.839717279160418,
+					54.266099784204933,
+					54.268730022378875,
+					54.267319706173943,
+					54.263273239436622,
+					54.260303451217609,
+					54.261441783514087,
+					54.268805279741549,
+					54.267848823366201,
+					54.265881785602112,
+					54.267341104495074,
+					54.269927231027459,
+					54.266916301257041,
+					54.26015033403803
+				],
+				[
+					26.939743418883349,
+					26.935726689885946,
+					26.930036087830342,
+					26.935403486939116,
+					26.930191518085522,
+					26.939876220039832,
+					26.939997961212949,
+					26.936104931637747,
+					26.938608070892251,
+					26.93027468764851,
+					26.93768380697394,
+					26.937901927715231,
+					26.930001686980987,
+					16.769824954157365,
+					16.769239493426749,
+					16.760012659672196,
+					16.765142039116782,
+					16.767735488432596,
+					16.765897904068495,
+					16.766704016169228,
+					16.766758947404618,
+					16.768852670628497,
+					16.768959216276539,
+					16.769958611355818,
+					16.76999961796734,
+					16.769957695819294
+				]
+			],
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"expectedColumnCount" : 0,
+			"expectedRowCount" : 0,
+			"footnotes" : [],
+			"messages" : [],
+			"name" : "stats",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"ciBootstrapSamples" : 1000,
+				"coefficientOfVariation" : false,
+				"descriptivesTableTransposed" : false,
+				"iqr" : false,
+				"kurtosis" : false,
+				"mad" : false,
+				"madRobust" : false,
+				"maximum" : false,
+				"mean" : true,
+				"meanCi" : false,
+				"meanCiLevel" : 0.94999999999999996,
+				"meanCiMethod" : "normalModel",
+				"median" : false,
+				"minimum" : false,
+				"missing" : true,
+				"mode" : false,
+				"percentileValues" : [],
+				"percentiles" : false,
+				"quantilesForEqualGroups" : false,
+				"quantilesForEqualGroupsNumber" : 4,
+				"quartiles" : false,
+				"range" : false,
+				"sd" : true,
+				"sdCi" : false,
+				"sdCiLevel" : 0.94999999999999996,
+				"seMean" : false,
+				"shapiroWilkTest" : false,
+				"skewness" : false,
+				"splitBy" : "JaspColumn_0_Encoded",
+				"splitBy.types" : 
+				[
+					"nominal"
+				],
+				"sum" : false,
+				"valid" : true,
+				"variables" : 
+				[
+					"JaspColumn_2_Encoded",
+					"JaspColumn_1_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale"
+				],
+				"variance" : false,
+				"varianceCi" : false,
+				"varianceCiLevel" : 0.94999999999999996
+			},
+			"optionMustContain" : {},
+			"position" : 1,
+			"rowNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"JaspColumn_2_Encoded1",
+					"JaspColumn_2_Encoded2",
+					"JaspColumn_2_Encoded3",
+					"JaspColumn_2_Encoded4",
+					"JaspColumn_2_Encoded5",
+					"JaspColumn_2_Encoded6",
+					"JaspColumn_2_Encoded7",
+					"JaspColumn_2_Encoded8",
+					"JaspColumn_2_Encoded9",
+					"JaspColumn_2_Encoded10",
+					"JaspColumn_2_Encoded11",
+					"JaspColumn_2_Encoded12",
+					"JaspColumn_2_Encoded13",
+					"JaspColumn_1_Encoded1",
+					"JaspColumn_1_Encoded2",
+					"JaspColumn_1_Encoded3",
+					"JaspColumn_1_Encoded4",
+					"JaspColumn_1_Encoded5",
+					"JaspColumn_1_Encoded6",
+					"JaspColumn_1_Encoded7",
+					"JaspColumn_1_Encoded8",
+					"JaspColumn_1_Encoded9",
+					"JaspColumn_1_Encoded10",
+					"JaspColumn_1_Encoded11",
+					"JaspColumn_1_Encoded12",
+					"JaspColumn_1_Encoded13"
+				],
+				"title" : "rowNames",
+				"type" : "list"
+			},
+			"rowTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowTitles",
+				"type" : "list"
+			},
+			"showSpecifiedColumnsOnly" : false,
+			"specifiedColumns" : 
+			[
+				"Level",
+				"Mean",
+				"Missing",
+				"Std. Deviation",
+				"Valid",
+				"Variable"
+			],
+			"status" : "complete",
+			"title" : "Descriptive Statistics",
+			"transposeTable" : true,
+			"transposeWithOvertitle" : true,
+			"type" : "table"
+		}
+	},
+	"data_order" : 
+	{
+		"matrixPlot" : 1,
+		"stats" : 0
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"densityPlotSeparate" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"heatmapHorizontalAxis" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"heatmapVerticalAxis" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"splitBy" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"variables" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			}
+		},
+		"associationMatrixUse" : "everything",
+		"boxPlot" : false,
+		"boxPlotBoxPlot" : true,
+		"boxPlotColourPalette" : false,
+		"boxPlotJitter" : false,
+		"boxPlotOutlierLabel" : false,
+		"boxPlotViolin" : false,
+		"ciBootstrapSamples" : 1000,
+		"coefficientOfVariation" : false,
+		"colorPalette" : "colorblind",
+		"correlation" : false,
+		"correlationPlots" : true,
+		"covariance" : false,
+		"customHistogramPosition" : "stack",
+		"densityPlot" : false,
+		"densityPlotSeparate" : "",
+		"densityPlotSeparate.types" : [],
+		"densityPlotTransparency" : 20.0,
+		"densityPlotType" : "density",
+		"descriptivesTableTransposed" : false,
+		"distributionAndCorrelationPlotDensity" : false,
+		"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
+		"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
+		"distributionAndCorrelationPlotRugMarks" : false,
+		"distributionPlots" : false,
+		"dotPlot" : false,
+		"frequencyTables" : false,
+		"frequencyTablesMaximumDistinctValues" : 10,
+		"heatmapDisplayValue" : false,
+		"heatmapDisplayValueRelativeTextSize" : 1.0,
+		"heatmapHorizontalAxis" : "",
+		"heatmapHorizontalAxis.types" : [],
+		"heatmapLegend" : false,
+		"heatmapPlot" : false,
+		"heatmapStatisticContinuous" : "mean",
+		"heatmapStatisticDiscrete" : "mode",
+		"heatmapTileWidthHeightRatio" : 1.0,
+		"heatmapVerticalAxis" : "",
+		"heatmapVerticalAxis.types" : [],
+		"intervalPlot" : false,
+		"iqr" : false,
+		"kurtosis" : false,
+		"likertPlot" : false,
+		"likertPlotAdjustableFontSize" : "normal",
+		"likertPlotAssumeVariablesSameLevel" : false,
+		"mad" : false,
+		"madRobust" : false,
+		"maximum" : false,
+		"mean" : true,
+		"meanCi" : false,
+		"meanCiLevel" : 0.94999999999999996,
+		"meanCiMethod" : "normalModel",
+		"median" : false,
+		"minimum" : false,
+		"missing" : true,
+		"mode" : false,
+		"paretoPlot" : false,
+		"paretoPlotRule" : false,
+		"paretoPlotRuleCi" : 0.94999999999999996,
+		"percentileValues" : [],
+		"percentiles" : false,
+		"pieChart" : false,
+		"plotHeight" : 320,
+		"plotWidth" : 480,
+		"qqPlot" : false,
+		"quantilesForEqualGroups" : false,
+		"quantilesForEqualGroupsNumber" : 4,
+		"quartiles" : false,
+		"range" : false,
+		"scatterPlot" : false,
+		"scatterPlotGraphTypeAbove" : "density",
+		"scatterPlotGraphTypeRight" : "density",
+		"scatterPlotLegend" : true,
+		"scatterPlotRegressionLine" : true,
+		"scatterPlotRegressionLineCi" : true,
+		"scatterPlotRegressionLineCiLevel" : 0.94999999999999996,
+		"scatterPlotRegressionLineType" : "smooth",
+		"sd" : true,
+		"sdCi" : false,
+		"sdCiLevel" : 0.94999999999999996,
+		"seMean" : false,
+		"shapiroWilkTest" : false,
+		"skewness" : false,
+		"splitBy" : "JaspColumn_0_Encoded",
+		"splitBy.types" : 
+		[
+			"nominal"
+		],
+		"statisticsValuesAreGroupMidpoints" : false,
+		"stemAndLeaf" : false,
+		"stemAndLeafScale" : 1.0,
+		"sum" : false,
+		"valid" : true,
+		"variables" : 
+		[
+			"JaspColumn_2_Encoded",
+			"JaspColumn_1_Encoded"
+		],
+		"variables.types" : 
+		[
+			"scale",
+			"scale"
+		],
+		"variance" : false,
+		"varianceCi" : false,
+		"varianceCiLevel" : 0.94999999999999996
+	},
+	"order_increment" : 2,
+	"position" : 9999,
+	"relativePathKeep" : "resources/0/state",
+	"title" : "Descriptive Statistics",
+	"type" : "results"
 }

@@ -1,1444 +1,2371 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
-   "data" : {
-      "corrPlot" : {
-         "aspectRatio" : 0.0,
-         "citations" : [],
-         "editOptions" : {
-            "errorType" : "validationError",
-            "reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
-         },
-         "environmentName" : "plot_0",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "filePathPng" : "resources/2/_0_t1702645254023.png",
-         "height" : 1520,
-         "messages" : [],
-         "name" : "corrPlot",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "pairwiseDisplay" : false,
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "scatterPlot" : true,
-            "scatterPlotCi" : false,
-            "scatterPlotCiLevel" : 0.94999999999999996,
-            "scatterPlotDensity" : true,
-            "scatterPlotPredictionInterval" : false,
-            "scatterPlotPredictionIntervalLevel" : 0.94999999999999996,
-            "scatterPlotStatistic" : true,
-            "spearman" : true,
-            "variables" : [
-               "JaspColumn_1_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_6_Encoded"
-            ]
-         },
-         "optionMustContain" : {},
-         "position" : 3,
-         "resizedByUser" : false,
-         "revision" : 0,
-         "status" : "complete",
-         "title" : "Correlation plot",
-         "type" : "plot",
-         "width" : 1520
-      },
-      "gpa_hse" : {
-         "citations" : [],
-         "environmentName" : "state_2",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "gpa_hse",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_1_Encoded", "JaspColumn_4_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "gpa_hsm" : {
-         "citations" : [],
-         "environmentName" : "state_0",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "gpa_hsm",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_1_Encoded", "JaspColumn_2_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "gpa_hss" : {
-         "citations" : [],
-         "environmentName" : "state_1",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "gpa_hss",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_1_Encoded", "JaspColumn_3_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "gpa_satm" : {
-         "citations" : [],
-         "environmentName" : "state_3",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "gpa_satm",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_1_Encoded", "JaspColumn_5_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "gpa_satv" : {
-         "citations" : [],
-         "environmentName" : "state_4",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "gpa_satv",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_1_Encoded", "JaspColumn_6_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "hse_satm" : {
-         "citations" : [],
-         "environmentName" : "state_12",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "hse_satm",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_4_Encoded", "JaspColumn_5_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "hse_satv" : {
-         "citations" : [],
-         "environmentName" : "state_13",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "hse_satv",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_4_Encoded", "JaspColumn_6_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "hsm_hse" : {
-         "citations" : [],
-         "environmentName" : "state_6",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "hsm_hse",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_4_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "hsm_hss" : {
-         "citations" : [],
-         "environmentName" : "state_5",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "hsm_hss",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_3_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "hsm_satm" : {
-         "citations" : [],
-         "environmentName" : "state_7",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "hsm_satm",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_5_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "hsm_satv" : {
-         "citations" : [],
-         "environmentName" : "state_8",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "hsm_satv",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_2_Encoded", "JaspColumn_6_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "hss_hse" : {
-         "citations" : [],
-         "environmentName" : "state_9",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "hss_hse",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_3_Encoded", "JaspColumn_4_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "hss_satm" : {
-         "citations" : [],
-         "environmentName" : "state_10",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "hss_satm",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_3_Encoded", "JaspColumn_5_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "hss_satv" : {
-         "citations" : [],
-         "environmentName" : "state_11",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "hss_satv",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_3_Encoded", "JaspColumn_6_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "mainTable" : {
-         "citations" : [],
-         "colCombines" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "var1" : false
-            },
-            "listType" : "bool",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "",
-            "type" : "list"
-         },
-         "colFormats" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "JaspColumn_1_Encoded_pearson_estimate" : "sf:4;dp:3",
-               "JaspColumn_1_Encoded_pearson_p.value" : "dp:3;p:.001",
-               "JaspColumn_1_Encoded_spearman_estimate" : "sf:4;dp:3",
-               "JaspColumn_1_Encoded_spearman_p.value" : "dp:3;p:.001",
-               "JaspColumn_2_Encoded_pearson_estimate" : "sf:4;dp:3",
-               "JaspColumn_2_Encoded_pearson_p.value" : "dp:3;p:.001",
-               "JaspColumn_2_Encoded_spearman_estimate" : "sf:4;dp:3",
-               "JaspColumn_2_Encoded_spearman_p.value" : "dp:3;p:.001",
-               "JaspColumn_3_Encoded_pearson_estimate" : "sf:4;dp:3",
-               "JaspColumn_3_Encoded_pearson_p.value" : "dp:3;p:.001",
-               "JaspColumn_3_Encoded_spearman_estimate" : "sf:4;dp:3",
-               "JaspColumn_3_Encoded_spearman_p.value" : "dp:3;p:.001",
-               "JaspColumn_4_Encoded_pearson_estimate" : "sf:4;dp:3",
-               "JaspColumn_4_Encoded_pearson_p.value" : "dp:3;p:.001",
-               "JaspColumn_4_Encoded_spearman_estimate" : "sf:4;dp:3",
-               "JaspColumn_4_Encoded_spearman_p.value" : "dp:3;p:.001",
-               "JaspColumn_5_Encoded_pearson_estimate" : "sf:4;dp:3",
-               "JaspColumn_5_Encoded_pearson_p.value" : "dp:3;p:.001",
-               "JaspColumn_5_Encoded_spearman_estimate" : "sf:4;dp:3",
-               "JaspColumn_5_Encoded_spearman_p.value" : "dp:3;p:.001",
-               "JaspColumn_6_Encoded_pearson_estimate" : "sf:4;dp:3",
-               "JaspColumn_6_Encoded_pearson_p.value" : "dp:3;p:.001",
-               "JaspColumn_6_Encoded_spearman_estimate" : "sf:4;dp:3",
-               "JaspColumn_6_Encoded_spearman_p.value" : "dp:3;p:.001"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colFormats",
-            "type" : "list"
-         },
-         "colNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [
-               "var1",
-               "JaspColumn_1_Encoded_pearson_estimate",
-               "JaspColumn_1_Encoded_pearson_p.value",
-               "JaspColumn_1_Encoded_spearman_estimate",
-               "JaspColumn_1_Encoded_spearman_p.value",
-               "JaspColumn_2_Encoded_pearson_estimate",
-               "JaspColumn_2_Encoded_pearson_p.value",
-               "JaspColumn_2_Encoded_spearman_estimate",
-               "JaspColumn_2_Encoded_spearman_p.value",
-               "JaspColumn_3_Encoded_pearson_estimate",
-               "JaspColumn_3_Encoded_pearson_p.value",
-               "JaspColumn_3_Encoded_spearman_estimate",
-               "JaspColumn_3_Encoded_spearman_p.value",
-               "JaspColumn_4_Encoded_pearson_estimate",
-               "JaspColumn_4_Encoded_pearson_p.value",
-               "JaspColumn_4_Encoded_spearman_estimate",
-               "JaspColumn_4_Encoded_spearman_p.value",
-               "JaspColumn_5_Encoded_pearson_estimate",
-               "JaspColumn_5_Encoded_pearson_p.value",
-               "JaspColumn_5_Encoded_spearman_estimate",
-               "JaspColumn_5_Encoded_spearman_p.value",
-               "JaspColumn_6_Encoded_pearson_estimate",
-               "JaspColumn_6_Encoded_pearson_p.value",
-               "JaspColumn_6_Encoded_spearman_estimate",
-               "JaspColumn_6_Encoded_spearman_p.value",
-               "JaspColumn_1_Encoded_sample.size",
-               "JaspColumn_1_Encoded_pearson_lower.ci",
-               "JaspColumn_1_Encoded_pearson_upper.ci",
-               "JaspColumn_1_Encoded_pearson_vsmpr",
-               "JaspColumn_1_Encoded_pearson_effect.size",
-               "JaspColumn_1_Encoded_pearson_se.effect.size",
-               "JaspColumn_1_Encoded_spearman_lower.ci",
-               "JaspColumn_1_Encoded_spearman_upper.ci",
-               "JaspColumn_1_Encoded_spearman_vsmpr",
-               "JaspColumn_1_Encoded_spearman_effect.size",
-               "JaspColumn_1_Encoded_spearman_se.effect.size",
-               "JaspColumn_1_Encoded_kendall_estimate",
-               "JaspColumn_1_Encoded_kendall_p.value",
-               "JaspColumn_1_Encoded_kendall_lower.ci",
-               "JaspColumn_1_Encoded_kendall_upper.ci",
-               "JaspColumn_1_Encoded_kendall_vsmpr",
-               "JaspColumn_1_Encoded_kendall_effect.size",
-               "JaspColumn_1_Encoded_kendall_se.effect.size",
-               "JaspColumn_2_Encoded_sample.size",
-               "JaspColumn_2_Encoded_pearson_lower.ci",
-               "JaspColumn_2_Encoded_pearson_upper.ci",
-               "JaspColumn_2_Encoded_pearson_vsmpr",
-               "JaspColumn_2_Encoded_pearson_effect.size",
-               "JaspColumn_2_Encoded_pearson_se.effect.size",
-               "JaspColumn_2_Encoded_spearman_lower.ci",
-               "JaspColumn_2_Encoded_spearman_upper.ci",
-               "JaspColumn_2_Encoded_spearman_vsmpr",
-               "JaspColumn_2_Encoded_spearman_effect.size",
-               "JaspColumn_2_Encoded_spearman_se.effect.size",
-               "JaspColumn_2_Encoded_kendall_estimate",
-               "JaspColumn_2_Encoded_kendall_p.value",
-               "JaspColumn_2_Encoded_kendall_lower.ci",
-               "JaspColumn_2_Encoded_kendall_upper.ci",
-               "JaspColumn_2_Encoded_kendall_vsmpr",
-               "JaspColumn_2_Encoded_kendall_effect.size",
-               "JaspColumn_2_Encoded_kendall_se.effect.size",
-               "JaspColumn_3_Encoded_sample.size",
-               "JaspColumn_3_Encoded_pearson_lower.ci",
-               "JaspColumn_3_Encoded_pearson_upper.ci",
-               "JaspColumn_3_Encoded_pearson_vsmpr",
-               "JaspColumn_3_Encoded_pearson_effect.size",
-               "JaspColumn_3_Encoded_pearson_se.effect.size",
-               "JaspColumn_3_Encoded_spearman_lower.ci",
-               "JaspColumn_3_Encoded_spearman_upper.ci",
-               "JaspColumn_3_Encoded_spearman_vsmpr",
-               "JaspColumn_3_Encoded_spearman_effect.size",
-               "JaspColumn_3_Encoded_spearman_se.effect.size",
-               "JaspColumn_3_Encoded_kendall_estimate",
-               "JaspColumn_3_Encoded_kendall_p.value",
-               "JaspColumn_3_Encoded_kendall_lower.ci",
-               "JaspColumn_3_Encoded_kendall_upper.ci",
-               "JaspColumn_3_Encoded_kendall_vsmpr",
-               "JaspColumn_3_Encoded_kendall_effect.size",
-               "JaspColumn_3_Encoded_kendall_se.effect.size",
-               "JaspColumn_4_Encoded_sample.size",
-               "JaspColumn_4_Encoded_pearson_lower.ci",
-               "JaspColumn_4_Encoded_pearson_upper.ci",
-               "JaspColumn_4_Encoded_pearson_vsmpr",
-               "JaspColumn_4_Encoded_pearson_effect.size",
-               "JaspColumn_4_Encoded_pearson_se.effect.size",
-               "JaspColumn_4_Encoded_spearman_lower.ci",
-               "JaspColumn_4_Encoded_spearman_upper.ci",
-               "JaspColumn_4_Encoded_spearman_vsmpr",
-               "JaspColumn_4_Encoded_spearman_effect.size",
-               "JaspColumn_4_Encoded_spearman_se.effect.size",
-               "JaspColumn_4_Encoded_kendall_estimate",
-               "JaspColumn_4_Encoded_kendall_p.value",
-               "JaspColumn_4_Encoded_kendall_lower.ci",
-               "JaspColumn_4_Encoded_kendall_upper.ci",
-               "JaspColumn_4_Encoded_kendall_vsmpr",
-               "JaspColumn_4_Encoded_kendall_effect.size",
-               "JaspColumn_4_Encoded_kendall_se.effect.size",
-               "JaspColumn_5_Encoded_sample.size",
-               "JaspColumn_5_Encoded_pearson_lower.ci",
-               "JaspColumn_5_Encoded_pearson_upper.ci",
-               "JaspColumn_5_Encoded_pearson_vsmpr",
-               "JaspColumn_5_Encoded_pearson_effect.size",
-               "JaspColumn_5_Encoded_pearson_se.effect.size",
-               "JaspColumn_5_Encoded_spearman_lower.ci",
-               "JaspColumn_5_Encoded_spearman_upper.ci",
-               "JaspColumn_5_Encoded_spearman_vsmpr",
-               "JaspColumn_5_Encoded_spearman_effect.size",
-               "JaspColumn_5_Encoded_spearman_se.effect.size",
-               "JaspColumn_5_Encoded_kendall_estimate",
-               "JaspColumn_5_Encoded_kendall_p.value",
-               "JaspColumn_5_Encoded_kendall_lower.ci",
-               "JaspColumn_5_Encoded_kendall_upper.ci",
-               "JaspColumn_5_Encoded_kendall_vsmpr",
-               "JaspColumn_5_Encoded_kendall_effect.size",
-               "JaspColumn_5_Encoded_kendall_se.effect.size",
-               "JaspColumn_6_Encoded_sample.size",
-               "JaspColumn_6_Encoded_pearson_lower.ci",
-               "JaspColumn_6_Encoded_pearson_upper.ci",
-               "JaspColumn_6_Encoded_pearson_vsmpr",
-               "JaspColumn_6_Encoded_pearson_effect.size",
-               "JaspColumn_6_Encoded_pearson_se.effect.size",
-               "JaspColumn_6_Encoded_spearman_lower.ci",
-               "JaspColumn_6_Encoded_spearman_upper.ci",
-               "JaspColumn_6_Encoded_spearman_vsmpr",
-               "JaspColumn_6_Encoded_spearman_effect.size",
-               "JaspColumn_6_Encoded_spearman_se.effect.size",
-               "JaspColumn_6_Encoded_kendall_estimate",
-               "JaspColumn_6_Encoded_kendall_p.value",
-               "JaspColumn_6_Encoded_kendall_lower.ci",
-               "JaspColumn_6_Encoded_kendall_upper.ci",
-               "JaspColumn_6_Encoded_kendall_vsmpr",
-               "JaspColumn_6_Encoded_kendall_effect.size",
-               "JaspColumn_6_Encoded_kendall_se.effect.size"
-            ],
-            "title" : "colNames",
-            "type" : "list"
-         },
-         "colOvertitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "JaspColumn_1_Encoded_pearson_estimate" : "1. JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded_pearson_p.value" : "1. JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded_spearman_estimate" : "1. JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded_spearman_p.value" : "1. JaspColumn_1_Encoded",
-               "JaspColumn_2_Encoded_pearson_estimate" : "2. JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded_pearson_p.value" : "2. JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded_spearman_estimate" : "2. JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded_spearman_p.value" : "2. JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded_pearson_estimate" : "3. JaspColumn_3_Encoded",
-               "JaspColumn_3_Encoded_pearson_p.value" : "3. JaspColumn_3_Encoded",
-               "JaspColumn_3_Encoded_spearman_estimate" : "3. JaspColumn_3_Encoded",
-               "JaspColumn_3_Encoded_spearman_p.value" : "3. JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded_pearson_estimate" : "4. JaspColumn_4_Encoded",
-               "JaspColumn_4_Encoded_pearson_p.value" : "4. JaspColumn_4_Encoded",
-               "JaspColumn_4_Encoded_spearman_estimate" : "4. JaspColumn_4_Encoded",
-               "JaspColumn_4_Encoded_spearman_p.value" : "4. JaspColumn_4_Encoded",
-               "JaspColumn_5_Encoded_pearson_estimate" : "5. JaspColumn_5_Encoded",
-               "JaspColumn_5_Encoded_pearson_p.value" : "5. JaspColumn_5_Encoded",
-               "JaspColumn_5_Encoded_spearman_estimate" : "5. JaspColumn_5_Encoded",
-               "JaspColumn_5_Encoded_spearman_p.value" : "5. JaspColumn_5_Encoded",
-               "JaspColumn_6_Encoded_pearson_estimate" : "6. JaspColumn_6_Encoded",
-               "JaspColumn_6_Encoded_pearson_p.value" : "6. JaspColumn_6_Encoded",
-               "JaspColumn_6_Encoded_spearman_estimate" : "6. JaspColumn_6_Encoded",
-               "JaspColumn_6_Encoded_spearman_p.value" : "6. JaspColumn_6_Encoded",
-               "var1" : "Variable"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colOvertitles",
-            "type" : "list"
-         },
-         "colRowCombinations" : [],
-         "colTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "JaspColumn_1_Encoded_pearson_estimate" : "Pearson's r",
-               "JaspColumn_1_Encoded_pearson_p.value" : "p-value",
-               "JaspColumn_1_Encoded_spearman_estimate" : "Spearman's rho",
-               "JaspColumn_1_Encoded_spearman_p.value" : "p-value",
-               "JaspColumn_2_Encoded_pearson_estimate" : "Pearson's r",
-               "JaspColumn_2_Encoded_pearson_p.value" : "p-value",
-               "JaspColumn_2_Encoded_spearman_estimate" : "Spearman's rho",
-               "JaspColumn_2_Encoded_spearman_p.value" : "p-value",
-               "JaspColumn_3_Encoded_pearson_estimate" : "Pearson's r",
-               "JaspColumn_3_Encoded_pearson_p.value" : "p-value",
-               "JaspColumn_3_Encoded_spearman_estimate" : "Spearman's rho",
-               "JaspColumn_3_Encoded_spearman_p.value" : "p-value",
-               "JaspColumn_4_Encoded_pearson_estimate" : "Pearson's r",
-               "JaspColumn_4_Encoded_pearson_p.value" : "p-value",
-               "JaspColumn_4_Encoded_spearman_estimate" : "Spearman's rho",
-               "JaspColumn_4_Encoded_spearman_p.value" : "p-value",
-               "JaspColumn_5_Encoded_pearson_estimate" : "Pearson's r",
-               "JaspColumn_5_Encoded_pearson_p.value" : "p-value",
-               "JaspColumn_5_Encoded_spearman_estimate" : "Spearman's rho",
-               "JaspColumn_5_Encoded_spearman_p.value" : "p-value",
-               "JaspColumn_6_Encoded_pearson_estimate" : "Pearson's r",
-               "JaspColumn_6_Encoded_pearson_p.value" : "p-value",
-               "JaspColumn_6_Encoded_spearman_estimate" : "Spearman's rho",
-               "JaspColumn_6_Encoded_spearman_p.value" : "p-value",
-               "var1" : ""
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTitles",
-            "type" : "list"
-         },
-         "colTypes" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "JaspColumn_1_Encoded_pearson_estimate" : "number",
-               "JaspColumn_1_Encoded_pearson_p.value" : "pvalue",
-               "JaspColumn_1_Encoded_spearman_estimate" : "number",
-               "JaspColumn_1_Encoded_spearman_p.value" : "pvalue",
-               "JaspColumn_2_Encoded_pearson_estimate" : "number",
-               "JaspColumn_2_Encoded_pearson_p.value" : "pvalue",
-               "JaspColumn_2_Encoded_spearman_estimate" : "number",
-               "JaspColumn_2_Encoded_spearman_p.value" : "pvalue",
-               "JaspColumn_3_Encoded_pearson_estimate" : "number",
-               "JaspColumn_3_Encoded_pearson_p.value" : "pvalue",
-               "JaspColumn_3_Encoded_spearman_estimate" : "number",
-               "JaspColumn_3_Encoded_spearman_p.value" : "pvalue",
-               "JaspColumn_4_Encoded_pearson_estimate" : "number",
-               "JaspColumn_4_Encoded_pearson_p.value" : "pvalue",
-               "JaspColumn_4_Encoded_spearman_estimate" : "number",
-               "JaspColumn_4_Encoded_spearman_p.value" : "pvalue",
-               "JaspColumn_5_Encoded_pearson_estimate" : "number",
-               "JaspColumn_5_Encoded_pearson_p.value" : "pvalue",
-               "JaspColumn_5_Encoded_spearman_estimate" : "number",
-               "JaspColumn_5_Encoded_spearman_p.value" : "pvalue",
-               "JaspColumn_6_Encoded_pearson_estimate" : "number",
-               "JaspColumn_6_Encoded_pearson_p.value" : "pvalue",
-               "JaspColumn_6_Encoded_spearman_estimate" : "number",
-               "JaspColumn_6_Encoded_spearman_p.value" : "pvalue",
-               "var1" : "string"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTypes",
-            "type" : "list"
-         },
-         "data" : [
-            [
-               "JaspColumn_1_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_6_Encoded"
-            ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ 0.43649884811367518, "\u2014", "", "", "", "" ],
-            [ 7.7735497131422423e-12, "\u2014", "", "", "", "" ],
-            [ 0.46267954252961391, "\u2014", "", "", "", "" ],
-            [ 2.7772096807350117e-13, "\u2014", "", "", "", "" ],
-            [ 0.32942533474857033, 0.57568646253269318, "\u2014", "", "", "" ],
-            [ 4.5515577960286516e-07, 3.6029108896929485e-21, "\u2014", "", "", "" ],
-            [ 0.39476834979007608, 0.5868254672018377, "\u2014", "", "", "" ],
-            [ 9.0162792926826848e-10, 4.0337525955524322e-22, "\u2014", "", "", "" ],
-            [
-               0.28900125112985758,
-               0.44688652403909063,
-               0.57937457392357661,
-               "\u2014",
-               "",
-               ""
-            ],
-            [
-               1.1060535790204912e-05,
-               2.1440356747404662e-12,
-               1.7612140823945896e-21,
-               "\u2014",
-               "",
-               ""
-            ],
-            [
-               0.31644423963863766,
-               0.48286791120917938,
-               0.59776814083347274,
-               "\u2014",
-               "",
-               ""
-            ],
-            [
-               1.3353647440928773e-06,
-               1.7395030892537772e-14,
-               4.3175381248303636e-23,
-               "\u2014",
-               "",
-               ""
-            ],
-            [
-               0.25171428929297812,
-               0.45351393855423339,
-               0.24047930730147937,
-               0.10828490596001387,
-               "\u2014",
-               ""
-            ],
-            [
-               0.00014024884014624258,
-               9.2108935120870969e-13,
-               0.00028071086052915942,
-               0.10601884424415242,
-               "\u2014",
-               ""
-            ],
-            [
-               0.27236481119302058,
-               0.44617866976678905,
-               0.23681256659175937,
-               0.10950763435271366,
-               "\u2014",
-               ""
-            ],
-            [
-               3.5967753377569046e-05,
-               2.3439915130472988e-12,
-               0.0003496270955682028,
-               0.10210973803304128,
-               "\u2014",
-               ""
-            ],
-            [
-               0.11449045735283948,
-               0.22112029487580193,
-               0.26169754057523376,
-               0.24371459893560526,
-               0.46394188234514772,
-               "\u2014"
-            ],
-            [
-               0.087344408672001703,
-               0.00086145528702931732,
-               7.366652580641609e-05,
-               0.00023062632447184211,
-               2.3478517028040544e-13,
-               "\u2014"
-            ],
-            [
-               0.15473297178111087,
-               0.2176570220682075,
-               0.2714262014728927,
-               0.27405287373888987,
-               0.40287080489107091,
-               "\u2014"
-            ],
-            [
-               0.020512145358708603,
-               0.0010426258752060859,
-               3.8356337406118876e-05,
-               3.2020997969156466e-05,
-               3.768437496804085e-10,
-               "\u2014"
-            ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ "\u2014", "", "", "", "", "" ],
-            [ 224.0, "\u2014", "", "", "", "" ],
-            [ 0.3239517343300945, "\u2014", "", "", "", "" ],
-            [ 0.53686367283919201, "\u2014", "", "", "", "" ],
-            [ 1850037802.8302906, "\u2014", "", "", "", "" ],
-            [ 0.46789734945369532, "\u2014", "", "", "", "" ],
-            [ 0.067267279399631244, "\u2014", "", "", "", "" ],
-            [ "", "\u2014", "", "", "", "" ],
-            [ "", "\u2014", "", "", "", "" ],
-            [ 45815909959.019478, "\u2014", "", "", "", "" ],
-            [ 0.50071533205333185, "\u2014", "", "", "", "" ],
-            [ 0.06977781772089918, "\u2014", "", "", "", "" ],
-            [ "NaN", "\u2014", "", "", "", "" ],
-            [ "NaN", "\u2014", "", "", "", "" ],
-            [ "NaN", "\u2014", "", "", "", "" ],
-            [ "NaN", "\u2014", "", "", "", "" ],
-            [ "NaN", "\u2014", "", "", "", "" ],
-            [ "NaN", "\u2014", "", "", "", "" ],
-            [ "NaN", "\u2014", "", "", "", "" ],
-            [ 224.0, 224.0, "\u2014", "", "", "" ],
-            [ 0.20729387702852697, 0.48089308569123379, "\u2014", "", "", "" ],
-            [ 0.44144564998309693, 0.65717699603865498, "\u2014", "", "", "" ],
-            [ 55349.600542473498, 2.1691236987311345e+18, "\u2014", "", "", "" ],
-            [ 0.34218349730662451, 0.65598682420924881, "\u2014", "", "", "" ],
-            [ 0.067267279399631244, 0.067267279399631244, "\u2014", "", "", "" ],
-            [ "", "", "\u2014", "", "", "" ],
-            [ "", "", "\u2014", "", "", "" ],
-            [ 19590937.338763017, 1.8513250523228484e+19, "\u2014", "", "", "" ],
-            [ 0.41743617265660837, 0.67281031832704286, "\u2014", "", "", "" ],
-            [ 0.069342123991933569, 0.070669661184037086, "\u2014", "", "", "" ],
-            [ "NaN", "NaN", "\u2014", "", "", "" ],
-            [ "NaN", "NaN", "\u2014", "", "", "" ],
-            [ "NaN", "NaN", "\u2014", "", "", "" ],
-            [ "NaN", "NaN", "\u2014", "", "", "" ],
-            [ "NaN", "NaN", "\u2014", "", "", "" ],
-            [ "NaN", "NaN", "\u2014", "", "", "" ],
-            [ "NaN", "NaN", "\u2014", "", "", "" ],
-            [ 224.0, 224.0, 224.0, "\u2014", "", "" ],
-            [
-               0.16413642521824598,
-               0.33545433004361297,
-               0.48513590964594561,
-               "\u2014",
-               "",
-               ""
-            ],
-            [
-               0.40475085655099136,
-               0.54598595504728731,
-               0.66030949551605733,
-               "\u2014",
-               "",
-               ""
-            ],
-            [
-               2914.4912251432161,
-               6386057389.7942553,
-               4.3709107303882655e+18,
-               "\u2014",
-               "",
-               ""
-            ],
-            [
-               0.29747615171693048,
-               0.48080306044865889,
-               0.66152074750415624,
-               "\u2014",
-               "",
-               ""
-            ],
-            [
-               0.067267279399631244,
-               0.067267279399631244,
-               0.067267279399631244,
-               "\u2014",
-               "",
-               ""
-            ],
-            [ "", "", "", "\u2014", "", "" ],
-            [ "", "", "", "\u2014", "", "" ],
-            [
-               20366.96895041065,
-               667512821028.15759,
-               1.6545859494149033e+20,
-               "\u2014",
-               "",
-               ""
-            ],
-            [
-               0.32769069478441915,
-               0.52671746838255529,
-               0.68966716800151218,
-               "\u2014",
-               "",
-               ""
-            ],
-            [
-               0.068869514628460263,
-               0.069913297540466407,
-               0.070756413542307273,
-               "\u2014",
-               "",
-               ""
-            ],
-            [ "NaN", "NaN", "NaN", "\u2014", "", "" ],
-            [ "NaN", "NaN", "NaN", "\u2014", "", "" ],
-            [ "NaN", "NaN", "NaN", "\u2014", "", "" ],
-            [ "NaN", "NaN", "NaN", "\u2014", "", "" ],
-            [ "NaN", "NaN", "NaN", "\u2014", "", "" ],
-            [ "NaN", "NaN", "NaN", "\u2014", "", "" ],
-            [ "NaN", "NaN", "NaN", "\u2014", "", "" ],
-            [ 224.0, 224.0, 224.0, 224.0, "\u2014", "" ],
-            [
-               0.12474756506151462,
-               0.34281047446358193,
-               0.11295720152298452,
-               -0.023126176188842384,
-               "\u2014",
-               ""
-            ],
-            [
-               0.37056999918863565,
-               0.55179378631687437,
-               0.36020741713884213,
-               0.2360176255491154,
-               "\u2014",
-               ""
-            ],
-            [
-               295.65156978156358,
-               14411751913.534903,
-               160.24679475983933,
-               1.546225426690194,
-               "\u2014",
-               ""
-            ],
-            [
-               0.25724222547387043,
-               0.48911525372073666,
-               0.24528277761739284,
-               0.10871114466824486,
-               "\u2014",
-               ""
-            ],
-            [
-               0.067267279399631244,
-               0.067267279399631244,
-               0.067267279399631244,
-               0.067267279399631244,
-               "\u2014",
-               ""
-            ],
-            [ "", "", "", "", "\u2014", "" ],
-            [ "", "", "", "", "\u2014", "" ],
-            [
-               999.52577028336464,
-               5860739768.0151682,
-               132.2091122639201,
-               1.5789866090659699,
-               "\u2014",
-               ""
-            ],
-            [
-               0.27941634785599329,
-               0.4799189151737821,
-               0.24139459200605068,
-               0.10994854682939627,
-               "\u2014",
-               ""
-            ],
-            [
-               0.068613950260815529,
-               0.069669271820995124,
-               0.068411991016040674,
-               0.067709151287521738,
-               "\u2014",
-               ""
-            ],
-            [ "NaN", "NaN", "NaN", "NaN", "\u2014", "" ],
-            [ "NaN", "NaN", "NaN", "NaN", "\u2014", "" ],
-            [ "NaN", "NaN", "NaN", "NaN", "\u2014", "" ],
-            [ "NaN", "NaN", "NaN", "NaN", "\u2014", "" ],
-            [ "NaN", "NaN", "NaN", "NaN", "\u2014", "" ],
-            [ "NaN", "NaN", "NaN", "NaN", "\u2014", "" ],
-            [ "NaN", "NaN", "NaN", "NaN", "\u2014", "" ],
-            [ 224.0, 224.0, 224.0, 224.0, 224.0, "\u2014" ],
-            [
-               -0.016845172965405102,
-               0.092725116618504702,
-               0.13525449538024953,
-               0.11634874630189754,
-               0.354412594995969,
-               "\u2014"
-            ],
-            [
-               0.24194227493150569,
-               0.34228204743588236,
-               0.37975328646515449,
-               0.36319451963345634,
-               0.56091289301604152,
-               "\u2014"
-            ],
-            [
-               1.7276477102476737,
-               60.514519494204407,
-               524.78646791393282,
-               190.47008250463813,
-               53881400894.289032,
-               "\u2014"
-            ],
-            [
-               0.11499467839660621,
-               0.22483368954502672,
-               0.26792988518903471,
-               0.24871950266305576,
-               0.50232270611409735,
-               "\u2014"
-            ],
-            [
-               0.067267279399631244,
-               0.067267279399631244,
-               0.067267279399631244,
-               0.067267279399631244,
-               0.067267279399631244,
-               "\u2014"
-            ],
-            [ "", "", "", "", "", "\u2014" ],
-            [ "", "", "", "", "", "\u2014" ],
-            [
-               4.6143353476249365,
-               51.389265014178726,
-               943.20830729138027,
-               1110.1132532539038,
-               44988412.612854205,
-               "\u2014"
-            ],
-            [
-               0.15598590790019565,
-               0.22119529122024364,
-               0.27840281006046985,
-               0.28124057704477606,
-               0.42707124688446269,
-               "\u2014"
-            ],
-            [
-               0.067956139390713766,
-               0.068304455992093657,
-               0.068608574388978077,
-               0.068623625032555174,
-               0.069392671997912339,
-               "\u2014"
-            ],
-            [ "NaN", "NaN", "NaN", "NaN", "NaN", "\u2014" ],
-            [ "NaN", "NaN", "NaN", "NaN", "NaN", "\u2014" ],
-            [ "NaN", "NaN", "NaN", "NaN", "NaN", "\u2014" ],
-            [ "NaN", "NaN", "NaN", "NaN", "NaN", "\u2014" ],
-            [ "NaN", "NaN", "NaN", "NaN", "NaN", "\u2014" ],
-            [ "NaN", "NaN", "NaN", "NaN", "NaN", "\u2014" ],
-            [ "NaN", "NaN", "NaN", "NaN", "NaN", "\u2014" ]
-         ],
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "expectedColumnCount" : 0,
-         "expectedRowCount" : 0,
-         "footnotes" : [],
-         "messages" : [],
-         "name" : "mainTable",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciBootstrap" : false,
-            "ciBootstrapSamples" : 1000,
-            "ciLevel" : 0.94999999999999996,
-            "effectSize" : false,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "pairwiseDisplay" : false,
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "sampleSize" : false,
-            "significanceFlagged" : false,
-            "significanceReport" : true,
-            "spearman" : true,
-            "variables" : [
-               "JaspColumn_1_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_6_Encoded"
-            ],
-            "vovkSellke" : false
-         },
-         "optionMustContain" : {},
-         "position" : 1,
-         "rowNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [
-               "JaspColumn_1_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_6_Encoded"
-            ],
-            "title" : "rowNames",
-            "type" : "list"
-         },
-         "rowTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowTitles",
-            "type" : "list"
-         },
-         "showSpecifiedColumnsOnly" : true,
-         "specifiedColumns" : [
-            "JaspColumn_1_Encoded_pearson_estimate",
-            "JaspColumn_1_Encoded_pearson_p.value",
-            "JaspColumn_1_Encoded_spearman_estimate",
-            "JaspColumn_1_Encoded_spearman_p.value",
-            "JaspColumn_2_Encoded_pearson_estimate",
-            "JaspColumn_2_Encoded_pearson_p.value",
-            "JaspColumn_2_Encoded_spearman_estimate",
-            "JaspColumn_2_Encoded_spearman_p.value",
-            "JaspColumn_3_Encoded_pearson_estimate",
-            "JaspColumn_3_Encoded_pearson_p.value",
-            "JaspColumn_3_Encoded_spearman_estimate",
-            "JaspColumn_3_Encoded_spearman_p.value",
-            "JaspColumn_4_Encoded_pearson_estimate",
-            "JaspColumn_4_Encoded_pearson_p.value",
-            "JaspColumn_4_Encoded_spearman_estimate",
-            "JaspColumn_4_Encoded_spearman_p.value",
-            "JaspColumn_5_Encoded_pearson_estimate",
-            "JaspColumn_5_Encoded_pearson_p.value",
-            "JaspColumn_5_Encoded_spearman_estimate",
-            "JaspColumn_5_Encoded_spearman_p.value",
-            "JaspColumn_6_Encoded_pearson_estimate",
-            "JaspColumn_6_Encoded_pearson_p.value",
-            "JaspColumn_6_Encoded_spearman_estimate",
-            "JaspColumn_6_Encoded_spearman_p.value",
-            "var1"
-         ],
-         "status" : "complete",
-         "title" : "Correlation Table",
-         "transposeTable" : true,
-         "transposeWithOvertitle" : false,
-         "type" : "table"
-      },
-      "results" : {
-         "citations" : [],
-         "environmentName" : "state_15",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "results",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ciBootstrap" : false,
-            "ciBootstrapSamples" : 1000,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true,
-            "variables" : [
-               "JaspColumn_1_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_6_Encoded"
-            ]
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "satm_satv" : {
-         "citations" : [],
-         "environmentName" : "state_14",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "satm_satv",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendallsTauB" : false,
-            "naAction" : "pairwise",
-            "partialOutVariables" : [],
-            "pearson" : true,
-            "spearman" : true
-         },
-         "optionMustContain" : {
-            "variables" : [ "JaspColumn_5_Encoded", "JaspColumn_6_Encoded" ]
-         },
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      }
-   },
-   "data_order" : {
-      "corrPlot" : 17,
-      "gpa_hse" : 3,
-      "gpa_hsm" : 1,
-      "gpa_hss" : 2,
-      "gpa_satm" : 4,
-      "gpa_satv" : 5,
-      "hse_satm" : 13,
-      "hse_satv" : 14,
-      "hsm_hse" : 7,
-      "hsm_hss" : 6,
-      "hsm_satm" : 8,
-      "hsm_satv" : 9,
-      "hss_hse" : 10,
-      "hss_satm" : 11,
-      "hss_satv" : 12,
-      "mainTable" : 0,
-      "results" : 16,
-      "satm_satv" : 15
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "partialOutVariables" : {
-            "shouldEncode" : true
-         },
-         "variables" : {
-            "shouldEncode" : true
-         }
-      },
-      "alternative" : "twoSided",
-      "assumptionCheckMultivariateEnergy" : false,
-      "assumptionCheckMultivariateMardia" : false,
-      "assumptionCheckMultivariateRoyston" : false,
-      "assumptionCheckMultivariateShapiro" : false,
-      "assumptionCheckPairwiseEnergy" : false,
-      "assumptionCheckPairwiseMardia" : false,
-      "assumptionCheckPairwiseRoyston" : false,
-      "assumptionCheckPairwiseShapiro" : false,
-      "ci" : false,
-      "ciBootstrap" : false,
-      "ciBootstrapSamples" : 1000,
-      "ciLevel" : 0.94999999999999996,
-      "crossProducts" : false,
-      "effectSize" : false,
-      "heatmapPlot" : false,
-      "kendallsTauB" : false,
-      "meansAndSd" : false,
-      "naAction" : "pairwise",
-      "pairwiseDisplay" : false,
-      "partialOutVariables" : [],
-      "pearson" : true,
-      "plotHeight" : 320,
-      "plotWidth" : 480,
-      "sampleSize" : false,
-      "scatterPlot" : true,
-      "scatterPlotCi" : false,
-      "scatterPlotCiLevel" : 0.94999999999999996,
-      "scatterPlotDensity" : true,
-      "scatterPlotPredictionInterval" : false,
-      "scatterPlotPredictionIntervalLevel" : 0.94999999999999996,
-      "scatterPlotStatistic" : true,
-      "significanceFlagged" : false,
-      "significanceReport" : true,
-      "spearman" : true,
-      "variables" : [
-         "JaspColumn_1_Encoded",
-         "JaspColumn_2_Encoded",
-         "JaspColumn_3_Encoded",
-         "JaspColumn_4_Encoded",
-         "JaspColumn_5_Encoded",
-         "JaspColumn_6_Encoded"
-      ],
-      "vovkSellke" : false
-   },
-   "order_increment" : 18,
-   "position" : 9999,
-   "relativePathKeep" : "resources/2/state",
-   "title" : "Correlation",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"corrPlot" : 
+		{
+			"aspectRatio" : 0.0,
+			"citations" : [],
+			"editOptions" : 
+			{
+				"errorType" : "validationError",
+				"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+			},
+			"environmentName" : "plot_0",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"filePathPng" : "resources/2/_0_t1720524437644.png",
+			"height" : 1520,
+			"messages" : [],
+			"name" : "corrPlot",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"pairwiseDisplay" : false,
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"scatterPlot" : true,
+				"scatterPlotCi" : false,
+				"scatterPlotCiLevel" : 0.94999999999999996,
+				"scatterPlotDensity" : true,
+				"scatterPlotPredictionInterval" : false,
+				"scatterPlotPredictionIntervalLevel" : 0.94999999999999996,
+				"scatterPlotStatistic" : true,
+				"spearman" : true,
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale"
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 3,
+			"resizedByUser" : false,
+			"revision" : 0,
+			"status" : "complete",
+			"title" : "Correlation plot",
+			"type" : "plot",
+			"width" : 1520
+		},
+		"gpa_hse" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_2",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "gpa_hse",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_4_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"gpa_hsm" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_0",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "gpa_hsm",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"gpa_hss" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_1",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "gpa_hss",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_3_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"gpa_satm" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_3",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "gpa_satm",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_5_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"gpa_satv" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_4",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "gpa_satv",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_6_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"hse_satm" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_12",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "hse_satm",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"hse_satv" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_13",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "hse_satv",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_4_Encoded",
+					"JaspColumn_6_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"hsm_hse" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_6",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "hsm_hse",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_2_Encoded",
+					"JaspColumn_4_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"hsm_hss" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_5",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "hsm_hss",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"hsm_satm" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_7",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "hsm_satm",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_2_Encoded",
+					"JaspColumn_5_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"hsm_satv" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_8",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "hsm_satv",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_2_Encoded",
+					"JaspColumn_6_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"hss_hse" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_9",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "hss_hse",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"hss_satm" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_10",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "hss_satm",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_3_Encoded",
+					"JaspColumn_5_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"hss_satv" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_11",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "hss_satv",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"mainTable" : 
+		{
+			"citations" : [],
+			"colCombines" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"var1" : false
+				},
+				"listType" : "bool",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "",
+				"type" : "list"
+			},
+			"colFormats" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"JaspColumn_1_Encoded_pearson_estimate" : "sf:4;dp:3",
+					"JaspColumn_1_Encoded_pearson_p.value" : "dp:3;p:.001",
+					"JaspColumn_1_Encoded_spearman_estimate" : "sf:4;dp:3",
+					"JaspColumn_1_Encoded_spearman_p.value" : "dp:3;p:.001",
+					"JaspColumn_2_Encoded_pearson_estimate" : "sf:4;dp:3",
+					"JaspColumn_2_Encoded_pearson_p.value" : "dp:3;p:.001",
+					"JaspColumn_2_Encoded_spearman_estimate" : "sf:4;dp:3",
+					"JaspColumn_2_Encoded_spearman_p.value" : "dp:3;p:.001",
+					"JaspColumn_3_Encoded_pearson_estimate" : "sf:4;dp:3",
+					"JaspColumn_3_Encoded_pearson_p.value" : "dp:3;p:.001",
+					"JaspColumn_3_Encoded_spearman_estimate" : "sf:4;dp:3",
+					"JaspColumn_3_Encoded_spearman_p.value" : "dp:3;p:.001",
+					"JaspColumn_4_Encoded_pearson_estimate" : "sf:4;dp:3",
+					"JaspColumn_4_Encoded_pearson_p.value" : "dp:3;p:.001",
+					"JaspColumn_4_Encoded_spearman_estimate" : "sf:4;dp:3",
+					"JaspColumn_4_Encoded_spearman_p.value" : "dp:3;p:.001",
+					"JaspColumn_5_Encoded_pearson_estimate" : "sf:4;dp:3",
+					"JaspColumn_5_Encoded_pearson_p.value" : "dp:3;p:.001",
+					"JaspColumn_5_Encoded_spearman_estimate" : "sf:4;dp:3",
+					"JaspColumn_5_Encoded_spearman_p.value" : "dp:3;p:.001",
+					"JaspColumn_6_Encoded_pearson_estimate" : "sf:4;dp:3",
+					"JaspColumn_6_Encoded_pearson_p.value" : "dp:3;p:.001",
+					"JaspColumn_6_Encoded_spearman_estimate" : "sf:4;dp:3",
+					"JaspColumn_6_Encoded_spearman_p.value" : "dp:3;p:.001"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colFormats",
+				"type" : "list"
+			},
+			"colNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"var1",
+					"JaspColumn_1_Encoded_pearson_estimate",
+					"JaspColumn_1_Encoded_pearson_p.value",
+					"JaspColumn_1_Encoded_spearman_estimate",
+					"JaspColumn_1_Encoded_spearman_p.value",
+					"JaspColumn_2_Encoded_pearson_estimate",
+					"JaspColumn_2_Encoded_pearson_p.value",
+					"JaspColumn_2_Encoded_spearman_estimate",
+					"JaspColumn_2_Encoded_spearman_p.value",
+					"JaspColumn_3_Encoded_pearson_estimate",
+					"JaspColumn_3_Encoded_pearson_p.value",
+					"JaspColumn_3_Encoded_spearman_estimate",
+					"JaspColumn_3_Encoded_spearman_p.value",
+					"JaspColumn_4_Encoded_pearson_estimate",
+					"JaspColumn_4_Encoded_pearson_p.value",
+					"JaspColumn_4_Encoded_spearman_estimate",
+					"JaspColumn_4_Encoded_spearman_p.value",
+					"JaspColumn_5_Encoded_pearson_estimate",
+					"JaspColumn_5_Encoded_pearson_p.value",
+					"JaspColumn_5_Encoded_spearman_estimate",
+					"JaspColumn_5_Encoded_spearman_p.value",
+					"JaspColumn_6_Encoded_pearson_estimate",
+					"JaspColumn_6_Encoded_pearson_p.value",
+					"JaspColumn_6_Encoded_spearman_estimate",
+					"JaspColumn_6_Encoded_spearman_p.value",
+					"JaspColumn_1_Encoded_sample.size",
+					"JaspColumn_1_Encoded_covariance",
+					"JaspColumn_1_Encoded_pearson_lower.ci",
+					"JaspColumn_1_Encoded_pearson_upper.ci",
+					"JaspColumn_1_Encoded_pearson_vsmpr",
+					"JaspColumn_1_Encoded_pearson_effect.size",
+					"JaspColumn_1_Encoded_pearson_se.effect.size",
+					"JaspColumn_1_Encoded_spearman_lower.ci",
+					"JaspColumn_1_Encoded_spearman_upper.ci",
+					"JaspColumn_1_Encoded_spearman_vsmpr",
+					"JaspColumn_1_Encoded_spearman_effect.size",
+					"JaspColumn_1_Encoded_spearman_se.effect.size",
+					"JaspColumn_1_Encoded_kendall_estimate",
+					"JaspColumn_1_Encoded_kendall_p.value",
+					"JaspColumn_1_Encoded_kendall_lower.ci",
+					"JaspColumn_1_Encoded_kendall_upper.ci",
+					"JaspColumn_1_Encoded_kendall_vsmpr",
+					"JaspColumn_1_Encoded_kendall_effect.size",
+					"JaspColumn_1_Encoded_kendall_se.effect.size",
+					"JaspColumn_2_Encoded_sample.size",
+					"JaspColumn_2_Encoded_covariance",
+					"JaspColumn_2_Encoded_pearson_lower.ci",
+					"JaspColumn_2_Encoded_pearson_upper.ci",
+					"JaspColumn_2_Encoded_pearson_vsmpr",
+					"JaspColumn_2_Encoded_pearson_effect.size",
+					"JaspColumn_2_Encoded_pearson_se.effect.size",
+					"JaspColumn_2_Encoded_spearman_lower.ci",
+					"JaspColumn_2_Encoded_spearman_upper.ci",
+					"JaspColumn_2_Encoded_spearman_vsmpr",
+					"JaspColumn_2_Encoded_spearman_effect.size",
+					"JaspColumn_2_Encoded_spearman_se.effect.size",
+					"JaspColumn_2_Encoded_kendall_estimate",
+					"JaspColumn_2_Encoded_kendall_p.value",
+					"JaspColumn_2_Encoded_kendall_lower.ci",
+					"JaspColumn_2_Encoded_kendall_upper.ci",
+					"JaspColumn_2_Encoded_kendall_vsmpr",
+					"JaspColumn_2_Encoded_kendall_effect.size",
+					"JaspColumn_2_Encoded_kendall_se.effect.size",
+					"JaspColumn_3_Encoded_sample.size",
+					"JaspColumn_3_Encoded_covariance",
+					"JaspColumn_3_Encoded_pearson_lower.ci",
+					"JaspColumn_3_Encoded_pearson_upper.ci",
+					"JaspColumn_3_Encoded_pearson_vsmpr",
+					"JaspColumn_3_Encoded_pearson_effect.size",
+					"JaspColumn_3_Encoded_pearson_se.effect.size",
+					"JaspColumn_3_Encoded_spearman_lower.ci",
+					"JaspColumn_3_Encoded_spearman_upper.ci",
+					"JaspColumn_3_Encoded_spearman_vsmpr",
+					"JaspColumn_3_Encoded_spearman_effect.size",
+					"JaspColumn_3_Encoded_spearman_se.effect.size",
+					"JaspColumn_3_Encoded_kendall_estimate",
+					"JaspColumn_3_Encoded_kendall_p.value",
+					"JaspColumn_3_Encoded_kendall_lower.ci",
+					"JaspColumn_3_Encoded_kendall_upper.ci",
+					"JaspColumn_3_Encoded_kendall_vsmpr",
+					"JaspColumn_3_Encoded_kendall_effect.size",
+					"JaspColumn_3_Encoded_kendall_se.effect.size",
+					"JaspColumn_4_Encoded_sample.size",
+					"JaspColumn_4_Encoded_covariance",
+					"JaspColumn_4_Encoded_pearson_lower.ci",
+					"JaspColumn_4_Encoded_pearson_upper.ci",
+					"JaspColumn_4_Encoded_pearson_vsmpr",
+					"JaspColumn_4_Encoded_pearson_effect.size",
+					"JaspColumn_4_Encoded_pearson_se.effect.size",
+					"JaspColumn_4_Encoded_spearman_lower.ci",
+					"JaspColumn_4_Encoded_spearman_upper.ci",
+					"JaspColumn_4_Encoded_spearman_vsmpr",
+					"JaspColumn_4_Encoded_spearman_effect.size",
+					"JaspColumn_4_Encoded_spearman_se.effect.size",
+					"JaspColumn_4_Encoded_kendall_estimate",
+					"JaspColumn_4_Encoded_kendall_p.value",
+					"JaspColumn_4_Encoded_kendall_lower.ci",
+					"JaspColumn_4_Encoded_kendall_upper.ci",
+					"JaspColumn_4_Encoded_kendall_vsmpr",
+					"JaspColumn_4_Encoded_kendall_effect.size",
+					"JaspColumn_4_Encoded_kendall_se.effect.size",
+					"JaspColumn_5_Encoded_sample.size",
+					"JaspColumn_5_Encoded_covariance",
+					"JaspColumn_5_Encoded_pearson_lower.ci",
+					"JaspColumn_5_Encoded_pearson_upper.ci",
+					"JaspColumn_5_Encoded_pearson_vsmpr",
+					"JaspColumn_5_Encoded_pearson_effect.size",
+					"JaspColumn_5_Encoded_pearson_se.effect.size",
+					"JaspColumn_5_Encoded_spearman_lower.ci",
+					"JaspColumn_5_Encoded_spearman_upper.ci",
+					"JaspColumn_5_Encoded_spearman_vsmpr",
+					"JaspColumn_5_Encoded_spearman_effect.size",
+					"JaspColumn_5_Encoded_spearman_se.effect.size",
+					"JaspColumn_5_Encoded_kendall_estimate",
+					"JaspColumn_5_Encoded_kendall_p.value",
+					"JaspColumn_5_Encoded_kendall_lower.ci",
+					"JaspColumn_5_Encoded_kendall_upper.ci",
+					"JaspColumn_5_Encoded_kendall_vsmpr",
+					"JaspColumn_5_Encoded_kendall_effect.size",
+					"JaspColumn_5_Encoded_kendall_se.effect.size",
+					"JaspColumn_6_Encoded_sample.size",
+					"JaspColumn_6_Encoded_covariance",
+					"JaspColumn_6_Encoded_pearson_lower.ci",
+					"JaspColumn_6_Encoded_pearson_upper.ci",
+					"JaspColumn_6_Encoded_pearson_vsmpr",
+					"JaspColumn_6_Encoded_pearson_effect.size",
+					"JaspColumn_6_Encoded_pearson_se.effect.size",
+					"JaspColumn_6_Encoded_spearman_lower.ci",
+					"JaspColumn_6_Encoded_spearman_upper.ci",
+					"JaspColumn_6_Encoded_spearman_vsmpr",
+					"JaspColumn_6_Encoded_spearman_effect.size",
+					"JaspColumn_6_Encoded_spearman_se.effect.size",
+					"JaspColumn_6_Encoded_kendall_estimate",
+					"JaspColumn_6_Encoded_kendall_p.value",
+					"JaspColumn_6_Encoded_kendall_lower.ci",
+					"JaspColumn_6_Encoded_kendall_upper.ci",
+					"JaspColumn_6_Encoded_kendall_vsmpr",
+					"JaspColumn_6_Encoded_kendall_effect.size",
+					"JaspColumn_6_Encoded_kendall_se.effect.size"
+				],
+				"title" : "colNames",
+				"type" : "list"
+			},
+			"colOvertitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"JaspColumn_1_Encoded_pearson_estimate" : "1. JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded_pearson_p.value" : "1. JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded_spearman_estimate" : "1. JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded_spearman_p.value" : "1. JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded_pearson_estimate" : "2. JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded_pearson_p.value" : "2. JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded_spearman_estimate" : "2. JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded_spearman_p.value" : "2. JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded_pearson_estimate" : "3. JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded_pearson_p.value" : "3. JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded_spearman_estimate" : "3. JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded_spearman_p.value" : "3. JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded_pearson_estimate" : "4. JaspColumn_4_Encoded",
+					"JaspColumn_4_Encoded_pearson_p.value" : "4. JaspColumn_4_Encoded",
+					"JaspColumn_4_Encoded_spearman_estimate" : "4. JaspColumn_4_Encoded",
+					"JaspColumn_4_Encoded_spearman_p.value" : "4. JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded_pearson_estimate" : "5. JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded_pearson_p.value" : "5. JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded_spearman_estimate" : "5. JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded_spearman_p.value" : "5. JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded_pearson_estimate" : "6. JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded_pearson_p.value" : "6. JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded_spearman_estimate" : "6. JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded_spearman_p.value" : "6. JaspColumn_6_Encoded",
+					"var1" : "Variable"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colOvertitles",
+				"type" : "list"
+			},
+			"colRowCombinations" : [],
+			"colTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"JaspColumn_1_Encoded_pearson_estimate" : "Pearson's r",
+					"JaspColumn_1_Encoded_pearson_p.value" : "p-value",
+					"JaspColumn_1_Encoded_spearman_estimate" : "Spearman's rho",
+					"JaspColumn_1_Encoded_spearman_p.value" : "p-value",
+					"JaspColumn_2_Encoded_pearson_estimate" : "Pearson's r",
+					"JaspColumn_2_Encoded_pearson_p.value" : "p-value",
+					"JaspColumn_2_Encoded_spearman_estimate" : "Spearman's rho",
+					"JaspColumn_2_Encoded_spearman_p.value" : "p-value",
+					"JaspColumn_3_Encoded_pearson_estimate" : "Pearson's r",
+					"JaspColumn_3_Encoded_pearson_p.value" : "p-value",
+					"JaspColumn_3_Encoded_spearman_estimate" : "Spearman's rho",
+					"JaspColumn_3_Encoded_spearman_p.value" : "p-value",
+					"JaspColumn_4_Encoded_pearson_estimate" : "Pearson's r",
+					"JaspColumn_4_Encoded_pearson_p.value" : "p-value",
+					"JaspColumn_4_Encoded_spearman_estimate" : "Spearman's rho",
+					"JaspColumn_4_Encoded_spearman_p.value" : "p-value",
+					"JaspColumn_5_Encoded_pearson_estimate" : "Pearson's r",
+					"JaspColumn_5_Encoded_pearson_p.value" : "p-value",
+					"JaspColumn_5_Encoded_spearman_estimate" : "Spearman's rho",
+					"JaspColumn_5_Encoded_spearman_p.value" : "p-value",
+					"JaspColumn_6_Encoded_pearson_estimate" : "Pearson's r",
+					"JaspColumn_6_Encoded_pearson_p.value" : "p-value",
+					"JaspColumn_6_Encoded_spearman_estimate" : "Spearman's rho",
+					"JaspColumn_6_Encoded_spearman_p.value" : "p-value",
+					"var1" : ""
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTitles",
+				"type" : "list"
+			},
+			"colTypes" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"JaspColumn_1_Encoded_pearson_estimate" : "number",
+					"JaspColumn_1_Encoded_pearson_p.value" : "pvalue",
+					"JaspColumn_1_Encoded_spearman_estimate" : "number",
+					"JaspColumn_1_Encoded_spearman_p.value" : "pvalue",
+					"JaspColumn_2_Encoded_pearson_estimate" : "number",
+					"JaspColumn_2_Encoded_pearson_p.value" : "pvalue",
+					"JaspColumn_2_Encoded_spearman_estimate" : "number",
+					"JaspColumn_2_Encoded_spearman_p.value" : "pvalue",
+					"JaspColumn_3_Encoded_pearson_estimate" : "number",
+					"JaspColumn_3_Encoded_pearson_p.value" : "pvalue",
+					"JaspColumn_3_Encoded_spearman_estimate" : "number",
+					"JaspColumn_3_Encoded_spearman_p.value" : "pvalue",
+					"JaspColumn_4_Encoded_pearson_estimate" : "number",
+					"JaspColumn_4_Encoded_pearson_p.value" : "pvalue",
+					"JaspColumn_4_Encoded_spearman_estimate" : "number",
+					"JaspColumn_4_Encoded_spearman_p.value" : "pvalue",
+					"JaspColumn_5_Encoded_pearson_estimate" : "number",
+					"JaspColumn_5_Encoded_pearson_p.value" : "pvalue",
+					"JaspColumn_5_Encoded_spearman_estimate" : "number",
+					"JaspColumn_5_Encoded_spearman_p.value" : "pvalue",
+					"JaspColumn_6_Encoded_pearson_estimate" : "number",
+					"JaspColumn_6_Encoded_pearson_p.value" : "pvalue",
+					"JaspColumn_6_Encoded_spearman_estimate" : "number",
+					"JaspColumn_6_Encoded_spearman_p.value" : "pvalue",
+					"var1" : "string"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTypes",
+				"type" : "list"
+			},
+			"data" : 
+			[
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					0.43649884811367518,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					7.7735497131422423e-12,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					0.46267954252961391,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					2.7772096807350117e-13,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					0.32942533474857033,
+					0.57568646253269318,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					4.5515577960286516e-07,
+					3.6029108896929485e-21,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					0.39476834979007608,
+					0.5868254672018377,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					9.0162792926826848e-10,
+					4.0337525955524322e-22,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					0.28900125112985758,
+					0.44688652403909063,
+					0.57937457392357661,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					1.1060535790204912e-05,
+					2.1440356747404662e-12,
+					1.7612140823945896e-21,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					0.31644423963863766,
+					0.48286791120917938,
+					0.59776814083347274,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					1.3353647440928773e-06,
+					1.7395030892537772e-14,
+					4.3175381248303636e-23,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					0.25171428929297812,
+					0.45351393855423339,
+					0.24047930730147937,
+					0.10828490596001387,
+					"\u2014",
+					""
+				],
+				[
+					0.00014024884014624258,
+					9.2108935120870969e-13,
+					0.00028071086052915942,
+					0.10601884424415242,
+					"\u2014",
+					""
+				],
+				[
+					0.27236481119302058,
+					0.44617866976678905,
+					0.23681256659175937,
+					0.10950763435271366,
+					"\u2014",
+					""
+				],
+				[
+					3.5967753377569046e-05,
+					2.3439915130472988e-12,
+					0.0003496270955682028,
+					0.10210973803304128,
+					"\u2014",
+					""
+				],
+				[
+					0.11449045735283948,
+					0.22112029487580193,
+					0.26169754057523376,
+					0.24371459893560526,
+					0.46394188234514772,
+					"\u2014"
+				],
+				[
+					0.087344408672001703,
+					0.00086145528702931732,
+					7.366652580641609e-05,
+					0.00023062632447184211,
+					2.3478517028040544e-13,
+					"\u2014"
+				],
+				[
+					0.15473297178111087,
+					0.2176570220682075,
+					0.2714262014728927,
+					0.27405287373888987,
+					0.40287080489107091,
+					"\u2014"
+				],
+				[
+					0.020512145358708603,
+					0.0010426258752060859,
+					3.8356337406118876e-05,
+					3.2020997969156466e-05,
+					3.768437496804085e-10,
+					"\u2014"
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"\u2014",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					224.0,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					0.55750640614990432,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					0.3239517343300945,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					0.53686367283919201,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					1850037802.8302906,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					0.46789734945369532,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					0.067267279399631244,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"",
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"",
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					45815909959.019478,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					0.50071533205333185,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					0.06977781772089918,
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					224.0,
+					224.0,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					0.436392536835362,
+					1.6034593209481103,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					0.20729387702852697,
+					0.48089308569123379,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					0.44144564998309693,
+					0.65717699603865498,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					55349.600542473498,
+					2.1691236987311345e+18,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					0.34218349730662451,
+					0.65598682420924881,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					0.067267279399631244,
+					0.067267279399631244,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					"",
+					"",
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					"",
+					"",
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					19590937.338763017,
+					1.8513250523228484e+19,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					0.41743617265660837,
+					0.67281031832704286,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					0.069342123991933569,
+					0.070669661184037086,
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					"",
+					""
+				],
+				[
+					224.0,
+					224.0,
+					224.0,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					0.33964265695067258,
+					1.1042600896860975,
+					1.484865470852015,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					0.16413642521824598,
+					0.33545433004361297,
+					0.48513590964594561,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					0.40475085655099136,
+					0.54598595504728731,
+					0.66030949551605733,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					2914.4912251432161,
+					6386057389.7942553,
+					4.3709107303882655e+18,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					0.29747615171693048,
+					0.48080306044865889,
+					0.66152074750415624,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					0.067267279399631244,
+					0.067267279399631244,
+					0.067267279399631244,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					"",
+					"",
+					"",
+					"\u2014",
+					"",
+					""
+				],
+				[
+					"",
+					"",
+					"",
+					"\u2014",
+					"",
+					""
+				],
+				[
+					20366.96895041065,
+					667512821028.15759,
+					1.6545859494149033e+20,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					0.32769069478441915,
+					0.52671746838255529,
+					0.68966716800151218,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					0.068869514628460263,
+					0.069913297540466407,
+					0.070756413542307273,
+					"\u2014",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					"",
+					""
+				],
+				[
+					224.0,
+					224.0,
+					224.0,
+					224.0,
+					"\u2014",
+					""
+				],
+				[
+					16.950653427290192,
+					64.212684176809688,
+					35.315182575272267,
+					14.107623318385642,
+					"\u2014",
+					""
+				],
+				[
+					0.12474756506151462,
+					0.34281047446358193,
+					0.11295720152298452,
+					-0.023126176188842384,
+					"\u2014",
+					""
+				],
+				[
+					0.37056999918863565,
+					0.55179378631687437,
+					0.36020741713884213,
+					0.2360176255491154,
+					"\u2014",
+					""
+				],
+				[
+					295.65156978156358,
+					14411751913.534903,
+					160.24679475983933,
+					1.546225426690194,
+					"\u2014",
+					""
+				],
+				[
+					0.25724222547387043,
+					0.48911525372073666,
+					0.24528277761739284,
+					0.10871114466824486,
+					"\u2014",
+					""
+				],
+				[
+					0.067267279399631244,
+					0.067267279399631244,
+					0.067267279399631244,
+					0.067267279399631244,
+					"\u2014",
+					""
+				],
+				[
+					"",
+					"",
+					"",
+					"",
+					"\u2014",
+					""
+				],
+				[
+					"",
+					"",
+					"",
+					"",
+					"\u2014",
+					""
+				],
+				[
+					999.52577028336464,
+					5860739768.0151682,
+					132.2091122639201,
+					1.5789866090659699,
+					"\u2014",
+					""
+				],
+				[
+					0.27941634785599329,
+					0.4799189151737821,
+					0.24139459200605068,
+					0.10994854682939627,
+					"\u2014",
+					""
+				],
+				[
+					0.068613950260815529,
+					0.069669271820995124,
+					0.068411991016040674,
+					0.067709151287521738,
+					"\u2014",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					""
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014",
+					""
+				],
+				[
+					224.0,
+					224.0,
+					224.0,
+					224.0,
+					224.0,
+					"\u2014"
+				],
+				[
+					8.2639351777706587,
+					33.558135810377955,
+					41.192905188981456,
+					34.033492152466316,
+					3712.3132607302996,
+					"\u2014"
+				],
+				[
+					-0.016845172965405102,
+					0.092725116618504702,
+					0.13525449538024953,
+					0.11634874630189754,
+					0.354412594995969,
+					"\u2014"
+				],
+				[
+					0.24194227493150569,
+					0.34228204743588236,
+					0.37975328646515449,
+					0.36319451963345634,
+					0.56091289301604152,
+					"\u2014"
+				],
+				[
+					1.7276477102476737,
+					60.514519494204407,
+					524.78646791393282,
+					190.47008250463813,
+					53881400894.289032,
+					"\u2014"
+				],
+				[
+					0.11499467839660621,
+					0.22483368954502672,
+					0.26792988518903471,
+					0.24871950266305576,
+					0.50232270611409735,
+					"\u2014"
+				],
+				[
+					0.067267279399631244,
+					0.067267279399631244,
+					0.067267279399631244,
+					0.067267279399631244,
+					0.067267279399631244,
+					"\u2014"
+				],
+				[
+					"",
+					"",
+					"",
+					"",
+					"",
+					"\u2014"
+				],
+				[
+					"",
+					"",
+					"",
+					"",
+					"",
+					"\u2014"
+				],
+				[
+					4.6143353476249365,
+					51.389265014178726,
+					943.20830729138027,
+					1110.1132532539038,
+					44988412.612854205,
+					"\u2014"
+				],
+				[
+					0.15598590790019565,
+					0.22119529122024364,
+					0.27840281006046985,
+					0.28124057704477606,
+					0.42707124688446269,
+					"\u2014"
+				],
+				[
+					0.067956139390713766,
+					0.068304455992093657,
+					0.068608574388978077,
+					0.068623625032555174,
+					0.069392671997912339,
+					"\u2014"
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014"
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014"
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014"
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014"
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014"
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014"
+				],
+				[
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"NaN",
+					"\u2014"
+				]
+			],
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"expectedColumnCount" : 0,
+			"expectedRowCount" : 0,
+			"footnotes" : [],
+			"messages" : [],
+			"name" : "mainTable",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciBootstrap" : false,
+				"ciBootstrapSamples" : 1000,
+				"ciLevel" : 0.94999999999999996,
+				"covariance" : false,
+				"effectSize" : false,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"pairwiseDisplay" : false,
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"sampleSize" : false,
+				"significanceFlagged" : false,
+				"significanceReport" : true,
+				"spearman" : true,
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale"
+				],
+				"vovkSellke" : false
+			},
+			"optionMustContain" : {},
+			"position" : 1,
+			"rowNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				"title" : "rowNames",
+				"type" : "list"
+			},
+			"rowTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowTitles",
+				"type" : "list"
+			},
+			"showSpecifiedColumnsOnly" : true,
+			"specifiedColumns" : 
+			[
+				"JaspColumn_1_Encoded_pearson_estimate",
+				"JaspColumn_1_Encoded_pearson_p.value",
+				"JaspColumn_1_Encoded_spearman_estimate",
+				"JaspColumn_1_Encoded_spearman_p.value",
+				"JaspColumn_2_Encoded_pearson_estimate",
+				"JaspColumn_2_Encoded_pearson_p.value",
+				"JaspColumn_2_Encoded_spearman_estimate",
+				"JaspColumn_2_Encoded_spearman_p.value",
+				"JaspColumn_3_Encoded_pearson_estimate",
+				"JaspColumn_3_Encoded_pearson_p.value",
+				"JaspColumn_3_Encoded_spearman_estimate",
+				"JaspColumn_3_Encoded_spearman_p.value",
+				"JaspColumn_4_Encoded_pearson_estimate",
+				"JaspColumn_4_Encoded_pearson_p.value",
+				"JaspColumn_4_Encoded_spearman_estimate",
+				"JaspColumn_4_Encoded_spearman_p.value",
+				"JaspColumn_5_Encoded_pearson_estimate",
+				"JaspColumn_5_Encoded_pearson_p.value",
+				"JaspColumn_5_Encoded_spearman_estimate",
+				"JaspColumn_5_Encoded_spearman_p.value",
+				"JaspColumn_6_Encoded_pearson_estimate",
+				"JaspColumn_6_Encoded_pearson_p.value",
+				"JaspColumn_6_Encoded_spearman_estimate",
+				"JaspColumn_6_Encoded_spearman_p.value",
+				"var1"
+			],
+			"status" : "complete",
+			"title" : "Correlation Table",
+			"transposeTable" : true,
+			"transposeWithOvertitle" : false,
+			"type" : "table"
+		},
+		"results" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_15",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "results",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ciBootstrap" : false,
+				"ciBootstrapSamples" : 1000,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true,
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale"
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"satm_satv" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_14",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "satm_satv",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendallsTauB" : false,
+				"naAction" : "pairwise",
+				"partialOutVariables" : [],
+				"partialOutVariables.types" : [],
+				"pearson" : true,
+				"spearman" : true
+			},
+			"optionMustContain" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
+				]
+			},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		}
+	},
+	"data_order" : 
+	{
+		"corrPlot" : 17,
+		"gpa_hse" : 3,
+		"gpa_hsm" : 1,
+		"gpa_hss" : 2,
+		"gpa_satm" : 4,
+		"gpa_satv" : 5,
+		"hse_satm" : 13,
+		"hse_satv" : 14,
+		"hsm_hse" : 7,
+		"hsm_hss" : 6,
+		"hsm_satm" : 8,
+		"hsm_satv" : 9,
+		"hss_hse" : 10,
+		"hss_satm" : 11,
+		"hss_satv" : 12,
+		"mainTable" : 0,
+		"results" : 16,
+		"satm_satv" : 15
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"partialOutVariables" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"variables" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			}
+		},
+		"alternative" : "twoSided",
+		"assumptionCheckMultivariateEnergy" : false,
+		"assumptionCheckMultivariateMardia" : false,
+		"assumptionCheckMultivariateRoyston" : false,
+		"assumptionCheckMultivariateShapiro" : false,
+		"assumptionCheckPairwiseEnergy" : false,
+		"assumptionCheckPairwiseMardia" : false,
+		"assumptionCheckPairwiseRoyston" : false,
+		"assumptionCheckPairwiseShapiro" : false,
+		"ci" : false,
+		"ciBootstrap" : false,
+		"ciBootstrapSamples" : 1000,
+		"ciLevel" : 0.94999999999999996,
+		"covariance" : false,
+		"crossProducts" : false,
+		"effectSize" : false,
+		"heatmapPlot" : false,
+		"kendallsTauB" : false,
+		"meansAndSd" : false,
+		"naAction" : "pairwise",
+		"pairwiseDisplay" : false,
+		"partialOutVariables" : [],
+		"partialOutVariables.types" : [],
+		"pearson" : true,
+		"plotHeight" : 320,
+		"plotWidth" : 480,
+		"sampleSize" : false,
+		"scatterPlot" : true,
+		"scatterPlotCi" : false,
+		"scatterPlotCiLevel" : 0.94999999999999996,
+		"scatterPlotDensity" : true,
+		"scatterPlotPredictionInterval" : false,
+		"scatterPlotPredictionIntervalLevel" : 0.94999999999999996,
+		"scatterPlotStatistic" : true,
+		"significanceFlagged" : false,
+		"significanceReport" : true,
+		"spearman" : true,
+		"variables" : 
+		[
+			"JaspColumn_1_Encoded",
+			"JaspColumn_2_Encoded",
+			"JaspColumn_3_Encoded",
+			"JaspColumn_4_Encoded",
+			"JaspColumn_5_Encoded",
+			"JaspColumn_6_Encoded"
+		],
+		"variables.types" : 
+		[
+			"scale",
+			"scale",
+			"scale",
+			"scale",
+			"scale",
+			"scale"
+		],
+		"vovkSellke" : false
+	},
+	"order_increment" : 18,
+	"position" : 9999,
+	"relativePathKeep" : "resources/2/state",
+	"title" : "Correlation",
+	"type" : "results"
 }

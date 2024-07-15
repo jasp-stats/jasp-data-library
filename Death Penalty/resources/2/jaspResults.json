@@ -1,371 +1,511 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
-   "data" : {
-      "Container" : {
-         "citations" : [],
-         "data" : {
-            "MainTable" : {
-               "citations" : [
-                  "Overstall, A., & King, R. (2014). conting: an R package for\n                Bayesian analysis of complete and incomplete contingency tables.\n                Journal of Statistical Software, 58(7), 1-27."
-               ],
-               "colCombines" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "bool",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "",
-                  "type" : "list"
-               },
-               "colFormats" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "bf" : "sf:4;dp:3",
-                     "pMdata" : "dp:3"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colFormats",
-                  "type" : "list"
-               },
-               "colNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [ "number", "model", "pMdata", "bf" ],
-                  "title" : "colNames",
-                  "type" : "list"
-               },
-               "colOvertitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colOvertitles",
-                  "type" : "list"
-               },
-               "colRowCombinations" : [],
-               "colTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "bf" : "BF<sub>01</sub>",
-                     "model" : "Models",
-                     "number" : " ",
-                     "pMdata" : "P(M|data)"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTitles",
-                  "type" : "list"
-               },
-               "colTypes" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {
-                     "bf" : "number",
-                     "model" : "string",
-                     "number" : "integer",
-                     "pMdata" : "number"
-                  },
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "colTypes",
-                  "type" : "list"
-               },
-               "data" : [
-                  [ 1, 2, 3 ],
-                  [
-                     "JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded",
-                     "JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded",
-                     "JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded"
-                  ],
-                  [ 0.59250000000000003, 0.33200000000000002, 0.075499999999999998 ],
-                  [ 1.0, 1.7846385542168677, 7.8476821192052979 ]
-               ],
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "expectedColumnCount" : 0,
-               "expectedRowCount" : 0,
-               "footnotes" : [
-                  {
-                     "cols" : null,
-                     "rows" : null,
-                     "symbol" : "<em>Note.</em>",
-                     "text" : "Total number of models visited = 3"
-                  }
-               ],
-               "messages" : [],
-               "name" : "MainTable",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "bayesFactorType" : "BF01",
-                  "modelCutOffBestDisplayed" : 10,
-                  "modelCutOffPosteriorProbability" : 0.0
-               },
-               "optionMustContain" : {},
-               "position" : 1,
-               "rowNames" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowNames",
-                  "type" : "list"
-               },
-               "rowTitles" : {
-                  "citations" : [],
-                  "error" : false,
-                  "errorMessage" : "",
-                  "escapeHtml" : true,
-                  "fields" : {},
-                  "listType" : "string",
-                  "messages" : [],
-                  "name" : "",
-                  "nestedOptionMustBe" : {},
-                  "nestedOptionMustContain" : {},
-                  "optionMustBe" : {},
-                  "optionMustContain" : {},
-                  "position" : 9999,
-                  "rows" : [],
-                  "title" : "rowTitles",
-                  "type" : "list"
-               },
-               "showSpecifiedColumnsOnly" : true,
-               "specifiedColumns" : [ "bf", "model", "number", "pMdata" ],
-               "status" : "complete",
-               "title" : "Model Comparison",
-               "transposeTable" : false,
-               "transposeWithOvertitle" : false,
-               "type" : "table"
-            },
-            "bfObject" : {
-               "citations" : [],
-               "environmentName" : "state_0",
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "messages" : [],
-               "name" : "bfObject",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {
-                  "modelCutOffBestDisplayed" : 10,
-                  "samplingMethod" : "auto",
-                  "samplingMethodManualSamples" : 10000,
-                  "seed" : 1,
-                  "setSeed" : false
-               },
-               "optionMustContain" : {},
-               "position" : 9999,
-               "title" : "",
-               "type" : "state"
-            }
-         },
-         "data_order" : {
-            "MainTable" : 0,
-            "bfObject" : 1
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "Container",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "count" : "JaspColumn_2_Encoded",
-            "modelTerms" : [
-               {
-                  "components" : [ "JaspColumn_0_Encoded" ]
-               },
-               {
-                  "components" : [ "JaspColumn_1_Encoded" ]
-               },
-               {
-                  "components" : [ "JaspColumn_3_Encoded" ]
-               },
-               {
-                  "components" : [ "JaspColumn_0_Encoded", "JaspColumn_1_Encoded" ]
-               },
-               {
-                  "components" : [ "JaspColumn_0_Encoded", "JaspColumn_3_Encoded" ]
-               },
-               {
-                  "components" : [ "JaspColumn_1_Encoded", "JaspColumn_3_Encoded" ]
-               },
-               {
-                  "components" : [
-                     "JaspColumn_0_Encoded",
-                     "JaspColumn_1_Encoded",
-                     "JaspColumn_3_Encoded"
-                  ]
-               }
-            ],
-            "priorScale" : 0.0,
-            "priorShape" : -1.0,
-            "samplingMethod" : "auto",
-            "samplingMethodManualSamples" : 10000,
-            "seed" : 1,
-            "setSeed" : false
-         },
-         "optionMustContain" : {},
-         "order_increment" : 2,
-         "position" : 9999,
-         "title" : "",
-         "type" : "container"
-      }
-   },
-   "data_order" : {
-      "Container" : 0
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "count" : {
-            "shouldEncode" : true
-         },
-         "factors" : {
-            "shouldEncode" : true
-         },
-         "modelTerms" : {
-            "shouldEncode" : true
-         }
-      },
-      "bayesFactorType" : "BF01",
-      "count" : "JaspColumn_2_Encoded",
-      "factors" : [
-         "JaspColumn_0_Encoded",
-         "JaspColumn_1_Encoded",
-         "JaspColumn_3_Encoded"
-      ],
-      "modelCutOffBestDisplayed" : 10,
-      "modelCutOffPosteriorProbability" : 0.0,
-      "modelTerms" : [
-         {
-            "components" : [ "JaspColumn_0_Encoded" ]
-         },
-         {
-            "components" : [ "JaspColumn_1_Encoded" ]
-         },
-         {
-            "components" : [ "JaspColumn_3_Encoded" ]
-         },
-         {
-            "components" : [ "JaspColumn_0_Encoded", "JaspColumn_1_Encoded" ]
-         },
-         {
-            "components" : [ "JaspColumn_0_Encoded", "JaspColumn_3_Encoded" ]
-         },
-         {
-            "components" : [ "JaspColumn_1_Encoded", "JaspColumn_3_Encoded" ]
-         },
-         {
-            "components" : [
-               "JaspColumn_0_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_3_Encoded"
-            ]
-         }
-      ],
-      "plotHeight" : 320,
-      "plotWidth" : 480,
-      "priorScale" : 0.0,
-      "priorShape" : -1.0,
-      "regressionCoefficientsCi" : false,
-      "regressionCoefficientsCiLevel" : 0.94999999999999996,
-      "regressionCoefficientsEstimates" : false,
-      "regressionCoefficientsSubmodel" : false,
-      "regressionCoefficientsSubmodelCi" : false,
-      "regressionCoefficientsSubmodelCiLevel" : 0.94999999999999996,
-      "regressionCoefficientsSubmodelNo" : 3,
-      "samplingMethod" : "auto",
-      "samplingMethodManualSamples" : 10000,
-      "seed" : 1,
-      "setSeed" : false
-   },
-   "order_increment" : 1,
-   "position" : 9999,
-   "relativePathKeep" : "resources/2/state",
-   "title" : "Bayesian Log-Linear Regression",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"Container" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"MainTable" : 
+				{
+					"citations" : 
+					[
+						"Overstall, A., & King, R. (2014). conting: an R package for\n                Bayesian analysis of complete and incomplete contingency tables.\n                Journal of Statistical Software, 58(7), 1-27."
+					],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"bf" : "sf:4;dp:3",
+							"pMdata" : "dp:3"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"number",
+							"model",
+							"pMdata",
+							"bf"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"bf" : "BF<sub>01</sub>",
+							"model" : "Models",
+							"number" : " ",
+							"pMdata" : "P(M|data)"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"bf" : "number",
+							"model" : "string",
+							"number" : "integer",
+							"pMdata" : "number"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							1,
+							2,
+							3
+						],
+						[
+							"JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded",
+							"JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded",
+							"JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded"
+						],
+						[
+							0.58699999999999997,
+							0.34300000000000003,
+							0.070000000000000007
+						],
+						[
+							1.0,
+							1.7113702623906701,
+							8.3857142857142843
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 0,
+					"footnotes" : 
+					[
+						{
+							"cols" : null,
+							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : "Total number of models visited = 3"
+						}
+					],
+					"messages" : [],
+					"name" : "MainTable",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"bayesFactorType" : "BF01",
+						"modelCutOffBestDisplayed" : 10,
+						"modelCutOffPosteriorProbability" : 0.0
+					},
+					"optionMustContain" : {},
+					"position" : 1,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : true,
+					"specifiedColumns" : 
+					[
+						"bf",
+						"model",
+						"number",
+						"pMdata"
+					],
+					"status" : "complete",
+					"title" : "Model Comparison",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				},
+				"bfObject" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_0",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "bfObject",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"modelCutOffBestDisplayed" : 10,
+						"samplingMethod" : "auto",
+						"samplingMethodManualSamples" : 10000,
+						"seed" : 1,
+						"setSeed" : false
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				}
+			},
+			"data_order" : 
+			{
+				"MainTable" : 0,
+				"bfObject" : 1
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "Container",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"count" : "JaspColumn_2_Encoded",
+				"count.types" : 
+				[
+					"scale"
+				],
+				"modelTerms" : 
+				[
+					{
+						"components" : 
+						[
+							"JaspColumn_0_Encoded"
+						]
+					},
+					{
+						"components" : 
+						[
+							"JaspColumn_1_Encoded"
+						]
+					},
+					{
+						"components" : 
+						[
+							"JaspColumn_3_Encoded"
+						]
+					},
+					{
+						"components" : 
+						[
+							"JaspColumn_0_Encoded",
+							"JaspColumn_1_Encoded"
+						]
+					},
+					{
+						"components" : 
+						[
+							"JaspColumn_0_Encoded",
+							"JaspColumn_3_Encoded"
+						]
+					},
+					{
+						"components" : 
+						[
+							"JaspColumn_1_Encoded",
+							"JaspColumn_3_Encoded"
+						]
+					},
+					{
+						"components" : 
+						[
+							"JaspColumn_0_Encoded",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_3_Encoded"
+						]
+					}
+				],
+				"modelTerms.types" : 
+				[
+					"nominal",
+					"nominal",
+					"nominal",
+					"unknown",
+					"unknown",
+					"unknown",
+					"unknown"
+				],
+				"priorScale" : 0.0,
+				"priorShape" : -1.0,
+				"samplingMethod" : "auto",
+				"samplingMethodManualSamples" : 10000,
+				"seed" : 1,
+				"setSeed" : false
+			},
+			"optionMustContain" : {},
+			"order_increment" : 2,
+			"position" : 9999,
+			"title" : "",
+			"type" : "container"
+		}
+	},
+	"data_order" : 
+	{
+		"Container" : 0
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"count" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"factors" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"modelTerms" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			}
+		},
+		"bayesFactorType" : "BF01",
+		"count" : "JaspColumn_2_Encoded",
+		"count.types" : 
+		[
+			"scale"
+		],
+		"factors" : 
+		[
+			"JaspColumn_0_Encoded",
+			"JaspColumn_1_Encoded",
+			"JaspColumn_3_Encoded"
+		],
+		"factors.types" : 
+		[
+			"nominal",
+			"nominal",
+			"nominal"
+		],
+		"modelCutOffBestDisplayed" : 10,
+		"modelCutOffPosteriorProbability" : 0.0,
+		"modelTerms" : 
+		[
+			{
+				"components" : 
+				[
+					"JaspColumn_0_Encoded"
+				]
+			},
+			{
+				"components" : 
+				[
+					"JaspColumn_1_Encoded"
+				]
+			},
+			{
+				"components" : 
+				[
+					"JaspColumn_3_Encoded"
+				]
+			},
+			{
+				"components" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_1_Encoded"
+				]
+			},
+			{
+				"components" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded"
+				]
+			},
+			{
+				"components" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_3_Encoded"
+				]
+			},
+			{
+				"components" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_3_Encoded"
+				]
+			}
+		],
+		"modelTerms.types" : 
+		[
+			"nominal",
+			"nominal",
+			"nominal",
+			"unknown",
+			"unknown",
+			"unknown",
+			"unknown"
+		],
+		"plotHeight" : 320,
+		"plotWidth" : 480,
+		"priorScale" : 0.0,
+		"priorShape" : -1.0,
+		"regressionCoefficientsCi" : false,
+		"regressionCoefficientsCiLevel" : 0.94999999999999996,
+		"regressionCoefficientsEstimates" : false,
+		"regressionCoefficientsSubmodel" : false,
+		"regressionCoefficientsSubmodelCi" : false,
+		"regressionCoefficientsSubmodelCiLevel" : 0.94999999999999996,
+		"regressionCoefficientsSubmodelNo" : 3,
+		"samplingMethod" : "auto",
+		"samplingMethodManualSamples" : 10000,
+		"seed" : 1,
+		"setSeed" : false
+	},
+	"order_increment" : 1,
+	"position" : 9999,
+	"relativePathKeep" : "resources/2/state",
+	"title" : "Bayesian Log-Linear Regression",
+	"type" : "results"
 }

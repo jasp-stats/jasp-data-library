@@ -1,904 +1,1335 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
-   "data" : {
-      "corBayesTable" : {
-         "citations" : [
-            "Ly, A., Marsman, M., Wagenmakers, E.-J. (2018). Analytic Posteriors for Pearson's Correlation Coefficient. Statistica Neerlandica, 72(1), 4-13.",
-            "Ly, A., Verhagen, A. J. & Wagenmakers, E.-J. (2016). Harold Jeffreys's Default Bayes Factor Hypothesis Tests: Explanation, Extension, and Application in Psychology. Journal of Mathematical Psychology, 72, 19-32."
-         ],
-         "colCombines" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "bool",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "",
-            "type" : "list"
-         },
-         "colFormats" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "pearsonbf" : "sf:4;dp:3",
-               "pearsonstat" : "sf:4;dp:3"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colFormats",
-            "type" : "list"
-         },
-         "colNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [ "variable1", "separator", "variable2", "pearsonstat", "pearsonbf" ],
-            "title" : "colNames",
-            "type" : "list"
-         },
-         "colOvertitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colOvertitles",
-            "type" : "list"
-         },
-         "colRowCombinations" : [],
-         "colTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "pearsonbf" : "BF\u2081\u2080",
-               "pearsonstat" : "Pearson's r",
-               "separator" : "",
-               "variable1" : "",
-               "variable2" : ""
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTitles",
-            "type" : "list"
-         },
-         "colTypes" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "pearsonbf" : "number",
-               "pearsonstat" : "number",
-               "separator" : "separator",
-               "variable1" : "string",
-               "variable2" : "string"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTypes",
-            "type" : "list"
-         },
-         "data" : [
-            [
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_1_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_6_Encoded",
-               "JaspColumn_6_Encoded",
-               "JaspColumn_6_Encoded",
-               "JaspColumn_6_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_7_Encoded",
-               "JaspColumn_7_Encoded",
-               "JaspColumn_4_Encoded"
-            ],
-            [
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-",
-               "-"
-            ],
-            [
-               "JaspColumn_5_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_6_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_7_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_8_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_6_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_7_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_8_Encoded",
-               "JaspColumn_6_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_7_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_8_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_7_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_8_Encoded",
-               "JaspColumn_7_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_8_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_8_Encoded",
-               "JaspColumn_8_Encoded"
-            ],
-            [
-               0.81642051634483992,
-               1.0,
-               0.81623650600024289,
-               1.0,
-               0.81628673948959818,
-               -0.5,
-               -0.31404670649557798,
-               0.81642051634483992,
-               0.75000539695839019,
-               0.81642051634483992,
-               0.46871667865948896,
-               -0.52909273600606332,
-               -0.48911622376569069,
-               0.81623650600024289,
-               1.0,
-               0.81628673948959818,
-               -0.5,
-               -0.31404670649557798,
-               0.81623650600024289,
-               0.58791932710817674,
-               -0.71843653191766821,
-               -0.47809485088409903,
-               0.81628673948959818,
-               -0.5,
-               -0.31404670649557798,
-               -0.3446610009742328,
-               -0.15547178709691936,
-               0.81652143688850287
-            ],
-            [
-               22.902595446774257,
-               "\u221e",
-               22.826821826178204,
-               "\u221e",
-               22.847474327718402,
-               1.1089742274400656,
-               0.55021871174727888,
-               22.902595446774257,
-               8.3921403488837765,
-               22.902595446774257,
-               0.95400013698235608,
-               1.2943025360240108,
-               1.0505432426778409,
-               22.826821826178204,
-               "\u221e",
-               22.847474327718402,
-               1.1089742274400656,
-               0.55021871174727888,
-               22.826821826178204,
-               1.8587762056001513,
-               5.7685419681687904,
-               0.99643235357899229,
-               22.847474327718402,
-               1.1089742274400656,
-               0.55021871174727888,
-               0.59997267159590306,
-               0.40583996904870512,
-               22.94429568487109
-            ]
-         ],
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "expectedColumnCount" : 4,
-         "expectedRowCount" : 28,
-         "footnotes" : [
-            {
-               "cols" : [ "pearsonstat" ],
-               "rows" : [ "JaspColumn_1_Encoded-JaspColumn_2_Encoded" ],
-               "symbol" : "",
-               "text" : "Posterior is too peaked"
-            },
-            {
-               "cols" : [ "pearsonstat" ],
-               "rows" : [ "JaspColumn_1_Encoded-JaspColumn_3_Encoded" ],
-               "symbol" : "",
-               "text" : "Posterior is too peaked"
-            },
-            {
-               "cols" : [ "pearsonstat" ],
-               "rows" : [ "JaspColumn_2_Encoded-JaspColumn_3_Encoded" ],
-               "symbol" : "",
-               "text" : "Posterior is too peaked"
-            }
-         ],
-         "messages" : [],
-         "name" : "corBayesTable",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "alternative" : "twoSided",
-            "bayesFactorReport" : true,
-            "bayesFactorType" : "BF10",
-            "ci" : false,
-            "ciLevel" : 0.94999999999999996,
-            "kendall" : false,
-            "naAction" : "pairwise",
-            "pairwiseDisplay" : true,
-            "pearson" : true,
-            "posteriorMedian" : false,
-            "priorWidth" : "1",
-            "sampleSize" : false,
-            "seed" : 1,
-            "setSeed" : false,
-            "spearman" : false,
-            "supportCorrelationFlagged" : false,
-            "variables" : [
-               "JaspColumn_1_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_6_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_7_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_8_Encoded"
-            ]
-         },
-         "optionMustContain" : {},
-         "position" : 1,
-         "rowNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [
-               "JaspColumn_1_Encoded-JaspColumn_5_Encoded",
-               "JaspColumn_1_Encoded-JaspColumn_2_Encoded",
-               "JaspColumn_1_Encoded-JaspColumn_6_Encoded",
-               "JaspColumn_1_Encoded-JaspColumn_3_Encoded",
-               "JaspColumn_1_Encoded-JaspColumn_7_Encoded",
-               "JaspColumn_1_Encoded-JaspColumn_4_Encoded",
-               "JaspColumn_1_Encoded-JaspColumn_8_Encoded",
-               "JaspColumn_2_Encoded-JaspColumn_5_Encoded",
-               "JaspColumn_5_Encoded-JaspColumn_6_Encoded",
-               "JaspColumn_3_Encoded-JaspColumn_5_Encoded",
-               "JaspColumn_5_Encoded-JaspColumn_7_Encoded",
-               "JaspColumn_4_Encoded-JaspColumn_5_Encoded",
-               "JaspColumn_5_Encoded-JaspColumn_8_Encoded",
-               "JaspColumn_2_Encoded-JaspColumn_6_Encoded",
-               "JaspColumn_2_Encoded-JaspColumn_3_Encoded",
-               "JaspColumn_2_Encoded-JaspColumn_7_Encoded",
-               "JaspColumn_2_Encoded-JaspColumn_4_Encoded",
-               "JaspColumn_2_Encoded-JaspColumn_8_Encoded",
-               "JaspColumn_3_Encoded-JaspColumn_6_Encoded",
-               "JaspColumn_6_Encoded-JaspColumn_7_Encoded",
-               "JaspColumn_4_Encoded-JaspColumn_6_Encoded",
-               "JaspColumn_6_Encoded-JaspColumn_8_Encoded",
-               "JaspColumn_3_Encoded-JaspColumn_7_Encoded",
-               "JaspColumn_3_Encoded-JaspColumn_4_Encoded",
-               "JaspColumn_3_Encoded-JaspColumn_8_Encoded",
-               "JaspColumn_4_Encoded-JaspColumn_7_Encoded",
-               "JaspColumn_7_Encoded-JaspColumn_8_Encoded",
-               "JaspColumn_4_Encoded-JaspColumn_8_Encoded"
-            ],
-            "title" : "rowNames",
-            "type" : "list"
-         },
-         "rowTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowTitles",
-            "type" : "list"
-         },
-         "showSpecifiedColumnsOnly" : true,
-         "specifiedColumns" : [ "pearsonbf", "pearsonstat", "separator", "variable1", "variable2" ],
-         "status" : "complete",
-         "title" : "Bayesian Pearson Correlations",
-         "transposeTable" : false,
-         "transposeWithOvertitle" : false,
-         "type" : "table"
-      },
-      "corModel" : {
-         "citations" : [],
-         "environmentName" : "state_1",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "corModel",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "ciLevel" : 0.94999999999999996,
-            "naAction" : "pairwise",
-            "priorWidth" : "1",
-            "seed" : 1,
-            "setSeed" : false,
-            "variables" : [
-               "JaspColumn_1_Encoded",
-               "JaspColumn_5_Encoded",
-               "JaspColumn_2_Encoded",
-               "JaspColumn_6_Encoded",
-               "JaspColumn_3_Encoded",
-               "JaspColumn_7_Encoded",
-               "JaspColumn_4_Encoded",
-               "JaspColumn_8_Encoded"
-            ]
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      },
-      "pairsPlotCollection" : {
-         "citations" : [],
-         "data" : {
-            "x1-y1" : {
-               "citations" : [],
-               "data" : {
-                  "scatterPlot" : {
-                     "aspectRatio" : 0.0,
-                     "citations" : [],
-                     "editOptions" : {
-                        "error" : "success",
-                        "xAxis" : {
-                           "settings" : {
-                              "breaks" : [ 4, 6, 8, 10, 12, 14 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "4", "6", "8", "10", "12", "14" ],
-                              "limits" : [ 4, 14 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 4, 14, 2 ],
-                              "title" : "JaspColumn_1_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        },
-                        "yAxis" : {
-                           "settings" : {
-                              "breaks" : [ 4, 5, 6, 7, 8, 9, 10, 11 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "4", "5", "6", "7", "8", "9", "10", "11" ],
-                              "limits" : [ 4, 11 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 4, 11, 1 ],
-                              "title" : "JaspColumn_5_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        }
-                     },
-                     "environmentName" : "plot_0",
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "filePathPng" : "resources/4/_0_t1702646196864.png",
-                     "height" : 400,
-                     "messages" : [],
-                     "name" : "scatterPlot",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "pairsMethod" : "pearson",
-                        "scatterPlot" : true,
-                        "scatterPlotAdditionalInfo" : false
-                     },
-                     "optionMustContain" : {},
-                     "position" : 1,
-                     "resizedByUser" : false,
-                     "revision" : 0,
-                     "status" : "complete",
-                     "title" : "Scatterplot",
-                     "type" : "plot",
-                     "width" : 530
-                  }
-               },
-               "data_order" : {
-                  "scatterPlot" : 0
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "x1-y1",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {},
-               "optionMustContain" : {
-                  "pairs" : [ "JaspColumn_1_Encoded", "JaspColumn_5_Encoded" ]
-               },
-               "order_increment" : 1,
-               "position" : 9999,
-               "title" : "JaspColumn_1_Encoded - JaspColumn_5_Encoded",
-               "type" : "container"
-            },
-            "x2-y2" : {
-               "citations" : [],
-               "data" : {
-                  "scatterPlot" : {
-                     "aspectRatio" : 0.0,
-                     "citations" : [],
-                     "editOptions" : {
-                        "error" : "success",
-                        "xAxis" : {
-                           "settings" : {
-                              "breaks" : [ 4, 6, 8, 10, 12, 14 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "4", "6", "8", "10", "12", "14" ],
-                              "limits" : [ 4, 14 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 4, 14, 2 ],
-                              "title" : "JaspColumn_2_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        },
-                        "yAxis" : {
-                           "settings" : {
-                              "breaks" : [ 2, 4, 6, 8, 10, 12 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "2", "4", "6", "8", "10", "12" ],
-                              "limits" : [ 2, 12 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 2, 12, 2 ],
-                              "title" : "JaspColumn_6_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        }
-                     },
-                     "environmentName" : "plot_1",
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "filePathPng" : "resources/4/_1_t1702646197057.png",
-                     "height" : 400,
-                     "messages" : [],
-                     "name" : "scatterPlot",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "pairsMethod" : "pearson",
-                        "scatterPlot" : true,
-                        "scatterPlotAdditionalInfo" : false
-                     },
-                     "optionMustContain" : {},
-                     "position" : 1,
-                     "resizedByUser" : false,
-                     "revision" : 0,
-                     "status" : "complete",
-                     "title" : "Scatterplot",
-                     "type" : "plot",
-                     "width" : 530
-                  }
-               },
-               "data_order" : {
-                  "scatterPlot" : 0
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "x2-y2",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {},
-               "optionMustContain" : {
-                  "pairs" : [ "JaspColumn_2_Encoded", "JaspColumn_6_Encoded" ]
-               },
-               "order_increment" : 1,
-               "position" : 9999,
-               "title" : "JaspColumn_2_Encoded - JaspColumn_6_Encoded",
-               "type" : "container"
-            },
-            "x3-y3" : {
-               "citations" : [],
-               "data" : {
-                  "scatterPlot" : {
-                     "aspectRatio" : 0.0,
-                     "citations" : [],
-                     "editOptions" : {
-                        "error" : "success",
-                        "xAxis" : {
-                           "settings" : {
-                              "breaks" : [ 4, 6, 8, 10, 12, 14 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "4", "6", "8", "10", "12", "14" ],
-                              "limits" : [ 4, 14 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 4, 14, 2 ],
-                              "title" : "JaspColumn_3_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        },
-                        "yAxis" : {
-                           "settings" : {
-                              "breaks" : [ 4, 6, 8, 10, 12, 14 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "4", "6", "8", "10", "12", "14" ],
-                              "limits" : [ 4, 14 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 4, 14, 2 ],
-                              "title" : "JaspColumn_7_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        }
-                     },
-                     "environmentName" : "plot_2",
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "filePathPng" : "resources/4/_2_t1702646197209.png",
-                     "height" : 400,
-                     "messages" : [],
-                     "name" : "scatterPlot",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "pairsMethod" : "pearson",
-                        "scatterPlot" : true,
-                        "scatterPlotAdditionalInfo" : false
-                     },
-                     "optionMustContain" : {},
-                     "position" : 1,
-                     "resizedByUser" : false,
-                     "revision" : 0,
-                     "status" : "complete",
-                     "title" : "Scatterplot",
-                     "type" : "plot",
-                     "width" : 530
-                  }
-               },
-               "data_order" : {
-                  "scatterPlot" : 0
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "x3-y3",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {},
-               "optionMustContain" : {
-                  "pairs" : [ "JaspColumn_3_Encoded", "JaspColumn_7_Encoded" ]
-               },
-               "order_increment" : 1,
-               "position" : 9999,
-               "title" : "JaspColumn_3_Encoded - JaspColumn_7_Encoded",
-               "type" : "container"
-            },
-            "x4-y4" : {
-               "citations" : [],
-               "data" : {
-                  "scatterPlot" : {
-                     "aspectRatio" : 0.0,
-                     "citations" : [],
-                     "editOptions" : {
-                        "error" : "success",
-                        "xAxis" : {
-                           "settings" : {
-                              "breaks" : [ 8, 10, 12, 14, 16, 18, 20 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "8", "10", "12", "14", "16", "18", "20" ],
-                              "limits" : [ 8, 20 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 8, 20, 2 ],
-                              "title" : "JaspColumn_4_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        },
-                        "yAxis" : {
-                           "settings" : {
-                              "breaks" : [ 4, 6, 8, 10, 12, 14 ],
-                              "breaksType" : "range",
-                              "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                              "labels" : [ "4", "6", "8", "10", "12", "14" ],
-                              "limits" : [ 4, 14 ],
-                              "limitsType" : "breaks",
-                              "range" : [ 4, 14, 2 ],
-                              "title" : "JaspColumn_8_Encoded",
-                              "titleType" : "character"
-                           },
-                           "type" : "ScaleContinuous"
-                        }
-                     },
-                     "environmentName" : "plot_3",
-                     "error" : false,
-                     "errorMessage" : "",
-                     "escapeHtml" : true,
-                     "filePathPng" : "resources/4/_3_t1702646197392.png",
-                     "height" : 400,
-                     "messages" : [],
-                     "name" : "scatterPlot",
-                     "nestedOptionMustBe" : {},
-                     "nestedOptionMustContain" : {},
-                     "optionMustBe" : {
-                        "pairsMethod" : "pearson",
-                        "scatterPlot" : true,
-                        "scatterPlotAdditionalInfo" : false
-                     },
-                     "optionMustContain" : {},
-                     "position" : 1,
-                     "resizedByUser" : false,
-                     "revision" : 0,
-                     "status" : "complete",
-                     "title" : "Scatterplot",
-                     "type" : "plot",
-                     "width" : 530
-                  }
-               },
-               "data_order" : {
-                  "scatterPlot" : 0
-               },
-               "error" : false,
-               "errorMessage" : "",
-               "escapeHtml" : true,
-               "initCollapsed" : false,
-               "messages" : [],
-               "name" : "x4-y4",
-               "nestedOptionMustBe" : {},
-               "nestedOptionMustContain" : {},
-               "optionMustBe" : {},
-               "optionMustContain" : {
-                  "pairs" : [ "JaspColumn_4_Encoded", "JaspColumn_8_Encoded" ]
-               },
-               "order_increment" : 1,
-               "position" : 9999,
-               "title" : "JaspColumn_4_Encoded - JaspColumn_8_Encoded",
-               "type" : "container"
-            }
-         },
-         "data_order" : {
-            "x1-y1" : 0,
-            "x2-y2" : 1,
-            "x3-y3" : 2,
-            "x4-y4" : 3
-         },
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "initCollapsed" : false,
-         "messages" : [],
-         "name" : "pairsPlotCollection",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "naAction" : "pairwise"
-         },
-         "optionMustContain" : {},
-         "order_increment" : 4,
-         "position" : 3,
-         "title" : "Bayesian Correlation Pairwise Plots",
-         "type" : "container"
-      },
-      "priorWidth" : {
-         "citations" : [],
-         "environmentName" : "state_0",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "priorWidth",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "priorWidth" : "1"
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      }
-   },
-   "data_order" : {
-      "corBayesTable" : 2,
-      "corModel" : 1,
-      "pairsPlotCollection" : 3,
-      "priorWidth" : 0
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "priorWidth" : {
-            "isRCode" : true
-         },
-         "variablePairs" : {
-            "shouldEncode" : true
-         },
-         "variables" : {
-            "shouldEncode" : true
-         }
-      },
-      "alternative" : "twoSided",
-      "bayesFactorReport" : true,
-      "bayesFactorType" : "BF10",
-      "bfRobustnessPlot" : false,
-      "bfRobustnessPlotAdditionalInfo" : true,
-      "bfSequentialPlot" : false,
-      "bfSequentialPlotAdditionalInfo" : false,
-      "ci" : false,
-      "ciLevel" : 0.94999999999999996,
-      "kendall" : false,
-      "matrixPlot" : false,
-      "matrixPlotDensity" : false,
-      "matrixPlotPosterior" : false,
-      "naAction" : "pairwise",
-      "pairsMethod" : "pearson",
-      "pairwiseDisplay" : true,
-      "pearson" : true,
-      "plotHeight" : 240,
-      "plotWidth" : 320,
-      "posteriorMedian" : false,
-      "priorPosteriorPlot" : false,
-      "priorPosteriorPlotAdditionalEstimationInfo" : true,
-      "priorPosteriorPlotAdditionalTestingInfo" : true,
-      "priorWidth" : "1",
-      "sampleSize" : false,
-      "scatterPlot" : true,
-      "scatterPlotAdditionalInfo" : false,
-      "seed" : 1,
-      "setSeed" : false,
-      "spearman" : false,
-      "supportCorrelationFlagged" : false,
-      "variablePairs" : [
-         [ "JaspColumn_1_Encoded", "JaspColumn_5_Encoded" ],
-         [ "JaspColumn_2_Encoded", "JaspColumn_6_Encoded" ],
-         [ "JaspColumn_3_Encoded", "JaspColumn_7_Encoded" ],
-         [ "JaspColumn_4_Encoded", "JaspColumn_8_Encoded" ]
-      ],
-      "variables" : [
-         "JaspColumn_1_Encoded",
-         "JaspColumn_5_Encoded",
-         "JaspColumn_2_Encoded",
-         "JaspColumn_6_Encoded",
-         "JaspColumn_3_Encoded",
-         "JaspColumn_7_Encoded",
-         "JaspColumn_4_Encoded",
-         "JaspColumn_8_Encoded"
-      ]
-   },
-   "order_increment" : 4,
-   "position" : 9999,
-   "relativePathKeep" : "resources/4/state",
-   "title" : "Bayesian Correlation",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"corBayesTable" : 
+		{
+			"citations" : 
+			[
+				"Ly, A., Marsman, M., Wagenmakers, E.-J. (2018). Analytic Posteriors for Pearson's Correlation Coefficient. Statistica Neerlandica, 72(1), 4-13.",
+				"Ly, A., Verhagen, A. J. & Wagenmakers, E.-J. (2016). Harold Jeffreys's Default Bayes Factor Hypothesis Tests: Explanation, Extension, and Application in Psychology. Journal of Mathematical Psychology, 72, 19-32."
+			],
+			"colCombines" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "bool",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "",
+				"type" : "list"
+			},
+			"colFormats" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"pearsonbf" : "sf:4;dp:3",
+					"pearsonstat" : "sf:4;dp:3"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colFormats",
+				"type" : "list"
+			},
+			"colNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"variable1",
+					"separator",
+					"variable2",
+					"pearsonstat",
+					"pearsonbf"
+				],
+				"title" : "colNames",
+				"type" : "list"
+			},
+			"colOvertitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colOvertitles",
+				"type" : "list"
+			},
+			"colRowCombinations" : [],
+			"colTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"pearsonbf" : "BF\u2081\u2080",
+					"pearsonstat" : "Pearson's r",
+					"separator" : "",
+					"variable1" : "",
+					"variable2" : ""
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTitles",
+				"type" : "list"
+			},
+			"colTypes" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"pearsonbf" : "number",
+					"pearsonstat" : "number",
+					"separator" : "separator",
+					"variable1" : "string",
+					"variable2" : "string"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTypes",
+				"type" : "list"
+			},
+			"data" : 
+			[
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_4_Encoded"
+				],
+				[
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-",
+					"-"
+				],
+				[
+					"JaspColumn_5_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_8_Encoded"
+				],
+				[
+					0.81642051634483992,
+					1.0,
+					0.81623650600024289,
+					1.0,
+					0.81628673948959818,
+					-0.5,
+					-0.31404670649557798,
+					0.81642051634483992,
+					0.75000539695839019,
+					0.81642051634483992,
+					0.46871667865948896,
+					-0.52909273600606332,
+					-0.48911622376569069,
+					0.81623650600024289,
+					1.0,
+					0.81628673948959818,
+					-0.5,
+					-0.31404670649557798,
+					0.81623650600024289,
+					0.58791932710817674,
+					-0.71843653191766821,
+					-0.47809485088409903,
+					0.81628673948959818,
+					-0.5,
+					-0.31404670649557798,
+					-0.3446610009742328,
+					-0.15547178709691936,
+					0.81652143688850287
+				],
+				[
+					22.902595446774257,
+					"\u221e",
+					22.826821826178204,
+					"\u221e",
+					22.847474327718402,
+					1.1089742274400656,
+					0.55021871174727888,
+					22.902595446774257,
+					8.3921403488837765,
+					22.902595446774257,
+					0.95400013698235608,
+					1.2943025360240108,
+					1.0505432426778409,
+					22.826821826178204,
+					"\u221e",
+					22.847474327718402,
+					1.1089742274400656,
+					0.55021871174727888,
+					22.826821826178204,
+					1.8587762056001513,
+					5.7685419681687904,
+					0.99643235357899229,
+					22.847474327718402,
+					1.1089742274400656,
+					0.55021871174727888,
+					0.59997267159590306,
+					0.40583996904870512,
+					22.94429568487109
+				]
+			],
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"expectedColumnCount" : 4,
+			"expectedRowCount" : 28,
+			"footnotes" : 
+			[
+				{
+					"cols" : 
+					[
+						"pearsonstat"
+					],
+					"rows" : 
+					[
+						"JaspColumn_1_Encoded-JaspColumn_2_Encoded"
+					],
+					"symbol" : "",
+					"text" : "Posterior is too peaked"
+				},
+				{
+					"cols" : 
+					[
+						"pearsonstat"
+					],
+					"rows" : 
+					[
+						"JaspColumn_1_Encoded-JaspColumn_3_Encoded"
+					],
+					"symbol" : "",
+					"text" : "Posterior is too peaked"
+				},
+				{
+					"cols" : 
+					[
+						"pearsonstat"
+					],
+					"rows" : 
+					[
+						"JaspColumn_2_Encoded-JaspColumn_3_Encoded"
+					],
+					"symbol" : "",
+					"text" : "Posterior is too peaked"
+				}
+			],
+			"messages" : [],
+			"name" : "corBayesTable",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"bayesFactorReport" : true,
+				"bayesFactorType" : "BF10",
+				"ci" : false,
+				"ciLevel" : 0.94999999999999996,
+				"kendall" : false,
+				"naAction" : "pairwise",
+				"pairwiseDisplay" : true,
+				"pearson" : true,
+				"posteriorMedian" : false,
+				"priorWidth" : "1",
+				"sampleSize" : false,
+				"seed" : 1,
+				"setSeed" : false,
+				"spearman" : false,
+				"supportCorrelationFlagged" : false,
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_8_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale"
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 1,
+			"rowNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"JaspColumn_1_Encoded-JaspColumn_5_Encoded",
+					"JaspColumn_1_Encoded-JaspColumn_2_Encoded",
+					"JaspColumn_1_Encoded-JaspColumn_6_Encoded",
+					"JaspColumn_1_Encoded-JaspColumn_3_Encoded",
+					"JaspColumn_1_Encoded-JaspColumn_7_Encoded",
+					"JaspColumn_1_Encoded-JaspColumn_4_Encoded",
+					"JaspColumn_1_Encoded-JaspColumn_8_Encoded",
+					"JaspColumn_2_Encoded-JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded-JaspColumn_6_Encoded",
+					"JaspColumn_3_Encoded-JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded-JaspColumn_7_Encoded",
+					"JaspColumn_4_Encoded-JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded-JaspColumn_8_Encoded",
+					"JaspColumn_2_Encoded-JaspColumn_6_Encoded",
+					"JaspColumn_2_Encoded-JaspColumn_3_Encoded",
+					"JaspColumn_2_Encoded-JaspColumn_7_Encoded",
+					"JaspColumn_2_Encoded-JaspColumn_4_Encoded",
+					"JaspColumn_2_Encoded-JaspColumn_8_Encoded",
+					"JaspColumn_3_Encoded-JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded-JaspColumn_7_Encoded",
+					"JaspColumn_4_Encoded-JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded-JaspColumn_8_Encoded",
+					"JaspColumn_3_Encoded-JaspColumn_7_Encoded",
+					"JaspColumn_3_Encoded-JaspColumn_4_Encoded",
+					"JaspColumn_3_Encoded-JaspColumn_8_Encoded",
+					"JaspColumn_4_Encoded-JaspColumn_7_Encoded",
+					"JaspColumn_7_Encoded-JaspColumn_8_Encoded",
+					"JaspColumn_4_Encoded-JaspColumn_8_Encoded"
+				],
+				"title" : "rowNames",
+				"type" : "list"
+			},
+			"rowTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowTitles",
+				"type" : "list"
+			},
+			"showSpecifiedColumnsOnly" : true,
+			"specifiedColumns" : 
+			[
+				"pearsonbf",
+				"pearsonstat",
+				"separator",
+				"variable1",
+				"variable2"
+			],
+			"status" : "complete",
+			"title" : "Bayesian Pearson Correlations",
+			"transposeTable" : false,
+			"transposeWithOvertitle" : false,
+			"type" : "table"
+		},
+		"corModel" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_1",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "corModel",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"ciLevel" : 0.94999999999999996,
+				"naAction" : "pairwise",
+				"priorWidth" : "1",
+				"seed" : 1,
+				"setSeed" : false,
+				"variables" : 
+				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_8_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale"
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"pairsPlotCollection" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"x1-y1" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"scatterPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											4,
+											6,
+											8,
+											10,
+											12,
+											14
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"4",
+											"6",
+											"8",
+											"10",
+											"12",
+											"14"
+										],
+										"limits" : 
+										[
+											4,
+											14
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											4,
+											14,
+											2
+										],
+										"title" : "JaspColumn_1_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											4,
+											5,
+											6,
+											7,
+											8,
+											9,
+											10,
+											11
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"4",
+											"5",
+											"6",
+											"7",
+											"8",
+											"9",
+											"10",
+											"11"
+										],
+										"limits" : 
+										[
+											4,
+											11
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											4,
+											11,
+											1
+										],
+										"title" : "JaspColumn_5_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_0",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/4/_0_t1720534031009.png",
+							"height" : 400,
+							"messages" : [],
+							"name" : "scatterPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"pairsMethod" : "pearson",
+								"scatterPlot" : true,
+								"scatterPlotAdditionalInfo" : false
+							},
+							"optionMustContain" : {},
+							"position" : 1,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Scatterplot",
+							"type" : "plot",
+							"width" : 530
+						}
+					},
+					"data_order" : 
+					{
+						"scatterPlot" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "x1-y1",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : 
+					{
+						"pairs" : 
+						[
+							"JaspColumn_1_Encoded",
+							"JaspColumn_5_Encoded"
+						]
+					},
+					"order_increment" : 1,
+					"position" : 9999,
+					"title" : "JaspColumn_1_Encoded - JaspColumn_5_Encoded",
+					"type" : "container"
+				},
+				"x2-y2" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"scatterPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											4,
+											6,
+											8,
+											10,
+											12,
+											14
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"4",
+											"6",
+											"8",
+											"10",
+											"12",
+											"14"
+										],
+										"limits" : 
+										[
+											4,
+											14
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											4,
+											14,
+											2
+										],
+										"title" : "JaspColumn_2_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											2,
+											4,
+											6,
+											8,
+											10,
+											12
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"2",
+											"4",
+											"6",
+											"8",
+											"10",
+											"12"
+										],
+										"limits" : 
+										[
+											2,
+											12
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											2,
+											12,
+											2
+										],
+										"title" : "JaspColumn_6_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_1",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/4/_1_t1720534031162.png",
+							"height" : 400,
+							"messages" : [],
+							"name" : "scatterPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"pairsMethod" : "pearson",
+								"scatterPlot" : true,
+								"scatterPlotAdditionalInfo" : false
+							},
+							"optionMustContain" : {},
+							"position" : 1,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Scatterplot",
+							"type" : "plot",
+							"width" : 530
+						}
+					},
+					"data_order" : 
+					{
+						"scatterPlot" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "x2-y2",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : 
+					{
+						"pairs" : 
+						[
+							"JaspColumn_2_Encoded",
+							"JaspColumn_6_Encoded"
+						]
+					},
+					"order_increment" : 1,
+					"position" : 9999,
+					"title" : "JaspColumn_2_Encoded - JaspColumn_6_Encoded",
+					"type" : "container"
+				},
+				"x3-y3" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"scatterPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											4,
+											6,
+											8,
+											10,
+											12,
+											14
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"4",
+											"6",
+											"8",
+											"10",
+											"12",
+											"14"
+										],
+										"limits" : 
+										[
+											4,
+											14
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											4,
+											14,
+											2
+										],
+										"title" : "JaspColumn_3_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											4,
+											6,
+											8,
+											10,
+											12,
+											14
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"4",
+											"6",
+											"8",
+											"10",
+											"12",
+											"14"
+										],
+										"limits" : 
+										[
+											4,
+											14
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											4,
+											14,
+											2
+										],
+										"title" : "JaspColumn_7_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_2",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/4/_2_t1720534031293.png",
+							"height" : 400,
+							"messages" : [],
+							"name" : "scatterPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"pairsMethod" : "pearson",
+								"scatterPlot" : true,
+								"scatterPlotAdditionalInfo" : false
+							},
+							"optionMustContain" : {},
+							"position" : 1,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Scatterplot",
+							"type" : "plot",
+							"width" : 530
+						}
+					},
+					"data_order" : 
+					{
+						"scatterPlot" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "x3-y3",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : 
+					{
+						"pairs" : 
+						[
+							"JaspColumn_3_Encoded",
+							"JaspColumn_7_Encoded"
+						]
+					},
+					"order_increment" : 1,
+					"position" : 9999,
+					"title" : "JaspColumn_3_Encoded - JaspColumn_7_Encoded",
+					"type" : "container"
+				},
+				"x4-y4" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"scatterPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											8,
+											10,
+											12,
+											14,
+											16,
+											18,
+											20
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"8",
+											"10",
+											"12",
+											"14",
+											"16",
+											"18",
+											"20"
+										],
+										"limits" : 
+										[
+											8,
+											20
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											8,
+											20,
+											2
+										],
+										"title" : "JaspColumn_4_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											4,
+											6,
+											8,
+											10,
+											12,
+											14
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"4",
+											"6",
+											"8",
+											"10",
+											"12",
+											"14"
+										],
+										"limits" : 
+										[
+											4,
+											14
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											4,
+											14,
+											2
+										],
+										"title" : "JaspColumn_8_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_3",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/4/_3_t1720534031426.png",
+							"height" : 400,
+							"messages" : [],
+							"name" : "scatterPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"pairsMethod" : "pearson",
+								"scatterPlot" : true,
+								"scatterPlotAdditionalInfo" : false
+							},
+							"optionMustContain" : {},
+							"position" : 1,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Scatterplot",
+							"type" : "plot",
+							"width" : 530
+						}
+					},
+					"data_order" : 
+					{
+						"scatterPlot" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "x4-y4",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : 
+					{
+						"pairs" : 
+						[
+							"JaspColumn_4_Encoded",
+							"JaspColumn_8_Encoded"
+						]
+					},
+					"order_increment" : 1,
+					"position" : 9999,
+					"title" : "JaspColumn_4_Encoded - JaspColumn_8_Encoded",
+					"type" : "container"
+				}
+			},
+			"data_order" : 
+			{
+				"x1-y1" : 0,
+				"x2-y2" : 1,
+				"x3-y3" : 2,
+				"x4-y4" : 3
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "pairsPlotCollection",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"naAction" : "pairwise"
+			},
+			"optionMustContain" : {},
+			"order_increment" : 4,
+			"position" : 3,
+			"title" : "Bayesian Correlation Pairwise Plots",
+			"type" : "container"
+		},
+		"priorWidth" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_0",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "priorWidth",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"priorWidth" : "1"
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		}
+	},
+	"data_order" : 
+	{
+		"corBayesTable" : 2,
+		"corModel" : 1,
+		"pairsPlotCollection" : 3,
+		"priorWidth" : 0
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"priorWidth" : 
+			{
+				"isRCode" : true
+			},
+			"variablePairs" : 
+			{
+				"shouldEncode" : true
+			},
+			"variables" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			}
+		},
+		"alternative" : "twoSided",
+		"bayesFactorReport" : true,
+		"bayesFactorType" : "BF10",
+		"bfRobustnessPlot" : false,
+		"bfRobustnessPlotAdditionalInfo" : true,
+		"bfSequentialPlot" : false,
+		"bfSequentialPlotAdditionalInfo" : false,
+		"ci" : false,
+		"ciLevel" : 0.94999999999999996,
+		"kendall" : false,
+		"matrixPlot" : false,
+		"matrixPlotDensity" : false,
+		"matrixPlotPosterior" : false,
+		"naAction" : "pairwise",
+		"pairsMethod" : "pearson",
+		"pairwiseDisplay" : true,
+		"pearson" : true,
+		"plotHeight" : 240,
+		"plotWidth" : 320,
+		"posteriorMedian" : false,
+		"priorPosteriorPlot" : false,
+		"priorPosteriorPlotAdditionalEstimationInfo" : true,
+		"priorPosteriorPlotAdditionalTestingInfo" : true,
+		"priorWidth" : "1",
+		"sampleSize" : false,
+		"scatterPlot" : true,
+		"scatterPlotAdditionalInfo" : false,
+		"seed" : 1,
+		"setSeed" : false,
+		"spearman" : false,
+		"supportCorrelationFlagged" : false,
+		"variablePairs" : 
+		[
+			[
+				"JaspColumn_1_Encoded",
+				"JaspColumn_5_Encoded"
+			],
+			[
+				"JaspColumn_2_Encoded",
+				"JaspColumn_6_Encoded"
+			],
+			[
+				"JaspColumn_3_Encoded",
+				"JaspColumn_7_Encoded"
+			],
+			[
+				"JaspColumn_4_Encoded",
+				"JaspColumn_8_Encoded"
+			]
+		],
+		"variables" : 
+		[
+			"JaspColumn_1_Encoded",
+			"JaspColumn_5_Encoded",
+			"JaspColumn_2_Encoded",
+			"JaspColumn_6_Encoded",
+			"JaspColumn_3_Encoded",
+			"JaspColumn_7_Encoded",
+			"JaspColumn_4_Encoded",
+			"JaspColumn_8_Encoded"
+		],
+		"variables.types" : 
+		[
+			"scale",
+			"scale",
+			"scale",
+			"scale",
+			"scale",
+			"scale",
+			"scale",
+			"scale"
+		]
+	},
+	"order_increment" : 4,
+	"position" : 9999,
+	"relativePathKeep" : "resources/4/state",
+	"title" : "Bayesian Correlation",
+	"type" : "results"
 }

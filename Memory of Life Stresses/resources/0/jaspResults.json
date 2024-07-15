@@ -1,892 +1,1244 @@
 {
-   "citations" : [ "JASP Team (2023). JASP (Version 0.18.2) [Computer software]." ],
-   "data" : {
-      "chisqTable" : {
-         "citations" : [],
-         "colCombines" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "case" : true
-            },
-            "listType" : "bool",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "",
-            "type" : "list"
-         },
-         "colFormats" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "chisquare" : "sf:4;dp:3",
-               "p" : "dp:3;p:.001"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colFormats",
-            "type" : "list"
-         },
-         "colNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [ "case", "chisquare", "df", "p" ],
-            "title" : "colNames",
-            "type" : "list"
-         },
-         "colOvertitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colOvertitles",
-            "type" : "list"
-         },
-         "colRowCombinations" : [],
-         "colTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "case" : "",
-               "chisquare" : "\u03c7\u00b2",
-               "df" : "df",
-               "p" : "p"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTitles",
-            "type" : "list"
-         },
-         "colTypes" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "case" : "string",
-               "chisquare" : "number",
-               "df" : "integer",
-               "p" : "pvalue"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTypes",
-            "type" : "list"
-         },
-         "data" : [
-            [ "H\u2080 (a)", "H\u2080 (b)" ],
-            [ 45.367346938775505, 84.672595704948634 ],
-            [ 17.0, 17.0 ],
-            [ 0.00021465184864374019, 5.6092457303628677e-11 ]
-         ],
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "expectedColumnCount" : 0,
-         "expectedRowCount" : 0,
-         "footnotes" : [
-            {
-               "cols" : null,
-               "rows" : null,
-               "symbol" : "<em>Note.</em>",
-               "text" : "Chi-squared approximation may be incorrect"
-            }
-         ],
-         "messages" : [],
-         "name" : "chisqTable",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "count" : "JaspColumn_1_Encoded",
-            "expectedCount" : "",
-            "factor" : "JaspColumn_0_Encoded",
-            "testValues" : "custom",
-            "testValuesCustom" : [
-               {
-                  "levels" : [
-                     "1",
-                     "2",
-                     "3",
-                     "4",
-                     "5",
-                     "6",
-                     "7",
-                     "8",
-                     "9",
-                     "10",
-                     "11",
-                     "12",
-                     "13",
-                     "14",
-                     "15",
-                     "16",
-                     "17",
-                     "18"
-                  ],
-                  "name" : "H\u2080 (a)",
-                  "values" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-               },
-               {
-                  "levels" : [
-                     "1",
-                     "2",
-                     "3",
-                     "4",
-                     "5",
-                     "6",
-                     "7",
-                     "8",
-                     "9",
-                     "10",
-                     "11",
-                     "12",
-                     "13",
-                     "14",
-                     "15",
-                     "16",
-                     "17",
-                     "18"
-                  ],
-                  "name" : "H\u2080 (b)",
-                  "values" : [ 17, 5, 7, 15, 4, 10, 9, 2, 10, 15, 6, 5, 2, 15, 4, 2, 7, 12 ]
-               }
-            ],
-            "vovkSellke" : false
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "rowNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [ "1", "2" ],
-            "title" : "rowNames",
-            "type" : "list"
-         },
-         "rowTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowTitles",
-            "type" : "list"
-         },
-         "showSpecifiedColumnsOnly" : true,
-         "specifiedColumns" : [ "case", "chisquare", "df", "p" ],
-         "status" : "complete",
-         "title" : "Multinomial Test",
-         "transposeTable" : false,
-         "transposeWithOvertitle" : false,
-         "type" : "table"
-      },
-      "descriptivesPlot" : {
-         "aspectRatio" : 0.69999998807907104,
-         "citations" : [],
-         "editOptions" : {
-            "error" : "success",
-            "xAxis" : {
-               "settings" : {
-                  "breaks" : [ 0, 5, 10, 15, 20, 25 ],
-                  "breaksType" : "range",
-                  "expand" : [ 0.050000000000000003, 0, 0.050000000000000003, 0 ],
-                  "labels" : [ "0", "5", "10", "15", "20", "25" ],
-                  "limits" : [ 0, 26.268184087081099 ],
-                  "limitsType" : "data",
-                  "range" : [ 0, 25, 5 ],
-                  "title" : "Observed counts",
-                  "titleType" : "character"
-               },
-               "type" : "ScaleContinuous"
-            },
-            "yAxis" : {
-               "settings" : {
-                  "labels" : [
-                     "18",
-                     "17",
-                     "16",
-                     "15",
-                     "14",
-                     "13",
-                     "12",
-                     "11",
-                     "10",
-                     "9",
-                     "8",
-                     "7",
-                     "6",
-                     "5",
-                     "4",
-                     "3",
-                     "2",
-                     "1"
-                  ],
-                  "title" : "JaspColumn_0_Encoded",
-                  "titleType" : "character"
-               },
-               "type" : "ScaleDiscrete"
-            }
-         },
-         "environmentName" : "plot_0",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "filePathPng" : "resources/0/_0_t1702645420500.png",
-         "height" : 350,
-         "messages" : [],
-         "name" : "descriptivesPlot",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "count" : "JaspColumn_1_Encoded",
-            "descriptivesPlot" : true,
-            "descriptivesPlotCiLevel" : 0.94999999999999996,
-            "descriptivesType" : "counts",
-            "factor" : "JaspColumn_0_Encoded"
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "resizedByUser" : false,
-         "revision" : 0,
-         "status" : "complete",
-         "title" : "Descriptives Plot",
-         "type" : "plot",
-         "width" : 500
-      },
-      "descriptivesTable" : {
-         "citations" : [],
-         "colCombines" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "bool",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "",
-            "type" : "list"
-         },
-         "colFormats" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "H\u2080 (a)" : "sf:4;dp:3",
-               "H\u2080 (b)" : "sf:4;dp:3",
-               "lowerCI" : "sf:4;dp:3",
-               "upperCI" : "sf:4;dp:3"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colFormats",
-            "type" : "list"
-         },
-         "colNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [
-               "factor",
-               "observed",
-               "H\u2080 (a)",
-               "H\u2080 (b)",
-               "lowerCI",
-               "upperCI"
-            ],
-            "title" : "colNames",
-            "type" : "list"
-         },
-         "colOvertitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "H\u2080 (a)" : "Expected",
-               "H\u2080 (b)" : "Expected",
-               "lowerCI" : "95% Confidence Interval",
-               "upperCI" : "95% Confidence Interval"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colOvertitles",
-            "type" : "list"
-         },
-         "colRowCombinations" : [],
-         "colTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "H\u2080 (a)" : "H\u2080 (a)",
-               "H\u2080 (b)" : "H\u2080 (b)",
-               "factor" : "JaspColumn_0_Encoded",
-               "lowerCI" : "Lower",
-               "observed" : "Observed",
-               "upperCI" : "Upper"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTitles",
-            "type" : "list"
-         },
-         "colTypes" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {
-               "H\u2080 (a)" : "number",
-               "H\u2080 (b)" : "number",
-               "factor" : "string",
-               "lowerCI" : "number",
-               "observed" : "integer",
-               "upperCI" : "number"
-            },
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "colTypes",
-            "type" : "list"
-         },
-         "data" : [
-            [
-               "1",
-               "2",
-               "3",
-               "4",
-               "5",
-               "6",
-               "7",
-               "8",
-               "9",
-               "10",
-               "11",
-               "12",
-               "13",
-               "14",
-               "15",
-               "16",
-               "17",
-               "18"
-            ],
-            [ 15, 11, 14, 17, 5, 11, 10, 4, 8, 10, 7, 9, 11, 3, 6, 1, 1, 4 ],
-            [
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661,
-               8.1666666666666661
-            ],
-            [
-               17.0,
-               5.0000000000000009,
-               7.0,
-               15.0,
-               4.0,
-               10.000000000000002,
-               9.0,
-               2.0,
-               10.000000000000002,
-               15.0,
-               5.9999999999999991,
-               5.0000000000000009,
-               2.0,
-               15.0,
-               4.0,
-               2.0,
-               7.0,
-               11.999999999999998
-            ],
-            [
-               8.5620870827759425,
-               5.5779818356034925,
-               7.7985296496180974,
-               10.118121730586365,
-               1.636797956622815,
-               5.5779818356034925,
-               4.8659090394169402,
-               1.0970267869527437,
-               3.4964429298335959,
-               4.8659090394169402,
-               2.8454698732991428,
-               4.171140158677078,
-               5.5779818356034925,
-               0.62160288211502013,
-               2.2232117480774884,
-               0.025315627866591268,
-               0.025315627866591268,
-               1.0970267869527437
-            ],
-            [
-               23.918705746765784,
-               19.102045148808504,
-               22.730574028974988,
-               26.26818408708111,
-               11.405632264384636,
-               19.102045148808504,
-               17.86716234130478,
-               10.025901581990302,
-               15.349041029280535,
-               17.86716234130478,
-               14.060680864257559,
-               16.616905931708121,
-               19.102045148808504,
-               8.5967513576618568,
-               12.747982739469206,
-               5.485772690288151,
-               5.485772690288151,
-               10.025901581990302
-            ]
-         ],
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "expectedColumnCount" : 0,
-         "expectedRowCount" : 0,
-         "footnotes" : [
-            {
-               "cols" : null,
-               "rows" : null,
-               "symbol" : "<em>Note.</em>",
-               "text" : "Confidence intervals are based on independent binomial distributions."
-            }
-         ],
-         "messages" : [],
-         "name" : "descriptivesTable",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "count" : "JaspColumn_1_Encoded",
-            "descriptivesTable" : true,
-            "descriptivesTableCi" : true,
-            "descriptivesTableCiLevel" : 0.94999999999999996,
-            "descriptivesType" : "counts",
-            "expectedCount" : "",
-            "factor" : "JaspColumn_0_Encoded",
-            "testValues" : "custom",
-            "testValuesCustom" : [
-               {
-                  "levels" : [
-                     "1",
-                     "2",
-                     "3",
-                     "4",
-                     "5",
-                     "6",
-                     "7",
-                     "8",
-                     "9",
-                     "10",
-                     "11",
-                     "12",
-                     "13",
-                     "14",
-                     "15",
-                     "16",
-                     "17",
-                     "18"
-                  ],
-                  "name" : "H\u2080 (a)",
-                  "values" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-               },
-               {
-                  "levels" : [
-                     "1",
-                     "2",
-                     "3",
-                     "4",
-                     "5",
-                     "6",
-                     "7",
-                     "8",
-                     "9",
-                     "10",
-                     "11",
-                     "12",
-                     "13",
-                     "14",
-                     "15",
-                     "16",
-                     "17",
-                     "18"
-                  ],
-                  "name" : "H\u2080 (b)",
-                  "values" : [ 17, 5, 7, 15, 4, 10, 9, 2, 10, 15, 6, 5, 2, 15, 4, 2, 7, 12 ]
-               }
-            ]
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "rowNames" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [
-               "1",
-               "2",
-               "3",
-               "4",
-               "5",
-               "6",
-               "7",
-               "8",
-               "9",
-               "10",
-               "11",
-               "12",
-               "13",
-               "14",
-               "15",
-               "16",
-               "17",
-               "18"
-            ],
-            "title" : "rowNames",
-            "type" : "list"
-         },
-         "rowTitles" : {
-            "citations" : [],
-            "error" : false,
-            "errorMessage" : "",
-            "escapeHtml" : true,
-            "fields" : {},
-            "listType" : "string",
-            "messages" : [],
-            "name" : "",
-            "nestedOptionMustBe" : {},
-            "nestedOptionMustContain" : {},
-            "optionMustBe" : {},
-            "optionMustContain" : {},
-            "position" : 9999,
-            "rows" : [],
-            "title" : "rowTitles",
-            "type" : "list"
-         },
-         "showSpecifiedColumnsOnly" : false,
-         "specifiedColumns" : [
-            "H\u2080 (a)",
-            "H\u2080 (b)",
-            "factor",
-            "lowerCI",
-            "observed",
-            "upperCI"
-         ],
-         "status" : "complete",
-         "title" : "Descriptives",
-         "transposeTable" : false,
-         "transposeWithOvertitle" : false,
-         "type" : "table"
-      },
-      "stateChisqResults" : {
-         "citations" : [],
-         "environmentName" : "state_0",
-         "error" : false,
-         "errorMessage" : "",
-         "escapeHtml" : true,
-         "messages" : [],
-         "name" : "stateChisqResults",
-         "nestedOptionMustBe" : {},
-         "nestedOptionMustContain" : {},
-         "optionMustBe" : {
-            "count" : "JaspColumn_1_Encoded",
-            "expectedCount" : "",
-            "factor" : "JaspColumn_0_Encoded",
-            "testValues" : "custom",
-            "testValuesCustom" : [
-               {
-                  "levels" : [
-                     "1",
-                     "2",
-                     "3",
-                     "4",
-                     "5",
-                     "6",
-                     "7",
-                     "8",
-                     "9",
-                     "10",
-                     "11",
-                     "12",
-                     "13",
-                     "14",
-                     "15",
-                     "16",
-                     "17",
-                     "18"
-                  ],
-                  "name" : "H\u2080 (a)",
-                  "values" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-               },
-               {
-                  "levels" : [
-                     "1",
-                     "2",
-                     "3",
-                     "4",
-                     "5",
-                     "6",
-                     "7",
-                     "8",
-                     "9",
-                     "10",
-                     "11",
-                     "12",
-                     "13",
-                     "14",
-                     "15",
-                     "16",
-                     "17",
-                     "18"
-                  ],
-                  "name" : "H\u2080 (b)",
-                  "values" : [ 17, 5, 7, 15, 4, 10, 9, 2, 10, 15, 6, 5, 2, 15, 4, 2, 7, 12 ]
-               }
-            ]
-         },
-         "optionMustContain" : {},
-         "position" : 9999,
-         "title" : "",
-         "type" : "state"
-      }
-   },
-   "data_order" : {
-      "chisqTable" : 0,
-      "descriptivesPlot" : 3,
-      "descriptivesTable" : 2,
-      "stateChisqResults" : 1
-   },
-   "error" : false,
-   "errorMessage" : "",
-   "escapeHtml" : true,
-   "initCollapsed" : false,
-   "messages" : [],
-   "name" : "",
-   "nestedOptionMustBe" : {},
-   "nestedOptionMustContain" : {},
-   "optionMustBe" : {},
-   "optionMustContain" : {},
-   "options" : {
-      ".meta" : {
-         "count" : {
-            "shouldEncode" : true
-         },
-         "expectedCount" : {
-            "shouldEncode" : true
-         },
-         "factor" : {
-            "shouldEncode" : true
-         }
-      },
-      "count" : "JaspColumn_1_Encoded",
-      "descriptivesPlot" : true,
-      "descriptivesPlotCiLevel" : 0.94999999999999996,
-      "descriptivesTable" : true,
-      "descriptivesTableCi" : true,
-      "descriptivesTableCiLevel" : 0.94999999999999996,
-      "descriptivesType" : "counts",
-      "expectedCount" : "",
-      "factor" : "JaspColumn_0_Encoded",
-      "plotHeight" : 300,
-      "plotWidth" : 450,
-      "testValues" : "custom",
-      "testValuesCustom" : [
-         {
-            "levels" : [
-               "1",
-               "2",
-               "3",
-               "4",
-               "5",
-               "6",
-               "7",
-               "8",
-               "9",
-               "10",
-               "11",
-               "12",
-               "13",
-               "14",
-               "15",
-               "16",
-               "17",
-               "18"
-            ],
-            "name" : "H\u2080 (a)",
-            "values" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-         },
-         {
-            "levels" : [
-               "1",
-               "2",
-               "3",
-               "4",
-               "5",
-               "6",
-               "7",
-               "8",
-               "9",
-               "10",
-               "11",
-               "12",
-               "13",
-               "14",
-               "15",
-               "16",
-               "17",
-               "18"
-            ],
-            "name" : "H\u2080 (b)",
-            "values" : [ 17, 5, 7, 15, 4, 10, 9, 2, 10, 15, 6, 5, 2, 15, 4, 2, 7, 12 ]
-         }
-      ],
-      "vovkSellke" : false
-   },
-   "order_increment" : 4,
-   "position" : 9999,
-   "relativePathKeep" : "resources/0/state",
-   "title" : "Multinomial Test",
-   "type" : "results"
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"chisqTable" : 
+		{
+			"citations" : [],
+			"colCombines" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"case" : true
+				},
+				"listType" : "bool",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "",
+				"type" : "list"
+			},
+			"colFormats" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"chisquare" : "sf:4;dp:3",
+					"p" : "dp:3;p:.001"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colFormats",
+				"type" : "list"
+			},
+			"colNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"case",
+					"chisquare",
+					"df",
+					"p"
+				],
+				"title" : "colNames",
+				"type" : "list"
+			},
+			"colOvertitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colOvertitles",
+				"type" : "list"
+			},
+			"colRowCombinations" : [],
+			"colTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"case" : "",
+					"chisquare" : "\u03c7\u00b2",
+					"df" : "df",
+					"p" : "p"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTitles",
+				"type" : "list"
+			},
+			"colTypes" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"case" : "string",
+					"chisquare" : "number",
+					"df" : "integer",
+					"p" : "pvalue"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTypes",
+				"type" : "list"
+			},
+			"data" : 
+			[
+				[
+					"H\u2080 (a)",
+					"H\u2080 (b)"
+				],
+				[
+					45.367346938775505,
+					84.672595704948634
+				],
+				[
+					17.0,
+					17.0
+				],
+				[
+					0.00021465184864374019,
+					5.6092457303628677e-11
+				]
+			],
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"expectedColumnCount" : 0,
+			"expectedRowCount" : 0,
+			"footnotes" : 
+			[
+				{
+					"cols" : null,
+					"rows" : null,
+					"symbol" : "<em>Note.</em>",
+					"text" : "Chi-squared approximation may be incorrect"
+				}
+			],
+			"messages" : [],
+			"name" : "chisqTable",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"count" : "JaspColumn_1_Encoded",
+				"count.types" : 
+				[
+					"scale"
+				],
+				"expectedCount" : "",
+				"expectedCount.types" : [],
+				"factor" : "JaspColumn_0_Encoded",
+				"factor.types" : 
+				[
+					"nominal"
+				],
+				"testValues" : "custom",
+				"testValuesCustom" : 
+				[
+					{
+						"levels" : 
+						[
+							"1",
+							"2",
+							"3",
+							"4",
+							"5",
+							"6",
+							"7",
+							"8",
+							"9",
+							"10",
+							"11",
+							"12",
+							"13",
+							"14",
+							"15",
+							"16",
+							"17",
+							"18"
+						],
+						"name" : "H\u2080 (a)",
+						"values" : 
+						[
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1
+						]
+					},
+					{
+						"levels" : 
+						[
+							"1",
+							"2",
+							"3",
+							"4",
+							"5",
+							"6",
+							"7",
+							"8",
+							"9",
+							"10",
+							"11",
+							"12",
+							"13",
+							"14",
+							"15",
+							"16",
+							"17",
+							"18"
+						],
+						"name" : "H\u2080 (b)",
+						"values" : 
+						[
+							17,
+							5,
+							7,
+							15,
+							4,
+							10,
+							9,
+							2,
+							10,
+							15,
+							6,
+							5,
+							2,
+							15,
+							4,
+							2,
+							7,
+							12
+						]
+					}
+				],
+				"vovkSellke" : false
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"rowNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"1",
+					"2"
+				],
+				"title" : "rowNames",
+				"type" : "list"
+			},
+			"rowTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowTitles",
+				"type" : "list"
+			},
+			"showSpecifiedColumnsOnly" : true,
+			"specifiedColumns" : 
+			[
+				"case",
+				"chisquare",
+				"df",
+				"p"
+			],
+			"status" : "complete",
+			"title" : "Multinomial Test",
+			"transposeTable" : false,
+			"transposeWithOvertitle" : false,
+			"type" : "table"
+		},
+		"descriptivesPlot" : 
+		{
+			"aspectRatio" : 0.69999998807907104,
+			"citations" : [],
+			"editOptions" : 
+			{
+				"error" : "success",
+				"xAxis" : 
+				{
+					"settings" : 
+					{
+						"breaks" : 
+						[
+							0,
+							5,
+							10,
+							15,
+							20,
+							25
+						],
+						"breaksType" : "range",
+						"expand" : 
+						[
+							0.050000000000000003,
+							0,
+							0.050000000000000003,
+							0
+						],
+						"labels" : 
+						[
+							"0",
+							"5",
+							"10",
+							"15",
+							"20",
+							"25"
+						],
+						"limits" : 
+						[
+							0,
+							26.268184087081099
+						],
+						"limitsType" : "data",
+						"range" : 
+						[
+							0,
+							25,
+							5
+						],
+						"title" : "Observed counts",
+						"titleType" : "character"
+					},
+					"type" : "ScaleContinuous"
+				},
+				"yAxis" : 
+				{
+					"settings" : 
+					{
+						"labels" : 
+						[
+							"18",
+							"17",
+							"16",
+							"15",
+							"14",
+							"13",
+							"12",
+							"11",
+							"10",
+							"9",
+							"8",
+							"7",
+							"6",
+							"5",
+							"4",
+							"3",
+							"2",
+							"1"
+						],
+						"title" : "JaspColumn_0_Encoded",
+						"titleType" : "character"
+					},
+					"type" : "ScaleDiscrete"
+				}
+			},
+			"environmentName" : "plot_0",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"filePathPng" : "resources/0/_0_t1720524714730.png",
+			"height" : 350,
+			"messages" : [],
+			"name" : "descriptivesPlot",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"count" : "JaspColumn_1_Encoded",
+				"count.types" : 
+				[
+					"scale"
+				],
+				"descriptivesPlot" : true,
+				"descriptivesPlotCiLevel" : 0.94999999999999996,
+				"descriptivesType" : "counts",
+				"factor" : "JaspColumn_0_Encoded",
+				"factor.types" : 
+				[
+					"nominal"
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"resizedByUser" : false,
+			"revision" : 0,
+			"status" : "complete",
+			"title" : "Descriptives Plot",
+			"type" : "plot",
+			"width" : 500
+		},
+		"descriptivesTable" : 
+		{
+			"citations" : [],
+			"colCombines" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "bool",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "",
+				"type" : "list"
+			},
+			"colFormats" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"H\u2080 (a)" : "sf:4;dp:3",
+					"H\u2080 (b)" : "sf:4;dp:3",
+					"lowerCI" : "sf:4;dp:3",
+					"upperCI" : "sf:4;dp:3"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colFormats",
+				"type" : "list"
+			},
+			"colNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"factor",
+					"observed",
+					"H\u2080 (a)",
+					"H\u2080 (b)",
+					"lowerCI",
+					"upperCI"
+				],
+				"title" : "colNames",
+				"type" : "list"
+			},
+			"colOvertitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"H\u2080 (a)" : "Expected",
+					"H\u2080 (b)" : "Expected",
+					"lowerCI" : "95% Confidence Interval",
+					"upperCI" : "95% Confidence Interval"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colOvertitles",
+				"type" : "list"
+			},
+			"colRowCombinations" : [],
+			"colTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"H\u2080 (a)" : "H\u2080 (a)",
+					"H\u2080 (b)" : "H\u2080 (b)",
+					"factor" : "JaspColumn_0_Encoded",
+					"lowerCI" : "Lower",
+					"observed" : "Observed",
+					"upperCI" : "Upper"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTitles",
+				"type" : "list"
+			},
+			"colTypes" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : 
+				{
+					"H\u2080 (a)" : "number",
+					"H\u2080 (b)" : "number",
+					"factor" : "string",
+					"lowerCI" : "number",
+					"observed" : "integer",
+					"upperCI" : "number"
+				},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "colTypes",
+				"type" : "list"
+			},
+			"data" : 
+			[
+				[
+					"1",
+					"2",
+					"3",
+					"4",
+					"5",
+					"6",
+					"7",
+					"8",
+					"9",
+					"10",
+					"11",
+					"12",
+					"13",
+					"14",
+					"15",
+					"16",
+					"17",
+					"18"
+				],
+				[
+					15,
+					11,
+					14,
+					17,
+					5,
+					11,
+					10,
+					4,
+					8,
+					10,
+					7,
+					9,
+					11,
+					3,
+					6,
+					1,
+					1,
+					4
+				],
+				[
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661,
+					8.1666666666666661
+				],
+				[
+					17.0,
+					5.0000000000000009,
+					7.0,
+					15.0,
+					4.0,
+					10.000000000000002,
+					9.0,
+					2.0,
+					10.000000000000002,
+					15.0,
+					5.9999999999999991,
+					5.0000000000000009,
+					2.0,
+					15.0,
+					4.0,
+					2.0,
+					7.0,
+					11.999999999999998
+				],
+				[
+					8.5620870827759425,
+					5.5779818356034925,
+					7.7985296496180974,
+					10.118121730586365,
+					1.636797956622815,
+					5.5779818356034925,
+					4.8659090394169402,
+					1.0970267869527437,
+					3.4964429298335959,
+					4.8659090394169402,
+					2.8454698732991428,
+					4.171140158677078,
+					5.5779818356034925,
+					0.62160288211502013,
+					2.2232117480774884,
+					0.025315627866591268,
+					0.025315627866591268,
+					1.0970267869527437
+				],
+				[
+					23.918705746765784,
+					19.102045148808504,
+					22.730574028974988,
+					26.26818408708111,
+					11.405632264384636,
+					19.102045148808504,
+					17.86716234130478,
+					10.025901581990302,
+					15.349041029280535,
+					17.86716234130478,
+					14.060680864257559,
+					16.616905931708121,
+					19.102045148808504,
+					8.5967513576618568,
+					12.747982739469206,
+					5.485772690288151,
+					5.485772690288151,
+					10.025901581990302
+				]
+			],
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"expectedColumnCount" : 0,
+			"expectedRowCount" : 0,
+			"footnotes" : 
+			[
+				{
+					"cols" : null,
+					"rows" : null,
+					"symbol" : "<em>Note.</em>",
+					"text" : "Confidence intervals are based on independent binomial distributions."
+				}
+			],
+			"messages" : [],
+			"name" : "descriptivesTable",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"count" : "JaspColumn_1_Encoded",
+				"count.types" : 
+				[
+					"scale"
+				],
+				"descriptivesTable" : true,
+				"descriptivesTableCi" : true,
+				"descriptivesTableCiLevel" : 0.94999999999999996,
+				"descriptivesType" : "counts",
+				"expectedCount" : "",
+				"expectedCount.types" : [],
+				"factor" : "JaspColumn_0_Encoded",
+				"factor.types" : 
+				[
+					"nominal"
+				],
+				"testValues" : "custom",
+				"testValuesCustom" : 
+				[
+					{
+						"levels" : 
+						[
+							"1",
+							"2",
+							"3",
+							"4",
+							"5",
+							"6",
+							"7",
+							"8",
+							"9",
+							"10",
+							"11",
+							"12",
+							"13",
+							"14",
+							"15",
+							"16",
+							"17",
+							"18"
+						],
+						"name" : "H\u2080 (a)",
+						"values" : 
+						[
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1
+						]
+					},
+					{
+						"levels" : 
+						[
+							"1",
+							"2",
+							"3",
+							"4",
+							"5",
+							"6",
+							"7",
+							"8",
+							"9",
+							"10",
+							"11",
+							"12",
+							"13",
+							"14",
+							"15",
+							"16",
+							"17",
+							"18"
+						],
+						"name" : "H\u2080 (b)",
+						"values" : 
+						[
+							17,
+							5,
+							7,
+							15,
+							4,
+							10,
+							9,
+							2,
+							10,
+							15,
+							6,
+							5,
+							2,
+							15,
+							4,
+							2,
+							7,
+							12
+						]
+					}
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"rowNames" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : 
+				[
+					"1",
+					"2",
+					"3",
+					"4",
+					"5",
+					"6",
+					"7",
+					"8",
+					"9",
+					"10",
+					"11",
+					"12",
+					"13",
+					"14",
+					"15",
+					"16",
+					"17",
+					"18"
+				],
+				"title" : "rowNames",
+				"type" : "list"
+			},
+			"rowTitles" : 
+			{
+				"citations" : [],
+				"error" : false,
+				"errorMessage" : "",
+				"escapeHtml" : true,
+				"fields" : {},
+				"listType" : "string",
+				"messages" : [],
+				"name" : "",
+				"nestedOptionMustBe" : {},
+				"nestedOptionMustContain" : {},
+				"optionMustBe" : {},
+				"optionMustContain" : {},
+				"position" : 9999,
+				"rows" : [],
+				"title" : "rowTitles",
+				"type" : "list"
+			},
+			"showSpecifiedColumnsOnly" : false,
+			"specifiedColumns" : 
+			[
+				"H\u2080 (a)",
+				"H\u2080 (b)",
+				"factor",
+				"lowerCI",
+				"observed",
+				"upperCI"
+			],
+			"status" : "complete",
+			"title" : "Descriptives",
+			"transposeTable" : false,
+			"transposeWithOvertitle" : false,
+			"type" : "table"
+		},
+		"stateChisqResults" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_0",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "stateChisqResults",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"count" : "JaspColumn_1_Encoded",
+				"count.types" : 
+				[
+					"scale"
+				],
+				"expectedCount" : "",
+				"expectedCount.types" : [],
+				"factor" : "JaspColumn_0_Encoded",
+				"factor.types" : 
+				[
+					"nominal"
+				],
+				"testValues" : "custom",
+				"testValuesCustom" : 
+				[
+					{
+						"levels" : 
+						[
+							"1",
+							"2",
+							"3",
+							"4",
+							"5",
+							"6",
+							"7",
+							"8",
+							"9",
+							"10",
+							"11",
+							"12",
+							"13",
+							"14",
+							"15",
+							"16",
+							"17",
+							"18"
+						],
+						"name" : "H\u2080 (a)",
+						"values" : 
+						[
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1,
+							1
+						]
+					},
+					{
+						"levels" : 
+						[
+							"1",
+							"2",
+							"3",
+							"4",
+							"5",
+							"6",
+							"7",
+							"8",
+							"9",
+							"10",
+							"11",
+							"12",
+							"13",
+							"14",
+							"15",
+							"16",
+							"17",
+							"18"
+						],
+						"name" : "H\u2080 (b)",
+						"values" : 
+						[
+							17,
+							5,
+							7,
+							15,
+							4,
+							10,
+							9,
+							2,
+							10,
+							15,
+							6,
+							5,
+							2,
+							15,
+							4,
+							2,
+							7,
+							12
+						]
+					}
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		}
+	},
+	"data_order" : 
+	{
+		"chisqTable" : 0,
+		"descriptivesPlot" : 3,
+		"descriptivesTable" : 2,
+		"stateChisqResults" : 1
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"count" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"expectedCount" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			},
+			"factor" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			}
+		},
+		"count" : "JaspColumn_1_Encoded",
+		"count.types" : 
+		[
+			"scale"
+		],
+		"descriptivesPlot" : true,
+		"descriptivesPlotCiLevel" : 0.94999999999999996,
+		"descriptivesTable" : true,
+		"descriptivesTableCi" : true,
+		"descriptivesTableCiLevel" : 0.94999999999999996,
+		"descriptivesType" : "counts",
+		"expectedCount" : "",
+		"expectedCount.types" : [],
+		"factor" : "JaspColumn_0_Encoded",
+		"factor.types" : 
+		[
+			"nominal"
+		],
+		"plotHeight" : 300,
+		"plotWidth" : 450,
+		"testValues" : "custom",
+		"testValuesCustom" : 
+		[
+			{
+				"levels" : 
+				[
+					"1",
+					"2",
+					"3",
+					"4",
+					"5",
+					"6",
+					"7",
+					"8",
+					"9",
+					"10",
+					"11",
+					"12",
+					"13",
+					"14",
+					"15",
+					"16",
+					"17",
+					"18"
+				],
+				"name" : "H\u2080 (a)",
+				"values" : 
+				[
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"levels" : 
+				[
+					"1",
+					"2",
+					"3",
+					"4",
+					"5",
+					"6",
+					"7",
+					"8",
+					"9",
+					"10",
+					"11",
+					"12",
+					"13",
+					"14",
+					"15",
+					"16",
+					"17",
+					"18"
+				],
+				"name" : "H\u2080 (b)",
+				"values" : 
+				[
+					17,
+					5,
+					7,
+					15,
+					4,
+					10,
+					9,
+					2,
+					10,
+					15,
+					6,
+					5,
+					2,
+					15,
+					4,
+					2,
+					7,
+					12
+				]
+			}
+		],
+		"vovkSellke" : false
+	},
+	"order_increment" : 4,
+	"position" : 9999,
+	"relativePathKeep" : "resources/0/state",
+	"title" : "Multinomial Test",
+	"type" : "results"
 }

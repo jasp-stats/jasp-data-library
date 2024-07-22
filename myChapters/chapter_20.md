@@ -12,6 +12,11 @@
 |---|---|---|
 |[.jasp](https://github.com/jasp-stats/jasp-data-library/raw/main/Climate%20Change%20Disasters/Climate%20Change%20Disasters.jasp) | [.html](https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Climate%20Change%20Disasters/Climate_Change_Disasters.html) | [.csv](https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Climate%20Change%20Disasters/Climate%20Change%20Disasters.csv)|
 
+## Imagery and Memory 
+|  |  |  |
+|---|---|---|
+|[.jasp](https://github.com/jasp-stats/jasp-data-library/raw/main/Imagery%20and%20Memory/Imagery%20and%20Memory.jasp) | [.html](https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Imagery%20and%20Memory/Imagery_and_Memory.html) | [.csv](https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Imagery%20and%20Memory/Imagery%20and%20Memory.csv)|
+
 ## Presumed Media Influence 
 |  |  |  |
 |---|---|---|

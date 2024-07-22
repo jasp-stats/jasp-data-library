@@ -11,8 +11,3 @@
 |  |  |  |
 |---|---|---|
 |[.jasp](https://github.com/jasp-stats/jasp-data-library/raw/main/Political%20Democracy/Political%20Democracy.jasp) | [.html](https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Political%20Democracy/Political_Democracy.html) | [.csv](https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Political%20Democracy/Political%20Democracy.csv)|
-
-## Social Participation 
-|  |  |  |
-|---|---|---|
-|[.jasp](https://github.com/jasp-stats/jasp-data-library/raw/main/Social%20Participation/Social%20Participation.jasp) | [.html](https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Social%20Participation/Social_Participation.html) | [.csv](https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Social%20Participation/Social%20Participation.csv)|

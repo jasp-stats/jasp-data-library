@@ -47,6 +47,11 @@
 |---|---|---|
 |[.jasp](https://github.com/jasp-stats/jasp-data-library/raw/main/MOOC%20Bias/MOOC%20Bias.jasp) | [.html](https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/MOOC%20Bias/MOOC_Bias.html) | [.csv](https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/MOOC%20Bias/MOOC%20Bias.csv)|
 
+## Pi 100 Digits 
+|  |  |  |
+|---|---|---|
+|[.jasp](https://github.com/jasp-stats/jasp-data-library/raw/main/Pi%20100%20Digits/Pi%20100%20Digits.jasp) | [.html](https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Pi%20100%20Digits/Pi_100_Digits.html) | [.csv](https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Pi%20100%20Digits/Pi%20100%20Digits.csv)|
+
 ## Sun Block Lotions 
 |  |  |  |
 |---|---|---|

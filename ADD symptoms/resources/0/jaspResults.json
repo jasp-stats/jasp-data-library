@@ -1,0 +1,3135 @@
+{
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+	],
+	"data" : 
+	{
+		"semMainContainer" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"anovaState" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_5",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "anovaState",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"anova" : true,
+						"minimumGroupSize" : 10
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				},
+				"averageState" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_1",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "averageState",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"reliabilityValue" : 0.5,
+						"userReliability" : false
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				},
+				"ciDataState" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_25",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "ciDataState",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"anova" : true,
+						"ciLevelPlots" : 0.94999999999999996,
+						"ciLevelTable" : 0.94999999999999996,
+						"feldt" : true,
+						"feldtNumberOfSplits" : "9",
+						"hideTable" : false,
+						"irt" : true,
+						"keats" : false,
+						"lord" : false,
+						"lord2" : false,
+						"lord2NumberOfSplits" : "3",
+						"minimumGroupSize" : 10,
+						"mollenkopfFeldt" : true,
+						"mollenkopfFeldtNumberOfSplits" : "9",
+						"mollenkopfFeldtPolyDegree" : 3,
+						"reliabilityValue" : 0.5,
+						"sumScoreCiPlots" : true,
+						"sumScoreCiTable" : true,
+						"thorndike" : true,
+						"userReliability" : false
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				},
+				"ciPlotsContainer" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"anovaPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30"
+										],
+										"limits" : 
+										[
+											-0.25,
+											35.25
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											30,
+											10
+										],
+										"title" : "Sum Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30,
+											40
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30",
+											"40"
+										],
+										"limits" : 
+										[
+											-0.89959572944499699,
+											39.840689536914098
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											40,
+											10
+										],
+										"title" : "True Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_44",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_20_t1722952140746.png",
+							"height" : 400,
+							"messages" : [],
+							"name" : "anovaPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "ANOVA",
+							"type" : "plot",
+							"width" : 400
+						},
+						"feldtPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30"
+										],
+										"limits" : 
+										[
+											-0.25,
+											35.25
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											30,
+											10
+										],
+										"title" : "Sum Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30,
+											40
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30",
+											"40"
+										],
+										"limits" : 
+										[
+											-0.86655676164759898,
+											39.459805754177999
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											40,
+											10
+										],
+										"title" : "True Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_42",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_18_t1722952140577.png",
+							"height" : 400,
+							"messages" : [],
+							"name" : "feldtPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Feldt",
+							"type" : "plot",
+							"width" : 400
+						},
+						"irtPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30"
+										],
+										"limits" : 
+										[
+											0.0146990500886751,
+											35.406246146588899
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											30,
+											10
+										],
+										"title" : "Sum Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30"
+										],
+										"limits" : 
+										[
+											-1.0927892764759399,
+											36.961385186324897
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											30,
+											10
+										],
+										"title" : "True Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_45",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_21_t1722952140830.png",
+							"height" : 400,
+							"messages" : [],
+							"name" : "irtPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "IRT-GRM",
+							"type" : "plot",
+							"width" : 400
+						},
+						"mollenkopfFeldtPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30"
+										],
+										"limits" : 
+										[
+											-0.25,
+											35.25
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											30,
+											10
+										],
+										"title" : "Sum Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30,
+											40
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30",
+											"40"
+										],
+										"limits" : 
+										[
+											-1.97398521106782,
+											40.402052399599398
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											40,
+											10
+										],
+										"title" : "True Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_43",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_19_t1722952140662.png",
+							"height" : 400,
+							"messages" : [],
+							"name" : "mollenkopfFeldtPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Mollenkopf-Feldt",
+							"type" : "plot",
+							"width" : 400
+						},
+						"thorndikePlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30"
+										],
+										"limits" : 
+										[
+											-0.25,
+											35.25
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											30,
+											10
+										],
+										"title" : "Sum Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30,
+											40
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30",
+											"40"
+										],
+										"limits" : 
+										[
+											-0.98395464490156404,
+											40.330274716227898
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											40,
+											10
+										],
+										"title" : "True Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_41",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_17_t1722952140488.png",
+							"height" : 400,
+							"messages" : [],
+							"name" : "thorndikePlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Thorndike",
+							"type" : "plot",
+							"width" : 400
+						}
+					},
+					"data_order" : 
+					{
+						"anovaPlot" : 3,
+						"feldtPlot" : 1,
+						"irtPlot" : 4,
+						"mollenkopfFeldtPlot" : 2,
+						"thorndikePlot" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "ciPlotsContainer",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"anova" : true,
+						"ciLevelPlots" : 0.94999999999999996,
+						"feldt" : true,
+						"feldtNumberOfSplits" : "9",
+						"hideTable" : false,
+						"irt" : true,
+						"keats" : false,
+						"lord" : false,
+						"lord2" : false,
+						"lord2NumberOfSplits" : "3",
+						"minimumGroupSize" : 10,
+						"mollenkopfFeldt" : true,
+						"mollenkopfFeldtNumberOfSplits" : "9",
+						"mollenkopfFeldtPolyDegree" : 3,
+						"reliabilityValue" : 0.5,
+						"sumScoreCiPlots" : true,
+						"sumScoreCiPlotsCutoff" : true,
+						"sumScoreCiPlotsCutoffValue" : 20.0,
+						"thorndike" : true,
+						"userReliability" : false
+					},
+					"optionMustContain" : {},
+					"order_increment" : 5,
+					"position" : 9999,
+					"title" : "Sum Score CI Plots",
+					"type" : "container"
+				},
+				"ciTable" : 
+				{
+					"citations" : [],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"loweranova" : "sf:4;dp:3",
+							"lowerfeldt" : "sf:4;dp:3",
+							"lowerirt" : "sf:4;dp:3",
+							"lowermollenkopfFeldt" : "sf:4;dp:3",
+							"lowerthorndike" : "sf:4;dp:3",
+							"upperanova" : "sf:4;dp:3",
+							"upperfeldt" : "sf:4;dp:3",
+							"upperirt" : "sf:4;dp:3",
+							"uppermollenkopfFeldt" : "sf:4;dp:3",
+							"upperthorndike" : "sf:4;dp:3"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"score",
+							"lowerthorndike",
+							"upperthorndike",
+							"lowerfeldt",
+							"upperfeldt",
+							"lowermollenkopfFeldt",
+							"uppermollenkopfFeldt",
+							"loweranova",
+							"upperanova",
+							"lowerirt",
+							"upperirt"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"loweranova" : "ANOVA",
+							"lowerfeldt" : "Feldt",
+							"lowerirt" : "IRT-GRM",
+							"lowermollenkopfFeldt" : "Mollenkopf-Feldt",
+							"lowerthorndike" : "Thorndike",
+							"upperanova" : "ANOVA",
+							"upperfeldt" : "Feldt",
+							"upperirt" : "IRT-GRM",
+							"uppermollenkopfFeldt" : "Mollenkopf-Feldt",
+							"upperthorndike" : "Thorndike"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"loweranova" : "Lower 95% CI",
+							"lowerfeldt" : "Lower 95% CI",
+							"lowerirt" : "Lower 95% CI",
+							"lowermollenkopfFeldt" : "Lower 95% CI",
+							"lowerthorndike" : "Lower 95% CI",
+							"score" : "Sum score",
+							"upperanova" : "Upper 95% CI",
+							"upperfeldt" : "Upper 95% CI",
+							"upperirt" : "Upper 95% CI",
+							"uppermollenkopfFeldt" : "Upper 95% CI",
+							"upperthorndike" : "Upper 95% CI"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"loweranova" : "number",
+							"lowerfeldt" : "number",
+							"lowerirt" : "number",
+							"lowermollenkopfFeldt" : "number",
+							"lowerthorndike" : "number",
+							"score" : "string",
+							"upperanova" : "number",
+							"upperfeldt" : "number",
+							"upperirt" : "number",
+							"uppermollenkopfFeldt" : "number",
+							"upperthorndike" : "number"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							0,
+							1,
+							2,
+							3,
+							4,
+							5,
+							6,
+							7,
+							8,
+							9,
+							10,
+							11,
+							12,
+							13,
+							14,
+							15,
+							16,
+							17,
+							18,
+							19,
+							20,
+							21,
+							22,
+							23,
+							24,
+							25,
+							26,
+							27,
+							28,
+							29,
+							30,
+							31,
+							32,
+							33,
+							34,
+							35
+						],
+						[
+							0.0,
+							-0.98395464490156437,
+							-0.62260186744911294,
+							-0.075044493264246004,
+							0.027453193698412814,
+							0.5289204222819448,
+							2.2048746893121836,
+							3.2066909946962316,
+							3.5406232080082551,
+							3.7839438548851962,
+							4.6228945409537117,
+							6.4537784307833572,
+							8.1812007747156166,
+							7.4515197474768717,
+							8.9572452675230352,
+							10.682679205889642,
+							12.066261320013794,
+							11.850864331270065,
+							13.908036409933789,
+							13.717408796443458,
+							15.128624211809177,
+							16.323474308278914,
+							17.536265098846471,
+							18.473657063695313,
+							20.397834784634519,
+							21.109001784007951,
+							22.109001784007951,
+							21.669725283772095,
+							22.669725283772095,
+							23.669725283772095,
+							24.669725283772095,
+							25.669725283772095,
+							26.669725283772095,
+							27.669725283772095,
+							28.669725283772095,
+							29.669725283772095
+						],
+						[
+							0.0,
+							2.9839546449015644,
+							4.6226018674491129,
+							6.0750444932642456,
+							7.9725468063015867,
+							9.4710795777180543,
+							9.7951253106878156,
+							10.793309005303769,
+							12.459376791991744,
+							14.216056145114804,
+							15.377105459046287,
+							15.546221569216643,
+							15.818799225284383,
+							18.548480252523127,
+							19.042754732476965,
+							19.317320794110358,
+							19.933738679986206,
+							22.149135668729933,
+							22.091963590066211,
+							24.282591203556542,
+							24.871375788190825,
+							25.676525691721086,
+							26.463734901153529,
+							27.526342936304687,
+							27.602165215365481,
+							28.890998215992049,
+							29.890998215992049,
+							32.330274716227905,
+							33.330274716227905,
+							34.330274716227905,
+							35.330274716227905,
+							36.330274716227905,
+							37.330274716227905,
+							38.330274716227905,
+							39.330274716227905,
+							40.330274716227905
+						],
+						[
+							0.0,
+							-0.86655676164759865,
+							-0.7823938399300161,
+							-0.32951818584049919,
+							0.3622465173434839,
+							1.2113297229242503,
+							2.1471287410136246,
+							2.855301740320348,
+							3.8590256012260902,
+							4.726340235980186,
+							5.5251382102597297,
+							6.5165898229997605,
+							7.3430070915687455,
+							8.3917215040524198,
+							9.5191937536271318,
+							10.704137802306086,
+							11.511008631961266,
+							12.332275589257915,
+							14.25767243074041,
+							14.848067141936799,
+							15.648850468054036,
+							16.381278207592551,
+							16.609190044960961,
+							19.308770630988985,
+							17.77730726191653,
+							20.480391876810213,
+							21.480391876810213,
+							22.540194245822033,
+							23.540194245822033,
+							24.540194245822033,
+							25.540194245822033,
+							26.540194245822033,
+							27.540194245822033,
+							28.540194245822033,
+							29.540194245822033,
+							30.540194245822033
+						],
+						[
+							0.0,
+							2.8665567616475984,
+							4.7823938399300161,
+							6.3295181858404987,
+							7.6377534826565157,
+							8.7886702770757488,
+							9.8528712589863758,
+							11.144698259679652,
+							12.14097439877391,
+							13.273659764019815,
+							14.47486178974027,
+							15.483410177000239,
+							16.656992908431256,
+							17.60827849594758,
+							18.480806246372868,
+							19.295862197693914,
+							20.488991368038732,
+							21.667724410742085,
+							21.74232756925959,
+							23.151932858063201,
+							24.351149531945964,
+							25.618721792407449,
+							27.390809955039039,
+							26.691229369011015,
+							30.22269273808347,
+							29.519608123189787,
+							30.519608123189787,
+							31.459805754177967,
+							32.459805754177964,
+							33.459805754177964,
+							34.459805754177964,
+							35.459805754177964,
+							36.459805754177964,
+							37.459805754177964,
+							38.459805754177964,
+							39.459805754177964
+						],
+						[
+							-1.9739852110678227,
+							-1.5393092677590836,
+							-0.95676784032933826,
+							-0.28532524823683314,
+							0.44833275869360945,
+							1.2291908639182729,
+							2.0476669054316998,
+							2.8971062526177729,
+							3.772590268642694,
+							4.670300754767065,
+							5.5871510885994775,
+							6.5205576486396417,
+							7.468290476270707,
+							8.4283713339670037,
+							9.3990015216889695,
+							10.378509214572844,
+							11.365310175691397,
+							12.357878079901692,
+							13.354722139563384,
+							14.354370649016662,
+							15.355359671667241,
+							16.356226491355752,
+							17.35550769328842,
+							18.351741852857366,
+							19.343476800652383,
+							20.329281301747116,
+							21.307760745734551,
+							22.277576115002393,
+							23.237465127735014,
+							24.186264105764206,
+							25.122928874858399,
+							26.04655294056758,
+							26.956381343466251,
+							27.851818984743375,
+							28.732432774905284,
+							29.597947600400648
+						],
+						[
+							1.9739852110678227,
+							3.5393092677590836,
+							4.9567678403293378,
+							6.2853252482368331,
+							7.5516672413063901,
+							8.7708091360817271,
+							9.9523330945682993,
+							11.102893747382227,
+							12.227409731357305,
+							13.329699245232934,
+							14.412848911400523,
+							15.479442351360358,
+							16.531709523729294,
+							17.571628666032996,
+							18.60099847831103,
+							19.621490785427156,
+							20.634689824308602,
+							21.642121920098308,
+							22.645277860436615,
+							23.645629350983338,
+							24.644640328332759,
+							25.643773508644248,
+							26.64449230671158,
+							27.648258147142634,
+							28.656523199347617,
+							29.670718698252884,
+							30.692239254265449,
+							31.722423884997607,
+							32.762534872264986,
+							33.813735894235798,
+							34.877071125141597,
+							35.95344705943242,
+							37.043618656533752,
+							38.148181015256625,
+							39.267567225094716,
+							40.402052399599356
+						],
+						[
+							0.0,
+							-0.89959572944499744,
+							-0.85110526892721516,
+							-0.39294327893457792,
+							0.3120682368725145,
+							1.1770424152110488,
+							2.112260417096512,
+							2.8203247635944377,
+							3.8272935325897768,
+							4.694565376447402,
+							5.4941699390905532,
+							6.4851269094364881,
+							7.3093821573758637,
+							8.3574587386518004,
+							9.4877491134854299,
+							10.665951609576529,
+							11.466340951022808,
+							12.262080305828892,
+							14.213382988884415,
+							14.777088789194949,
+							15.579227654768346,
+							16.296523949411277,
+							16.405692126408429,
+							19.144636663086395,
+							17.440705922755544,
+							20.327672605677648,
+							21.327672605677648,
+							22.159310463085941,
+							23.159310463085941,
+							24.159310463085941,
+							25.159310463085941,
+							26.159310463085941,
+							27.159310463085941,
+							28.159310463085941,
+							29.159310463085941,
+							30.159310463085941
+						],
+						[
+							0.0,
+							2.8995957294449974,
+							4.8511052689272152,
+							6.3929432789345775,
+							7.6879317631274855,
+							8.8229575847889521,
+							9.8877395829034889,
+							11.179675236405561,
+							12.172706467410222,
+							13.305434623552598,
+							14.505830060909446,
+							15.514873090563512,
+							16.690617842624135,
+							17.6425412613482,
+							18.512250886514572,
+							19.334048390423469,
+							20.533659048977192,
+							21.737919694171108,
+							21.786617011115585,
+							23.222911210805051,
+							24.420772345231654,
+							25.703476050588723,
+							27.594307873591571,
+							26.855363336913605,
+							30.559294077244456,
+							29.672327394322352,
+							30.672327394322352,
+							31.840689536914059,
+							32.840689536914056,
+							33.840689536914056,
+							34.840689536914056,
+							35.840689536914056,
+							36.840689536914056,
+							37.840689536914056,
+							38.840689536914056,
+							39.840689536914056
+						],
+						[
+							-0.27810540741413942,
+							-1.0874452056043422,
+							-0.79419931246911579,
+							-0.25078980759135661,
+							0.42144994677126579,
+							1.1772569302171561,
+							1.9908919712847641,
+							2.8447431193880774,
+							3.7286228372232602,
+							4.6402284725485012,
+							5.5722578853473816,
+							6.5256384862807035,
+							7.4959775496129533,
+							8.484859054613084,
+							9.4868052192366239,
+							10.50084373152742,
+							11.520709154063164,
+							12.541801665542057,
+							13.559569378322957,
+							14.570751999946335,
+							15.577972041853833,
+							16.58608102768083,
+							17.601230081034416,
+							18.629498077406865,
+							19.672485467587784,
+							20.731081008799315,
+							21.803690110395696,
+							22.888580006653058,
+							23.988320104400941,
+							25.107795251258356,
+							26.254484753325109,
+							27.437279517939288,
+							28.667158653371761,
+							29.971164905331875,
+							31.396728351402071,
+							33.056258179214247
+						],
+						[
+							0.27810540741413942,
+							3.0874452056043422,
+							4.7941993124691162,
+							6.2507898075913566,
+							7.5785500532287342,
+							8.8227430697828435,
+							10.009108028715236,
+							11.155256880611923,
+							12.271377162776741,
+							13.3597715274515,
+							14.427742114652618,
+							15.474361513719296,
+							16.504022450387048,
+							17.515140945386918,
+							18.513194780763378,
+							19.499156268472582,
+							20.479290845936838,
+							21.458198334457943,
+							22.440430621677045,
+							23.429248000053665,
+							24.422027958146167,
+							25.41391897231917,
+							26.398769918965584,
+							27.370501922593135,
+							28.327514532412216,
+							29.268918991200685,
+							30.196309889604304,
+							31.111419993346942,
+							32.011679895599059,
+							32.892204748741648,
+							33.745515246674891,
+							34.562720482060712,
+							35.332841346628243,
+							36.028835094668125,
+							36.603271648597925,
+							36.943741820785753
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 0,
+					"footnotes" : [],
+					"messages" : [],
+					"name" : "ciTable",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"anova" : true,
+						"ciLevelTable" : 0.94999999999999996,
+						"feldt" : true,
+						"feldtNumberOfSplits" : "9",
+						"hideTable" : false,
+						"irt" : true,
+						"keats" : false,
+						"lord" : false,
+						"lord2" : false,
+						"lord2NumberOfSplits" : "3",
+						"minimumGroupSize" : 10,
+						"mollenkopfFeldt" : true,
+						"mollenkopfFeldtNumberOfSplits" : "9",
+						"mollenkopfFeldtPolyDegree" : 3,
+						"reliabilityValue" : 0.5,
+						"sumScoreCiTable" : true,
+						"thorndike" : true,
+						"userReliability" : false
+					},
+					"optionMustContain" : {},
+					"position" : 2,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"1",
+							"2",
+							"3",
+							"4",
+							"5",
+							"6",
+							"7",
+							"8",
+							"9",
+							"10",
+							"11",
+							"12",
+							"13",
+							"14",
+							"15",
+							"16",
+							"17",
+							"18",
+							"19",
+							"20",
+							"21",
+							"22",
+							"23",
+							"24",
+							"25",
+							"26",
+							"27",
+							"28",
+							"29",
+							"30",
+							"31",
+							"32",
+							"33",
+							"34",
+							"35",
+							"36"
+						],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : false,
+					"specifiedColumns" : 
+					[
+						"loweranova",
+						"lowerfeldt",
+						"lowerirt",
+						"lowermollenkopfFeldt",
+						"lowerthorndike",
+						"score",
+						"upperanova",
+						"upperfeldt",
+						"upperirt",
+						"uppermollenkopfFeldt",
+						"upperthorndike"
+					],
+					"status" : "complete",
+					"title" : "Sum score CI table",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				},
+				"coefficientTable" : 
+				{
+					"citations" : [],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"anova" : "sf:4;dp:3",
+							"feldt" : "sf:4;dp:3",
+							"irt" : "sf:4;dp:3",
+							"mollenkopfFeldt" : "sf:4;dp:3",
+							"thorndike" : "sf:4;dp:3"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"score",
+							"counts",
+							"thorndike",
+							"feldt",
+							"mollenkopfFeldt",
+							"anova",
+							"irt"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"anova" : "ANOVA",
+							"counts" : "Counts",
+							"feldt" : "Feldt",
+							"irt" : "IRT-GRM",
+							"mollenkopfFeldt" : "Mollenkopf-Feldt",
+							"score" : "Sum score",
+							"thorndike" : "Thorndike"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"anova" : "number",
+							"counts" : "string",
+							"feldt" : "number",
+							"irt" : "number",
+							"mollenkopfFeldt" : "number",
+							"score" : "string",
+							"thorndike" : "number"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							0,
+							1,
+							2,
+							3,
+							4,
+							5,
+							6,
+							7,
+							8,
+							9,
+							10,
+							11,
+							12,
+							13,
+							14,
+							15,
+							16,
+							17,
+							18,
+							19,
+							20,
+							21,
+							22,
+							23,
+							24,
+							25,
+							26,
+							27,
+							28,
+							29,
+							30,
+							31,
+							32,
+							33,
+							34,
+							35
+						],
+						[
+							37.0,
+							29.0,
+							21.0,
+							27.0,
+							37.0,
+							56.0,
+							56.0,
+							60.0,
+							66.0,
+							68.0,
+							73.0,
+							72.0,
+							70.0,
+							68.0,
+							72.0,
+							57.0,
+							51.0,
+							34.0,
+							43.0,
+							30.0,
+							32.0,
+							28.0,
+							14.0,
+							12.0,
+							10.0,
+							9.0,
+							8.0,
+							13.0,
+							2.0,
+							1.0,
+							1.0,
+							3.0,
+							0.0,
+							1.0,
+							0.0,
+							1.0
+						],
+						[
+							0.0,
+							1.0122403577569516,
+							1.3380867649282653,
+							1.5689290811054721,
+							2.0268468388381269,
+							2.2812049675327515,
+							1.9363240042282825,
+							1.9353973007794567,
+							2.275234048771682,
+							2.661302037312109,
+							2.7434715645084355,
+							2.3195434227754488,
+							1.9484027540335365,
+							2.8309092903180026,
+							2.5728813244802318,
+							2.2027551670157388,
+							2.007046410553988,
+							2.6271583097167404,
+							2.0877748888974992,
+							2.6952491194863519,
+							2.4854414808719012,
+							2.3860263395699746,
+							2.2774576147127714,
+							2.3094010767585034,
+							1.837873166945363,
+							1.9852396506689651,
+							1.9852396506689651,
+							2.7195778893247198,
+							2.7195778893247198,
+							2.7195778893247198,
+							2.7195778893247198,
+							2.7195778893247198,
+							2.7195778893247198,
+							2.7195778893247198,
+							2.7195778893247198,
+							2.7195778893247198
+						],
+						[
+							0.0,
+							0.95234237790630882,
+							1.4196147795965561,
+							1.698764983491184,
+							1.8560307798258806,
+							1.9330305592145052,
+							1.9657867641330828,
+							2.1146808269807527,
+							2.1127808630349274,
+							2.1804787219203505,
+							2.2831347030034279,
+							2.2874962052184675,
+							2.3760604506843093,
+							2.3512057018889601,
+							2.2861676447714845,
+							2.1918067023573533,
+							2.2903438039919748,
+							2.3815358075763138,
+							1.909385886056373,
+							2.1183720164314854,
+							2.2200150442902409,
+							2.3565340122774399,
+							2.7504637827843075,
+							1.8833148966649205,
+							3.1749015732775083,
+							2.3059648844774085,
+							2.3059648844774085,
+							2.2754529110516049,
+							2.2754529110516049,
+							2.2754529110516049,
+							2.2754529110516049,
+							2.2754529110516049,
+							2.2754529110516049,
+							2.2754529110516049,
+							2.2754529110516049,
+							2.2754529110516049
+						],
+						[
+							1.0071538184570568,
+							1.2955897597041741,
+							1.5085827411380752,
+							1.676217152024762,
+							1.812108421032983,
+							1.9239175647233262,
+							2.0165335310974082,
+							2.0933516022464347,
+							2.1568813328727341,
+							2.2090708193543613,
+							2.251494897971857,
+							2.2854717671822695,
+							2.3121391818803003,
+							2.3325064654725405,
+							2.3474913389241445,
+							2.3579467897782243,
+							2.3646811170340101,
+							2.368473072319071,
+							2.3700832755489269,
+							2.3702626107558462,
+							2.3697579980903174,
+							2.3693157350205114,
+							2.3696824754672754,
+							2.3716038579318308,
+							2.3758207987889977,
+							2.3830635333582246,
+							2.3940436106363352,
+							2.4094442154281839,
+							2.4299093809025338,
+							2.4560328313203361,
+							2.4883473184259084,
+							2.5273153478862782,
+							2.5733221101597636,
+							2.6266712326679578,
+							2.6875836834985813,
+							2.7561998292877083
+						],
+						[
+							0.0,
+							0.96919930387944198,
+							1.45467227531545,
+							1.7311253194944818,
+							1.8816324137675089,
+							1.9505244050114972,
+							1.9835770522160014,
+							2.1325265511888527,
+							2.1289709914692314,
+							2.1966906828458677,
+							2.2989351316916333,
+							2.303549007112506,
+							2.3932163445977235,
+							2.3686870258678088,
+							2.3022111233199336,
+							2.2112898117566919,
+							2.3131338558963934,
+							2.4173503857944412,
+							1.9319829552909837,
+							2.1545861271507216,
+							2.2555375405375533,
+							2.3997767753331916,
+							2.8542911592859657,
+							1.9670582558272598,
+							3.3466401061363027,
+							2.3838843117409674,
+							2.3838843117409674,
+							2.4697849425279244,
+							2.4697849425279244,
+							2.4697849425279244,
+							2.4697849425279244,
+							2.4697849425279244,
+							2.4697849425279244,
+							2.4697849425279244,
+							2.4697849425279244,
+							2.4697849425279244
+						],
+						[
+							0.1418931213062074,
+							1.0650426344921866,
+							1.4256380905513593,
+							1.6585967054666171,
+							1.8258243934357372,
+							1.950414956568669,
+							2.0455008665151859,
+							2.1200679774669635,
+							2.1793141080493412,
+							2.2244141024227084,
+							2.2590936106877906,
+							2.2828794554453502,
+							2.2980128644782263,
+							2.3036856702479089,
+							2.3026927108675883,
+							2.2955300729816224,
+							2.285394467076391,
+							2.2746327838795226,
+							2.2655674577199352,
+							2.2598619336839914,
+							2.2561781711432247,
+							2.2520408574522808,
+							2.2443116065716118,
+							2.2298888944220909,
+							2.2079561494737154,
+							2.1780599158318088,
+							2.1410137751021252,
+							2.0977018076746807,
+							2.0468130676087317,
+							1.9858552399140297,
+							1.911012281969994,
+							1.8177479332084665,
+							1.7004605048446138,
+							1.5453524241053356,
+							1.3282242271450921,
+							0.9917232337521199
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 0,
+					"footnotes" : 
+					[
+						{
+							"cols" : null,
+							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : "The traditional sem value equals 2.182."
+						}
+					],
+					"messages" : [],
+					"name" : "coefficientTable",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"anova" : true,
+						"feldt" : true,
+						"feldtNumberOfSplits" : "9",
+						"hideTable" : false,
+						"irt" : true,
+						"keats" : false,
+						"lord" : false,
+						"lord2" : false,
+						"lord2NumberOfSplits" : "3",
+						"minimumGroupSize" : 10,
+						"mollenkopfFeldt" : true,
+						"mollenkopfFeldtNumberOfSplits" : "9",
+						"mollenkopfFeldtPolyDegree" : 3,
+						"reliabilityValue" : 0.5,
+						"thorndike" : true,
+						"userReliability" : false
+					},
+					"optionMustContain" : {},
+					"position" : 1,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"1",
+							"2",
+							"3",
+							"4",
+							"5",
+							"6",
+							"7",
+							"8",
+							"9",
+							"10",
+							"11",
+							"12",
+							"13",
+							"14",
+							"15",
+							"16",
+							"17",
+							"18",
+							"19",
+							"20",
+							"21",
+							"22",
+							"23",
+							"24",
+							"25",
+							"26",
+							"27",
+							"28",
+							"29",
+							"30",
+							"31",
+							"32",
+							"33",
+							"34",
+							"35",
+							"36"
+						],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : false,
+					"specifiedColumns" : 
+					[
+						"anova",
+						"counts",
+						"feldt",
+						"irt",
+						"mollenkopfFeldt",
+						"score",
+						"thorndike"
+					],
+					"status" : "complete",
+					"title" : "Standard error of measurement",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				},
+				"combinedPlot" : 
+				{
+					"aspectRatio" : 0.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"error" : "success",
+						"xAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									0,
+									10,
+									20,
+									30
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"0",
+									"10",
+									"20",
+									"30"
+								],
+								"limits" : 
+								[
+									0,
+									35.406246146588899
+								],
+								"limitsType" : "data",
+								"range" : 
+								[
+									0,
+									30,
+									10
+								],
+								"title" : "Sum Score",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						},
+						"yAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									0,
+									1,
+									2,
+									3
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"0",
+									"1",
+									"2",
+									"3"
+								],
+								"limits" : 
+								[
+									0,
+									3.3466401061363
+								],
+								"limitsType" : "data",
+								"range" : 
+								[
+									0,
+									3,
+									1
+								],
+								"title" : "sem",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						}
+					},
+					"environmentName" : "plot_6",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_6_t1722952136567.png",
+					"height" : 320,
+					"messages" : [],
+					"name" : "combinedPlot",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"anova" : true,
+						"combinedPointPlot" : true,
+						"feldt" : true,
+						"feldtNumberOfSplits" : "9",
+						"hideTable" : false,
+						"irt" : true,
+						"keats" : false,
+						"lord" : false,
+						"lord2" : false,
+						"lord2NumberOfSplits" : "3",
+						"minimumGroupSize" : 10,
+						"mollenkopfFeldt" : true,
+						"mollenkopfFeldtNumberOfSplits" : "9",
+						"mollenkopfFeldtPolyDegree" : 3,
+						"reliabilityValue" : 0.5,
+						"thorndike" : true,
+						"userReliability" : false
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "Combined plot",
+					"type" : "plot",
+					"width" : 600
+				},
+				"countsState" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_24",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "countsState",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				},
+				"feldtState" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_3",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "feldtState",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"feldt" : true,
+						"feldtNumberOfSplits" : "9",
+						"minimumGroupSize" : 10
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				},
+				"histPlot" : 
+				{
+					"aspectRatio" : 0.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"error" : "success",
+						"xAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									0,
+									10,
+									20,
+									30
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"0",
+									"10",
+									"20",
+									"30"
+								],
+								"limits" : 
+								[
+									-0.25,
+									35.25
+								],
+								"limitsType" : "data",
+								"range" : 
+								[
+									0,
+									30,
+									10
+								],
+								"title" : "Sum scores",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						},
+						"yAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									0,
+									20,
+									40,
+									60
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"0",
+									"20",
+									"40",
+									"60"
+								],
+								"limits" : 
+								[
+									0,
+									73
+								],
+								"limitsType" : "data",
+								"range" : 
+								[
+									0,
+									60,
+									20
+								],
+								"title" : "Counts",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						}
+					},
+					"environmentName" : "plot_0",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/0/_0_t1722952136088.png",
+					"height" : 320,
+					"messages" : [],
+					"name" : "histPlot",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "Histogram of counts per sum score group",
+					"type" : "plot",
+					"width" : 500
+				},
+				"irtState" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_6",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "irtState",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"irt" : true
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				},
+				"mollenkopfFeldtState" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_4",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "mollenkopfFeldtState",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"mollenkopfFeldt" : true,
+						"mollenkopfFeldtNumberOfSplits" : "9",
+						"mollenkopfFeldtPolyDegree" : 3
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				},
+				"pointPlotsContainer" : 
+				{
+					"citations" : [],
+					"data" : 
+					{
+						"anovaPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30"
+										],
+										"limits" : 
+										[
+											0,
+											35
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											30,
+											10
+										],
+										"title" : "Sum Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											1,
+											2,
+											3
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"1",
+											"2",
+											"3"
+										],
+										"limits" : 
+										[
+											0,
+											3.3466401061363
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											3,
+											1
+										],
+										"title" : "sem",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_39",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_15_t1722952140340.png",
+							"height" : 320,
+							"messages" : [],
+							"name" : "anovaPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"anova" : true,
+								"minimumGroupSize" : 10
+							},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "ANOVA",
+							"type" : "plot",
+							"width" : 400
+						},
+						"feldtPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30"
+										],
+										"limits" : 
+										[
+											0,
+											35
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											30,
+											10
+										],
+										"title" : "Sum Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											1,
+											2,
+											3
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"1",
+											"2",
+											"3"
+										],
+										"limits" : 
+										[
+											0,
+											3.1749015732775101
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											3,
+											1
+										],
+										"title" : "sem",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_37",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_13_t1722952140204.png",
+							"height" : 320,
+							"messages" : [],
+							"name" : "feldtPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"feldt" : true,
+								"feldtNumberOfSplits" : "9",
+								"minimumGroupSize" : 10
+							},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Feldt",
+							"type" : "plot",
+							"width" : 400
+						},
+						"irtPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30"
+										],
+										"limits" : 
+										[
+											0.0146990500886751,
+											35.406246146588899
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											30,
+											10
+										],
+										"title" : "Sum Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0.5,
+											1,
+											1.5,
+											2
+										],
+										"breaksType" : "manual",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0.5",
+											"1.0",
+											"1.5",
+											"2.0"
+										],
+										"limits" : 
+										[
+											0.14189312130620699,
+											2.3044043547856101
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0.5,
+											2,
+											0.5
+										],
+										"title" : "sem",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_40",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_16_t1722952140409.png",
+							"height" : 320,
+							"messages" : [],
+							"name" : "irtPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"irt" : true
+							},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "IRT-GRM",
+							"type" : "plot",
+							"width" : 400
+						},
+						"mollenkopfFeldtPlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30"
+										],
+										"limits" : 
+										[
+											0,
+											35
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											30,
+											10
+										],
+										"title" : "Sum Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											1,
+											1.5,
+											2,
+											2.5
+										],
+										"breaksType" : "manual",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"1.0",
+											"1.5",
+											"2.0",
+											"2.5"
+										],
+										"limits" : 
+										[
+											1.0071538184570601,
+											2.7561998292877101
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											1,
+											2.5,
+											0.5
+										],
+										"title" : "sem",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_38",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_14_t1722952140271.png",
+							"height" : 320,
+							"messages" : [],
+							"name" : "mollenkopfFeldtPlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"mollenkopfFeldt" : true,
+								"mollenkopfFeldtNumberOfSplits" : "9",
+								"mollenkopfFeldtPolyDegree" : 3
+							},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Mollenkopf-Feldt",
+							"type" : "plot",
+							"width" : 400
+						},
+						"thorndikePlot" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											10,
+											20,
+											30
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"10",
+											"20",
+											"30"
+										],
+										"limits" : 
+										[
+											0,
+											35
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											30,
+											10
+										],
+										"title" : "Sum Score",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											0,
+											1,
+											2
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"0",
+											"1",
+											"2"
+										],
+										"limits" : 
+										[
+											0,
+											2.830909290318
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											0,
+											2,
+											1
+										],
+										"title" : "sem",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_36",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/0/_12_t1722952140123.png",
+							"height" : 320,
+							"messages" : [],
+							"name" : "thorndikePlot",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"minimumGroupSize" : 10,
+								"thorndike" : true
+							},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Thorndike",
+							"type" : "plot",
+							"width" : 400
+						}
+					},
+					"data_order" : 
+					{
+						"anovaPlot" : 3,
+						"feldtPlot" : 1,
+						"irtPlot" : 4,
+						"mollenkopfFeldtPlot" : 2,
+						"thorndikePlot" : 0
+					},
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"initCollapsed" : false,
+					"messages" : [],
+					"name" : "pointPlotsContainer",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"anova" : true,
+						"feldt" : true,
+						"feldtNumberOfSplits" : "9",
+						"hideTable" : false,
+						"irt" : true,
+						"keats" : false,
+						"lord" : false,
+						"lord2" : false,
+						"lord2NumberOfSplits" : "3",
+						"minimumGroupSize" : 10,
+						"mollenkopfFeldt" : true,
+						"mollenkopfFeldtNumberOfSplits" : "9",
+						"mollenkopfFeldtPolyDegree" : 3,
+						"pointPlots" : true,
+						"reliabilityValue" : 0.5,
+						"thorndike" : true,
+						"userReliability" : false
+					},
+					"optionMustContain" : {},
+					"order_increment" : 5,
+					"position" : 9999,
+					"title" : "Plots",
+					"type" : "container"
+				},
+				"thorndikeState" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_2",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "thorndikeState",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"minimumGroupSize" : 10,
+						"thorndike" : true
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
+				}
+			},
+			"data_order" : 
+			{
+				"anovaState" : 5,
+				"averageState" : 1,
+				"ciDataState" : 7,
+				"ciPlotsContainer" : 13,
+				"ciTable" : 9,
+				"coefficientTable" : 8,
+				"combinedPlot" : 12,
+				"countsState" : 0,
+				"feldtState" : 3,
+				"histPlot" : 10,
+				"irtState" : 6,
+				"mollenkopfFeldtState" : 4,
+				"pointPlotsContainer" : 11,
+				"thorndikeState" : 2
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "semMainContainer",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"variables" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_8_Encoded"
+				],
+				"variables.types" : 
+				[
+					"ordinal",
+					"ordinal",
+					"ordinal",
+					"ordinal",
+					"ordinal",
+					"ordinal",
+					"ordinal",
+					"ordinal",
+					"ordinal"
+				]
+			},
+			"optionMustContain" : {},
+			"order_increment" : 14,
+			"position" : 9999,
+			"title" : "",
+			"type" : "container"
+		}
+	},
+	"data_order" : 
+	{
+		"semMainContainer" : 0
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"variables" : 
+			{
+				"hasTypes" : true,
+				"shouldEncode" : true
+			}
+		},
+		"anova" : true,
+		"ciLevelPlots" : 0.94999999999999996,
+		"ciLevelTable" : 0.94999999999999996,
+		"combinedPointPlot" : true,
+		"feldt" : true,
+		"feldtNumberOfSplits" : "9",
+		"hideTable" : false,
+		"histogramCounts" : true,
+		"irt" : true,
+		"keats" : false,
+		"lord" : false,
+		"lord2" : false,
+		"lord2NumberOfSplits" : "3",
+		"minimumGroupSize" : 10,
+		"mollenkopfFeldt" : true,
+		"mollenkopfFeldtNumberOfSplits" : "9",
+		"mollenkopfFeldtPolyDegree" : 3,
+		"plotHeight" : 320,
+		"plotWidth" : 480,
+		"pointPlots" : true,
+		"reliabilityValue" : 0.5,
+		"sumScoreCiPlots" : true,
+		"sumScoreCiPlotsCutoff" : true,
+		"sumScoreCiPlotsCutoffValue" : 20.0,
+		"sumScoreCiTable" : true,
+		"thorndike" : true,
+		"userReliability" : false,
+		"variables" : 
+		[
+			"JaspColumn_0_Encoded",
+			"JaspColumn_1_Encoded",
+			"JaspColumn_2_Encoded",
+			"JaspColumn_3_Encoded",
+			"JaspColumn_4_Encoded",
+			"JaspColumn_5_Encoded",
+			"JaspColumn_6_Encoded",
+			"JaspColumn_7_Encoded",
+			"JaspColumn_8_Encoded"
+		],
+		"variables.types" : 
+		[
+			"ordinal",
+			"ordinal",
+			"ordinal",
+			"ordinal",
+			"ordinal",
+			"ordinal",
+			"ordinal",
+			"ordinal",
+			"ordinal"
+		]
+	},
+	"order_increment" : 1,
+	"position" : 9999,
+	"relativePathKeep" : "resources/0/state",
+	"title" : "Standard Error of Measurement",
+	"type" : "results"
+}

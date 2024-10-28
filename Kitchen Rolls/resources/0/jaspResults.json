@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -379,7 +379,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_0_t1720517192821.png",
+									"filePathPng" : "resources/0/_0_t1729672929391.png",
 									"height" : 400,
 									"messages" : [],
 									"name" : "priorAndPosteriorPlot",
@@ -769,12 +769,10 @@
 		{
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"group" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

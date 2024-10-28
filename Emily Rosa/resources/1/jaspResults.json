@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -113,9 +113,7 @@
 					"proportion",
 					"BF01",
 					".isNewGroup",
-					"",
 					"BF10",
-					"",
 					"LogBF10"
 				],
 				"title" : "colNames",
@@ -225,12 +223,10 @@
 					true,
 					false
 				],
-				[],
 				[
 					0.058979921851074847,
 					0.22467592848862225
 				],
-				[],
 				[
 					-2.8305582006030932,
 					-1.4930962328608501
@@ -349,7 +345,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1720524691712.png",
+							"filePathPng" : "resources/1/_0_t1729673561228.png",
 							"height" : 371,
 							"messages" : [],
 							"name" : "OutcomeCorrectpriorposterior",
@@ -410,7 +406,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_1_t1720524692037.png",
+							"filePathPng" : "resources/1/_1_t1729673561541.png",
 							"height" : 371,
 							"messages" : [],
 							"name" : "OutcomeIncorrectpriorposterior",
@@ -578,7 +574,6 @@
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

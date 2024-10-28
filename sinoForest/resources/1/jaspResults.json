@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -126,7 +126,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1720524821263.png",
+					"filePathPng" : "resources/1/_0_t1729867730181.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "benfordsLawPlot",
@@ -636,7 +636,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_1_Encoded"
+							"JaspColumn_5_Encoded"
 						],
 						[
 							772.0
@@ -762,11 +762,8 @@
 						"confidence" : 0.94999999999999996,
 						"digits" : "first",
 						"distribution" : "benford",
-						"values" : "JaspColumn_1_Encoded",
-						"values.types" : 
-						[
-							"scale"
-						]
+						"values" : "JaspColumn_5_Encoded",
+						"values.types" : "scale"
 					},
 					"optionMustContain" : {},
 					"position" : 9999,
@@ -796,11 +793,8 @@
 				"confidence" : 0.94999999999999996,
 				"digits" : "first",
 				"distribution" : "benford",
-				"values" : "JaspColumn_1_Encoded",
-				"values.types" : 
-				[
-					"scale"
-				]
+				"values" : "JaspColumn_5_Encoded",
+				"values.types" : "scale"
 			},
 			"optionMustContain" : {},
 			"order_increment" : 5,
@@ -853,11 +847,8 @@
 				"digits" : "first",
 				"distribution" : "benford",
 				"explanatoryText" : true,
-				"values" : "JaspColumn_1_Encoded",
-				"values.types" : 
-				[
-					"scale"
-				]
+				"values" : "JaspColumn_5_Encoded",
+				"values.types" : "scale"
 			},
 			"optionMustContain" : {},
 			"order_increment" : 1,
@@ -881,8 +872,8 @@
 			"optionMustBe" : {},
 			"optionMustContain" : {},
 			"position" : 99,
-			"rawtext" : "Created by JASP for Audit (Version 0.19) on Jul 09 2024 at 13:33:41.",
-			"text" : "<p>Created by JASP for Audit (Version 0.19) on Jul 09 2024 at 13:33:41. </p>",
+			"rawtext" : "Created by JASP for Audit (Version 0.19.2) on Oct 25 2024 at 16:48:50.",
+			"text" : "<p>Created by JASP for Audit (Version 0.19.2) on Oct 25 2024 at 16:48:50. </p>",
 			"title" : "hide me",
 			"type" : "html"
 		},
@@ -998,7 +989,6 @@
 		{
 			"values" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -1017,11 +1007,8 @@
 		"robustnessPlot" : false,
 		"sequentialPlot" : false,
 		"summaryTable" : true,
-		"values" : "JaspColumn_1_Encoded",
-		"values.types" : 
-		[
-			"scale"
-		]
+		"values" : "JaspColumn_5_Encoded",
+		"values.types" : "scale"
 	},
 	"order_increment" : 6,
 	"position" : 9999,

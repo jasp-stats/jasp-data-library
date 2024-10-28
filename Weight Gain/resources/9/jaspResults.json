@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -346,17 +346,11 @@
 					"lowerCIlocationParameter",
 					"upperCIlocationParameter",
 					"test",
-					"",
 					".isNewGroup",
-					"",
 					"d",
-					"",
 					"lowerCIeffectSize",
-					"",
 					"upperCIeffectSize",
-					"",
 					"effectSizeSe",
-					"",
 					"usedConfLevel"
 				],
 				"title" : "colNames",
@@ -468,27 +462,21 @@
 				[
 					"Student"
 				],
-				[],
 				[
 					false
 				],
-				[],
 				[
 					-1.4558125757190579
 				],
-				[],
 				[
 					0.0
 				],
-				[],
 				[
 					0.0
 				],
-				[],
 				[
 					0.35879094956280588
 				],
-				[],
 				[
 					0.94999999999999996
 				]
@@ -658,7 +646,6 @@
 		{
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

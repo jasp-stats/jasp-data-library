@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -208,19 +208,19 @@
 					0.80000000000000004
 				],
 				[
-					0.9455893236765488,
-					0.52964387116484635,
-					0.07264624474442001
+					0.94669589477598093,
+					0.52025386391619244,
+					0.07156470867343856
 				],
 				[
-					0.054410676323451201,
-					0.47035612883515365,
-					0.92735375525557995
+					0.053304105224019072,
+					0.47974613608380756,
+					0.92843529132656144
 				],
 				[
-					11.585830668664757,
-					0.75069908195806123,
-					0.31334857634516661
+					11.840187427682963,
+					0.72295717086686895,
+					0.30832394822556086
 				]
 			],
 			"error" : false,
@@ -548,32 +548,32 @@
 					0.20000000000000001
 				],
 				[
-					0.43978140917616099,
-					0.43316166975596776,
-					0.07264624474442001,
-					0.030574719658992441,
-					0.023835956664458556
+					0.44992668067912311,
+					0.42520450542341931,
+					0.07156470867343856,
+					0.029819455404684291,
+					0.023484649819334635
 				],
 				[
-					3.1400700824971417,
-					3.0566858071823435,
-					0.31334857634516666,
-					0.12615606495525847,
-					0.097671930562045164
+					3.2717578902725535,
+					2.9589967871035139,
+					0.30832394822556092,
+					0.1229439430456634,
+					0.096197770224460827
 				],
 				[
 					1.0,
-					0.9849476597189637,
-					0.16518716623448829,
-					0.069522537835939507,
-					0.054199554976892425
+					0.94505288013062938,
+					0.15905860164909139,
+					0.066276254965974821,
+					0.052196615199362514
 				],
 				[
 					"",
-					1.5395683323619869,
-					1.649520412024982,
-					0.72181588305796884,
-					1.0790638942174535
+					3.1317379805355587,
+					3.0920390819361616,
+					2.7415181889522269,
+					2.8788601419210371
 				]
 			],
 			"error" : false,
@@ -816,62 +816,50 @@
 		{
 			"barPlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"barPlotSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"betweenSubjectFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"customPriorSpecification" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparateLines" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparatePlot" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"postHocTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"repeatedMeasuresCells" : 
@@ -894,7 +882,6 @@
 			},
 			"singleModelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

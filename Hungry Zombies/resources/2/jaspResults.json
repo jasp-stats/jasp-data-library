@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -113,9 +113,7 @@
 					"proportion",
 					"BF01",
 					".isNewGroup",
-					"",
 					"BF10",
-					"",
 					"LogBF10"
 				],
 				"title" : "colNames",
@@ -218,11 +216,9 @@
 				[
 					true
 				],
-				[],
 				[
 					0.076923076923076955
 				],
-				[],
 				[
 					-2.5649493574615363
 				]
@@ -340,7 +336,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_0_t1720524702203.png",
+							"filePathPng" : "resources/2/_0_t1729673573683.png",
 							"height" : 371,
 							"messages" : [],
 							"name" : "OutcomeHungrypriorposterior",
@@ -373,7 +369,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_1_t1720524702534.png",
+							"filePathPng" : "resources/2/_1_t1729673574004.png",
 							"height" : 371,
 							"messages" : [],
 							"name" : "OutcomeHungrysequential",
@@ -541,7 +537,6 @@
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

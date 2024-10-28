@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -32,7 +32,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1720525613535.png",
+							"filePathPng" : "resources/0/_1_t1729869412663.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "August",
@@ -47,10 +47,7 @@
 								"distributionPlotPointStack" : true,
 								"period" : "custom",
 								"splitVariable" : "JaspColumn_1_Encoded",
-								"splitVariable.types" : 
-								[
-									"nominal"
-								],
+								"splitVariable.types" : "nominal",
 								"variables" : 
 								[
 									"JaspColumn_0_Encoded"
@@ -86,7 +83,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1720525613230.png",
+							"filePathPng" : "resources/0/_0_t1729869412359.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "July",
@@ -101,10 +98,7 @@
 								"distributionPlotPointStack" : true,
 								"period" : "custom",
 								"splitVariable" : "JaspColumn_1_Encoded",
-								"splitVariable.types" : 
-								[
-									"nominal"
-								],
+								"splitVariable.types" : "nominal",
 								"variables" : 
 								[
 									"JaspColumn_0_Encoded"
@@ -140,7 +134,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_2_t1720525613781.png",
+							"filePathPng" : "resources/0/_2_t1729869412944.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "September",
@@ -155,10 +149,7 @@
 								"distributionPlotPointStack" : true,
 								"period" : "custom",
 								"splitVariable" : "JaspColumn_1_Encoded",
-								"splitVariable.types" : 
-								[
-									"nominal"
-								],
+								"splitVariable.types" : "nominal",
 								"variables" : 
 								[
 									"JaspColumn_0_Encoded"
@@ -201,10 +192,7 @@
 						"distributionPlotPointStack" : true,
 						"period" : "custom",
 						"splitVariable" : "JaspColumn_1_Encoded",
-						"splitVariable.types" : 
-						[
-							"nominal"
-						],
+						"splitVariable.types" : "nominal",
 						"variables" : 
 						[
 							"JaspColumn_0_Encoded"
@@ -242,10 +230,7 @@
 				"distributionPlotPointStack" : true,
 				"period" : "custom",
 				"splitVariable" : "JaspColumn_1_Encoded",
-				"splitVariable.types" : 
-				[
-					"nominal"
-				],
+				"splitVariable.types" : "nominal",
 				"variables" : 
 				[
 					"JaspColumn_0_Encoded"
@@ -334,15 +319,10 @@
 					"meanDirection",
 					"stdDev",
 					"total",
-					"",
 					"meanLength",
-					"",
 					"median",
-					"",
 					"variance",
-					"",
 					"range",
-					"",
 					"plotData"
 				],
 				"title" : "colNames",
@@ -459,31 +439,26 @@
 					20,
 					20
 				],
-				[],
 				[
 					0.9040879684817501,
 					0.23250475729075534,
 					0.6498684196842428
 				],
-				[],
 				[
 					257.0,
 					285.0,
 					147.0
 				],
-				[],
 				[
 					0.095912031518249896,
 					0.76749524270924463,
 					0.3501315803157572
 				],
-				[],
 				[
 					86.999999999999986,
 					289.99999999999994,
 					260.0
 				],
-				[],
 				[
 					{
 						"x" : 
@@ -600,10 +575,7 @@
 				"period" : "custom",
 				"range" : false,
 				"splitVariable" : "JaspColumn_1_Encoded",
-				"splitVariable.types" : 
-				[
-					"nominal"
-				],
+				"splitVariable.types" : "nominal",
 				"standardDeviation" : true,
 				"variables" : 
 				[
@@ -696,10 +668,7 @@
 				"period" : "custom",
 				"range" : false,
 				"splitVariable" : "JaspColumn_1_Encoded",
-				"splitVariable.types" : 
-				[
-					"nominal"
-				],
+				"splitVariable.types" : "nominal",
 				"standardDeviation" : true,
 				"variables" : 
 				[
@@ -739,12 +708,10 @@
 		{
 			"splitVariable" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -761,10 +728,7 @@
 		"plotWidth" : 480,
 		"range" : false,
 		"splitVariable" : "JaspColumn_1_Encoded",
-		"splitVariable.types" : 
-		[
-			"nominal"
-		],
+		"splitVariable.types" : "nominal",
 		"standardDeviation" : true,
 		"variables" : 
 		[

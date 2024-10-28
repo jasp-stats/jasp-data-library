@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -356,21 +356,13 @@
 					"md",
 					"sed",
 					"test",
-					"",
 					".isNewGroup",
-					"",
 					"d",
-					"",
 					"lowerCIlocationParameter",
-					"",
 					"upperCIlocationParameter",
-					"",
 					"lowerCIeffectSize",
-					"",
 					"upperCIeffectSize",
-					"",
 					"effectSizeSe",
-					"",
 					"zstat"
 				],
 				"title" : "colNames",
@@ -483,35 +475,27 @@
 				[
 					"Student"
 				],
-				[],
 				[
 					false
 				],
-				[],
 				[
 					1.6658446416185564
 				],
-				[],
 				[
 					1.6239682663937509
 				],
-				[],
 				[
 					3.2413650669395824
 				],
-				[],
 				[
 					0.0
 				],
-				[],
 				[
 					0.0
 				],
-				[],
 				[
 					0.49389064040465785
 				],
-				[],
 				[
 					null
 				]
@@ -540,6 +524,7 @@
 				"effectSize" : false,
 				"effectSizeCi" : false,
 				"effectSizeCiLevel" : 0.94999999999999996,
+				"effectSizeCorrection" : false,
 				"meanDifference" : true,
 				"meanDifferenceCi" : false,
 				"meanDifferenceCiLevel" : 0.94999999999999996,
@@ -692,7 +677,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1720517198202.png",
+							"filePathPng" : "resources/0/_0_t1729672935792.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Moon - Other",
@@ -730,7 +715,6 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"applyMoreyCorrectionErrorBars" : true,
 						"descriptivesPlot" : true,
 						"descriptivesPlotCiLevel" : 0.94999999999999996
 					},
@@ -1045,8 +1029,6 @@
 			}
 		},
 		"alternative" : "twoSided",
-		"applyMoreyCorrectionErrorBars" : true,
-		"applyMoreyCorrectionErrorBarsBarplot" : true,
 		"barPlot" : false,
 		"barPlotCiLevel" : 0.94999999999999996,
 		"barPlotErrorType" : "ci",

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software].",
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software].",
 		"Revelle, W. (2018) psych: Procedures for Personality and Psychological Research, Northwestern University, Evanston, Illinois, USA, https://CRAN.R-project.org/package=psych Version = 1.8.12."
 	],
 	"data" : 
@@ -1017,7 +1017,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/2/_1_t1720789905299.png",
+					"filePathPng" : "resources/2/_1_t1729867647060.png",
 					"height" : 419,
 					"messages" : [],
 					"name" : "path",
@@ -1133,7 +1133,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/2/_0_t1720789904373.png",
+					"filePathPng" : "resources/2/_0_t1729867644175.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "scree",
@@ -1176,6 +1176,7 @@
 			"optionMustBe" : 
 			{
 				"analysisBasedOn" : "correlationMatrix",
+				"dataType" : "raw",
 				"eigenValuesAbove" : 1.0,
 				"factorCountMethod" : "parallelAnalysis",
 				"factoringMethod" : "minimumResidual",
@@ -1185,6 +1186,7 @@
 				"orthogonalSelector" : "none",
 				"parallelAnalysisMethod" : "factorBased",
 				"rotationMethod" : "oblique",
+				"sampleSize" : 200,
 				"variables" : 
 				[
 					"JaspColumn_10_Encoded",
@@ -1233,7 +1235,6 @@
 		{
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -1241,6 +1242,7 @@
 		"addedScoresPrefix" : "FA",
 		"analysisBasedOn" : "correlationMatrix",
 		"bartlettTest" : false,
+		"dataType" : "raw",
 		"eigenValuesAbove" : 1.0,
 		"factorCorrelations" : false,
 		"factorCountMethod" : "parallelAnalysis",
@@ -1264,6 +1266,7 @@
 		"plotWidth" : 480,
 		"residualMatrix" : false,
 		"rotationMethod" : "oblique",
+		"sampleSize" : 200,
 		"screePlot" : true,
 		"screePlotParallelAnalysisResults" : true,
 		"variables" : 

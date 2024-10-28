@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -208,19 +208,19 @@
 					0.80000000000000004
 				],
 				[
-					0.56631235453188444,
-					0.99989625482960154,
-					0.28129143600984169
+					0.56319142602548578,
+					0.99989470970460315,
+					0.28274473473326028
 				],
 				[
-					0.43368764546811556,
-					0.00010374517039846154,
-					0.71870856399015826
+					0.43680857397451422,
+					0.00010529029539685375,
+					0.71725526526673966
 				],
 				[
-					0.87053798657420922,
-					6425.3352773867455,
-					1.565538245144348
+					0.85955490128626333,
+					6331.0343144532653,
+					1.5768151085129254
 				]
 			],
 			"error" : false,
@@ -535,8 +535,8 @@
 			[
 				[
 					"JaspExtraOptions_3_Encoded",
-					"JaspExtraOptions_0_Encoded + JaspExtraOptions_3_Encoded",
 					"JaspExtraOptions_0_Encoded + JaspExtraOptions_3_Encoded + JaspExtraOptions_0_Encoded\u2009\u273b\u2009JaspExtraOptions_3_Encoded",
+					"JaspExtraOptions_0_Encoded + JaspExtraOptions_3_Encoded",
 					"Null model (incl. subject and random slopes)",
 					"JaspExtraOptions_0_Encoded"
 				],
@@ -548,32 +548,32 @@
 					0.20000000000000001
 				],
 				[
-					0.43363085308676574,
-					0.28497396573299411,
-					0.28129143600984169,
-					5.67923813498359e-05,
-					4.6952789048583755e-05
+					0.4367494642145881,
+					0.28274473473326028,
+					0.28040051075675465,
+					5.9109759926652576e-05,
+					4.6180535470877391e-05
 				],
 				[
-					3.0625316046970061,
-					1.5942019007748687,
-					1.5655382451443474,
-					0.00022718242763040953,
-					0.00018781997486599404
+					3.1016354994181938,
+					1.5768151085129243,
+					1.5586476363491193,
+					0.00023645301638764273,
+					0.00018473067284489913
 				],
 				[
 					1.0,
-					0.65718101861163769,
-					0.64868870378454757,
-					0.00013096942006216562,
-					0.000108278247994473
+					0.64738427382326302,
+					0.64201683970237333,
+					0.00013534020020597009,
+					0.0001057369023999248
 				],
 				[
 					"",
-					7.1234554674902668,
-					13.002720175403674,
-					2.333024294099697,
-					16.4900230853629
+					9.0315076001924233,
+					6.2696938074691193,
+					1.6109472170084065,
+					11.458075349894257
 				]
 			],
 			"error" : false,
@@ -706,8 +706,8 @@
 				"rows" : 
 				[
 					"3",
-					"4",
 					"5",
+					"4",
 					"1",
 					"2"
 				],
@@ -810,62 +810,50 @@
 		{
 			"barPlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"barPlotSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"betweenSubjectFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"customPriorSpecification" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparateLines" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparatePlot" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"postHocTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"repeatedMeasuresCells" : 
@@ -888,7 +876,6 @@
 			},
 			"singleModelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

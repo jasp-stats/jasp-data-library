@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -118,7 +118,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/12/_2_t1720524509039.png",
+					"filePathPng" : "resources/12/_2_t1729673339261.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "squaredPearson",
@@ -164,7 +164,8 @@
 					{
 						"components" : [],
 						"name" : "model0",
-						"title" : "Model 0"
+						"title" : "Model 0",
+						"types" : []
 					},
 					{
 						"components" : 
@@ -177,7 +178,12 @@
 							]
 						],
 						"name" : "model1",
-						"title" : "Model 1"
+						"title" : "Model 1",
+						"types" : 
+						[
+							"scale",
+							"nominal"
+						]
 					}
 				],
 				"residualType" : "deviance"
@@ -295,7 +301,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/12/_0_t1720524508741.png",
+					"filePathPng" : "resources/12/_0_t1729673338958.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "Age",
@@ -388,7 +394,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/12/_1_t1720524508906.png",
+					"filePathPng" : "resources/12/_1_t1729673339118.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "PClass",
@@ -437,7 +443,8 @@
 					{
 						"components" : [],
 						"name" : "model0",
-						"title" : "Model 0"
+						"title" : "Model 0",
+						"types" : []
 					},
 					{
 						"components" : 
@@ -450,7 +457,12 @@
 							]
 						],
 						"name" : "model1",
-						"title" : "Model 1"
+						"title" : "Model 1",
+						"types" : 
+						[
+							"scale",
+							"nominal"
+						]
 					}
 				]
 			},
@@ -539,13 +551,9 @@
 					"walddf",
 					"pval",
 					"std",
-					"",
 					"vsmpr",
-					"",
 					"cilo",
-					"",
 					"ciup",
-					"",
 					".isNewGroup"
 				],
 				"title" : "colNames",
@@ -708,7 +716,6 @@
 					-1.1458201840275684,
 					-2.2315042311302551
 				],
-				[],
 				[
 					11215.306863853246,
 					445718715.90709502,
@@ -716,7 +723,6 @@
 					120938.49665618352,
 					3.7922156329709093e+19
 				],
-				[],
 				[
 					-0.49208871294718814,
 					1.4322308346201997,
@@ -724,7 +730,6 @@
 					-1.57752110470211,
 					-2.680322054859066
 				],
-				[],
 				[
 					-0.20264444606277512,
 					2.6351801702685296,
@@ -732,7 +737,6 @@
 					-0.71411926335301568,
 					-1.7826864074014379
 				],
-				[],
 				[
 					true,
 					true,
@@ -778,7 +782,8 @@
 					{
 						"components" : [],
 						"name" : "model0",
-						"title" : "Model 0"
+						"title" : "Model 0",
+						"types" : []
 					},
 					{
 						"components" : 
@@ -791,7 +796,12 @@
 							]
 						],
 						"name" : "model1",
-						"title" : "Model 1"
+						"title" : "Model 1",
+						"types" : 
+						[
+							"scale",
+							"nominal"
+						]
 					}
 				],
 				"oddsRatio" : true,
@@ -883,7 +893,8 @@
 					{
 						"components" : [],
 						"name" : "model0",
-						"title" : "Model 0"
+						"title" : "Model 0",
+						"types" : []
 					},
 					{
 						"components" : 
@@ -896,7 +907,12 @@
 							]
 						],
 						"name" : "model1",
-						"title" : "Model 1"
+						"title" : "Model 1",
+						"types" : 
+						[
+							"scale",
+							"nominal"
+						]
 					}
 				]
 			},
@@ -1152,7 +1168,8 @@
 					{
 						"components" : [],
 						"name" : "model0",
-						"title" : "Model 0"
+						"title" : "Model 0",
+						"types" : []
 					},
 					{
 						"components" : 
@@ -1165,7 +1182,12 @@
 							]
 						],
 						"name" : "model1",
-						"title" : "Model 1"
+						"title" : "Model 1",
+						"types" : 
+						[
+							"scale",
+							"nominal"
+						]
 					}
 				]
 			},
@@ -1434,7 +1456,8 @@
 							{
 								"components" : [],
 								"name" : "model0",
-								"title" : "Model 0"
+								"title" : "Model 0",
+								"types" : []
 							},
 							{
 								"components" : 
@@ -1447,7 +1470,12 @@
 									]
 								],
 								"name" : "model1",
-								"title" : "Model 1"
+								"title" : "Model 1",
+								"types" : 
+								[
+									"scale",
+									"nominal"
+								]
 							}
 						]
 					},
@@ -1678,7 +1706,8 @@
 							{
 								"components" : [],
 								"name" : "model0",
-								"title" : "Model 0"
+								"title" : "Model 0",
+								"types" : []
 							},
 							{
 								"components" : 
@@ -1691,7 +1720,12 @@
 									]
 								],
 								"name" : "model1",
-								"title" : "Model 1"
+								"title" : "Model 1",
+								"types" : 
+								[
+									"scale",
+									"nominal"
+								]
 							}
 						],
 						"precision" : false,
@@ -1797,17 +1831,14 @@
 		{
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"factors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
@@ -1815,6 +1846,10 @@
 				"shouldEncode" : true
 			},
 			"residualsSavedToDataColumn" : 
+			{
+				"shouldEncode" : true
+			},
+			"weights" : 
 			{
 				"shouldEncode" : true
 			}
@@ -1872,7 +1907,8 @@
 			{
 				"components" : [],
 				"name" : "model0",
-				"title" : "Model 0"
+				"title" : "Model 0",
+				"types" : []
 			},
 			{
 				"components" : 
@@ -1885,7 +1921,12 @@
 					]
 				],
 				"name" : "model1",
-				"title" : "Model 1"
+				"title" : "Model 1",
+				"types" : 
+				[
+					"scale",
+					"nominal"
+				]
 			}
 		],
 		"multicollinearity" : false,
@@ -1915,7 +1956,8 @@
 		"specificity" : true,
 		"squaredPearsonResidualVsFittedPlot" : true,
 		"vovkSellke" : false,
-		"weights" : ""
+		"weights" : "",
+		"weights.types" : []
 	},
 	"order_increment" : 6,
 	"position" : 9999,

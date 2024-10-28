@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -100,7 +100,6 @@
 									"df2",
 									"p",
 									".isNewGroup",
-									"",
 									"vovkSellke"
 								],
 								"title" : "colNames",
@@ -212,7 +211,6 @@
 									false,
 									false
 								],
-								[],
 								[
 									1.0,
 									1.0,
@@ -711,7 +709,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_0_t1720700181312.png",
+									"filePathPng" : "resources/1/_0_t1729672998142.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "Gender: Female",
@@ -804,7 +802,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_1_t1720700181507.png",
+									"filePathPng" : "resources/1/_1_t1729672998337.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "Gender: Male",
@@ -836,7 +834,6 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"applyMoreyCorrectionErrorBars" : true,
 								"dependent" : null,
 								"descriptivePlotCiLevel" : 0.94999999999999996,
 								"descriptivePlotErrorBar" : true,
@@ -857,7 +854,8 @@
 								[
 									"nominal"
 								],
-								"descriptivePlotYAxisLabel" : "Hostility"
+								"descriptivePlotYAxisLabel" : "Hostility",
+								"normalizeErrorBarsDescriptives" : true
 							},
 							"optionMustContain" : {},
 							"order_increment" : 2,
@@ -1088,34 +1086,22 @@
 							"p",
 							"eta",
 							"Error SS",
-							"Pr(>F)",
 							"den Df",
-							"",
 							".isNewGroup",
-							"etaPart",
 							"isWithinTerm",
-							"",
 							"vovkSellke",
-							"",
 							"partialEta",
-							"",
 							"genEta",
-							"",
 							"omega",
-							"",
 							"partialOmega",
-							"",
 							"GG eps",
-							"",
 							"Pr(>F[GG])",
-							"",
 							"HF eps",
-							"",
 							"Pr(>F[HF])",
-							"",
 							"Test statistic",
-							"",
-							"p-value"
+							"p-value",
+							"Pr(>F)",
+							"etaPart"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -1300,17 +1286,6 @@
 							""
 						],
 						[
-							null,
-							null,
-							"",
-							null,
-							null,
-							"",
-							null,
-							null,
-							""
-						],
-						[
 							85.0,
 							85.0,
 							"",
@@ -1319,29 +1294,6 @@
 							"",
 							85.0,
 							85.0,
-							""
-						],
-						[],
-						[
-							true,
-							true,
-							true,
-							true,
-							true,
-							true,
-							true,
-							true,
-							true
-						],
-						[
-							null,
-							null,
-							"",
-							null,
-							null,
-							"",
-							null,
-							null,
 							""
 						],
 						[
@@ -1355,7 +1307,17 @@
 							true,
 							true
 						],
-						[],
+						[
+							true,
+							true,
+							true,
+							true,
+							true,
+							true,
+							true,
+							true,
+							true
+						],
 						[
 							63.653229658539651,
 							1.0,
@@ -1366,7 +1328,6 @@
 							3.2560444786487306,
 							3.2560444786486582
 						],
-						[],
 						[
 							0.12426250340383153,
 							0.0050531092090336672,
@@ -1377,7 +1338,6 @@
 							0.052273209707882337,
 							0.052273209707881733
 						],
-						[],
 						[
 							0.01908072442639375,
 							0.00069574798588056819,
@@ -1389,7 +1349,6 @@
 							0.0054288288675318208,
 							""
 						],
-						[],
 						[
 							0.022775836688289568,
 							0.0,
@@ -1401,7 +1360,6 @@
 							0.0058733593657166513,
 							""
 						],
-						[],
 						[
 							0.022775836688289568,
 							0.0,
@@ -1412,7 +1370,6 @@
 							0.0058733593657167415,
 							0.0058733593657166521
 						],
-						[],
 						[
 							"",
 							"",
@@ -1423,7 +1380,6 @@
 							"",
 							""
 						],
-						[],
 						[
 							0.0,
 							0.0,
@@ -1434,7 +1390,6 @@
 							0.0,
 							0.0
 						],
-						[],
 						[
 							"",
 							"",
@@ -1445,7 +1400,6 @@
 							"",
 							""
 						],
-						[],
 						[
 							0.0,
 							0.0,
@@ -1456,7 +1410,6 @@
 							0.0,
 							0.0
 						],
-						[],
 						[
 							"",
 							"",
@@ -1467,7 +1420,6 @@
 							"",
 							""
 						],
-						[],
 						[
 							"",
 							"",
@@ -1476,6 +1428,28 @@
 							"",
 							null,
 							"",
+							""
+						],
+						[
+							null,
+							null,
+							"",
+							null,
+							null,
+							"",
+							null,
+							null,
+							""
+						],
+						[
+							null,
+							null,
+							"",
+							null,
+							null,
+							"",
+							null,
+							null,
 							""
 						]
 					],
@@ -1715,32 +1689,26 @@
 		{
 			"barPlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"barPlotSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"betweenModelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"betweenSubjectFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"contrasts" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"customContrasts" : 
@@ -1749,47 +1717,38 @@
 			},
 			"descriptivePlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparateLines" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparatePlot" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"friedmanBetweenFactor" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"friedmanWithinFactor" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"marginalMeanTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"postHocTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"repeatedMeasuresCells" : 
@@ -1811,32 +1770,25 @@
 			},
 			"restrictedMarginalMeanTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectFactor" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectModeratorFactorOne" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectModeratorFactorTwo" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"withinModelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
-		"applyMoreyCorrectionErrorBars" : true,
-		"applyMoreyCorrectionErrorBarsBarplot" : true,
 		"barPlotCiInterval" : 0.94999999999999996,
 		"barPlotErrorBarType" : "ci",
 		"barPlotErrorBars" : false,
@@ -1944,6 +1896,8 @@
 		"marginalMeanComparedToZero" : false,
 		"marginalMeanTerms" : [],
 		"marginalMeanTerms.types" : [],
+		"normalizeErrorBarsBarplot" : true,
+		"normalizeErrorBarsDescriptives" : true,
 		"plotHeight" : 320,
 		"plotHeightDescriptivesPlotLegend" : 300,
 		"plotHeightDescriptivesPlotNoLegend" : 300,

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -94,9 +94,7 @@
 							"df[N]",
 							"p[N]",
 							"MPR[N]",
-							"",
 							"MPR[chiSquared]",
-							"",
 							"MPR[chiSquared-cc]"
 						],
 						"title" : "colNames",
@@ -249,11 +247,9 @@
 						[
 							""
 						],
-						[],
 						[
 							53011.512919379675
 						],
-						[],
 						[
 							21878.561936068727
 						]
@@ -858,12 +854,10 @@
 		{
 			"columns" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"counts" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"layers" : 
@@ -872,7 +866,6 @@
 			},
 			"rows" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

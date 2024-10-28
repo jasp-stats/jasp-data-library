@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -80,7 +80,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1720517204841.png",
+							"filePathPng" : "resources/1/_0_t1729672942797.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "logFuseTime",
@@ -205,7 +205,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_1_t1720517205307.png",
+									"filePathPng" : "resources/1/_1_t1729672943280.png",
 									"height" : 400,
 									"messages" : [],
 									"name" : "priorAndPosteriorPlot",
@@ -239,7 +239,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_2_t1720517209616.png",
+									"filePathPng" : "resources/1/_2_t1729672947773.png",
 									"height" : 400,
 									"messages" : [],
 									"name" : "robustnessPlot",
@@ -630,12 +630,10 @@
 		{
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"group" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

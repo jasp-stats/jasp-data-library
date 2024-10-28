@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -21,46 +21,42 @@
 						{
 							"settings" : 
 							{
-								"breaks" : 
-								[
-									20,
-									30,
-									40,
-									50,
-									60
-								],
-								"breaksType" : "range",
-								"expand" : 
-								[
-									0.050000000000000003,
-									0,
-									0.050000000000000003,
-									0
-								],
 								"labels" : 
 								[
-									20,
-									30,
-									40,
-									50,
-									60
+									"21",
+									"25",
+									"26",
+									"27",
+									"28",
+									"30",
+									"31",
+									"32",
+									"34",
+									"35",
+									"36",
+									"37",
+									"38",
+									"39",
+									"40",
+									"41",
+									"42",
+									"43",
+									"44",
+									"45",
+									"46",
+									"47",
+									"48",
+									"50",
+									"51",
+									"52",
+									"53",
+									"54",
+									"56"
 								],
-								"limits" : 
-								[
-									20,
-									60
-								],
-								"limitsType" : "breaks",
-								"range" : 
-								[
-									20,
-									60,
-									10
-								],
-								"title" : "JaspColumn_0_Encoded",
+								"title" : "JaspColumn_3_Encoded",
 								"titleType" : "character"
 							},
-							"type" : "ScaleContinuous"
+							"type" : "ScaleDiscrete"
 						},
 						"yAxis" : 
 						{
@@ -69,10 +65,9 @@
 								"breaks" : 
 								[
 									0,
-									5,
-									10,
-									15,
-									20
+									2,
+									4,
+									6
 								],
 								"breaksType" : "range",
 								"expand" : 
@@ -85,22 +80,21 @@
 								"labels" : 
 								[
 									"0",
-									"5",
-									"10",
-									"15",
-									"20"
+									"2",
+									"4",
+									"6"
 								],
 								"limits" : 
 								[
 									0,
-									20
+									6
 								],
-								"limitsType" : "breaks",
+								"limitsType" : "data",
 								"range" : 
 								[
 									0,
-									20,
-									5
+									6,
+									2
 								],
 								"title" : "Counts",
 								"titleType" : "character"
@@ -108,11 +102,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_0",
+					"environmentName" : "plot_4",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1720524502132.png",
+					"filePathPng" : "resources/0/_0_t1729673514864.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "Creativity",
@@ -120,18 +114,17 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"splitBy" : "",
-						"splitBy.types" : []
+						"splitBy" : ""
 					},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_0_Encoded"
+						"variables" : "JaspColumn_3_Encoded"
 					},
 					"position" : 9999,
 					"resizedByUser" : false,
 					"revision" : 0,
 					"status" : "complete",
-					"title" : "JaspColumn_0_Encoded",
+					"title" : "JaspColumn_3_Encoded",
 					"type" : "plot",
 					"width" : 480
 				},
@@ -155,7 +148,7 @@
 									"5",
 									"6"
 								],
-								"title" : "JaspColumn_1_Encoded",
+								"title" : "JaspColumn_6_Encoded",
 								"titleType" : "character"
 							},
 							"type" : "ScaleDiscrete"
@@ -204,11 +197,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_1",
+					"environmentName" : "plot_5",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1720524502307.png",
+					"filePathPng" : "resources/0/_1_t1729673515030.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "Position",
@@ -216,18 +209,17 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"splitBy" : "",
-						"splitBy.types" : []
+						"splitBy" : ""
 					},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_1_Encoded"
+						"variables" : "JaspColumn_6_Encoded"
 					},
 					"position" : 9999,
 					"resizedByUser" : false,
 					"revision" : 0,
 					"status" : "complete",
-					"title" : "JaspColumn_1_Encoded",
+					"title" : "JaspColumn_6_Encoded",
 					"type" : "plot",
 					"width" : 480
 				}
@@ -253,16 +245,10 @@
 				"distributionAndCorrelationPlotRugMarks" : false,
 				"distributionPlots" : true,
 				"splitBy" : "",
-				"splitBy.types" : [],
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded"
-				],
-				"variables.types" : 
-				[
-					"scale",
-					"ordinal"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded"
 				]
 			},
 			"optionMustContain" : {},
@@ -425,8 +411,8 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				[
 					68,
@@ -490,26 +476,22 @@
 				"sd" : true,
 				"sdCi" : false,
 				"sdCiLevel" : 0.94999999999999996,
+				"sdCiMethod" : "chiSquaredModel",
 				"seMean" : false,
 				"shapiroWilkTest" : false,
 				"skewness" : false,
 				"splitBy" : "",
-				"splitBy.types" : [],
 				"sum" : false,
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded"
-				],
-				"variables.types" : 
-				[
-					"scale",
-					"ordinal"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				"variance" : false,
 				"varianceCi" : false,
-				"varianceCiLevel" : 0.94999999999999996
+				"varianceCiLevel" : 0.94999999999999996,
+				"varianceCiMethod" : "chiSquaredModel"
 			},
 			"optionMustContain" : {},
 			"position" : 1,
@@ -530,8 +512,8 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -594,27 +576,22 @@
 		{
 			"densityPlotSeparate" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"heatmapHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"heatmapVerticalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"splitBy" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -634,7 +611,6 @@
 		"customHistogramPosition" : "stack",
 		"densityPlot" : false,
 		"densityPlotSeparate" : "",
-		"densityPlotSeparate.types" : [],
 		"densityPlotTransparency" : 20.0,
 		"densityPlotType" : "density",
 		"descriptivesTableTransposed" : false,
@@ -649,14 +625,12 @@
 		"heatmapDisplayValue" : false,
 		"heatmapDisplayValueRelativeTextSize" : 1.0,
 		"heatmapHorizontalAxis" : "",
-		"heatmapHorizontalAxis.types" : [],
 		"heatmapLegend" : false,
 		"heatmapPlot" : false,
 		"heatmapStatisticContinuous" : "mean",
 		"heatmapStatisticDiscrete" : "mode",
 		"heatmapTileWidthHeightRatio" : 1.0,
 		"heatmapVerticalAxis" : "",
-		"heatmapVerticalAxis.types" : [],
 		"intervalPlot" : false,
 		"iqr" : false,
 		"kurtosis" : false,
@@ -698,11 +672,11 @@
 		"sd" : true,
 		"sdCi" : false,
 		"sdCiLevel" : 0.94999999999999996,
+		"sdCiMethod" : "chiSquaredModel",
 		"seMean" : false,
 		"shapiroWilkTest" : false,
 		"skewness" : false,
 		"splitBy" : "",
-		"splitBy.types" : [],
 		"statisticsValuesAreGroupMidpoints" : false,
 		"stemAndLeaf" : false,
 		"stemAndLeafScale" : 1.0,
@@ -710,17 +684,13 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_0_Encoded",
-			"JaspColumn_1_Encoded"
-		],
-		"variables.types" : 
-		[
-			"scale",
-			"ordinal"
+			"JaspColumn_3_Encoded",
+			"JaspColumn_6_Encoded"
 		],
 		"variance" : false,
 		"varianceCi" : false,
-		"varianceCiLevel" : 0.94999999999999996
+		"varianceCiLevel" : 0.94999999999999996,
+		"varianceCiMethod" : "chiSquaredModel"
 	},
 	"order_increment" : 2,
 	"position" : 9999,

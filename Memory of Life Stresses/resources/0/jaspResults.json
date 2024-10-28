@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -442,7 +442,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1720524714730.png",
+			"filePathPng" : "resources/0/_0_t1729673588144.png",
 			"height" : 350,
 			"messages" : [],
 			"name" : "descriptivesPlot",
@@ -1106,17 +1106,14 @@
 		{
 			"count" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"expectedCount" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"factor" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

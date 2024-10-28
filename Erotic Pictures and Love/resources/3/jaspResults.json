@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -545,7 +545,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/3/_2_t1720700203315.png",
+									"filePathPng" : "resources/3/_2_t1729673020922.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "",
@@ -576,7 +576,6 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"applyMoreyCorrectionErrorBars" : true,
 								"dependent" : "JaspColumn_5_Encoded",
 								"dependent.types" : 
 								[
@@ -598,7 +597,8 @@
 								],
 								"descriptivePlotSeparatePlot" : "",
 								"descriptivePlotSeparatePlot.types" : [],
-								"descriptivePlotYAxisLabel" : null
+								"descriptivePlotYAxisLabel" : null,
+								"normalizeErrorBarsDescriptives" : true
 							},
 							"optionMustContain" : {},
 							"order_increment" : 1,
@@ -2108,17 +2108,14 @@
 		{
 			"barPlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"barPlotSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"contrasts" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"customContrasts" : 
@@ -2127,91 +2124,73 @@
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparateLines" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparatePlot" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"fixedFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"kruskalWallisFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"marginalMeanTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"postHocTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"randomFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"restrictedMarginalMeanTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectFactor" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectModeratorFactorOne" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectModeratorFactorTwo" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"wlsWeights" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
-		"applyMoreyCorrectionErrorBars" : true,
 		"barPlotCiInterval" : 0.94999999999999996,
 		"barPlotErrorBarType" : "ci",
 		"barPlotErrorBars" : false,
@@ -2347,6 +2326,7 @@
 			"nominal",
 			"unknown"
 		],
+		"normalizeErrorBarsDescriptives" : true,
 		"plotHeight" : 320,
 		"plotHeightDescriptivesPlotLegend" : 300,
 		"plotHeightDescriptivesPlotNoLegend" : 300,

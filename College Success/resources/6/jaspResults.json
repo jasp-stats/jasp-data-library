@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -85,7 +85,6 @@
 							"F",
 							"p",
 							"vovksellke",
-							"",
 							".isNewGroup"
 						],
 						"title" : "colNames",
@@ -226,7 +225,6 @@
 							null,
 							33977640.787750185
 						],
-						[],
 						[
 							false,
 							false,
@@ -398,15 +396,10 @@
 							"t",
 							"p",
 							"lower",
-							"",
 							"upper",
-							"",
 							"tolerance",
-							"",
 							"VIF",
-							"",
 							"vovksellke",
-							"",
 							".isNewGroup"
 						],
 						"title" : "colNames",
@@ -586,7 +579,6 @@
 							-0.00040777320179956192,
 							-0.0015744141399749757
 						],
-						[],
 						[
 							1.1697728370710756,
 							0.23851474800578831,
@@ -599,7 +591,6 @@
 							0.002294958300854045,
 							0.00075871511204478337
 						],
-						[],
 						[
 							null,
 							0.64924537085213485,
@@ -612,7 +603,6 @@
 							0.62608250594290582,
 							0.73127664555651173
 						],
-						[],
 						[
 							null,
 							1.5402497189737365,
@@ -625,7 +615,6 @@
 							1.5972335762583865,
 							1.3674715390903618
 						],
-						[],
 						[
 							2.5890171164866742,
 							7992.6129359708584,
@@ -638,7 +627,6 @@
 							1.2206973356768556,
 							1.0
 						],
-						[],
 						[
 							false,
 							false,
@@ -1243,7 +1231,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_14_t1720524443108.png",
+					"filePathPng" : "resources/6/_14_t1729673262246.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsQQPlot",
@@ -1377,7 +1365,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/6/_9_t1720524442427.png",
+							"filePathPng" : "resources/6/_9_t1729673261591.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "hse",
@@ -1497,7 +1485,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/6/_7_t1720524442157.png",
+							"filePathPng" : "resources/6/_7_t1729673261326.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "hsm",
@@ -1623,7 +1611,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/6/_8_t1720524442291.png",
+							"filePathPng" : "resources/6/_8_t1729673261458.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "hss",
@@ -1745,7 +1733,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/6/_10_t1720524442561.png",
+							"filePathPng" : "resources/6/_10_t1729673261724.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "satm",
@@ -1869,7 +1857,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/6/_11_t1720524442696.png",
+							"filePathPng" : "resources/6/_11_t1729673261860.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "satv",
@@ -2005,7 +1993,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_13_t1720524442976.png",
+					"filePathPng" : "resources/6/_13_t1729673262121.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsHistPlot",
@@ -2131,7 +2119,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_12_t1720524442842.png",
+					"filePathPng" : "resources/6/_12_t1729673261990.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsPredPlot",
@@ -2226,15 +2214,10 @@
 							"df2",
 							"p",
 							"AIC",
-							"",
 							"BIC",
-							"",
 							"Fc",
-							"",
 							"DW_ac",
-							"",
 							"DW",
-							"",
 							"DW_p"
 						],
 						"title" : "colNames",
@@ -2362,27 +2345,22 @@
 							481.75497367164377,
 							483.81047130447081
 						],
-						[],
 						[
 							498.81320393091897,
 							507.69199366745607
 						],
-						[],
 						[
 							18.860593981138042,
 							0.95032758194881584
 						],
-						[],
 						[
 							null,
 							null
 						],
-						[],
 						[
 							null,
 							null
 						],
-						[],
 						[
 							null,
 							null
@@ -2542,7 +2520,13 @@
 							]
 						],
 						"name" : "model0",
-						"title" : "Model 0"
+						"title" : "Model 0",
+						"types" : 
+						[
+							"scale",
+							"scale",
+							"scale"
+						]
 					},
 					{
 						"components" : 
@@ -2564,7 +2548,15 @@
 							]
 						],
 						"name" : "model1",
-						"title" : "Model 1"
+						"title" : "Model 1",
+						"types" : 
+						[
+							"scale",
+							"scale",
+							"scale",
+							"scale",
+							"scale"
+						]
 					}
 				],
 				"naAction" : "listwise",
@@ -2603,17 +2595,14 @@
 		{
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"factors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
@@ -2626,7 +2615,6 @@
 			},
 			"weights" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -2693,7 +2681,13 @@
 					]
 				],
 				"name" : "model0",
-				"title" : "Model 0"
+				"title" : "Model 0",
+				"types" : 
+				[
+					"scale",
+					"scale",
+					"scale"
+				]
 			},
 			{
 				"components" : 
@@ -2715,7 +2709,15 @@
 					]
 				],
 				"name" : "model1",
-				"title" : "Model 1"
+				"title" : "Model 1",
+				"types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale"
+				]
 			}
 		],
 		"naAction" : "listwise",

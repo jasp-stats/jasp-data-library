@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -332,7 +332,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_3_t1720524402650.png",
+							"filePathPng" : "resources/0/_3_t1729673221119.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "bfRobustnessPlot",
@@ -466,7 +466,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_2_t1720524402380.png",
+							"filePathPng" : "resources/0/_2_t1729673220913.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "bfSequentialPlot",
@@ -505,7 +505,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1720524402020.png",
+							"filePathPng" : "resources/0/_1_t1729673220530.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "priorPosteriorPlot",
@@ -634,7 +634,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1720524401836.png",
+							"filePathPng" : "resources/0/_0_t1729673220352.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "scatterPlot",
@@ -785,7 +785,6 @@
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

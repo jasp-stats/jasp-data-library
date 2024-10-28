@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -419,7 +419,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1720700249547.png",
+							"filePathPng" : "resources/1/_0_t1729673068936.png",
 							"height" : 300,
 							"messages" : [],
 							"name" : "",
@@ -673,19 +673,19 @@
 					0.80000000000000004
 				],
 				[
-					1.0,
-					0.99582404970043648,
-					0.10874976546678303
+					0.99999999999999345,
+					0.9958319447417151,
+					0.095463491057472247
 				],
 				[
-					0.0,
-					0.0041759502995635245,
-					0.89125023453321695
+					6.5503158452884236e-15,
+					0.0041680552582848973,
+					0.90453650894252779
 				],
 				[
-					"\u221e",
-					158.97763435299518,
-					0.48807736033299148
+					101776262765434.22,
+					159.28002917944153,
+					0.42215428615071093
 				]
 			],
 			"error" : false,
@@ -998,30 +998,30 @@
 					0.20000000000000001
 				],
 				[
-					1.0968882174295972e-40,
-					0.88707428423365342,
-					0.10874976546678303,
-					0.0041759502995675508,
-					8.910917604407334e-39
+					1.0948144432835961e-40,
+					0.9003684536842429,
+					0.095463491057472247,
+					0.0041680552582783652,
+					8.8940706456639276e-39
 				],
 				[
-					4.3875528697184051e-40,
-					31.421515576453981,
-					0.48807736033298799,
-					0.016773847953657096,
-					3.5643670417629472e-38
+					4.3792577731344006e-40,
+					36.14792651439172,
+					0.42215428615071321,
+					0.016742002625189489,
+					3.5576282582655846e-38
 				],
 				[
 					1.0,
-					8.0871894705222279e+39,
-					9.9143890634200421e+38,
+					8.223936569413847e+39,
+					8.7196046456197311e+38,
 					3.8070883005319373e+37,
 					81.238155928858944
 				],
 				[
 					"",
-					1.1490113485621953,
-					16.233424642366607,
+					1.6076702072834366,
+					2.5911307059057442,
 					1.7086085461376179e-43,
 					0.0027001407407947499
 				]
@@ -1234,72 +1234,58 @@
 		{
 			"barPlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"barPlotSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"customPriorSpecification" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparateLines" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparatePlot" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"fixedFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"postHocTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"randomFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"singleModelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

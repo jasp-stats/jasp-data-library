@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -180,7 +180,7 @@
 							"BF\u208a\u2080 Independent multinomial"
 						],
 						[
-							0.55086665834164716
+							0.55262928321677207
 						],
 						[
 							"N"
@@ -336,7 +336,6 @@
 							"Blood Poisoning[counts]",
 							"total[counts]",
 							"type[counts]",
-							"",
 							".isNewGroup"
 						],
 						"title" : "colNames",
@@ -443,7 +442,6 @@
 							"Count",
 							"Count"
 						],
-						[],
 						[
 							true,
 							null,
@@ -639,7 +637,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1720524709730.png",
+							"filePathPng" : "resources/0/_0_t1729673582249.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "plot",
@@ -736,12 +734,10 @@
 		{
 			"columns" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"counts" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"layers" : 
@@ -750,7 +746,6 @@
 			},
 			"rows" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

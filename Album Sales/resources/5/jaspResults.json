@@ -1,14 +1,14 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
 		"adverts_airplay" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_4",
+			"environmentName" : "state_5",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -43,7 +43,7 @@
 		"adverts_attract" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_5",
+			"environmentName" : "state_6",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -78,7 +78,7 @@
 		"airplay_attract" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_6",
+			"environmentName" : "state_7",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -119,11 +119,11 @@
 				"errorType" : "validationError",
 				"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
 			},
-			"environmentName" : "plot_0",
+			"environmentName" : "plot_3",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/5/_0_t1720524409146.png",
+			"filePathPng" : "resources/5/_3_t1729673226570.png",
 			"height" : 1020,
 			"messages" : [],
 			"name" : "corrPlot",
@@ -1113,7 +1113,7 @@
 		"results" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_7",
+			"environmentName" : "state_8",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -1156,7 +1156,7 @@
 		"sales_adverts" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_1",
+			"environmentName" : "state_2",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -1191,7 +1191,7 @@
 		"sales_airplay" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_2",
+			"environmentName" : "state_3",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -1226,7 +1226,7 @@
 		"sales_attract" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_3",
+			"environmentName" : "state_4",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -1287,12 +1287,10 @@
 		{
 			"partialOutVariables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

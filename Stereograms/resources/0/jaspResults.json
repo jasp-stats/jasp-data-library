@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -26,48 +26,70 @@
 								{
 									"settings" : 
 									{
-										"breaks" : 
-										[
-											0,
-											10,
-											20,
-											30,
-											40,
-											50
-										],
-										"breaksType" : "range",
-										"expand" : 
-										[
-											0.050000000000000003,
-											0,
-											0.050000000000000003,
-											0
-										],
 										"labels" : 
 										[
-											0,
-											10,
-											20,
-											30,
-											40,
-											50
+											"1",
+											"1.1",
+											"1.2",
+											"1.4",
+											"1.6",
+											"1.7",
+											"1.8",
+											"1.9",
+											"2",
+											"2.1",
+											"2.3",
+											"2.4",
+											"2.7",
+											"2.8",
+											"2.9",
+											"3.1",
+											"3.3",
+											"3.4",
+											"3.5",
+											"3.6",
+											"3.8",
+											"3.9",
+											"4.2",
+											"4.3",
+											"4.6",
+											"4.7",
+											"4.9",
+											"5.6",
+											"5.9",
+											"6",
+											"6.1",
+											"6.3",
+											"6.9",
+											"7.4",
+											"7.8",
+											"7.9",
+											"8.09999",
+											"8.4",
+											"8.6",
+											"8.9",
+											"9.1",
+											"9.5",
+											"9.7",
+											"10.3",
+											"12.20001",
+											"12.3",
+											"13",
+											"13.39999",
+											"14.7",
+											"15.40002",
+											"15.9",
+											"16.19998",
+											"17.4",
+											"19.70001",
+											"20.39999",
+											"21.99998",
+											"47.20001"
 										],
-										"limits" : 
-										[
-											0,
-											50
-										],
-										"limitsType" : "breaks",
-										"range" : 
-										[
-											0,
-											50,
-											10
-										],
-										"title" : "JaspColumn_1_Encoded",
+										"title" : "JaspColumn_7_Encoded",
 										"titleType" : "character"
 									},
-									"type" : "ScaleContinuous"
+									"type" : "ScaleDiscrete"
 								},
 								"yAxis" : 
 								{
@@ -76,12 +98,12 @@
 										"breaks" : 
 										[
 											0,
-											5,
-											10,
-											15,
-											20
+											0.5,
+											1,
+											1.5,
+											2
 										],
-										"breaksType" : "range",
+										"breaksType" : "manual",
 										"expand" : 
 										[
 											0.050000000000000003,
@@ -91,23 +113,23 @@
 										],
 										"labels" : 
 										[
-											"0",
-											"5",
-											"10",
-											"15",
-											"20"
+											"0.0",
+											"0.5",
+											"1.0",
+											"1.5",
+											"2.0"
 										],
 										"limits" : 
 										[
 											0,
-											20
+											2
 										],
-										"limitsType" : "breaks",
+										"limitsType" : "data",
 										"range" : 
 										[
 											0,
-											20,
-											5
+											2,
+											0.5
 										],
 										"title" : "Counts",
 										"titleType" : "character"
@@ -119,7 +141,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1720517203202.png",
+							"filePathPng" : "resources/0/_0_t1729672941712.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "NV",
@@ -127,15 +149,11 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"splitBy" : "JaspColumn_2_Encoded",
-								"splitBy.types" : 
-								[
-									"nominal"
-								]
+								"splitBy" : "JaspColumn_12_Encoded"
 							},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_1_Encoded"
+								"variables" : "JaspColumn_7_Encoded"
 							},
 							"position" : 9999,
 							"resizedByUser" : false,
@@ -156,46 +174,70 @@
 								{
 									"settings" : 
 									{
-										"breaks" : 
-										[
-											0,
-											5,
-											10,
-											15,
-											20
-										],
-										"breaksType" : "range",
-										"expand" : 
-										[
-											0.050000000000000003,
-											0,
-											0.050000000000000003,
-											0
-										],
 										"labels" : 
 										[
-											0,
-											5,
-											10,
-											15,
-											20
+											"1",
+											"1.1",
+											"1.2",
+											"1.4",
+											"1.6",
+											"1.7",
+											"1.8",
+											"1.9",
+											"2",
+											"2.1",
+											"2.3",
+											"2.4",
+											"2.7",
+											"2.8",
+											"2.9",
+											"3.1",
+											"3.3",
+											"3.4",
+											"3.5",
+											"3.6",
+											"3.8",
+											"3.9",
+											"4.2",
+											"4.3",
+											"4.6",
+											"4.7",
+											"4.9",
+											"5.6",
+											"5.9",
+											"6",
+											"6.1",
+											"6.3",
+											"6.9",
+											"7.4",
+											"7.8",
+											"7.9",
+											"8.09999",
+											"8.4",
+											"8.6",
+											"8.9",
+											"9.1",
+											"9.5",
+											"9.7",
+											"10.3",
+											"12.20001",
+											"12.3",
+											"13",
+											"13.39999",
+											"14.7",
+											"15.40002",
+											"15.9",
+											"16.19998",
+											"17.4",
+											"19.70001",
+											"20.39999",
+											"21.99998",
+											"47.20001"
 										],
-										"limits" : 
-										[
-											0,
-											20
-										],
-										"limitsType" : "breaks",
-										"range" : 
-										[
-											0,
-											20,
-											5
-										],
-										"title" : "JaspColumn_1_Encoded",
+										"title" : "JaspColumn_7_Encoded",
 										"titleType" : "character"
 									},
-									"type" : "ScaleContinuous"
+									"type" : "ScaleDiscrete"
 								},
 								"yAxis" : 
 								{
@@ -204,13 +246,12 @@
 										"breaks" : 
 										[
 											0,
-											2,
-											4,
-											6,
-											8,
-											10
+											0.5,
+											1,
+											1.5,
+											2
 										],
-										"breaksType" : "range",
+										"breaksType" : "manual",
 										"expand" : 
 										[
 											0.050000000000000003,
@@ -220,24 +261,23 @@
 										],
 										"labels" : 
 										[
-											"0",
-											"2",
-											"4",
-											"6",
-											"8",
-											"10"
+											"0.0",
+											"0.5",
+											"1.0",
+											"1.5",
+											"2.0"
 										],
 										"limits" : 
 										[
 											0,
-											10
+											2
 										],
-										"limitsType" : "breaks",
+										"limitsType" : "data",
 										"range" : 
 										[
 											0,
-											10,
-											2
+											2,
+											0.5
 										],
 										"title" : "Counts",
 										"titleType" : "character"
@@ -249,7 +289,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1720517203363.png",
+							"filePathPng" : "resources/0/_1_t1729672941881.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "VV",
@@ -257,15 +297,11 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"splitBy" : "JaspColumn_2_Encoded",
-								"splitBy.types" : 
-								[
-									"nominal"
-								]
+								"splitBy" : "JaspColumn_12_Encoded"
 							},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_1_Encoded"
+								"variables" : "JaspColumn_7_Encoded"
 							},
 							"position" : 9999,
 							"resizedByUser" : false,
@@ -291,19 +327,15 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"splitBy" : "JaspColumn_2_Encoded",
-						"splitBy.types" : 
-						[
-							"nominal"
-						]
+						"splitBy" : "JaspColumn_12_Encoded"
 					},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_1_Encoded"
+						"variables" : "JaspColumn_7_Encoded"
 					},
 					"order_increment" : 2,
 					"position" : 9999,
-					"title" : "JaspColumn_1_Encoded",
+					"title" : "JaspColumn_7_Encoded",
 					"type" : "container"
 				},
 				"logFuseTime" : 
@@ -322,52 +354,70 @@
 								{
 									"settings" : 
 									{
-										"breaks" : 
-										[
-											0.5,
-											1,
-											1.5,
-											2,
-											2.5,
-											3,
-											3.5,
-											4
-										],
-										"breaksType" : "range",
-										"expand" : 
-										[
-											0.050000000000000003,
-											0,
-											0.050000000000000003,
-											0
-										],
 										"labels" : 
 										[
-											0.5,
-											1,
-											1.5,
-											2,
-											2.5,
-											3,
-											3.5,
-											4
+											"0",
+											"0.0953101798",
+											"0.1823215568",
+											"0.3364722366",
+											"0.4700036292",
+											"0.5306282511",
+											"0.5877866649",
+											"0.6418538862",
+											"0.6931471806",
+											"0.7419373447",
+											"0.8329091229",
+											"0.8754687374",
+											"0.993251773",
+											"1.029619417",
+											"1.064710737",
+											"1.131402111",
+											"1.193922468",
+											"1.223775432",
+											"1.252762968",
+											"1.280933845",
+											"1.335001067",
+											"1.360976553",
+											"1.435084525",
+											"1.458615023",
+											"1.526056303",
+											"1.547562509",
+											"1.589235205",
+											"1.722766598",
+											"1.774952351",
+											"1.791759469",
+											"1.808288771",
+											"1.840549633",
+											"1.931521412",
+											"2.00148",
+											"2.054123734",
+											"2.066862759",
+											"2.091862827",
+											"2.128231706",
+											"2.151762203",
+											"2.186051277",
+											"2.208274414",
+											"2.251291799",
+											"2.272125886",
+											"2.332143895",
+											"2.501436771",
+											"2.509599262",
+											"2.564949357",
+											"2.595253961",
+											"2.687847494",
+											"2.734368808",
+											"2.766319109",
+											"2.785010008",
+											"2.856470206",
+											"2.980619143",
+											"3.015534411",
+											"3.091041544",
+											"3.854394104"
 										],
-										"limits" : 
-										[
-											0.5,
-											4
-										],
-										"limitsType" : "breaks",
-										"range" : 
-										[
-											0.5,
-											4,
-											0.5
-										],
-										"title" : "JaspColumn_3_Encoded",
+										"title" : "JaspColumn_13_Encoded",
 										"titleType" : "character"
 									},
-									"type" : "ScaleContinuous"
+									"type" : "ScaleDiscrete"
 								},
 								"yAxis" : 
 								{
@@ -376,14 +426,12 @@
 										"breaks" : 
 										[
 											0,
-											2,
-											4,
-											6,
-											8,
-											10,
-											12
+											0.5,
+											1,
+											1.5,
+											2
 										],
-										"breaksType" : "range",
+										"breaksType" : "manual",
 										"expand" : 
 										[
 											0.050000000000000003,
@@ -393,25 +441,23 @@
 										],
 										"labels" : 
 										[
-											"0",
-											"2",
-											"4",
-											"6",
-											"8",
-											"10",
-											"12"
+											"0.0",
+											"0.5",
+											"1.0",
+											"1.5",
+											"2.0"
 										],
 										"limits" : 
 										[
 											0,
-											12
+											2
 										],
-										"limitsType" : "breaks",
+										"limitsType" : "data",
 										"range" : 
 										[
 											0,
-											12,
-											2
+											2,
+											0.5
 										],
 										"title" : "Counts",
 										"titleType" : "character"
@@ -423,7 +469,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_2_t1720517203514.png",
+							"filePathPng" : "resources/0/_2_t1729672942016.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "NV",
@@ -431,15 +477,11 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"splitBy" : "JaspColumn_2_Encoded",
-								"splitBy.types" : 
-								[
-									"nominal"
-								]
+								"splitBy" : "JaspColumn_12_Encoded"
 							},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_3_Encoded"
+								"variables" : "JaspColumn_13_Encoded"
 							},
 							"position" : 9999,
 							"resizedByUser" : false,
@@ -460,50 +502,70 @@
 								{
 									"settings" : 
 									{
-										"breaks" : 
-										[
-											0,
-											0.5,
-											1,
-											1.5,
-											2,
-											2.5,
-											3
-										],
-										"breaksType" : "range",
-										"expand" : 
-										[
-											0.050000000000000003,
-											0,
-											0.050000000000000003,
-											0
-										],
 										"labels" : 
 										[
-											0,
-											0.5,
-											1,
-											1.5,
-											2,
-											2.5,
-											3
+											"0",
+											"0.0953101798",
+											"0.1823215568",
+											"0.3364722366",
+											"0.4700036292",
+											"0.5306282511",
+											"0.5877866649",
+											"0.6418538862",
+											"0.6931471806",
+											"0.7419373447",
+											"0.8329091229",
+											"0.8754687374",
+											"0.993251773",
+											"1.029619417",
+											"1.064710737",
+											"1.131402111",
+											"1.193922468",
+											"1.223775432",
+											"1.252762968",
+											"1.280933845",
+											"1.335001067",
+											"1.360976553",
+											"1.435084525",
+											"1.458615023",
+											"1.526056303",
+											"1.547562509",
+											"1.589235205",
+											"1.722766598",
+											"1.774952351",
+											"1.791759469",
+											"1.808288771",
+											"1.840549633",
+											"1.931521412",
+											"2.00148",
+											"2.054123734",
+											"2.066862759",
+											"2.091862827",
+											"2.128231706",
+											"2.151762203",
+											"2.186051277",
+											"2.208274414",
+											"2.251291799",
+											"2.272125886",
+											"2.332143895",
+											"2.501436771",
+											"2.509599262",
+											"2.564949357",
+											"2.595253961",
+											"2.687847494",
+											"2.734368808",
+											"2.766319109",
+											"2.785010008",
+											"2.856470206",
+											"2.980619143",
+											"3.015534411",
+											"3.091041544",
+											"3.854394104"
 										],
-										"limits" : 
-										[
-											0,
-											3
-										],
-										"limitsType" : "breaks",
-										"range" : 
-										[
-											0,
-											3,
-											0.5
-										],
-										"title" : "JaspColumn_3_Encoded",
+										"title" : "JaspColumn_13_Encoded",
 										"titleType" : "character"
 									},
-									"type" : "ScaleContinuous"
+									"type" : "ScaleDiscrete"
 								},
 								"yAxis" : 
 								{
@@ -512,15 +574,12 @@
 										"breaks" : 
 										[
 											0,
+											0.5,
 											1,
-											2,
-											3,
-											4,
-											5,
-											6,
-											7
+											1.5,
+											2
 										],
-										"breaksType" : "range",
+										"breaksType" : "manual",
 										"expand" : 
 										[
 											0.050000000000000003,
@@ -530,26 +589,23 @@
 										],
 										"labels" : 
 										[
-											"0",
-											"1",
-											"2",
-											"3",
-											"4",
-											"5",
-											"6",
-											"7"
+											"0.0",
+											"0.5",
+											"1.0",
+											"1.5",
+											"2.0"
 										],
 										"limits" : 
 										[
 											0,
-											7
+											2
 										],
-										"limitsType" : "breaks",
+										"limitsType" : "data",
 										"range" : 
 										[
 											0,
-											7,
-											1
+											2,
+											0.5
 										],
 										"title" : "Counts",
 										"titleType" : "character"
@@ -561,7 +617,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_3_t1720517203620.png",
+							"filePathPng" : "resources/0/_3_t1729672942127.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "VV",
@@ -569,15 +625,11 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"splitBy" : "JaspColumn_2_Encoded",
-								"splitBy.types" : 
-								[
-									"nominal"
-								]
+								"splitBy" : "JaspColumn_12_Encoded"
 							},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_3_Encoded"
+								"variables" : "JaspColumn_13_Encoded"
 							},
 							"position" : 9999,
 							"resizedByUser" : false,
@@ -603,19 +655,15 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"splitBy" : "JaspColumn_2_Encoded",
-						"splitBy.types" : 
-						[
-							"nominal"
-						]
+						"splitBy" : "JaspColumn_12_Encoded"
 					},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_3_Encoded"
+						"variables" : "JaspColumn_13_Encoded"
 					},
 					"order_increment" : 2,
 					"position" : 9999,
-					"title" : "JaspColumn_3_Encoded",
+					"title" : "JaspColumn_13_Encoded",
 					"type" : "container"
 				}
 			},
@@ -639,20 +687,11 @@
 				"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 				"distributionAndCorrelationPlotRugMarks" : false,
 				"distributionPlots" : true,
-				"splitBy" : "JaspColumn_2_Encoded",
-				"splitBy.types" : 
-				[
-					"nominal"
-				],
+				"splitBy" : "JaspColumn_12_Encoded",
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_3_Encoded"
-				],
-				"variables.types" : 
-				[
-					"scale",
-					"scale"
+					"JaspColumn_7_Encoded",
+					"JaspColumn_13_Encoded"
 				]
 			},
 			"optionMustContain" : {},
@@ -818,10 +857,10 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_7_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_13_Encoded",
+					"JaspColumn_13_Encoded"
 				],
 				[
 					"NV",
@@ -903,29 +942,22 @@
 				"sd" : true,
 				"sdCi" : false,
 				"sdCiLevel" : 0.94999999999999996,
+				"sdCiMethod" : "chiSquaredModel",
 				"seMean" : false,
 				"shapiroWilkTest" : false,
 				"skewness" : false,
-				"splitBy" : "JaspColumn_2_Encoded",
-				"splitBy.types" : 
-				[
-					"nominal"
-				],
+				"splitBy" : "JaspColumn_12_Encoded",
 				"sum" : false,
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_3_Encoded"
-				],
-				"variables.types" : 
-				[
-					"scale",
-					"scale"
+					"JaspColumn_7_Encoded",
+					"JaspColumn_13_Encoded"
 				],
 				"variance" : false,
 				"varianceCi" : false,
-				"varianceCiLevel" : 0.94999999999999996
+				"varianceCiLevel" : 0.94999999999999996,
+				"varianceCiMethod" : "chiSquaredModel"
 			},
 			"optionMustContain" : {},
 			"position" : 1,
@@ -946,10 +978,10 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_1_Encoded1",
-					"JaspColumn_1_Encoded2",
-					"JaspColumn_3_Encoded1",
-					"JaspColumn_3_Encoded2"
+					"JaspColumn_7_Encoded1",
+					"JaspColumn_7_Encoded2",
+					"JaspColumn_13_Encoded1",
+					"JaspColumn_13_Encoded2"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -1013,27 +1045,22 @@
 		{
 			"densityPlotSeparate" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"heatmapHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"heatmapVerticalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"splitBy" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -1053,7 +1080,6 @@
 		"customHistogramPosition" : "stack",
 		"densityPlot" : false,
 		"densityPlotSeparate" : "",
-		"densityPlotSeparate.types" : [],
 		"densityPlotTransparency" : 20.0,
 		"densityPlotType" : "density",
 		"descriptivesTableTransposed" : false,
@@ -1068,14 +1094,12 @@
 		"heatmapDisplayValue" : false,
 		"heatmapDisplayValueRelativeTextSize" : 1.0,
 		"heatmapHorizontalAxis" : "",
-		"heatmapHorizontalAxis.types" : [],
 		"heatmapLegend" : false,
 		"heatmapPlot" : false,
 		"heatmapStatisticContinuous" : "mean",
 		"heatmapStatisticDiscrete" : "mode",
 		"heatmapTileWidthHeightRatio" : 1.0,
 		"heatmapVerticalAxis" : "",
-		"heatmapVerticalAxis.types" : [],
 		"intervalPlot" : false,
 		"iqr" : false,
 		"kurtosis" : false,
@@ -1117,14 +1141,11 @@
 		"sd" : true,
 		"sdCi" : false,
 		"sdCiLevel" : 0.94999999999999996,
+		"sdCiMethod" : "chiSquaredModel",
 		"seMean" : false,
 		"shapiroWilkTest" : false,
 		"skewness" : false,
-		"splitBy" : "JaspColumn_2_Encoded",
-		"splitBy.types" : 
-		[
-			"nominal"
-		],
+		"splitBy" : "JaspColumn_12_Encoded",
 		"statisticsValuesAreGroupMidpoints" : false,
 		"stemAndLeaf" : false,
 		"stemAndLeafScale" : 1.0,
@@ -1132,17 +1153,13 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_1_Encoded",
-			"JaspColumn_3_Encoded"
-		],
-		"variables.types" : 
-		[
-			"scale",
-			"scale"
+			"JaspColumn_7_Encoded",
+			"JaspColumn_13_Encoded"
 		],
 		"variance" : false,
 		"varianceCi" : false,
-		"varianceCiLevel" : 0.94999999999999996
+		"varianceCiLevel" : 0.94999999999999996,
+		"varianceCiMethod" : "chiSquaredModel"
 	},
 	"order_increment" : 2,
 	"position" : 9999,

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software].",
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software].",
 		"Revelle, W. (2018) psych: Procedures for Personality and Psychological Research, Northwestern University, Evanston, Illinois, USA, https://CRAN.R-project.org/package=psych Version = 1.8.12."
 	],
 	"data" : 
@@ -849,7 +849,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_2_t1720789905908.png",
+					"filePathPng" : "resources/3/_2_t1729867647681.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "scree",
@@ -891,6 +891,7 @@
 			{
 				"analysisBasedOn" : "correlationMatrix",
 				"componentCountMethod" : "parallelAnalysis",
+				"dataType" : "raw",
 				"eigenValuesAbove" : 1.0,
 				"manualNumberOfComponents" : 1,
 				"naAction" : "pairwise",
@@ -898,6 +899,7 @@
 				"orthogonalSelector" : "none",
 				"parallelAnalysisMethod" : "principalComponentBased",
 				"rotationMethod" : "oblique",
+				"sampleSize" : 200,
 				"variables" : 
 				[
 					"JaspColumn_10_Encoded",
@@ -946,7 +948,6 @@
 		{
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -957,6 +958,7 @@
 		"componentCorrelations" : false,
 		"componentCountMethod" : "parallelAnalysis",
 		"componentLoadingsOrder" : "sortByComponentSize",
+		"dataType" : "raw",
 		"eigenValuesAbove" : 1.0,
 		"kaiserMeyerOlkinTest" : false,
 		"loadingsDisplayLimit" : 0.20999999999999999,
@@ -974,6 +976,7 @@
 		"plotWidth" : 480,
 		"residualMatrix" : false,
 		"rotationMethod" : "oblique",
+		"sampleSize" : 200,
 		"screePlot" : true,
 		"screePlotParallelAnalysisResults" : true,
 		"variables" : 

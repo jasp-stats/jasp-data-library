@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -141,9 +141,9 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded"
 				],
 				[
 					270,
@@ -193,28 +193,23 @@
 				"sd" : false,
 				"sdCi" : false,
 				"sdCiLevel" : 0.94999999999999996,
+				"sdCiMethod" : "chiSquaredModel",
 				"seMean" : false,
 				"shapiroWilkTest" : false,
 				"skewness" : false,
 				"splitBy" : "",
-				"splitBy.types" : [],
 				"sum" : false,
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded"
-				],
-				"variables.types" : 
-				[
-					"nominal",
-					"nominal",
-					"nominal"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded"
 				],
 				"variance" : false,
 				"varianceCi" : false,
-				"varianceCiLevel" : 0.94999999999999996
+				"varianceCiLevel" : 0.94999999999999996,
+				"varianceCiMethod" : "chiSquaredModel"
 			},
 			"optionMustContain" : {},
 			"position" : 1,
@@ -235,9 +230,9 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -381,7 +376,7 @@
 						{
 							"Cumulative Percent" : "Cumulative Percent",
 							"Frequency" : "Frequency",
-							"Level" : "JaspColumn_0_Encoded",
+							"Level" : "JaspColumn_5_Encoded",
 							"Percent" : "Percent",
 							"Valid Percent" : "Valid Percent"
 						},
@@ -469,7 +464,7 @@
 					"optionMustBe" : {},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_0_Encoded"
+						"variables" : "JaspColumn_5_Encoded"
 					},
 					"position" : 9999,
 					"rowNames" : 
@@ -520,7 +515,7 @@
 						"Valid Percent"
 					],
 					"status" : "complete",
-					"title" : "Frequencies for JaspColumn_0_Encoded",
+					"title" : "Frequencies for JaspColumn_5_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -627,7 +622,7 @@
 						{
 							"Cumulative Percent" : "Cumulative Percent",
 							"Frequency" : "Frequency",
-							"Level" : "JaspColumn_2_Encoded",
+							"Level" : "JaspColumn_11_Encoded",
 							"Percent" : "Percent",
 							"Valid Percent" : "Valid Percent"
 						},
@@ -715,7 +710,7 @@
 					"optionMustBe" : {},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_2_Encoded"
+						"variables" : "JaspColumn_11_Encoded"
 					},
 					"position" : 9999,
 					"rowNames" : 
@@ -766,7 +761,7 @@
 						"Valid Percent"
 					],
 					"status" : "complete",
-					"title" : "Frequencies for JaspColumn_2_Encoded",
+					"title" : "Frequencies for JaspColumn_11_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -873,7 +868,7 @@
 						{
 							"Cumulative Percent" : "Cumulative Percent",
 							"Frequency" : "Frequency",
-							"Level" : "JaspColumn_1_Encoded",
+							"Level" : "JaspColumn_8_Encoded",
 							"Percent" : "Percent",
 							"Valid Percent" : "Valid Percent"
 						},
@@ -961,7 +956,7 @@
 					"optionMustBe" : {},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_1_Encoded"
+						"variables" : "JaspColumn_8_Encoded"
 					},
 					"position" : 9999,
 					"rowNames" : 
@@ -1012,7 +1007,7 @@
 						"Valid Percent"
 					],
 					"status" : "complete",
-					"title" : "Frequencies for JaspColumn_1_Encoded",
+					"title" : "Frequencies for JaspColumn_8_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -1036,8 +1031,7 @@
 			{
 				"frequencyTables" : true,
 				"frequencyTablesMaximumDistinctValues" : 10,
-				"splitBy" : "",
-				"splitBy.types" : []
+				"splitBy" : ""
 			},
 			"optionMustContain" : {},
 			"order_increment" : 3,
@@ -1067,27 +1061,22 @@
 		{
 			"densityPlotSeparate" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"heatmapHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"heatmapVerticalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"splitBy" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -1107,7 +1096,6 @@
 		"customHistogramPosition" : "stack",
 		"densityPlot" : false,
 		"densityPlotSeparate" : "",
-		"densityPlotSeparate.types" : [],
 		"densityPlotTransparency" : 20.0,
 		"densityPlotType" : "density",
 		"descriptivesTableTransposed" : false,
@@ -1122,14 +1110,12 @@
 		"heatmapDisplayValue" : false,
 		"heatmapDisplayValueRelativeTextSize" : 1.0,
 		"heatmapHorizontalAxis" : "",
-		"heatmapHorizontalAxis.types" : [],
 		"heatmapLegend" : false,
 		"heatmapPlot" : false,
 		"heatmapStatisticContinuous" : "mean",
 		"heatmapStatisticDiscrete" : "mode",
 		"heatmapTileWidthHeightRatio" : 1.0,
 		"heatmapVerticalAxis" : "",
-		"heatmapVerticalAxis.types" : [],
 		"intervalPlot" : false,
 		"iqr" : false,
 		"kurtosis" : false,
@@ -1171,11 +1157,11 @@
 		"sd" : false,
 		"sdCi" : false,
 		"sdCiLevel" : 0.94999999999999996,
+		"sdCiMethod" : "chiSquaredModel",
 		"seMean" : false,
 		"shapiroWilkTest" : false,
 		"skewness" : false,
 		"splitBy" : "",
-		"splitBy.types" : [],
 		"statisticsValuesAreGroupMidpoints" : false,
 		"stemAndLeaf" : false,
 		"stemAndLeafScale" : 1.0,
@@ -1183,19 +1169,14 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_0_Encoded",
-			"JaspColumn_1_Encoded",
-			"JaspColumn_2_Encoded"
-		],
-		"variables.types" : 
-		[
-			"nominal",
-			"nominal",
-			"nominal"
+			"JaspColumn_5_Encoded",
+			"JaspColumn_8_Encoded",
+			"JaspColumn_11_Encoded"
 		],
 		"variance" : false,
 		"varianceCi" : false,
-		"varianceCiLevel" : 0.94999999999999996
+		"varianceCiLevel" : 0.94999999999999996,
+		"varianceCiMethod" : "chiSquaredModel"
 	},
 	"order_increment" : 2,
 	"position" : 9999,

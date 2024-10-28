@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -769,7 +769,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1720700242356.png",
+							"filePathPng" : "resources/1/_0_t1729673060944.png",
 							"height" : 300,
 							"messages" : [],
 							"name" : "qqPlot",
@@ -893,7 +893,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_1_t1720700242642.png",
+									"filePathPng" : "resources/1/_1_t1729673061223.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "",
@@ -924,7 +924,6 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"applyMoreyCorrectionErrorBars" : true,
 								"dependent" : "JaspColumn_2_Encoded",
 								"dependent.types" : 
 								[
@@ -943,7 +942,8 @@
 								"descriptivePlotSeparateLines.types" : [],
 								"descriptivePlotSeparatePlot" : "",
 								"descriptivePlotSeparatePlot.types" : [],
-								"descriptivePlotYAxisLabel" : null
+								"descriptivePlotYAxisLabel" : null,
+								"normalizeErrorBarsDescriptives" : true
 							},
 							"optionMustContain" : {},
 							"order_increment" : 1,
@@ -1444,10 +1444,10 @@
 									0.039200052392588634
 								],
 								[
-									0.010342166108012123
+									0.0094567281556340414
 								],
 								[
-									0.13390938361629412
+									0.11826666999119965
 								],
 								[
 									0.025978034764963704
@@ -1456,7 +1456,7 @@
 									0.0
 								],
 								[
-									0.10510087583711127
+									0.09699585394434046
 								]
 							],
 							"error" : false,
@@ -1719,17 +1719,14 @@
 		{
 			"barPlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"barPlotSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"contrasts" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"customContrasts" : 
@@ -1738,91 +1735,73 @@
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparateLines" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparatePlot" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"fixedFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"kruskalWallisFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"marginalMeanTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"postHocTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"randomFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"restrictedMarginalMeanTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectFactor" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectModeratorFactorOne" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectModeratorFactorTwo" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"wlsWeights" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
-		"applyMoreyCorrectionErrorBars" : true,
 		"barPlotCiInterval" : 0.94999999999999996,
 		"barPlotErrorBarType" : "ci",
 		"barPlotErrorBars" : false,
@@ -1918,6 +1897,7 @@
 		[
 			"nominal"
 		],
+		"normalizeErrorBarsDescriptives" : true,
 		"plotHeight" : 320,
 		"plotHeightDescriptivesPlotLegend" : 300,
 		"plotHeightDescriptivesPlotNoLegend" : 300,

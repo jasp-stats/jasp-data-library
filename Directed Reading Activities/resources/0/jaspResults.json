@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -252,10 +252,7 @@
 						"error" : false,
 						"errorMessage" : "",
 						"escapeHtml" : true,
-						"fields" : 
-						{
-							"dep" : true
-						},
+						"fields" : {},
 						"listType" : "bool",
 						"messages" : [],
 						"name" : "",
@@ -309,10 +306,8 @@
 						"rows" : 
 						[
 							"dep",
-							"lev",
 							"W",
-							"p",
-							".isNewGroup"
+							"p"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -346,8 +341,7 @@
 						"fields" : 
 						{
 							"W" : "W",
-							"dep" : "",
-							"lev" : "",
+							"dep" : "Residuals",
 							"p" : "p"
 						},
 						"listType" : "string",
@@ -372,7 +366,6 @@
 						{
 							"W" : "number",
 							"dep" : "string",
-							"lev" : "string",
 							"p" : "pvalue"
 						},
 						"listType" : "string",
@@ -390,24 +383,13 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_3_Encoded",
 							"JaspColumn_3_Encoded"
 						],
 						[
-							"Control",
-							"Treat"
+							0.97338366012372135
 						],
 						[
-							0.97180995997690323,
-							0.96635165521894584
-						],
-						[
-							0.7322303440718323,
-							0.65173408150108303
-						],
-						[
-							true,
-							false
+							0.39606931640601556
 						]
 					],
 					"error" : false,
@@ -448,8 +430,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_3_Encoded-Control",
-							"JaspColumn_3_Encoded-Treat"
+							"JaspColumn_3_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -478,7 +459,6 @@
 					[
 						"W",
 						"dep",
-						"lev",
 						"p"
 					],
 					"status" : "complete",
@@ -610,13 +590,9 @@
 					"d",
 					"effectSizeSe",
 					".isNewGroup",
-					"",
 					"lowerCIlocationParameter",
-					"",
 					"upperCIlocationParameter",
-					"",
 					"lowerCIeffectSize",
-					"",
 					"upperCIeffectSize"
 				],
 				"title" : "colNames",
@@ -750,22 +726,18 @@
 					true,
 					false
 				],
-				[],
 				[
 					"-\u221e",
 					"-\u221e"
 				],
-				[],
 				[
 					-2.5674971236024144,
 					-2.6912933346096009
 				],
-				[],
 				[
 					0.0,
 					0.0
 				],
-				[],
 				[
 					0.0,
 					0.0
@@ -965,7 +937,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1720517169712.png",
+							"filePathPng" : "resources/0/_0_t1729672903945.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "drp",
@@ -1083,9 +1055,7 @@
 							"se",
 							"coefOfVariation",
 							".isNewGroup",
-							"",
 							"meanRank",
-							"",
 							"sumRank"
 						],
 						"title" : "colNames",
@@ -1201,12 +1171,10 @@
 							true,
 							false
 						],
-						[],
 						[
 							17.869565217391305,
 							27.571428571428573
 						],
-						[],
 						[
 							411.0,
 							579.0
@@ -1345,12 +1313,10 @@
 		{
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"group" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

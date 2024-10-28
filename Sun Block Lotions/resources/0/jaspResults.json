@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -111,7 +111,6 @@
 					"lowerCI",
 					"upperCI",
 					".isNewGroup",
-					"",
 					"vovkSellke"
 				],
 				"title" : "colNames",
@@ -237,7 +236,6 @@
 					true,
 					false
 				],
-				[],
 				[
 					1.047128595604045,
 					1.047128595604045
@@ -408,7 +406,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1720524730222.png",
+							"filePathPng" : "resources/0/_0_t1729673607285.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Theirs",
@@ -487,7 +485,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1720524730360.png",
+							"filePathPng" : "resources/0/_1_t1729673607416.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Yours",
@@ -600,7 +598,6 @@
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

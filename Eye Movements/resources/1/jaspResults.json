@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -80,7 +80,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1720517176866.png",
+							"filePathPng" : "resources/1/_0_t1729672911379.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "CriticalRecall",
@@ -494,7 +494,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_1_t1720517177479.png",
+									"filePathPng" : "resources/1/_1_t1729672911998.png",
 									"height" : 400,
 									"messages" : [],
 									"name" : "priorAndPosteriorPlot",
@@ -528,7 +528,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_2_t1720517182158.png",
+									"filePathPng" : "resources/1/_2_t1729672916717.png",
 									"height" : 400,
 									"messages" : [],
 									"name" : "robustnessPlot",
@@ -919,12 +919,10 @@
 		{
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"group" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

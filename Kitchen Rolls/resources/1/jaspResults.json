@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -252,10 +252,7 @@
 						"error" : false,
 						"errorMessage" : "",
 						"escapeHtml" : true,
-						"fields" : 
-						{
-							"dep" : true
-						},
+						"fields" : {},
 						"listType" : "bool",
 						"messages" : [],
 						"name" : "",
@@ -309,10 +306,8 @@
 						"rows" : 
 						[
 							"dep",
-							"lev",
 							"W",
-							"p",
-							".isNewGroup"
+							"p"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -346,8 +341,7 @@
 						"fields" : 
 						{
 							"W" : "W",
-							"dep" : "",
-							"lev" : "",
+							"dep" : "Residuals",
 							"p" : "p"
 						},
 						"listType" : "string",
@@ -372,7 +366,6 @@
 						{
 							"W" : "number",
 							"dep" : "string",
-							"lev" : "string",
 							"p" : "pvalue"
 						},
 						"listType" : "string",
@@ -390,24 +383,13 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_16_Encoded",
 							"JaspColumn_16_Encoded"
 						],
 						[
-							"clock",
-							"counter"
+							0.98421614644869293
 						],
 						[
-							0.9910708028954025,
-							0.96375007612341479
-						],
-						[
-							0.97220165787370805,
-							0.10148761647822006
-						],
-						[
-							true,
-							false
+							0.26604914300055982
 						]
 					],
 					"error" : false,
@@ -448,8 +430,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_16_Encoded-clock",
-							"JaspColumn_16_Encoded-counter"
+							"JaspColumn_16_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -478,7 +459,6 @@
 					[
 						"W",
 						"dep",
-						"lev",
 						"p"
 					],
 					"status" : "complete",
@@ -598,23 +578,14 @@
 					"df",
 					"p",
 					"test",
-					"",
 					".isNewGroup",
-					"",
 					"md",
-					"",
 					"d",
-					"",
 					"lowerCIlocationParameter",
-					"",
 					"upperCIlocationParameter",
-					"",
 					"lowerCIeffectSize",
-					"",
 					"upperCIeffectSize",
-					"",
 					"effectSizeSe",
-					"",
 					"sed"
 				],
 				"title" : "colNames",
@@ -707,39 +678,30 @@
 				[
 					"Student"
 				],
-				[],
 				[
 					false
 				],
-				[],
 				[
 					-0.072337962962963021
 				],
-				[],
 				[
 					"."
 				],
-				[],
 				[
 					-0.23170250701157524
 				],
-				[],
 				[
 					"\u221e"
 				],
-				[],
 				[
 					0.0
 				],
-				[],
 				[
 					0.0
 				],
-				[],
 				[
 					""
 				],
-				[],
 				[
 					0.09598918751690752
 				]
@@ -936,9 +898,7 @@
 							"se",
 							"coefOfVariation",
 							".isNewGroup",
-							"",
 							"meanRank",
-							"",
 							"sumRank"
 						],
 						"title" : "colNames",
@@ -1054,12 +1014,10 @@
 							true,
 							false
 						],
-						[],
 						[
 							48.520833333333329,
 							54.148148148148145
 						],
-						[],
 						[
 							2329.0,
 							2924.0
@@ -1197,12 +1155,10 @@
 		{
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"group" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

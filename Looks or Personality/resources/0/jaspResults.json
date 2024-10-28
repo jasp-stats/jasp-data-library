@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -100,7 +100,6 @@
 									"df2",
 									"p",
 									".isNewGroup",
-									"",
 									"vovkSellke"
 								],
 								"title" : "colNames",
@@ -242,7 +241,6 @@
 									false,
 									false
 								],
-								[],
 								[
 									1.0176016417092872,
 									1.0,
@@ -1815,7 +1813,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_1_t1720700227128.png",
+									"filePathPng" : "resources/0/_1_t1729673045558.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "gender: Female",
@@ -1907,7 +1905,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_0_t1720700226916.png",
+									"filePathPng" : "resources/0/_0_t1729673045351.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "gender: Male",
@@ -1939,7 +1937,6 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"applyMoreyCorrectionErrorBars" : true,
 								"dependent" : null,
 								"descriptivePlotCiLevel" : 0.94999999999999996,
 								"descriptivePlotErrorBar" : true,
@@ -1960,7 +1957,8 @@
 								[
 									"nominal"
 								],
-								"descriptivePlotYAxisLabel" : "Mean Rating of Date"
+								"descriptivePlotYAxisLabel" : "Mean Rating of Date",
+								"normalizeErrorBarsDescriptives" : true
 							},
 							"optionMustContain" : {},
 							"order_increment" : 2,
@@ -2615,11 +2613,11 @@
 									"contrast_B",
 									"estimate",
 									"SE",
+									"df",
 									"t.ratio",
 									"cohenD",
 									"bonferroni",
 									"contrast",
-									"df",
 									"lower.CL",
 									"upper.CL",
 									"p.value",
@@ -2666,6 +2664,7 @@
 									"cohenD" : "Cohen's d",
 									"contrast_A" : " ",
 									"contrast_B" : " ",
+									"df" : "df",
 									"estimate" : "Mean Difference",
 									"t.ratio" : "t"
 								},
@@ -2694,6 +2693,7 @@
 									"cohenD" : "number",
 									"contrast_A" : "string",
 									"contrast_B" : "string",
+									"df" : "integer",
 									"estimate" : "number",
 									"t.ratio" : "number"
 								},
@@ -2732,6 +2732,11 @@
 									0.99352844218577785
 								],
 								[
+									18.0,
+									18.0,
+									18.0
+								],
+								[
 									10.485082686984656,
 									26.981328582998504,
 									15.097705675138782
@@ -2750,11 +2755,6 @@
 									"JaspExtraOptions_5_Encoded - JaspExtraOptions_6_Encoded",
 									"JaspExtraOptions_5_Encoded - JaspExtraOptions_7_Encoded",
 									"JaspExtraOptions_6_Encoded - JaspExtraOptions_7_Encoded"
-								],
-								[
-									18.0,
-									18.0,
-									18.0
 								],
 								[
 									9.5781795626220561,
@@ -2777,14 +2777,14 @@
 									2.3125333663530162e-11
 								],
 								[
-									"",
-									"",
-									""
+									".",
+									".",
+									"."
 								],
 								[
-									"",
-									"",
-									""
+									".",
+									".",
+									"."
 								],
 								[
 									1.1467842486388384,
@@ -2813,7 +2813,7 @@
 									"cols" : null,
 									"rows" : null,
 									"symbol" : "<em>Note.</em>",
-									"text" : "P-value adjusted for comparing a family of 3"
+									"text" : "P-value adjusted for comparing a family of 3 estimates."
 								},
 								{
 									"cols" : null,
@@ -2880,6 +2880,7 @@
 								"cohenD",
 								"contrast_A",
 								"contrast_B",
+								"df",
 								"estimate",
 								"t.ratio"
 							],
@@ -2961,11 +2962,11 @@
 									"contrast_B",
 									"estimate",
 									"SE",
+									"df",
 									"t.ratio",
 									"cohenD",
 									"bonferroni",
 									"contrast",
-									"df",
 									"lower.CL",
 									"upper.CL",
 									"p.value",
@@ -3012,6 +3013,7 @@
 									"cohenD" : "Cohen's d",
 									"contrast_A" : " ",
 									"contrast_B" : " ",
+									"df" : "df",
 									"estimate" : "Mean Difference",
 									"t.ratio" : "t"
 								},
@@ -3040,6 +3042,7 @@
 									"cohenD" : "number",
 									"contrast_A" : "string",
 									"contrast_B" : "string",
+									"df" : "integer",
 									"estimate" : "number",
 									"t.ratio" : "number"
 								},
@@ -3078,6 +3081,11 @@
 									0.94584862934278813
 								],
 								[
+									18.0,
+									18.0,
+									18.0
+								],
+								[
 									15.066054103835494,
 									32.491875093290091,
 									12.651777774400909
@@ -3096,11 +3104,6 @@
 									"JaspExtraOptions_1_Encoded - JaspExtraOptions_2_Encoded",
 									"JaspExtraOptions_1_Encoded - JaspExtraOptions_3_Encoded",
 									"JaspExtraOptions_2_Encoded - JaspExtraOptions_3_Encoded"
-								],
-								[
-									18.0,
-									18.0,
-									18.0
 								],
 								[
 									11.808793244453209,
@@ -3123,14 +3126,14 @@
 									2.1438521428167623e-10
 								],
 								[
-									"",
-									"",
-									""
+									".",
+									".",
+									"."
 								],
 								[
-									"",
-									"",
-									""
+									".",
+									".",
+									"."
 								],
 								[
 									1.3693416506094829,
@@ -3159,7 +3162,7 @@
 									"cols" : null,
 									"rows" : null,
 									"symbol" : "<em>Note.</em>",
-									"text" : "P-value adjusted for comparing a family of 3"
+									"text" : "P-value adjusted for comparing a family of 3 estimates."
 								},
 								{
 									"cols" : null,
@@ -3226,6 +3229,7 @@
 								"cohenD",
 								"contrast_A",
 								"contrast_B",
+								"df",
 								"estimate",
 								"t.ratio"
 							],
@@ -3307,11 +3311,11 @@
 									"contrast_B",
 									"estimate",
 									"SE",
+									"df",
 									"t.ratio",
 									"cohenD",
 									"bonferroni",
 									"contrast",
-									"df",
 									"lower.CL",
 									"upper.CL",
 									"p.value",
@@ -3358,6 +3362,7 @@
 									"cohenD" : "Cohen's d",
 									"contrast_A" : " ",
 									"contrast_B" : " ",
+									"df" : "df",
 									"estimate" : "Mean Difference",
 									"t.ratio" : "t"
 								},
@@ -3386,6 +3391,7 @@
 									"cohenD" : "number",
 									"contrast_A" : "string",
 									"contrast_B" : "string",
+									"df" : "integer",
 									"estimate" : "number",
 									"t.ratio" : "number"
 								},
@@ -3416,6 +3422,9 @@
 									0.96878581397580721
 								],
 								[
+									18.0
+								],
+								[
 									0.068814660273640166
 								],
 								[
@@ -3426,9 +3435,6 @@
 								],
 								[
 									"Male - Female"
-								],
-								[
-									18.0
 								],
 								[
 									-1.9686768021879606
@@ -3528,6 +3534,7 @@
 								"cohenD",
 								"contrast_A",
 								"contrast_B",
+								"df",
 								"estimate",
 								"t.ratio"
 							],
@@ -3727,32 +3734,21 @@
 							"eta",
 							"partialEta",
 							"Error SS",
-							"Pr(>F)",
 							"den Df",
-							"",
 							".isNewGroup",
-							"etaPart",
 							"isWithinTerm",
-							"",
 							"vovkSellke",
-							"",
 							"genEta",
-							"",
 							"omega",
-							"",
 							"partialOmega",
-							"",
 							"GG eps",
-							"",
 							"Pr(>F[GG])",
-							"",
 							"HF eps",
-							"",
 							"Pr(>F[HF])",
-							"",
 							"Test statistic",
-							"",
-							"p-value"
+							"p-value",
+							"Pr(>F)",
+							"etaPart"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -4127,35 +4123,6 @@
 							""
 						],
 						[
-							null,
-							null,
-							null,
-							null,
-							null,
-							null,
-							"",
-							"",
-							"",
-							null,
-							null,
-							null,
-							null,
-							null,
-							null,
-							"",
-							"",
-							"",
-							null,
-							null,
-							null,
-							null,
-							null,
-							null,
-							"",
-							"",
-							""
-						],
-						[
 							36.0,
 							34.622222558814478,
 							36.0,
@@ -4184,7 +4151,6 @@
 							"",
 							""
 						],
-						[],
 						[
 							true,
 							false,
@@ -4215,35 +4181,6 @@
 							0.0
 						],
 						[
-							null,
-							null,
-							null,
-							null,
-							null,
-							null,
-							"",
-							"",
-							"",
-							null,
-							null,
-							null,
-							null,
-							null,
-							null,
-							"",
-							"",
-							"",
-							null,
-							null,
-							null,
-							null,
-							null,
-							null,
-							"",
-							"",
-							""
-						],
-						[
 							true,
 							true,
 							true,
@@ -4272,7 +4209,6 @@
 							true,
 							true
 						],
-						[],
 						[
 							6.6558177634317588e+22,
 							8.6888550805019338e+21,
@@ -4299,7 +4235,6 @@
 							110504857.58444954,
 							10057545206.410202
 						],
-						[],
 						[
 							0.80888491547042396,
 							0.80888491547042396,
@@ -4329,7 +4264,6 @@
 							"",
 							""
 						],
-						[],
 						[
 							0.92280334959123156,
 							0.92280334959123156,
@@ -4359,7 +4293,6 @@
 							"",
 							""
 						],
-						[],
 						[
 							0.92280334959123145,
 							0.92280334959123145,
@@ -4386,7 +4319,6 @@
 							0.46826798215452403,
 							0.46826798215452403
 						],
-						[],
 						[
 							0.96172840441151319,
 							null,
@@ -4411,7 +4343,6 @@
 							null,
 							0.79935427808591664
 						],
-						[],
 						[
 							7.6241142416800853e-25,
 							null,
@@ -4436,7 +4367,6 @@
 							null,
 							1.4704218266805763e-10
 						],
-						[],
 						[
 							1.0744125449367947,
 							null,
@@ -4461,7 +4391,6 @@
 							null,
 							0.99224111056188102
 						],
-						[],
 						[
 							9.5948116005485974e-26,
 							null,
@@ -4486,7 +4415,6 @@
 							null,
 							1.3378764445002146e-12
 						],
-						[],
 						[
 							0.96020540163633339,
 							null,
@@ -4511,7 +4439,6 @@
 							null,
 							0.6133544861533754
 						],
-						[],
 						[
 							0.70810103714872163,
 							null,
@@ -4535,6 +4462,64 @@
 							null,
 							null,
 							0.53393819551374777
+						],
+						[
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							"",
+							"",
+							"",
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							"",
+							"",
+							"",
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							"",
+							"",
+							""
+						],
+						[
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							"",
+							"",
+							"",
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							"",
+							"",
+							"",
+							null,
+							null,
+							null,
+							null,
+							null,
+							null,
+							"",
+							"",
+							""
 						]
 					],
 					"error" : false,
@@ -4795,32 +4780,26 @@
 		{
 			"barPlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"barPlotSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"betweenModelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"betweenSubjectFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"contrasts" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"customContrasts" : 
@@ -4829,47 +4808,38 @@
 			},
 			"descriptivePlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparateLines" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparatePlot" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"friedmanBetweenFactor" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"friedmanWithinFactor" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"marginalMeanTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"postHocTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"repeatedMeasuresCells" : 
@@ -4893,32 +4863,25 @@
 			},
 			"restrictedMarginalMeanTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectFactor" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectModeratorFactorOne" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectModeratorFactorTwo" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"withinModelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
-		"applyMoreyCorrectionErrorBars" : true,
-		"applyMoreyCorrectionErrorBarsBarplot" : true,
 		"barPlotCiInterval" : 0.94999999999999996,
 		"barPlotErrorBarType" : "ci",
 		"barPlotErrorBars" : false,
@@ -5026,6 +4989,8 @@
 		"marginalMeanComparedToZero" : false,
 		"marginalMeanTerms" : [],
 		"marginalMeanTerms.types" : [],
+		"normalizeErrorBarsBarplot" : true,
+		"normalizeErrorBarsDescriptives" : true,
 		"plotHeight" : 320,
 		"plotHeightDescriptivesPlotLegend" : 300,
 		"plotHeightDescriptivesPlotNoLegend" : 300,

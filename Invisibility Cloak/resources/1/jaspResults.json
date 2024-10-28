@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -252,10 +252,7 @@
 						"error" : false,
 						"errorMessage" : "",
 						"escapeHtml" : true,
-						"fields" : 
-						{
-							"dep" : true
-						},
+						"fields" : {},
 						"listType" : "bool",
 						"messages" : [],
 						"name" : "",
@@ -309,10 +306,8 @@
 						"rows" : 
 						[
 							"dep",
-							"lev",
 							"W",
-							"p",
-							".isNewGroup"
+							"p"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -346,8 +341,7 @@
 						"fields" : 
 						{
 							"W" : "W",
-							"dep" : "",
-							"lev" : "",
+							"dep" : "Residuals",
 							"p" : "p"
 						},
 						"listType" : "string",
@@ -372,7 +366,6 @@
 						{
 							"W" : "number",
 							"dep" : "string",
-							"lev" : "string",
 							"p" : "pvalue"
 						},
 						"listType" : "string",
@@ -390,24 +383,13 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_2_Encoded",
 							"JaspColumn_2_Encoded"
 						],
 						[
-							"0",
-							"1"
+							0.96497345264316603
 						],
 						[
-							0.91276349366918474,
-							0.97261669091043568
-						],
-						[
-							0.23144590680965796,
-							0.9361892048635132
-						],
-						[
-							true,
-							false
+							0.54607557732918566
 						]
 					],
 					"error" : false,
@@ -448,8 +430,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_2_Encoded-0",
-							"JaspColumn_2_Encoded-1"
+							"JaspColumn_2_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -478,7 +459,6 @@
 					[
 						"W",
 						"dep",
-						"lev",
 						"p"
 					],
 					"status" : "complete",
@@ -608,13 +588,9 @@
 					"d",
 					"effectSizeSe",
 					".isNewGroup",
-					"",
 					"lowerCIlocationParameter",
-					"",
 					"upperCIlocationParameter",
-					"",
 					"lowerCIeffectSize",
-					"",
 					"upperCIeffectSize"
 				],
 				"title" : "colNames",
@@ -742,22 +718,18 @@
 					true,
 					false
 				],
-				[],
 				[
 					-2.762928382860788,
 					-2.7647980038391817
 				],
-				[],
 				[
 					0.26292838286078835,
 					0.26479800383918173
 				],
-				[],
 				[
 					0.0,
 					0.0
 				],
-				[],
 				[
 					0.0,
 					0.0
@@ -942,7 +914,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1720517187171.png",
+							"filePathPng" : "resources/1/_0_t1729672922820.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Mischief",
@@ -1060,9 +1032,7 @@
 							"se",
 							"coefOfVariation",
 							".isNewGroup",
-							"",
 							"meanRank",
-							"",
 							"sumRank"
 						],
 						"title" : "colNames",
@@ -1178,12 +1148,10 @@
 							true,
 							false
 						],
-						[],
 						[
 							10.416666666666666,
 							14.583333333333334
 						],
-						[],
 						[
 							125.0,
 							175.0
@@ -1322,12 +1290,10 @@
 		{
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"group" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

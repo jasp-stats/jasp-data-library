@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -782,7 +782,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_0_t1720700265988.png",
+									"filePathPng" : "resources/0/_0_t1729673087215.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "",
@@ -813,7 +813,6 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"applyMoreyCorrectionErrorBars" : true,
 								"dependent" : "JaspColumn_0_Encoded",
 								"dependent.types" : 
 								[
@@ -835,7 +834,8 @@
 								],
 								"descriptivePlotSeparatePlot" : "",
 								"descriptivePlotSeparatePlot.types" : [],
-								"descriptivePlotYAxisLabel" : null
+								"descriptivePlotYAxisLabel" : null,
+								"normalizeErrorBarsDescriptives" : true
 							},
 							"optionMustContain" : {},
 							"order_increment" : 1,
@@ -1365,10 +1365,10 @@
 											"contrast_B",
 											"estimate",
 											"SE",
+											"df",
 											"t.ratio",
 											"tukey",
 											"contrast",
-											"df",
 											"lower.CL",
 											"upper.CL",
 											"p.value",
@@ -1411,6 +1411,7 @@
 											"SE" : "SE",
 											"contrast_A" : " ",
 											"contrast_B" : " ",
+											"df" : "df",
 											"estimate" : "Mean Difference",
 											"t.ratio" : "t",
 											"tukey" : "p<sub>tukey</sub>"
@@ -1438,6 +1439,7 @@
 											"SE" : "number",
 											"contrast_A" : "string",
 											"contrast_B" : "string",
+											"df" : "integer",
 											"estimate" : "number",
 											"t.ratio" : "number",
 											"tukey" : "pvalue"
@@ -1477,6 +1479,11 @@
 											1.1483530880416595
 										],
 										[
+											54.0,
+											54.0,
+											54.0
+										],
+										[
 											-7.9505163482164019,
 											-13.493236672027722,
 											-5.542720323811321
@@ -1490,11 +1497,6 @@
 											"500 - 1000",
 											"500 - 2000",
 											"1000 - 2000"
-										],
-										[
-											54.0,
-											54.0,
-											54.0
 										],
 										[
 											-11.897512475430386,
@@ -1543,7 +1545,7 @@
 											"cols" : null,
 											"rows" : null,
 											"symbol" : "<em>Note.</em>",
-											"text" : "P-value adjusted for comparing a family of 3"
+											"text" : "P-value adjusted for comparing a family of 3 estimates."
 										},
 										{
 											"cols" : null,
@@ -1608,6 +1610,7 @@
 										"SE",
 										"contrast_A",
 										"contrast_B",
+										"df",
 										"estimate",
 										"t.ratio",
 										"tukey"
@@ -1689,10 +1692,10 @@
 											"contrast_B",
 											"estimate",
 											"SE",
+											"df",
 											"t.ratio",
 											"tukey",
 											"contrast",
-											"df",
 											"lower.CL",
 											"upper.CL",
 											"p.value",
@@ -1735,6 +1738,7 @@
 											"SE" : "SE",
 											"contrast_A" : " ",
 											"contrast_B" : " ",
+											"df" : "df",
 											"estimate" : "Mean Difference",
 											"t.ratio" : "t",
 											"tukey" : "p<sub>tukey</sub>"
@@ -1762,6 +1766,7 @@
 											"SE" : "number",
 											"contrast_A" : "string",
 											"contrast_B" : "string",
+											"df" : "integer",
 											"estimate" : "number",
 											"t.ratio" : "number",
 											"tukey" : "pvalue"
@@ -1793,6 +1798,9 @@
 											0.937626370083811
 										],
 										[
+											54.0
+										],
+										[
 											3.9461347483958589
 										],
 										[
@@ -1800,9 +1808,6 @@
 										],
 										[
 											"OJ - VC"
-										],
-										[
-											54.0
 										],
 										[
 											1.8201723105600194
@@ -1894,6 +1899,7 @@
 										"SE",
 										"contrast_A",
 										"contrast_B",
+										"df",
 										"estimate",
 										"t.ratio",
 										"tukey"
@@ -1959,7 +1965,7 @@
 							"optionMustContain" : {},
 							"order_increment" : 2,
 							"position" : 9999,
-							"title" : "Standard (LSD)",
+							"title" : "Standard (HSD)",
 							"type" : "container"
 						}
 					},
@@ -2527,17 +2533,14 @@
 		{
 			"barPlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"barPlotSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"contrasts" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"customContrasts" : 
@@ -2546,91 +2549,73 @@
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparateLines" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"descriptivePlotSeparatePlot" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"fixedFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"kruskalWallisFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"marginalMeanTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"postHocTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"randomFactors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"restrictedMarginalMeanTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectFactor" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectModeratorFactorOne" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"simpleMainEffectModeratorFactorTwo" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"wlsWeights" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
-		"applyMoreyCorrectionErrorBars" : true,
 		"barPlotCiInterval" : 0.94999999999999996,
 		"barPlotErrorBarType" : "ci",
 		"barPlotErrorBars" : false,
@@ -2748,6 +2733,7 @@
 			"nominal",
 			"unknown"
 		],
+		"normalizeErrorBarsDescriptives" : true,
 		"plotHeight" : 320,
 		"plotHeightDescriptivesPlotLegend" : 300,
 		"plotHeightDescriptivesPlotNoLegend" : 300,

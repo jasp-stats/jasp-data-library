@@ -489,7 +489,10 @@
 						[
 							"unknown",
 							"unknown",
-							"unknown"
+							[
+								"unknown",
+								"unknown"
+							]
 						]
 					},
 					"optionMustContain" : {},
@@ -1060,7 +1063,10 @@
 				[
 					"unknown",
 					"unknown",
-					"unknown"
+					[
+						"unknown",
+						"unknown"
+					]
 				]
 			},
 			"optionMustContain" : {},
@@ -1236,7 +1242,10 @@
 		[
 			"unknown",
 			"unknown",
-			"unknown"
+			[
+				"unknown",
+				"unknown"
+			]
 		],
 		"covariates" : [],
 		"covariates.types" : [],
@@ -1355,7 +1364,10 @@
 			{
 				"informedHypothesisTest" : false,
 				"marginalMean" : false,
-				"name" : "Model 1",
+				"name" : 
+				[
+					"Model 1"
+				],
 				"summary" : false,
 				"syntax" : ""
 			}
@@ -1400,7 +1412,10 @@
 		[
 			"unknown",
 			"unknown",
-			"unknown"
+			[
+				"unknown",
+				"unknown"
+			]
 		]
 	},
 	"order_increment" : 1,

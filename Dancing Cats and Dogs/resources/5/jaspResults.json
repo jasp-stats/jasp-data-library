@@ -724,7 +724,9 @@
 						"fields" : 
 						{
 							"No[counts]" : "JaspColumn_2_Encoded",
-							"Yes[counts]" : "JaspColumn_2_Encoded"
+							"No[expected]" : "JaspColumn_2_Encoded",
+							"Yes[counts]" : "JaspColumn_2_Encoded",
+							"Yes[expected]" : "JaspColumn_2_Encoded"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -927,6 +929,8 @@
 					{
 						"columnOrder" : "ascending",
 						"countsExpected" : true,
+						"countsObserved" : true,
+						"marginShowTotals" : true,
 						"percentagesColumn" : false,
 						"percentagesRow" : false,
 						"percentagesTotal" : false,
@@ -1044,6 +1048,8 @@
 					{
 						"columnOrder" : "ascending",
 						"countsExpected" : true,
+						"countsObserved" : true,
+						"marginShowTotals" : true,
 						"percentagesColumn" : false,
 						"percentagesRow" : false,
 						"percentagesTotal" : false,
@@ -1154,6 +1160,7 @@
 		"countsExpected" : true,
 		"countsHiddenSmallCounts" : false,
 		"countsHiddenSmallCountsThreshold" : 5,
+		"countsObserved" : true,
 		"gamma" : false,
 		"kendallsTauB" : false,
 		"kendallsTauC" : false,
@@ -1169,6 +1176,7 @@
 			}
 		],
 		"likelihoodRatio" : false,
+		"marginShowTotals" : true,
 		"oddsRatio" : true,
 		"oddsRatioAlternative" : "twoSided",
 		"oddsRatioAsLogOdds" : true,

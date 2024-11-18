@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -23,7 +23,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1720529625399.png",
+					"filePathPng" : "resources/0/_0_t1731586928422.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -511,32 +511,26 @@
 		{
 			"axisLabels" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"measurementLongFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"measurementsWideFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"stagesLongFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"stagesWideFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"subgroup" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

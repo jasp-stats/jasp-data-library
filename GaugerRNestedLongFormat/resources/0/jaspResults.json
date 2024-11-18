@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -75,7 +75,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_6_t1720529544097.png",
+			"filePathPng" : "resources/0/_6_t1731586839426.png",
 			"height" : 600,
 			"messages" : [],
 			"name" : "NRoperatorGraph",
@@ -93,7 +93,7 @@
 			"resizedByUser" : false,
 			"revision" : 0,
 			"status" : "complete",
-			"title" : "Measurements by Operator",
+			"title" : "Measurements by operator",
 			"type" : "plot",
 			"width" : 600
 		},
@@ -187,7 +187,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_3_t1720529543745.png",
+					"filePathPng" : "resources/0/_3_t1731586839155.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "A",
@@ -286,7 +286,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_4_t1720529543897.png",
+					"filePathPng" : "resources/0/_4_t1731586839238.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "B",
@@ -385,7 +385,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_5_t1720529543989.png",
+					"filePathPng" : "resources/0/_5_t1731586839330.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "C",
@@ -449,7 +449,7 @@
 									"Gauge r&R",
 									"Repeat",
 									"Reprod",
-									"Part-to-Part"
+									"Part-to-part"
 								],
 								"title" : null,
 								"titleType" : "NULL"
@@ -510,7 +510,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1720529542744.png",
+					"filePathPng" : "resources/0/_0_t1731586838244.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "Plot",
@@ -526,7 +526,7 @@
 					"resizedByUser" : false,
 					"revision" : 0,
 					"status" : "complete",
-					"title" : "Components of Variation",
+					"title" : "Components of variation",
 					"type" : "plot",
 					"width" : 850
 				},
@@ -634,8 +634,8 @@
 						{
 							"DF" : "df",
 							"F.value" : "F",
-							"MS" : "Mean Square",
-							"SS" : "Sum of Squares",
+							"MS" : "Mean square",
+							"SS" : "Sum of squares",
 							"p.value" : "p",
 							"sources" : "Source"
 						},
@@ -693,26 +693,26 @@
 							89.0
 						],
 						[
-							1.7372399512716223,
-							253.30798463107627,
-							56.290792386590546,
-							311.33601696893845
+							1.7372399512716281,
+							253.30798463107649,
+							56.290792386590375,
+							311.33601696893851
 						],
 						[
-							0.86861997563581117,
-							9.3817772085583808,
-							0.93817987310984241,
+							0.86861997563581406,
+							9.3817772085583879,
+							0.93817987310983963,
 							""
 						],
 						[
-							0.092585866870023945,
-							9.9999770592605319,
+							0.092585866870024194,
+							9.9999770592605692,
 							"",
 							""
 						],
 						[
-							0.91185907463856775,
-							1.1128747856415748e-13,
+							0.91185907463856752,
+							1.1128747856414884e-13,
 							"",
 							""
 						]
@@ -779,7 +779,7 @@
 						"sources"
 					],
 					"status" : "complete",
-					"title" : "Gauge r&R (Nested)",
+					"title" : "Gauge r&R (nested)",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -924,24 +924,24 @@
 					"data" : 
 					[
 						[
-							"Total Gauge r &amp; R",
+							"Total gauge r&amp;R",
 							"Repeatability",
 							"Reproducibility",
-							"Part-To-Part",
-							"Total Variation"
+							"Part-To-part",
+							"Total variation"
 						],
 						[
-							0.93817987310984241,
-							0.93817987310984241,
+							0.93817987310983963,
+							0.93817987310983963,
 							0.0,
-							2.8145324451495131,
+							2.8145324451495157,
 							3.7527123182593556
 						],
 						[
-							25.000047793298592,
-							25.000047793298592,
+							25.000047793298521,
+							25.000047793298521,
 							0.0,
-							74.999952206701408,
+							74.999952206701479,
 							100.0
 						]
 					],
@@ -1004,7 +1004,7 @@
 						"sources"
 					],
 					"status" : "complete",
-					"title" : "Variance Components",
+					"title" : "Variance components",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -1110,11 +1110,11 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"SD" : "Std. Deviation",
-							"percentStudyVar" : "% Study Variation",
+							"SD" : "Std. dev.",
+							"percentStudyVar" : "% Study variation",
 							"percentTolerance" : "% Tolerance",
 							"source" : "Source",
-							"studyVar" : "Study Variation"
+							"studyVar" : "Study variation"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -1157,38 +1157,38 @@
 					"data" : 
 					[
 						[
-							"Total Gauge r &amp; R",
+							"Total gauge r&amp;R",
 							"Repeatability",
 							"Reproducibility",
-							"Part-To-Part",
-							"Total Variation"
+							"Part-To-part",
+							"Total variation"
 						],
 						[
-							0.96859685788765726,
-							0.96859685788765726,
+							0.96859685788765582,
+							0.96859685788765582,
 							0.0,
-							1.6776568317595566,
+							1.6776568317595573,
 							1.9371918640804155
 						],
 						[
-							5.8115811473259438,
-							5.8115811473259438,
+							5.8115811473259349,
+							5.8115811473259349,
 							0.0,
-							10.06594099055734,
+							10.065940990557344,
 							11.623151184482493
 						],
 						[
-							50.000047793275762,
-							50.000047793275762,
+							50.000047793275684,
+							50.000047793275684,
 							0.0,
-							86.602512784965683,
+							86.602512784965697,
 							100.0
 						],
 						[
-							581.15811473259441,
-							581.15811473259441,
+							581.1581147325935,
+							581.1581147325935,
 							0.0,
-							1006.5940990557341,
+							1006.5940990557344,
 							1162.3151184482492
 						]
 					],
@@ -1209,7 +1209,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "Study Variation is calculated as Std. Deviation * 6"
+							"text" : "Study variation is calculated as std. dev. * 6"
 						}
 					],
 					"messages" : [],
@@ -1267,7 +1267,7 @@
 						"studyVar"
 					],
 					"status" : "complete",
-					"title" : "Gauge Evaluation",
+					"title" : "Gauge evaluation",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -1290,6 +1290,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
+				"anova" : true,
 				"historicalSdValue" : 3.0,
 				"processVariationReference" : "studySd",
 				"report" : false,
@@ -1301,7 +1302,7 @@
 			"optionMustContain" : {},
 			"order_increment" : 4,
 			"position" : 1,
-			"title" : "Gauge r&R Tables",
+			"title" : "Gauge r&R study - nested ANOVA",
 			"type" : "container"
 		},
 		"rChart" : 
@@ -1417,7 +1418,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1720529543069.png",
+					"filePathPng" : "resources/0/_1_t1731586838594.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -1680,7 +1681,7 @@
 			"optionMustContain" : {},
 			"order_increment" : 2,
 			"position" : 2,
-			"title" : "Range Chart by Operator",
+			"title" : "Range chart by operator",
 			"type" : "container"
 		},
 		"xBarChart" : 
@@ -1800,7 +1801,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1720529543440.png",
+					"filePathPng" : "resources/0/_2_t1731586838893.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -2107,7 +2108,7 @@
 			"optionMustContain" : {},
 			"order_increment" : 2,
 			"position" : 3,
-			"title" : "Xbar Chart by Operator",
+			"title" : "Xbar chart by operator",
 			"type" : "container"
 		}
 	},
@@ -2135,32 +2136,26 @@
 		{
 			"measurementLongFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"measurementsWideFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"operatorLongFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"operatorWideFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"partLongFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"partWideFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -2205,6 +2200,7 @@
 		"reportGaugeNameText" : "",
 		"reportGaugeNumber" : true,
 		"reportGaugeNumberText" : "",
+		"reportGaugeTable" : true,
 		"reportLocation" : true,
 		"reportLocationText" : "",
 		"reportMeasurementsByOperatorPlot" : true,
@@ -2218,17 +2214,19 @@
 		"reportTitleText" : "",
 		"reportTolerance" : true,
 		"reportToleranceText" : "",
+		"reportTrafficLightChart" : true,
 		"reportVariationComponents" : true,
 		"studyVarianceMultiplierType" : "sd",
 		"studyVarianceMultiplierValue" : 6.0,
 		"tolerance" : true,
 		"toleranceValue" : 1.0,
+		"trafficLightChart" : false,
 		"varianceComponentsGraph" : true,
 		"xBarChart" : true
 	},
 	"order_increment" : 5,
 	"position" : 9999,
 	"relativePathKeep" : "resources/0/state",
-	"title" : "Gauge r&R (non-replicable measurements)",
+	"title" : "Gauge r&R Study (Non-replicable Measurements)",
 	"type" : "results"
 }

@@ -882,7 +882,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1729868339064.png",
+							"filePathPng" : "resources/0/_1_t1731585285161.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "centralityPlot",
@@ -923,7 +923,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_0_t1729868338775.png",
+									"filePathPng" : "resources/0/_0_t1731585284915.png",
 									"height" : 320,
 									"messages" : [],
 									"name" : "Network",
@@ -959,103 +959,178 @@
 								[
 									{
 										"group" : "Agreeableness",
-										"variable" : "JaspColumn_30_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_30_Encoded"
+										]
 									},
 									{
 										"group" : "Agreeableness",
-										"variable" : "JaspColumn_33_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_33_Encoded"
+										]
 									},
 									{
 										"group" : "Agreeableness",
-										"variable" : "JaspColumn_36_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_36_Encoded"
+										]
 									},
 									{
 										"group" : "Agreeableness",
-										"variable" : "JaspColumn_39_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_39_Encoded"
+										]
 									},
 									{
 										"group" : "Agreeableness",
-										"variable" : "JaspColumn_42_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_42_Encoded"
+										]
 									},
 									{
 										"group" : "Conscientiousness",
-										"variable" : "JaspColumn_45_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_45_Encoded"
+										]
 									},
 									{
 										"group" : "Conscientiousness",
-										"variable" : "JaspColumn_48_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_48_Encoded"
+										]
 									},
 									{
 										"group" : "Conscientiousness",
-										"variable" : "JaspColumn_51_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_51_Encoded"
+										]
 									},
 									{
 										"group" : "Conscientiousness",
-										"variable" : "JaspColumn_54_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_54_Encoded"
+										]
 									},
 									{
 										"group" : "Conscientiousness",
-										"variable" : "JaspColumn_57_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_57_Encoded"
+										]
 									},
 									{
 										"group" : "Extraversion",
-										"variable" : "JaspColumn_60_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_60_Encoded"
+										]
 									},
 									{
 										"group" : "Extraversion",
-										"variable" : "JaspColumn_63_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_63_Encoded"
+										]
 									},
 									{
 										"group" : "Extraversion",
-										"variable" : "JaspColumn_66_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_66_Encoded"
+										]
 									},
 									{
 										"group" : "Extraversion",
-										"variable" : "JaspColumn_69_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_69_Encoded"
+										]
 									},
 									{
 										"group" : "Extraversion",
-										"variable" : "JaspColumn_72_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_72_Encoded"
+										]
 									},
 									{
 										"group" : "Neuroticism",
-										"variable" : "JaspColumn_75_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_75_Encoded"
+										]
 									},
 									{
 										"group" : "Neuroticism",
-										"variable" : "JaspColumn_78_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_78_Encoded"
+										]
 									},
 									{
 										"group" : "Neuroticism",
-										"variable" : "JaspColumn_81_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_81_Encoded"
+										]
 									},
 									{
 										"group" : "Neuroticism",
-										"variable" : "JaspColumn_84_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_84_Encoded"
+										]
 									},
 									{
 										"group" : "Neuroticism",
-										"variable" : "JaspColumn_87_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_87_Encoded"
+										]
 									},
 									{
 										"group" : "Openness",
-										"variable" : "JaspColumn_90_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_90_Encoded"
+										]
 									},
 									{
 										"group" : "Openness",
-										"variable" : "JaspColumn_93_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_93_Encoded"
+										]
 									},
 									{
 										"group" : "Openness",
-										"variable" : "JaspColumn_96_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_96_Encoded"
+										]
 									},
 									{
 										"group" : "Openness",
-										"variable" : "JaspColumn_99_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_99_Encoded"
+										]
 									},
 									{
 										"group" : "Openness",
-										"variable" : "JaspColumn_102_Encoded"
+										"variable" : 
+										[
+											"JaspColumn_102_Encoded"
+										]
 									}
 								],
 								"colorGroupVariables.types" : 
@@ -1113,23 +1188,38 @@
 								[
 									{
 										"color" : "red",
-										"name" : "Agreeableness"
+										"name" : 
+										[
+											"Agreeableness"
+										]
 									},
 									{
 										"color" : "red",
-										"name" : "Conscientiousness"
+										"name" : 
+										[
+											"Conscientiousness"
+										]
 									},
 									{
 										"color" : "red",
-										"name" : "Extraversion"
+										"name" : 
+										[
+											"Extraversion"
+										]
 									},
 									{
 										"color" : "red",
-										"name" : "Openness"
+										"name" : 
+										[
+											"Openness"
+										]
 									},
 									{
 										"color" : "red",
-										"name" : "Neuroticism"
+										"name" : 
+										[
+											"Neuroticism"
+										]
 									}
 								],
 								"maxEdgeStrength" : 0.0,
@@ -2429,103 +2519,178 @@
 		[
 			{
 				"group" : "Agreeableness",
-				"variable" : "JaspColumn_30_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_30_Encoded"
+				]
 			},
 			{
 				"group" : "Agreeableness",
-				"variable" : "JaspColumn_33_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_33_Encoded"
+				]
 			},
 			{
 				"group" : "Agreeableness",
-				"variable" : "JaspColumn_36_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_36_Encoded"
+				]
 			},
 			{
 				"group" : "Agreeableness",
-				"variable" : "JaspColumn_39_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_39_Encoded"
+				]
 			},
 			{
 				"group" : "Agreeableness",
-				"variable" : "JaspColumn_42_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_42_Encoded"
+				]
 			},
 			{
 				"group" : "Conscientiousness",
-				"variable" : "JaspColumn_45_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_45_Encoded"
+				]
 			},
 			{
 				"group" : "Conscientiousness",
-				"variable" : "JaspColumn_48_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_48_Encoded"
+				]
 			},
 			{
 				"group" : "Conscientiousness",
-				"variable" : "JaspColumn_51_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_51_Encoded"
+				]
 			},
 			{
 				"group" : "Conscientiousness",
-				"variable" : "JaspColumn_54_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_54_Encoded"
+				]
 			},
 			{
 				"group" : "Conscientiousness",
-				"variable" : "JaspColumn_57_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_57_Encoded"
+				]
 			},
 			{
 				"group" : "Extraversion",
-				"variable" : "JaspColumn_60_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_60_Encoded"
+				]
 			},
 			{
 				"group" : "Extraversion",
-				"variable" : "JaspColumn_63_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_63_Encoded"
+				]
 			},
 			{
 				"group" : "Extraversion",
-				"variable" : "JaspColumn_66_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_66_Encoded"
+				]
 			},
 			{
 				"group" : "Extraversion",
-				"variable" : "JaspColumn_69_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_69_Encoded"
+				]
 			},
 			{
 				"group" : "Extraversion",
-				"variable" : "JaspColumn_72_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_72_Encoded"
+				]
 			},
 			{
 				"group" : "Neuroticism",
-				"variable" : "JaspColumn_75_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_75_Encoded"
+				]
 			},
 			{
 				"group" : "Neuroticism",
-				"variable" : "JaspColumn_78_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_78_Encoded"
+				]
 			},
 			{
 				"group" : "Neuroticism",
-				"variable" : "JaspColumn_81_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_81_Encoded"
+				]
 			},
 			{
 				"group" : "Neuroticism",
-				"variable" : "JaspColumn_84_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_84_Encoded"
+				]
 			},
 			{
 				"group" : "Neuroticism",
-				"variable" : "JaspColumn_87_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_87_Encoded"
+				]
 			},
 			{
 				"group" : "Openness",
-				"variable" : "JaspColumn_90_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_90_Encoded"
+				]
 			},
 			{
 				"group" : "Openness",
-				"variable" : "JaspColumn_93_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_93_Encoded"
+				]
 			},
 			{
 				"group" : "Openness",
-				"variable" : "JaspColumn_96_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_96_Encoded"
+				]
 			},
 			{
 				"group" : "Openness",
-				"variable" : "JaspColumn_99_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_99_Encoded"
+				]
 			},
 			{
 				"group" : "Openness",
-				"variable" : "JaspColumn_102_Encoded"
+				"variable" : 
+				[
+					"JaspColumn_102_Encoded"
+				]
 			}
 		],
 		"colorGroupVariables.types" : 
@@ -2592,23 +2757,38 @@
 		[
 			{
 				"color" : "red",
-				"name" : "Agreeableness"
+				"name" : 
+				[
+					"Agreeableness"
+				]
 			},
 			{
 				"color" : "red",
-				"name" : "Conscientiousness"
+				"name" : 
+				[
+					"Conscientiousness"
+				]
 			},
 			{
 				"color" : "red",
-				"name" : "Extraversion"
+				"name" : 
+				[
+					"Extraversion"
+				]
 			},
 			{
 				"color" : "red",
-				"name" : "Openness"
+				"name" : 
+				[
+					"Openness"
+				]
 			},
 			{
 				"color" : "red",
-				"name" : "Neuroticism"
+				"name" : 
+				[
+					"Neuroticism"
+				]
 			}
 		],
 		"maxEdgeStrength" : 0.0,

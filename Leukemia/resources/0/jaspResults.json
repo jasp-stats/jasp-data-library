@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -10,7 +10,7 @@
 			"citations" : [],
 			"data" : 
 			{
-				"table1" : 
+				"table" : 
 				{
 					"citations" : [],
 					"colCombines" : 
@@ -169,24 +169,48 @@
 					"data" : 
 					[
 						[
+							5.0,
+							8.0,
 							9.0,
+							12.0,
 							13.0,
 							18.0,
 							23.0,
+							27.0,
+							30.0,
 							31.0,
+							33.0,
 							34.0,
+							43.0,
+							45.0,
 							48.0
 						],
 						[
+							23.0,
+							21.0,
+							19.0,
+							18.0,
+							17.0,
+							14.0,
+							13.0,
 							11.0,
-							10.0,
+							9.0,
 							8.0,
 							7.0,
+							6.0,
 							5.0,
 							4.0,
 							2.0
 						],
 						[
+							2.0,
+							2.0,
+							1.0,
+							1.0,
+							1.0,
+							1.0,
+							2.0,
+							1.0,
 							1.0,
 							1.0,
 							1.0,
@@ -196,40 +220,72 @@
 							1.0
 						],
 						[
-							0.90909090909090906,
-							0.81818181818181812,
-							0.71590909090909083,
-							0.61363636363636354,
-							0.49090909090909085,
-							0.36818181818181817,
-							0.18409090909090908
+							0.91304347826086951,
+							0.82608695652173914,
+							0.78260869565217384,
+							0.73913043478260865,
+							0.69565217391304346,
+							0.64596273291925466,
+							0.54658385093167705,
+							0.49689440993788819,
+							0.4416839199447895,
+							0.38647342995169082,
+							0.33126293995859213,
+							0.27605244996549344,
+							0.22084195997239475,
+							0.16563146997929606,
+							0.082815734989648032
 						],
 						[
-							0.08667841720414475,
-							0.11629129983033294,
-							0.13966497055722782,
-							0.152632331027312,
-							0.16419326722113581,
-							0.16266888582709479,
-							0.15349274578629368
+							0.058753384755841409,
+							0.079034196447511806,
+							0.086006148703798302,
+							0.091560537151700067,
+							0.095943875542151391,
+							0.10114267517528461,
+							0.10725064174012229,
+							0.10840178078868302,
+							0.10951806997765715,
+							0.10885880149486436,
+							0.10639097288755056,
+							0.10198337609049186,
+							0.095367438486434419,
+							0.086035208408575106,
+							0.072661800503528301
 						],
 						[
-							0.75413384508152548,
-							0.61924898739936352,
-							0.48842628742212846,
-							0.37686705950167976,
-							0.25485995119931731,
-							0.15487711789719105,
-							0.035917898489185238
+							0.80485479778295776,
+							0.68483946807189866,
+							0.63095791059958761,
+							0.57979921796803113,
+							0.53087834162821212,
+							0.47525772470551447,
+							0.37207808724921121,
+							0.32401654568981592,
+							0.27167599539229165,
+							0.22251529774688578,
+							0.17652018258070468,
+							0.13382219562927281,
+							0.09473324056331256,
+							0.059840717810080948,
+							0.014834608254847221
 						],
 						[
 							1.0,
-							1.0,
-							1.0,
-							0.99915760022847266,
-							0.94558495520042918,
-							0.87526067814390762,
-							0.9435257694745518
+							0.99646660502298201,
+							0.97070875920768129,
+							0.94224652723151947,
+							0.91156845010048149,
+							0.87798226231686283,
+							0.80293335280236955,
+							0.76201063776504074,
+							0.71807847747497544,
+							0.67124244297363078,
+							0.62165772653129403,
+							0.56944929631151486,
+							0.51482637978433587,
+							0.458446770885507,
+							0.46232740656529359
 						]
 					],
 					"error" : false,
@@ -239,7 +295,7 @@
 					"expectedRowCount" : 0,
 					"footnotes" : [],
 					"messages" : [],
-					"name" : "table1",
+					"name" : "table",
 					"nestedOptionMustBe" : {},
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : {},
@@ -268,313 +324,7 @@
 							"4",
 							"5",
 							"6",
-							"7"
-						],
-						"title" : "rowNames",
-						"type" : "list"
-					},
-					"rowTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "rowTitles",
-						"type" : "list"
-					},
-					"showSpecifiedColumnsOnly" : false,
-					"specifiedColumns" : 
-					[
-						"atRisk",
-						"events",
-						"lowerCI",
-						"standardError",
-						"survival",
-						"time",
-						"upperCI"
-					],
-					"status" : "complete",
-					"title" : "JaspColumn_2_Encoded=Maintained",
-					"transposeTable" : false,
-					"transposeWithOvertitle" : false,
-					"type" : "table"
-				},
-				"table2" : 
-				{
-					"citations" : [],
-					"colCombines" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "bool",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "",
-						"type" : "list"
-					},
-					"colFormats" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"lowerCI" : "sf:4;dp:3",
-							"standardError" : "sf:4;dp:3",
-							"survival" : "sf:4;dp:3",
-							"time" : "sf:4;dp:3",
-							"upperCI" : "sf:4;dp:3"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colFormats",
-						"type" : "list"
-					},
-					"colNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : 
-						[
-							"time",
-							"atRisk",
-							"events",
-							"survival",
-							"standardError",
-							"lowerCI",
-							"upperCI"
-						],
-						"title" : "colNames",
-						"type" : "list"
-					},
-					"colOvertitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"lowerCI" : "95% CI",
-							"upperCI" : "95% CI"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colOvertitles",
-						"type" : "list"
-					},
-					"colRowCombinations" : [],
-					"colTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"atRisk" : "At Risk",
-							"events" : "Events",
-							"lowerCI" : "Lower",
-							"standardError" : "Standard Error",
-							"survival" : "Survival",
-							"time" : "Time",
-							"upperCI" : "Upper"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTitles",
-						"type" : "list"
-					},
-					"colTypes" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"atRisk" : "integer",
-							"events" : "integer",
-							"lowerCI" : "number",
-							"standardError" : "number",
-							"survival" : "number",
-							"time" : "number",
-							"upperCI" : "number"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTypes",
-						"type" : "list"
-					},
-					"data" : 
-					[
-						[
-							5.0,
-							8.0,
-							12.0,
-							23.0,
-							27.0,
-							30.0,
-							33.0,
-							43.0,
-							45.0
-						],
-						[
-							12.0,
-							10.0,
-							8.0,
-							6.0,
-							5.0,
-							4.0,
-							3.0,
-							2.0,
-							1.0
-						],
-						[
-							2.0,
-							2.0,
-							1.0,
-							1.0,
-							1.0,
-							1.0,
-							1.0,
-							1.0,
-							1.0
-						],
-						[
-							0.83333333333333337,
-							0.66666666666666674,
-							0.58333333333333337,
-							0.48611111111111116,
-							0.38888888888888895,
-							0.29166666666666674,
-							0.19444444444444448,
-							0.097222222222222238,
-							0.0
-						],
-						[
-							0.1075828707279838,
-							0.13608276348795437,
-							0.14231876063832777,
-							0.14813006255348293,
-							0.14698618394803281,
-							0.13871516913498738,
-							0.12187450538044615,
-							0.091866364967520514,
-							"NaN"
-						],
-						[
-							0.64703698701336165,
-							0.44684608115026392,
-							0.36161370521038472,
-							0.26751824885826658,
-							0.18539652609555676,
-							0.1148311501524704,
-							0.056921552571604174,
-							0.015256527170865199,
-							""
-						],
-						[
-							1.0,
-							0.99462536025909154,
-							0.9409980121738093,
-							0.88331922533955765,
-							0.81573571569127235,
-							0.74082201851580376,
-							0.66422365988256338,
-							0.61954862911905562,
-							""
-						]
-					],
-					"error" : false,
-					"errorMessage" : "",
-					"escapeHtml" : true,
-					"expectedColumnCount" : 0,
-					"expectedRowCount" : 0,
-					"footnotes" : [],
-					"messages" : [],
-					"name" : "table2",
-					"nestedOptionMustBe" : {},
-					"nestedOptionMustContain" : {},
-					"optionMustBe" : {},
-					"optionMustContain" : {},
-					"position" : 2,
-					"rowNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : 
-						[
+							"7",
 							"8",
 							"9",
 							"10",
@@ -582,8 +332,7 @@
 							"12",
 							"13",
 							"14",
-							"15",
-							"16"
+							"15"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -619,7 +368,7 @@
 						"upperCI"
 					],
 					"status" : "complete",
-					"title" : "JaspColumn_2_Encoded=Nonmaintained",
+					"title" : "",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -627,8 +376,7 @@
 			},
 			"data_order" : 
 			{
-				"table1" : 0,
-				"table2" : 1
+				"table" : 0
 			},
 			"error" : false,
 			"errorMessage" : "",
@@ -641,16 +389,8 @@
 			"optionMustBe" : 
 			{
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_1_Encoded",
+				"eventStatus" : "JaspColumn_8_Encoded",
 				"eventStatus.types" : 
-				[
-					"nominal"
-				],
-				"factors" : 
-				[
-					"JaspColumn_2_Encoded"
-				],
-				"factors.types" : 
 				[
 					"nominal"
 				],
@@ -661,14 +401,16 @@
 				"lifeTableStepsSize" : 1.0,
 				"lifeTableStepsTo" : 0.0,
 				"lifeTableStepsType" : "default",
-				"timeToEvent" : "JaspColumn_0_Encoded",
+				"strata" : [],
+				"strata.types" : [],
+				"timeToEvent" : "JaspColumn_3_Encoded",
 				"timeToEvent.types" : 
 				[
 					"scale"
 				]
 			},
 			"optionMustContain" : {},
-			"order_increment" : 2,
+			"order_increment" : 1,
 			"position" : 4,
 			"title" : "Life Table",
 			"type" : "container"
@@ -687,20 +429,14 @@
 			"optionMustBe" : 
 			{
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_1_Encoded",
+				"eventStatus" : "JaspColumn_8_Encoded",
 				"eventStatus.types" : 
 				[
 					"nominal"
 				],
-				"factors" : 
-				[
-					"JaspColumn_2_Encoded"
-				],
-				"factors.types" : 
-				[
-					"nominal"
-				],
-				"timeToEvent" : "JaspColumn_0_Encoded",
+				"strata" : [],
+				"strata.types" : [],
+				"timeToEvent" : "JaspColumn_3_Encoded",
 				"timeToEvent.types" : 
 				[
 					"scale"
@@ -776,7 +512,6 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"strata",
 					"n",
 					"events",
 					"restrictedMean",
@@ -826,7 +561,6 @@
 					"n" : "N",
 					"restrictedMean" : "Restricted Mean",
 					"restrictedMeanSe" : "Standard Error",
-					"strata" : "Strata",
 					"upperCI" : "Upper"
 				},
 				"listType" : "string",
@@ -855,7 +589,6 @@
 					"n" : "integer",
 					"restrictedMean" : "number",
 					"restrictedMeanSe" : "number",
-					"strata" : "string",
 					"upperCI" : "number"
 				},
 				"listType" : "string",
@@ -873,36 +606,25 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_2_Encoded=Maintained",
-					"JaspColumn_2_Encoded=Nonmaintained"
-				],
-				[
-					11.0,
-					12.0
-				],
-				[
-					7.0,
-					11.0
-				],
-				[
-					52.645454545454541,
-					22.708333333333336
-				],
-				[
-					19.828602795562585,
-					4.1809419810331541
-				],
-				[
-					31.0,
 					23.0
 				],
 				[
-					18.0,
-					8.0
+					18.0
 				],
 				[
-					"",
-					""
+					36.364389233954448
+				],
+				[
+					9.8541010566645593
+				],
+				[
+					27.0
+				],
+				[
+					18.0
+				],
+				[
+					45.0
 				]
 			],
 			"error" : false,
@@ -918,20 +640,14 @@
 			"optionMustBe" : 
 			{
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_1_Encoded",
+				"eventStatus" : "JaspColumn_8_Encoded",
 				"eventStatus.types" : 
 				[
 					"nominal"
 				],
-				"factors" : 
-				[
-					"JaspColumn_2_Encoded"
-				],
-				"factors.types" : 
-				[
-					"nominal"
-				],
-				"timeToEvent" : "JaspColumn_0_Encoded",
+				"strata" : [],
+				"strata.types" : [],
+				"timeToEvent" : "JaspColumn_3_Encoded",
 				"timeToEvent.types" : 
 				[
 					"scale"
@@ -956,8 +672,7 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_2_Encoded=Maintained",
-					"JaspColumn_2_Encoded=Nonmaintained"
+					"1"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -990,7 +705,6 @@
 				"n",
 				"restrictedMean",
 				"restrictedMeanSe",
-				"strata",
 				"upperCI"
 			],
 			"status" : "complete",
@@ -998,294 +712,6 @@
 			"transposeTable" : false,
 			"transposeWithOvertitle" : false,
 			"type" : "table"
-		},
-		"surivalPlots" : 
-		{
-			"citations" : [],
-			"data" : 
-			{
-				"surivalCurvePlot" : 
-				{
-					"aspectRatio" : 0.0,
-					"citations" : [],
-					"editOptions" : 
-					{
-						"error" : "success",
-						"xAxis" : 
-						{
-							"settings" : 
-							{
-								"breaks" : 
-								[
-									0,
-									40,
-									80,
-									120,
-									160
-								],
-								"breaksType" : "range",
-								"expand" : 
-								[
-									0.050000000000000003,
-									0,
-									0.050000000000000003,
-									0
-								],
-								"labels" : 
-								[
-									0,
-									40,
-									80,
-									120,
-									160
-								],
-								"limits" : 
-								[
-									0,
-									161
-								],
-								"limitsType" : "data",
-								"range" : 
-								[
-									0,
-									160,
-									40
-								],
-								"title" : "Time",
-								"titleType" : "character"
-							},
-							"type" : "ScaleContinuous"
-						},
-						"yAxis" : 
-						{
-							"settings" : 
-							{
-								"breaks" : 
-								[
-									0,
-									0.25,
-									0.5,
-									0.75,
-									1
-								],
-								"breaksType" : "manual",
-								"expand" : 
-								[
-									0.050000000000000003,
-									0,
-									0.050000000000000003,
-									0
-								],
-								"labels" : 
-								[
-									"0.00",
-									"0.25",
-									"0.50",
-									"0.75",
-									"1.00"
-								],
-								"limits" : 
-								[
-									0,
-									1
-								],
-								"limitsType" : "breaks",
-								"range" : 
-								[
-									0,
-									1,
-									0.25
-								],
-								"title" : "Survival probability",
-								"titleType" : "character"
-							},
-							"type" : "ScaleContinuous"
-						}
-					},
-					"environmentName" : "plot_0",
-					"error" : false,
-					"errorMessage" : "",
-					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1720530741825.png",
-					"height" : 320,
-					"messages" : [],
-					"name" : "surivalCurvePlot",
-					"nestedOptionMustBe" : {},
-					"nestedOptionMustContain" : {},
-					"optionMustBe" : 
-					{
-						"survivalCurvePlotConfidenceInterval" : true
-					},
-					"optionMustContain" : {},
-					"position" : 1,
-					"resizedByUser" : false,
-					"revision" : 0,
-					"status" : "complete",
-					"title" : "Survival Curve",
-					"type" : "plot",
-					"width" : 450
-				}
-			},
-			"data_order" : 
-			{
-				"surivalCurvePlot" : 0
-			},
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"initCollapsed" : false,
-			"messages" : [],
-			"name" : "surivalPlots",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"colorPalette" : "colorblind",
-				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_1_Encoded",
-				"eventStatus.types" : 
-				[
-					"nominal"
-				],
-				"factors" : 
-				[
-					"JaspColumn_2_Encoded"
-				],
-				"factors.types" : 
-				[
-					"nominal"
-				],
-				"survivalCurvePlot" : true,
-				"survivalCurvePlotLegend" : "bottom",
-				"timeToEvent" : "JaspColumn_0_Encoded",
-				"timeToEvent.types" : 
-				[
-					"scale"
-				]
-			},
-			"optionMustContain" : {},
-			"order_increment" : 1,
-			"position" : 3,
-			"title" : "Kaplan-Meier Survival Plots",
-			"type" : "container"
-		},
-		"testFlemmingHarrington" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_3",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "testFlemmingHarrington",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_1_Encoded",
-				"eventStatus.types" : 
-				[
-					"nominal"
-				],
-				"factors" : 
-				[
-					"JaspColumn_2_Encoded"
-				],
-				"factors.types" : 
-				[
-					"nominal"
-				],
-				"testsFlemmingHarrington" : true,
-				"testsFlemmingHarringtonRho" : 1.0,
-				"timeToEvent" : "JaspColumn_0_Encoded",
-				"timeToEvent.types" : 
-				[
-					"scale"
-				]
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
-		},
-		"testLogRank" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_1",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "testLogRank",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_1_Encoded",
-				"eventStatus.types" : 
-				[
-					"nominal"
-				],
-				"factors" : 
-				[
-					"JaspColumn_2_Encoded"
-				],
-				"factors.types" : 
-				[
-					"nominal"
-				],
-				"testsLogRank" : true,
-				"timeToEvent" : "JaspColumn_0_Encoded",
-				"timeToEvent.types" : 
-				[
-					"scale"
-				]
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
-		},
-		"testPetoAndPeto" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_2",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "testPetoAndPeto",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_1_Encoded",
-				"eventStatus.types" : 
-				[
-					"nominal"
-				],
-				"factors" : 
-				[
-					"JaspColumn_2_Encoded"
-				],
-				"factors.types" : 
-				[
-					"nominal"
-				],
-				"testsPetoAndPeto" : true,
-				"timeToEvent" : "JaspColumn_0_Encoded",
-				"timeToEvent.types" : 
-				[
-					"scale"
-				]
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
 		},
 		"testsTable" : 
 		{
@@ -1427,35 +853,21 @@
 				"title" : "colTypes",
 				"type" : "list"
 			},
-			"data" : 
-			[
-				[
-					"Log-rank (Mantel-Haenszel)",
-					"Peto and Peto",
-					"Flemming-Harrington"
-				],
-				[
-					3.3963886989776011,
-					2.7792795447517733,
-					2.7792795447517733
-				],
-				[
-					1.0,
-					1.0,
-					1.0
-				],
-				[
-					0.065339322040505132,
-					0.095491115406493104,
-					0.095491115406493104
-				]
-			],
+			"data" : [],
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
 			"expectedColumnCount" : 0,
 			"expectedRowCount" : 0,
-			"footnotes" : [],
+			"footnotes" : 
+			[
+				{
+					"cols" : null,
+					"rows" : null,
+					"symbol" : "<em>Note.</em>",
+					"text" : "At least one strata needs to be specified"
+				}
+			],
 			"messages" : [],
 			"name" : "testsTable",
 			"nestedOptionMustBe" : {},
@@ -1463,24 +875,18 @@
 			"optionMustBe" : 
 			{
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_1_Encoded",
+				"eventStatus" : "JaspColumn_8_Encoded",
 				"eventStatus.types" : 
 				[
 					"nominal"
 				],
-				"factors" : 
-				[
-					"JaspColumn_2_Encoded"
-				],
-				"factors.types" : 
-				[
-					"nominal"
-				],
+				"strata" : [],
+				"strata.types" : [],
 				"testsFlemmingHarrington" : true,
 				"testsFlemmingHarringtonRho" : 1.0,
 				"testsLogRank" : true,
 				"testsPetoAndPeto" : true,
-				"timeToEvent" : "JaspColumn_0_Encoded",
+				"timeToEvent" : "JaspColumn_3_Encoded",
 				"timeToEvent.types" : 
 				[
 					"scale"
@@ -1543,14 +949,10 @@
 	},
 	"data_order" : 
 	{
-		"LifeTableContainer" : 7,
+		"LifeTableContainer" : 3,
 		"fit" : 0,
-		"summaryTable" : 4,
-		"surivalPlots" : 6,
-		"testFlemmingHarrington" : 3,
-		"testLogRank" : 1,
-		"testPetoAndPeto" : 2,
-		"testsTable" : 5
+		"summaryTable" : 1,
+		"testsTable" : 2
 	},
 	"error" : false,
 	"errorMessage" : "",
@@ -1568,32 +970,21 @@
 		{
 			"eventStatus" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
-			"factors" : 
+			"strata" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"timeToEvent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
 		"colorPalette" : "colorblind",
 		"eventIndicator" : "1",
-		"eventStatus" : "JaspColumn_1_Encoded",
+		"eventStatus" : "JaspColumn_8_Encoded",
 		"eventStatus.types" : 
-		[
-			"nominal"
-		],
-		"factors" : 
-		[
-			"JaspColumn_2_Encoded"
-		],
-		"factors.types" : 
 		[
 			"nominal"
 		],
@@ -1604,26 +995,35 @@
 		"lifeTableStepsSize" : 1.0,
 		"lifeTableStepsTo" : 0.0,
 		"lifeTableStepsType" : "default",
+		"plot" : false,
+		"plotAddQuantile" : false,
+		"plotAddQuantileValue" : 0.5,
+		"plotCi" : true,
 		"plotHeight" : 320,
+		"plotLegend" : "bottom",
+		"plotRiskTable" : false,
+		"plotRiskTableAsASingleLine" : false,
+		"plotRiskTableCumulativeNumberOfCensoredObservations" : false,
+		"plotRiskTableCumulativeNumberOfObservedEvents" : true,
+		"plotRiskTableNumberAtRisk" : true,
+		"plotRiskTableNumberOfCensoredObservationsInTimeInterval" : false,
+		"plotRiskTableNumberOfEventsInTimeInterval" : false,
+		"plotTheme" : "jasp",
+		"plotType" : "survival",
 		"plotWidth" : 480,
-		"survivalCurveCensoringPlot" : false,
-		"survivalCurveCensoringPlotCumulative" : false,
-		"survivalCurvePlot" : true,
-		"survivalCurvePlotConfidenceInterval" : true,
-		"survivalCurvePlotCumulativeEventsTable" : false,
-		"survivalCurvePlotLegend" : "bottom",
-		"survivalCurvePlotRiskTable" : false,
+		"strata" : [],
+		"strata.types" : [],
 		"testsFlemmingHarrington" : true,
 		"testsFlemmingHarringtonRho" : 1.0,
 		"testsLogRank" : true,
 		"testsPetoAndPeto" : true,
-		"timeToEvent" : "JaspColumn_0_Encoded",
+		"timeToEvent" : "JaspColumn_3_Encoded",
 		"timeToEvent.types" : 
 		[
 			"scale"
 		]
 	},
-	"order_increment" : 8,
+	"order_increment" : 4,
 	"position" : 9999,
 	"relativePathKeep" : "resources/0/state",
 	"title" : "Non-parametric Survival Analysis",

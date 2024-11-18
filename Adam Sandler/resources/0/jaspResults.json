@@ -332,7 +332,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_3_t1729673221119.png",
+							"filePathPng" : "resources/0/_3_t1731583569611.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "bfRobustnessPlot",
@@ -466,7 +466,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_2_t1729673220913.png",
+							"filePathPng" : "resources/0/_2_t1731583569402.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "bfSequentialPlot",
@@ -505,7 +505,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1729673220530.png",
+							"filePathPng" : "resources/0/_1_t1731583569028.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "priorPosteriorPlot",
@@ -634,7 +634,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1729673220352.png",
+							"filePathPng" : "resources/0/_0_t1731583568858.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "scatterPlot",
@@ -824,6 +824,13 @@
 			[
 				"JaspColumn_1_Encoded",
 				"JaspColumn_2_Encoded"
+			]
+		],
+		"variablePairs.types" : 
+		[
+			[
+				"scale",
+				"scale"
 			]
 		],
 		"variables" : 

@@ -229,11 +229,16 @@
 				"shapiroWilkTest" : false,
 				"skewness" : false,
 				"splitBy" : "",
+				"splitBy.types" : [],
 				"sum" : false,
 				"valid" : true,
 				"variables" : 
 				[
 					"JaspColumn_9_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale"
 				],
 				"variance" : false,
 				"varianceCi" : false,
@@ -356,7 +361,9 @@
 		"covariance" : false,
 		"customHistogramPosition" : "stack",
 		"densityPlot" : false,
+		"densityPlotCategoricalType" : "count",
 		"densityPlotSeparate" : "",
+		"densityPlotSeparate.types" : [],
 		"densityPlotTransparency" : 20.0,
 		"densityPlotType" : "density",
 		"descriptivesTableTransposed" : false,
@@ -371,12 +378,14 @@
 		"heatmapDisplayValue" : false,
 		"heatmapDisplayValueRelativeTextSize" : 1.0,
 		"heatmapHorizontalAxis" : "",
+		"heatmapHorizontalAxis.types" : [],
 		"heatmapLegend" : false,
 		"heatmapPlot" : false,
 		"heatmapStatisticContinuous" : "mean",
 		"heatmapStatisticDiscrete" : "mode",
 		"heatmapTileWidthHeightRatio" : 1.0,
 		"heatmapVerticalAxis" : "",
+		"heatmapVerticalAxis.types" : [],
 		"intervalPlot" : false,
 		"iqr" : false,
 		"kurtosis" : false,
@@ -423,6 +432,7 @@
 		"shapiroWilkTest" : false,
 		"skewness" : false,
 		"splitBy" : "",
+		"splitBy.types" : [],
 		"statisticsValuesAreGroupMidpoints" : false,
 		"stemAndLeaf" : false,
 		"stemAndLeafScale" : 1.0,
@@ -431,6 +441,10 @@
 		"variables" : 
 		[
 			"JaspColumn_9_Encoded"
+		],
+		"variables.types" : 
+		[
+			"scale"
 		],
 		"variance" : false,
 		"varianceCi" : false,

@@ -448,8 +448,16 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
+							"No[col.proportions]" : "JaspColumn_1_Encoded",
 							"No[counts]" : "JaspColumn_1_Encoded",
-							"Yes[counts]" : "JaspColumn_1_Encoded"
+							"No[expected]" : "JaspColumn_1_Encoded",
+							"No[row.proportions]" : "JaspColumn_1_Encoded",
+							"No[total.proportions]" : "JaspColumn_1_Encoded",
+							"Yes[col.proportions]" : "JaspColumn_1_Encoded",
+							"Yes[counts]" : "JaspColumn_1_Encoded",
+							"Yes[expected]" : "JaspColumn_1_Encoded",
+							"Yes[row.proportions]" : "JaspColumn_1_Encoded",
+							"Yes[total.proportions]" : "JaspColumn_1_Encoded"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -670,6 +678,8 @@
 					{
 						"columnOrder" : "ascending",
 						"countsExpected" : true,
+						"countsObserved" : true,
+						"marginShowTotals" : true,
 						"percentagesColumn" : true,
 						"percentagesRow" : true,
 						"percentagesTotal" : true,
@@ -785,6 +795,8 @@
 					{
 						"columnOrder" : "ascending",
 						"countsExpected" : true,
+						"countsObserved" : true,
+						"marginShowTotals" : true,
 						"percentagesColumn" : true,
 						"percentagesRow" : true,
 						"percentagesTotal" : true,
@@ -891,12 +903,14 @@
 		"countsExpected" : true,
 		"countsHiddenSmallCounts" : false,
 		"countsHiddenSmallCountsThreshold" : 5,
+		"countsObserved" : true,
 		"gamma" : false,
 		"kendallsTauB" : false,
 		"kendallsTauC" : false,
 		"lambda" : false,
 		"layers" : [],
 		"likelihoodRatio" : true,
+		"marginShowTotals" : true,
 		"oddsRatio" : false,
 		"oddsRatioAlternative" : "twoSided",
 		"oddsRatioAsLogOdds" : true,

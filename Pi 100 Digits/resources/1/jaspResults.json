@@ -114,7 +114,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1729673600265.png",
+					"filePathPng" : "resources/1/_0_t1731583825194.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "priorPredictivePerformanceDistributionPlotPrior",
@@ -127,13 +127,19 @@
 						"dataCountsSuccesses" : 0,
 						"dataInputType" : "variable",
 						"dataSequenceFailures" : [],
+						"dataSequenceFailures.types" : [],
 						"dataSequenceSequenceOfObservations" : "",
 						"dataSequenceSuccesses" : [],
+						"dataSequenceSuccesses.types" : [],
 						"dataVariableFailures" : 
 						[
 							"odd"
 						],
-						"dataVariableSelected" : "JaspColumn_1_Encoded",
+						"dataVariableFailures.types" : 
+						[
+							"unknown"
+						],
+						"dataVariableSelected" : "JaspColumn_7_Encoded",
 						"dataVariableSelected.types" : 
 						[
 							"nominal"
@@ -141,6 +147,10 @@
 						"dataVariableSuccesses" : 
 						[
 							"even"
+						],
+						"dataVariableSuccesses.types" : 
+						[
+							"unknown"
 						],
 						"models" : 
 						[
@@ -153,7 +163,10 @@
 								"truncationLower" : "0",
 								"truncationUpper" : "1",
 								"type" : "beta",
-								"value" : "#"
+								"value" : 
+								[
+									"#"
+								]
 							},
 							{
 								"betaPriorAlpha" : "1",
@@ -164,7 +177,10 @@
 								"truncationLower" : "0",
 								"truncationUpper" : "1",
 								"type" : "spike",
-								"value" : "#2"
+								"value" : 
+								[
+									"#2"
+								]
 							}
 						],
 						"priorPredictivePerformanceDistributionPlotJoinType" : "overlying",
@@ -323,7 +339,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_1_t1729673600494.png",
+					"filePathPng" : "resources/1/_1_t1731583825418.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "sequentialAnalysisPredictivePerformancePlot",
@@ -336,13 +352,19 @@
 						"dataCountsSuccesses" : 0,
 						"dataInputType" : "variable",
 						"dataSequenceFailures" : [],
+						"dataSequenceFailures.types" : [],
 						"dataSequenceSequenceOfObservations" : "",
 						"dataSequenceSuccesses" : [],
+						"dataSequenceSuccesses.types" : [],
 						"dataVariableFailures" : 
 						[
 							"odd"
 						],
-						"dataVariableSelected" : "JaspColumn_1_Encoded",
+						"dataVariableFailures.types" : 
+						[
+							"unknown"
+						],
+						"dataVariableSelected" : "JaspColumn_7_Encoded",
 						"dataVariableSelected.types" : 
 						[
 							"nominal"
@@ -350,6 +372,10 @@
 						"dataVariableSuccesses" : 
 						[
 							"even"
+						],
+						"dataVariableSuccesses.types" : 
+						[
+							"unknown"
 						],
 						"models" : 
 						[
@@ -362,7 +388,10 @@
 								"truncationLower" : "0",
 								"truncationUpper" : "1",
 								"type" : "beta",
-								"value" : "#"
+								"value" : 
+								[
+									"#"
+								]
 							},
 							{
 								"betaPriorAlpha" : "1",
@@ -373,7 +402,10 @@
 								"truncationLower" : "0",
 								"truncationUpper" : "1",
 								"type" : "spike",
-								"value" : "#2"
+								"value" : 
+								[
+									"#2"
+								]
 							}
 						],
 						"sequentialAnalysisPredictivePerformancePlotBfComparison" : "vs",
@@ -628,14 +660,20 @@
 						"dataCountsSuccesses" : 0,
 						"dataInputType" : "variable",
 						"dataSequenceFailures" : [],
+						"dataSequenceFailures.types" : [],
 						"dataSequenceSequenceOfObservations" : "",
 						"dataSequenceSuccesses" : [],
+						"dataSequenceSuccesses.types" : [],
 						"dataSummary" : true,
 						"dataVariableFailures" : 
 						[
 							"odd"
 						],
-						"dataVariableSelected" : "JaspColumn_1_Encoded",
+						"dataVariableFailures.types" : 
+						[
+							"unknown"
+						],
+						"dataVariableSelected" : "JaspColumn_7_Encoded",
 						"dataVariableSelected.types" : 
 						[
 							"nominal"
@@ -643,6 +681,10 @@
 						"dataVariableSuccesses" : 
 						[
 							"even"
+						],
+						"dataVariableSuccesses.types" : 
+						[
+							"unknown"
 						],
 						"models" : 
 						[
@@ -655,7 +697,10 @@
 								"truncationLower" : "0",
 								"truncationUpper" : "1",
 								"type" : "beta",
-								"value" : "#"
+								"value" : 
+								[
+									"#"
+								]
 							},
 							{
 								"betaPriorAlpha" : "1",
@@ -666,7 +711,10 @@
 								"truncationLower" : "0",
 								"truncationUpper" : "1",
 								"type" : "spike",
-								"value" : "#2"
+								"value" : 
+								[
+									"#2"
+								]
 							}
 						]
 					},
@@ -940,13 +988,19 @@
 						"dataCountsSuccesses" : 0,
 						"dataInputType" : "variable",
 						"dataSequenceFailures" : [],
+						"dataSequenceFailures.types" : [],
 						"dataSequenceSequenceOfObservations" : "",
 						"dataSequenceSuccesses" : [],
+						"dataSequenceSuccesses.types" : [],
 						"dataVariableFailures" : 
 						[
 							"odd"
 						],
-						"dataVariableSelected" : "JaspColumn_1_Encoded",
+						"dataVariableFailures.types" : 
+						[
+							"unknown"
+						],
+						"dataVariableSelected" : "JaspColumn_7_Encoded",
 						"dataVariableSelected.types" : 
 						[
 							"nominal"
@@ -954,6 +1008,10 @@
 						"dataVariableSuccesses" : 
 						[
 							"even"
+						],
+						"dataVariableSuccesses.types" : 
+						[
+							"unknown"
 						],
 						"models" : 
 						[
@@ -966,7 +1024,10 @@
 								"truncationLower" : "0",
 								"truncationUpper" : "1",
 								"type" : "beta",
-								"value" : "#"
+								"value" : 
+								[
+									"#"
+								]
 							},
 							{
 								"betaPriorAlpha" : "1",
@@ -977,7 +1038,10 @@
 								"truncationLower" : "0",
 								"truncationUpper" : "1",
 								"type" : "spike",
-								"value" : "#2"
+								"value" : 
+								[
+									"#2"
+								]
 							}
 						],
 						"priorPredictivePerformanceBfComparison" : "vs",
@@ -1105,14 +1169,20 @@
 		"dataCountsSuccesses" : 0,
 		"dataInputType" : "variable",
 		"dataSequenceFailures" : [],
+		"dataSequenceFailures.types" : [],
 		"dataSequenceSequenceOfObservations" : "",
 		"dataSequenceSuccesses" : [],
+		"dataSequenceSuccesses.types" : [],
 		"dataSummary" : true,
 		"dataVariableFailures" : 
 		[
 			"odd"
 		],
-		"dataVariableSelected" : "JaspColumn_1_Encoded",
+		"dataVariableFailures.types" : 
+		[
+			"unknown"
+		],
+		"dataVariableSelected" : "JaspColumn_7_Encoded",
 		"dataVariableSelected.types" : 
 		[
 			"nominal"
@@ -1120,6 +1190,10 @@
 		"dataVariableSuccesses" : 
 		[
 			"even"
+		],
+		"dataVariableSuccesses.types" : 
+		[
+			"unknown"
 		],
 		"introductoryText" : false,
 		"models" : 
@@ -1133,7 +1207,10 @@
 				"truncationLower" : "0",
 				"truncationUpper" : "1",
 				"type" : "beta",
-				"value" : "#"
+				"value" : 
+				[
+					"#"
+				]
 			},
 			{
 				"betaPriorAlpha" : "1",
@@ -1144,7 +1221,10 @@
 				"truncationLower" : "0",
 				"truncationUpper" : "1",
 				"type" : "spike",
-				"value" : "#2"
+				"value" : 
+				[
+					"#2"
+				]
 			}
 		],
 		"plotHeight" : 320,

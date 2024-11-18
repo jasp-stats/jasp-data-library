@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -29,35 +29,28 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$name" : 
+						[
+							"Model 1"
+						],
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Justification",
-								"processIndependent" : "Framing",
+								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "Skepticism",
-								"value" : "#"
+								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							}
 						]
 					},
@@ -367,36 +360,33 @@
 						"mediationEffects" : true,
 						"mediatorCovariances" : false,
 						"modelNumber" : 1,
-						"modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"name" : "Model 1",
+						"modelNumberIndependent" : "",
+						"modelNumberIndependent.types" : [],
+						"modelNumberMediators" : [],
+						"modelNumberMediators.types" : [],
+						"modelNumberModeratorW" : "",
+						"modelNumberModeratorW.types" : [],
+						"modelNumberModeratorZ" : "",
+						"modelNumberModeratorZ.types" : [],
+						"name" : 
+						[
+							"Model 1"
+						],
 						"pathCoefficients" : true,
 						"processRelationships" : 
 						[
 							{
-								"processDependent" : "Justification",
-								"processIndependent" : "Framing",
+								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "Skepticism",
-								"value" : "#"
+								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							}
 						],
 						"residualCovariances" : false,
@@ -607,34 +597,24 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Justification",
-								"processIndependent" : "Framing",
+								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "Skepticism",
-								"value" : "#"
+								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							}
 						]
 					},
@@ -969,15 +949,24 @@
 								[
 									{
 										"probePercentile" : 16.0,
-										"value" : "16"
+										"value" : 
+										[
+											"16"
+										]
 									},
 									{
 										"probePercentile" : 50.0,
-										"value" : "50"
+										"value" : 
+										[
+											"50"
+										]
 									},
 									{
 										"probePercentile" : 84.0,
-										"value" : "84"
+										"value" : 
+										[
+											"84"
+										]
 									}
 								]
 							},
@@ -1347,35 +1336,28 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$name" : 
+						[
+							"Model 1"
+						],
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Justification",
-								"processIndependent" : "Framing",
+								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "Skepticism",
-								"value" : "#"
+								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							}
 						]
 					},
@@ -1421,36 +1403,33 @@
 								"mediationEffects" : true,
 								"mediatorCovariances" : false,
 								"modelNumber" : 1,
-								"modelNumberIndependent" : 
-								{
-									"types" : [],
-									"value" : ""
-								},
-								"modelNumberMediators" : 
-								{
-									"types" : [],
-									"value" : []
-								},
-								"modelNumberModeratorW" : 
-								{
-									"types" : [],
-									"value" : ""
-								},
-								"modelNumberModeratorZ" : 
-								{
-									"types" : [],
-									"value" : ""
-								},
-								"name" : "Model 1",
+								"modelNumberIndependent" : "",
+								"modelNumberIndependent.types" : [],
+								"modelNumberMediators" : [],
+								"modelNumberMediators.types" : [],
+								"modelNumberModeratorW" : "",
+								"modelNumberModeratorW.types" : [],
+								"modelNumberModeratorZ" : "",
+								"modelNumberModeratorZ.types" : [],
+								"name" : 
+								[
+									"Model 1"
+								],
 								"pathCoefficients" : true,
 								"processRelationships" : 
 								[
 									{
-										"processDependent" : "Justification",
-										"processIndependent" : "Framing",
+										"processDependent" : "JaspColumn_3_Encoded",
+										"processDependent.types" : "scale",
+										"processIndependent" : "JaspColumn_1_Encoded",
+										"processIndependent.types" : "nominal",
 										"processType" : "moderators",
-										"processVariable" : "Skepticism",
-										"value" : "#"
+										"processVariable" : "JaspColumn_4_Encoded",
+										"processVariable.types" : "scale",
+										"value" : 
+										[
+											"#"
+										]
 									}
 								],
 								"residualCovariances" : false,
@@ -1634,7 +1613,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1720533298026.png",
+							"filePathPng" : "resources/0/_0_t1731587344572.png",
 							"height" : 480,
 							"messages" : [],
 							"name" : "conceptPathPlot",
@@ -1758,7 +1737,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1720533298249.png",
+							"filePathPng" : "resources/0/_1_t1731587344789.png",
 							"height" : 480,
 							"messages" : [],
 							"name" : "statPathPlot",
@@ -1807,35 +1786,28 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$name" : 
+						[
+							"Model 1"
+						],
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Justification",
-								"processIndependent" : "Framing",
+								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "Skepticism",
-								"value" : "#"
+								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							}
 						]
 					},
@@ -1935,40 +1907,32 @@
 		{
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"factors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"processModels" : 
 			{
-				"modelNumberIndependent" : 
+				"processRelationships" : 
 				{
-					"hasTypes" : true,
-					"shouldEncode" : true
-				},
-				"modelNumberMediators" : 
-				{
-					"hasTypes" : true,
-					"shouldEncode" : true
-				},
-				"modelNumberModeratorW" : 
-				{
-					"hasTypes" : true,
-					"shouldEncode" : true
-				},
-				"modelNumberModeratorZ" : 
-				{
-					"hasTypes" : true,
-					"shouldEncode" : true
+					"processDependent" : 
+					{
+						"shouldEncode" : true
+					},
+					"processIndependent" : 
+					{
+						"shouldEncode" : true
+					},
+					"processVariable" : 
+					{
+						"shouldEncode" : true
+					}
 				}
 			}
 		},
@@ -2020,15 +1984,24 @@
 		[
 			{
 				"probePercentile" : 16.0,
-				"value" : "16"
+				"value" : 
+				[
+					"16"
+				]
 			},
 			{
 				"probePercentile" : 50.0,
-				"value" : "50"
+				"value" : 
+				[
+					"50"
+				]
 			},
 			{
 				"probePercentile" : 84.0,
-				"value" : "84"
+				"value" : 
+				[
+					"84"
+				]
 			}
 		],
 		"naAction" : "listwise",
@@ -2054,36 +2027,33 @@
 				"mediationEffects" : true,
 				"mediatorCovariances" : false,
 				"modelNumber" : 1,
-				"modelNumberIndependent" : 
-				{
-					"types" : [],
-					"value" : ""
-				},
-				"modelNumberMediators" : 
-				{
-					"types" : [],
-					"value" : []
-				},
-				"modelNumberModeratorW" : 
-				{
-					"types" : [],
-					"value" : ""
-				},
-				"modelNumberModeratorZ" : 
-				{
-					"types" : [],
-					"value" : ""
-				},
-				"name" : "Model 1",
+				"modelNumberIndependent" : "",
+				"modelNumberIndependent.types" : [],
+				"modelNumberMediators" : [],
+				"modelNumberMediators.types" : [],
+				"modelNumberModeratorW" : "",
+				"modelNumberModeratorW.types" : [],
+				"modelNumberModeratorZ" : "",
+				"modelNumberModeratorZ.types" : [],
+				"name" : 
+				[
+					"Model 1"
+				],
 				"pathCoefficients" : true,
 				"processRelationships" : 
 				[
 					{
-						"processDependent" : "Justification",
-						"processIndependent" : "Framing",
+						"processDependent" : "JaspColumn_3_Encoded",
+						"processDependent.types" : "scale",
+						"processIndependent" : "JaspColumn_1_Encoded",
+						"processIndependent.types" : "nominal",
 						"processType" : "moderators",
-						"processVariable" : "Skepticism",
-						"value" : "#"
+						"processVariable" : "JaspColumn_4_Encoded",
+						"processVariable.types" : "scale",
+						"value" : 
+						[
+							"#"
+						]
 					}
 				],
 				"residualCovariances" : false,

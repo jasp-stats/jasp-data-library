@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -34,8 +34,10 @@
 				"gamma" : null,
 				"holdoutData" : "holdoutManual",
 				"interactionDepth" : 30,
+				"intercept" : null,
 				"layers" : null,
 				"learningRate" : null,
+				"link" : null,
 				"lossFunction" : null,
 				"maxComplexityParameter" : 1.0,
 				"maxCost" : null,
@@ -59,13 +61,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_7_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -84,7 +86,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_0_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -92,6 +94,7 @@
 				"testDataManual" : 0.10000000000000001,
 				"testSetIndicator" : null,
 				"testSetIndicatorVariable" : "",
+				"testSetIndicatorVariable.types" : "unknown",
 				"threshold" : null,
 				"tolerance" : null,
 				"trainingDataManual" : null,
@@ -253,7 +256,7 @@
 					0.01
 				],
 				[
-					23
+					22
 				],
 				[
 					300
@@ -262,7 +265,7 @@
 					33
 				],
 				[
-					0.90909090909090906
+					0.93939393939393934
 				]
 			],
 			"error" : false,
@@ -293,8 +296,10 @@
 				"gamma" : null,
 				"holdoutData" : "holdoutManual",
 				"interactionDepth" : 30,
+				"intercept" : null,
 				"layers" : null,
 				"learningRate" : null,
+				"link" : null,
 				"lossFunction" : null,
 				"maxComplexityParameter" : 1.0,
 				"maxCost" : null,
@@ -318,13 +323,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_7_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -345,7 +350,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_0_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -353,6 +358,7 @@
 				"testDataManual" : 0.10000000000000001,
 				"testSetIndicator" : null,
 				"testSetIndicatorVariable" : "",
+				"testSetIndicatorVariable.types" : "unknown",
 				"threshold" : null,
 				"tolerance" : null,
 				"trainingDataManual" : null,
@@ -572,19 +578,19 @@
 					"Gentoo"
 				],
 				[
-					12,
-					0,
+					10,
+					1,
 					0
 				],
 				[
-					2,
-					5,
+					0,
+					9,
 					1
 				],
 				[
 					0,
 					0,
-					13
+					12
 				]
 			],
 			"error" : false,
@@ -618,8 +624,10 @@
 				"gamma" : null,
 				"holdoutData" : "holdoutManual",
 				"interactionDepth" : 30,
+				"intercept" : null,
 				"layers" : null,
 				"learningRate" : null,
+				"link" : null,
 				"lossFunction" : null,
 				"maxComplexityParameter" : 1.0,
 				"maxCost" : null,
@@ -643,13 +651,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_7_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -668,7 +676,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_0_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -676,6 +684,7 @@
 				"testDataManual" : 0.10000000000000001,
 				"testSetIndicator" : null,
 				"testSetIndicatorVariable" : "",
+				"testSetIndicatorVariable.types" : "unknown",
 				"threshold" : null,
 				"tolerance" : null,
 				"trainingDataManual" : null,
@@ -756,8 +765,8 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_3_t1720524933872.png",
-			"height" : 800,
+			"filePathPng" : "resources/0/_3_t1731584664394.png",
+			"height" : 1000,
 			"messages" : [],
 			"name" : "decisionBoundary",
 			"nestedOptionMustBe" : {},
@@ -781,9 +790,11 @@
 				"gamma" : null,
 				"holdoutData" : "holdoutManual",
 				"interactionDepth" : 30,
+				"intercept" : null,
 				"layers" : null,
 				"learningRate" : null,
 				"legendShown" : true,
+				"link" : null,
 				"lossFunction" : null,
 				"maxComplexityParameter" : 1.0,
 				"maxCost" : null,
@@ -808,13 +819,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_7_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -833,7 +844,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_0_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -841,6 +852,7 @@
 				"testDataManual" : 0.10000000000000001,
 				"testSetIndicator" : null,
 				"testSetIndicatorVariable" : "",
+				"testSetIndicatorVariable.types" : "unknown",
 				"threshold" : null,
 				"tolerance" : null,
 				"trainingDataManual" : null,
@@ -855,7 +867,7 @@
 			"status" : "complete",
 			"title" : "Decision Boundary Matrix",
 			"type" : "plot",
-			"width" : 800
+			"width" : 1000
 		},
 		"decisionTreePlot" : 
 		{
@@ -953,7 +965,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_2_t1720524933485.png",
+			"filePathPng" : "resources/0/_2_t1731584663949.png",
 			"height" : 500,
 			"messages" : [],
 			"name" : "decisionTreePlot",
@@ -978,8 +990,10 @@
 				"gamma" : null,
 				"holdoutData" : "holdoutManual",
 				"interactionDepth" : 30,
+				"intercept" : null,
 				"layers" : null,
 				"learningRate" : null,
+				"link" : null,
 				"lossFunction" : null,
 				"maxComplexityParameter" : 1.0,
 				"maxCost" : null,
@@ -1003,13 +1017,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_7_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1028,7 +1042,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_0_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1036,6 +1050,7 @@
 				"testDataManual" : 0.10000000000000001,
 				"testSetIndicator" : null,
 				"testSetIndicatorVariable" : "",
+				"testSetIndicatorVariable.types" : "unknown",
 				"threshold" : null,
 				"tolerance" : null,
 				"trainingDataManual" : null,
@@ -1067,13 +1082,13 @@
 			{
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_7_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1085,7 +1100,7 @@
 					"scale",
 					"scale"
 				],
-				"target" : "JaspColumn_0_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1194,7 +1209,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1720524933050.png",
+			"filePathPng" : "resources/0/_0_t1731584663521.png",
 			"height" : 30,
 			"messages" : [],
 			"name" : "plotDataSplit",
@@ -1208,13 +1223,13 @@
 				"modelValid" : "validationManual",
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_7_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1226,7 +1241,7 @@
 					"scale",
 					"scale"
 				],
-				"target" : "JaspColumn_0_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1234,6 +1249,7 @@
 				"testDataManual" : 0.10000000000000001,
 				"testSetIndicator" : null,
 				"testSetIndicatorVariable" : "",
+				"testSetIndicatorVariable.types" : "unknown",
 				"trainingDataManual" : null,
 				"validationDataManual" : 0.20000000000000001
 			},
@@ -1352,7 +1368,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_1_t1720524933216.png",
+			"filePathPng" : "resources/0/_1_t1731584663684.png",
 			"height" : 300,
 			"messages" : [],
 			"name" : "rocCurve",
@@ -1376,8 +1392,10 @@
 				"gamma" : null,
 				"holdoutData" : "holdoutManual",
 				"interactionDepth" : 30,
+				"intercept" : null,
 				"layers" : null,
 				"learningRate" : null,
+				"link" : null,
 				"lossFunction" : null,
 				"maxComplexityParameter" : 1.0,
 				"maxCost" : null,
@@ -1401,13 +1419,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_7_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1427,7 +1445,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_0_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1435,6 +1453,7 @@
 				"testDataManual" : 0.10000000000000001,
 				"testSetIndicator" : null,
 				"testSetIndicatorVariable" : "",
+				"testSetIndicatorVariable.types" : "unknown",
 				"threshold" : null,
 				"tolerance" : null,
 				"trainingDataManual" : null,
@@ -1648,93 +1667,93 @@
 					"Average / Total"
 				],
 				[
-					14,
-					5,
-					14,
+					10,
+					10,
+					13,
 					33
 				],
 				[
-					0.93939393939393945,
-					0.90909090909090906,
 					0.96969696969696972,
+					0.93939393939393945,
+					0.96969696969696972,
+					0.95959595959595967
+				],
+				[
+					0.90909090909090906,
+					0.90000000000000002,
+					1.0,
+					0.94214876033057848
+				],
+				[
+					1.0,
+					0.90000000000000002,
+					0.92307692307692313,
 					0.93939393939393945
 				],
 				[
-					1.0,
-					0.625,
-					1.0,
-					0.94318181818181823
-				],
-				[
-					0.8571428571428571,
-					1.0,
-					0.9285714285714286,
-					0.90909090909090906
-				],
-				[
+					0.043478260869565216,
+					0.043478260869565216,
 					0.0,
-					0.10714285714285714,
+					0.028985507246376812
+				],
+				[
+					0.090909090909090912,
+					0.10000000000000001,
 					0.0,
-					0.035714285714285712
+					0.063636363636363644
 				],
 				[
-					0.0,
-					0.375,
-					0.0,
-					0.125
+					0.95238095238095233,
+					0.90000000000000002,
+					0.96000000000000008,
+					0.93950937950937963
 				],
 				[
-					0.92307692307692302,
-					0.76923076923076927,
-					0.96296296296296302,
-					0.91668825002158327
+					0.93250480824031379,
+					0.85652173913043483,
+					0.93761446187699082,
+					0.90888033641591315
 				],
 				[
-					0.88063057185271088,
-					0.74701788083399601,
-					0.93922460420437082,
-					0.85562435229702594
-				],
-				[
-					0.90225563909774453,
-					0.98214285714285721,
-					0.9642857142857143,
-					0.94956140350877205
-				],
-				[
-					0.90476190476190477,
-					1.0,
+					0.97826086956521741,
 					0.94999999999999996,
-					0.95158730158730154
+					0.96153846153846156,
+					0.96326644370122627
 				],
 				[
 					1.0,
-					0.8928571428571429,
+					0.95652173913043481,
+					0.95238095238095233,
+					0.96963423050379571
+				],
+				[
+					0.95652173913043481,
+					0.95652173913043481,
 					1.0,
-					0.9642857142857143
+					0.97101449275362317
 				],
 				[
-					0.14285714285714285,
 					0.0,
-					0.071428571428571425,
-					0.071428571428571425
+					0.10000000000000001,
+					0.076923076923076927,
+					0.05897435897435898
 				],
 				[
-					0.095238095238095233,
 					0.0,
-					0.050000000000000003,
-					0.048412698412698414
+					0.043478260869565216,
+					0.047619047619047616,
+					0.030365769496204276
 				],
 				[
-					6.0,
-					0.83333333333333337,
-					13.0,
-					6.6111111111111107
+					5.0,
+					3.0,
+					12.0,
+					6.666666666666667
 				],
 				[
+					0.33333333333333331,
+					0.30303030303030304,
 					0.36363636363636365,
-					0.24242424242424243,
-					0.39393939393939392,
 					1.0
 				]
 			],
@@ -1774,8 +1793,10 @@
 				"gamma" : null,
 				"holdoutData" : "holdoutManual",
 				"interactionDepth" : 30,
+				"intercept" : null,
 				"layers" : null,
 				"learningRate" : null,
+				"link" : null,
 				"lossFunction" : null,
 				"maxComplexityParameter" : 1.0,
 				"maxCost" : null,
@@ -1799,13 +1820,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_7_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1824,7 +1845,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_0_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1832,6 +1853,7 @@
 				"testDataManual" : 0.10000000000000001,
 				"testSetIndicator" : null,
 				"testSetIndicatorVariable" : "",
+				"testSetIndicatorVariable.types" : "unknown",
 				"threshold" : null,
 				"tolerance" : null,
 				"trainingDataManual" : null,
@@ -1939,12 +1961,10 @@
 			},
 			"predictors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"target" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"testIndicatorColumn" : 
@@ -1986,13 +2006,13 @@
 		"predictionsColumn" : "JaspColumn_8_Encoded",
 		"predictors" : 
 		[
-			"JaspColumn_6_Encoded",
-			"JaspColumn_7_Encoded",
-			"JaspColumn_1_Encoded",
-			"JaspColumn_2_Encoded",
-			"JaspColumn_3_Encoded",
-			"JaspColumn_4_Encoded",
-			"JaspColumn_5_Encoded"
+			"JaspColumn_29_Encoded",
+			"JaspColumn_30_Encoded",
+			"JaspColumn_14_Encoded",
+			"JaspColumn_15_Encoded",
+			"JaspColumn_18_Encoded",
+			"JaspColumn_21_Encoded",
+			"JaspColumn_24_Encoded"
 		],
 		"predictors.types" : 
 		[
@@ -2013,7 +2033,7 @@
 		"splitsTable" : false,
 		"splitsTreeTable" : true,
 		"tableShap" : false,
-		"target" : "JaspColumn_0_Encoded",
+		"target" : "JaspColumn_11_Encoded",
 		"target.types" : 
 		[
 			"nominal"
@@ -2021,6 +2041,7 @@
 		"testDataManual" : 0.10000000000000001,
 		"testIndicatorColumn" : "",
 		"testSetIndicatorVariable" : "",
+		"testSetIndicatorVariable.types" : "unknown",
 		"toIndex" : 5,
 		"validationDataManual" : 0.20000000000000001,
 		"validationMeasures" : true

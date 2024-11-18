@@ -886,7 +886,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_0_t1729673029648.png",
+									"filePathPng" : "resources/2/_0_t1731583474419.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "",
@@ -1187,10 +1187,6 @@
 			{
 				"shouldEncode" : true
 			},
-			"randomFactors" : 
-			{
-				"shouldEncode" : true
-			},
 			"restrictedMarginalMeanTerms" : 
 			{
 				"shouldEncode" : true
@@ -1361,7 +1357,10 @@
 			{
 				"informedHypothesisTest" : false,
 				"marginalMean" : false,
-				"name" : "Model 1",
+				"name" : 
+				[
+					"Model 1"
+				],
 				"summary" : false,
 				"syntax" : ""
 			}

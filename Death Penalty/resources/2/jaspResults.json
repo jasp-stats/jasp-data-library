@@ -168,16 +168,16 @@
 							"JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded"
 						],
 						[
-							0.497,
-							0.38800000000000001,
-							0.096000000000000002,
-							0.019
+							0.502,
+							0.38600000000000001,
+							0.1065,
+							0.0054999999999999997
 						],
 						[
 							1.0,
-							1.2809278350515463,
-							5.177083333333333,
-							26.157894736842106
+							1.3005181347150259,
+							4.713615023474178,
+							91.27272727272728
 						]
 					],
 					"error" : false,
@@ -358,10 +358,23 @@
 					"nominal",
 					"nominal",
 					"nominal",
-					"unknown",
-					"unknown",
-					"unknown",
-					"unknown"
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown",
+						"unknown"
+					]
 				],
 				"priorScale" : 0.0,
 				"priorShape" : -1.0,
@@ -483,10 +496,23 @@
 			"nominal",
 			"nominal",
 			"nominal",
-			"unknown",
-			"unknown",
-			"unknown",
-			"unknown"
+			[
+				"unknown",
+				"unknown"
+			],
+			[
+				"unknown",
+				"unknown"
+			],
+			[
+				"unknown",
+				"unknown"
+			],
+			[
+				"unknown",
+				"unknown",
+				"unknown"
+			]
 		],
 		"plotHeight" : 320,
 		"plotWidth" : 480,

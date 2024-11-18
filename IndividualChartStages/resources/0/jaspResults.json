@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -23,7 +23,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1720529565035.png",
+					"filePathPng" : "resources/0/_0_t1731586862042.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -594,7 +594,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1720529565559.png",
+					"filePathPng" : "resources/0/_1_t1731586862531.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "Yield",
@@ -664,17 +664,14 @@
 		{
 			"axisLabels" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"measurement" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"stage" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

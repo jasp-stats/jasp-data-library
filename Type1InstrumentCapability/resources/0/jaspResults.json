@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -44,8 +44,8 @@
 						],
 						"limits" : 
 						[
-							-5.5,
-							-3
+							-5.5999999999999996,
+							-2.3999999999999999
 						],
 						"limitsType" : "data",
 						"range" : 
@@ -90,14 +90,14 @@
 							0,
 							15
 						],
-						"limitsType" : "breaks",
+						"limitsType" : "data",
 						"range" : 
 						[
 							0,
 							15,
 							5
 						],
-						"title" : "Counts",
+						"title" : "Count",
 						"titleType" : "character"
 					},
 					"type" : "ScaleContinuous"
@@ -107,7 +107,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_1_t1720529631590.png",
+			"filePathPng" : "resources/0/_1_t1731586935082.png",
 			"height" : 400,
 			"messages" : [],
 			"name" : "biasHistogram",
@@ -115,14 +115,16 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"histogram" : true
+				"histogram" : true,
+				"histogramBinBoundaryDirection" : "left",
+				"histogramBinWidthType" : "sturges"
 			},
 			"optionMustContain" : {},
 			"position" : 4,
 			"resizedByUser" : false,
 			"revision" : 0,
 			"status" : "complete",
-			"title" : "Bias Histogram",
+			"title" : "Bias histogram",
 			"type" : "plot",
 			"width" : 700
 		},
@@ -234,8 +236,8 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1720529631302.png",
-			"height" : 300,
+			"filePathPng" : "resources/0/_0_t1731586934774.png",
+			"height" : 400,
 			"messages" : [],
 			"name" : "biasRun",
 			"nestedOptionMustBe" : {},
@@ -249,7 +251,7 @@
 			"resizedByUser" : false,
 			"revision" : 0,
 			"status" : "complete",
-			"title" : "Run Chart of JaspColumn_1_Encoded",
+			"title" : "Run chart of JaspColumn_1_Encoded",
 			"type" : "plot",
 			"width" : 700
 		},
@@ -294,7 +296,9 @@
 							"observedMean" : "sf:4;dp:3",
 							"referenceValue" : "sf:4;dp:3",
 							"sd" : "sf:4;dp:3",
-							"tolerance" : "sf:4;dp:3"
+							"tolerance" : "sf:4;dp:3",
+							"toleranceLB" : "sf:4;dp:3",
+							"toleranceUB" : "sf:4;dp:3"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -331,6 +335,8 @@
 							"sd",
 							"SV",
 							"tolerance",
+							"toleranceLB",
+							"toleranceUB",
 							"biasPercent"
 						],
 						"title" : "colNames",
@@ -342,7 +348,11 @@
 						"error" : false,
 						"errorMessage" : "",
 						"escapeHtml" : true,
-						"fields" : {},
+						"fields" : 
+						{
+							"toleranceLB" : "Tolerance bounds",
+							"toleranceUB" : "Tolerance bounds"
+						},
 						"listType" : "string",
 						"messages" : [],
 						"name" : "",
@@ -364,13 +374,15 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"SV" : "Study variation",
+							"SV" : "Instrument variation",
 							"bias" : "Bias",
 							"biasPercent" : "% Bias",
 							"observedMean" : "Mean",
 							"referenceValue" : "Reference value",
-							"sd" : "Std. Deviation (<i>s</i>)",
-							"tolerance" : "Tolerance"
+							"sd" : "Std. dev. (<i>s</i>)",
+							"tolerance" : "Tolerance",
+							"toleranceLB" : "Lower",
+							"toleranceUB" : "Upper"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -398,7 +410,9 @@
 							"observedMean" : "number",
 							"referenceValue" : "number",
 							"sd" : "number",
-							"tolerance" : "number"
+							"tolerance" : "number",
+							"toleranceLB" : "number",
+							"toleranceUB" : "number"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -433,6 +447,12 @@
 							15.0
 						],
 						[
+							-5.5
+						],
+						[
+							-2.5
+						],
+						[
 							0.36000000000000182
 						]
 					],
@@ -447,7 +467,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "The study variation is calculated as 6 * <i>s</i>."
+							"text" : "The instrument variation is calculated as 6 * <i>s</i>."
 						}
 					],
 					"messages" : [],
@@ -509,10 +529,12 @@
 						"observedMean",
 						"referenceValue",
 						"sd",
-						"tolerance"
+						"tolerance",
+						"toleranceLB",
+						"toleranceUB"
 					],
 					"status" : "complete",
-					"title" : "Basic Statistics",
+					"title" : "Basic statistics",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -613,8 +635,8 @@
 						{
 							"Cg" : "Cg",
 							"Cgk" : "Cgk",
-							"percentRep" : "% Var(Repeatability)",
-							"percentRepBias" : "% Var(Repeatability and bias)"
+							"percentRep" : "% Var(repeatability)",
+							"percentRepBias" : "% Var(repeatability and bias)"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -756,7 +778,7 @@
 			"optionMustContain" : {},
 			"order_increment" : 2,
 			"position" : 2,
-			"title" : "Bias and Instrument Capability Table",
+			"title" : "Bias and instrument capability table",
 			"type" : "container"
 		},
 		"biasTtest" : 
@@ -842,8 +864,8 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"lci" : "95 % CI for Bias",
-					"uci" : "95 % CI for Bias"
+					"lci" : "95 % CI for bias",
+					"uci" : "95 % CI for bias"
 				},
 				"listType" : "string",
 				"messages" : [],
@@ -1000,7 +1022,7 @@
 				"uci"
 			],
 			"status" : "complete",
-			"title" : "T-Test of Observed Bias Against 0",
+			"title" : "t-test of observed bias against 0",
 			"transposeTable" : false,
 			"transposeWithOvertitle" : false,
 			"type" : "table"
@@ -1029,12 +1051,12 @@
 		{
 			"measurement" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
 		"biasTable" : true,
 		"histogram" : true,
+		"histogramBinBoundaryDirection" : "left",
 		"histogramBinWidthType" : "sturges",
 		"histogramManualNumberOfBins" : 30.0,
 		"histogramMeanCi" : true,
@@ -1061,6 +1083,6 @@
 	"order_increment" : 4,
 	"position" : 9999,
 	"relativePathKeep" : "resources/0/state",
-	"title" : "Type 1 Instrument Capability",
+	"title" : "Type 1 Instrument Capability Study",
 	"type" : "results"
 }

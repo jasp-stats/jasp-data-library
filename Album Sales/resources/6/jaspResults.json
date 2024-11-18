@@ -1387,18 +1387,18 @@
 					"data" : 
 					[
 						[
-							1,
-							2,
-							10,
-							47,
-							52,
-							55,
-							61,
-							68,
-							100,
-							164,
-							169,
-							200
+							1.0,
+							2.0,
+							10.0,
+							47.0,
+							52.0,
+							55.0,
+							61.0,
+							68.0,
+							100.0,
+							164.0,
+							169.0,
+							200.0
 						],
 						[
 							2.1774040823837599,
@@ -1626,7 +1626,7 @@
 				"model" : 
 				{
 					"citations" : [],
-					"environmentName" : "state_9",
+					"environmentName" : "state_8",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
@@ -1750,11 +1750,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_6",
+					"environmentName" : "plot_3",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_6_t1729673228468.png",
+					"filePathPng" : "resources/6/_3_t1731583577872.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsQQPlot",
@@ -1866,11 +1866,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_5",
+					"environmentName" : "plot_2",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_5_t1729673228347.png",
+					"filePathPng" : "resources/6/_2_t1731583577750.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsHistPlot",
@@ -1998,11 +1998,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_4",
+					"environmentName" : "plot_1",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_4_t1729673228214.png",
+					"filePathPng" : "resources/6/_1_t1731583577617.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsPredPlot",

@@ -214,6 +214,12 @@
 						{
 							"cols" : null,
 							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : "Continuity correction is available only for 2x2 tables."
+						},
+						{
+							"cols" : null,
+							"rows" : null,
 							"symbol" : "*",
 							"text" : "Vovk-Sellke Maximum  <em>p</em>-Ratio: Based the <em>p</em>-value,\n      the maximum possible odds in favor of H\u2081 over H\u2080 equals 1/(-e <em>p</em> log(<em>p</em>)) for <em>p</em> \u2264 .37\n      (Sellke, Bayarri, & Berger, 2001)."
 						}
@@ -851,9 +857,15 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
+							"Low[col.proportions]" : "JaspColumn_0_Encoded",
 							"Low[counts]" : "JaspColumn_0_Encoded",
+							"Low[expected]" : "JaspColumn_0_Encoded",
+							"Moderate[col.proportions]" : "JaspColumn_0_Encoded",
 							"Moderate[counts]" : "JaspColumn_0_Encoded",
-							"Vigorous[counts]" : "JaspColumn_0_Encoded"
+							"Moderate[expected]" : "JaspColumn_0_Encoded",
+							"Vigorous[col.proportions]" : "JaspColumn_0_Encoded",
+							"Vigorous[counts]" : "JaspColumn_0_Encoded",
+							"Vigorous[expected]" : "JaspColumn_0_Encoded"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -1055,6 +1067,8 @@
 					{
 						"columnOrder" : "ascending",
 						"countsExpected" : true,
+						"countsObserved" : true,
+						"marginShowTotals" : true,
 						"percentagesColumn" : true,
 						"percentagesRow" : false,
 						"percentagesTotal" : false,
@@ -1165,6 +1179,8 @@
 					{
 						"columnOrder" : "ascending",
 						"countsExpected" : true,
+						"countsObserved" : true,
+						"marginShowTotals" : true,
 						"percentagesColumn" : true,
 						"percentagesRow" : false,
 						"percentagesTotal" : false,
@@ -1267,12 +1283,14 @@
 		"countsExpected" : true,
 		"countsHiddenSmallCounts" : false,
 		"countsHiddenSmallCountsThreshold" : 5,
+		"countsObserved" : true,
 		"gamma" : true,
 		"kendallsTauB" : true,
 		"kendallsTauC" : false,
 		"lambda" : false,
 		"layers" : [],
 		"likelihoodRatio" : false,
+		"marginShowTotals" : true,
 		"oddsRatio" : false,
 		"oddsRatioAlternative" : "twoSided",
 		"oddsRatioAsLogOdds" : true,

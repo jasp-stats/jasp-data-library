@@ -545,7 +545,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_1_t1729673019994.png",
+									"filePathPng" : "resources/2/_1_t1731583465825.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "",
@@ -2075,7 +2075,10 @@
 				[
 					"nominal",
 					"nominal",
-					"unknown"
+					[
+						"unknown",
+						"unknown"
+					]
 				],
 				"sumOfSquares" : "type3",
 				"wlsWeights" : "",
@@ -2163,10 +2166,6 @@
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
-			{
-				"shouldEncode" : true
-			},
-			"randomFactors" : 
 			{
 				"shouldEncode" : true
 			},
@@ -2324,7 +2323,10 @@
 		[
 			"nominal",
 			"nominal",
-			"unknown"
+			[
+				"unknown",
+				"unknown"
+			]
 		],
 		"normalizeErrorBarsDescriptives" : true,
 		"plotHeight" : 320,
@@ -2386,7 +2388,10 @@
 			{
 				"informedHypothesisTest" : false,
 				"marginalMean" : false,
-				"name" : "Model 1",
+				"name" : 
+				[
+					"Model 1"
+				],
 				"summary" : false,
 				"syntax" : ""
 			}

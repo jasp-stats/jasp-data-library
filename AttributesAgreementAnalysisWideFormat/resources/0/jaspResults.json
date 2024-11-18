@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -235,7 +235,7 @@
 						"Percent"
 					],
 					"status" : "complete",
-					"title" : "All Appraisers vs Standard",
+					"title" : "All appraisers vs standard",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -465,7 +465,7 @@
 						"Percent"
 					],
 					"status" : "complete",
-					"title" : "Between Appraisers",
+					"title" : "Between appraisers",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -714,7 +714,7 @@
 						"Percent"
 					],
 					"status" : "complete",
-					"title" : "Each Appraiser vs Standard",
+					"title" : "Each appraiser vs standard",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -803,7 +803,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1720529523323.png",
+					"filePathPng" : "resources/0/_0_t1731586817250.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "PlotVs",
@@ -903,7 +903,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1720529523523.png",
+					"filePathPng" : "resources/0/_1_t1731586817443.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "PlotWithin",
@@ -1063,19 +1063,19 @@
 							"C"
 						],
 						[
-							"80 (Marginally acceptable)",
-							"73.33 (Unacceptable)",
-							"60 (Unacceptable)"
+							"80 (marginally acceptable)",
+							"73.33 (unacceptable)",
+							"60 (unacceptable)"
 						],
 						[
-							"20 (Unacceptable)",
-							"20 (Unacceptable)",
-							"66.67 (Unacceptable)"
+							"20 (unacceptable)",
+							"20 (unacceptable)",
+							"66.67 (unacceptable)"
 						],
 						[
-							"16.67 (Unacceptable)",
-							"26.67 (Unacceptable)",
-							"10 (Marginally acceptable)"
+							"16.67 (unacceptable)",
+							"26.67 (unacceptable)",
+							"10 (marginally acceptable)"
 						]
 					],
 					"error" : false,
@@ -1089,19 +1089,19 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "Acceptable: x >= 90% (Effectiveness), x =< 2% (Miss rate), x =< 5% (False alarm rate)"
+							"text" : "Acceptable: x >= 90% (effectiveness), x =< 2% (miss rate), x =< 5% (false alarm rate)"
 						},
 						{
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "Marginally acceptable: x >= 80% (Effectiveness), x =< 5% (Miss rate), x =< 10% (False alarm rate)"
+							"text" : "Marginally acceptable: x >= 80% (effectiveness), x =< 5% (miss rate), x =< 10% (false alarm rate)"
 						},
 						{
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "Unacceptable: x < 80% (Effectiveness), x > 5% (Miss rate), x > 10% (False alarm rate)"
+							"text" : "Unacceptable: x < 80% (effectiveness), x > 5% (miss rate), x > 10% (false alarm rate)"
 						}
 					],
 					"messages" : [],
@@ -1407,7 +1407,7 @@
 						"Percent"
 					],
 					"status" : "complete",
-					"title" : "Within Appraisers",
+					"title" : "Within appraisers",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -1472,7 +1472,7 @@
 			"optionMustContain" : {},
 			"order_increment" : 7,
 			"position" : 9999,
-			"title" : "Attributes Agreement Analysis",
+			"title" : "Attributes agreement analysis",
 			"type" : "container"
 		},
 		"cohensKappa" : 
@@ -1571,7 +1571,7 @@
 				"fields" : 
 				{
 					"Appraiser" : "Appraiser",
-					"CK" : "Cohen's Kappa"
+					"CK" : "Cohen's kappa"
 				},
 				"listType" : "string",
 				"messages" : [],
@@ -1684,7 +1684,7 @@
 				"CK"
 			],
 			"status" : "complete",
-			"title" : "Cohen's Kappa for Appraiser vs Standard",
+			"title" : "Cohen's kappa for appraiser vs standard",
 			"transposeTable" : false,
 			"transposeWithOvertitle" : false,
 			"type" : "table"
@@ -1916,7 +1916,7 @@
 				"appraiserVector"
 			],
 			"status" : "complete",
-			"title" : "Cohen's Kappa correlations summary",
+			"title" : "Cohen's kappa correlations summary",
 			"transposeTable" : false,
 			"transposeWithOvertitle" : false,
 			"type" : "table"
@@ -2021,9 +2021,9 @@
 				"fields" : 
 				{
 					"appraiser" : "Appraiser",
-					"between" : "Between Appraisers",
-					"vsStandard" : "Appraiser vs Standard",
-					"within" : "Within Appraisers"
+					"between" : "Between appraisers",
+					"vsStandard" : "Appraiser vs standard",
+					"within" : "Within appraisers"
 				},
 				"listType" : "string",
 				"messages" : [],
@@ -2151,7 +2151,7 @@
 				"within"
 			],
 			"status" : "complete",
-			"title" : "Fleiss' Kappa",
+			"title" : "Fleiss' kappa",
 			"transposeTable" : false,
 			"transposeWithOvertitle" : false,
 			"type" : "table"
@@ -2180,42 +2180,34 @@
 		{
 			"measurementLongFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"measurementsWideFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"operatorLongFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"operatorWideFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"partLongFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"partWideFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"standardLongFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"standardWideFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

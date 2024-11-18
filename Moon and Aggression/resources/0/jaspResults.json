@@ -275,6 +275,13 @@
 						"JaspColumn_1_Encoded"
 					]
 				],
+				"pairs.types" : 
+				[
+					[
+						"scale",
+						"scale"
+					]
+				],
 				"qqPlot" : false
 			},
 			"optionMustContain" : {},
@@ -536,6 +543,13 @@
 						"JaspColumn_1_Encoded"
 					]
 				],
+				"pairs.types" : 
+				[
+					[
+						"scale",
+						"scale"
+					]
+				],
 				"student" : true,
 				"variables" : null,
 				"vovkSellke" : false,
@@ -677,7 +691,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1729672935792.png",
+							"filePathPng" : "resources/0/_0_t1731583331792.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Moon - Other",
@@ -994,6 +1008,13 @@
 						"JaspColumn_0_Encoded",
 						"JaspColumn_1_Encoded"
 					]
+				],
+				"pairs.types" : 
+				[
+					[
+						"scale",
+						"scale"
+					]
 				]
 			},
 			"optionMustContain" : {},
@@ -1052,6 +1073,13 @@
 			[
 				"JaspColumn_0_Encoded",
 				"JaspColumn_1_Encoded"
+			]
+		],
+		"pairs.types" : 
+		[
+			[
+				"scale",
+				"scale"
 			]
 		],
 		"plotHeight" : 300,

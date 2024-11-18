@@ -198,6 +198,7 @@
 				"shapiroWilkTest" : false,
 				"skewness" : false,
 				"splitBy" : "",
+				"splitBy.types" : [],
 				"sum" : false,
 				"valid" : true,
 				"variables" : 
@@ -205,6 +206,12 @@
 					"JaspColumn_5_Encoded",
 					"JaspColumn_8_Encoded",
 					"JaspColumn_11_Encoded"
+				],
+				"variables.types" : 
+				[
+					"nominal",
+					"nominal",
+					"nominal"
 				],
 				"variance" : false,
 				"varianceCi" : false,
@@ -1031,7 +1038,8 @@
 			{
 				"frequencyTables" : true,
 				"frequencyTablesMaximumDistinctValues" : 10,
-				"splitBy" : ""
+				"splitBy" : "",
+				"splitBy.types" : []
 			},
 			"optionMustContain" : {},
 			"order_increment" : 3,
@@ -1095,7 +1103,9 @@
 		"covariance" : false,
 		"customHistogramPosition" : "stack",
 		"densityPlot" : false,
+		"densityPlotCategoricalType" : "count",
 		"densityPlotSeparate" : "",
+		"densityPlotSeparate.types" : [],
 		"densityPlotTransparency" : 20.0,
 		"densityPlotType" : "density",
 		"descriptivesTableTransposed" : false,
@@ -1110,12 +1120,14 @@
 		"heatmapDisplayValue" : false,
 		"heatmapDisplayValueRelativeTextSize" : 1.0,
 		"heatmapHorizontalAxis" : "",
+		"heatmapHorizontalAxis.types" : [],
 		"heatmapLegend" : false,
 		"heatmapPlot" : false,
 		"heatmapStatisticContinuous" : "mean",
 		"heatmapStatisticDiscrete" : "mode",
 		"heatmapTileWidthHeightRatio" : 1.0,
 		"heatmapVerticalAxis" : "",
+		"heatmapVerticalAxis.types" : [],
 		"intervalPlot" : false,
 		"iqr" : false,
 		"kurtosis" : false,
@@ -1162,6 +1174,7 @@
 		"shapiroWilkTest" : false,
 		"skewness" : false,
 		"splitBy" : "",
+		"splitBy.types" : [],
 		"statisticsValuesAreGroupMidpoints" : false,
 		"stemAndLeaf" : false,
 		"stemAndLeafScale" : 1.0,
@@ -1172,6 +1185,12 @@
 			"JaspColumn_5_Encoded",
 			"JaspColumn_8_Encoded",
 			"JaspColumn_11_Encoded"
+		],
+		"variables.types" : 
+		[
+			"nominal",
+			"nominal",
+			"nominal"
 		],
 		"variance" : false,
 		"varianceCi" : false,

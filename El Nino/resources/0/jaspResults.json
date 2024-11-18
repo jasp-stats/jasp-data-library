@@ -32,7 +32,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1729869412663.png",
+							"filePathPng" : "resources/0/_1_t1731586397530.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "August",
@@ -47,7 +47,10 @@
 								"distributionPlotPointStack" : true,
 								"period" : "custom",
 								"splitVariable" : "JaspColumn_1_Encoded",
-								"splitVariable.types" : "nominal",
+								"splitVariable.types" : 
+								[
+									"nominal"
+								],
 								"variables" : 
 								[
 									"JaspColumn_0_Encoded"
@@ -83,7 +86,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1729869412359.png",
+							"filePathPng" : "resources/0/_0_t1731586397235.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "July",
@@ -98,7 +101,10 @@
 								"distributionPlotPointStack" : true,
 								"period" : "custom",
 								"splitVariable" : "JaspColumn_1_Encoded",
-								"splitVariable.types" : "nominal",
+								"splitVariable.types" : 
+								[
+									"nominal"
+								],
 								"variables" : 
 								[
 									"JaspColumn_0_Encoded"
@@ -134,7 +140,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_2_t1729869412944.png",
+							"filePathPng" : "resources/0/_2_t1731586397807.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "September",
@@ -149,7 +155,10 @@
 								"distributionPlotPointStack" : true,
 								"period" : "custom",
 								"splitVariable" : "JaspColumn_1_Encoded",
-								"splitVariable.types" : "nominal",
+								"splitVariable.types" : 
+								[
+									"nominal"
+								],
 								"variables" : 
 								[
 									"JaspColumn_0_Encoded"
@@ -192,7 +201,10 @@
 						"distributionPlotPointStack" : true,
 						"period" : "custom",
 						"splitVariable" : "JaspColumn_1_Encoded",
-						"splitVariable.types" : "nominal",
+						"splitVariable.types" : 
+						[
+							"nominal"
+						],
 						"variables" : 
 						[
 							"JaspColumn_0_Encoded"
@@ -230,7 +242,10 @@
 				"distributionPlotPointStack" : true,
 				"period" : "custom",
 				"splitVariable" : "JaspColumn_1_Encoded",
-				"splitVariable.types" : "nominal",
+				"splitVariable.types" : 
+				[
+					"nominal"
+				],
 				"variables" : 
 				[
 					"JaspColumn_0_Encoded"
@@ -575,7 +590,10 @@
 				"period" : "custom",
 				"range" : false,
 				"splitVariable" : "JaspColumn_1_Encoded",
-				"splitVariable.types" : "nominal",
+				"splitVariable.types" : 
+				[
+					"nominal"
+				],
 				"standardDeviation" : true,
 				"variables" : 
 				[
@@ -668,7 +686,10 @@
 				"period" : "custom",
 				"range" : false,
 				"splitVariable" : "JaspColumn_1_Encoded",
-				"splitVariable.types" : "nominal",
+				"splitVariable.types" : 
+				[
+					"nominal"
+				],
 				"standardDeviation" : true,
 				"variables" : 
 				[
@@ -728,7 +749,10 @@
 		"plotWidth" : 480,
 		"range" : false,
 		"splitVariable" : "JaspColumn_1_Encoded",
-		"splitVariable.types" : "nominal",
+		"splitVariable.types" : 
+		[
+			"nominal"
+		],
 		"standardDeviation" : true,
 		"variables" : 
 		[

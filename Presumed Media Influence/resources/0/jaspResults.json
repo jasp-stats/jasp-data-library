@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -29,35 +29,28 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$name" : 
+						[
+							"Model 1"
+						],
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Intention",
-								"processIndependent" : "Condition",
+								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_0_Encoded",
+								"processIndependent.types" : "nominal",
 								"processType" : "mediators",
-								"processVariable" : "MediaInfluence",
-								"value" : "#"
+								"processVariable" : "JaspColumn_1_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							}
 						]
 					},
@@ -367,36 +360,33 @@
 						"mediationEffects" : true,
 						"mediatorCovariances" : false,
 						"modelNumber" : 1,
-						"modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"name" : "Model 1",
+						"modelNumberIndependent" : "",
+						"modelNumberIndependent.types" : [],
+						"modelNumberMediators" : [],
+						"modelNumberMediators.types" : [],
+						"modelNumberModeratorW" : "",
+						"modelNumberModeratorW.types" : [],
+						"modelNumberModeratorZ" : "",
+						"modelNumberModeratorZ.types" : [],
+						"name" : 
+						[
+							"Model 1"
+						],
 						"pathCoefficients" : true,
 						"processRelationships" : 
 						[
 							{
-								"processDependent" : "Intention",
-								"processIndependent" : "Condition",
+								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_0_Encoded",
+								"processIndependent.types" : "nominal",
 								"processType" : "mediators",
-								"processVariable" : "MediaInfluence",
-								"value" : "#"
+								"processVariable" : "JaspColumn_1_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							}
 						],
 						"residualCovariances" : false,
@@ -607,34 +597,24 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Intention",
-								"processIndependent" : "Condition",
+								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_0_Encoded",
+								"processIndependent.types" : "nominal",
 								"processType" : "mediators",
-								"processVariable" : "MediaInfluence",
-								"value" : "#"
+								"processVariable" : "JaspColumn_1_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							}
 						]
 					},
@@ -937,12 +917,12 @@
 									0.057195430190053687
 								],
 								[
-									-0.22482744495450485,
-									0.016413740175960697
+									-0.24533171445233254,
+									0.0034185900771027023
 								],
 								[
-									0.78056683218856826,
-									0.53177806354490564
+									0.79083491740295397,
+									0.54490816733540415
 								]
 							],
 							"error" : false,
@@ -972,15 +952,24 @@
 								[
 									{
 										"probePercentile" : 16.0,
-										"value" : "16"
+										"value" : 
+										[
+											"16"
+										]
 									},
 									{
 										"probePercentile" : 50.0,
-										"value" : "50"
+										"value" : 
+										[
+											"50"
+										]
 									},
 									{
 										"probePercentile" : 84.0,
-										"value" : "84"
+										"value" : 
+										[
+											"84"
+										]
 									}
 								]
 							},
@@ -1247,14 +1236,14 @@
 									0.041503959254918454
 								],
 								[
-									-0.22482744495450485,
-									0.32537078952210419,
-									0.031936950044055147
+									-0.24533171445233254,
+									0.32182867686652561,
+									-0.0017611350296702108
 								],
 								[
-									0.78056683218856826,
-									0.66455326742251186,
-									0.93903998932243959
+									0.79083491740295397,
+									0.66153042247833072,
+									0.93775803889258946
 								]
 							],
 							"error" : false,
@@ -1359,35 +1348,28 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$name" : 
+						[
+							"Model 1"
+						],
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Intention",
-								"processIndependent" : "Condition",
+								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_0_Encoded",
+								"processIndependent.types" : "nominal",
 								"processType" : "mediators",
-								"processVariable" : "MediaInfluence",
-								"value" : "#"
+								"processVariable" : "JaspColumn_1_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							}
 						]
 					},
@@ -1433,36 +1415,33 @@
 								"mediationEffects" : true,
 								"mediatorCovariances" : false,
 								"modelNumber" : 1,
-								"modelNumberIndependent" : 
-								{
-									"types" : [],
-									"value" : ""
-								},
-								"modelNumberMediators" : 
-								{
-									"types" : [],
-									"value" : []
-								},
-								"modelNumberModeratorW" : 
-								{
-									"types" : [],
-									"value" : ""
-								},
-								"modelNumberModeratorZ" : 
-								{
-									"types" : [],
-									"value" : ""
-								},
-								"name" : "Model 1",
+								"modelNumberIndependent" : "",
+								"modelNumberIndependent.types" : [],
+								"modelNumberMediators" : [],
+								"modelNumberMediators.types" : [],
+								"modelNumberModeratorW" : "",
+								"modelNumberModeratorW.types" : [],
+								"modelNumberModeratorZ" : "",
+								"modelNumberModeratorZ.types" : [],
+								"name" : 
+								[
+									"Model 1"
+								],
 								"pathCoefficients" : true,
 								"processRelationships" : 
 								[
 									{
-										"processDependent" : "Intention",
-										"processIndependent" : "Condition",
+										"processDependent" : "JaspColumn_3_Encoded",
+										"processDependent.types" : "scale",
+										"processIndependent" : "JaspColumn_0_Encoded",
+										"processIndependent.types" : "nominal",
 										"processType" : "mediators",
-										"processVariable" : "MediaInfluence",
-										"value" : "#"
+										"processVariable" : "JaspColumn_1_Encoded",
+										"processVariable.types" : "scale",
+										"value" : 
+										[
+											"#"
+										]
 									}
 								],
 								"residualCovariances" : false,
@@ -1650,7 +1629,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1720534001823.png",
+							"filePathPng" : "resources/0/_0_t1731587384327.png",
 							"height" : 480,
 							"messages" : [],
 							"name" : "conceptPathPlot",
@@ -1695,35 +1674,28 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$name" : 
+						[
+							"Model 1"
+						],
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Intention",
-								"processIndependent" : "Condition",
+								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_0_Encoded",
+								"processIndependent.types" : "nominal",
 								"processType" : "mediators",
-								"processVariable" : "MediaInfluence",
-								"value" : "#"
+								"processVariable" : "JaspColumn_1_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							}
 						]
 					},
@@ -1823,40 +1795,32 @@
 		{
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"factors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"processModels" : 
 			{
-				"modelNumberIndependent" : 
+				"processRelationships" : 
 				{
-					"hasTypes" : true,
-					"shouldEncode" : true
-				},
-				"modelNumberMediators" : 
-				{
-					"hasTypes" : true,
-					"shouldEncode" : true
-				},
-				"modelNumberModeratorW" : 
-				{
-					"hasTypes" : true,
-					"shouldEncode" : true
-				},
-				"modelNumberModeratorZ" : 
-				{
-					"hasTypes" : true,
-					"shouldEncode" : true
+					"processDependent" : 
+					{
+						"shouldEncode" : true
+					},
+					"processIndependent" : 
+					{
+						"shouldEncode" : true
+					},
+					"processVariable" : 
+					{
+						"shouldEncode" : true
+					}
 				}
 			}
 		},
@@ -1908,15 +1872,24 @@
 		[
 			{
 				"probePercentile" : 16.0,
-				"value" : "16"
+				"value" : 
+				[
+					"16"
+				]
 			},
 			{
 				"probePercentile" : 50.0,
-				"value" : "50"
+				"value" : 
+				[
+					"50"
+				]
 			},
 			{
 				"probePercentile" : 84.0,
-				"value" : "84"
+				"value" : 
+				[
+					"84"
+				]
 			}
 		],
 		"naAction" : "listwise",
@@ -1942,36 +1915,33 @@
 				"mediationEffects" : true,
 				"mediatorCovariances" : false,
 				"modelNumber" : 1,
-				"modelNumberIndependent" : 
-				{
-					"types" : [],
-					"value" : ""
-				},
-				"modelNumberMediators" : 
-				{
-					"types" : [],
-					"value" : []
-				},
-				"modelNumberModeratorW" : 
-				{
-					"types" : [],
-					"value" : ""
-				},
-				"modelNumberModeratorZ" : 
-				{
-					"types" : [],
-					"value" : ""
-				},
-				"name" : "Model 1",
+				"modelNumberIndependent" : "",
+				"modelNumberIndependent.types" : [],
+				"modelNumberMediators" : [],
+				"modelNumberMediators.types" : [],
+				"modelNumberModeratorW" : "",
+				"modelNumberModeratorW.types" : [],
+				"modelNumberModeratorZ" : "",
+				"modelNumberModeratorZ.types" : [],
+				"name" : 
+				[
+					"Model 1"
+				],
 				"pathCoefficients" : true,
 				"processRelationships" : 
 				[
 					{
-						"processDependent" : "Intention",
-						"processIndependent" : "Condition",
+						"processDependent" : "JaspColumn_3_Encoded",
+						"processDependent.types" : "scale",
+						"processIndependent" : "JaspColumn_0_Encoded",
+						"processIndependent.types" : "nominal",
 						"processType" : "mediators",
-						"processVariable" : "MediaInfluence",
-						"value" : "#"
+						"processVariable" : "JaspColumn_1_Encoded",
+						"processVariable.types" : "scale",
+						"value" : 
+						[
+							"#"
+						]
 					}
 				],
 				"residualCovariances" : false,

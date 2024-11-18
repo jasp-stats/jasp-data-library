@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -367,56 +367,67 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$name" : 
+						[
+							"Model 1"
+						],
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "AudAttention",
-								"value" : "#"
+								"processVariable" : "JaspColumn_2_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "HearImpair",
-								"value" : "#2"
+								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#2"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "Memory",
-								"value" : "#3"
+								"processVariable" : "JaspColumn_5_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#3"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "moderators",
-								"processVariable" : "MoodDisturb",
-								"value" : "#4"
+								"processVariable" : "JaspColumn_6_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#4"
+								]
 							}
 						]
 					},
@@ -730,57 +741,72 @@
 						"mediationEffects" : true,
 						"mediatorCovariances" : false,
 						"modelNumber" : 1,
-						"modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"name" : "Model 1",
+						"modelNumberIndependent" : "",
+						"modelNumberIndependent.types" : [],
+						"modelNumberMediators" : [],
+						"modelNumberMediators.types" : [],
+						"modelNumberModeratorW" : "",
+						"modelNumberModeratorW.types" : [],
+						"modelNumberModeratorZ" : "",
+						"modelNumberModeratorZ.types" : [],
+						"name" : 
+						[
+							"Model 1"
+						],
 						"pathCoefficients" : true,
 						"processRelationships" : 
 						[
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "AudAttention",
-								"value" : "#"
+								"processVariable" : "JaspColumn_2_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "HearImpair",
-								"value" : "#2"
+								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#2"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "Memory",
-								"value" : "#3"
+								"processVariable" : "JaspColumn_5_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#3"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "moderators",
-								"processVariable" : "MoodDisturb",
-								"value" : "#4"
+								"processVariable" : "JaspColumn_6_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#4"
+								]
 							}
 						],
 						"residualCovariances" : false,
@@ -991,55 +1017,63 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "AudAttention",
-								"value" : "#"
+								"processVariable" : "JaspColumn_2_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "HearImpair",
-								"value" : "#2"
+								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#2"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "Memory",
-								"value" : "#3"
+								"processVariable" : "JaspColumn_5_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#3"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "moderators",
-								"processVariable" : "MoodDisturb",
-								"value" : "#4"
+								"processVariable" : "JaspColumn_6_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#4"
+								]
 							}
 						]
 					},
@@ -1395,20 +1429,20 @@
 									0.15382739769905296
 								],
 								[
-									-0.22068389053253668,
-									-0.19144207069140881,
-									-0.22276977863440769,
-									-0.037974795716459592,
-									0.025503064096239373,
-									-0.069252494855615104
+									-0.21274645735283743,
+									-0.19666699198075768,
+									-0.21896642290311424,
+									-0.03318464933852977,
+									0.023313614409648641,
+									-0.063069092389827802
 								],
 								[
-									0.013967542390061913,
-									0.0038571087814696344,
-									0.059233428033792244,
-									0.021198972765205524,
-									0.10022938083001862,
-									0.0086820237186828846
+									0.023254313765000804,
+									0.0082465749470671708,
+									0.072181426068391716,
+									0.02502534431512474,
+									0.10211755794253582,
+									0.0081341691045785335
 								]
 							],
 							"error" : false,
@@ -1438,15 +1472,24 @@
 								[
 									{
 										"probePercentile" : 16.0,
-										"value" : "16"
+										"value" : 
+										[
+											"16"
+										]
 									},
 									{
 										"probePercentile" : 50.0,
-										"value" : "50"
+										"value" : 
+										[
+											"50"
+										]
 									},
 									{
 										"probePercentile" : 84.0,
-										"value" : "84"
+										"value" : 
+										[
+											"84"
+										]
 									}
 								]
 							},
@@ -1770,26 +1813,26 @@
 									0.14399101964695182
 								],
 								[
-									-0.18848697193833638,
-									-0.047242877338539754,
-									0.13239856399261801,
-									-0.41822149095389238,
-									0.20522490919647646,
-									-0.087120513274889899,
-									-0.61878142258356383,
-									0.11753556303933485,
-									-0.035918183055173317
+									-0.19090634583729379,
+									-0.052658410157577891,
+									0.12681768485083725,
+									-0.41337609305958972,
+									0.19626454407240135,
+									-0.090208970117346854,
+									-0.64224286385616614,
+									0.11785672038716727,
+									-0.034023461603929349
 								],
 								[
-									0.0060827076610367797,
-									0.0734493744870722,
-									0.34034299907469623,
-									-0.18433652190393102,
-									0.43562202293292163,
-									0.096820906281076577,
-									-0.29419612579800258,
-									0.35556299113331813,
-									0.21735542235071847
+									0.013720634157972169,
+									0.068794136169934877,
+									0.34270102714470285,
+									-0.18556768960489523,
+									0.43684651138357822,
+									0.093519769901789368,
+									-0.323399900163167,
+									0.36821811165828294,
+									0.19749836959448325
 								]
 							],
 							"error" : false,
@@ -2114,16 +2157,16 @@
 									0.4334347167781083
 								],
 								[
-									-0.20417874724760643,
-									-0.18099936364730182,
-									-0.22323870834744824,
-									-0.040065705242192974
+									-0.19832313449456748,
+									-0.18121964930163115,
+									-0.2162885283105456,
+									-0.040013327669665644
 								],
 								[
-									0.050494178635887399,
-									0.038847837627245391,
-									0.086519093196256627,
-									0.095754983142196007
+									0.049392756862585138,
+									0.034174103659226213,
+									0.080432737886692293,
+									0.093900118128062357
 								]
 							],
 							"error" : false,
@@ -2153,15 +2196,24 @@
 								[
 									{
 										"probePercentile" : 16.0,
-										"value" : "16"
+										"value" : 
+										[
+											"16"
+										]
 									},
 									{
 										"probePercentile" : 50.0,
-										"value" : "50"
+										"value" : 
+										[
+											"50"
+										]
 									},
 									{
 										"probePercentile" : 84.0,
-										"value" : "84"
+										"value" : 
+										[
+											"84"
+										]
 									}
 								]
 							},
@@ -2248,56 +2300,67 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$name" : 
+						[
+							"Model 1"
+						],
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "AudAttention",
-								"value" : "#"
+								"processVariable" : "JaspColumn_2_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "HearImpair",
-								"value" : "#2"
+								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#2"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "Memory",
-								"value" : "#3"
+								"processVariable" : "JaspColumn_5_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#3"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "moderators",
-								"processVariable" : "MoodDisturb",
-								"value" : "#4"
+								"processVariable" : "JaspColumn_6_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#4"
+								]
 							}
 						]
 					},
@@ -2343,57 +2406,72 @@
 								"mediationEffects" : true,
 								"mediatorCovariances" : false,
 								"modelNumber" : 1,
-								"modelNumberIndependent" : 
-								{
-									"types" : [],
-									"value" : ""
-								},
-								"modelNumberMediators" : 
-								{
-									"types" : [],
-									"value" : []
-								},
-								"modelNumberModeratorW" : 
-								{
-									"types" : [],
-									"value" : ""
-								},
-								"modelNumberModeratorZ" : 
-								{
-									"types" : [],
-									"value" : ""
-								},
-								"name" : "Model 1",
+								"modelNumberIndependent" : "",
+								"modelNumberIndependent.types" : [],
+								"modelNumberMediators" : [],
+								"modelNumberMediators.types" : [],
+								"modelNumberModeratorW" : "",
+								"modelNumberModeratorW.types" : [],
+								"modelNumberModeratorZ" : "",
+								"modelNumberModeratorZ.types" : [],
+								"name" : 
+								[
+									"Model 1"
+								],
 								"pathCoefficients" : true,
 								"processRelationships" : 
 								[
 									{
-										"processDependent" : "Fatigue",
-										"processIndependent" : "Age",
+										"processDependent" : "JaspColumn_1_Encoded",
+										"processDependent.types" : "scale",
+										"processIndependent" : "JaspColumn_3_Encoded",
+										"processIndependent.types" : "scale",
 										"processType" : "mediators",
-										"processVariable" : "AudAttention",
-										"value" : "#"
+										"processVariable" : "JaspColumn_2_Encoded",
+										"processVariable.types" : "scale",
+										"value" : 
+										[
+											"#"
+										]
 									},
 									{
-										"processDependent" : "Fatigue",
-										"processIndependent" : "Age",
+										"processDependent" : "JaspColumn_1_Encoded",
+										"processDependent.types" : "scale",
+										"processIndependent" : "JaspColumn_3_Encoded",
+										"processIndependent.types" : "scale",
 										"processType" : "mediators",
-										"processVariable" : "HearImpair",
-										"value" : "#2"
+										"processVariable" : "JaspColumn_4_Encoded",
+										"processVariable.types" : "scale",
+										"value" : 
+										[
+											"#2"
+										]
 									},
 									{
-										"processDependent" : "Fatigue",
-										"processIndependent" : "Age",
+										"processDependent" : "JaspColumn_1_Encoded",
+										"processDependent.types" : "scale",
+										"processIndependent" : "JaspColumn_3_Encoded",
+										"processIndependent.types" : "scale",
 										"processType" : "mediators",
-										"processVariable" : "Memory",
-										"value" : "#3"
+										"processVariable" : "JaspColumn_5_Encoded",
+										"processVariable.types" : "scale",
+										"value" : 
+										[
+											"#3"
+										]
 									},
 									{
-										"processDependent" : "Fatigue",
-										"processIndependent" : "Age",
+										"processDependent" : "JaspColumn_1_Encoded",
+										"processDependent.types" : "scale",
+										"processIndependent" : "JaspColumn_3_Encoded",
+										"processIndependent.types" : "scale",
 										"processType" : "moderators",
-										"processVariable" : "MoodDisturb",
-										"value" : "#4"
+										"processVariable" : "JaspColumn_6_Encoded",
+										"processVariable.types" : "scale",
+										"value" : 
+										[
+											"#4"
+										]
 									}
 								],
 								"residualCovariances" : false,
@@ -2587,7 +2665,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/9/_0_t1720533290472.png",
+							"filePathPng" : "resources/9/_0_t1731587336236.png",
 							"height" : 480,
 							"messages" : [],
 							"name" : "conceptPathPlot",
@@ -2711,7 +2789,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/9/_1_t1720533290716.png",
+							"filePathPng" : "resources/9/_1_t1731587336472.png",
 							"height" : 480,
 							"messages" : [],
 							"name" : "statPathPlot",
@@ -2760,56 +2838,67 @@
 						"processModels$!_SEP_!$1$!_SEP_!$intercepts" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$mediatorCovariances" : false,
 						"processModels$!_SEP_!$1$!_SEP_!$modelNumber" : 1,
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : 
-						{
-							"types" : [],
-							"value" : []
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : 
-						{
-							"types" : [],
-							"value" : ""
-						},
-						"processModels$!_SEP_!$1$!_SEP_!$name" : "Model 1",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberIndependent" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberMediators" : [],
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorW" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$modelNumberModeratorZ" : "",
+						"processModels$!_SEP_!$1$!_SEP_!$name" : 
+						[
+							"Model 1"
+						],
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "AudAttention",
-								"value" : "#"
+								"processVariable" : "JaspColumn_2_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "HearImpair",
-								"value" : "#2"
+								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#2"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "mediators",
-								"processVariable" : "Memory",
-								"value" : "#3"
+								"processVariable" : "JaspColumn_5_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#3"
+								]
 							},
 							{
-								"processDependent" : "Fatigue",
-								"processIndependent" : "Age",
+								"processDependent" : "JaspColumn_1_Encoded",
+								"processDependent.types" : "scale",
+								"processIndependent" : "JaspColumn_3_Encoded",
+								"processIndependent.types" : "scale",
 								"processType" : "moderators",
-								"processVariable" : "MoodDisturb",
-								"value" : "#4"
+								"processVariable" : "JaspColumn_6_Encoded",
+								"processVariable.types" : "scale",
+								"value" : 
+								[
+									"#4"
+								]
 							}
 						]
 					},
@@ -2911,40 +3000,32 @@
 		{
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"factors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"processModels" : 
 			{
-				"modelNumberIndependent" : 
+				"processRelationships" : 
 				{
-					"hasTypes" : true,
-					"shouldEncode" : true
-				},
-				"modelNumberMediators" : 
-				{
-					"hasTypes" : true,
-					"shouldEncode" : true
-				},
-				"modelNumberModeratorW" : 
-				{
-					"hasTypes" : true,
-					"shouldEncode" : true
-				},
-				"modelNumberModeratorZ" : 
-				{
-					"hasTypes" : true,
-					"shouldEncode" : true
+					"processDependent" : 
+					{
+						"shouldEncode" : true
+					},
+					"processIndependent" : 
+					{
+						"shouldEncode" : true
+					},
+					"processVariable" : 
+					{
+						"shouldEncode" : true
+					}
 				}
 			}
 		},
@@ -2998,15 +3079,24 @@
 		[
 			{
 				"probePercentile" : 16.0,
-				"value" : "16"
+				"value" : 
+				[
+					"16"
+				]
 			},
 			{
 				"probePercentile" : 50.0,
-				"value" : "50"
+				"value" : 
+				[
+					"50"
+				]
 			},
 			{
 				"probePercentile" : 84.0,
-				"value" : "84"
+				"value" : 
+				[
+					"84"
+				]
 			}
 		],
 		"naAction" : "listwise",
@@ -3032,57 +3122,72 @@
 				"mediationEffects" : true,
 				"mediatorCovariances" : false,
 				"modelNumber" : 1,
-				"modelNumberIndependent" : 
-				{
-					"types" : [],
-					"value" : ""
-				},
-				"modelNumberMediators" : 
-				{
-					"types" : [],
-					"value" : []
-				},
-				"modelNumberModeratorW" : 
-				{
-					"types" : [],
-					"value" : ""
-				},
-				"modelNumberModeratorZ" : 
-				{
-					"types" : [],
-					"value" : ""
-				},
-				"name" : "Model 1",
+				"modelNumberIndependent" : "",
+				"modelNumberIndependent.types" : [],
+				"modelNumberMediators" : [],
+				"modelNumberMediators.types" : [],
+				"modelNumberModeratorW" : "",
+				"modelNumberModeratorW.types" : [],
+				"modelNumberModeratorZ" : "",
+				"modelNumberModeratorZ.types" : [],
+				"name" : 
+				[
+					"Model 1"
+				],
 				"pathCoefficients" : true,
 				"processRelationships" : 
 				[
 					{
-						"processDependent" : "Fatigue",
-						"processIndependent" : "Age",
+						"processDependent" : "JaspColumn_1_Encoded",
+						"processDependent.types" : "scale",
+						"processIndependent" : "JaspColumn_3_Encoded",
+						"processIndependent.types" : "scale",
 						"processType" : "mediators",
-						"processVariable" : "AudAttention",
-						"value" : "#"
+						"processVariable" : "JaspColumn_2_Encoded",
+						"processVariable.types" : "scale",
+						"value" : 
+						[
+							"#"
+						]
 					},
 					{
-						"processDependent" : "Fatigue",
-						"processIndependent" : "Age",
+						"processDependent" : "JaspColumn_1_Encoded",
+						"processDependent.types" : "scale",
+						"processIndependent" : "JaspColumn_3_Encoded",
+						"processIndependent.types" : "scale",
 						"processType" : "mediators",
-						"processVariable" : "HearImpair",
-						"value" : "#2"
+						"processVariable" : "JaspColumn_4_Encoded",
+						"processVariable.types" : "scale",
+						"value" : 
+						[
+							"#2"
+						]
 					},
 					{
-						"processDependent" : "Fatigue",
-						"processIndependent" : "Age",
+						"processDependent" : "JaspColumn_1_Encoded",
+						"processDependent.types" : "scale",
+						"processIndependent" : "JaspColumn_3_Encoded",
+						"processIndependent.types" : "scale",
 						"processType" : "mediators",
-						"processVariable" : "Memory",
-						"value" : "#3"
+						"processVariable" : "JaspColumn_5_Encoded",
+						"processVariable.types" : "scale",
+						"value" : 
+						[
+							"#3"
+						]
 					},
 					{
-						"processDependent" : "Fatigue",
-						"processIndependent" : "Age",
+						"processDependent" : "JaspColumn_1_Encoded",
+						"processDependent.types" : "scale",
+						"processIndependent" : "JaspColumn_3_Encoded",
+						"processIndependent.types" : "scale",
 						"processType" : "moderators",
-						"processVariable" : "MoodDisturb",
-						"value" : "#4"
+						"processVariable" : "JaspColumn_6_Encoded",
+						"processVariable.types" : "scale",
+						"value" : 
+						[
+							"#4"
+						]
 					}
 				],
 				"residualCovariances" : false,

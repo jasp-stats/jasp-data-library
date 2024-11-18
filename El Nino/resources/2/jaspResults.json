@@ -165,10 +165,10 @@
 					"Watson-Wheeler"
 				],
 				[
-					3.1384726953708606e-08
+					5.549056104935698e-08
 				],
 				[
-					40.674812310205738
+					39.478144754764735
 				],
 				[
 					4.0
@@ -208,7 +208,10 @@
 			{
 				"customPeriod" : 360.0,
 				"dependent" : "JaspColumn_0_Encoded",
-				"dependent.types" : "scale",
+				"dependent.types" : 
+				[
+					"scale"
+				],
 				"fixedFactors" : 
 				[
 					"JaspColumn_1_Encoded"
@@ -309,7 +312,10 @@
 		},
 		"customPeriod" : 360.0,
 		"dependent" : "JaspColumn_0_Encoded",
-		"dependent.types" : "scale",
+		"dependent.types" : 
+		[
+			"scale"
+		],
 		"fixedFactors" : 
 		[
 			"JaspColumn_1_Encoded"

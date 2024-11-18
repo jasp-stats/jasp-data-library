@@ -203,7 +203,15 @@
 					"escapeHtml" : true,
 					"expectedColumnCount" : 0,
 					"expectedRowCount" : 0,
-					"footnotes" : [],
+					"footnotes" : 
+					[
+						{
+							"cols" : null,
+							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : "Continuity correction is available only for 2x2 tables."
+						}
+					],
 					"messages" : [],
 					"name" : "crossTabChisq",
 					"nestedOptionMustBe" : {},
@@ -364,7 +372,9 @@
 						"fields" : 
 						{
 							"No[counts]" : "JaspColumn_0_Encoded",
-							"Yes[counts]" : "JaspColumn_0_Encoded"
+							"No[row.proportions]" : "JaspColumn_0_Encoded",
+							"Yes[counts]" : "JaspColumn_0_Encoded",
+							"Yes[row.proportions]" : "JaspColumn_0_Encoded"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -555,6 +565,8 @@
 					{
 						"columnOrder" : "descending",
 						"countsExpected" : false,
+						"countsObserved" : true,
+						"marginShowTotals" : true,
 						"percentagesColumn" : false,
 						"percentagesRow" : true,
 						"percentagesTotal" : false,
@@ -658,6 +670,8 @@
 					{
 						"columnOrder" : "descending",
 						"countsExpected" : false,
+						"countsObserved" : true,
+						"marginShowTotals" : true,
 						"percentagesColumn" : false,
 						"percentagesRow" : true,
 						"percentagesTotal" : false,
@@ -764,12 +778,14 @@
 		"countsExpected" : false,
 		"countsHiddenSmallCounts" : false,
 		"countsHiddenSmallCountsThreshold" : 5,
+		"countsObserved" : true,
 		"gamma" : false,
 		"kendallsTauB" : false,
 		"kendallsTauC" : false,
 		"lambda" : false,
 		"layers" : [],
 		"likelihoodRatio" : false,
+		"marginShowTotals" : true,
 		"oddsRatio" : false,
 		"oddsRatioAlternative" : "twoSided",
 		"oddsRatioAsLogOdds" : true,

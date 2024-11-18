@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,7 +18,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_0_t1720534229624.png",
+			"filePathPng" : "resources/2/_0_t1731585881996.png",
 			"height" : 320,
 			"messages" : [],
 			"name" : "historyPlot",
@@ -219,20 +219,20 @@
 							"2020-08-13"
 						],
 						[
-							-0.97510011302915234,
-							2.4484360950761554
+							-0.97212353148374409,
+							2.4478197690817534
 						],
 						[
-							0.080078574831192378,
-							0.14229989862195278
+							0.076403952087035251,
+							0.13921708364108973
 						],
 						[
-							-1.127633781223133,
-							2.1658646819406164
+							-1.1224553640988055,
+							2.1742929366357804
 						],
 						[
-							-0.81143849825637504,
-							2.7279300181150163
+							-0.82243063009360251,
+							2.7153432209894195
 						]
 					],
 					"error" : false,
@@ -375,7 +375,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_1_t1720534229777.png",
+							"filePathPng" : "resources/2/_1_t1731585882143.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "prophetOverallForecastPlot",
@@ -414,7 +414,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_2_t1720534229936.png",
+							"filePathPng" : "resources/2/_2_t1731585882300.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "prophetTrendForecastPlot",
@@ -621,20 +621,20 @@
 							14.0
 						],
 						[
-							0.11123615642577689,
-							0.11625472678633637,
-							0.10489111960730807,
-							0.14755718045854832,
-							0.15011117340865077,
-							0.15393005959057354,
-							0.17667403480469884,
-							0.15952972790634337,
-							0.15339124678207622,
-							0.1460015202449679,
-							0.18934694929672943,
-							0.18155727778191946,
-							0.19584941774385217,
-							0.20773998191597182
+							0.11109204952916246,
+							0.11647319146911543,
+							0.10547481396439003,
+							0.14794142121086831,
+							0.15008027875310043,
+							0.15399462058166521,
+							0.17687409095979278,
+							0.15956773351747314,
+							0.1539465515119976,
+							0.1460043940215216,
+							0.18919464580718356,
+							0.18111919093846493,
+							0.19546280304798119,
+							0.20799544182549259
 						]
 					],
 					"error" : false,
@@ -734,7 +734,6 @@
 											{
 												"breaks" : 
 												[
-													0.29999999999999999,
 													0.40000000000000002,
 													0.5,
 													0.59999999999999998,
@@ -751,7 +750,6 @@
 												],
 												"labels" : 
 												[
-													"0.3",
 													"0.4",
 													"0.5",
 													"0.6",
@@ -760,13 +758,13 @@
 												],
 												"limits" : 
 												[
-													0.29999999999999999,
+													0.40000000000000002,
 													0.80000000000000004
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
-													0.29999999999999999,
+													0.40000000000000002,
 													0.80000000000000004,
 													0.10000000000000001
 												],
@@ -827,7 +825,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_4_t1720534230218.png",
+									"filePathPng" : "resources/2/_4_t1731585882554.png",
 									"height" : 320,
 									"messages" : [],
 									"name" : "k",
@@ -862,7 +860,8 @@
 													0.23999999999999999,
 													0.26000000000000001,
 													0.28000000000000003,
-													0.29999999999999999
+													0.29999999999999999,
+													0.32000000000000001
 												],
 												"breaksType" : "manual",
 												"expand" : 
@@ -880,18 +879,19 @@
 													"0.24",
 													"0.26",
 													"0.28",
-													"0.30"
+													"0.30",
+													"0.32"
 												],
 												"limits" : 
 												[
 													0.17999999999999999,
-													0.29999999999999999
+													0.32000000000000001
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
 													0.17999999999999999,
-													0.29999999999999999,
+													0.32000000000000001,
 													0.02
 												],
 												"title" : "Offset",
@@ -949,7 +949,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_5_t1720534230319.png",
+									"filePathPng" : "resources/2/_5_t1731585882649.png",
 									"height" : 320,
 									"messages" : [],
 									"name" : "m",
@@ -978,6 +978,7 @@
 											{
 												"breaks" : 
 												[
+													0.055,
 													0.059999999999999998,
 													0.065000000000000002,
 													0.070000000000000007,
@@ -995,6 +996,7 @@
 												],
 												"labels" : 
 												[
+													"0.055",
 													"0.060",
 													"0.065",
 													"0.070",
@@ -1004,13 +1006,13 @@
 												],
 												"limits" : 
 												[
-													0.059999999999999998,
+													0.055,
 													0.085000000000000006
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
-													0.059999999999999998,
+													0.055,
 													0.085000000000000006,
 													0.0050000000000000001
 												],
@@ -1026,9 +1028,13 @@
 												"breaks" : 
 												[
 													0,
-													50,
+													20,
+													40,
+													60,
+													80,
 													100,
-													150
+													120,
+													140
 												],
 												"breaksType" : "range",
 												"expand" : 
@@ -1041,21 +1047,25 @@
 												"labels" : 
 												[
 													"0",
-													"50",
+													"20",
+													"40",
+													"60",
+													"80",
 													"100",
-													"150"
+													"120",
+													"140"
 												],
 												"limits" : 
 												[
 													0,
-													150
+													140
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
 													0,
-													150,
-													50
+													140,
+													20
 												],
 												"title" : "Density",
 												"titleType" : "character"
@@ -1067,7 +1077,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_6_t1720534230414.png",
+									"filePathPng" : "resources/2/_6_t1731585882736.png",
 									"height" : 320,
 									"messages" : [],
 									"name" : "sigma_obs",
@@ -1146,7 +1156,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_3_t1720534230084.png",
+							"filePathPng" : "resources/2/_3_t1731585882428.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Weekly",
@@ -1180,6 +1190,10 @@
 						"seasonalityPlots" : 
 						[
 							"Weekly"
+						],
+						"seasonalityPlots.types" : 
+						[
+							"unknown"
 						]
 					},
 					"optionMustContain" : {},
@@ -1358,39 +1372,39 @@
 							"Residual variance (sigma)"
 						],
 						[
-							0.579445094667978,
-							0.24693425157100138,
-							0.071474807179746011
+							0.57781711175019079,
+							0.24721996897618048,
+							0.071661860434730329
 						],
 						[
-							0.046854903326315506,
-							0.012547333694380072,
-							0.0032031622172012477
+							0.044732488186936946,
+							0.012238381365319056,
+							0.0033017817767219287
 						],
 						[
-							0.48438611471988252,
-							0.22274409599078307,
-							0.065513707657440662
+							0.49264775220858975,
+							0.22321603314843363,
+							0.065465855981575699
 						],
 						[
-							0.66954651334017312,
-							0.27268155565646429,
-							0.077975633461182178
+							0.66490192872919474,
+							0.27154584746880006,
+							0.078274403752350022
 						],
 						[
-							1.0027904203399898,
-							1.0017970202440973,
-							1.0025835660536402
+							1.0021849900160116,
+							1.0019869849882872,
+							1.0006952732083927
 						],
 						[
-							1484.0,
-							1859.0,
-							3412.0
+							1646.0,
+							2029.0,
+							3458.0
 						],
 						[
-							2187.0,
-							2705.0,
-							3033.0
+							1954.0,
+							2218.0,
+							2643.0
 						]
 					],
 					"error" : false,
@@ -1520,7 +1534,10 @@
 						"period" : 7.0,
 						"priorSigma" : 10.0,
 						"unit" : "days",
-						"value" : "#"
+						"value" : 
+						[
+							"#"
+						]
 					}
 				],
 				"time" : "JaspColumn_0_Encoded",
@@ -1621,7 +1638,10 @@
 						"period" : 7.0,
 						"priorSigma" : 10.0,
 						"unit" : "days",
-						"value" : "#"
+						"value" : 
+						[
+							"#"
+						]
 					}
 				],
 				"time" : "JaspColumn_0_Encoded",
@@ -1659,47 +1679,38 @@
 		{
 			"assignedCovariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"carryingCapacity" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"changepoints" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"covariatePlots" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"historyIndicator" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"minimum" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"time" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -1784,12 +1795,19 @@
 				"period" : 7.0,
 				"priorSigma" : 10.0,
 				"unit" : "days",
-				"value" : "#"
+				"value" : 
+				[
+					"#"
+				]
 			}
 		],
 		"seasonalityPlots" : 
 		[
 			"Weekly"
+		],
+		"seasonalityPlots.types" : 
+		[
+			"unknown"
 		],
 		"time" : "JaspColumn_0_Encoded",
 		"time.types" : 

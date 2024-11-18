@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -517,8 +517,8 @@
 							"Cronbach's \u03b1"
 						],
 						[
-							0.1370227822781874,
-							0.2340198517051113
+							0.13702278227818734,
+							0.23401985170511125
 						],
 						[
 							0.94561403508771935,
@@ -957,12 +957,10 @@
 			},
 			"reverseScaledItems" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

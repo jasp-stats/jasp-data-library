@@ -766,9 +766,13 @@
 							{
 								"breaks" : 
 								[
+									1,
 									2,
+									3,
 									4,
-									6
+									5,
+									6,
+									7
 								],
 								"breaksType" : "range",
 								"expand" : 
@@ -780,9 +784,13 @@
 								],
 								"labels" : 
 								[
+									"1",
 									"2",
+									"3",
 									"4",
-									"6"
+									"5",
+									"6",
+									"7"
 								],
 								"limits" : 
 								[
@@ -792,9 +800,9 @@
 								"limitsType" : "data",
 								"range" : 
 								[
-									2,
-									6,
-									2
+									1,
+									7,
+									1
 								],
 								"title" : "Component",
 								"titleType" : "character"
@@ -849,7 +857,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_2_t1729867647681.png",
+					"filePathPng" : "resources/3/_2_t1731583889861.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "scree",

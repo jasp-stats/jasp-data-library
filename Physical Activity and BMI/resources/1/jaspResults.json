@@ -18,7 +18,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_0_t1729673318907.png",
+			"filePathPng" : "resources/1/_0_t1731583658916.png",
 			"height" : 520,
 			"messages" : [],
 			"name" : "matrixPlot",
@@ -32,10 +32,16 @@
 				"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 				"distributionAndCorrelationPlotRugMarks" : false,
 				"splitBy" : "",
+				"splitBy.types" : [],
 				"variables" : 
 				[
 					"JaspColumn_9_Encoded",
 					"JaspColumn_6_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale"
 				]
 			},
 			"optionMustContain" : {},
@@ -271,12 +277,18 @@
 				"shapiroWilkTest" : false,
 				"skewness" : false,
 				"splitBy" : "",
+				"splitBy.types" : [],
 				"sum" : false,
 				"valid" : true,
 				"variables" : 
 				[
 					"JaspColumn_9_Encoded",
 					"JaspColumn_6_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale"
 				],
 				"variance" : false,
 				"varianceCi" : false,
@@ -400,7 +412,9 @@
 		"covariance" : false,
 		"customHistogramPosition" : "stack",
 		"densityPlot" : false,
+		"densityPlotCategoricalType" : "count",
 		"densityPlotSeparate" : "",
+		"densityPlotSeparate.types" : [],
 		"densityPlotTransparency" : 20.0,
 		"densityPlotType" : "density",
 		"descriptivesTableTransposed" : false,
@@ -415,12 +429,14 @@
 		"heatmapDisplayValue" : false,
 		"heatmapDisplayValueRelativeTextSize" : 1.0,
 		"heatmapHorizontalAxis" : "",
+		"heatmapHorizontalAxis.types" : [],
 		"heatmapLegend" : false,
 		"heatmapPlot" : false,
 		"heatmapStatisticContinuous" : "mean",
 		"heatmapStatisticDiscrete" : "mode",
 		"heatmapTileWidthHeightRatio" : 1.0,
 		"heatmapVerticalAxis" : "",
+		"heatmapVerticalAxis.types" : [],
 		"intervalPlot" : false,
 		"iqr" : false,
 		"kurtosis" : false,
@@ -467,6 +483,7 @@
 		"shapiroWilkTest" : false,
 		"skewness" : false,
 		"splitBy" : "",
+		"splitBy.types" : [],
 		"statisticsValuesAreGroupMidpoints" : false,
 		"stemAndLeaf" : false,
 		"stemAndLeafScale" : 1.0,
@@ -476,6 +493,11 @@
 		[
 			"JaspColumn_9_Encoded",
 			"JaspColumn_6_Encoded"
+		],
+		"variables.types" : 
+		[
+			"scale",
+			"scale"
 		],
 		"variance" : false,
 		"varianceCi" : false,

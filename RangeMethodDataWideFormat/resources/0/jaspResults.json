@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -24,7 +24,7 @@
 							"4",
 							"5"
 						],
-						"title" : "Parts",
+						"title" : "JaspColumn_0_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleDiscrete"
@@ -83,7 +83,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1720529607753.png",
+			"filePathPng" : "resources/0/_0_t1731586908721.png",
 			"height" : 320,
 			"messages" : [],
 			"name" : "ScatterOperatorParts",
@@ -200,7 +200,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_2_t1720529608114.png",
+			"filePathPng" : "resources/0/_2_t1731586909070.png",
 			"height" : 320,
 			"messages" : [],
 			"name" : "ScatterOperators",
@@ -330,9 +330,9 @@
 				"fields" : 
 				{
 					"GRR" : "GRR",
-					"GRRpercent.PSD" : "%GRR of Process Std. Dev.",
-					"GRRpercent.Tol" : "%GRR of Tolerance",
-					"PSD" : "Process Std. Dev.",
+					"GRRpercent.PSD" : "%GRR of process std. dev.",
+					"GRRpercent.Tol" : "%GRR of tolerance",
+					"PSD" : "Process std. dev.",
 					"Rbar" : "R-bar",
 					"d2" : "d2",
 					"n" : "Sample size (n)",
@@ -591,7 +591,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1720529607913.png",
+					"filePathPng" : "resources/0/_1_t1731586908882.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "plot",
@@ -826,7 +826,7 @@
 			"optionMustContain" : {},
 			"order_increment" : 2,
 			"position" : 3,
-			"title" : "Range Method R Chart",
+			"title" : "Range method range chart",
 			"type" : "container"
 		},
 		"trafficPlot" : 
@@ -847,7 +847,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_3_t1720529608734.png",
+					"filePathPng" : "resources/0/_3_t1731586909681.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "plot",
@@ -915,27 +915,22 @@
 		{
 			"measurementLongFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"measurementsWideFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"operator" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"partLongFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"partWideFormat" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

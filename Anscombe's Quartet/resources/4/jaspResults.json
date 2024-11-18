@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -645,7 +645,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/4/_0_t1720534031009.png",
+							"filePathPng" : "resources/4/_0_t1731587409291.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "scatterPlot",
@@ -804,7 +804,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/4/_1_t1720534031162.png",
+							"filePathPng" : "resources/4/_1_t1731587409427.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "scatterPlot",
@@ -963,7 +963,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/4/_2_t1720534031293.png",
+							"filePathPng" : "resources/4/_2_t1731587409547.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "scatterPlot",
@@ -1124,7 +1124,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/4/_3_t1720534031426.png",
+							"filePathPng" : "resources/4/_3_t1731587409711.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "scatterPlot",
@@ -1250,7 +1250,6 @@
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -1302,6 +1301,25 @@
 			[
 				"JaspColumn_4_Encoded",
 				"JaspColumn_8_Encoded"
+			]
+		],
+		"variablePairs.types" : 
+		[
+			[
+				"scale",
+				"scale"
+			],
+			[
+				"scale",
+				"scale"
+			],
+			[
+				"scale",
+				"scale"
+			],
+			[
+				"scale",
+				"scale"
 			]
 		],
 		"variables" : 

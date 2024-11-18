@@ -21,42 +21,46 @@
 						{
 							"settings" : 
 							{
+								"breaks" : 
+								[
+									20,
+									30,
+									40,
+									50,
+									60
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
 								"labels" : 
 								[
-									"21",
-									"25",
-									"26",
-									"27",
-									"28",
-									"30",
-									"31",
-									"32",
-									"34",
-									"35",
-									"36",
-									"37",
-									"38",
-									"39",
-									"40",
-									"41",
-									"42",
-									"43",
-									"44",
-									"45",
-									"46",
-									"47",
-									"48",
-									"50",
-									"51",
-									"52",
-									"53",
-									"54",
-									"56"
+									20,
+									30,
+									40,
+									50,
+									60
+								],
+								"limits" : 
+								[
+									20,
+									60
+								],
+								"limitsType" : "breaks",
+								"range" : 
+								[
+									20,
+									60,
+									10
 								],
 								"title" : "JaspColumn_3_Encoded",
 								"titleType" : "character"
 							},
-							"type" : "ScaleDiscrete"
+							"type" : "ScaleContinuous"
 						},
 						"yAxis" : 
 						{
@@ -65,9 +69,10 @@
 								"breaks" : 
 								[
 									0,
-									2,
-									4,
-									6
+									5,
+									10,
+									15,
+									20
 								],
 								"breaksType" : "range",
 								"expand" : 
@@ -80,21 +85,22 @@
 								"labels" : 
 								[
 									"0",
-									"2",
-									"4",
-									"6"
+									"5",
+									"10",
+									"15",
+									"20"
 								],
 								"limits" : 
 								[
 									0,
-									6
+									20
 								],
-								"limitsType" : "data",
+								"limitsType" : "breaks",
 								"range" : 
 								[
 									0,
-									6,
-									2
+									20,
+									5
 								],
 								"title" : "Counts",
 								"titleType" : "character"
@@ -102,11 +108,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_4",
+					"environmentName" : "plot_0",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1729673514864.png",
+					"filePathPng" : "resources/0/_0_t1731583671263.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "Creativity",
@@ -114,7 +120,8 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"splitBy" : ""
+						"splitBy" : "",
+						"splitBy.types" : []
 					},
 					"optionMustContain" : 
 					{
@@ -139,19 +146,48 @@
 						{
 							"settings" : 
 							{
+								"breaks" : 
+								[
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
 								"labels" : 
 								[
-									"1",
-									"2",
-									"3",
-									"4",
-									"5",
-									"6"
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								],
+								"limits" : 
+								[
+									1,
+									6
+								],
+								"limitsType" : "breaks",
+								"range" : 
+								[
+									1,
+									6,
+									1
 								],
 								"title" : "JaspColumn_6_Encoded",
 								"titleType" : "character"
 							},
-							"type" : "ScaleDiscrete"
+							"type" : "ScaleContinuous"
 						},
 						"yAxis" : 
 						{
@@ -160,8 +196,11 @@
 								"breaks" : 
 								[
 									0,
+									5,
 									10,
+									15,
 									20,
+									25,
 									30
 								],
 								"breaksType" : "range",
@@ -175,21 +214,24 @@
 								"labels" : 
 								[
 									"0",
+									"5",
 									"10",
+									"15",
 									"20",
+									"25",
 									"30"
 								],
 								"limits" : 
 								[
 									0,
-									29
+									30
 								],
-								"limitsType" : "data",
+								"limitsType" : "breaks",
 								"range" : 
 								[
 									0,
 									30,
-									10
+									5
 								],
 								"title" : "Counts",
 								"titleType" : "character"
@@ -197,11 +239,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_5",
+					"environmentName" : "plot_1",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1729673515030.png",
+					"filePathPng" : "resources/0/_1_t1731583671429.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "Position",
@@ -209,7 +251,8 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"splitBy" : ""
+						"splitBy" : "",
+						"splitBy.types" : []
 					},
 					"optionMustContain" : 
 					{
@@ -245,10 +288,16 @@
 				"distributionAndCorrelationPlotRugMarks" : false,
 				"distributionPlots" : true,
 				"splitBy" : "",
+				"splitBy.types" : [],
 				"variables" : 
 				[
 					"JaspColumn_3_Encoded",
 					"JaspColumn_6_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale"
 				]
 			},
 			"optionMustContain" : {},
@@ -481,12 +530,18 @@
 				"shapiroWilkTest" : false,
 				"skewness" : false,
 				"splitBy" : "",
+				"splitBy.types" : [],
 				"sum" : false,
 				"valid" : true,
 				"variables" : 
 				[
 					"JaspColumn_3_Encoded",
 					"JaspColumn_6_Encoded"
+				],
+				"variables.types" : 
+				[
+					"scale",
+					"scale"
 				],
 				"variance" : false,
 				"varianceCi" : false,
@@ -610,7 +665,9 @@
 		"covariance" : false,
 		"customHistogramPosition" : "stack",
 		"densityPlot" : false,
+		"densityPlotCategoricalType" : "count",
 		"densityPlotSeparate" : "",
+		"densityPlotSeparate.types" : [],
 		"densityPlotTransparency" : 20.0,
 		"densityPlotType" : "density",
 		"descriptivesTableTransposed" : false,
@@ -625,12 +682,14 @@
 		"heatmapDisplayValue" : false,
 		"heatmapDisplayValueRelativeTextSize" : 1.0,
 		"heatmapHorizontalAxis" : "",
+		"heatmapHorizontalAxis.types" : [],
 		"heatmapLegend" : false,
 		"heatmapPlot" : false,
 		"heatmapStatisticContinuous" : "mean",
 		"heatmapStatisticDiscrete" : "mode",
 		"heatmapTileWidthHeightRatio" : 1.0,
 		"heatmapVerticalAxis" : "",
+		"heatmapVerticalAxis.types" : [],
 		"intervalPlot" : false,
 		"iqr" : false,
 		"kurtosis" : false,
@@ -677,6 +736,7 @@
 		"shapiroWilkTest" : false,
 		"skewness" : false,
 		"splitBy" : "",
+		"splitBy.types" : [],
 		"statisticsValuesAreGroupMidpoints" : false,
 		"stemAndLeaf" : false,
 		"stemAndLeafScale" : 1.0,
@@ -686,6 +746,11 @@
 		[
 			"JaspColumn_3_Encoded",
 			"JaspColumn_6_Encoded"
+		],
+		"variables.types" : 
+		[
+			"scale",
+			"scale"
 		],
 		"variance" : false,
 		"varianceCi" : false,

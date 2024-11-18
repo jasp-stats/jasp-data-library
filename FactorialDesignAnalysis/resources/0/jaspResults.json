@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -28,17 +28,26 @@
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_4_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_4_Encoded"
+						]
 					},
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_5_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_5_Encoded"
+						]
 					},
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_6_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_6_Encoded"
+						]
 					}
 				],
 				"codeFactorsManualTable.types" : 
@@ -132,10 +141,23 @@
 					"nominal",
 					"nominal",
 					"nominal",
-					"unknown",
-					"unknown",
-					"unknown",
-					"unknown"
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown",
+						"unknown"
+					]
 				],
 				"order" : 1,
 				"rsmPredefinedModel" : false,
@@ -174,17 +196,26 @@
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_4_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_4_Encoded"
+						]
 					},
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_5_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_5_Encoded"
+						]
 					},
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_6_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_6_Encoded"
+						]
 					}
 				],
 				"codeFactorsManualTable.types" : 
@@ -278,10 +309,23 @@
 					"nominal",
 					"nominal",
 					"nominal",
-					"unknown",
-					"unknown",
-					"unknown",
-					"unknown"
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown",
+						"unknown"
+					]
 				],
 				"order" : 1,
 				"rsmPredefinedModel" : false,
@@ -554,17 +598,26 @@
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_4_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_4_Encoded"
+						]
 					},
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_5_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_5_Encoded"
+						]
 					},
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_6_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_6_Encoded"
+						]
 					}
 				],
 				"codeFactorsManualTable.types" : 
@@ -658,10 +711,23 @@
 					"nominal",
 					"nominal",
 					"nominal",
-					"unknown",
-					"unknown",
-					"unknown",
-					"unknown"
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown",
+						"unknown"
+					]
 				],
 				"order" : 1,
 				"rsmPredefinedModel" : false,
@@ -976,17 +1042,26 @@
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_4_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_4_Encoded"
+						]
 					},
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_5_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_5_Encoded"
+						]
 					},
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_6_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_6_Encoded"
+						]
 					}
 				],
 				"codeFactorsManualTable.types" : 
@@ -1080,10 +1155,23 @@
 					"nominal",
 					"nominal",
 					"nominal",
-					"unknown",
-					"unknown",
-					"unknown",
-					"unknown"
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown",
+						"unknown"
+					]
 				],
 				"order" : 1,
 				"rsmPredefinedModel" : false,
@@ -1538,17 +1626,26 @@
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_4_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_4_Encoded"
+						]
 					},
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_5_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_5_Encoded"
+						]
 					},
 					{
 						"highValue" : "1",
 						"lowValue" : "-1",
-						"predictors" : "JaspColumn_6_Encoded"
+						"predictors" : 
+						[
+							"JaspColumn_6_Encoded"
+						]
 					}
 				],
 				"codeFactorsManualTable.types" : 
@@ -1642,10 +1739,23 @@
 					"nominal",
 					"nominal",
 					"nominal",
-					"unknown",
-					"unknown",
-					"unknown",
-					"unknown"
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown"
+					],
+					[
+						"unknown",
+						"unknown",
+						"unknown"
+					]
 				],
 				"order" : 1,
 				"rsmPredefinedModel" : false,
@@ -1736,67 +1846,54 @@
 		{
 			"blocksFactorial" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"blocksResponseSurface" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"codeFactorsManualTable" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"continuousFactorsFactorial" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"continuousFactorsResponseSurface" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"contourSurfacePlotVariables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependentFactorial" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependentResponseSurface" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"fixedFactorsFactorial" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"fixedFactorsResponseSurface" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"squaredTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -1810,17 +1907,26 @@
 			{
 				"highValue" : "1",
 				"lowValue" : "-1",
-				"predictors" : "JaspColumn_4_Encoded"
+				"predictors" : 
+				[
+					"JaspColumn_4_Encoded"
+				]
 			},
 			{
 				"highValue" : "1",
 				"lowValue" : "-1",
-				"predictors" : "JaspColumn_5_Encoded"
+				"predictors" : 
+				[
+					"JaspColumn_5_Encoded"
+				]
 			},
 			{
 				"highValue" : "1",
 				"lowValue" : "-1",
-				"predictors" : "JaspColumn_6_Encoded"
+				"predictors" : 
+				[
+					"JaspColumn_6_Encoded"
+				]
 			}
 		],
 		"codeFactorsManualTable.types" : 
@@ -1923,11 +2029,25 @@
 			"nominal",
 			"nominal",
 			"nominal",
-			"unknown",
-			"unknown",
-			"unknown",
-			"unknown"
+			[
+				"unknown",
+				"unknown"
+			],
+			[
+				"unknown",
+				"unknown"
+			],
+			[
+				"unknown",
+				"unknown"
+			],
+			[
+				"unknown",
+				"unknown",
+				"unknown"
+			]
 		],
+		"normalEffectsPlot" : false,
 		"order" : 1,
 		"plotFitted" : false,
 		"plotHeight" : 320,
@@ -1936,6 +2056,7 @@
 		"plotPareto" : false,
 		"plotRunOrder" : false,
 		"plotWidth" : 480,
+		"responseOptimizer" : true,
 		"rsmPredefinedModel" : false,
 		"rsmPredefinedTerms" : "fullQuadratic",
 		"squaredTerms" : [],

@@ -1017,7 +1017,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/2/_1_t1729867647060.png",
+					"filePathPng" : "resources/2/_1_t1731583889242.png",
 					"height" : 419,
 					"messages" : [],
 					"name" : "path",
@@ -1050,9 +1050,13 @@
 							{
 								"breaks" : 
 								[
+									1,
 									2,
+									3,
 									4,
-									6
+									5,
+									6,
+									7
 								],
 								"breaksType" : "range",
 								"expand" : 
@@ -1064,9 +1068,13 @@
 								],
 								"labels" : 
 								[
+									"1",
 									"2",
+									"3",
 									"4",
-									"6"
+									"5",
+									"6",
+									"7"
 								],
 								"limits" : 
 								[
@@ -1076,9 +1084,9 @@
 								"limitsType" : "data",
 								"range" : 
 								[
-									2,
-									6,
-									2
+									1,
+									7,
+									1
 								],
 								"title" : "Factor",
 								"titleType" : "character"
@@ -1133,7 +1141,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/2/_0_t1729867644175.png",
+					"filePathPng" : "resources/2/_0_t1731583888321.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "scree",

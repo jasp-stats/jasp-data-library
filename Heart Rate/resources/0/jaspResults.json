@@ -821,7 +821,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1729673037570.png",
+							"filePathPng" : "resources/0/_0_t1731583481588.png",
 							"height" : 300,
 							"messages" : [],
 							"name" : "qqPlot",
@@ -949,7 +949,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_1_t1729673037785.png",
+									"filePathPng" : "resources/0/_1_t1731583481810.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "",
@@ -2066,7 +2066,10 @@
 				[
 					"nominal",
 					"nominal",
-					"unknown"
+					[
+						"unknown",
+						"unknown"
+					]
 				],
 				"sumOfSquares" : "type3",
 				"wlsWeights" : "",
@@ -2154,10 +2157,6 @@
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
-			{
-				"shouldEncode" : true
-			},
-			"randomFactors" : 
 			{
 				"shouldEncode" : true
 			},
@@ -2315,7 +2314,10 @@
 		[
 			"nominal",
 			"nominal",
-			"unknown"
+			[
+				"unknown",
+				"unknown"
+			]
 		],
 		"normalizeErrorBarsDescriptives" : true,
 		"plotHeight" : 320,
@@ -2377,7 +2379,10 @@
 			{
 				"informedHypothesisTest" : false,
 				"marginalMean" : false,
-				"name" : "Model 1",
+				"name" : 
+				[
+					"Model 1"
+				],
 				"summary" : false,
 				"syntax" : ""
 			}

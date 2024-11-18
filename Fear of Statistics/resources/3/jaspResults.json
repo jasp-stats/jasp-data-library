@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -723,13 +723,13 @@
 						],
 						[
 							0.81304584441060557,
-							0.80214712332322136,
-							0.82380070366359115
+							0.80206406979450462,
+							0.82446392335999719
 						],
 						[
 							0.36824438978258245,
-							0.35089586570189452,
-							0.38434386881687976
+							0.35074074319585374,
+							0.38572661378665651
 						],
 						[
 							23.868922598210808,
@@ -943,12 +943,10 @@
 		{
 			"reverseScaledItems" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

@@ -180,7 +180,7 @@
 							"BF\u208a\u2080 Independent multinomial"
 						],
 						[
-							0.55262928321677207
+							0.55457744755243632
 						],
 						[
 							"N"
@@ -335,8 +335,7 @@
 							"Did Well[counts]",
 							"Blood Poisoning[counts]",
 							"total[counts]",
-							"type[counts]",
-							".isNewGroup"
+							"type[counts]"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -441,11 +440,6 @@
 							"Count",
 							"Count",
 							"Count"
-						],
-						[
-							true,
-							null,
-							true
 						]
 					],
 					"error" : false,
@@ -453,7 +447,15 @@
 					"escapeHtml" : true,
 					"expectedColumnCount" : 0,
 					"expectedRowCount" : 0,
-					"footnotes" : [],
+					"footnotes" : 
+					[
+						{
+							"cols" : null,
+							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : "Each cell displays the observed counts"
+						}
+					],
 					"messages" : [],
 					"name" : "crossTabMain",
 					"nestedOptionMustBe" : {},
@@ -462,6 +464,8 @@
 					{
 						"columnOrder" : "descending",
 						"countsExpected" : false,
+						"countsObserved" : true,
+						"marginShowTotals" : true,
 						"percentagesColumn" : false,
 						"percentagesRow" : false,
 						"percentagesTotal" : false,
@@ -560,6 +564,8 @@
 					{
 						"columnOrder" : "descending",
 						"countsExpected" : false,
+						"countsObserved" : true,
+						"marginShowTotals" : true,
 						"percentagesColumn" : false,
 						"percentagesRow" : false,
 						"percentagesTotal" : false,
@@ -637,7 +643,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1729673582249.png",
+							"filePathPng" : "resources/0/_0_t1731583807758.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "plot",
@@ -766,10 +772,12 @@
 			"scale"
 		],
 		"countsExpected" : false,
+		"countsObserved" : true,
 		"cramersV" : false,
 		"cramersVCiLevel" : 0.94999999999999996,
 		"cramersVPlot" : false,
 		"layers" : [],
+		"marginShowTotals" : true,
 		"oddsRatio" : false,
 		"oddsRatioCiLevel" : 0.94999999999999996,
 		"percentagesColumn" : false,

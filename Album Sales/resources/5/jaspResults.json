@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
 	],
 	"data" : 
 	{
@@ -123,7 +123,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/5/_0_t1731583575946.png",
+			"filePathPng" : "resources/5/_0_t1720524409146.png",
 			"height" : 1020,
 			"messages" : [],
 			"name" : "corrPlot",
@@ -1287,10 +1287,12 @@
 		{
 			"partialOutVariables" : 
 			{
+				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"variables" : 
 			{
+				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

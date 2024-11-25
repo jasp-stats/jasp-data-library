@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
 	],
 	"data" : 
 	{
@@ -128,7 +128,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/4/_2_t1731583617392.png",
+					"filePathPng" : "resources/4/_2_t1720524450378.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Exam_Anxiety",
@@ -157,7 +157,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/4/_1_t1731583616790.png",
+					"filePathPng" : "resources/4/_1_t1720524449667.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Revise_Anxiety",
@@ -186,7 +186,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/4/_0_t1731583616106.png",
+					"filePathPng" : "resources/4/_0_t1720524449014.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Revise_Exam",
@@ -711,10 +711,12 @@
 		{
 			"partialOutVariables" : 
 			{
+				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"variables" : 
 			{
+				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

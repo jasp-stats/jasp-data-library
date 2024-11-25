@@ -114,7 +114,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1731585632029.png",
+					"filePathPng" : "resources/0/_0_t1732277474690.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "curveplot",
@@ -1565,7 +1565,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1731585633406.png",
+					"filePathPng" : "resources/0/_1_t1732277476007.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "pathplot",
@@ -1734,6 +1734,10 @@
 		".meta" : 
 		{
 			"categorical" : 
+			{
+				"shouldEncode" : true
+			},
+			"covariates" : 
 			{
 				"shouldEncode" : true
 			},

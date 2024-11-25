@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
 	],
 	"data" : 
 	{
@@ -373,7 +373,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_9_t1731583596740.png",
+					"filePathPng" : "resources/0/_9_t1720524429690.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Agreeableness_Conscientiousness",
@@ -402,7 +402,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_5_t1731583594149.png",
+					"filePathPng" : "resources/0/_5_t1720524427108.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Extraversion_Agreeableness",
@@ -431,7 +431,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_6_t1731583594772.png",
+					"filePathPng" : "resources/0/_6_t1720524427734.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Extraversion_Conscientiousness",
@@ -460,7 +460,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_4_t1731583593524.png",
+					"filePathPng" : "resources/0/_4_t1720524426501.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Extraversion_Openness",
@@ -489,7 +489,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1731583592292.png",
+					"filePathPng" : "resources/0/_2_t1720524425056.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Neuroticism_Agreeableness",
@@ -518,7 +518,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_3_t1731583592907.png",
+					"filePathPng" : "resources/0/_3_t1720524425776.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Neuroticism_Conscientiousness",
@@ -547,7 +547,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1731583591055.png",
+					"filePathPng" : "resources/0/_0_t1720524423660.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Neuroticism_Extraversion",
@@ -576,7 +576,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1731583591681.png",
+					"filePathPng" : "resources/0/_1_t1720524424354.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Neuroticism_Openness",
@@ -605,7 +605,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_7_t1731583595411.png",
+					"filePathPng" : "resources/0/_7_t1720524428358.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Openness_Agreeableness",
@@ -634,7 +634,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_8_t1731583596064.png",
+					"filePathPng" : "resources/0/_8_t1720524429025.png",
 					"height" : 550,
 					"messages" : [],
 					"name" : "Openness_Conscientiousness",
@@ -1374,10 +1374,12 @@
 		{
 			"partialOutVariables" : 
 			{
+				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"variables" : 
 			{
+				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

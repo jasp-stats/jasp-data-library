@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
 	],
 	"data" : 
 	{
@@ -915,7 +915,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_0_t1731583639371.png",
+			"filePathPng" : "resources/1/_0_t1720524471437.png",
 			"height" : 2270,
 			"messages" : [],
 			"name" : "matrixPlot",
@@ -1795,6 +1795,7 @@
 			},
 			"variables" : 
 			{
+				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -1830,7 +1831,6 @@
 		"spearman" : false,
 		"supportCorrelationFlagged" : false,
 		"variablePairs" : [],
-		"variablePairs.types" : [],
 		"variables" : 
 		[
 			"JaspColumn_2_Encoded",

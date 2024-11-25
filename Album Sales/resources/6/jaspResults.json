@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
 	],
 	"data" : 
 	{
@@ -85,6 +85,7 @@
 							"F",
 							"p",
 							"vovksellke",
+							"",
 							".isNewGroup"
 						],
 						"title" : "colNames",
@@ -225,6 +226,7 @@
 							null,
 							1.2200170981422189e+43
 						],
+						[],
 						[
 							false,
 							false,
@@ -400,8 +402,11 @@
 							"lower",
 							"upper",
 							"tolerance",
+							"",
 							"VIF",
+							"",
 							"vovksellke",
+							"",
 							".isNewGroup"
 						],
 						"title" : "colNames",
@@ -573,6 +578,7 @@
 							0.95922867883364726,
 							0.96296946090091795
 						],
+						[],
 						[
 							null,
 							1.0,
@@ -581,6 +587,7 @@
 							1.0425042766818937,
 							1.0384545311171527
 						],
+						[],
 						[
 							6.3403472968639012e+39,
 							29305074856436444.0,
@@ -589,6 +596,7 @@
 							4.8421862796044618e+22,
 							3351.1571714681354
 						],
+						[],
 						[
 							false,
 							false,
@@ -1387,18 +1395,18 @@
 					"data" : 
 					[
 						[
-							1.0,
-							2.0,
-							10.0,
-							47.0,
-							52.0,
-							55.0,
-							61.0,
-							68.0,
-							100.0,
-							164.0,
-							169.0,
-							200.0
+							1,
+							2,
+							10,
+							47,
+							52,
+							55,
+							61,
+							68,
+							100,
+							164,
+							169,
+							200
 						],
 						[
 							2.1774040823837599,
@@ -1519,11 +1527,7 @@
 									]
 								],
 								"name" : "model0",
-								"title" : "Model 0",
-								"types" : 
-								[
-									"scale"
-								]
+								"title" : "Model 0"
 							},
 							{
 								"components" : 
@@ -1539,13 +1543,7 @@
 									]
 								],
 								"name" : "model1",
-								"title" : "Model 1",
-								"types" : 
-								[
-									"scale",
-									"scale",
-									"scale"
-								]
+								"title" : "Model 1"
 							}
 						],
 						"residualCasewiseDiagnostic" : true,
@@ -1754,7 +1752,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_3_t1731583577872.png",
+					"filePathPng" : "resources/6/_3_t1720524411277.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsQQPlot",
@@ -1870,7 +1868,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_2_t1731583577750.png",
+					"filePathPng" : "resources/6/_2_t1720524411146.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsHistPlot",
@@ -2002,7 +2000,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_1_t1731583577617.png",
+					"filePathPng" : "resources/6/_1_t1720524411003.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsPredPlot",
@@ -2097,10 +2095,15 @@
 							"df2",
 							"p",
 							"AIC",
+							"",
 							"BIC",
+							"",
 							"Fc",
+							"",
 							"DW_ac",
+							"",
 							"DW",
+							"",
 							"DW_p"
 						],
 						"title" : "colNames",
@@ -2228,22 +2231,27 @@
 							2247.3753322675047,
 							2114.3365116740015
 						],
+						[],
 						[
 							2257.2702843671486,
 							2130.8280985067418
 						],
+						[],
 						[
 							99.586871496198796,
 							96.44737903317889
 						],
+						[],
 						[
 							null,
 							null
 						],
+						[],
 						[
 							null,
 							null
 						],
+						[],
 						[
 							null,
 							null
@@ -2394,11 +2402,7 @@
 							]
 						],
 						"name" : "model0",
-						"title" : "Model 0",
-						"types" : 
-						[
-							"scale"
-						]
+						"title" : "Model 0"
 					},
 					{
 						"components" : 
@@ -2414,13 +2418,7 @@
 							]
 						],
 						"name" : "model1",
-						"title" : "Model 1",
-						"types" : 
-						[
-							"scale",
-							"scale",
-							"scale"
-						]
+						"title" : "Model 1"
 					}
 				],
 				"naAction" : "listwise",
@@ -2459,14 +2457,17 @@
 		{
 			"covariates" : 
 			{
+				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependent" : 
 			{
+				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"factors" : 
 			{
+				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
@@ -2479,6 +2480,7 @@
 			},
 			"weights" : 
 			{
+				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -2535,11 +2537,7 @@
 					]
 				],
 				"name" : "model0",
-				"title" : "Model 0",
-				"types" : 
-				[
-					"scale"
-				]
+				"title" : "Model 0"
 			},
 			{
 				"components" : 
@@ -2555,13 +2553,7 @@
 					]
 				],
 				"name" : "model1",
-				"title" : "Model 1",
-				"types" : 
-				[
-					"scale",
-					"scale",
-					"scale"
-				]
+				"title" : "Model 1"
 			}
 		],
 		"naAction" : "listwise",

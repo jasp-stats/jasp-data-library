@@ -13,7 +13,7 @@
 				"avgObj" : 
 				{
 					"citations" : [],
-					"environmentName" : "state_5",
+					"environmentName" : "state_2",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
@@ -30,51 +30,10 @@
 					"title" : "",
 					"type" : "state"
 				},
-				"itemDeletedAlphaObj" : 
-				{
-					"citations" : [],
-					"environmentName" : "state_2",
-					"error" : false,
-					"errorMessage" : "",
-					"escapeHtml" : true,
-					"messages" : [],
-					"name" : "itemDeletedAlphaObj",
-					"nestedOptionMustBe" : {},
-					"nestedOptionMustContain" : {},
-					"optionMustBe" : 
-					{
-						"alphaType" : "unstandardized",
-						"itemDeletedAlpha" : true
-					},
-					"optionMustContain" : {},
-					"position" : 9999,
-					"title" : "",
-					"type" : "state"
-				},
-				"itemDeletedLambda6Obj" : 
-				{
-					"citations" : [],
-					"environmentName" : "state_4",
-					"error" : false,
-					"errorMessage" : "",
-					"escapeHtml" : true,
-					"messages" : [],
-					"name" : "itemDeletedLambda6Obj",
-					"nestedOptionMustBe" : {},
-					"nestedOptionMustContain" : {},
-					"optionMustBe" : 
-					{
-						"itemDeletedLambda6" : true
-					},
-					"optionMustContain" : {},
-					"position" : 9999,
-					"title" : "",
-					"type" : "state"
-				},
 				"itemMeanObj" : 
 				{
 					"citations" : [],
-					"environmentName" : "state_9",
+					"environmentName" : "state_5",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
@@ -84,6 +43,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
+						"itemCiLevel" : 0.94999999999999996,
 						"itemMean" : true
 					},
 					"optionMustContain" : {},
@@ -91,7 +51,7 @@
 					"title" : "",
 					"type" : "state"
 				},
-				"itemRestObj" : 
+				"itemResultsObj" : 
 				{
 					"citations" : [],
 					"environmentName" : "state_8",
@@ -99,12 +59,24 @@
 					"errorMessage" : "",
 					"escapeHtml" : true,
 					"messages" : [],
-					"name" : "itemRestObj",
+					"name" : "itemResultsObj",
 					"nestedOptionMustBe" : {},
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"itemRestCorrelation" : true
+						"coefficientType" : "unstandardized",
+						"intervalMethod" : "analytic",
+						"intervalMethodVar" : "chisq",
+						"itemCiLevel" : 0.94999999999999996,
+						"itemDeletedAlpha" : true,
+						"itemDeletedLambda2" : false,
+						"itemDeletedOmega" : false,
+						"itemDeletedSplithalf" : false,
+						"itemMean" : true,
+						"itemRestCorrelation" : true,
+						"itemSd" : true,
+						"itemVar" : false,
+						"omegaEstimationMethod" : "cfa"
 					},
 					"optionMustContain" : {},
 					"position" : 9999,
@@ -114,7 +86,7 @@
 				"itemSdObj" : 
 				{
 					"citations" : [],
-					"environmentName" : "state_10",
+					"environmentName" : "state_6",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
@@ -124,6 +96,8 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
+						"intervalMethodVar" : "chisq",
+						"itemCiLevel" : 0.94999999999999996,
 						"itemSd" : true
 					},
 					"optionMustContain" : {},
@@ -161,11 +135,18 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
+							"lower2" : "sf:4;dp:3",
+							"lower5" : "sf:4;dp:3",
+							"lower6" : "sf:4;dp:3",
+							"lower8" : "sf:4;dp:3",
 							"pointEstimate2" : "sf:4;dp:3",
-							"pointEstimate4" : "sf:4;dp:3",
+							"pointEstimate5" : "sf:4;dp:3",
 							"pointEstimate6" : "sf:4;dp:3",
-							"pointEstimate7" : "sf:4;dp:3",
-							"pointEstimate8" : "sf:4;dp:3"
+							"pointEstimate8" : "sf:4;dp:3",
+							"upper2" : "sf:4;dp:3",
+							"upper5" : "sf:4;dp:3",
+							"upper6" : "sf:4;dp:3",
+							"upper8" : "sf:4;dp:3"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -198,10 +179,17 @@
 						[
 							"variable",
 							"pointEstimate2",
-							"pointEstimate4",
+							"lower2",
+							"upper2",
+							"pointEstimate5",
+							"lower5",
+							"upper5",
 							"pointEstimate6",
-							"pointEstimate7",
-							"pointEstimate8"
+							"lower6",
+							"upper6",
+							"pointEstimate8",
+							"lower8",
+							"upper8"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -214,8 +202,18 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"pointEstimate2" : "If item dropped",
-							"pointEstimate4" : "If item dropped"
+							"lower2" : "Coefficient \u03b1          (if item dropped)",
+							"lower5" : "Item-rest correlation",
+							"lower6" : "Mean",
+							"lower8" : "SD",
+							"pointEstimate2" : "Coefficient \u03b1          (if item dropped)",
+							"pointEstimate5" : "Item-rest correlation",
+							"pointEstimate6" : "Mean",
+							"pointEstimate8" : "SD",
+							"upper2" : "Coefficient \u03b1          (if item dropped)",
+							"upper5" : "Item-rest correlation",
+							"upper6" : "Mean",
+							"upper8" : "SD"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -238,11 +236,18 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"pointEstimate2" : "Cronbach's \u03b1",
-							"pointEstimate4" : "Guttman's \u03bb6",
-							"pointEstimate6" : "Item-rest correlation",
-							"pointEstimate7" : "mean",
-							"pointEstimate8" : "sd",
+							"lower2" : "Lower 95% CI",
+							"lower5" : "Lower 95% CI",
+							"lower6" : "Lower 95% CI",
+							"lower8" : "Lower 95% CI",
+							"pointEstimate2" : "Estimate",
+							"pointEstimate5" : "Estimate",
+							"pointEstimate6" : "Estimate",
+							"pointEstimate8" : "Estimate",
+							"upper2" : "Upper 95% CI",
+							"upper5" : "Upper 95% CI",
+							"upper6" : "Upper 95% CI",
+							"upper8" : "Upper 95% CI",
 							"variable" : "Item"
 						},
 						"listType" : "string",
@@ -265,11 +270,18 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
+							"lower2" : "number",
+							"lower5" : "number",
+							"lower6" : "number",
+							"lower8" : "number",
 							"pointEstimate2" : "number",
-							"pointEstimate4" : "number",
+							"pointEstimate5" : "number",
 							"pointEstimate6" : "number",
-							"pointEstimate7" : "number",
 							"pointEstimate8" : "number",
+							"upper2" : "number",
+							"upper5" : "number",
+							"upper6" : "number",
+							"upper8" : "number",
 							"variable" : "string"
 						},
 						"listType" : "string",
@@ -287,14 +299,14 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_0_Encoded",
-							"JaspColumn_2_Encoded",
-							"JaspColumn_3_Encoded",
-							"JaspColumn_4_Encoded",
-							"JaspColumn_11_Encoded",
-							"JaspColumn_15_Encoded",
-							"JaspColumn_19_Encoded",
-							"JaspColumn_20_Encoded"
+							"JaspColumn_23_Encoded",
+							"JaspColumn_29_Encoded",
+							"JaspColumn_32_Encoded",
+							"JaspColumn_35_Encoded",
+							"JaspColumn_56_Encoded",
+							"JaspColumn_68_Encoded",
+							"JaspColumn_80_Encoded",
+							"JaspColumn_83_Encoded"
 						],
 						[
 							0.80170105423778359,
@@ -307,24 +319,54 @@
 							0.79080682315804673
 						],
 						[
-							0.78658972033090935,
-							0.78925850246801676,
-							0.78355961934265916,
-							0.79508001767665015,
-							0.78574748105662395,
-							0.77913056104976952,
-							0.80154567783974617,
-							0.77698960790556282
+							0.78947225380021147,
+							0.78697039500941557,
+							0.78271430964086919,
+							0.79471788027970325,
+							0.78350283187957193,
+							0.78003170051232218,
+							0.80730457136002576,
+							0.7777568134635503
 						],
 						[
-							0.53612332229383364,
-							0.5492298481918525,
-							0.57500689651101233,
-							0.49444890453799067,
-							0.5715319121154302,
-							0.59728628706659848,
-							0.41851940963617507,
-							0.60612639684484004
+							0.81392985467535572,
+							0.81222934262176216,
+							0.8082895016050039,
+							0.81857267356327479,
+							0.80896691278694643,
+							0.80551643804167383,
+							0.82960451034211058,
+							0.80385683285254317
+						],
+						[
+							0.53612332229382798,
+							0.54922984819185838,
+							0.57500689651101555,
+							0.49444890453799023,
+							0.57153191211542531,
+							0.59728628706658682,
+							0.41851940963617373,
+							0.60612639684485081
+						],
+						[
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						[
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
 						],
 						[
 							3.6258265266433294,
@@ -337,6 +379,26 @@
 							2.8292493193309998
 						],
 						[
+							3.5938199663622719,
+							2.5438216637726496,
+							3.1772591387000442,
+							3.2404235845041569,
+							2.8051032905112119,
+							3.0851663417324295,
+							2.3356931243298478,
+							2.7911858793708921
+						],
+						[
+							3.6578330869243869,
+							2.6269290168963506,
+							3.2505899472587267,
+							3.315002319813229,
+							2.8759546635922502,
+							3.1559849612625137,
+							2.4157654520995573,
+							2.8673127592911074
+						],
+						[
 							0.82802214265558616,
 							1.0750097479960761,
 							0.94854824592574016,
@@ -345,6 +407,26 @@
 							0.91605259309785436,
 							1.0357511057902526,
 							0.98471597184604542
+						],
+						[
+							0.805993418667595,
+							1.0464101589234254,
+							0.92331304215235199,
+							0.9390257700893857,
+							0.89209430668930823,
+							0.89168190457119523,
+							1.0081959547208199,
+							0.95851856089180032
+						],
+						[
+							0.85129779459335686,
+							1.1052282064588166,
+							0.97521187927682762,
+							0.99180780962816317,
+							0.94223835860761851,
+							0.94180277562951475,
+							1.0648660062145552,
+							1.012396277767267
 						]
 					],
 					"error" : false,
@@ -358,7 +440,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "The following item was reverse scaled: JaspColumn_2_Encoded. "
+							"text" : " The analytic confidence interval is not available for the item-rest correlation."
 						}
 					],
 					"messages" : [],
@@ -367,19 +449,21 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
+						"intervalMethod" : "analytic",
+						"intervalMethodVar" : "chisq",
+						"itemCiLevel" : 0.94999999999999996,
 						"itemDeletedAlpha" : true,
-						"itemDeletedGreatestLowerBound" : false,
 						"itemDeletedLambda2" : false,
-						"itemDeletedLambda6" : true,
 						"itemDeletedOmega" : false,
+						"itemDeletedSplithalf" : false,
 						"itemMean" : true,
 						"itemRestCorrelation" : true,
 						"itemSd" : true,
+						"itemVar" : false,
 						"scaleAlpha" : true,
-						"scaleGreatestLowerBound" : false,
 						"scaleLambda2" : false,
-						"scaleLambda6" : true,
-						"scaleOmega" : false
+						"scaleOmega" : false,
+						"scaleSplithalf" : false
 					},
 					"optionMustContain" : {},
 					"position" : 2,
@@ -400,14 +484,14 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_0_Encoded",
-							"JaspColumn_2_Encoded",
-							"JaspColumn_3_Encoded",
-							"JaspColumn_4_Encoded",
-							"JaspColumn_11_Encoded",
-							"JaspColumn_15_Encoded",
-							"JaspColumn_19_Encoded",
-							"JaspColumn_20_Encoded"
+							"JaspColumn_23_Encoded",
+							"JaspColumn_29_Encoded",
+							"JaspColumn_32_Encoded",
+							"JaspColumn_35_Encoded",
+							"JaspColumn_56_Encoded",
+							"JaspColumn_68_Encoded",
+							"JaspColumn_80_Encoded",
+							"JaspColumn_83_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -434,11 +518,18 @@
 					"showSpecifiedColumnsOnly" : false,
 					"specifiedColumns" : 
 					[
+						"lower2",
+						"lower5",
+						"lower6",
+						"lower8",
 						"pointEstimate2",
-						"pointEstimate4",
+						"pointEstimate5",
 						"pointEstimate6",
-						"pointEstimate7",
 						"pointEstimate8",
+						"upper2",
+						"upper5",
+						"upper6",
+						"upper8",
 						"variable"
 					],
 					"status" : "complete",
@@ -450,7 +541,7 @@
 				"meanObj" : 
 				{
 					"citations" : [],
-					"environmentName" : "state_6",
+					"environmentName" : "state_3",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
@@ -498,29 +589,8 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"alphaIntervalMethod" : "analytic",
-						"alphaType" : "unstandardized",
+						"coefficientType" : "unstandardized",
 						"scaleAlpha" : true
-					},
-					"optionMustContain" : {},
-					"position" : 9999,
-					"title" : "",
-					"type" : "state"
-				},
-				"scaleLambda6Obj" : 
-				{
-					"citations" : [],
-					"environmentName" : "state_3",
-					"error" : false,
-					"errorMessage" : "",
-					"escapeHtml" : true,
-					"messages" : [],
-					"name" : "scaleLambda6Obj",
-					"nestedOptionMustBe" : {},
-					"nestedOptionMustContain" : {},
-					"optionMustBe" : 
-					{
-						"scaleLambda6" : true
 					},
 					"optionMustContain" : {},
 					"position" : 9999,
@@ -530,7 +600,7 @@
 				"scaleResultsObj" : 
 				{
 					"citations" : [],
-					"environmentName" : "state_11",
+					"environmentName" : "state_7",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
@@ -540,20 +610,20 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"alphaIntervalMethod" : "analytic",
-						"alphaType" : "unstandardized",
 						"averageInterItemCorrelation" : true,
 						"ciLevel" : 0.94999999999999996,
+						"coefficientType" : "unstandardized",
+						"intervalMethod" : "analytic",
+						"intervalMethodVar" : "chisq",
 						"meanSdScoresMethod" : "sumScores",
 						"omegaEstimationMethod" : "cfa",
-						"omegaIntervalMethod" : "analytic",
 						"scaleAlpha" : true,
-						"scaleGreatestLowerBound" : false,
 						"scaleLambda2" : false,
-						"scaleLambda6" : true,
 						"scaleMean" : true,
 						"scaleOmega" : false,
-						"scaleSd" : true
+						"scaleSd" : true,
+						"scaleSplithalf" : false,
+						"scaleVar" : false
 					},
 					"optionMustContain" : {},
 					"position" : 9999,
@@ -590,11 +660,10 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"est2" : "sf:4;dp:3",
-							"est4" : "sf:4;dp:3",
-							"est6" : "sf:4;dp:3",
-							"est7" : "sf:4;dp:3",
-							"est8" : "sf:4;dp:3"
+							"estimate" : "sf:4;dp:3",
+							"lower" : "sf:4;dp:3",
+							"se" : "sf:4;dp:3",
+							"upper" : "sf:4;dp:3"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -625,12 +694,11 @@
 						"position" : 9999,
 						"rows" : 
 						[
+							"coefficient",
 							"estimate",
-							"est2",
-							"est4",
-							"est6",
-							"est7",
-							"est8"
+							"se",
+							"lower",
+							"upper"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -641,7 +709,11 @@
 						"error" : false,
 						"errorMessage" : "",
 						"escapeHtml" : true,
-						"fields" : {},
+						"fields" : 
+						{
+							"lower" : "95% CI",
+							"upper" : "95% CI"
+						},
 						"listType" : "string",
 						"messages" : [],
 						"name" : "",
@@ -663,12 +735,11 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"est2" : "Cronbach's \u03b1",
-							"est4" : "Guttman's \u03bb6",
-							"est6" : "Average interitem correlation",
-							"est7" : "mean",
-							"est8" : "sd",
-							"estimate" : "Estimate"
+							"coefficient" : "Coefficient",
+							"estimate" : "Estimate",
+							"lower" : "Lower",
+							"se" : "Std. Error",
+							"upper" : "Upper"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -690,12 +761,11 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"est2" : "number",
-							"est4" : "number",
-							"est6" : "number",
-							"est7" : "number",
-							"est8" : "number",
-							"estimate" : "string"
+							"coefficient" : "string",
+							"estimate" : "number",
+							"lower" : "number",
+							"se" : "number",
+							"upper" : "number"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -712,33 +782,33 @@
 					"data" : 
 					[
 						[
-							"Point estimate",
-							"95% CI lower bound",
-							"95% CI upper bound"
+							"Coefficient \u03b1",
+							"Average interitem correlation",
+							"Mean",
+							"SD"
 						],
 						[
 							0.82083621046844679,
-							0.81012428005755743,
-							0.83107530663458484
-						],
-						[
-							0.81304584441060557,
-							0.80206406979450462,
-							0.82446392335999719
-						],
-						[
 							0.36824438978258245,
-							0.35074074319585374,
-							0.38572661378665651
-						],
-						[
 							23.868922598210808,
-							23.670922149576427,
-							24.06692304684519
+							5.1223484899762006
 						],
 						[
-							5.1223484899762006,
-							4.9860733890542628,
+							0.0055868751594596493,
+							"",
+							0.10102249337037947,
+							0.067255048591668448
+						],
+						[
+							0.80988613636978446,
+							"",
+							23.670922149576427,
+							4.9860733890542628
+						],
+						[
+							0.83178628456710912,
+							"",
+							24.06692304684519,
 							5.2663373936717903
 						]
 					],
@@ -747,26 +817,33 @@
 					"escapeHtml" : true,
 					"expectedColumnCount" : 0,
 					"expectedRowCount" : 0,
-					"footnotes" : [],
+					"footnotes" : 
+					[
+						{
+							"cols" : null,
+							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : " The standard error of the average interitem correlation is not available. "
+						}
+					],
 					"messages" : [],
 					"name" : "scaleTable",
 					"nestedOptionMustBe" : {},
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"alphaIntervalMethod" : "analytic",
-						"alphaType" : "unstandardized",
 						"averageInterItemCorrelation" : true,
+						"ciLevel" : 0.94999999999999996,
+						"intervalMethod" : "analytic",
+						"intervalMethodVar" : "chisq",
 						"meanSdScoresMethod" : "sumScores",
 						"omegaEstimationMethod" : "cfa",
-						"omegaIntervalMethod" : "analytic",
 						"scaleAlpha" : true,
-						"scaleGreatestLowerBound" : false,
 						"scaleLambda2" : false,
-						"scaleLambda6" : true,
 						"scaleMean" : true,
 						"scaleOmega" : false,
-						"scaleSd" : true
+						"scaleSd" : true,
+						"scaleSplithalf" : false
 					},
 					"optionMustContain" : {},
 					"position" : 1,
@@ -787,9 +864,10 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"",
-							"2.5%",
-							"97.5%"
+							"1",
+							"2",
+							"3",
+							"4"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -816,12 +894,11 @@
 					"showSpecifiedColumnsOnly" : false,
 					"specifiedColumns" : 
 					[
-						"est2",
-						"est4",
-						"est6",
-						"est7",
-						"est8",
-						"estimate"
+						"coefficient",
+						"estimate",
+						"lower",
+						"se",
+						"upper"
 					],
 					"status" : "complete",
 					"title" : "Frequentist Scale Reliability Statistics",
@@ -832,7 +909,7 @@
 				"sdObj" : 
 				{
 					"citations" : [],
-					"environmentName" : "state_7",
+					"environmentName" : "state_4",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
@@ -853,20 +930,17 @@
 			},
 			"data_order" : 
 			{
-				"avgObj" : 5,
-				"itemDeletedAlphaObj" : 2,
-				"itemDeletedLambda6Obj" : 4,
-				"itemMeanObj" : 9,
-				"itemRestObj" : 8,
-				"itemSdObj" : 10,
-				"itemTable" : 13,
-				"meanObj" : 6,
+				"avgObj" : 2,
+				"itemMeanObj" : 5,
+				"itemResultsObj" : 8,
+				"itemSdObj" : 6,
+				"itemTable" : 10,
+				"meanObj" : 3,
 				"modelObj" : 0,
 				"scaleAlphaObj" : 1,
-				"scaleLambda6Obj" : 3,
-				"scaleResultsObj" : 11,
-				"scaleTable" : 12,
-				"sdObj" : 7
+				"scaleResultsObj" : 7,
+				"scaleTable" : 9,
+				"sdObj" : 4
 			},
 			"error" : false,
 			"errorMessage" : "",
@@ -880,29 +954,30 @@
 			{
 				"bootstrapSamples" : 1000,
 				"bootstrapType" : "nonParametric",
-				"ci" : true,
+				"ciLevel" : 0.94999999999999996,
+				"intervalMethod" : "analytic",
 				"naAction" : "listwise",
 				"reverseScaledItems" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_29_Encoded"
 				],
 				"reverseScaledItems.types" : 
 				[
-					"ordinal"
+					"scale"
 				],
 				"samplesSavingDisabled" : false,
 				"seed" : 1234,
 				"setSeed" : false,
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_11_Encoded",
-					"JaspColumn_15_Encoded",
-					"JaspColumn_19_Encoded",
-					"JaspColumn_20_Encoded"
+					"JaspColumn_23_Encoded",
+					"JaspColumn_29_Encoded",
+					"JaspColumn_32_Encoded",
+					"JaspColumn_35_Encoded",
+					"JaspColumn_56_Encoded",
+					"JaspColumn_68_Encoded",
+					"JaspColumn_80_Encoded",
+					"JaspColumn_83_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -917,7 +992,7 @@
 				]
 			},
 			"optionMustContain" : {},
-			"order_increment" : 14,
+			"order_increment" : 11,
 			"position" : 9999,
 			"title" : "",
 			"type" : "container"
@@ -950,57 +1025,57 @@
 				"shouldEncode" : true
 			}
 		},
-		"alphaIntervalMethod" : "analytic",
-		"alphaType" : "unstandardized",
 		"averageInterItemCorrelation" : true,
 		"bootstrapSamples" : 1000,
 		"bootstrapType" : "nonParametric",
-		"ci" : true,
 		"ciLevel" : 0.94999999999999996,
+		"coefficientType" : "unstandardized",
+		"intervalMethod" : "analytic",
+		"intervalMethodVar" : "chisq",
+		"itemCiLevel" : 0.94999999999999996,
 		"itemDeletedAlpha" : true,
-		"itemDeletedGreatestLowerBound" : false,
 		"itemDeletedLambda2" : false,
-		"itemDeletedLambda6" : true,
 		"itemDeletedOmega" : false,
+		"itemDeletedSplithalf" : false,
 		"itemMean" : true,
 		"itemRestCorrelation" : true,
 		"itemSd" : true,
+		"itemVar" : false,
 		"meanSdScoresMethod" : "sumScores",
 		"naAction" : "listwise",
 		"omegaEstimationMethod" : "cfa",
 		"omegaFitMeasures" : false,
-		"omegaIntervalMethod" : "analytic",
 		"plotHeight" : 320,
 		"plotWidth" : 480,
 		"reverseScaledItems" : 
 		[
-			"JaspColumn_2_Encoded"
+			"JaspColumn_29_Encoded"
 		],
 		"reverseScaledItems.types" : 
 		[
-			"ordinal"
+			"scale"
 		],
 		"samplesSavingDisabled" : false,
 		"scaleAlpha" : true,
-		"scaleGreatestLowerBound" : false,
 		"scaleLambda2" : false,
-		"scaleLambda6" : true,
 		"scaleMean" : true,
 		"scaleOmega" : false,
 		"scaleSd" : true,
+		"scaleSplithalf" : false,
+		"scaleVar" : false,
 		"seed" : 1234,
 		"setSeed" : false,
 		"standardizedLoadings" : false,
 		"variables" : 
 		[
-			"JaspColumn_0_Encoded",
-			"JaspColumn_2_Encoded",
-			"JaspColumn_3_Encoded",
-			"JaspColumn_4_Encoded",
-			"JaspColumn_11_Encoded",
-			"JaspColumn_15_Encoded",
-			"JaspColumn_19_Encoded",
-			"JaspColumn_20_Encoded"
+			"JaspColumn_23_Encoded",
+			"JaspColumn_29_Encoded",
+			"JaspColumn_32_Encoded",
+			"JaspColumn_35_Encoded",
+			"JaspColumn_56_Encoded",
+			"JaspColumn_68_Encoded",
+			"JaspColumn_80_Encoded",
+			"JaspColumn_83_Encoded"
 		],
 		"variables.types" : 
 		[

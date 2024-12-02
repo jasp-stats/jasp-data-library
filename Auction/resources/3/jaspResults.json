@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,7 +18,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/3/_0_t1720524416842.png",
+			"filePathPng" : "resources/3/_0_t1732712290040.png",
 			"height" : 770,
 			"messages" : [],
 			"name" : "matrixPlot",
@@ -35,9 +35,9 @@
 				"splitBy.types" : [],
 				"variables" : 
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -209,9 +209,9 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				[
 					32,
@@ -281,6 +281,7 @@
 				"sd" : true,
 				"sdCi" : false,
 				"sdCiLevel" : 0.94999999999999996,
+				"sdCiMethod" : "chiSquaredModel",
 				"seMean" : false,
 				"shapiroWilkTest" : false,
 				"skewness" : false,
@@ -290,9 +291,9 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -302,7 +303,8 @@
 				],
 				"variance" : false,
 				"varianceCi" : false,
-				"varianceCiLevel" : 0.94999999999999996
+				"varianceCiLevel" : 0.94999999999999996,
+				"varianceCiMethod" : "chiSquaredModel"
 			},
 			"optionMustContain" : {},
 			"position" : 1,
@@ -323,9 +325,9 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -388,27 +390,22 @@
 		{
 			"densityPlotSeparate" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"heatmapHorizontalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"heatmapVerticalAxis" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"splitBy" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"variables" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
@@ -427,6 +424,7 @@
 		"covariance" : false,
 		"customHistogramPosition" : "stack",
 		"densityPlot" : false,
+		"densityPlotCategoricalType" : "count",
 		"densityPlotSeparate" : "",
 		"densityPlotSeparate.types" : [],
 		"densityPlotTransparency" : 20.0,
@@ -476,11 +474,13 @@
 		"pieChart" : false,
 		"plotHeight" : 320,
 		"plotWidth" : 480,
+		"predictors" : 0,
 		"qqPlot" : false,
 		"quantilesForEqualGroups" : false,
 		"quantilesForEqualGroupsNumber" : 4,
 		"quartiles" : false,
 		"range" : false,
+		"sampleSize" : 0,
 		"scatterPlot" : false,
 		"scatterPlotGraphTypeAbove" : "density",
 		"scatterPlotGraphTypeRight" : "density",
@@ -492,6 +492,7 @@
 		"sd" : true,
 		"sdCi" : false,
 		"sdCiLevel" : 0.94999999999999996,
+		"sdCiMethod" : "chiSquaredModel",
 		"seMean" : false,
 		"shapiroWilkTest" : false,
 		"skewness" : false,
@@ -504,9 +505,9 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_2_Encoded",
-			"JaspColumn_0_Encoded",
-			"JaspColumn_1_Encoded"
+			"JaspColumn_9_Encoded",
+			"JaspColumn_3_Encoded",
+			"JaspColumn_6_Encoded"
 		],
 		"variables.types" : 
 		[
@@ -516,7 +517,8 @@
 		],
 		"variance" : false,
 		"varianceCi" : false,
-		"varianceCiLevel" : 0.94999999999999996
+		"varianceCiLevel" : 0.94999999999999996,
+		"varianceCiMethod" : "chiSquaredModel"
 	},
 	"order_increment" : 2,
 	"position" : 9999,

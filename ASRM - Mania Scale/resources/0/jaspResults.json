@@ -50,13 +50,12 @@
 						"inverseWishartPriorScale" : "1e-10",
 						"itemCiLevel" : 0.94999999999999996,
 						"itemDeletedAlpha" : true,
-						"itemDeletedGreatestLowerBound" : false,
 						"itemDeletedLambda2" : false,
-						"itemDeletedLambda6" : false,
 						"itemDeletedOmega" : true,
 						"itemMean" : false,
 						"itemRestCorrelation" : false,
 						"itemSd" : false,
+						"itemVar" : false,
 						"normalPriorMean" : 0.0,
 						"pointEstimate" : "mean"
 					},
@@ -150,12 +149,12 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"lower1" : "McDonald's \u03c9          (if item dropped)",
-							"lower2" : "Cronbach's \u03b1          (if item dropped)",
-							"postMean1" : "McDonald's \u03c9          (if item dropped)",
-							"postMean2" : "Cronbach's \u03b1          (if item dropped)",
-							"upper1" : "McDonald's \u03c9          (if item dropped)",
-							"upper2" : "Cronbach's \u03b1          (if item dropped)"
+							"lower1" : "Coefficient \u03c9          (if item dropped)",
+							"lower2" : "Coefficient \u03b1          (if item dropped)",
+							"postMean1" : "Coefficient \u03c9          (if item dropped)",
+							"postMean2" : "Coefficient \u03b1          (if item dropped)",
+							"upper1" : "Coefficient \u03c9          (if item dropped)",
+							"upper2" : "Coefficient \u03b1          (if item dropped)"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -229,11 +228,11 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_0_Encoded",
-							"JaspColumn_1_Encoded",
-							"JaspColumn_2_Encoded",
-							"JaspColumn_3_Encoded",
-							"JaspColumn_4_Encoded"
+							"JaspColumn_5_Encoded",
+							"JaspColumn_8_Encoded",
+							"JaspColumn_11_Encoded",
+							"JaspColumn_14_Encoded",
+							"JaspColumn_17_Encoded"
 						],
 						[
 							0.70304579613397677,
@@ -292,17 +291,13 @@
 					{
 						"itemCiLevel" : 0.94999999999999996,
 						"itemDeletedAlpha" : true,
-						"itemDeletedGreatestLowerBound" : false,
 						"itemDeletedLambda2" : false,
-						"itemDeletedLambda6" : false,
 						"itemDeletedOmega" : true,
 						"itemMean" : false,
 						"itemRestCorrelation" : false,
 						"itemSd" : false,
 						"scaleAlpha" : true,
-						"scaleGreatestLowerBound" : false,
 						"scaleLambda2" : false,
-						"scaleLambda6" : false,
 						"scaleOmega" : true
 					},
 					"optionMustContain" : {},
@@ -472,7 +467,7 @@
 						{
 							"posterior" : "Posterior",
 							"prior" : "Prior",
-							"statistic" : "Statistic"
+							"statistic" : "Coefficient"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -513,8 +508,8 @@
 					"data" : 
 					[
 						[
-							"McDonald's \u03c9",
-							"Cronbach's \u03b1"
+							"Coefficient \u03c9",
+							"Coefficient \u03b1"
 						],
 						[
 							0.13702278227818734,
@@ -593,7 +588,7 @@
 						"statistic"
 					],
 					"status" : "complete",
-					"title" : "Probability that Reliability Statistic is Larger than 0.70 and Smaller than 1.00",
+					"title" : "Probability that Reliability Coefficient is Larger than 0.70 and Smaller than 1.00",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -624,12 +619,11 @@
 						"rHat" : true,
 						"scaleAlpha" : true,
 						"scaleCiLevel" : 0.94999999999999996,
-						"scaleGreatestLowerBound" : false,
 						"scaleLambda2" : false,
-						"scaleLambda6" : false,
 						"scaleMean" : false,
 						"scaleOmega" : true,
 						"scaleSd" : false,
+						"scaleVar" : false,
 						"standardizedLoadings" : false
 					},
 					"optionMustContain" : {},
@@ -667,8 +661,10 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"est1" : "sf:4;dp:3",
-							"est2" : "sf:4;dp:3"
+							"estimate" : "sf:4;dp:3",
+							"lower" : "sf:4;dp:3",
+							"rHat" : "sf:4;dp:3",
+							"upper" : "sf:4;dp:3"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -699,9 +695,11 @@
 						"position" : 9999,
 						"rows" : 
 						[
+							"coefficient",
 							"estimate",
-							"est1",
-							"est2"
+							"lower",
+							"upper",
+							"rHat"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -712,7 +710,11 @@
 						"error" : false,
 						"errorMessage" : "",
 						"escapeHtml" : true,
-						"fields" : {},
+						"fields" : 
+						{
+							"lower" : "95% CI",
+							"upper" : "95% CI"
+						},
 						"listType" : "string",
 						"messages" : [],
 						"name" : "",
@@ -734,9 +736,11 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"est1" : "McDonald's \u03c9",
-							"est2" : "Cronbach's \u03b1",
-							"estimate" : "Estimate"
+							"coefficient" : "Coefficient",
+							"estimate" : "Posterior mean",
+							"lower" : "Lower",
+							"rHat" : "R-hat",
+							"upper" : "Upper"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -758,9 +762,11 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"est1" : "number",
-							"est2" : "number",
-							"estimate" : "string"
+							"coefficient" : "string",
+							"estimate" : "number",
+							"lower" : "number",
+							"rHat" : "number",
+							"upper" : "number"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -777,21 +783,23 @@
 					"data" : 
 					[
 						[
-							"Posterior mean",
-							"95% CI lower bound",
-							"95% CI upper bound",
-							"R-hat"
+							"Coefficient \u03c9",
+							"Coefficient \u03b1"
 						],
 						[
 							0.77176691776058426,
-							0.6897133151721887,
-							0.85092932782721498,
-							0.99979584148476808
+							0.78467294023020517
 						],
 						[
-							0.78467294023020517,
-							0.70583296834832443,
-							0.85209183997441429,
+							0.6897133151721887,
+							0.70583296834832443
+						],
+						[
+							0.85092932782721498,
+							0.85209183997441429
+						],
+						[
+							0.99979584148476808,
 							1.002913085812049
 						]
 					],
@@ -813,12 +821,11 @@
 						"rHat" : true,
 						"scaleAlpha" : true,
 						"scaleCiLevel" : 0.94999999999999996,
-						"scaleGreatestLowerBound" : false,
 						"scaleLambda2" : false,
-						"scaleLambda6" : false,
 						"scaleMean" : false,
 						"scaleOmega" : true,
-						"scaleSd" : false
+						"scaleSd" : false,
+						"scaleVar" : false
 					},
 					"optionMustContain" : {},
 					"position" : 1,
@@ -840,9 +847,7 @@
 						"rows" : 
 						[
 							"1",
-							"2",
-							"3",
-							"4"
+							"2"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -869,9 +874,11 @@
 					"showSpecifiedColumnsOnly" : false,
 					"specifiedColumns" : 
 					[
-						"est1",
-						"est2",
-						"estimate"
+						"coefficient",
+						"estimate",
+						"lower",
+						"rHat",
+						"upper"
 					],
 					"status" : "complete",
 					"title" : "Bayesian Scale Reliability Statistics",
@@ -910,11 +917,11 @@
 				"thinning" : 1,
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_17_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -975,16 +982,16 @@
 		"inverseWishartPriorScale" : "1e-10",
 		"itemCiLevel" : 0.94999999999999996,
 		"itemDeletedAlpha" : true,
-		"itemDeletedGreatestLowerBound" : false,
 		"itemDeletedLambda2" : false,
-		"itemDeletedLambda6" : false,
 		"itemDeletedOmega" : true,
 		"itemDeletedPlot" : false,
 		"itemDeletedPlotOrdered" : true,
 		"itemDeletedPlotOrderedType" : "kullbackLeibler",
+		"itemDeletedSplithalf" : false,
 		"itemMean" : false,
 		"itemRestCorrelation" : false,
 		"itemSd" : false,
+		"itemVar" : false,
 		"meanSdScoresMethod" : "sumScores",
 		"naAction" : "imputation",
 		"normalPriorMean" : 0.0,
@@ -1010,12 +1017,12 @@
 		"samplesSavingDisabled" : true,
 		"scaleAlpha" : true,
 		"scaleCiLevel" : 0.94999999999999996,
-		"scaleGreatestLowerBound" : false,
 		"scaleLambda2" : false,
-		"scaleLambda6" : false,
 		"scaleMean" : false,
 		"scaleOmega" : true,
 		"scaleSd" : false,
+		"scaleSplithalf" : false,
+		"scaleVar" : false,
 		"seed" : 1234,
 		"setSeed" : true,
 		"standardizedLoadings" : false,
@@ -1023,11 +1030,11 @@
 		"tracePlot" : false,
 		"variables" : 
 		[
-			"JaspColumn_0_Encoded",
-			"JaspColumn_1_Encoded",
-			"JaspColumn_2_Encoded",
-			"JaspColumn_3_Encoded",
-			"JaspColumn_4_Encoded"
+			"JaspColumn_5_Encoded",
+			"JaspColumn_8_Encoded",
+			"JaspColumn_11_Encoded",
+			"JaspColumn_14_Encoded",
+			"JaspColumn_17_Encoded"
 		],
 		"variables.types" : 
 		[

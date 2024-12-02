@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -90,11 +90,8 @@
 							"lower",
 							"upper",
 							"tolerance",
-							"",
 							"VIF",
-							"",
 							"vovksellke",
-							"",
 							".isNewGroup"
 						],
 						"title" : "colNames",
@@ -236,19 +233,16 @@
 							null,
 							1.0
 						],
-						[],
 						[
 							null,
 							null,
 							1.0
 						],
-						[],
 						[
 							52639.527016503445,
 							1332483.4427436567,
 							122.65964228135975
 						],
-						[],
 						[
 							false,
 							true,
@@ -485,22 +479,22 @@
 					"data" : 
 					[
 						[
-							1,
-							2,
-							3,
-							4,
-							5,
-							6,
-							7,
-							8,
-							9,
-							10,
-							11,
-							12,
-							13,
-							14,
-							15,
-							16
+							1.0,
+							2.0,
+							3.0,
+							4.0,
+							5.0,
+							6.0,
+							7.0,
+							8.0,
+							9.0,
+							10.0,
+							11.0,
+							12.0,
+							13.0,
+							14.0,
+							15.0,
+							16.0
 						],
 						[
 							0.57525549920301389,
@@ -819,23 +813,14 @@
 							"adjR2",
 							"RMSE",
 							"AIC",
-							"",
 							"BIC",
-							"",
 							"R2c",
-							"",
 							"Fc",
-							"",
 							"df1",
-							"",
 							"df2",
-							"",
 							"p",
-							"",
 							"DW_ac",
-							"",
 							"DW",
-							"",
 							"DW_p"
 						],
 						"title" : "colNames",
@@ -939,47 +924,38 @@
 							52.536335104335528,
 							39.627804960301006
 						],
-						[],
 						[
 							54.081512548815091,
 							41.945571127020351
 						],
-						[],
 						[
 							0.0,
 							0.60614920488274726
 						],
-						[],
 						[
 							"",
 							21.546456103591414
 						],
-						[],
 						[
 							0,
 							1
 						],
-						[],
 						[
 							15,
 							14
 						],
-						[],
 						[
 							"",
 							0.00038095430786145933
 						],
-						[],
 						[
 							null,
 							null
 						],
-						[],
 						[
 							null,
 							null
 						],
-						[],
 						[
 							null,
 							null
@@ -1154,17 +1130,14 @@
 		{
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"factors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
@@ -1177,7 +1150,6 @@
 			},
 			"weights" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

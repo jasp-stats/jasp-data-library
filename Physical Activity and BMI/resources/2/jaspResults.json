@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -85,7 +85,6 @@
 							"F",
 							"p",
 							"vovksellke",
-							"",
 							".isNewGroup"
 						],
 						"title" : "colNames",
@@ -202,7 +201,6 @@
 						[
 							516.24278769069656
 						],
-						[],
 						[
 							true,
 							false,
@@ -375,11 +373,8 @@
 							"lower",
 							"upper",
 							"tolerance",
-							"",
 							"VIF",
-							"",
 							"vovksellke",
-							"",
 							".isNewGroup"
 						],
 						"title" : "colNames",
@@ -521,19 +516,16 @@
 							null,
 							1.0
 						],
-						[],
 						[
 							null,
 							null,
 							1.0
 						],
-						[],
 						[
 							5.6022992916603432e+76,
 							7.5168792130660432e+34,
 							516.24278769070031
 						],
-						[],
 						[
 							false,
 							true,
@@ -704,23 +696,14 @@
 							"adjR2",
 							"RMSE",
 							"AIC",
-							"",
 							"BIC",
-							"",
 							"R2c",
-							"",
 							"Fc",
-							"",
 							"df1",
-							"",
 							"df2",
-							"",
 							"p",
-							"",
 							"DW_ac",
-							"",
 							"DW",
-							"",
 							"DW_p"
 						],
 						"title" : "colNames",
@@ -824,47 +807,38 @@
 							561.06055060148799,
 							546.98025825040258
 						],
-						[],
 						[
 							566.27089097346413,
 							554.79576880836692
 						],
-						[],
 						[
 							0.0,
 							0.14854014270742344
 						],
-						[],
 						[
 							"",
 							17.096441905804937
 						],
-						[],
 						[
 							0,
 							1
 						],
-						[],
 						[
 							99,
 							98
 						],
-						[],
 						[
 							"",
 							7.50303223656673e-05
 						],
-						[],
 						[
 							null,
 							null
 						],
-						[],
 						[
 							null,
 							null
 						],
-						[],
 						[
 							null,
 							null
@@ -1039,17 +1013,14 @@
 		{
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"factors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
@@ -1062,7 +1033,6 @@
 			},
 			"weights" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

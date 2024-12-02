@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -121,7 +121,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_2_t1720524515345.png",
+							"filePathPng" : "resources/1/_2_t1732712402128.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "quantileResidualQqPlot",
@@ -305,7 +305,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1720524514709.png",
+							"filePathPng" : "resources/1/_0_t1732712401446.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "quantileResidualVsFittedPlot",
@@ -491,7 +491,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_4_t1720524515555.png",
+							"filePathPng" : "resources/1/_4_t1732712402449.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "glmPlotZVsEta",
@@ -977,7 +977,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_3_t1720524515446.png",
+							"filePathPng" : "resources/1/_3_t1732712402325.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Hours",
@@ -1157,7 +1157,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_1_t1720524515200.png",
+							"filePathPng" : "resources/1/_1_t1732712401941.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Hours",
@@ -2188,32 +2188,26 @@
 			},
 			"covariates" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"dependent" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"factors" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"marginalMeansVars" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"modelTerms" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"offset" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"residualsSavedToDataColumn" : 
@@ -2222,7 +2216,6 @@
 			},
 			"weights" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},

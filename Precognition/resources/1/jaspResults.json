@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -289,12 +289,12 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_1_Encoded",
+				"effectSize" : "JaspColumn_7_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
 				],
-				"effectSizeSe" : "JaspColumn_2_Encoded",
+				"effectSizeSe" : "JaspColumn_10_Encoded",
 				"effectSizeSe.types" : 
 				[
 					"scale"
@@ -773,12 +773,12 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_1_Encoded",
+				"effectSize" : "JaspColumn_7_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
 				],
-				"effectSizeSe" : "JaspColumn_2_Encoded",
+				"effectSizeSe" : "JaspColumn_10_Encoded",
 				"effectSizeSe.types" : 
 				[
 					"scale"
@@ -807,12 +807,12 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_1_Encoded",
+				"effectSize" : "JaspColumn_7_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
 				],
-				"effectSizeSe" : "JaspColumn_2_Encoded",
+				"effectSizeSe" : "JaspColumn_10_Encoded",
 				"effectSizeSe.types" : 
 				[
 					"scale"
@@ -851,26 +851,23 @@
 		{
 			"effectSize" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"effectSizeSe" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"sampleSize" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
-		"effectSize" : "JaspColumn_1_Encoded",
+		"effectSize" : "JaspColumn_7_Encoded",
 		"effectSize.types" : 
 		[
 			"scale"
 		],
-		"effectSizeSe" : "JaspColumn_2_Encoded",
+		"effectSizeSe" : "JaspColumn_10_Encoded",
 		"effectSizeSe.types" : 
 		[
 			"scale"

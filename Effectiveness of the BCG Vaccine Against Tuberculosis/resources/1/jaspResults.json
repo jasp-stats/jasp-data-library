@@ -1,0 +1,618 @@
+{
+	"citations" : 
+	[
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+	],
+	"data" : 
+	{
+		"fitState" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_0",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "fitState",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"effectSize" : "JaspColumn_43_Encoded",
+				"effectSize.types" : 
+				[
+					"scale"
+				],
+				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError.types" : 
+				[
+					"scale"
+				],
+				"method" : "restrictedML",
+				"split" : "",
+				"split.types" : []
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"funnelAsymetryTests" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"metaRegressionTable" : 
+				{
+					"citations" : [],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"est" : "sf:4;dp:3",
+							"lCI" : "sf:4;dp:3",
+							"p" : "dp:3;p:.001",
+							"uCI" : "sf:4;dp:3",
+							"z" : "sf:4;dp:3"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"k",
+							"z",
+							"p",
+							"est",
+							"lCI",
+							"uCI"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"est" : "Limit Estimate",
+							"lCI" : "Limit Estimate",
+							"p" : "Asymmetry Test",
+							"uCI" : "Limit Estimate",
+							"z" : "Asymmetry Test"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"est" : "Estimate",
+							"k" : "Estimates",
+							"lCI" : "Lower 95% CI",
+							"p" : "p",
+							"uCI" : "Upper 95% CI",
+							"z" : "z"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"est" : "number",
+							"k" : "integer",
+							"lCI" : "number",
+							"p" : "pvalue",
+							"uCI" : "number",
+							"z" : "number"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							13
+						],
+						[
+							-0.80332911207010127
+						],
+						[
+							0.42178453567223056
+						],
+						[
+							-0.51043188378949977
+						],
+						[
+							-1.1182240448943326
+						],
+						[
+							0.097360277315333033
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 0,
+					"footnotes" : [],
+					"messages" : [],
+					"name" : "metaRegressionTable",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						"funnelPlotAsymmetryTestsMetaRegression" : true
+					},
+					"optionMustContain" : {},
+					"position" : 1,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"intrcpt"
+						],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : false,
+					"specifiedColumns" : 
+					[
+						"est",
+						"k",
+						"lCI",
+						"p",
+						"uCI",
+						"z"
+					],
+					"status" : "complete",
+					"title" : "Meta-Regression Test for Funnel Plot Asymmetry",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				}
+			},
+			"data_order" : 
+			{
+				"metaRegressionTable" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "funnelAsymetryTests",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"effectSize" : "JaspColumn_43_Encoded",
+				"effectSize.types" : 
+				[
+					"scale"
+				],
+				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError.types" : 
+				[
+					"scale"
+				],
+				"funnelPlotAsymmetryTests" : true,
+				"split" : "",
+				"split.types" : []
+			},
+			"optionMustContain" : {},
+			"order_increment" : 1,
+			"position" : 3,
+			"title" : "Funnel Plot Asymmetry Tests",
+			"type" : "container"
+		},
+		"funnelPlotContainer" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"funnelPlot" : 
+				{
+					"aspectRatio" : 0.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"error" : "success",
+						"xAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									-3,
+									-2,
+									-1,
+									0,
+									1,
+									2
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"-3",
+									"-2",
+									"-1",
+									"0",
+									"1",
+									"2"
+								],
+								"limits" : 
+								[
+									-3,
+									2
+								],
+								"limitsType" : "breaks",
+								"range" : 
+								[
+									-3,
+									2,
+									1
+								],
+								"title" : "Effect Size",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						},
+						"yAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									-0.80000000000000004,
+									-0.59999999999999998,
+									-0.40000000000000002,
+									-0.20000000000000001,
+									0
+								],
+								"breaksType" : "manual",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"0.8",
+									"0.6",
+									"0.4",
+									"0.2",
+									"0.0"
+								],
+								"limits" : 
+								[
+									-0.80000000000000004,
+									0
+								],
+								"limitsType" : "breaks",
+								"range" : 
+								[
+									-0.80000000000000004,
+									0,
+									0.20000000000000001
+								],
+								"title" : "Standard Error",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						}
+					},
+					"environmentName" : "plot_0",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/1/_0_t1733739814024.png",
+					"height" : 480,
+					"messages" : [],
+					"name" : "funnelPlot",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "",
+					"type" : "plot",
+					"width" : 550
+				}
+			},
+			"data_order" : 
+			{
+				"funnelPlot" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "funnelPlotContainer",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"effectSize" : "JaspColumn_43_Encoded",
+				"effectSize.types" : 
+				[
+					"scale"
+				],
+				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError.types" : 
+				[
+					"scale"
+				],
+				"estimatesLegendPosition" : "right",
+				"estimatesMappingColor" : "",
+				"estimatesMappingColor.types" : "unknown",
+				"estimatesMappingLabel" : "all",
+				"estimatesMappingLabelOffset" : 0.10000000000000001,
+				"estimatesMappingShape" : "",
+				"estimatesMappingShape.types" : "unknown",
+				"funnelPredictionInterval" : "(0.90, 0.95, 0.99)",
+				"funnelUnderH0" : false,
+				"funnelUnderH0FillColors" : true,
+				"funnelUnderH0LineType" : "none",
+				"funnelUnderH0ParametersFixedMu" : 0.0,
+				"funnelUnderH0ParametersFixedTau" : 0.0,
+				"funnelUnderH1" : true,
+				"funnelUnderH1FillColors" : true,
+				"funnelUnderH1IncludeHeterogeneity" : false,
+				"funnelUnderH1LineType" : "solid",
+				"funnelUnderH1Parameters" : "estimated",
+				"funnelUnderH1ParametersFixedMu" : 0.0,
+				"funnelUnderH1ParametersFixedTau" : 0.0,
+				"funnelUnderH1PowerEnhancement" : true,
+				"funnelUnderH1PowerEnhancementBreaks" : "(0.30, 0.50, 0.70, 0.90)",
+				"invertColors" : false,
+				"method" : "restrictedML",
+				"split" : "",
+				"split.types" : [],
+				"studyLabel" : "JaspColumn_42_Encoded",
+				"studyLabel.types" : 
+				[
+					"nominal"
+				]
+			},
+			"optionMustContain" : {},
+			"order_increment" : 1,
+			"position" : 1,
+			"title" : "Funnel Plot",
+			"type" : "container"
+		}
+	},
+	"data_order" : 
+	{
+		"fitState" : 0,
+		"funnelAsymetryTests" : 2,
+		"funnelPlotContainer" : 1
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"effectSize" : 
+			{
+				"shouldEncode" : true
+			},
+			"effectSizeStandardError" : 
+			{
+				"shouldEncode" : true
+			},
+			"estimatesMappingColor" : 
+			{
+				"shouldEncode" : true
+			},
+			"estimatesMappingShape" : 
+			{
+				"shouldEncode" : true
+			},
+			"split" : 
+			{
+				"shouldEncode" : true
+			},
+			"studyLabel" : 
+			{
+				"shouldEncode" : true
+			}
+		},
+		"effectSize" : "JaspColumn_43_Encoded",
+		"effectSize.types" : 
+		[
+			"scale"
+		],
+		"effectSizeStandardError" : "JaspColumn_46_Encoded",
+		"effectSizeStandardError.types" : 
+		[
+			"scale"
+		],
+		"estimatesLegendPosition" : "right",
+		"estimatesMappingColor" : "",
+		"estimatesMappingColor.types" : "unknown",
+		"estimatesMappingLabel" : "all",
+		"estimatesMappingLabelOffset" : 0.10000000000000001,
+		"estimatesMappingShape" : "",
+		"estimatesMappingShape.types" : "unknown",
+		"funnelPlotAsymmetryTests" : true,
+		"funnelPlotAsymmetryTestsMetaRegression" : true,
+		"funnelPlotAsymmetryTestsRankCorrelation" : false,
+		"funnelPlotAsymmetryTestsWeightedRegression" : false,
+		"funnelPredictionInterval" : "(0.90, 0.95, 0.99)",
+		"funnelUnderH0" : false,
+		"funnelUnderH0FillColors" : true,
+		"funnelUnderH0LineType" : "none",
+		"funnelUnderH0ParametersFixedMu" : 0.0,
+		"funnelUnderH0ParametersFixedTau" : 0.0,
+		"funnelUnderH1" : true,
+		"funnelUnderH1EstimatesTable" : false,
+		"funnelUnderH1FillColors" : true,
+		"funnelUnderH1IncludeHeterogeneity" : false,
+		"funnelUnderH1LineType" : "solid",
+		"funnelUnderH1Parameters" : "estimated",
+		"funnelUnderH1ParametersFixedMu" : 0.0,
+		"funnelUnderH1ParametersFixedTau" : 0.0,
+		"funnelUnderH1PowerEnhancement" : true,
+		"funnelUnderH1PowerEnhancementBreaks" : "(0.30, 0.50, 0.70, 0.90)",
+		"invertColors" : false,
+		"method" : "restrictedML",
+		"plotHeight" : 320,
+		"plotWidth" : 480,
+		"split" : "",
+		"split.types" : [],
+		"studyLabel" : "JaspColumn_42_Encoded",
+		"studyLabel.types" : 
+		[
+			"nominal"
+		]
+	},
+	"order_increment" : 3,
+	"position" : 9999,
+	"relativePathKeep" : "resources/1/state",
+	"title" : "Funnel Plot",
+	"type" : "results"
+}

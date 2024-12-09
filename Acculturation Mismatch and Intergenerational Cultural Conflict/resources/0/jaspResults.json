@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -289,7 +289,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_0_Encoded",
+				"effectSize" : "JaspColumn_3_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -299,7 +299,7 @@
 				"estimates" : null,
 				"inferenceMeanEstimatesTable" : true,
 				"measures" : "correlation",
-				"sampleSize" : "JaspColumn_1_Encoded",
+				"sampleSize" : "JaspColumn_6_Encoded",
 				"sampleSize.types" : 
 				[
 					"scale"
@@ -773,7 +773,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_0_Encoded",
+				"effectSize" : "JaspColumn_3_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -781,7 +781,7 @@
 				"effectSizeSe" : "",
 				"effectSizeSe.types" : [],
 				"measures" : "correlation",
-				"sampleSize" : "JaspColumn_1_Encoded",
+				"sampleSize" : "JaspColumn_6_Encoded",
 				"sampleSize.types" : 
 				[
 					"scale"
@@ -807,7 +807,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_0_Encoded",
+				"effectSize" : "JaspColumn_3_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -816,7 +816,7 @@
 				"effectSizeSe.types" : [],
 				"measures" : "correlation",
 				"modelPValueFrequencyTable" : null,
-				"sampleSize" : "JaspColumn_1_Encoded",
+				"sampleSize" : "JaspColumn_6_Encoded",
 				"sampleSize.types" : 
 				[
 					"scale"
@@ -851,21 +851,18 @@
 		{
 			"effectSize" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"effectSizeSe" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			},
 			"sampleSize" : 
 			{
-				"hasTypes" : true,
 				"shouldEncode" : true
 			}
 		},
-		"effectSize" : "JaspColumn_0_Encoded",
+		"effectSize" : "JaspColumn_3_Encoded",
 		"effectSize.types" : 
 		[
 			"scale"
@@ -881,7 +878,7 @@
 		"plotsMeanModelEstimatesPlot" : false,
 		"plotsRegressionEstimatePeesePlot" : false,
 		"plotsRegressionEstimatePetPlot" : false,
-		"sampleSize" : "JaspColumn_1_Encoded",
+		"sampleSize" : "JaspColumn_6_Encoded",
 		"sampleSize.types" : 
 		[
 			"scale"

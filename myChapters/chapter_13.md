@@ -2,6 +2,11 @@
 
 
 
+## ADD symptoms 
+|  |  |  |
+|---|---|---|
+|[.jasp](https://github.com/jasp-stats/jasp-data-library/raw/main/ADD%20symptoms/ADD%20symptoms.jasp) | [.html](https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/ADD%20symptoms/ADD_symptoms.html) | [.csv](https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/ADD%20symptoms/ADD%20symptoms.csv)|
+
 ## ASRM - Mania Scale 
 |  |  |  |
 |---|---|---|

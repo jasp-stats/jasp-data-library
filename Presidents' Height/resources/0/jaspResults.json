@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -155,13 +155,13 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				[
 					"-"
 				],
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_3_Encoded"
 				],
 				[
 					0.39309236340185344
@@ -200,8 +200,8 @@
 				"supportCorrelationFlagged" : false,
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -228,7 +228,7 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_1_Encoded-JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded-JaspColumn_3_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -281,14 +281,17 @@
 			"optionMustBe" : 
 			{
 				"ciLevel" : 0.94999999999999996,
+				"kendall" : false,
 				"naAction" : "pairwise",
+				"pearson" : true,
 				"priorWidth" : "1",
 				"seed" : 1,
 				"setSeed" : false,
+				"spearman" : false,
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -324,7 +327,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1732712380630.png",
+							"filePathPng" : "resources/0/_1_t1749640386415.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "priorPosteriorPlot",
@@ -402,7 +405,7 @@
 											1.2,
 											0.050000000000000003
 										],
-										"title" : "JaspColumn_1_Encoded",
+										"title" : "JaspColumn_0_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -451,7 +454,7 @@
 											0.69999999999999996,
 											0.050000000000000003
 										],
-										"title" : "JaspColumn_2_Encoded",
+										"title" : "JaspColumn_3_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -461,7 +464,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1732712380436.png",
+							"filePathPng" : "resources/0/_0_t1749640386246.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "scatterPlot",
@@ -501,13 +504,13 @@
 					{
 						"pairs" : 
 						[
-							"JaspColumn_1_Encoded",
-							"JaspColumn_2_Encoded"
+							"JaspColumn_0_Encoded",
+							"JaspColumn_3_Encoded"
 						]
 					},
 					"order_increment" : 2,
 					"position" : 9999,
-					"title" : "JaspColumn_1_Encoded - JaspColumn_2_Encoded",
+					"title" : "JaspColumn_0_Encoded - JaspColumn_3_Encoded",
 					"type" : "container"
 				}
 			},
@@ -600,10 +603,6 @@
 	{
 		".meta" : 
 		{
-			"priorWidth" : 
-			{
-				"isRCode" : true
-			},
 			"variablePairs" : 
 			{
 				"shouldEncode" : true
@@ -623,6 +622,7 @@
 		"ci" : false,
 		"ciLevel" : 0.94999999999999996,
 		"kendall" : false,
+		"linearityTest" : false,
 		"matrixPlot" : false,
 		"matrixPlotDensity" : false,
 		"matrixPlotPosterior" : false,
@@ -647,8 +647,8 @@
 		"variablePairs" : 
 		[
 			[
-				"JaspColumn_1_Encoded",
-				"JaspColumn_2_Encoded"
+				"JaspColumn_0_Encoded",
+				"JaspColumn_3_Encoded"
 			]
 		],
 		"variablePairs.types" : 
@@ -660,8 +660,8 @@
 		],
 		"variables" : 
 		[
-			"JaspColumn_1_Encoded",
-			"JaspColumn_2_Encoded"
+			"JaspColumn_0_Encoded",
+			"JaspColumn_3_Encoded"
 		],
 		"variables.types" : 
 		[

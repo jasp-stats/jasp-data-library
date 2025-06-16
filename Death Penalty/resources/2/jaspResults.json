@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -158,26 +158,22 @@
 						[
 							1,
 							2,
-							3,
-							4
+							3
 						],
 						[
-							"JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded",
-							"JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded",
-							"JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded\u2009\u273b\u2009JaspColumn_3_Encoded",
-							"JaspColumn_0_Encoded + JaspColumn_1_Encoded + JaspColumn_3_Encoded + JaspColumn_0_Encoded\u2009\u273b\u2009JaspColumn_1_Encoded"
+							"JaspColumn_11_Encoded + JaspColumn_8_Encoded + JaspColumn_5_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_8_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded",
+							"JaspColumn_11_Encoded + JaspColumn_8_Encoded + JaspColumn_5_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_8_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded + JaspColumn_8_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded",
+							"JaspColumn_11_Encoded + JaspColumn_8_Encoded + JaspColumn_5_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_8_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded + JaspColumn_8_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_8_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded"
 						],
 						[
-							0.47399999999999998,
-							0.40649999999999997,
-							0.11749999999999999,
-							0.002
+							0.50849999999999995,
+							0.39750000000000002,
+							0.094
 						],
 						[
 							1.0,
-							1.1660516605166051,
-							4.0340425531914894,
-							236.99999999999997
+							1.2792452830188676,
+							5.4095744680851059
 						]
 					],
 					"error" : false,
@@ -191,7 +187,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "Total number of models visited = 4"
+							"text" : "Total number of models visited = 3"
 						}
 					],
 					"messages" : [],
@@ -298,7 +294,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"count" : "JaspColumn_2_Encoded",
+				"count" : "JaspColumn_0_Encoded",
 				"count.types" : 
 				[
 					"scale"
@@ -308,48 +304,48 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_0_Encoded"
+							"JaspColumn_11_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_1_Encoded"
+							"JaspColumn_8_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_3_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_0_Encoded",
-							"JaspColumn_1_Encoded"
+							"JaspColumn_11_Encoded",
+							"JaspColumn_8_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_0_Encoded",
-							"JaspColumn_3_Encoded"
+							"JaspColumn_11_Encoded",
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_1_Encoded",
-							"JaspColumn_3_Encoded"
+							"JaspColumn_8_Encoded",
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_0_Encoded",
-							"JaspColumn_1_Encoded",
-							"JaspColumn_3_Encoded"
+							"JaspColumn_11_Encoded",
+							"JaspColumn_8_Encoded",
+							"JaspColumn_5_Encoded"
 						]
 					}
 				],
@@ -359,21 +355,21 @@
 					"nominal",
 					"nominal",
 					[
-						"unknown",
-						"unknown"
+						"nominal",
+						"nominal"
 					],
 					[
-						"unknown",
-						"unknown"
+						"nominal",
+						"nominal"
 					],
 					[
-						"unknown",
-						"unknown"
+						"nominal",
+						"nominal"
 					],
 					[
-						"unknown",
-						"unknown",
-						"unknown"
+						"nominal",
+						"nominal",
+						"nominal"
 					]
 				],
 				"priorScale" : 0.0,
@@ -422,16 +418,16 @@
 			}
 		},
 		"bayesFactorType" : "BF01",
-		"count" : "JaspColumn_2_Encoded",
+		"count" : "JaspColumn_0_Encoded",
 		"count.types" : 
 		[
 			"scale"
 		],
 		"factors" : 
 		[
-			"JaspColumn_0_Encoded",
-			"JaspColumn_1_Encoded",
-			"JaspColumn_3_Encoded"
+			"JaspColumn_11_Encoded",
+			"JaspColumn_8_Encoded",
+			"JaspColumn_5_Encoded"
 		],
 		"factors.types" : 
 		[
@@ -446,48 +442,48 @@
 			{
 				"components" : 
 				[
-					"JaspColumn_0_Encoded"
+					"JaspColumn_11_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_8_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_3_Encoded"
+					"JaspColumn_5_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_8_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_5_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_8_Encoded",
+					"JaspColumn_5_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_5_Encoded"
 				]
 			}
 		],
@@ -497,21 +493,21 @@
 			"nominal",
 			"nominal",
 			[
-				"unknown",
-				"unknown"
+				"nominal",
+				"nominal"
 			],
 			[
-				"unknown",
-				"unknown"
+				"nominal",
+				"nominal"
 			],
 			[
-				"unknown",
-				"unknown"
+				"nominal",
+				"nominal"
 			],
 			[
-				"unknown",
-				"unknown",
-				"unknown"
+				"nominal",
+				"nominal",
+				"nominal"
 			]
 		],
 		"plotHeight" : 320,

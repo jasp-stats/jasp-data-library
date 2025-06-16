@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -156,17 +156,17 @@
 			{
 				"attributesChart" : "defectives",
 				"attributesChartDefectivesChartType" : "pChart",
-				"defectiveOrDefect" : "JaspColumn_2_Encoded",
+				"defectiveOrDefect" : "JaspColumn_0_Encoded",
 				"defectiveOrDefect.types" : 
 				[
 					"scale"
 				],
-				"timeStamp" : "JaspColumn_0_Encoded",
+				"timeStamp" : "JaspColumn_5_Encoded",
 				"timeStamp.types" : 
 				[
 					"nominal"
 				],
-				"total" : "JaspColumn_1_Encoded",
+				"total" : "JaspColumn_6_Encoded",
 				"total.types" : 
 				[
 					"scale"
@@ -354,7 +354,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1732281078913.png",
+			"filePathPng" : "resources/0/_0_t1749642074248.png",
 			"height" : 500,
 			"messages" : [],
 			"name" : "PchartPlot",
@@ -364,17 +364,17 @@
 			{
 				"attributesChart" : "defectives",
 				"attributesChartDefectivesChartType" : "pChart",
-				"defectiveOrDefect" : "JaspColumn_2_Encoded",
+				"defectiveOrDefect" : "JaspColumn_0_Encoded",
 				"defectiveOrDefect.types" : 
 				[
 					"scale"
 				],
-				"timeStamp" : "JaspColumn_0_Encoded",
+				"timeStamp" : "JaspColumn_5_Encoded",
 				"timeStamp.types" : 
 				[
 					"nominal"
 				],
-				"total" : "JaspColumn_1_Encoded",
+				"total" : "JaspColumn_6_Encoded",
 				"total.types" : 
 				[
 					"scale"
@@ -425,7 +425,7 @@
 		"attributesChart" : "defectives",
 		"attributesChartDefectivesChartType" : "pChart",
 		"attributesChartDefectsChartType" : "cChart",
-		"defectiveOrDefect" : "JaspColumn_2_Encoded",
+		"defectiveOrDefect" : "JaspColumn_0_Encoded",
 		"defectiveOrDefect.types" : 
 		[
 			"scale"
@@ -452,12 +452,12 @@
 		"reportTimeText" : "",
 		"reportTitle" : true,
 		"reportTitleText" : "",
-		"timeStamp" : "JaspColumn_0_Encoded",
+		"timeStamp" : "JaspColumn_5_Encoded",
 		"timeStamp.types" : 
 		[
 			"nominal"
 		],
-		"total" : "JaspColumn_1_Encoded",
+		"total" : "JaspColumn_6_Encoded",
 		"total.types" : 
 		[
 			"scale"

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -23,7 +23,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1732281130248.png",
+					"filePathPng" : "resources/0/_0_t1749642127480.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -469,17 +469,35 @@
 				"reportReportedBy" : null,
 				"reportSubtitle" : true,
 				"reportTitle" : true,
+				"rule1" : true,
+				"rule2" : true,
+				"rule2Value" : 7,
+				"rule3" : true,
+				"rule3Value" : 7,
+				"rule4" : true,
+				"rule4Value" : 2,
+				"rule5" : true,
+				"rule5Value" : 15,
+				"rule6" : true,
+				"rule6Value" : 8,
+				"rule7" : false,
+				"rule7Value" : 4,
+				"rule8" : false,
+				"rule8Value" : 14,
+				"rule9" : null,
+				"rule9Value" : null,
 				"stagesLongFormat" : "",
 				"stagesLongFormat.types" : [],
 				"stagesWideFormat" : "",
 				"stagesWideFormat.types" : [],
-				"subgroup" : "JaspColumn_0_Encoded",
+				"subgroup" : "JaspColumn_2_Encoded",
 				"subgroup.types" : 
 				[
 					"nominal"
 				],
 				"subgroupSizeType" : "groupingVariable",
 				"subgroupSizeUnequal" : "fixedSubgroupSize",
+				"testSet" : "jaspDefault",
 				"variables" : null,
 				"warningLimits" : true,
 				"xBarAndSUnbiasingConstant" : true
@@ -549,11 +567,11 @@
 		"measurementLongFormat.types" : [],
 		"measurementsWideFormat" : 
 		[
-			"JaspColumn_1_Encoded",
-			"JaspColumn_2_Encoded",
 			"JaspColumn_3_Encoded",
-			"JaspColumn_4_Encoded",
-			"JaspColumn_5_Encoded"
+			"JaspColumn_6_Encoded",
+			"JaspColumn_9_Encoded",
+			"JaspColumn_12_Encoded",
+			"JaspColumn_15_Encoded"
 		],
 		"measurementsWideFormat.types" : 
 		[
@@ -585,17 +603,33 @@
 		"reportSubtitleText" : "",
 		"reportTitle" : true,
 		"reportTitleText" : "",
+		"rule1" : true,
+		"rule2" : true,
+		"rule2Value" : 7,
+		"rule3" : true,
+		"rule3Value" : 7,
+		"rule4" : true,
+		"rule4Value" : 2,
+		"rule5" : true,
+		"rule5Value" : 15,
+		"rule6" : true,
+		"rule6Value" : 8,
+		"rule7" : false,
+		"rule7Value" : 4,
+		"rule8" : false,
+		"rule8Value" : 14,
 		"stagesLongFormat" : "",
 		"stagesLongFormat.types" : [],
 		"stagesWideFormat" : "",
 		"stagesWideFormat.types" : [],
-		"subgroup" : "JaspColumn_0_Encoded",
+		"subgroup" : "JaspColumn_2_Encoded",
 		"subgroup.types" : 
 		[
 			"nominal"
 		],
 		"subgroupSizeType" : "groupingVariable",
 		"subgroupSizeUnequal" : "fixedSubgroupSize",
+		"testSet" : "jaspDefault",
 		"warningLimits" : true,
 		"xBarAndSUnbiasingConstant" : true
 	},

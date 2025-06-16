@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -61,11 +61,11 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_9_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_12_Encoded",
 					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded",
-					"JaspColumn_23_Encoded",
-					"JaspColumn_29_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_23_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -82,7 +82,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_35_Encoded",
+				"target" : "JaspColumn_20_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -319,11 +319,11 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_9_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_12_Encoded",
 					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded",
-					"JaspColumn_23_Encoded",
-					"JaspColumn_29_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_23_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -342,7 +342,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_35_Encoded",
+				"target" : "JaspColumn_20_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -630,11 +630,11 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_9_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_12_Encoded",
 					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded",
-					"JaspColumn_23_Encoded",
-					"JaspColumn_29_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_23_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -651,7 +651,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_35_Encoded",
+				"target" : "JaspColumn_20_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -823,7 +823,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_1_t1732275014187.png",
+			"filePathPng" : "resources/0/_1_t1749640960345.png",
 			"height" : 500,
 			"messages" : [],
 			"name" : "decisionTreePlot",
@@ -875,11 +875,11 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_9_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_12_Encoded",
 					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded",
-					"JaspColumn_23_Encoded",
-					"JaspColumn_29_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_23_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -896,7 +896,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_35_Encoded",
+				"target" : "JaspColumn_20_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -936,11 +936,11 @@
 			{
 				"predictors" : 
 				[
-					"JaspColumn_9_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_12_Encoded",
 					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded",
-					"JaspColumn_23_Encoded",
-					"JaspColumn_29_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_23_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -950,7 +950,7 @@
 					"nominal",
 					"nominal"
 				],
-				"target" : "JaspColumn_35_Encoded",
+				"target" : "JaspColumn_20_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1061,7 +1061,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1732275013883.png",
+			"filePathPng" : "resources/0/_0_t1749640960011.png",
 			"height" : 30,
 			"messages" : [],
 			"name" : "plotDataSplit",
@@ -1075,11 +1075,11 @@
 				"modelValid" : "validationManual",
 				"predictors" : 
 				[
-					"JaspColumn_9_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_12_Encoded",
 					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded",
-					"JaspColumn_23_Encoded",
-					"JaspColumn_29_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_23_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1089,7 +1089,7 @@
 					"nominal",
 					"nominal"
 				],
-				"target" : "JaspColumn_35_Encoded",
+				"target" : "JaspColumn_20_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1253,12 +1253,12 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_18_Encoded",
 					"JaspColumn_15_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_11_Encoded",
 					"JaspColumn_23_Encoded",
-					"JaspColumn_29_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_0_Encoded"
 				],
 				[
 					1600.0,
@@ -1348,11 +1348,11 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_9_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_12_Encoded",
 					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded",
-					"JaspColumn_23_Encoded",
-					"JaspColumn_29_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_23_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1371,7 +1371,7 @@
 				"splitsTable" : true,
 				"splitsTreeTable" : true,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_35_Encoded",
+				"target" : "JaspColumn_20_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1489,6 +1489,7 @@
 		},
 		"addIndicator" : false,
 		"addPredictions" : false,
+		"addProbabilities" : false,
 		"andrewsCurve" : false,
 		"classProportionsTable" : false,
 		"complexityParameter" : 0.001,
@@ -1517,11 +1518,11 @@
 		"predictionsColumn" : "",
 		"predictors" : 
 		[
-			"JaspColumn_9_Encoded",
+			"JaspColumn_0_Encoded",
+			"JaspColumn_12_Encoded",
 			"JaspColumn_15_Encoded",
-			"JaspColumn_18_Encoded",
-			"JaspColumn_23_Encoded",
-			"JaspColumn_29_Encoded"
+			"JaspColumn_11_Encoded",
+			"JaspColumn_23_Encoded"
 		],
 		"predictors.types" : 
 		[
@@ -1540,7 +1541,7 @@
 		"splitsTable" : true,
 		"splitsTreeTable" : true,
 		"tableShap" : false,
-		"target" : "JaspColumn_35_Encoded",
+		"target" : "JaspColumn_20_Encoded",
 		"target.types" : 
 		[
 			"nominal"

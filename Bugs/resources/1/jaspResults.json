@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -176,10 +176,10 @@
 							"data" : 
 							[
 								[
-									"JaspColumn_4_Encoded",
-									"JaspColumn_5_Encoded",
-									"JaspColumn_6_Encoded",
-									"JaspColumn_7_Encoded"
+									"JaspColumn_15_Encoded",
+									"JaspColumn_12_Encoded",
+									"JaspColumn_9_Encoded",
+									"JaspColumn_6_Encoded"
 								],
 								[
 									0.45316288187673992,
@@ -473,7 +473,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_1_Encoded",
+							"JaspColumn_5_Encoded",
 							"Residuals"
 						],
 						[
@@ -586,7 +586,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_1_Encoded",
+							"JaspColumn_5_Encoded",
 							"Residuals"
 						],
 						"title" : "rowNames",
@@ -651,8 +651,8 @@
 											{
 												"labels" : 
 												[
-													"JaspExtraOptions_4_Encoded",
-													"JaspExtraOptions_5_Encoded"
+													"JaspExtraOptions_2_Encoded",
+													"JaspExtraOptions_3_Encoded"
 												],
 												"title" : "JaspExtraOptions_0_Encoded",
 												"titleType" : "character"
@@ -709,7 +709,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_0_t1732273603864.png",
+									"filePathPng" : "resources/1/_0_t1749640150300.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "Gender: Female",
@@ -721,7 +721,7 @@
 									"resizedByUser" : false,
 									"revision" : 0,
 									"status" : "complete",
-									"title" : "JaspColumn_1_Encoded: Female",
+									"title" : "JaspColumn_5_Encoded: Female",
 									"type" : "plot",
 									"width" : 430
 								},
@@ -738,8 +738,8 @@
 											{
 												"labels" : 
 												[
-													"JaspExtraOptions_4_Encoded",
-													"JaspExtraOptions_5_Encoded"
+													"JaspExtraOptions_2_Encoded",
+													"JaspExtraOptions_3_Encoded"
 												],
 												"title" : "JaspExtraOptions_0_Encoded",
 												"titleType" : "character"
@@ -802,7 +802,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_1_t1732273604062.png",
+									"filePathPng" : "resources/1/_1_t1749640150495.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "Gender: Male",
@@ -814,7 +814,7 @@
 									"resizedByUser" : false,
 									"revision" : 0,
 									"status" : "complete",
-									"title" : "JaspColumn_1_Encoded: Male",
+									"title" : "JaspColumn_5_Encoded: Male",
 									"type" : "plot",
 									"width" : 430
 								}
@@ -844,12 +844,12 @@
 								[
 									"unknown"
 								],
-								"descriptivePlotSeparateLines" : "JaspExtraOptions_3_Encoded",
+								"descriptivePlotSeparateLines" : "JaspExtraOptions_1_Encoded",
 								"descriptivePlotSeparateLines.types" : 
 								[
 									"unknown"
 								],
-								"descriptivePlotSeparatePlot" : "JaspColumn_1_Encoded",
+								"descriptivePlotSeparatePlot" : "JaspColumn_5_Encoded",
 								"descriptivePlotSeparatePlot.types" : 
 								[
 									"nominal"
@@ -881,10 +881,10 @@
 						"dependent" : null,
 						"repeatedMeasuresCells" : 
 						[
-							"JaspColumn_4_Encoded",
-							"JaspColumn_5_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_7_Encoded"
+							"JaspColumn_15_Encoded",
+							"JaspColumn_12_Encoded",
+							"JaspColumn_9_Encoded",
+							"JaspColumn_6_Encoded"
 						]
 					},
 					"optionMustContain" : {},
@@ -985,14 +985,14 @@
 							{
 								"components" : 
 								[
-									"JaspExtraOptions_3_Encoded"
+									"JaspExtraOptions_1_Encoded"
 								]
 							},
 							{
 								"components" : 
 								[
 									"JaspExtraOptions_0_Encoded",
-									"JaspExtraOptions_3_Encoded"
+									"JaspExtraOptions_1_Encoded"
 								]
 							}
 						],
@@ -1191,13 +1191,13 @@
 					[
 						[
 							"JaspExtraOptions_0_Encoded",
-							"JaspExtraOptions_0_Encoded \u273b JaspColumn_1_Encoded",
+							"JaspExtraOptions_0_Encoded \u273b JaspColumn_5_Encoded",
 							"Residuals",
-							"JaspExtraOptions_3_Encoded",
-							"JaspExtraOptions_3_Encoded \u273b JaspColumn_1_Encoded",
+							"JaspExtraOptions_1_Encoded",
+							"JaspExtraOptions_1_Encoded \u273b JaspColumn_5_Encoded",
 							"Residuals",
-							"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_3_Encoded",
-							"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_3_Encoded \u273b JaspColumn_1_Encoded",
+							"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_1_Encoded",
+							"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_1_Encoded \u273b JaspColumn_5_Encoded",
 							"Residuals"
 						],
 						[
@@ -1515,14 +1515,14 @@
 						"rows" : 
 						[
 							"JaspExtraOptions_0_EncodedNone",
-							"JaspColumn_1_Encoded:JaspExtraOptions_0_EncodedNone",
+							"JaspColumn_5_Encoded:JaspExtraOptions_0_EncodedNone",
 							"JaspExtraOptions_0_EncodedResidNone",
-							"JaspExtraOptions_3_EncodedNone",
-							"JaspColumn_1_Encoded:JaspExtraOptions_3_EncodedNone",
-							"JaspExtraOptions_3_EncodedResidNone",
-							"JaspExtraOptions_0_Encoded:JaspExtraOptions_3_EncodedNone",
-							"JaspColumn_1_Encoded:JaspExtraOptions_0_Encoded:JaspExtraOptions_3_EncodedNone",
-							"JaspExtraOptions_0_Encoded:JaspExtraOptions_3_EncodedResidNone"
+							"JaspExtraOptions_1_EncodedNone",
+							"JaspColumn_5_Encoded:JaspExtraOptions_1_EncodedNone",
+							"JaspExtraOptions_1_EncodedResidNone",
+							"JaspExtraOptions_0_Encoded:JaspExtraOptions_1_EncodedNone",
+							"JaspColumn_5_Encoded:JaspExtraOptions_0_Encoded:JaspExtraOptions_1_EncodedNone",
+							"JaspExtraOptions_0_Encoded:JaspExtraOptions_1_EncodedResidNone"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -1590,7 +1590,7 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_1_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					}
 				],
@@ -1600,7 +1600,7 @@
 				],
 				"betweenSubjectFactors" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_5_Encoded"
 				],
 				"betweenSubjectFactors.types" : 
 				[
@@ -1611,28 +1611,28 @@
 				"poolErrorTermFollowup" : false,
 				"repeatedMeasuresCells" : 
 				[
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded",
-					"JaspColumn_6_Encoded",
-					"JaspColumn_7_Encoded"
+					"JaspColumn_15_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_9_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				"repeatedMeasuresFactors" : 
 				[
 					{
 						"levels" : 
 						[
-							"JaspExtraOptions_4_Encoded",
-							"JaspExtraOptions_5_Encoded"
+							"JaspExtraOptions_3_Encoded",
+							"JaspExtraOptions_2_Encoded"
 						],
 						"name" : "JaspExtraOptions_0_Encoded"
 					},
 					{
 						"levels" : 
 						[
-							"JaspExtraOptions_4_Encoded",
-							"JaspExtraOptions_5_Encoded"
+							"JaspExtraOptions_3_Encoded",
+							"JaspExtraOptions_2_Encoded"
 						],
-						"name" : "JaspExtraOptions_3_Encoded"
+						"name" : "JaspExtraOptions_1_Encoded"
 					}
 				],
 				"sumOfSquares" : "type3",
@@ -1647,14 +1647,14 @@
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_3_Encoded"
+							"JaspExtraOptions_1_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
 							"JaspExtraOptions_0_Encoded",
-							"JaspExtraOptions_3_Encoded"
+							"JaspExtraOptions_1_Encoded"
 						]
 					}
 				],
@@ -1808,7 +1808,7 @@
 			{
 				"components" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_5_Encoded"
 				]
 			}
 		],
@@ -1818,7 +1818,7 @@
 		],
 		"betweenSubjectFactors" : 
 		[
-			"JaspColumn_1_Encoded"
+			"JaspColumn_5_Encoded"
 		],
 		"betweenSubjectFactors.types" : 
 		[
@@ -1841,14 +1841,14 @@
 				"contrast" : "none",
 				"variable" : 
 				[
-					"JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_1_Encoded"
 				]
 			},
 			{
 				"contrast" : "none",
 				"variable" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_5_Encoded"
 				]
 			}
 		],
@@ -1870,12 +1870,12 @@
 		[
 			"unknown"
 		],
-		"descriptivePlotSeparateLines" : "JaspExtraOptions_3_Encoded",
+		"descriptivePlotSeparateLines" : "JaspExtraOptions_1_Encoded",
 		"descriptivePlotSeparateLines.types" : 
 		[
 			"unknown"
 		],
-		"descriptivePlotSeparatePlot" : "JaspColumn_1_Encoded",
+		"descriptivePlotSeparatePlot" : "JaspColumn_5_Encoded",
 		"descriptivePlotSeparatePlot.types" : 
 		[
 			"nominal"
@@ -1935,28 +1935,28 @@
 		"rainCloudYAxisLabel" : "",
 		"repeatedMeasuresCells" : 
 		[
-			"JaspColumn_4_Encoded",
-			"JaspColumn_5_Encoded",
-			"JaspColumn_6_Encoded",
-			"JaspColumn_7_Encoded"
+			"JaspColumn_15_Encoded",
+			"JaspColumn_12_Encoded",
+			"JaspColumn_9_Encoded",
+			"JaspColumn_6_Encoded"
 		],
 		"repeatedMeasuresFactors" : 
 		[
 			{
 				"levels" : 
 				[
-					"JaspExtraOptions_4_Encoded",
-					"JaspExtraOptions_5_Encoded"
+					"JaspExtraOptions_3_Encoded",
+					"JaspExtraOptions_2_Encoded"
 				],
 				"name" : "JaspExtraOptions_0_Encoded"
 			},
 			{
 				"levels" : 
 				[
-					"JaspExtraOptions_4_Encoded",
-					"JaspExtraOptions_5_Encoded"
+					"JaspExtraOptions_3_Encoded",
+					"JaspExtraOptions_2_Encoded"
 				],
-				"name" : "JaspExtraOptions_3_Encoded"
+				"name" : "JaspExtraOptions_1_Encoded"
 			}
 		],
 		"restrictedAvailableCoefficients" : false,
@@ -2014,14 +2014,14 @@
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_1_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
 					"JaspExtraOptions_0_Encoded",
-					"JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_1_Encoded"
 				]
 			}
 		],

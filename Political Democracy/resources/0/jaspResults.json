@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software].",
+		"JASP Team (2025). JASP (Version 0.95) [Computer software].",
 		"Rosseel, Y. (2012). lavaan: An R Package for Structural Equation Modeling. Journal of Statistical Software, 48(2), 1-36. URL http://www.jstatsoft.org/v48/i02/"
 	],
 	"data" : 
@@ -182,7 +182,7 @@
 									0.99273147914179083,
 									0.94782046169630763,
 									0.60315847562492297,
-									0.91800358266562621,
+									0.91800358266562632,
 									0.99550755819268022,
 									0.99537457763568504,
 									0.034504298174121366,
@@ -192,14 +192,14 @@
 									0.044417595409095977,
 									98.970376712707349,
 									113.80353208788978,
-									0.92267104392813526,
+									0.92267104392813537,
 									0.97938097469864371,
 									1.335002464070437,
-									-1547.791073087885,
+									-1547.7910730878853,
 									31.0,
-									3157.58214617577,
-									3229.4242776953956,
-									3131.7204455124479
+									3157.5821461757705,
+									3229.4242776953961,
+									3131.7204455124484
 								]
 							],
 							"error" : false,
@@ -561,21 +561,68 @@
 								{
 									"columns" : 
 									[
-										"JaspColumn_9_Encoded",
-										"JaspColumn_10_Encoded",
-										"JaspColumn_11_Encoded",
-										"JaspColumn_1_Encoded",
-										"JaspColumn_2_Encoded",
 										"JaspColumn_3_Encoded",
-										"JaspColumn_4_Encoded",
-										"JaspColumn_5_Encoded",
 										"JaspColumn_6_Encoded",
-										"JaspColumn_7_Encoded",
-										"JaspColumn_8_Encoded"
+										"JaspColumn_9_Encoded",
+										"JaspColumn_12_Encoded",
+										"JaspColumn_15_Encoded",
+										"JaspColumn_18_Encoded",
+										"JaspColumn_21_Encoded",
+										"JaspColumn_24_Encoded",
+										"JaspColumn_27_Encoded",
+										"JaspColumn_30_Encoded",
+										"JaspColumn_33_Encoded"
 									],
-									"model" : "\n  ind60 =~ JaspColumn_9_Encoded + JaspColumn_10_Encoded + JaspColumn_11_Encoded\n  dem60 =~ JaspColumn_1_Encoded + JaspColumn_2_Encoded + JaspColumn_3_Encoded + JaspColumn_4_Encoded\n  dem65 =~ JaspColumn_5_Encoded + JaspColumn_6_Encoded + JaspColumn_7_Encoded + JaspColumn_8_Encoded\n\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n\n  JaspColumn_1_Encoded ~~ JaspColumn_5_Encoded\n  JaspColumn_2_Encoded ~~ JaspColumn_4_Encoded + JaspColumn_6_Encoded\n  JaspColumn_3_Encoded ~~ JaspColumn_7_Encoded\n  JaspColumn_4_Encoded ~~ JaspColumn_8_Encoded\n  JaspColumn_6_Encoded ~~ JaspColumn_8_Encoded",
-									"modelOriginal" : "# measurement model\n  ind60 =~ x1 + x2 + x3\n  dem60 =~ y1 + y2 + y3 + y4\n  dem65 =~ y5 + y6 + y7 + y8\n# regressions\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n# residual correlations\n  y1 ~~ y5\n  y2 ~~ y4 + y6\n  y3 ~~ y7\n  y4 ~~ y8\n  y6 ~~ y8"
-								}
+									"model" : "\n  ind60 =~ JaspColumn_3_Encoded + JaspColumn_6_Encoded + JaspColumn_9_Encoded\n  dem60 =~ JaspColumn_12_Encoded + JaspColumn_15_Encoded + JaspColumn_18_Encoded + JaspColumn_21_Encoded\n  dem65 =~ JaspColumn_24_Encoded + JaspColumn_27_Encoded + JaspColumn_30_Encoded + JaspColumn_33_Encoded\n\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n\n  JaspColumn_12_Encoded ~~ JaspColumn_24_Encoded\n  JaspColumn_15_Encoded ~~ JaspColumn_21_Encoded + JaspColumn_27_Encoded\n  JaspColumn_18_Encoded ~~ JaspColumn_30_Encoded\n  JaspColumn_21_Encoded ~~ JaspColumn_33_Encoded\n  JaspColumn_27_Encoded ~~ JaspColumn_33_Encoded",
+									"modelOriginal" : "# measurement model\n  ind60 =~ x1 + x2 + x3\n  dem60 =~ y1 + y2 + y3 + y4\n  dem65 =~ y5 + y6 + y7 + y8\n# regressions\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n# residual correlations\n  y1 ~~ y5\n  y2 ~~ y4 + y6\n  y3 ~~ y7\n  y4 ~~ y8\n  y6 ~~ y8",
+									"optionKey" : "value",
+									"prefixedColumns" : 
+									{
+										"data." : []
+									},
+									"types" : 
+									[
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale"
+									],
+									"value" : 
+									[
+										"x1",
+										"x2",
+										"x3",
+										"y1",
+										"y2",
+										"y3",
+										"y4",
+										"y5",
+										"y6",
+										"y7",
+										"y8"
+									]
+								},
+								"syntax.types" : 
+								[
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale"
+								]
 							}
 						]
 					},
@@ -759,10 +806,10 @@
 							"Model 1"
 						],
 						[
-							3157.58214617577
+							3157.5821461757705
 						],
 						[
-							3229.4242776953956
+							3229.4242776953961
 						],
 						[
 							75
@@ -814,21 +861,68 @@
 								{
 									"columns" : 
 									[
-										"JaspColumn_9_Encoded",
-										"JaspColumn_10_Encoded",
-										"JaspColumn_11_Encoded",
-										"JaspColumn_1_Encoded",
-										"JaspColumn_2_Encoded",
 										"JaspColumn_3_Encoded",
-										"JaspColumn_4_Encoded",
-										"JaspColumn_5_Encoded",
 										"JaspColumn_6_Encoded",
-										"JaspColumn_7_Encoded",
-										"JaspColumn_8_Encoded"
+										"JaspColumn_9_Encoded",
+										"JaspColumn_12_Encoded",
+										"JaspColumn_15_Encoded",
+										"JaspColumn_18_Encoded",
+										"JaspColumn_21_Encoded",
+										"JaspColumn_24_Encoded",
+										"JaspColumn_27_Encoded",
+										"JaspColumn_30_Encoded",
+										"JaspColumn_33_Encoded"
 									],
-									"model" : "\n  ind60 =~ JaspColumn_9_Encoded + JaspColumn_10_Encoded + JaspColumn_11_Encoded\n  dem60 =~ JaspColumn_1_Encoded + JaspColumn_2_Encoded + JaspColumn_3_Encoded + JaspColumn_4_Encoded\n  dem65 =~ JaspColumn_5_Encoded + JaspColumn_6_Encoded + JaspColumn_7_Encoded + JaspColumn_8_Encoded\n\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n\n  JaspColumn_1_Encoded ~~ JaspColumn_5_Encoded\n  JaspColumn_2_Encoded ~~ JaspColumn_4_Encoded + JaspColumn_6_Encoded\n  JaspColumn_3_Encoded ~~ JaspColumn_7_Encoded\n  JaspColumn_4_Encoded ~~ JaspColumn_8_Encoded\n  JaspColumn_6_Encoded ~~ JaspColumn_8_Encoded",
-									"modelOriginal" : "# measurement model\n  ind60 =~ x1 + x2 + x3\n  dem60 =~ y1 + y2 + y3 + y4\n  dem65 =~ y5 + y6 + y7 + y8\n# regressions\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n# residual correlations\n  y1 ~~ y5\n  y2 ~~ y4 + y6\n  y3 ~~ y7\n  y4 ~~ y8\n  y6 ~~ y8"
-								}
+									"model" : "\n  ind60 =~ JaspColumn_3_Encoded + JaspColumn_6_Encoded + JaspColumn_9_Encoded\n  dem60 =~ JaspColumn_12_Encoded + JaspColumn_15_Encoded + JaspColumn_18_Encoded + JaspColumn_21_Encoded\n  dem65 =~ JaspColumn_24_Encoded + JaspColumn_27_Encoded + JaspColumn_30_Encoded + JaspColumn_33_Encoded\n\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n\n  JaspColumn_12_Encoded ~~ JaspColumn_24_Encoded\n  JaspColumn_15_Encoded ~~ JaspColumn_21_Encoded + JaspColumn_27_Encoded\n  JaspColumn_18_Encoded ~~ JaspColumn_30_Encoded\n  JaspColumn_21_Encoded ~~ JaspColumn_33_Encoded\n  JaspColumn_27_Encoded ~~ JaspColumn_33_Encoded",
+									"modelOriginal" : "# measurement model\n  ind60 =~ x1 + x2 + x3\n  dem60 =~ y1 + y2 + y3 + y4\n  dem65 =~ y5 + y6 + y7 + y8\n# regressions\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n# residual correlations\n  y1 ~~ y5\n  y2 ~~ y4 + y6\n  y3 ~~ y7\n  y4 ~~ y8\n  y6 ~~ y8",
+									"optionKey" : "value",
+									"prefixedColumns" : 
+									{
+										"data." : []
+									},
+									"types" : 
+									[
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale"
+									],
+									"value" : 
+									[
+										"x1",
+										"x2",
+										"x3",
+										"y1",
+										"y2",
+										"y3",
+										"y4",
+										"y5",
+										"y6",
+										"y7",
+										"y8"
+									]
+								},
+								"syntax.types" : 
+								[
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale"
+								]
 							}
 						],
 						"warnings" : false
@@ -908,6 +1002,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
+						"bootSeed" : 1,
 						"bootstrapSamplesBollenStine" : 1000,
 						"dataType" : "raw",
 						"dependentCorrelation" : true,
@@ -924,6 +1019,7 @@
 						"equalThreshold" : false,
 						"errorCalculationMethod" : "standard",
 						"estimator" : "default",
+						"exogenousCovariateConditional" : false,
 						"exogenousCovariateFixed" : true,
 						"exogenousLatentCorrelation" : true,
 						"factorScaling" : "factorLoading",
@@ -931,8 +1027,16 @@
 						{
 							"columns" : [],
 							"model" : "",
-							"modelOriginal" : ""
+							"modelOriginal" : "",
+							"optionKey" : "value",
+							"prefixedColumns" : 
+							{
+								"data." : []
+							},
+							"types" : [],
+							"value" : []
 						},
+						"freeParameters.types" : [],
 						"group" : "",
 						"group.types" : "unknown",
 						"informationMatrix" : "expected",
@@ -950,7 +1054,8 @@
 						"samplingWeights.types" : "unknown",
 						"scalingParameter" : true,
 						"standardizedVariable" : false,
-						"threshold" : true
+						"threshold" : true,
+						"userGaveSeed" : false
 					},
 					"optionMustContain" : {},
 					"position" : 9999,
@@ -970,6 +1075,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
+						"bootSeed" : 1,
 						"bootstrapSamplesBollenStine" : 1000,
 						"dataType" : "raw",
 						"dependentCorrelation" : true,
@@ -986,6 +1092,7 @@
 						"equalThreshold" : false,
 						"errorCalculationMethod" : "standard",
 						"estimator" : "default",
+						"exogenousCovariateConditional" : false,
 						"exogenousCovariateFixed" : true,
 						"exogenousLatentCorrelation" : true,
 						"factorScaling" : "factorLoading",
@@ -993,8 +1100,16 @@
 						{
 							"columns" : [],
 							"model" : "",
-							"modelOriginal" : ""
+							"modelOriginal" : "",
+							"optionKey" : "value",
+							"prefixedColumns" : 
+							{
+								"data." : []
+							},
+							"types" : [],
+							"value" : []
 						},
+						"freeParameters.types" : [],
 						"group" : "",
 						"group.types" : "unknown",
 						"informationMatrix" : "expected",
@@ -1012,7 +1127,8 @@
 						"samplingWeights.types" : "unknown",
 						"scalingParameter" : true,
 						"standardizedVariable" : false,
-						"threshold" : true
+						"threshold" : true,
+						"userGaveSeed" : false
 					},
 					"optionMustContain" : {},
 					"position" : 9999,
@@ -1187,12 +1303,12 @@
 							"data" : 
 							[
 								[
-									"JaspColumn_1_Encoded - JaspColumn_5_Encoded",
-									"JaspColumn_2_Encoded - JaspColumn_4_Encoded",
-									"JaspColumn_2_Encoded - JaspColumn_6_Encoded",
-									"JaspColumn_3_Encoded - JaspColumn_7_Encoded",
-									"JaspColumn_4_Encoded - JaspColumn_8_Encoded",
-									"JaspColumn_6_Encoded - JaspColumn_8_Encoded"
+									"JaspColumn_12_Encoded - JaspColumn_24_Encoded",
+									"JaspColumn_15_Encoded - JaspColumn_21_Encoded",
+									"JaspColumn_15_Encoded - JaspColumn_27_Encoded",
+									"JaspColumn_18_Encoded - JaspColumn_30_Encoded",
+									"JaspColumn_21_Encoded - JaspColumn_33_Encoded",
+									"JaspColumn_27_Encoded - JaspColumn_33_Encoded"
 								],
 								[
 									"",
@@ -1211,43 +1327,43 @@
 									0.33777108957251661
 								],
 								[
-									0.13969841529454391,
-									0.12035124589842666,
+									0.13969841529454385,
+									0.1203512458984267,
 									0.096545384360401373,
-									0.13315376534023193,
-									0.13076857522149635,
-									0.1097192917298437
+									0.13315376534023196,
+									0.13076857522149629,
+									0.10971929172984367
 								],
 								[
-									2.1171395369892818,
-									2.2647633161327398,
+									2.1171395369892827,
+									2.264763316132739,
 									3.689688141183272,
-									1.4317365709382277,
-									0.83201338997023555,
-									3.0785022783795708
+									1.4317365709382275,
+									0.83201338997023588,
+									3.0785022783795717
 								],
 								[
-									0.034248007052861018,
+									0.034248007052860796,
 									0.02352720768611305,
 									0.00022452912590043006,
-									0.15221922599958693,
-									0.40540138657988778,
+									0.15221922599958715,
+									0.40540138657988756,
 									0.0020804393888878003
 								],
 								[
-									0.021957175600201662,
-									0.036682979306187441,
+									0.021957175600201717,
+									0.036682979306187358,
 									0.16699688354059064,
 									-0.070335469077015184,
-									-0.14750049217213479,
-									0.1227252293727796
+									-0.14750049217213468,
+									0.12272522937277966
 								],
 								[
-									0.56956490094945256,
-									0.50845119421706764,
+									0.56956490094945245,
+									0.50845119421706775,
 									0.54544783598051716,
 									0.45161769986848943,
-									0.36510290331536466,
+									0.36510290331536455,
 									0.5528169497722536
 								]
 							],
@@ -1502,17 +1618,17 @@
 									"ind60"
 								],
 								[
-									"JaspColumn_1_Encoded",
-									"JaspColumn_2_Encoded",
+									"JaspColumn_12_Encoded",
+									"JaspColumn_15_Encoded",
+									"JaspColumn_18_Encoded",
+									"JaspColumn_21_Encoded",
+									"JaspColumn_24_Encoded",
+									"JaspColumn_27_Encoded",
+									"JaspColumn_30_Encoded",
+									"JaspColumn_33_Encoded",
 									"JaspColumn_3_Encoded",
-									"JaspColumn_4_Encoded",
-									"JaspColumn_5_Encoded",
 									"JaspColumn_6_Encoded",
-									"JaspColumn_7_Encoded",
-									"JaspColumn_8_Encoded",
-									"JaspColumn_9_Encoded",
-									"JaspColumn_10_Encoded",
-									"JaspColumn_11_Encoded"
+									"JaspColumn_9_Encoded"
 								],
 								[
 									"",
@@ -1541,30 +1657,30 @@
 									0.87213856568332682
 								],
 								[
-									0.042100868648680637,
-									0.06427616353842075,
-									0.063145926674023245,
-									0.043453579157092567,
-									0.047962568049892976,
-									0.057721533759473274,
-									0.044784268724239504,
-									0.044803504237092236,
-									0.022993549324522824,
-									0.016461284693884862,
-									0.031057890382587838
+									0.04210086864868056,
+									0.064276163538420528,
+									0.063145926674023148,
+									0.043453579157092491,
+									0.04796256804989283,
+									0.057721533759473011,
+									0.044784268724239427,
+									0.044803504237092111,
+									0.022993549324522661,
+									0.016461284693884849,
+									0.031057890382587671
 								],
 								[
-									20.199722366996387,
-									11.156890064537659,
-									11.439368678160156,
-									19.462368842060734,
-									16.846834976485976,
-									12.924241470257014,
-									18.392026341510629,
-									18.477158617112917,
-									40.004812898615704,
-									59.110365137250419,
-									28.081062652351907
+									20.199722366996422,
+									11.156890064537698,
+									11.439368678160173,
+									19.462368842060766,
+									16.846834976486029,
+									12.924241470257073,
+									18.392026341510661,
+									18.47715861711297,
+									40.004812898615988,
+									59.110365137250469,
+									28.081062652352056
 								],
 								[
 									0.0,
@@ -1580,30 +1696,30 @@
 									0.0
 								],
 								[
-									0.7679096718434657,
-									0.59114312476869302,
-									0.59858579369672671,
-									0.76054213491575628,
-									0.7140125630011841,
-									0.63287491304004428,
-									0.73589789628803071,
-									0.74002819970535538,
-									0.8747861100498171,
+									0.76790967184346581,
+									0.59114312476869346,
+									0.59858579369672693,
+									0.7605421349157564,
+									0.71401256300118443,
+									0.63287491304004473,
+									0.73589789628803082,
+									0.74002819970535572,
+									0.87478611004981743,
 									0.9407690237444909,
-									0.81126621909766172
+									0.81126621909766206
 								],
 								[
-									0.93294204438199668,
-									0.84310105596811546,
-									0.84611327779971202,
-									0.93087703521027987,
-									0.9020223749688675,
-									0.85913916764200515,
-									0.91144900383497651,
-									0.91565470907713242,
-									0.96491916715543713,
-									1.0052960740230406,
-									0.93301091226899191
+									0.93294204438199657,
+									0.84310105596811502,
+									0.84611327779971179,
+									0.93087703521027976,
+									0.90202237496886717,
+									0.85913916764200471,
+									0.9114490038349764,
+									0.91565470907713209,
+									0.9649191671554368,
+									1.0052960740230403,
+									0.93301091226899158
 								]
 							],
 							"error" : false,
@@ -1842,19 +1958,19 @@
 									0.39544319323521476
 								],
 								[
-									0.091879852649393509
+									0.091879852649393121
 								],
 								[
-									4.3039162757932985
+									4.3039162757933171
 								],
 								[
 									1.6780509978886471e-05
 								],
 								[
-									0.21536199113755647
+									0.21536199113755722
 								],
 								[
-									0.57552439533287303
+									0.57552439533287236
 								]
 							],
 							"error" : false,
@@ -2104,28 +2220,28 @@
 								],
 								[
 									0.0,
-									0.092329336201511319,
-									0.04824784830123182
+									0.092329336201510848,
+									0.048247848301231799
 								],
 								[
 									"",
-									8.669482669828021,
-									0.80842443031567901
+									8.6694826698280654,
+									0.80842443031567934
 								],
 								[
 									"",
 									0.0,
-									0.41884629288862163
+									0.41884629288862119
 								],
 								[
 									1.0000000000000002,
-									0.61948540644427497,
-									-0.055559305725085738
+									0.61948540644427597,
+									-0.055559305725085696
 								],
 								[
 									1.0000000000000002,
-									0.98140975378717976,
-									0.133568784278847
+									0.98140975378717876,
+									0.13356878427884697
 								],
 								[
 									"ind60",
@@ -2635,14 +2751,14 @@
 									0.88522894329203705
 								],
 								[
-									0.10334303495316742,
-									0.070446664078006163,
-									0.050861545050208769
+									0.10334303495316689,
+									0.070446664078006066,
+									0.050861545050208706
 								],
 								[
-									4.3226222806382886,
-									2.587197170534342,
-									17.404680538473016
+									4.3226222806383108,
+									2.5871971705343455,
+									17.404680538473038
 								],
 								[
 									1.5418557619106821e-05,
@@ -2650,14 +2766,14 @@
 									0.0
 								],
 								[
-									0.24416427887607089,
-									0.04418648555231719,
-									0.78554214679556644
+									0.24416427887607192,
+									0.044186485552317356,
+									0.78554214679556655
 								],
 								[
-									0.64926153199861503,
-									0.32033233440008441,
-									0.98491573978850766
+									0.64926153199861392,
+									0.32033233440008424,
+									0.98491573978850755
 								]
 							],
 							"error" : false,
@@ -2900,14 +3016,14 @@
 									0.88522894329203705
 								],
 								[
-									0.088078875365038972,
-									0.10334303495316742,
-									0.050861545050208769
+									0.088078875365038473,
+									0.10334303495316689,
+									0.050861545050208706
 								],
 								[
-									6.5589234741832572,
-									4.3226222806382886,
-									17.404680538473016
+									6.5589234741832945,
+									4.3226222806383108,
+									17.404680538473038
 								],
 								[
 									5.4197535348521342e-11,
@@ -2915,14 +3031,14 @@
 									0.0
 								],
 								[
-									0.40507117969714701,
-									0.24416427887607089,
-									0.78554214679556644
+									0.40507117969714795,
+									0.24416427887607192,
+									0.78554214679556655
 								],
 								[
-									0.75033402672568406,
-									0.64926153199861503,
-									0.98491573978850766
+									0.75033402672568306,
+									0.64926153199861392,
+									0.98491573978850755
 								]
 							],
 							"error" : false,
@@ -3156,17 +3272,17 @@
 							"data" : 
 							[
 								[
-									"JaspColumn_9_Encoded",
-									"JaspColumn_10_Encoded",
-									"JaspColumn_11_Encoded",
-									"JaspColumn_1_Encoded",
-									"JaspColumn_2_Encoded",
 									"JaspColumn_3_Encoded",
-									"JaspColumn_4_Encoded",
-									"JaspColumn_5_Encoded",
 									"JaspColumn_6_Encoded",
-									"JaspColumn_7_Encoded",
-									"JaspColumn_8_Encoded"
+									"JaspColumn_9_Encoded",
+									"JaspColumn_12_Encoded",
+									"JaspColumn_15_Encoded",
+									"JaspColumn_18_Encoded",
+									"JaspColumn_21_Encoded",
+									"JaspColumn_24_Encoded",
+									"JaspColumn_27_Encoded",
+									"JaspColumn_30_Encoded",
+									"JaspColumn_33_Encoded"
 								],
 								[
 									"",
@@ -3195,34 +3311,34 @@
 									0.31467852639138999
 								],
 								[
-									0.042301353919329703,
-									0.032034731381543211,
-									0.054173566828252168,
-									0.071607332694831452,
-									0.092187714203956148,
-									0.091226864960933296,
-									0.073498217464813706,
-									0.077509183124741865,
-									0.086121340345830411,
-									0.073775223857735078,
-									0.074180396463188844
+									0.042301353919329404,
+									0.032034731381543183,
+									0.054173566828251876,
+									0.071607332694831313,
+									0.092187714203955842,
+									0.091226864960933157,
+									0.073498217464813595,
+									0.077509183124741615,
+									0.086121340345830008,
+									0.07377522385773494,
+									0.074180396463188636
 								],
 								[
-									3.6374987795715206,
-									1.6609366309035982,
-									4.4186553749861766,
-									3.8651887933426998,
-									5.2689874317851944,
-									5.2419991458559902,
-									3.8745878138999803,
-									4.4782792931310329,
-									5.1494030861666156,
-									4.3586726118766634,
-									4.2420712397721623
+									3.6374987795715463,
+									1.6609366309035996,
+									4.4186553749862005,
+									3.8651887933427074,
+									5.2689874317852121,
+									5.2419991458559982,
+									3.8745878138999865,
+									4.4782792931310471,
+									5.1494030861666396,
+									4.3586726118766723,
+									4.2420712397721738
 								],
 								[
 									0.00027529849636942494,
-									0.096726174364749395,
+									0.096726174364749173,
 									9.9316867556709099e-06,
 									0.000111003303433721,
 									1.3717835556370517e-07,
@@ -3234,43 +3350,43 @@
 									2.2146636428743705e-05
 								],
 								[
-									0.070961993076616298,
-									-0.0095792609494775791,
-									0.13319608235038127,
-									0.13642806674237773,
-									0.30505130784882478,
-									0.29940977845840389,
-									0.14072143857361027,
-									0.19519256241941901,
-									0.27467877038348076,
-									0.17696526595123885,
-									0.16928762096463748
+									0.07096199307661688,
+									-0.0095792609494775235,
+									0.13319608235038188,
+									0.13642806674237801,
+									0.30505130784882539,
+									0.29940977845840422,
+									0.1407214385736105,
+									0.19519256241941951,
+									0.27467877038348154,
+									0.17696526595123913,
+									0.1692876209646379
 								],
 								[
-									0.23678025343495321,
-									0.11599457857500187,
-									0.3455525621452773,
-									0.41712365296407194,
-									0.66642050716247603,
-									0.65701251795026039,
-									0.4288291568914655,
-									0.49902297721064653,
-									0.61226822113976842,
-									0.46615882937632058,
-									0.46006943181814253
+									0.23678025343495263,
+									0.11599457857500181,
+									0.34555256214527669,
+									0.41712365296407167,
+									0.66642050716247536,
+									0.65701251795026006,
+									0.42882915689146528,
+									0.49902297721064603,
+									0.61226822113976764,
+									0.46615882937632031,
+									0.46006943181814208
 								],
 								[
-									"JaspColumn_9_Encoded",
-									"JaspColumn_10_Encoded",
-									"JaspColumn_11_Encoded",
-									"JaspColumn_1_Encoded",
-									"JaspColumn_2_Encoded",
 									"JaspColumn_3_Encoded",
-									"JaspColumn_4_Encoded",
-									"JaspColumn_5_Encoded",
 									"JaspColumn_6_Encoded",
-									"JaspColumn_7_Encoded",
-									"JaspColumn_8_Encoded"
+									"JaspColumn_9_Encoded",
+									"JaspColumn_12_Encoded",
+									"JaspColumn_15_Encoded",
+									"JaspColumn_18_Encoded",
+									"JaspColumn_21_Encoded",
+									"JaspColumn_24_Encoded",
+									"JaspColumn_27_Encoded",
+									"JaspColumn_30_Encoded",
+									"JaspColumn_33_Encoded"
 								]
 							],
 							"error" : false,
@@ -3377,21 +3493,68 @@
 								{
 									"columns" : 
 									[
-										"JaspColumn_9_Encoded",
-										"JaspColumn_10_Encoded",
-										"JaspColumn_11_Encoded",
-										"JaspColumn_1_Encoded",
-										"JaspColumn_2_Encoded",
 										"JaspColumn_3_Encoded",
-										"JaspColumn_4_Encoded",
-										"JaspColumn_5_Encoded",
 										"JaspColumn_6_Encoded",
-										"JaspColumn_7_Encoded",
-										"JaspColumn_8_Encoded"
+										"JaspColumn_9_Encoded",
+										"JaspColumn_12_Encoded",
+										"JaspColumn_15_Encoded",
+										"JaspColumn_18_Encoded",
+										"JaspColumn_21_Encoded",
+										"JaspColumn_24_Encoded",
+										"JaspColumn_27_Encoded",
+										"JaspColumn_30_Encoded",
+										"JaspColumn_33_Encoded"
 									],
-									"model" : "\n  ind60 =~ JaspColumn_9_Encoded + JaspColumn_10_Encoded + JaspColumn_11_Encoded\n  dem60 =~ JaspColumn_1_Encoded + JaspColumn_2_Encoded + JaspColumn_3_Encoded + JaspColumn_4_Encoded\n  dem65 =~ JaspColumn_5_Encoded + JaspColumn_6_Encoded + JaspColumn_7_Encoded + JaspColumn_8_Encoded\n\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n\n  JaspColumn_1_Encoded ~~ JaspColumn_5_Encoded\n  JaspColumn_2_Encoded ~~ JaspColumn_4_Encoded + JaspColumn_6_Encoded\n  JaspColumn_3_Encoded ~~ JaspColumn_7_Encoded\n  JaspColumn_4_Encoded ~~ JaspColumn_8_Encoded\n  JaspColumn_6_Encoded ~~ JaspColumn_8_Encoded",
-									"modelOriginal" : "# measurement model\n  ind60 =~ x1 + x2 + x3\n  dem60 =~ y1 + y2 + y3 + y4\n  dem65 =~ y5 + y6 + y7 + y8\n# regressions\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n# residual correlations\n  y1 ~~ y5\n  y2 ~~ y4 + y6\n  y3 ~~ y7\n  y4 ~~ y8\n  y6 ~~ y8"
-								}
+									"model" : "\n  ind60 =~ JaspColumn_3_Encoded + JaspColumn_6_Encoded + JaspColumn_9_Encoded\n  dem60 =~ JaspColumn_12_Encoded + JaspColumn_15_Encoded + JaspColumn_18_Encoded + JaspColumn_21_Encoded\n  dem65 =~ JaspColumn_24_Encoded + JaspColumn_27_Encoded + JaspColumn_30_Encoded + JaspColumn_33_Encoded\n\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n\n  JaspColumn_12_Encoded ~~ JaspColumn_24_Encoded\n  JaspColumn_15_Encoded ~~ JaspColumn_21_Encoded + JaspColumn_27_Encoded\n  JaspColumn_18_Encoded ~~ JaspColumn_30_Encoded\n  JaspColumn_21_Encoded ~~ JaspColumn_33_Encoded\n  JaspColumn_27_Encoded ~~ JaspColumn_33_Encoded",
+									"modelOriginal" : "# measurement model\n  ind60 =~ x1 + x2 + x3\n  dem60 =~ y1 + y2 + y3 + y4\n  dem65 =~ y5 + y6 + y7 + y8\n# regressions\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n# residual correlations\n  y1 ~~ y5\n  y2 ~~ y4 + y6\n  y3 ~~ y7\n  y4 ~~ y8\n  y6 ~~ y8",
+									"optionKey" : "value",
+									"prefixedColumns" : 
+									{
+										"data." : []
+									},
+									"types" : 
+									[
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale"
+									],
+									"value" : 
+									[
+										"x1",
+										"x2",
+										"x3",
+										"y1",
+										"y2",
+										"y3",
+										"y4",
+										"y5",
+										"y6",
+										"y7",
+										"y8"
+									]
+								},
+								"syntax.types" : 
+								[
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale"
+								]
 							}
 						],
 						"standardizedEstimate" : true,
@@ -3421,7 +3584,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1732277484620.png",
+							"filePathPng" : "resources/0/_0_t1749641626626.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "Path diagram",
@@ -3463,21 +3626,68 @@
 								{
 									"columns" : 
 									[
-										"JaspColumn_9_Encoded",
-										"JaspColumn_10_Encoded",
-										"JaspColumn_11_Encoded",
-										"JaspColumn_1_Encoded",
-										"JaspColumn_2_Encoded",
 										"JaspColumn_3_Encoded",
-										"JaspColumn_4_Encoded",
-										"JaspColumn_5_Encoded",
 										"JaspColumn_6_Encoded",
-										"JaspColumn_7_Encoded",
-										"JaspColumn_8_Encoded"
+										"JaspColumn_9_Encoded",
+										"JaspColumn_12_Encoded",
+										"JaspColumn_15_Encoded",
+										"JaspColumn_18_Encoded",
+										"JaspColumn_21_Encoded",
+										"JaspColumn_24_Encoded",
+										"JaspColumn_27_Encoded",
+										"JaspColumn_30_Encoded",
+										"JaspColumn_33_Encoded"
 									],
-									"model" : "\n  ind60 =~ JaspColumn_9_Encoded + JaspColumn_10_Encoded + JaspColumn_11_Encoded\n  dem60 =~ JaspColumn_1_Encoded + JaspColumn_2_Encoded + JaspColumn_3_Encoded + JaspColumn_4_Encoded\n  dem65 =~ JaspColumn_5_Encoded + JaspColumn_6_Encoded + JaspColumn_7_Encoded + JaspColumn_8_Encoded\n\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n\n  JaspColumn_1_Encoded ~~ JaspColumn_5_Encoded\n  JaspColumn_2_Encoded ~~ JaspColumn_4_Encoded + JaspColumn_6_Encoded\n  JaspColumn_3_Encoded ~~ JaspColumn_7_Encoded\n  JaspColumn_4_Encoded ~~ JaspColumn_8_Encoded\n  JaspColumn_6_Encoded ~~ JaspColumn_8_Encoded",
-									"modelOriginal" : "# measurement model\n  ind60 =~ x1 + x2 + x3\n  dem60 =~ y1 + y2 + y3 + y4\n  dem65 =~ y5 + y6 + y7 + y8\n# regressions\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n# residual correlations\n  y1 ~~ y5\n  y2 ~~ y4 + y6\n  y3 ~~ y7\n  y4 ~~ y8\n  y6 ~~ y8"
-								}
+									"model" : "\n  ind60 =~ JaspColumn_3_Encoded + JaspColumn_6_Encoded + JaspColumn_9_Encoded\n  dem60 =~ JaspColumn_12_Encoded + JaspColumn_15_Encoded + JaspColumn_18_Encoded + JaspColumn_21_Encoded\n  dem65 =~ JaspColumn_24_Encoded + JaspColumn_27_Encoded + JaspColumn_30_Encoded + JaspColumn_33_Encoded\n\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n\n  JaspColumn_12_Encoded ~~ JaspColumn_24_Encoded\n  JaspColumn_15_Encoded ~~ JaspColumn_21_Encoded + JaspColumn_27_Encoded\n  JaspColumn_18_Encoded ~~ JaspColumn_30_Encoded\n  JaspColumn_21_Encoded ~~ JaspColumn_33_Encoded\n  JaspColumn_27_Encoded ~~ JaspColumn_33_Encoded",
+									"modelOriginal" : "# measurement model\n  ind60 =~ x1 + x2 + x3\n  dem60 =~ y1 + y2 + y3 + y4\n  dem65 =~ y5 + y6 + y7 + y8\n# regressions\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n# residual correlations\n  y1 ~~ y5\n  y2 ~~ y4 + y6\n  y3 ~~ y7\n  y4 ~~ y8\n  y6 ~~ y8",
+									"optionKey" : "value",
+									"prefixedColumns" : 
+									{
+										"data." : []
+									},
+									"types" : 
+									[
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale",
+										"scale"
+									],
+									"value" : 
+									[
+										"x1",
+										"x2",
+										"x3",
+										"y1",
+										"y2",
+										"y3",
+										"y4",
+										"y5",
+										"y6",
+										"y7",
+										"y8"
+									]
+								},
+								"syntax.types" : 
+								[
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale",
+									"scale"
+								]
 							}
 						],
 						"pathPlot" : true,
@@ -3504,6 +3714,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
+						"bootSeed" : 1,
 						"bootstrapSamplesBollenStine" : 1000,
 						"dataType" : "raw",
 						"dependentCorrelation" : true,
@@ -3520,6 +3731,7 @@
 						"equalThreshold" : false,
 						"errorCalculationMethod" : "standard",
 						"estimator" : "default",
+						"exogenousCovariateConditional" : false,
 						"exogenousCovariateFixed" : true,
 						"exogenousLatentCorrelation" : true,
 						"factorScaling" : "factorLoading",
@@ -3527,8 +3739,16 @@
 						{
 							"columns" : [],
 							"model" : "",
-							"modelOriginal" : ""
+							"modelOriginal" : "",
+							"optionKey" : "value",
+							"prefixedColumns" : 
+							{
+								"data." : []
+							},
+							"types" : [],
+							"value" : []
 						},
+						"freeParameters.types" : [],
 						"group" : "",
 						"group.types" : "unknown",
 						"informationMatrix" : "expected",
@@ -3546,7 +3766,8 @@
 						"samplingWeights.types" : "unknown",
 						"scalingParameter" : true,
 						"standardizedVariable" : false,
-						"threshold" : true
+						"threshold" : true,
+						"userGaveSeed" : false
 					},
 					"optionMustContain" : {},
 					"position" : 9999,
@@ -3566,6 +3787,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
+						"bootSeed" : 1,
 						"bootstrapSamplesBollenStine" : 1000,
 						"dataType" : "raw",
 						"dependentCorrelation" : true,
@@ -3582,6 +3804,7 @@
 						"equalThreshold" : false,
 						"errorCalculationMethod" : "standard",
 						"estimator" : "default",
+						"exogenousCovariateConditional" : false,
 						"exogenousCovariateFixed" : true,
 						"exogenousLatentCorrelation" : true,
 						"factorScaling" : "factorLoading",
@@ -3589,8 +3812,16 @@
 						{
 							"columns" : [],
 							"model" : "",
-							"modelOriginal" : ""
+							"modelOriginal" : "",
+							"optionKey" : "value",
+							"prefixedColumns" : 
+							{
+								"data." : []
+							},
+							"types" : [],
+							"value" : []
 						},
+						"freeParameters.types" : [],
 						"group" : "",
 						"group.types" : "unknown",
 						"informationMatrix" : "expected",
@@ -3608,7 +3839,8 @@
 						"samplingWeights.types" : "unknown",
 						"scalingParameter" : true,
 						"standardizedVariable" : false,
-						"threshold" : true
+						"threshold" : true,
+						"userGaveSeed" : false
 					},
 					"optionMustContain" : {},
 					"position" : 9999,
@@ -3637,6 +3869,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
+				"bootSeed" : 1,
 				"bootstrapSamplesBollenStine" : 1000,
 				"dataType" : "raw",
 				"dependentCorrelation" : true,
@@ -3653,6 +3886,7 @@
 				"equalThreshold" : false,
 				"errorCalculationMethod" : "standard",
 				"estimator" : "default",
+				"exogenousCovariateConditional" : false,
 				"exogenousCovariateFixed" : true,
 				"exogenousLatentCorrelation" : true,
 				"factorScaling" : "factorLoading",
@@ -3660,8 +3894,16 @@
 				{
 					"columns" : [],
 					"model" : "",
-					"modelOriginal" : ""
+					"modelOriginal" : "",
+					"optionKey" : "value",
+					"prefixedColumns" : 
+					{
+						"data." : []
+					},
+					"types" : [],
+					"value" : []
 				},
+				"freeParameters.types" : [],
 				"group" : "",
 				"group.types" : "unknown",
 				"informationMatrix" : "expected",
@@ -3679,7 +3921,8 @@
 				"samplingWeights.types" : "unknown",
 				"scalingParameter" : true,
 				"standardizedVariable" : false,
-				"threshold" : true
+				"threshold" : true,
+				"userGaveSeed" : false
 			},
 			"optionMustContain" : {},
 			"order_increment" : 8,
@@ -3722,6 +3965,7 @@
 		"additionalFitMeasures" : true,
 		"alpha" : 0.050000000000000003,
 		"ave" : false,
+		"bootSeed" : 1,
 		"bootstrapCiType" : "percentileBiasCorrected",
 		"bootstrapSamples" : 1000,
 		"bootstrapSamplesBollenStine" : 1000,
@@ -3742,6 +3986,7 @@
 		"equalThreshold" : false,
 		"errorCalculationMethod" : "standard",
 		"estimator" : "default",
+		"exogenousCovariateConditional" : false,
 		"exogenousCovariateFixed" : true,
 		"exogenousLatentCorrelation" : true,
 		"factorScaling" : "factorLoading",
@@ -3749,8 +3994,16 @@
 		{
 			"columns" : [],
 			"model" : "",
-			"modelOriginal" : ""
+			"modelOriginal" : "",
+			"optionKey" : "value",
+			"prefixedColumns" : 
+			{
+				"data." : []
+			},
+			"types" : [],
+			"value" : []
 		},
+		"freeParameters.types" : [],
 		"group" : "",
 		"group.types" : "unknown",
 		"htmt" : false,
@@ -3774,21 +4027,68 @@
 				{
 					"columns" : 
 					[
-						"JaspColumn_9_Encoded",
-						"JaspColumn_10_Encoded",
-						"JaspColumn_11_Encoded",
-						"JaspColumn_1_Encoded",
-						"JaspColumn_2_Encoded",
 						"JaspColumn_3_Encoded",
-						"JaspColumn_4_Encoded",
-						"JaspColumn_5_Encoded",
 						"JaspColumn_6_Encoded",
-						"JaspColumn_7_Encoded",
-						"JaspColumn_8_Encoded"
+						"JaspColumn_9_Encoded",
+						"JaspColumn_12_Encoded",
+						"JaspColumn_15_Encoded",
+						"JaspColumn_18_Encoded",
+						"JaspColumn_21_Encoded",
+						"JaspColumn_24_Encoded",
+						"JaspColumn_27_Encoded",
+						"JaspColumn_30_Encoded",
+						"JaspColumn_33_Encoded"
 					],
-					"model" : "\n  ind60 =~ JaspColumn_9_Encoded + JaspColumn_10_Encoded + JaspColumn_11_Encoded\n  dem60 =~ JaspColumn_1_Encoded + JaspColumn_2_Encoded + JaspColumn_3_Encoded + JaspColumn_4_Encoded\n  dem65 =~ JaspColumn_5_Encoded + JaspColumn_6_Encoded + JaspColumn_7_Encoded + JaspColumn_8_Encoded\n\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n\n  JaspColumn_1_Encoded ~~ JaspColumn_5_Encoded\n  JaspColumn_2_Encoded ~~ JaspColumn_4_Encoded + JaspColumn_6_Encoded\n  JaspColumn_3_Encoded ~~ JaspColumn_7_Encoded\n  JaspColumn_4_Encoded ~~ JaspColumn_8_Encoded\n  JaspColumn_6_Encoded ~~ JaspColumn_8_Encoded",
-					"modelOriginal" : "# measurement model\n  ind60 =~ x1 + x2 + x3\n  dem60 =~ y1 + y2 + y3 + y4\n  dem65 =~ y5 + y6 + y7 + y8\n# regressions\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n# residual correlations\n  y1 ~~ y5\n  y2 ~~ y4 + y6\n  y3 ~~ y7\n  y4 ~~ y8\n  y6 ~~ y8"
-				}
+					"model" : "\n  ind60 =~ JaspColumn_3_Encoded + JaspColumn_6_Encoded + JaspColumn_9_Encoded\n  dem60 =~ JaspColumn_12_Encoded + JaspColumn_15_Encoded + JaspColumn_18_Encoded + JaspColumn_21_Encoded\n  dem65 =~ JaspColumn_24_Encoded + JaspColumn_27_Encoded + JaspColumn_30_Encoded + JaspColumn_33_Encoded\n\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n\n  JaspColumn_12_Encoded ~~ JaspColumn_24_Encoded\n  JaspColumn_15_Encoded ~~ JaspColumn_21_Encoded + JaspColumn_27_Encoded\n  JaspColumn_18_Encoded ~~ JaspColumn_30_Encoded\n  JaspColumn_21_Encoded ~~ JaspColumn_33_Encoded\n  JaspColumn_27_Encoded ~~ JaspColumn_33_Encoded",
+					"modelOriginal" : "# measurement model\n  ind60 =~ x1 + x2 + x3\n  dem60 =~ y1 + y2 + y3 + y4\n  dem65 =~ y5 + y6 + y7 + y8\n# regressions\n  dem60 ~ ind60\n  dem65 ~ ind60 + dem60\n# residual correlations\n  y1 ~~ y5\n  y2 ~~ y4 + y6\n  y3 ~~ y7\n  y4 ~~ y8\n  y6 ~~ y8",
+					"optionKey" : "value",
+					"prefixedColumns" : 
+					{
+						"data." : []
+					},
+					"types" : 
+					[
+						"scale",
+						"scale",
+						"scale",
+						"scale",
+						"scale",
+						"scale",
+						"scale",
+						"scale",
+						"scale",
+						"scale",
+						"scale"
+					],
+					"value" : 
+					[
+						"x1",
+						"x2",
+						"x3",
+						"y1",
+						"y2",
+						"y3",
+						"y4",
+						"y5",
+						"y6",
+						"y7",
+						"y8"
+					]
+				},
+				"syntax.types" : 
+				[
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale",
+					"scale"
+				]
 			}
 		],
 		"modificationIndex" : false,
@@ -3824,6 +4124,7 @@
 		"standardizedResidual" : false,
 		"standardizedVariable" : false,
 		"threshold" : true,
+		"userGaveSeed" : false,
 		"warnings" : false
 	},
 	"order_increment" : 1,

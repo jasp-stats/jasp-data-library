@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -210,7 +210,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_0_Encoded",
+							"JaspColumn_2_Encoded",
 							"Residuals"
 						],
 						[
@@ -293,7 +293,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"result.JaspColumn_0_Encoded",
+							"result.JaspColumn_2_Encoded",
 							"result.Residuals"
 						],
 						"title" : "rowNames",
@@ -329,7 +329,7 @@
 						"cases"
 					],
 					"status" : "complete",
-					"title" : "ANOVA - JaspColumn_1_Encoded",
+					"title" : "ANOVA - JaspColumn_3_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -373,7 +373,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"dependent" : "JaspColumn_1_Encoded",
+						"dependent" : "JaspColumn_3_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
@@ -493,7 +493,7 @@
 			{
 				"covariates" : null,
 				"customContrasts" : [],
-				"dependent" : "JaspColumn_1_Encoded",
+				"dependent" : "JaspColumn_3_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -503,7 +503,7 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_0_Encoded"
+							"JaspColumn_2_Encoded"
 						]
 					}
 				],
@@ -592,6 +592,10 @@
 			{
 				"shouldEncode" : true
 			},
+			"predictionsSavedToDataColumn" : 
+			{
+				"shouldEncode" : true
+			},
 			"rainCloudHorizontalAxis" : 
 			{
 				"shouldEncode" : true
@@ -601,6 +605,10 @@
 				"shouldEncode" : true
 			},
 			"randomFactors" : 
+			{
+				"shouldEncode" : true
+			},
+			"residualsSavedToDataColumn" : 
 			{
 				"shouldEncode" : true
 			},
@@ -642,7 +650,7 @@
 				"contrast" : "none",
 				"variable" : 
 				[
-					"JaspColumn_0_Encoded"
+					"JaspColumn_2_Encoded"
 				]
 			}
 		],
@@ -651,7 +659,7 @@
 			"nominal"
 		],
 		"customContrasts" : [],
-		"dependent" : "JaspColumn_1_Encoded",
+		"dependent" : "JaspColumn_3_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
@@ -676,7 +684,7 @@
 		"effectSizePartialOmegaSquared" : false,
 		"fixedFactors" : 
 		[
-			"JaspColumn_0_Encoded"
+			"JaspColumn_2_Encoded"
 		],
 		"fixedFactors.types" : 
 		[
@@ -703,7 +711,7 @@
 			{
 				"components" : 
 				[
-					"JaspColumn_0_Encoded"
+					"JaspColumn_2_Encoded"
 				]
 			}
 		],
@@ -740,6 +748,8 @@
 		"postHocTypeStandardBootstrap" : false,
 		"postHocTypeStandardBootstrapSamples" : 1000,
 		"postHocTypeStandardEffectSize" : false,
+		"predictionsSavedToData" : false,
+		"predictionsSavedToDataColumn" : "",
 		"qqPlot" : false,
 		"rainCloudHorizontalAxis" : "",
 		"rainCloudHorizontalAxis.types" : [],
@@ -749,6 +759,9 @@
 		"rainCloudYAxisLabel" : "",
 		"randomFactors" : [],
 		"randomFactors.types" : [],
+		"residualsSavedToData" : false,
+		"residualsSavedToDataColumn" : "",
+		"residualsSavedToDataType" : "raw",
 		"restrictedAvailableCoefficients" : false,
 		"restrictedBootstrap" : false,
 		"restrictedBootstrapCiLevel" : 0.94999999999999996,

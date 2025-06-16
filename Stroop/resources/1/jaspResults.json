@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -23,12 +23,12 @@
 				"dependent" : null,
 				"repeatedMeasuresCells" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_12_Encoded"
 				]
 			},
 			"optionMustContain" : {},
@@ -193,9 +193,9 @@
 			"data" : 
 			[
 				[
-					"JaspExtraOptions_0_Encoded",
-					"JaspExtraOptions_3_Encoded",
-					"JaspExtraOptions_0_Encoded\u2009\u273b\u2009JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_5_Encoded",
+					"JaspExtraOptions_1_Encoded",
+					"JaspExtraOptions_5_Encoded\u2009\u273b\u2009JaspExtraOptions_1_Encoded"
 				],
 				[
 					0.60000000000000009,
@@ -208,19 +208,19 @@
 					0.80000000000000004
 				],
 				[
-					0.94676486394706338,
-					0.52075990212119416,
-					0.072748794864026398
+					0.94815890694452565,
+					0.51838486070165857,
+					0.078190840636862033
 				],
 				[
-					0.053235136052936616,
-					0.47924009787880584,
-					0.92725120513597359
+					0.051841093055474352,
+					0.48161513929834143,
+					0.92180915936313801
 				],
 				[
-					11.856390774263662,
-					0.72442449957222066,
-					0.31382561472479681
+					12.193144486490862,
+					0.71756445953489778,
+					0.33929296467777659
 				]
 			],
 			"error" : false,
@@ -259,22 +259,22 @@
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_0_Encoded"
+							"JaspExtraOptions_5_Encoded"
 						],
 						"isNuisance" : false
 					},
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_3_Encoded"
+							"JaspExtraOptions_1_Encoded"
 						],
 						"isNuisance" : false
 					},
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_0_Encoded",
-							"JaspExtraOptions_3_Encoded"
+							"JaspExtraOptions_5_Encoded",
+							"JaspExtraOptions_1_Encoded"
 						],
 						"isNuisance" : false
 					}
@@ -292,31 +292,31 @@
 				"randomFactors" : null,
 				"repeatedMeasuresCells" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_12_Encoded"
 				],
 				"repeatedMeasuresFactors" : 
 				[
 					{
 						"levels" : 
 						[
-							"JaspExtraOptions_1_Encoded",
-							"JaspExtraOptions_2_Encoded"
+							"JaspExtraOptions_6_Encoded",
+							"JaspExtraOptions_0_Encoded"
 						],
-						"name" : "JaspExtraOptions_0_Encoded"
+						"name" : "JaspExtraOptions_5_Encoded"
 					},
 					{
 						"levels" : 
 						[
-							"JaspExtraOptions_4_Encoded",
-							"JaspExtraOptions_5_Encoded",
-							"JaspExtraOptions_6_Encoded"
+							"JaspExtraOptions_2_Encoded",
+							"JaspExtraOptions_3_Encoded",
+							"JaspExtraOptions_4_Encoded"
 						],
-						"name" : "JaspExtraOptions_3_Encoded"
+						"name" : "JaspExtraOptions_1_Encoded"
 					}
 				],
 				"samplesNumericAccuracy" : 10000,
@@ -537,11 +537,11 @@
 			"data" : 
 			[
 				[
-					"JaspExtraOptions_0_Encoded",
-					"JaspExtraOptions_0_Encoded + JaspExtraOptions_3_Encoded",
-					"JaspExtraOptions_0_Encoded + JaspExtraOptions_3_Encoded + JaspExtraOptions_0_Encoded\u2009\u273b\u2009JaspExtraOptions_3_Encoded",
+					"JaspExtraOptions_5_Encoded",
+					"JaspExtraOptions_5_Encoded + JaspExtraOptions_1_Encoded",
+					"JaspExtraOptions_5_Encoded + JaspExtraOptions_1_Encoded + JaspExtraOptions_5_Encoded\u2009\u273b\u2009JaspExtraOptions_1_Encoded",
 					"Null model (incl. subject)",
-					"JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_1_Encoded"
 				],
 				[
 					0.20000000000000001,
@@ -551,32 +551,32 @@
 					0.20000000000000001
 				],
 				[
-					0.44921688507756308,
-					0.42479918400547384,
-					0.072748794864026398,
-					0.030023212801242864,
-					0.023211923251693967
+					0.45271939455959914,
+					0.41724867174806451,
+					0.078190840636862033,
+					0.028895744738742297,
+					0.022945348316732075
 				],
 				[
-					3.262386757377798,
-					2.9540930554557225,
-					0.31382561472479675,
-					0.12381002596133596,
-					0.095054081040651717
+					3.3088648861970351,
+					2.8639912190311079,
+					0.33929296467777659,
+					0.11902221448290709,
+					0.093936806000368064
 				],
 				[
 					1.0,
-					0.94564384847672589,
-					0.16194581566422056,
-					0.066834559872029214,
-					0.051671974101521419
+					0.92164965045060598,
+					0.1727136976601705,
+					0.063827052885268576,
+					0.050683378252555505
 				],
 				[
 					"",
-					2.4317788668796805,
-					2.1184183966635466,
-					1.4863765581423838,
-					1.6320907869435068
+					3.3109722029825011,
+					10.412372545525276,
+					2.9956707580117894,
+					3.7695697448721637
 				]
 			],
 			"error" : false,
@@ -630,22 +630,22 @@
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_0_Encoded"
+							"JaspExtraOptions_5_Encoded"
 						],
 						"isNuisance" : false
 					},
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_3_Encoded"
+							"JaspExtraOptions_1_Encoded"
 						],
 						"isNuisance" : false
 					},
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_0_Encoded",
-							"JaspExtraOptions_3_Encoded"
+							"JaspExtraOptions_5_Encoded",
+							"JaspExtraOptions_1_Encoded"
 						],
 						"isNuisance" : false
 					}
@@ -665,31 +665,31 @@
 				"randomFactors" : null,
 				"repeatedMeasuresCells" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_12_Encoded"
 				],
 				"repeatedMeasuresFactors" : 
 				[
 					{
 						"levels" : 
 						[
-							"JaspExtraOptions_1_Encoded",
-							"JaspExtraOptions_2_Encoded"
+							"JaspExtraOptions_6_Encoded",
+							"JaspExtraOptions_0_Encoded"
 						],
-						"name" : "JaspExtraOptions_0_Encoded"
+						"name" : "JaspExtraOptions_5_Encoded"
 					},
 					{
 						"levels" : 
 						[
-							"JaspExtraOptions_4_Encoded",
-							"JaspExtraOptions_5_Encoded",
-							"JaspExtraOptions_6_Encoded"
+							"JaspExtraOptions_2_Encoded",
+							"JaspExtraOptions_3_Encoded",
+							"JaspExtraOptions_4_Encoded"
 						],
-						"name" : "JaspExtraOptions_3_Encoded"
+						"name" : "JaspExtraOptions_1_Encoded"
 					}
 				],
 				"samplesNumericAccuracy" : 10000,
@@ -781,12 +781,12 @@
 				"priorSpecificationMode" : "acrossParameters",
 				"repeatedMeasuresCells" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_12_Encoded"
 				],
 				"samplesNumericAccuracy" : 10000,
 				"samplingMethodNumericAccuracy" : "auto",
@@ -919,7 +919,7 @@
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_0_Encoded"
+					"JaspExtraOptions_5_Encoded"
 				],
 				"inclusionProbability" : 0.5,
 				"scaleFixedEffects" : 0.5
@@ -927,7 +927,7 @@
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_1_Encoded"
 				],
 				"inclusionProbability" : 0.5,
 				"scaleFixedEffects" : 0.5
@@ -935,8 +935,8 @@
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_0_Encoded",
-					"JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_5_Encoded",
+					"JaspExtraOptions_1_Encoded"
 				],
 				"inclusionProbability" : 0.5,
 				"scaleFixedEffects" : 0.5
@@ -977,22 +977,22 @@
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_0_Encoded"
+					"JaspExtraOptions_5_Encoded"
 				],
 				"isNuisance" : false
 			},
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_1_Encoded"
 				],
 				"isNuisance" : false
 			},
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_0_Encoded",
-					"JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_5_Encoded",
+					"JaspExtraOptions_1_Encoded"
 				],
 				"isNuisance" : false
 			}
@@ -1024,31 +1024,31 @@
 		"rainCloudYAxisLabel" : "",
 		"repeatedMeasuresCells" : 
 		[
-			"JaspColumn_0_Encoded",
-			"JaspColumn_1_Encoded",
-			"JaspColumn_2_Encoded",
 			"JaspColumn_3_Encoded",
-			"JaspColumn_4_Encoded",
-			"JaspColumn_5_Encoded"
+			"JaspColumn_9_Encoded",
+			"JaspColumn_15_Encoded",
+			"JaspColumn_0_Encoded",
+			"JaspColumn_6_Encoded",
+			"JaspColumn_12_Encoded"
 		],
 		"repeatedMeasuresFactors" : 
 		[
 			{
 				"levels" : 
 				[
-					"JaspExtraOptions_1_Encoded",
-					"JaspExtraOptions_2_Encoded"
+					"JaspExtraOptions_6_Encoded",
+					"JaspExtraOptions_0_Encoded"
 				],
-				"name" : "JaspExtraOptions_0_Encoded"
+				"name" : "JaspExtraOptions_5_Encoded"
 			},
 			{
 				"levels" : 
 				[
-					"JaspExtraOptions_4_Encoded",
-					"JaspExtraOptions_5_Encoded",
-					"JaspExtraOptions_6_Encoded"
+					"JaspExtraOptions_2_Encoded",
+					"JaspExtraOptions_3_Encoded",
+					"JaspExtraOptions_4_Encoded"
 				],
-				"name" : "JaspExtraOptions_3_Encoded"
+				"name" : "JaspExtraOptions_1_Encoded"
 			}
 		],
 		"rsqPlot" : false,
@@ -1069,20 +1069,20 @@
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_0_Encoded"
+					"JaspExtraOptions_5_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_1_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_0_Encoded",
-					"JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_5_Encoded",
+					"JaspExtraOptions_1_Encoded"
 				]
 			}
 		],

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -148,10 +148,10 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_30_Encoded",
-					"JaspColumn_14_Encoded",
-					"JaspColumn_29_Encoded",
-					"JaspColumn_14_Encoded\u2009\u273b\u2009JaspColumn_29_Encoded"
+					"JaspColumn_18_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_26_Encoded",
+					"JaspColumn_5_Encoded\u2009\u273b\u2009JaspColumn_26_Encoded"
 				],
 				[
 					1.0,
@@ -201,7 +201,7 @@
 					"cols" : null,
 					"rows" : null,
 					"symbol" : "<em>Note.</em>",
-					"text" : "The following variable is used as a random effects grouping factor: 'JaspColumn_11_Encoded'."
+					"text" : "The following variable is used as a random effects grouping factor: 'JaspColumn_23_Encoded'."
 				},
 				{
 					"cols" : null,
@@ -217,7 +217,7 @@
 			"optionMustBe" : 
 			{
 				"bootstrapSamples" : 500,
-				"dependent" : "JaspColumn_33_Encoded",
+				"dependent" : "JaspColumn_12_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -231,26 +231,26 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_29_Encoded"
+							"JaspColumn_26_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_30_Encoded"
+							"JaspColumn_18_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded",
-							"JaspColumn_29_Encoded"
+							"JaspColumn_5_Encoded",
+							"JaspColumn_26_Encoded"
 						]
 					}
 				],
@@ -266,9 +266,9 @@
 				],
 				"fixedVariables" : 
 				[
-					"JaspColumn_14_Encoded",
-					"JaspColumn_29_Encoded",
-					"JaspColumn_30_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_26_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"fixedVariables.types" : 
 				[
@@ -296,29 +296,29 @@
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded"
+									"JaspColumn_5_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_29_Encoded"
+									"JaspColumn_26_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_30_Encoded"
+									"JaspColumn_18_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded",
-									"JaspColumn_29_Encoded"
+									"JaspColumn_5_Encoded",
+									"JaspColumn_26_Encoded"
 								]
 							}
 						],
@@ -335,7 +335,7 @@
 						],
 						"value" : 
 						[
-							"JaspColumn_11_Encoded"
+							"JaspColumn_23_Encoded"
 						],
 						"value.types" : 
 						[
@@ -345,7 +345,7 @@
 				],
 				"randomVariables" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_23_Encoded"
 				],
 				"randomVariables.types" : 
 				[
@@ -423,7 +423,7 @@
 			"optionMustBe" : 
 			{
 				"bootstrapSamples" : 500,
-				"dependent" : "JaspColumn_33_Encoded",
+				"dependent" : "JaspColumn_12_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -437,26 +437,26 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_29_Encoded"
+							"JaspColumn_26_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_30_Encoded"
+							"JaspColumn_18_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded",
-							"JaspColumn_29_Encoded"
+							"JaspColumn_5_Encoded",
+							"JaspColumn_26_Encoded"
 						]
 					}
 				],
@@ -472,9 +472,9 @@
 				],
 				"fixedVariables" : 
 				[
-					"JaspColumn_14_Encoded",
-					"JaspColumn_29_Encoded",
-					"JaspColumn_30_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_26_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"fixedVariables.types" : 
 				[
@@ -496,13 +496,13 @@
 					{
 						"variable" : 
 						[
-							"JaspColumn_14_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"variable" : 
 						[
-							"JaspColumn_29_Encoded"
+							"JaspColumn_26_Encoded"
 						]
 					}
 				],
@@ -528,29 +528,29 @@
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded"
+									"JaspColumn_5_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_29_Encoded"
+									"JaspColumn_26_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_30_Encoded"
+									"JaspColumn_18_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded",
-									"JaspColumn_29_Encoded"
+									"JaspColumn_5_Encoded",
+									"JaspColumn_26_Encoded"
 								]
 							}
 						],
@@ -567,7 +567,7 @@
 						],
 						"value" : 
 						[
-							"JaspColumn_11_Encoded"
+							"JaspColumn_23_Encoded"
 						],
 						"value.types" : 
 						[
@@ -577,7 +577,7 @@
 				],
 				"randomVariables" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_23_Encoded"
 				],
 				"randomVariables.types" : 
 				[
@@ -657,8 +657,8 @@
 				"rows" : 
 				[
 					"number",
-					"JaspColumn_14_Encoded",
-					"JaspColumn_29_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_26_Encoded",
 					"estimate",
 					"se",
 					"lowerCI",
@@ -699,8 +699,8 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"JaspColumn_14_Encoded" : "JaspColumn_14_Encoded",
-					"JaspColumn_29_Encoded" : "JaspColumn_29_Encoded",
+					"JaspColumn_26_Encoded" : "JaspColumn_26_Encoded",
+					"JaspColumn_5_Encoded" : "JaspColumn_5_Encoded",
 					"estimate" : "Estimate",
 					"lowerCI" : "Lower",
 					"number" : "Row",
@@ -727,8 +727,8 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"JaspColumn_14_Encoded" : "string",
-					"JaspColumn_29_Encoded" : "string",
+					"JaspColumn_26_Encoded" : "string",
+					"JaspColumn_5_Encoded" : "string",
 					"estimate" : "number",
 					"lowerCI" : "number",
 					"number" : "integer",
@@ -827,7 +827,7 @@
 			"optionMustBe" : 
 			{
 				"bootstrapSamples" : 500,
-				"dependent" : "JaspColumn_33_Encoded",
+				"dependent" : "JaspColumn_12_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -841,26 +841,26 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_29_Encoded"
+							"JaspColumn_26_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_30_Encoded"
+							"JaspColumn_18_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded",
-							"JaspColumn_29_Encoded"
+							"JaspColumn_5_Encoded",
+							"JaspColumn_26_Encoded"
 						]
 					}
 				],
@@ -876,9 +876,9 @@
 				],
 				"fixedVariables" : 
 				[
-					"JaspColumn_14_Encoded",
-					"JaspColumn_29_Encoded",
-					"JaspColumn_30_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_26_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"fixedVariables.types" : 
 				[
@@ -900,13 +900,13 @@
 					{
 						"variable" : 
 						[
-							"JaspColumn_14_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"variable" : 
 						[
-							"JaspColumn_29_Encoded"
+							"JaspColumn_26_Encoded"
 						]
 					}
 				],
@@ -932,29 +932,29 @@
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded"
+									"JaspColumn_5_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_29_Encoded"
+									"JaspColumn_26_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_30_Encoded"
+									"JaspColumn_18_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded",
-									"JaspColumn_29_Encoded"
+									"JaspColumn_5_Encoded",
+									"JaspColumn_26_Encoded"
 								]
 							}
 						],
@@ -971,7 +971,7 @@
 						],
 						"value" : 
 						[
-							"JaspColumn_11_Encoded"
+							"JaspColumn_23_Encoded"
 						],
 						"value.types" : 
 						[
@@ -981,7 +981,7 @@
 				],
 				"randomVariables" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_23_Encoded"
 				],
 				"randomVariables.types" : 
 				[
@@ -1034,8 +1034,8 @@
 			"showSpecifiedColumnsOnly" : false,
 			"specifiedColumns" : 
 			[
-				"JaspColumn_14_Encoded",
-				"JaspColumn_29_Encoded",
+				"JaspColumn_26_Encoded",
+				"JaspColumn_5_Encoded",
 				"estimate",
 				"lowerCI",
 				"number",
@@ -1327,7 +1327,7 @@
 							"5",
 							"6"
 						],
-						"name" : "JaspColumn_1_Encoded",
+						"name" : "JaspColumn_5_Encoded",
 						"values" : 
 						[
 							"Morning",
@@ -1349,7 +1349,7 @@
 							"5",
 							"6"
 						],
-						"name" : "JaspColumn_6_Encoded",
+						"name" : "JaspColumn_26_Encoded",
 						"values" : 
 						[
 							"Morning",
@@ -1515,7 +1515,7 @@
 						]
 					}
 				],
-				"dependent" : "JaspColumn_33_Encoded",
+				"dependent" : "JaspColumn_12_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -1529,26 +1529,26 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_29_Encoded"
+							"JaspColumn_26_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_30_Encoded"
+							"JaspColumn_18_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded",
-							"JaspColumn_29_Encoded"
+							"JaspColumn_5_Encoded",
+							"JaspColumn_26_Encoded"
 						]
 					}
 				],
@@ -1564,9 +1564,9 @@
 				],
 				"fixedVariables" : 
 				[
-					"JaspColumn_14_Encoded",
-					"JaspColumn_29_Encoded",
-					"JaspColumn_30_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_26_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"fixedVariables.types" : 
 				[
@@ -1591,13 +1591,13 @@
 					{
 						"variable" : 
 						[
-							"JaspColumn_14_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"variable" : 
 						[
-							"JaspColumn_29_Encoded"
+							"JaspColumn_26_Encoded"
 						]
 					}
 				],
@@ -1623,29 +1623,29 @@
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded"
+									"JaspColumn_5_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_29_Encoded"
+									"JaspColumn_26_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_30_Encoded"
+									"JaspColumn_18_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded",
-									"JaspColumn_29_Encoded"
+									"JaspColumn_5_Encoded",
+									"JaspColumn_26_Encoded"
 								]
 							}
 						],
@@ -1662,7 +1662,7 @@
 						],
 						"value" : 
 						[
-							"JaspColumn_11_Encoded"
+							"JaspColumn_23_Encoded"
 						],
 						"value.types" : 
 						[
@@ -1672,7 +1672,7 @@
 				],
 				"randomVariables" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_23_Encoded"
 				],
 				"randomVariables.types" : 
 				[
@@ -1754,7 +1754,7 @@
 			"optionMustBe" : 
 			{
 				"bootstrapSamples" : 500,
-				"dependent" : "JaspColumn_33_Encoded",
+				"dependent" : "JaspColumn_12_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -1768,26 +1768,26 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_29_Encoded"
+							"JaspColumn_26_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_30_Encoded"
+							"JaspColumn_18_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded",
-							"JaspColumn_29_Encoded"
+							"JaspColumn_5_Encoded",
+							"JaspColumn_26_Encoded"
 						]
 					}
 				],
@@ -1803,9 +1803,9 @@
 				],
 				"fixedVariables" : 
 				[
-					"JaspColumn_14_Encoded",
-					"JaspColumn_29_Encoded",
-					"JaspColumn_30_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_26_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"fixedVariables.types" : 
 				[
@@ -1833,29 +1833,29 @@
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded"
+									"JaspColumn_5_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_29_Encoded"
+									"JaspColumn_26_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_30_Encoded"
+									"JaspColumn_18_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded",
-									"JaspColumn_29_Encoded"
+									"JaspColumn_5_Encoded",
+									"JaspColumn_26_Encoded"
 								]
 							}
 						],
@@ -1872,7 +1872,7 @@
 						],
 						"value" : 
 						[
-							"JaspColumn_11_Encoded"
+							"JaspColumn_23_Encoded"
 						],
 						"value.types" : 
 						[
@@ -1882,7 +1882,7 @@
 				],
 				"randomVariables" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_23_Encoded"
 				],
 				"randomVariables.types" : 
 				[
@@ -1929,7 +1929,7 @@
 							"Morning",
 							"Evening"
 						],
-						"title" : "JaspColumn_29_Encoded",
+						"title" : "JaspColumn_26_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleDiscrete"
@@ -1974,7 +1974,7 @@
 							40,
 							10
 						],
-						"title" : "JaspColumn_33_Encoded",
+						"title" : "JaspColumn_12_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleContinuous"
@@ -1984,7 +1984,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_0_t1732713490838.png",
+			"filePathPng" : "resources/1/_0_t1749724722615.png",
 			"height" : 350,
 			"messages" : [],
 			"name" : "plots",
@@ -1993,7 +1993,7 @@
 			"optionMustBe" : 
 			{
 				"bootstrapSamples" : 500,
-				"dependent" : "JaspColumn_33_Encoded",
+				"dependent" : "JaspColumn_12_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -2007,26 +2007,26 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_29_Encoded"
+							"JaspColumn_26_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_30_Encoded"
+							"JaspColumn_18_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_14_Encoded",
-							"JaspColumn_29_Encoded"
+							"JaspColumn_5_Encoded",
+							"JaspColumn_26_Encoded"
 						]
 					}
 				],
@@ -2042,9 +2042,9 @@
 				],
 				"fixedVariables" : 
 				[
-					"JaspColumn_14_Encoded",
-					"JaspColumn_29_Encoded",
-					"JaspColumn_30_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_26_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"fixedVariables.types" : 
 				[
@@ -2058,7 +2058,7 @@
 				"plotBackgroundColor" : "darkgrey",
 				"plotBackgroundData" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_23_Encoded"
 				],
 				"plotBackgroundData.types" : 
 				[
@@ -2074,7 +2074,7 @@
 					{
 						"variable" : 
 						[
-							"JaspColumn_29_Encoded"
+							"JaspColumn_26_Encoded"
 						]
 					}
 				],
@@ -2096,7 +2096,7 @@
 					{
 						"variable" : 
 						[
-							"JaspColumn_14_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					}
 				],
@@ -2125,29 +2125,29 @@
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded"
+									"JaspColumn_5_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_29_Encoded"
+									"JaspColumn_26_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_30_Encoded"
+									"JaspColumn_18_Encoded"
 								]
 							},
 							{
 								"randomSlopes" : false,
 								"value" : 
 								[
-									"JaspColumn_14_Encoded",
-									"JaspColumn_29_Encoded"
+									"JaspColumn_5_Encoded",
+									"JaspColumn_26_Encoded"
 								]
 							}
 						],
@@ -2164,7 +2164,7 @@
 						],
 						"value" : 
 						[
-							"JaspColumn_11_Encoded"
+							"JaspColumn_23_Encoded"
 						],
 						"value.types" : 
 						[
@@ -2174,7 +2174,7 @@
 				],
 				"randomVariables" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_23_Encoded"
 				],
 				"randomVariables.types" : 
 				[
@@ -2261,10 +2261,6 @@
 			},
 			"randomEffects" : 
 			{
-				"randomComponents" : 
-				{
-					"shouldEncode" : true
-				},
 				"shouldEncode" : true
 			},
 			"randomVariables" : 
@@ -2298,7 +2294,7 @@
 					"5",
 					"6"
 				],
-				"name" : "JaspColumn_1_Encoded",
+				"name" : "JaspColumn_5_Encoded",
 				"values" : 
 				[
 					"Morning",
@@ -2320,7 +2316,7 @@
 					"5",
 					"6"
 				],
-				"name" : "JaspColumn_6_Encoded",
+				"name" : "JaspColumn_26_Encoded",
 				"values" : 
 				[
 					"Morning",
@@ -2486,7 +2482,7 @@
 				]
 			}
 		],
-		"dependent" : "JaspColumn_33_Encoded",
+		"dependent" : "JaspColumn_12_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
@@ -2501,26 +2497,26 @@
 			{
 				"components" : 
 				[
-					"JaspColumn_14_Encoded"
+					"JaspColumn_5_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_29_Encoded"
+					"JaspColumn_26_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_30_Encoded"
+					"JaspColumn_18_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_14_Encoded",
-					"JaspColumn_29_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_26_Encoded"
 				]
 			}
 		],
@@ -2536,9 +2532,9 @@
 		],
 		"fixedVariables" : 
 		[
-			"JaspColumn_14_Encoded",
-			"JaspColumn_29_Encoded",
-			"JaspColumn_30_Encoded"
+			"JaspColumn_5_Encoded",
+			"JaspColumn_26_Encoded",
+			"JaspColumn_18_Encoded"
 		],
 		"fixedVariables.types" : 
 		[
@@ -2561,13 +2557,13 @@
 			{
 				"variable" : 
 				[
-					"JaspColumn_14_Encoded"
+					"JaspColumn_5_Encoded"
 				]
 			},
 			{
 				"variable" : 
 				[
-					"JaspColumn_29_Encoded"
+					"JaspColumn_26_Encoded"
 				]
 			}
 		],
@@ -2580,7 +2576,7 @@
 		"plotBackgroundColor" : "darkgrey",
 		"plotBackgroundData" : 
 		[
-			"JaspColumn_11_Encoded"
+			"JaspColumn_23_Encoded"
 		],
 		"plotBackgroundData.types" : 
 		[
@@ -2598,7 +2594,7 @@
 			{
 				"variable" : 
 				[
-					"JaspColumn_29_Encoded"
+					"JaspColumn_26_Encoded"
 				]
 			}
 		],
@@ -2620,7 +2616,7 @@
 			{
 				"variable" : 
 				[
-					"JaspColumn_14_Encoded"
+					"JaspColumn_5_Encoded"
 				]
 			}
 		],
@@ -2651,29 +2647,29 @@
 						"randomSlopes" : false,
 						"value" : 
 						[
-							"JaspColumn_14_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"randomSlopes" : false,
 						"value" : 
 						[
-							"JaspColumn_29_Encoded"
+							"JaspColumn_26_Encoded"
 						]
 					},
 					{
 						"randomSlopes" : false,
 						"value" : 
 						[
-							"JaspColumn_30_Encoded"
+							"JaspColumn_18_Encoded"
 						]
 					},
 					{
 						"randomSlopes" : false,
 						"value" : 
 						[
-							"JaspColumn_14_Encoded",
-							"JaspColumn_29_Encoded"
+							"JaspColumn_5_Encoded",
+							"JaspColumn_26_Encoded"
 						]
 					}
 				],
@@ -2690,7 +2686,7 @@
 				],
 				"value" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_23_Encoded"
 				],
 				"value.types" : 
 				[
@@ -2700,7 +2696,7 @@
 		],
 		"randomVariables" : 
 		[
-			"JaspColumn_11_Encoded"
+			"JaspColumn_23_Encoded"
 		],
 		"randomVariables.types" : 
 		[

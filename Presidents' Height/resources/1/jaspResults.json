@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -155,13 +155,13 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				[
 					"-"
 				],
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_3_Encoded"
 				],
 				[
 					0.39309236340185344
@@ -200,8 +200,8 @@
 				"supportCorrelationFlagged" : false,
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -228,7 +228,7 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_1_Encoded-JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded-JaspColumn_3_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -281,14 +281,17 @@
 			"optionMustBe" : 
 			{
 				"ciLevel" : 0.94999999999999996,
+				"kendall" : false,
 				"naAction" : "pairwise",
+				"pearson" : true,
 				"priorWidth" : "0.005",
 				"seed" : 1,
 				"setSeed" : false,
+				"spearman" : false,
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -324,7 +327,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_2_t1732712381255.png",
+							"filePathPng" : "resources/1/_2_t1749640387033.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "priorPosteriorPlot",
@@ -369,13 +372,13 @@
 					{
 						"pairs" : 
 						[
-							"JaspColumn_1_Encoded",
-							"JaspColumn_2_Encoded"
+							"JaspColumn_0_Encoded",
+							"JaspColumn_3_Encoded"
 						]
 					},
 					"order_increment" : 1,
 					"position" : 9999,
-					"title" : "JaspColumn_1_Encoded - JaspColumn_2_Encoded",
+					"title" : "JaspColumn_0_Encoded - JaspColumn_3_Encoded",
 					"type" : "container"
 				}
 			},
@@ -468,10 +471,6 @@
 	{
 		".meta" : 
 		{
-			"priorWidth" : 
-			{
-				"isRCode" : true
-			},
 			"variablePairs" : 
 			{
 				"shouldEncode" : true
@@ -491,6 +490,7 @@
 		"ci" : false,
 		"ciLevel" : 0.94999999999999996,
 		"kendall" : false,
+		"linearityTest" : false,
 		"matrixPlot" : false,
 		"matrixPlotDensity" : false,
 		"matrixPlotPosterior" : false,
@@ -515,8 +515,8 @@
 		"variablePairs" : 
 		[
 			[
-				"JaspColumn_1_Encoded",
-				"JaspColumn_2_Encoded"
+				"JaspColumn_0_Encoded",
+				"JaspColumn_3_Encoded"
 			]
 		],
 		"variablePairs.types" : 
@@ -528,8 +528,8 @@
 		],
 		"variables" : 
 		[
-			"JaspColumn_1_Encoded",
-			"JaspColumn_2_Encoded"
+			"JaspColumn_0_Encoded",
+			"JaspColumn_3_Encoded"
 		],
 		"variables.types" : 
 		[

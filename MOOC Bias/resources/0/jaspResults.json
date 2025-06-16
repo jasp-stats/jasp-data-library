@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -292,7 +292,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_1_Encoded" : true
+							"JaspColumn_8_Encoded" : true
 						},
 						"listType" : "bool",
 						"messages" : [],
@@ -350,7 +350,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_1_Encoded",
+							"JaspColumn_8_Encoded",
 							"type[counts]",
 							"type[row.proportions]",
 							"Yes[counts]",
@@ -371,10 +371,10 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"No[counts]" : "JaspColumn_0_Encoded",
-							"No[row.proportions]" : "JaspColumn_0_Encoded",
-							"Yes[counts]" : "JaspColumn_0_Encoded",
-							"Yes[row.proportions]" : "JaspColumn_0_Encoded"
+							"No[counts]" : "JaspColumn_2_Encoded",
+							"No[row.proportions]" : "JaspColumn_2_Encoded",
+							"Yes[counts]" : "JaspColumn_2_Encoded",
+							"Yes[row.proportions]" : "JaspColumn_2_Encoded"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -397,7 +397,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_1_Encoded" : "JaspColumn_1_Encoded",
+							"JaspColumn_8_Encoded" : "JaspColumn_8_Encoded",
 							"No[counts]" : "No",
 							"No[row.proportions]" : "No",
 							"Yes[counts]" : "Yes",
@@ -427,7 +427,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_1_Encoded" : "string",
+							"JaspColumn_8_Encoded" : "string",
 							"No[counts]" : "number",
 							"No[row.proportions]" : "number",
 							"Yes[counts]" : "number",
@@ -618,7 +618,7 @@
 					"showSpecifiedColumnsOnly" : true,
 					"specifiedColumns" : 
 					[
-						"JaspColumn_1_Encoded",
+						"JaspColumn_8_Encoded",
 						"No[counts]",
 						"No[row.proportions]",
 						"Yes[counts]",
@@ -703,7 +703,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"counts" : "JaspColumn_2_Encoded",
+				"counts" : "JaspColumn_4_Encoded",
 				"counts.types" : 
 				[
 					"scale"
@@ -712,8 +712,8 @@
 			},
 			"optionMustContain" : 
 			{
-				"columns" : "JaspColumn_0_Encoded",
-				"rows" : "JaspColumn_1_Encoded"
+				"columns" : "JaspColumn_2_Encoded",
+				"rows" : "JaspColumn_8_Encoded"
 			},
 			"order_increment" : 4,
 			"position" : 1,
@@ -763,14 +763,14 @@
 		"columnOrder" : "descending",
 		"columns" : 
 		[
-			"JaspColumn_0_Encoded"
+			"JaspColumn_2_Encoded"
 		],
 		"columns.types" : 
 		[
 			"nominal"
 		],
 		"contingencyCoefficient" : false,
-		"counts" : "JaspColumn_2_Encoded",
+		"counts" : "JaspColumn_4_Encoded",
 		"counts.types" : 
 		[
 			"scale"
@@ -802,7 +802,7 @@
 		"rowOrder" : "ascending",
 		"rows" : 
 		[
-			"JaspColumn_1_Encoded"
+			"JaspColumn_8_Encoded"
 		],
 		"rows.types" : 
 		[

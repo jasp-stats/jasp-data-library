@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -155,13 +155,13 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_3_Encoded"
 				],
 				[
 					"-"
 				],
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				[
 					-0.028638902775180084
@@ -208,8 +208,8 @@
 				"supportCorrelationFlagged" : false,
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_0_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -236,7 +236,7 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_1_Encoded-JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded-JaspColumn_3_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -289,14 +289,17 @@
 			"optionMustBe" : 
 			{
 				"ciLevel" : 0.94999999999999996,
+				"kendall" : false,
 				"naAction" : "pairwise",
+				"pearson" : true,
 				"priorWidth" : "1",
 				"seed" : 1,
 				"setSeed" : false,
+				"spearman" : false,
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_0_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -314,7 +317,7 @@
 			"citations" : [],
 			"data" : 
 			{
-				"Freshness-Box Office ($M)" : 
+				"Box Office ($M)-Freshness" : 
 				{
 					"citations" : [],
 					"data" : 
@@ -332,7 +335,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_3_t1732712273955.png",
+							"filePathPng" : "resources/0/_3_t1749640283513.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "bfRobustnessPlot",
@@ -466,7 +469,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_2_t1732712273746.png",
+							"filePathPng" : "resources/0/_2_t1749640283299.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "bfSequentialPlot",
@@ -505,7 +508,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1732712273351.png",
+							"filePathPng" : "resources/0/_1_t1749640282896.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "priorPosteriorPlot",
@@ -579,7 +582,7 @@
 											0.80000000000000004,
 											0.20000000000000001
 										],
-										"title" : "JaspColumn_1_Encoded",
+										"title" : "JaspColumn_3_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -624,7 +627,7 @@
 											200,
 											50
 										],
-										"title" : "JaspColumn_2_Encoded",
+										"title" : "JaspColumn_0_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -634,7 +637,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1732712273144.png",
+							"filePathPng" : "resources/0/_0_t1749640282714.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "scatterPlot",
@@ -668,7 +671,7 @@
 					"escapeHtml" : true,
 					"initCollapsed" : false,
 					"messages" : [],
-					"name" : "Freshness-Box Office ($M)",
+					"name" : "Box Office ($M)-Freshness",
 					"nestedOptionMustBe" : {},
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : {},
@@ -676,19 +679,19 @@
 					{
 						"pairs" : 
 						[
-							"JaspColumn_1_Encoded",
-							"JaspColumn_2_Encoded"
+							"JaspColumn_3_Encoded",
+							"JaspColumn_0_Encoded"
 						]
 					},
 					"order_increment" : 4,
 					"position" : 9999,
-					"title" : "JaspColumn_1_Encoded - JaspColumn_2_Encoded",
+					"title" : "JaspColumn_3_Encoded - JaspColumn_0_Encoded",
 					"type" : "container"
 				}
 			},
 			"data_order" : 
 			{
-				"Freshness-Box Office ($M)" : 0
+				"Box Office ($M)-Freshness" : 0
 			},
 			"error" : false,
 			"errorMessage" : "",
@@ -708,7 +711,7 @@
 			"title" : "Bayesian Correlation Pairwise Plots",
 			"type" : "container"
 		},
-		"posteriorLine-Freshness-Box Office ($M)" : 
+		"posteriorLine-Box Office ($M)-Freshness" : 
 		{
 			"citations" : [],
 			"environmentName" : "state_2",
@@ -716,7 +719,7 @@
 			"errorMessage" : "",
 			"escapeHtml" : true,
 			"messages" : [],
-			"name" : "posteriorLine-Freshness-Box Office ($M)",
+			"name" : "posteriorLine-Box Office ($M)-Freshness",
 			"nestedOptionMustBe" : {},
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
@@ -758,7 +761,7 @@
 		"corBayesTable" : 2,
 		"corModel" : 1,
 		"pairsPlotCollection" : 3,
-		"posteriorLine-Freshness-Box Office ($M)" : 4,
+		"posteriorLine-Box Office ($M)-Freshness" : 4,
 		"priorWidth" : 0
 	},
 	"error" : false,
@@ -775,10 +778,6 @@
 	{
 		".meta" : 
 		{
-			"priorWidth" : 
-			{
-				"isRCode" : true
-			},
 			"variablePairs" : 
 			{
 				"shouldEncode" : true
@@ -798,6 +797,7 @@
 		"ci" : false,
 		"ciLevel" : 0.94999999999999996,
 		"kendall" : false,
+		"linearityTest" : false,
 		"matrixPlot" : false,
 		"matrixPlotDensity" : false,
 		"matrixPlotPosterior" : false,
@@ -822,8 +822,8 @@
 		"variablePairs" : 
 		[
 			[
-				"JaspColumn_1_Encoded",
-				"JaspColumn_2_Encoded"
+				"JaspColumn_3_Encoded",
+				"JaspColumn_0_Encoded"
 			]
 		],
 		"variablePairs.types" : 
@@ -835,8 +835,8 @@
 		],
 		"variables" : 
 		[
-			"JaspColumn_1_Encoded",
-			"JaspColumn_2_Encoded"
+			"JaspColumn_3_Encoded",
+			"JaspColumn_0_Encoded"
 		],
 		"variables.types" : 
 		[

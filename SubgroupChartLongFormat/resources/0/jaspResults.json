@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -23,7 +23,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1732281123078.png",
+					"filePathPng" : "resources/0/_0_t1749642120461.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -458,7 +458,7 @@
 				"knownParametersSd" : 3.0,
 				"manualSubgroupSizeValue" : 5.0,
 				"manualTicks" : null,
-				"measurementLongFormat" : "JaspColumn_1_Encoded",
+				"measurementLongFormat" : "JaspColumn_0_Encoded",
 				"measurementLongFormat.types" : 
 				[
 					"scale"
@@ -472,17 +472,35 @@
 				"reportReportedBy" : null,
 				"reportSubtitle" : true,
 				"reportTitle" : true,
+				"rule1" : true,
+				"rule2" : true,
+				"rule2Value" : 7,
+				"rule3" : true,
+				"rule3Value" : 7,
+				"rule4" : true,
+				"rule4Value" : 2,
+				"rule5" : true,
+				"rule5Value" : 15,
+				"rule6" : true,
+				"rule6Value" : 8,
+				"rule7" : false,
+				"rule7Value" : 4,
+				"rule8" : false,
+				"rule8Value" : 14,
+				"rule9" : null,
+				"rule9Value" : null,
 				"stagesLongFormat" : "",
 				"stagesLongFormat.types" : [],
 				"stagesWideFormat" : "",
 				"stagesWideFormat.types" : [],
-				"subgroup" : "JaspColumn_0_Encoded",
+				"subgroup" : "JaspColumn_5_Encoded",
 				"subgroup.types" : 
 				[
 					"nominal"
 				],
 				"subgroupSizeType" : "groupingVariable",
 				"subgroupSizeUnequal" : "fixedSubgroupSize",
+				"testSet" : "jaspDefault",
 				"variables" : null,
 				"warningLimits" : true,
 				"xBarAndSUnbiasingConstant" : true
@@ -548,7 +566,7 @@
 		"knownParametersMean" : 0.0,
 		"knownParametersSd" : 3.0,
 		"manualSubgroupSizeValue" : 5.0,
-		"measurementLongFormat" : "JaspColumn_1_Encoded",
+		"measurementLongFormat" : "JaspColumn_0_Encoded",
 		"measurementLongFormat.types" : 
 		[
 			"scale"
@@ -577,17 +595,33 @@
 		"reportSubtitleText" : "",
 		"reportTitle" : true,
 		"reportTitleText" : "",
+		"rule1" : true,
+		"rule2" : true,
+		"rule2Value" : 7,
+		"rule3" : true,
+		"rule3Value" : 7,
+		"rule4" : true,
+		"rule4Value" : 2,
+		"rule5" : true,
+		"rule5Value" : 15,
+		"rule6" : true,
+		"rule6Value" : 8,
+		"rule7" : false,
+		"rule7Value" : 4,
+		"rule8" : false,
+		"rule8Value" : 14,
 		"stagesLongFormat" : "",
 		"stagesLongFormat.types" : [],
 		"stagesWideFormat" : "",
 		"stagesWideFormat.types" : [],
-		"subgroup" : "JaspColumn_0_Encoded",
+		"subgroup" : "JaspColumn_5_Encoded",
 		"subgroup.types" : 
 		[
 			"nominal"
 		],
 		"subgroupSizeType" : "groupingVariable",
 		"subgroupSizeUnequal" : "fixedSubgroupSize",
+		"testSet" : "jaspDefault",
 		"warningLimits" : true,
 		"xBarAndSUnbiasingConstant" : true
 	},

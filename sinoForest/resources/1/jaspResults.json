@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -126,7 +126,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1732274871283.png",
+					"filePathPng" : "resources/1/_0_t1749640711663.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "benfordsLawPlot",
@@ -235,8 +235,8 @@
 						[
 							"digit",
 							"count",
-							"exp",
 							"obs",
+							"exp",
 							"pval",
 							"bf"
 						],
@@ -342,17 +342,6 @@
 							38.0
 						],
 						[
-							0.3010299956639812,
-							0.17609125905568124,
-							0.12493873660829995,
-							0.09691001300805642,
-							0.079181246047624818,
-							0.066946789630613221,
-							0.057991946977686733,
-							0.051152522447381284,
-							0.045757490560675143
-						],
-						[
 							0.29922279792746115,
 							0.16062176165803108,
 							0.12564766839378239,
@@ -362,6 +351,17 @@
 							0.05181347150259067,
 							0.069948186528497408,
 							0.049222797927461141
+						],
+						[
+							0.3010299956639812,
+							0.17609125905568124,
+							0.12493873660829995,
+							0.09691001300805642,
+							0.079181246047624818,
+							0.066946789630613221,
+							0.057991946977686733,
+							0.051152522447381284,
+							0.045757490560675143
 						],
 						[
 							0.93748019437793539,
@@ -425,6 +425,7 @@
 					"optionMustBe" : 
 					{
 						"confidenceInterval" : false,
+						"expectedCounts" : false,
 						"summaryTable" : true
 					},
 					"optionMustContain" : {},
@@ -515,7 +516,8 @@
 						{
 							"bf" : "sf:4;dp:3",
 							"mad" : "sf:4;dp:3",
-							"pvalue" : "dp:3;p:.001"
+							"pvalue" : "dp:3;p:.001",
+							"value" : "sf:4;dp:3"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -619,7 +621,7 @@
 							"mad" : "number",
 							"pvalue" : "pvalue",
 							"test" : "string",
-							"value" : "string"
+							"value" : "number"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -636,7 +638,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_5_Encoded"
+							"JaspColumn_3_Encoded"
 						],
 						[
 							772.0
@@ -645,7 +647,7 @@
 							0.0065981352195086697
 						],
 						[
-							7.6520000000000001
+							7.6517426989499837
 						],
 						[
 							8.0
@@ -762,7 +764,7 @@
 						"confidence" : 0.94999999999999996,
 						"digits" : "first",
 						"distribution" : "benford",
-						"values" : "JaspColumn_5_Encoded",
+						"values" : "JaspColumn_3_Encoded",
 						"values.types" : 
 						[
 							"scale"
@@ -796,7 +798,7 @@
 				"confidence" : 0.94999999999999996,
 				"digits" : "first",
 				"distribution" : "benford",
-				"values" : "JaspColumn_5_Encoded",
+				"values" : "JaspColumn_3_Encoded",
 				"values.types" : 
 				[
 					"scale"
@@ -853,7 +855,7 @@
 				"digits" : "first",
 				"distribution" : "benford",
 				"explanatoryText" : true,
-				"values" : "JaspColumn_5_Encoded",
+				"values" : "JaspColumn_3_Encoded",
 				"values.types" : 
 				[
 					"scale"
@@ -881,8 +883,8 @@
 			"optionMustBe" : {},
 			"optionMustContain" : {},
 			"position" : 99,
-			"rawtext" : "Created by JASP for Audit (Version 0.19.2) on Nov 22 2024 at 12:27:51.",
-			"text" : "<p>Created by JASP for Audit (Version 0.19.2) on Nov 22 2024 at 12:27:51. </p>",
+			"rawtext" : "Created by JASP for Audit (Version 0.95) on Jun 11 2025 at 13:18:31.",
+			"text" : "<p>Created by JASP for Audit (Version 0.95) on Jun 11 2025 at 13:18:31. </p>",
 			"title" : "hide me",
 			"type" : "html"
 		},
@@ -1008,6 +1010,7 @@
 		"confidenceInterval" : false,
 		"digits" : "first",
 		"distribution" : "benford",
+		"expectedCounts" : false,
 		"explanatoryText" : true,
 		"match" : 1,
 		"matchTable" : false,
@@ -1016,7 +1019,7 @@
 		"robustnessPlot" : false,
 		"sequentialPlot" : false,
 		"summaryTable" : true,
-		"values" : "JaspColumn_5_Encoded",
+		"values" : "JaspColumn_3_Encoded",
 		"values.types" : 
 		[
 			"scale"

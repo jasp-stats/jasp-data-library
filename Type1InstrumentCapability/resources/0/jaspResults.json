@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -54,7 +54,7 @@
 							-3,
 							0.5
 						],
-						"title" : "JaspColumn_1_Encoded",
+						"title" : "JaspColumn_0_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleContinuous"
@@ -107,7 +107,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_1_t1732281137367.png",
+			"filePathPng" : "resources/0/_1_t1749642134682.png",
 			"height" : 400,
 			"messages" : [],
 			"name" : "biasHistogram",
@@ -226,7 +226,7 @@
 							-2.5,
 							0.5
 						],
-						"title" : "JaspColumn_1_Encoded",
+						"title" : "JaspColumn_0_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleContinuous"
@@ -236,7 +236,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1732281137010.png",
+			"filePathPng" : "resources/0/_0_t1749642134275.png",
 			"height" : 400,
 			"messages" : [],
 			"name" : "biasRun",
@@ -251,7 +251,7 @@
 			"resizedByUser" : false,
 			"revision" : 0,
 			"status" : "complete",
-			"title" : "Run chart of JaspColumn_1_Encoded",
+			"title" : "Run chart of JaspColumn_0_Encoded",
 			"type" : "plot",
 			"width" : 700
 		},
@@ -1063,7 +1063,7 @@
 		"histogramMeanCiLevel" : 0.94999999999999996,
 		"histogramMeanLine" : true,
 		"histogramReferenceValueLine" : true,
-		"measurement" : "JaspColumn_1_Encoded",
+		"measurement" : "JaspColumn_0_Encoded",
 		"measurement.types" : 
 		[
 			"scale"

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -121,7 +121,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_2_t1732712402128.png",
+							"filePathPng" : "resources/1/_2_t1749640408571.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "quantileResidualQqPlot",
@@ -152,7 +152,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"dependent" : "JaspColumn_3_Encoded",
+						"dependent" : "JaspColumn_6_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
@@ -166,7 +166,7 @@
 							{
 								"components" : 
 								[
-									"JaspColumn_0_Encoded"
+									"JaspColumn_3_Encoded"
 								],
 								"isNuisance" : false
 							}
@@ -182,10 +182,10 @@
 						"quantileResidualQqPlot" : true,
 						"seed" : 1,
 						"setSeed" : true,
-						"weights" : "JaspColumn_1_Encoded",
+						"weights" : "JaspColumn_9_Encoded",
 						"weights.types" : 
 						[
-							"nominal"
+							"scale"
 						]
 					},
 					"optionMustContain" : {},
@@ -305,7 +305,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1732712401446.png",
+							"filePathPng" : "resources/1/_0_t1749640407926.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "quantileResidualVsFittedPlot",
@@ -336,7 +336,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"dependent" : "JaspColumn_3_Encoded",
+						"dependent" : "JaspColumn_6_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
@@ -350,7 +350,7 @@
 							{
 								"components" : 
 								[
-									"JaspColumn_0_Encoded"
+									"JaspColumn_3_Encoded"
 								],
 								"isNuisance" : false
 							}
@@ -366,10 +366,10 @@
 						"quantileResidualVsFittedPlot" : true,
 						"seed" : 1,
 						"setSeed" : true,
-						"weights" : "JaspColumn_1_Encoded",
+						"weights" : "JaspColumn_9_Encoded",
 						"weights.types" : 
 						[
-							"nominal"
+							"scale"
 						]
 					},
 					"optionMustContain" : {},
@@ -491,7 +491,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_4_t1732712402449.png",
+							"filePathPng" : "resources/1/_4_t1749640408893.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "glmPlotZVsEta",
@@ -522,7 +522,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"dependent" : "JaspColumn_3_Encoded",
+						"dependent" : "JaspColumn_6_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
@@ -535,7 +535,7 @@
 							{
 								"components" : 
 								[
-									"JaspColumn_0_Encoded"
+									"JaspColumn_3_Encoded"
 								],
 								"isNuisance" : false
 							}
@@ -547,10 +547,10 @@
 						"offset" : "",
 						"offset.types" : [],
 						"otherGlmModel" : "multinomialLogistic",
-						"weights" : "JaspColumn_1_Encoded",
+						"weights" : "JaspColumn_9_Encoded",
 						"weights.types" : 
 						[
-							"nominal"
+							"scale"
 						],
 						"workingResponseVsLinearPredictorPlot" : true
 					},
@@ -723,7 +723,7 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"dependent" : "JaspColumn_3_Encoded",
+								"dependent" : "JaspColumn_6_Encoded",
 								"dependent.types" : 
 								[
 									"scale"
@@ -736,7 +736,7 @@
 									{
 										"components" : 
 										[
-											"JaspColumn_0_Encoded"
+											"JaspColumn_3_Encoded"
 										],
 										"isNuisance" : false
 									}
@@ -752,10 +752,10 @@
 								"quantileResidualOutlierTableTopN" : 3,
 								"seed" : 1,
 								"setSeed" : true,
-								"weights" : "JaspColumn_1_Encoded",
+								"weights" : "JaspColumn_9_Encoded",
 								"weights.types" : 
 								[
-									"nominal"
+									"scale"
 								]
 							},
 							"optionMustContain" : {},
@@ -825,7 +825,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"dependent" : "JaspColumn_3_Encoded",
+						"dependent" : "JaspColumn_6_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
@@ -838,7 +838,7 @@
 							{
 								"components" : 
 								[
-									"JaspColumn_0_Encoded"
+									"JaspColumn_3_Encoded"
 								],
 								"isNuisance" : false
 							}
@@ -852,10 +852,10 @@
 						"otherGlmModel" : "multinomialLogistic",
 						"seed" : 1,
 						"setSeed" : true,
-						"weights" : "JaspColumn_1_Encoded",
+						"weights" : "JaspColumn_9_Encoded",
 						"weights.types" : 
 						[
-							"nominal"
+							"scale"
 						]
 					},
 					"optionMustContain" : {},
@@ -918,7 +918,7 @@
 											5000,
 											1000
 										],
-										"title" : "JaspColumn_0_Encoded",
+										"title" : "JaspColumn_3_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -967,7 +967,7 @@
 											2,
 											1
 										],
-										"title" : "Partial residual for JaspColumn_0_Encoded",
+										"title" : "Partial residual for JaspColumn_3_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -977,7 +977,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_3_t1732712402325.png",
+							"filePathPng" : "resources/1/_3_t1749640408684.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Hours",
@@ -989,7 +989,7 @@
 							"resizedByUser" : false,
 							"revision" : 0,
 							"status" : "complete",
-							"title" : "Partial residual plot for JaspColumn_0_Encoded",
+							"title" : "Partial residual plot for JaspColumn_3_Encoded",
 							"type" : "plot",
 							"width" : 320
 						}
@@ -1008,7 +1008,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"dependent" : "JaspColumn_3_Encoded",
+						"dependent" : "JaspColumn_6_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
@@ -1021,7 +1021,7 @@
 							{
 								"components" : 
 								[
-									"JaspColumn_0_Encoded"
+									"JaspColumn_3_Encoded"
 								],
 								"isNuisance" : false
 							}
@@ -1034,10 +1034,10 @@
 						"offset.types" : [],
 						"otherGlmModel" : "multinomialLogistic",
 						"partialResidualPlot" : true,
-						"weights" : "JaspColumn_1_Encoded",
+						"weights" : "JaspColumn_9_Encoded",
 						"weights.types" : 
 						[
-							"nominal"
+							"scale"
 						]
 					},
 					"optionMustContain" : {},
@@ -1100,7 +1100,7 @@
 											5000,
 											1000
 										],
-										"title" : "JaspColumn_0_Encoded",
+										"title" : "JaspColumn_3_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -1157,7 +1157,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_1_t1732712401941.png",
+							"filePathPng" : "resources/1/_1_t1749640408390.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Hours",
@@ -1169,7 +1169,7 @@
 							"resizedByUser" : false,
 							"revision" : 0,
 							"status" : "complete",
-							"title" : "Standardized quantile residuals vs. JaspColumn_0_Encoded",
+							"title" : "Standardized quantile residuals vs. JaspColumn_3_Encoded",
 							"type" : "plot",
 							"width" : 320
 						}
@@ -1188,7 +1188,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"dependent" : "JaspColumn_3_Encoded",
+						"dependent" : "JaspColumn_6_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
@@ -1201,7 +1201,7 @@
 							{
 								"components" : 
 								[
-									"JaspColumn_0_Encoded"
+									"JaspColumn_3_Encoded"
 								],
 								"isNuisance" : false
 							}
@@ -1216,10 +1216,10 @@
 						"quantileResidualVsPredictorPlot" : true,
 						"seed" : 1,
 						"setSeed" : true,
-						"weights" : "JaspColumn_1_Encoded",
+						"weights" : "JaspColumn_9_Encoded",
 						"weights.types" : 
 						[
-							"nominal"
+							"scale"
 						]
 					},
 					"optionMustContain" : {},
@@ -1434,7 +1434,7 @@
 			[
 				[
 					"(Intercept)",
-					"JaspColumn_0_Encoded"
+					"JaspColumn_3_Encoded"
 				],
 				[
 					-3.9235965550609655,
@@ -1476,7 +1476,7 @@
 				"coefficientCi" : true,
 				"coefficientCiLevel" : 0.94999999999999996,
 				"coefficientEstimate" : true,
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_6_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -1489,7 +1489,7 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_0_Encoded"
+							"JaspColumn_3_Encoded"
 						],
 						"isNuisance" : false
 					}
@@ -1501,10 +1501,10 @@
 				"offset" : "",
 				"offset.types" : [],
 				"otherGlmModel" : "multinomialLogistic",
-				"weights" : "JaspColumn_1_Encoded",
+				"weights" : "JaspColumn_9_Encoded",
 				"weights.types" : 
 				[
-					"nominal"
+					"scale"
 				]
 			},
 			"optionMustContain" : {},
@@ -1527,7 +1527,7 @@
 				"rows" : 
 				[
 					"(Intercept)",
-					"JaspColumn_0_Encoded"
+					"JaspColumn_3_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -1581,7 +1581,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_6_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -1594,7 +1594,7 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_0_Encoded"
+							"JaspColumn_3_Encoded"
 						],
 						"isNuisance" : false
 					}
@@ -1606,10 +1606,10 @@
 				"offset" : "",
 				"offset.types" : [],
 				"otherGlmModel" : "multinomialLogistic",
-				"weights" : "JaspColumn_1_Encoded",
+				"weights" : "JaspColumn_9_Encoded",
 				"weights.types" : 
 				[
-					"nominal"
+					"scale"
 				]
 			},
 			"optionMustContain" : {},
@@ -1788,7 +1788,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_6_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -1802,7 +1802,7 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_0_Encoded"
+							"JaspColumn_3_Encoded"
 						],
 						"isNuisance" : false
 					}
@@ -1815,10 +1815,10 @@
 				"offset.types" : [],
 				"otherGlmModel" : "multinomialLogistic",
 				"pearsonGoodnessOfFit" : true,
-				"weights" : "JaspColumn_1_Encoded",
+				"weights" : "JaspColumn_9_Encoded",
 				"weights.types" : 
 				[
-					"nominal"
+					"scale"
 				]
 			},
 			"optionMustContain" : {},
@@ -2070,7 +2070,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_6_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -2083,7 +2083,7 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_0_Encoded"
+							"JaspColumn_3_Encoded"
 						],
 						"isNuisance" : false
 					}
@@ -2095,10 +2095,10 @@
 				"offset" : "",
 				"offset.types" : [],
 				"otherGlmModel" : "multinomialLogistic",
-				"weights" : "JaspColumn_1_Encoded",
+				"weights" : "JaspColumn_9_Encoded",
 				"weights.types" : 
 				[
-					"nominal"
+					"scale"
 				]
 			},
 			"optionMustContain" : {},
@@ -2153,7 +2153,7 @@
 				"pvl"
 			],
 			"status" : "complete",
-			"title" : "Model Summary - JaspColumn_3_Encoded",
+			"title" : "Model Summary - JaspColumn_6_Encoded",
 			"transposeTable" : false,
 			"transposeWithOvertitle" : false,
 			"type" : "table"
@@ -2210,6 +2210,10 @@
 			{
 				"shouldEncode" : true
 			},
+			"predictionsSavedToDataColumn" : 
+			{
+				"shouldEncode" : true
+			},
 			"residualsSavedToDataColumn" : 
 			{
 				"shouldEncode" : true
@@ -2226,13 +2230,13 @@
 		"covarianceRatio" : true,
 		"covariates" : 
 		[
-			"JaspColumn_0_Encoded"
+			"JaspColumn_3_Encoded"
 		],
 		"covariates.types" : 
 		[
 			"scale"
 		],
-		"dependent" : "JaspColumn_3_Encoded",
+		"dependent" : "JaspColumn_6_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
@@ -2265,7 +2269,7 @@
 			{
 				"components" : 
 				[
-					"JaspColumn_0_Encoded"
+					"JaspColumn_3_Encoded"
 				],
 				"isNuisance" : false
 			}
@@ -2284,6 +2288,8 @@
 		"pearsonResidualVsPredictorPlot" : false,
 		"plotHeight" : 320,
 		"plotWidth" : 480,
+		"predictionsSavedToData" : false,
+		"predictionsSavedToDataColumn" : "",
 		"quantileResidualOutlierTable" : true,
 		"quantileResidualOutlierTableTopN" : 3,
 		"quantileResidualQqPlot" : true,
@@ -2304,10 +2310,10 @@
 		"studentizedResidualOutlierTableTopN" : 3,
 		"tolerance" : false,
 		"vif" : false,
-		"weights" : "JaspColumn_1_Encoded",
+		"weights" : "JaspColumn_9_Encoded",
 		"weights.types" : 
 		[
-			"nominal"
+			"scale"
 		],
 		"workingResponseVsLinearPredictorPlot" : true
 	},

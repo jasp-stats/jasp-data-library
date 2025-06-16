@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -225,9 +225,9 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_1_Encoded",
+							"JaspColumn_8_Encoded",
 							"JaspColumn_2_Encoded",
-							"JaspColumn_1_Encoded \u273b JaspColumn_2_Encoded",
+							"JaspColumn_8_Encoded \u273b JaspColumn_2_Encoded",
 							"Residuals"
 						],
 						[
@@ -396,9 +396,9 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"result.JaspColumn_1_Encoded",
+							"result.JaspColumn_8_Encoded",
 							"result.JaspColumn_2_Encoded",
-							"result.JaspColumn_1_Encoded:JaspColumn_2_Encoded",
+							"result.JaspColumn_8_Encoded:JaspColumn_2_Encoded",
 							"result.Residuals"
 						],
 						"title" : "rowNames",
@@ -435,7 +435,7 @@
 						"eta"
 					],
 					"status" : "complete",
-					"title" : "ANOVA - JaspColumn_0_Encoded",
+					"title" : "ANOVA - JaspColumn_3_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -772,7 +772,7 @@
 													30,
 													5
 												],
-												"title" : "JaspColumn_0_Encoded",
+												"title" : "JaspColumn_3_Encoded",
 												"titleType" : "character"
 											},
 											"type" : "ScaleContinuous"
@@ -782,7 +782,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_0_t1732273693108.png",
+									"filePathPng" : "resources/0/_0_t1749640242843.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "",
@@ -813,7 +813,7 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"dependent" : "JaspColumn_0_Encoded",
+								"dependent" : "JaspColumn_3_Encoded",
 								"dependent.types" : 
 								[
 									"scale"
@@ -827,7 +827,7 @@
 								[
 									"nominal"
 								],
-								"descriptivePlotSeparateLines" : "JaspColumn_1_Encoded",
+								"descriptivePlotSeparateLines" : "JaspColumn_8_Encoded",
 								"descriptivePlotSeparateLines.types" : 
 								[
 									"nominal"
@@ -854,8 +854,8 @@
 								"escapeHtml" : true,
 								"fields" : 
 								{
-									"JaspColumn_1_Encoded." : true,
-									"JaspColumn_2_Encoded." : true
+									"JaspColumn_2_Encoded." : true,
+									"JaspColumn_8_Encoded." : true
 								},
 								"listType" : "bool",
 								"messages" : [],
@@ -911,7 +911,7 @@
 								"position" : 9999,
 								"rows" : 
 								[
-									"JaspColumn_1_Encoded.",
+									"JaspColumn_8_Encoded.",
 									"JaspColumn_2_Encoded.",
 									"N",
 									"Mean",
@@ -952,8 +952,8 @@
 								"escapeHtml" : true,
 								"fields" : 
 								{
-									"JaspColumn_1_Encoded." : "JaspColumn_1_Encoded",
 									"JaspColumn_2_Encoded." : "JaspColumn_2_Encoded",
+									"JaspColumn_8_Encoded." : "JaspColumn_8_Encoded",
 									"Mean" : "Mean",
 									"N" : "N",
 									"SD" : "SD",
@@ -980,8 +980,8 @@
 								"escapeHtml" : true,
 								"fields" : 
 								{
-									"JaspColumn_1_Encoded." : "string",
 									"JaspColumn_2_Encoded." : "string",
+									"JaspColumn_8_Encoded." : "string",
 									"Mean" : "number",
 									"N" : "integer",
 									"SD" : "number",
@@ -1089,7 +1089,7 @@
 							{
 								"betweenSubjectFactors" : null,
 								"credibleInterval" : null,
-								"dependent" : "JaspColumn_0_Encoded",
+								"dependent" : "JaspColumn_3_Encoded",
 								"dependent.types" : 
 								[
 									"scale"
@@ -1097,7 +1097,7 @@
 								"descriptives" : true,
 								"fixedFactors" : 
 								[
-									"JaspColumn_1_Encoded",
+									"JaspColumn_8_Encoded",
 									"JaspColumn_2_Encoded"
 								],
 								"fixedFactors.types" : 
@@ -1157,8 +1157,8 @@
 							"showSpecifiedColumnsOnly" : true,
 							"specifiedColumns" : 
 							[
-								"JaspColumn_1_Encoded.",
 								"JaspColumn_2_Encoded.",
+								"JaspColumn_8_Encoded.",
 								"Mean",
 								"N",
 								"SD",
@@ -1166,7 +1166,7 @@
 								"coefOfVariation"
 							],
 							"status" : "complete",
-							"title" : "Descriptives - JaspColumn_0_Encoded",
+							"title" : "Descriptives - JaspColumn_3_Encoded",
 							"transposeTable" : false,
 							"transposeWithOvertitle" : false,
 							"type" : "table"
@@ -1187,7 +1187,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"dependent" : "JaspColumn_0_Encoded",
+						"dependent" : "JaspColumn_3_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
@@ -1551,7 +1551,7 @@
 											"cols" : null,
 											"rows" : null,
 											"symbol" : "<em>Note.</em>",
-											"text" : "Results are averaged over the levels of: JaspColumn_1_Encoded"
+											"text" : "Results are averaged over the levels of: JaspColumn_8_Encoded"
 										}
 									],
 									"messages" : [],
@@ -1905,7 +1905,7 @@
 										"tukey"
 									],
 									"status" : "complete",
-									"title" : "Post Hoc Comparisons - JaspColumn_1_Encoded",
+									"title" : "Post Hoc Comparisons - JaspColumn_8_Encoded",
 									"transposeTable" : false,
 									"transposeWithOvertitle" : false,
 									"type" : "table"
@@ -1942,7 +1942,7 @@
 									{
 										"variable" : 
 										[
-											"JaspColumn_1_Encoded"
+											"JaspColumn_8_Encoded"
 										]
 									},
 									{
@@ -1988,7 +1988,7 @@
 							{
 								"variable" : 
 								[
-									"JaspColumn_1_Encoded"
+									"JaspColumn_8_Encoded"
 								]
 							},
 							{
@@ -2266,9 +2266,9 @@
 									false
 								],
 								[
-									"JaspColumn_1_Encoded",
-									"JaspColumn_1_Encoded",
-									"JaspColumn_1_Encoded"
+									"JaspColumn_8_Encoded",
+									"JaspColumn_8_Encoded",
+									"JaspColumn_8_Encoded"
 								],
 								[
 									"None",
@@ -2366,9 +2366,9 @@
 								"position" : 9999,
 								"rows" : 
 								[
-									"JaspColumn_1_Encoded",
-									"JaspColumn_1_Encoded1",
-									"JaspColumn_1_Encoded2"
+									"JaspColumn_8_Encoded",
+									"JaspColumn_8_Encoded1",
+									"JaspColumn_8_Encoded2"
 								],
 								"title" : "rowNames",
 								"type" : "list"
@@ -2403,7 +2403,7 @@
 								"modOne"
 							],
 							"status" : "complete",
-							"title" : "Simple Main Effects - JaspColumn_1_Encoded",
+							"title" : "Simple Main Effects - JaspColumn_8_Encoded",
 							"transposeTable" : false,
 							"transposeWithOvertitle" : false,
 							"type" : "table"
@@ -2425,7 +2425,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"simpleMainEffectFactor" : "JaspColumn_1_Encoded",
+						"simpleMainEffectFactor" : "JaspColumn_8_Encoded",
 						"simpleMainEffectFactor.types" : 
 						[
 							"nominal"
@@ -2469,7 +2469,7 @@
 			{
 				"covariates" : null,
 				"customContrasts" : [],
-				"dependent" : "JaspColumn_0_Encoded",
+				"dependent" : "JaspColumn_3_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -2479,7 +2479,7 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_1_Encoded"
+							"JaspColumn_8_Encoded"
 						]
 					},
 					{
@@ -2491,7 +2491,7 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_1_Encoded",
+							"JaspColumn_8_Encoded",
 							"JaspColumn_2_Encoded"
 						]
 					}
@@ -2501,8 +2501,8 @@
 					"nominal",
 					"nominal",
 					[
-						"unknown",
-						"unknown"
+						"nominal",
+						"nominal"
 					]
 				],
 				"sumOfSquares" : "type3",
@@ -2586,6 +2586,10 @@
 			{
 				"shouldEncode" : true
 			},
+			"predictionsSavedToDataColumn" : 
+			{
+				"shouldEncode" : true
+			},
 			"rainCloudHorizontalAxis" : 
 			{
 				"shouldEncode" : true
@@ -2595,6 +2599,10 @@
 				"shouldEncode" : true
 			},
 			"randomFactors" : 
+			{
+				"shouldEncode" : true
+			},
+			"residualsSavedToDataColumn" : 
 			{
 				"shouldEncode" : true
 			},
@@ -2636,7 +2644,7 @@
 				"contrast" : "none",
 				"variable" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_8_Encoded"
 				]
 			},
 			{
@@ -2653,7 +2661,7 @@
 			"nominal"
 		],
 		"customContrasts" : [],
-		"dependent" : "JaspColumn_0_Encoded",
+		"dependent" : "JaspColumn_3_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
@@ -2666,7 +2674,7 @@
 		[
 			"nominal"
 		],
-		"descriptivePlotSeparateLines" : "JaspColumn_1_Encoded",
+		"descriptivePlotSeparateLines" : "JaspColumn_8_Encoded",
 		"descriptivePlotSeparateLines.types" : 
 		[
 			"nominal"
@@ -2684,7 +2692,7 @@
 		"effectSizePartialOmegaSquared" : false,
 		"fixedFactors" : 
 		[
-			"JaspColumn_1_Encoded",
+			"JaspColumn_8_Encoded",
 			"JaspColumn_2_Encoded"
 		],
 		"fixedFactors.types" : 
@@ -2713,7 +2721,7 @@
 			{
 				"components" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_8_Encoded"
 				]
 			},
 			{
@@ -2725,7 +2733,7 @@
 			{
 				"components" : 
 				[
-					"JaspColumn_1_Encoded",
+					"JaspColumn_8_Encoded",
 					"JaspColumn_2_Encoded"
 				]
 			}
@@ -2735,8 +2743,8 @@
 			"nominal",
 			"nominal",
 			[
-				"unknown",
-				"unknown"
+				"nominal",
+				"nominal"
 			]
 		],
 		"normalizeErrorBarsDescriptives" : true,
@@ -2764,7 +2772,7 @@
 			{
 				"variable" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_8_Encoded"
 				]
 			},
 			{
@@ -2786,6 +2794,8 @@
 		"postHocTypeStandardBootstrap" : false,
 		"postHocTypeStandardBootstrapSamples" : 1000,
 		"postHocTypeStandardEffectSize" : false,
+		"predictionsSavedToData" : false,
+		"predictionsSavedToDataColumn" : "",
 		"qqPlot" : false,
 		"rainCloudHorizontalAxis" : "",
 		"rainCloudHorizontalAxis.types" : [],
@@ -2795,6 +2805,9 @@
 		"rainCloudYAxisLabel" : "",
 		"randomFactors" : [],
 		"randomFactors.types" : [],
+		"residualsSavedToData" : false,
+		"residualsSavedToDataColumn" : "",
+		"residualsSavedToDataType" : "raw",
 		"restrictedAvailableCoefficients" : false,
 		"restrictedBootstrap" : false,
 		"restrictedBootstrapCiLevel" : 0.94999999999999996,
@@ -2825,7 +2838,7 @@
 				"syntax" : ""
 			}
 		],
-		"simpleMainEffectFactor" : "JaspColumn_1_Encoded",
+		"simpleMainEffectFactor" : "JaspColumn_8_Encoded",
 		"simpleMainEffectFactor.types" : 
 		[
 			"nominal"

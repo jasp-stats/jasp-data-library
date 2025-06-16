@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -42,15 +42,15 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"JaspColumn_11_Encoded" : "sf:4;dp:3",
-					"JaspColumn_14_Encoded" : "sf:4;dp:3",
-					"JaspColumn_17_Encoded" : "sf:4;dp:3",
-					"JaspColumn_20_Encoded" : "sf:4;dp:3",
-					"JaspColumn_23_Encoded" : "sf:4;dp:3",
-					"JaspColumn_26_Encoded" : "sf:4;dp:3",
-					"JaspColumn_2_Encoded" : "sf:4;dp:3",
-					"JaspColumn_5_Encoded" : "sf:4;dp:3",
-					"JaspColumn_8_Encoded" : "sf:4;dp:3"
+					"JaspColumn_0_Encoded" : "sf:4;dp:3",
+					"JaspColumn_12_Encoded" : "sf:4;dp:3",
+					"JaspColumn_15_Encoded" : "sf:4;dp:3",
+					"JaspColumn_18_Encoded" : "sf:4;dp:3",
+					"JaspColumn_21_Encoded" : "sf:4;dp:3",
+					"JaspColumn_24_Encoded" : "sf:4;dp:3",
+					"JaspColumn_3_Encoded" : "sf:4;dp:3",
+					"JaspColumn_6_Encoded" : "sf:4;dp:3",
+					"JaspColumn_9_Encoded" : "sf:4;dp:3"
 				},
 				"listType" : "string",
 				"messages" : [],
@@ -83,15 +83,15 @@
 				[
 					"variable",
 					"itemColumn",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_5_Encoded",
-					"JaspColumn_8_Encoded",
-					"JaspColumn_11_Encoded",
-					"JaspColumn_14_Encoded",
-					"JaspColumn_17_Encoded",
-					"JaspColumn_20_Encoded",
-					"JaspColumn_23_Encoded",
-					"JaspColumn_26_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_24_Encoded",
+					"JaspColumn_9_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_15_Encoded",
 					".isNewGroup"
 				],
 				"title" : "colNames",
@@ -125,15 +125,15 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"JaspColumn_11_Encoded" : "JaspColumn_11_Encoded",
-					"JaspColumn_14_Encoded" : "JaspColumn_14_Encoded",
-					"JaspColumn_17_Encoded" : "JaspColumn_17_Encoded",
-					"JaspColumn_20_Encoded" : "JaspColumn_20_Encoded",
-					"JaspColumn_23_Encoded" : "JaspColumn_23_Encoded",
-					"JaspColumn_26_Encoded" : "JaspColumn_26_Encoded",
-					"JaspColumn_2_Encoded" : "JaspColumn_2_Encoded",
-					"JaspColumn_5_Encoded" : "JaspColumn_5_Encoded",
-					"JaspColumn_8_Encoded" : "JaspColumn_8_Encoded",
+					"JaspColumn_0_Encoded" : "JaspColumn_0_Encoded",
+					"JaspColumn_12_Encoded" : "JaspColumn_12_Encoded",
+					"JaspColumn_15_Encoded" : "JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded" : "JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded" : "JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded" : "JaspColumn_24_Encoded",
+					"JaspColumn_3_Encoded" : "JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded" : "JaspColumn_6_Encoded",
+					"JaspColumn_9_Encoded" : "JaspColumn_9_Encoded",
 					"itemColumn" : "",
 					"variable" : "Variable"
 				},
@@ -157,15 +157,15 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"JaspColumn_11_Encoded" : "number",
-					"JaspColumn_14_Encoded" : "number",
-					"JaspColumn_17_Encoded" : "number",
-					"JaspColumn_20_Encoded" : "number",
-					"JaspColumn_23_Encoded" : "number",
-					"JaspColumn_26_Encoded" : "number",
-					"JaspColumn_2_Encoded" : "number",
-					"JaspColumn_5_Encoded" : "number",
-					"JaspColumn_8_Encoded" : "number",
+					"JaspColumn_0_Encoded" : "number",
+					"JaspColumn_12_Encoded" : "number",
+					"JaspColumn_15_Encoded" : "number",
+					"JaspColumn_18_Encoded" : "number",
+					"JaspColumn_21_Encoded" : "number",
+					"JaspColumn_24_Encoded" : "number",
+					"JaspColumn_3_Encoded" : "number",
+					"JaspColumn_6_Encoded" : "number",
+					"JaspColumn_9_Encoded" : "number",
 					"itemColumn" : "string",
 					"variable" : "string"
 				},
@@ -184,39 +184,39 @@
 			"data" : 
 			[
 				[
-					"1. JaspColumn_2_Encoded",
+					"1. JaspColumn_3_Encoded",
 					"",
 					"",
 					"",
-					"2. JaspColumn_5_Encoded",
+					"2. JaspColumn_24_Encoded",
 					"",
 					"",
 					"",
-					"3. JaspColumn_8_Encoded",
+					"3. JaspColumn_9_Encoded",
 					"",
 					"",
 					"",
-					"4. JaspColumn_11_Encoded",
+					"4. JaspColumn_6_Encoded",
 					"",
 					"",
 					"",
-					"5. JaspColumn_14_Encoded",
+					"5. JaspColumn_18_Encoded",
 					"",
 					"",
 					"",
-					"6. JaspColumn_17_Encoded",
+					"6. JaspColumn_12_Encoded",
 					"",
 					"",
 					"",
-					"7. JaspColumn_20_Encoded",
+					"7. JaspColumn_0_Encoded",
 					"",
 					"",
 					"",
-					"8. JaspColumn_23_Encoded",
+					"8. JaspColumn_21_Encoded",
 					"",
 					"",
 					"",
-					"9. JaspColumn_26_Encoded",
+					"9. JaspColumn_15_Encoded",
 					"",
 					"",
 					""
@@ -650,11 +650,11 @@
 				{
 					"cols" : 
 					[
-						"JaspColumn_11_Encoded"
+						"JaspColumn_12_Encoded"
 					],
 					"rows" : 
 					[
-						"JaspColumn_14_Encodedpearsonstat"
+						"JaspColumn_0_Encodedpearsonstat"
 					],
 					"symbol" : "",
 					"text" : "Posterior is too peaked"
@@ -662,11 +662,11 @@
 				{
 					"cols" : 
 					[
-						"JaspColumn_14_Encoded"
+						"JaspColumn_18_Encoded"
 					],
 					"rows" : 
 					[
-						"JaspColumn_20_Encodedpearsonstat"
+						"JaspColumn_0_Encodedpearsonstat"
 					],
 					"symbol" : "",
 					"text" : "Posterior is too peaked"
@@ -674,11 +674,11 @@
 				{
 					"cols" : 
 					[
-						"JaspColumn_17_Encoded"
+						"JaspColumn_6_Encoded"
 					],
 					"rows" : 
 					[
-						"JaspColumn_20_Encodedpearsonstat"
+						"JaspColumn_18_Encodedpearsonstat"
 					],
 					"symbol" : "",
 					"text" : "Posterior is too peaked"
@@ -686,11 +686,11 @@
 				{
 					"cols" : 
 					[
-						"JaspColumn_2_Encoded"
+						"JaspColumn_3_Encoded"
 					],
 					"rows" : 
 					[
-						"JaspColumn_23_Encodedpearsonstat"
+						"JaspColumn_21_Encodedpearsonstat"
 					],
 					"symbol" : "",
 					"text" : "Posterior is too peaked"
@@ -698,11 +698,11 @@
 				{
 					"cols" : 
 					[
-						"JaspColumn_5_Encoded"
+						"JaspColumn_24_Encoded"
 					],
 					"rows" : 
 					[
-						"JaspColumn_8_Encodedpearsonstat"
+						"JaspColumn_9_Encodedpearsonstat"
 					],
 					"symbol" : "",
 					"text" : "Posterior is too peaked"
@@ -732,15 +732,15 @@
 				"supportCorrelationFlagged" : false,
 				"variables" : 
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_5_Encoded",
-					"JaspColumn_8_Encoded",
-					"JaspColumn_11_Encoded",
-					"JaspColumn_14_Encoded",
-					"JaspColumn_17_Encoded",
-					"JaspColumn_20_Encoded",
-					"JaspColumn_23_Encoded",
-					"JaspColumn_26_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_24_Encoded",
+					"JaspColumn_9_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_15_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -774,42 +774,42 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_2_Encodedpearsonstat",
-					"JaspColumn_2_Encodedpearsonbf",
-					"JaspColumn_2_EncodedpearsonupperCi",
-					"JaspColumn_2_EncodedpearsonlowerCi",
-					"JaspColumn_5_Encodedpearsonstat",
-					"JaspColumn_5_Encodedpearsonbf",
-					"JaspColumn_5_EncodedpearsonupperCi",
-					"JaspColumn_5_EncodedpearsonlowerCi",
-					"JaspColumn_8_Encodedpearsonstat",
-					"JaspColumn_8_Encodedpearsonbf",
-					"JaspColumn_8_EncodedpearsonupperCi",
-					"JaspColumn_8_EncodedpearsonlowerCi",
-					"JaspColumn_11_Encodedpearsonstat",
-					"JaspColumn_11_Encodedpearsonbf",
-					"JaspColumn_11_EncodedpearsonupperCi",
-					"JaspColumn_11_EncodedpearsonlowerCi",
-					"JaspColumn_14_Encodedpearsonstat",
-					"JaspColumn_14_Encodedpearsonbf",
-					"JaspColumn_14_EncodedpearsonupperCi",
-					"JaspColumn_14_EncodedpearsonlowerCi",
-					"JaspColumn_17_Encodedpearsonstat",
-					"JaspColumn_17_Encodedpearsonbf",
-					"JaspColumn_17_EncodedpearsonupperCi",
-					"JaspColumn_17_EncodedpearsonlowerCi",
-					"JaspColumn_20_Encodedpearsonstat",
-					"JaspColumn_20_Encodedpearsonbf",
-					"JaspColumn_20_EncodedpearsonupperCi",
-					"JaspColumn_20_EncodedpearsonlowerCi",
-					"JaspColumn_23_Encodedpearsonstat",
-					"JaspColumn_23_Encodedpearsonbf",
-					"JaspColumn_23_EncodedpearsonupperCi",
-					"JaspColumn_23_EncodedpearsonlowerCi",
-					"JaspColumn_26_Encodedpearsonstat",
-					"JaspColumn_26_Encodedpearsonbf",
-					"JaspColumn_26_EncodedpearsonupperCi",
-					"JaspColumn_26_EncodedpearsonlowerCi"
+					"JaspColumn_3_Encodedpearsonstat",
+					"JaspColumn_3_Encodedpearsonbf",
+					"JaspColumn_3_EncodedpearsonupperCi",
+					"JaspColumn_3_EncodedpearsonlowerCi",
+					"JaspColumn_24_Encodedpearsonstat",
+					"JaspColumn_24_Encodedpearsonbf",
+					"JaspColumn_24_EncodedpearsonupperCi",
+					"JaspColumn_24_EncodedpearsonlowerCi",
+					"JaspColumn_9_Encodedpearsonstat",
+					"JaspColumn_9_Encodedpearsonbf",
+					"JaspColumn_9_EncodedpearsonupperCi",
+					"JaspColumn_9_EncodedpearsonlowerCi",
+					"JaspColumn_6_Encodedpearsonstat",
+					"JaspColumn_6_Encodedpearsonbf",
+					"JaspColumn_6_EncodedpearsonupperCi",
+					"JaspColumn_6_EncodedpearsonlowerCi",
+					"JaspColumn_18_Encodedpearsonstat",
+					"JaspColumn_18_Encodedpearsonbf",
+					"JaspColumn_18_EncodedpearsonupperCi",
+					"JaspColumn_18_EncodedpearsonlowerCi",
+					"JaspColumn_12_Encodedpearsonstat",
+					"JaspColumn_12_Encodedpearsonbf",
+					"JaspColumn_12_EncodedpearsonupperCi",
+					"JaspColumn_12_EncodedpearsonlowerCi",
+					"JaspColumn_0_Encodedpearsonstat",
+					"JaspColumn_0_Encodedpearsonbf",
+					"JaspColumn_0_EncodedpearsonupperCi",
+					"JaspColumn_0_EncodedpearsonlowerCi",
+					"JaspColumn_21_Encodedpearsonstat",
+					"JaspColumn_21_Encodedpearsonbf",
+					"JaspColumn_21_EncodedpearsonupperCi",
+					"JaspColumn_21_EncodedpearsonlowerCi",
+					"JaspColumn_15_Encodedpearsonstat",
+					"JaspColumn_15_Encodedpearsonbf",
+					"JaspColumn_15_EncodedpearsonupperCi",
+					"JaspColumn_15_EncodedpearsonlowerCi"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -836,15 +836,15 @@
 			"showSpecifiedColumnsOnly" : true,
 			"specifiedColumns" : 
 			[
-				"JaspColumn_11_Encoded",
-				"JaspColumn_14_Encoded",
-				"JaspColumn_17_Encoded",
-				"JaspColumn_20_Encoded",
-				"JaspColumn_23_Encoded",
-				"JaspColumn_26_Encoded",
-				"JaspColumn_2_Encoded",
-				"JaspColumn_5_Encoded",
-				"JaspColumn_8_Encoded",
+				"JaspColumn_0_Encoded",
+				"JaspColumn_12_Encoded",
+				"JaspColumn_15_Encoded",
+				"JaspColumn_18_Encoded",
+				"JaspColumn_21_Encoded",
+				"JaspColumn_24_Encoded",
+				"JaspColumn_3_Encoded",
+				"JaspColumn_6_Encoded",
+				"JaspColumn_9_Encoded",
 				"itemColumn",
 				"variable"
 			],
@@ -868,21 +868,24 @@
 			"optionMustBe" : 
 			{
 				"ciLevel" : 0.94999999999999996,
+				"kendall" : false,
 				"naAction" : "pairwise",
+				"pearson" : true,
 				"priorWidth" : "1",
 				"seed" : 1,
 				"setSeed" : false,
+				"spearman" : false,
 				"variables" : 
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_5_Encoded",
-					"JaspColumn_8_Encoded",
-					"JaspColumn_11_Encoded",
-					"JaspColumn_14_Encoded",
-					"JaspColumn_17_Encoded",
-					"JaspColumn_20_Encoded",
-					"JaspColumn_23_Encoded",
-					"JaspColumn_26_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_24_Encoded",
+					"JaspColumn_9_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_15_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -915,7 +918,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_0_t1732712349534.png",
+			"filePathPng" : "resources/1/_0_t1749640355865.png",
 			"height" : 2270,
 			"messages" : [],
 			"name" : "matrixPlot",
@@ -936,15 +939,15 @@
 				"spearman" : false,
 				"variables" : 
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_5_Encoded",
-					"JaspColumn_8_Encoded",
-					"JaspColumn_11_Encoded",
-					"JaspColumn_14_Encoded",
-					"JaspColumn_17_Encoded",
-					"JaspColumn_20_Encoded",
-					"JaspColumn_23_Encoded",
-					"JaspColumn_26_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_24_Encoded",
+					"JaspColumn_9_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_15_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -977,6 +980,30 @@
 			"escapeHtml" : true,
 			"messages" : [],
 			"name" : "posteriorLine-M AOA-M AROU",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"naAction" : "pairwise",
+				"priorWidth" : "1",
+				"seed" : 1,
+				"setSeed" : false
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"posteriorLine-M AOA-M CNC" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_22",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "posteriorLine-M AOA-M CNC",
 			"nestedOptionMustBe" : {},
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
@@ -1088,6 +1115,30 @@
 			"title" : "",
 			"type" : "state"
 		},
+		"posteriorLine-M AROU-M CNC" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_4",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "posteriorLine-M AROU-M CNC",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"naAction" : "pairwise",
+				"priorWidth" : "1",
+				"seed" : 1,
+				"setSeed" : false
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
 		"posteriorLine-M AROU-M DOM" : 
 		{
 			"citations" : [],
@@ -1097,78 +1148,6 @@
 			"escapeHtml" : true,
 			"messages" : [],
 			"name" : "posteriorLine-M AROU-M DOM",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"alternative" : "twoSided",
-				"naAction" : "pairwise",
-				"priorWidth" : "1",
-				"seed" : 1,
-				"setSeed" : false
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
-		},
-		"posteriorLine-M AROU-M VAL" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_2",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "posteriorLine-M AROU-M VAL",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"alternative" : "twoSided",
-				"naAction" : "pairwise",
-				"priorWidth" : "1",
-				"seed" : 1,
-				"setSeed" : false
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
-		},
-		"posteriorLine-M CNC-M AOA" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_22",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "posteriorLine-M CNC-M AOA",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"alternative" : "twoSided",
-				"naAction" : "pairwise",
-				"priorWidth" : "1",
-				"seed" : 1,
-				"setSeed" : false
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
-		},
-		"posteriorLine-M CNC-M AROU" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_4",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "posteriorLine-M CNC-M AROU",
 			"nestedOptionMustBe" : {},
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
@@ -1208,102 +1187,6 @@
 			"title" : "",
 			"type" : "state"
 		},
-		"posteriorLine-M CNC-M FAM" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_21",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "posteriorLine-M CNC-M FAM",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"alternative" : "twoSided",
-				"naAction" : "pairwise",
-				"priorWidth" : "1",
-				"seed" : 1,
-				"setSeed" : false
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
-		},
-		"posteriorLine-M CNC-M GEND" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_24",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "posteriorLine-M CNC-M GEND",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"alternative" : "twoSided",
-				"naAction" : "pairwise",
-				"priorWidth" : "1",
-				"seed" : 1,
-				"setSeed" : false
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
-		},
-		"posteriorLine-M CNC-M SIZE" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_23",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "posteriorLine-M CNC-M SIZE",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"alternative" : "twoSided",
-				"naAction" : "pairwise",
-				"priorWidth" : "1",
-				"seed" : 1,
-				"setSeed" : false
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
-		},
-		"posteriorLine-M CNC-M VAL" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_9",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "posteriorLine-M CNC-M VAL",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"alternative" : "twoSided",
-				"naAction" : "pairwise",
-				"priorWidth" : "1",
-				"seed" : 1,
-				"setSeed" : false
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
-		},
 		"posteriorLine-M FAM-M AROU" : 
 		{
 			"citations" : [],
@@ -1313,6 +1196,30 @@
 			"escapeHtml" : true,
 			"messages" : [],
 			"name" : "posteriorLine-M FAM-M AROU",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"naAction" : "pairwise",
+				"priorWidth" : "1",
+				"seed" : 1,
+				"setSeed" : false
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"posteriorLine-M FAM-M CNC" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_21",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "posteriorLine-M FAM-M CNC",
 			"nestedOptionMustBe" : {},
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
@@ -1361,6 +1268,30 @@
 			"escapeHtml" : true,
 			"messages" : [],
 			"name" : "posteriorLine-M FAM-M GEND",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"naAction" : "pairwise",
+				"priorWidth" : "1",
+				"seed" : 1,
+				"setSeed" : false
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"posteriorLine-M FAM-M IMAG" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_25",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "posteriorLine-M FAM-M IMAG",
 			"nestedOptionMustBe" : {},
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
@@ -1448,6 +1379,30 @@
 			"title" : "",
 			"type" : "state"
 		},
+		"posteriorLine-M GEND-M CNC" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_24",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "posteriorLine-M GEND-M CNC",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"naAction" : "pairwise",
+				"priorWidth" : "1",
+				"seed" : 1,
+				"setSeed" : false
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
 		"posteriorLine-M GEND-M DOM" : 
 		{
 			"citations" : [],
@@ -1457,6 +1412,54 @@
 			"escapeHtml" : true,
 			"messages" : [],
 			"name" : "posteriorLine-M GEND-M DOM",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"naAction" : "pairwise",
+				"priorWidth" : "1",
+				"seed" : 1,
+				"setSeed" : false
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"posteriorLine-M GEND-M IMAG" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_27",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "posteriorLine-M GEND-M IMAG",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"naAction" : "pairwise",
+				"priorWidth" : "1",
+				"seed" : 1,
+				"setSeed" : false
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"posteriorLine-M GEND-M SIZE" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_32",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "posteriorLine-M GEND-M SIZE",
 			"nestedOptionMustBe" : {},
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
@@ -1544,54 +1547,6 @@
 			"title" : "",
 			"type" : "state"
 		},
-		"posteriorLine-M IMAG-M FAM" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_25",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "posteriorLine-M IMAG-M FAM",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"alternative" : "twoSided",
-				"naAction" : "pairwise",
-				"priorWidth" : "1",
-				"seed" : 1,
-				"setSeed" : false
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
-		},
-		"posteriorLine-M IMAG-M GEND" : 
-		{
-			"citations" : [],
-			"environmentName" : "state_27",
-			"error" : false,
-			"errorMessage" : "",
-			"escapeHtml" : true,
-			"messages" : [],
-			"name" : "posteriorLine-M IMAG-M GEND",
-			"nestedOptionMustBe" : {},
-			"nestedOptionMustContain" : {},
-			"optionMustBe" : 
-			{
-				"alternative" : "twoSided",
-				"naAction" : "pairwise",
-				"priorWidth" : "1",
-				"seed" : 1,
-				"setSeed" : false
-			},
-			"optionMustContain" : {},
-			"position" : 9999,
-			"title" : "",
-			"type" : "state"
-		},
 		"posteriorLine-M IMAG-M SIZE" : 
 		{
 			"citations" : [],
@@ -1640,6 +1595,30 @@
 			"title" : "",
 			"type" : "state"
 		},
+		"posteriorLine-M SIZE-M CNC" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_23",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "posteriorLine-M SIZE-M CNC",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"naAction" : "pairwise",
+				"priorWidth" : "1",
+				"seed" : 1,
+				"setSeed" : false
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
 		"posteriorLine-M SIZE-M DOM" : 
 		{
 			"citations" : [],
@@ -1664,15 +1643,15 @@
 			"title" : "",
 			"type" : "state"
 		},
-		"posteriorLine-M SIZE-M GEND" : 
+		"posteriorLine-M SIZE-M VAL" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_32",
+			"environmentName" : "state_13",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
 			"messages" : [],
-			"name" : "posteriorLine-M SIZE-M GEND",
+			"name" : "posteriorLine-M SIZE-M VAL",
 			"nestedOptionMustBe" : {},
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
@@ -1688,15 +1667,39 @@
 			"title" : "",
 			"type" : "state"
 		},
-		"posteriorLine-M SIZE-M VAL" : 
+		"posteriorLine-M VAL-M AROU" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_13",
+			"environmentName" : "state_2",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
 			"messages" : [],
-			"name" : "posteriorLine-M SIZE-M VAL",
+			"name" : "posteriorLine-M VAL-M AROU",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"alternative" : "twoSided",
+				"naAction" : "pairwise",
+				"priorWidth" : "1",
+				"seed" : 1,
+				"setSeed" : false
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"posteriorLine-M VAL-M CNC" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_9",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "posteriorLine-M VAL-M CNC",
 			"nestedOptionMustBe" : {},
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
@@ -1739,36 +1742,36 @@
 		"corModel" : 1,
 		"matrixPlot" : 3,
 		"posteriorLine-M AOA-M AROU" : 9,
+		"posteriorLine-M AOA-M CNC" : 24,
 		"posteriorLine-M AOA-M DOM" : 20,
 		"posteriorLine-M AOA-M GEND" : 33,
 		"posteriorLine-M AOA-M SIZE" : 32,
 		"posteriorLine-M AOA-M VAL" : 14,
+		"posteriorLine-M AROU-M CNC" : 6,
 		"posteriorLine-M AROU-M DOM" : 5,
-		"posteriorLine-M AROU-M VAL" : 4,
-		"posteriorLine-M CNC-M AOA" : 24,
-		"posteriorLine-M CNC-M AROU" : 6,
 		"posteriorLine-M CNC-M DOM" : 17,
-		"posteriorLine-M CNC-M FAM" : 23,
-		"posteriorLine-M CNC-M GEND" : 26,
-		"posteriorLine-M CNC-M SIZE" : 25,
-		"posteriorLine-M CNC-M VAL" : 11,
 		"posteriorLine-M FAM-M AROU" : 8,
+		"posteriorLine-M FAM-M CNC" : 23,
 		"posteriorLine-M FAM-M DOM" : 19,
 		"posteriorLine-M FAM-M GEND" : 31,
+		"posteriorLine-M FAM-M IMAG" : 27,
 		"posteriorLine-M FAM-M SIZE" : 30,
 		"posteriorLine-M FAM-M VAL" : 13,
 		"posteriorLine-M GEND-M AROU" : 10,
+		"posteriorLine-M GEND-M CNC" : 26,
 		"posteriorLine-M GEND-M DOM" : 22,
+		"posteriorLine-M GEND-M IMAG" : 29,
+		"posteriorLine-M GEND-M SIZE" : 34,
 		"posteriorLine-M GEND-M VAL" : 16,
 		"posteriorLine-M IMAG-M AROU" : 7,
 		"posteriorLine-M IMAG-M DOM" : 18,
-		"posteriorLine-M IMAG-M FAM" : 27,
-		"posteriorLine-M IMAG-M GEND" : 29,
 		"posteriorLine-M IMAG-M SIZE" : 28,
 		"posteriorLine-M IMAG-M VAL" : 12,
+		"posteriorLine-M SIZE-M CNC" : 25,
 		"posteriorLine-M SIZE-M DOM" : 21,
-		"posteriorLine-M SIZE-M GEND" : 34,
 		"posteriorLine-M SIZE-M VAL" : 15,
+		"posteriorLine-M VAL-M AROU" : 4,
+		"posteriorLine-M VAL-M CNC" : 11,
 		"priorWidth" : 0
 	},
 	"error" : false,
@@ -1785,10 +1788,6 @@
 	{
 		".meta" : 
 		{
-			"priorWidth" : 
-			{
-				"isRCode" : true
-			},
 			"variablePairs" : 
 			{
 				"shouldEncode" : true
@@ -1808,6 +1807,7 @@
 		"ci" : true,
 		"ciLevel" : 0.94999999999999996,
 		"kendall" : false,
+		"linearityTest" : false,
 		"matrixPlot" : true,
 		"matrixPlotDensity" : true,
 		"matrixPlotPosterior" : true,
@@ -1833,15 +1833,15 @@
 		"variablePairs.types" : [],
 		"variables" : 
 		[
-			"JaspColumn_2_Encoded",
-			"JaspColumn_5_Encoded",
-			"JaspColumn_8_Encoded",
-			"JaspColumn_11_Encoded",
-			"JaspColumn_14_Encoded",
-			"JaspColumn_17_Encoded",
-			"JaspColumn_20_Encoded",
-			"JaspColumn_23_Encoded",
-			"JaspColumn_26_Encoded"
+			"JaspColumn_3_Encoded",
+			"JaspColumn_24_Encoded",
+			"JaspColumn_9_Encoded",
+			"JaspColumn_6_Encoded",
+			"JaspColumn_18_Encoded",
+			"JaspColumn_12_Encoded",
+			"JaspColumn_0_Encoded",
+			"JaspColumn_21_Encoded",
+			"JaspColumn_15_Encoded"
 		],
 		"variables.types" : 
 		[

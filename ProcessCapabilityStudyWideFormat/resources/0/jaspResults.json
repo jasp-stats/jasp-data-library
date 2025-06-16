@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -28,7 +28,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_3_t1732281094775.png",
+							"filePathPng" : "resources/0/_3_t1749642090676.png",
 							"height" : 500,
 							"messages" : [],
 							"name" : "capabilityPlot",
@@ -1096,11 +1096,11 @@
 				"measurementLongFormat.types" : [],
 				"measurementsWideFormat" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_9_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_15_Encoded"
 				],
 				"measurementsWideFormat.types" : 
 				[
@@ -1142,7 +1142,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_1_t1732281094150.png",
+			"filePathPng" : "resources/0/_1_t1749642090044.png",
 			"height" : 400,
 			"messages" : [],
 			"name" : "histogram",
@@ -1160,11 +1160,11 @@
 				"measurementLongFormat.types" : [],
 				"measurementsWideFormat" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_9_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_15_Encoded"
 				],
 				"measurementsWideFormat.types" : 
 				[
@@ -1211,7 +1211,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1732281094437.png",
+					"filePathPng" : "resources/0/_2_t1749642090336.png",
 					"height" : 600,
 					"messages" : [],
 					"name" : "ProbabilityPlot",
@@ -1490,11 +1490,11 @@
 				"measurementLongFormat.types" : [],
 				"measurementsWideFormat" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_9_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_15_Encoded"
 				],
 				"measurementsWideFormat.types" : 
 				[
@@ -1541,7 +1541,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1732281093601.png",
+					"filePathPng" : "resources/0/_0_t1749642089499.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -1974,11 +1974,11 @@
 				"measurementLongFormat.types" : [],
 				"measurementsWideFormat" : 
 				[
-					"JaspColumn_1_Encoded",
-					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_9_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_15_Encoded"
 				],
 				"measurementsWideFormat.types" : 
 				[
@@ -1989,13 +1989,31 @@
 					"scale"
 				],
 				"report" : false,
+				"rule1" : true,
+				"rule2" : true,
+				"rule2Value" : 7,
+				"rule3" : true,
+				"rule3Value" : 7,
+				"rule4" : true,
+				"rule4Value" : 2,
+				"rule5" : true,
+				"rule5Value" : 15,
+				"rule6" : true,
+				"rule6Value" : 8,
+				"rule7" : false,
+				"rule7Value" : 4,
+				"rule8" : false,
+				"rule8Value" : 14,
+				"rule9" : null,
+				"rule9Value" : null,
 				"stagesLongFormat" : "",
 				"stagesLongFormat.types" : [],
 				"stagesWideFormat" : "",
 				"stagesWideFormat.types" : [],
 				"subgroupSizeType" : "manual",
 				"subgroupSizeUnequal" : "actualSizes",
-				"subgroups" : null
+				"subgroups" : null,
+				"testSet" : "jaspDefault"
 			},
 			"optionMustContain" : {},
 			"order_increment" : 3,
@@ -2050,7 +2068,7 @@
 				"shouldEncode" : true
 			}
 		},
-		"axisLabels" : "JaspColumn_0_Encoded",
+		"axisLabels" : "JaspColumn_2_Encoded",
 		"axisLabels.types" : 
 		[
 			"nominal"
@@ -2079,11 +2097,11 @@
 		"measurementLongFormat.types" : [],
 		"measurementsWideFormat" : 
 		[
-			"JaspColumn_1_Encoded",
-			"JaspColumn_2_Encoded",
 			"JaspColumn_3_Encoded",
-			"JaspColumn_4_Encoded",
-			"JaspColumn_5_Encoded"
+			"JaspColumn_6_Encoded",
+			"JaspColumn_9_Encoded",
+			"JaspColumn_12_Encoded",
+			"JaspColumn_15_Encoded"
 		],
 		"measurementsWideFormat.types" : 
 		[
@@ -2132,6 +2150,21 @@
 		"reportTitleText" : "",
 		"reportVariable" : true,
 		"reportVariableText" : "",
+		"rule1" : true,
+		"rule2" : true,
+		"rule2Value" : 7,
+		"rule3" : true,
+		"rule3Value" : 7,
+		"rule4" : true,
+		"rule4Value" : 2,
+		"rule5" : true,
+		"rule5Value" : 15,
+		"rule6" : true,
+		"rule6Value" : 8,
+		"rule7" : false,
+		"rule7Value" : 4,
+		"rule8" : false,
+		"rule8Value" : 14,
 		"stagesLongFormat" : "",
 		"stagesLongFormat.types" : [],
 		"stagesWideFormat" : "",
@@ -2142,6 +2175,7 @@
 		"subgroupSizeUnequal" : "actualSizes",
 		"target" : true,
 		"targetValue" : -8.0,
+		"testSet" : "jaspDefault",
 		"upperSpecificationLimit" : true,
 		"upperSpecificationLimitBoundary" : false,
 		"upperSpecificationLimitValue" : 0.0,

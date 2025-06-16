@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,7 +18,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1732282386970.png",
+			"filePathPng" : "resources/0/_0_t1749643071826.png",
 			"height" : 520,
 			"messages" : [],
 			"name" : "matrixPlot",
@@ -35,8 +35,8 @@
 				"splitBy.types" : [],
 				"variables" : 
 				[
-					"JaspColumn_47_Encoded",
-					"JaspColumn_44_Encoded"
+					"JaspColumn_21_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -207,8 +207,8 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_47_Encoded",
-					"JaspColumn_44_Encoded"
+					"JaspColumn_21_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				[
 					142,
@@ -282,8 +282,8 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_47_Encoded",
-					"JaspColumn_44_Encoded"
+					"JaspColumn_21_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -314,8 +314,8 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_47_Encoded",
-					"JaspColumn_44_Encoded"
+					"JaspColumn_21_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -491,8 +491,8 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_47_Encoded",
-			"JaspColumn_44_Encoded"
+			"JaspColumn_21_Encoded",
+			"JaspColumn_18_Encoded"
 		],
 		"variables.types" : 
 		[

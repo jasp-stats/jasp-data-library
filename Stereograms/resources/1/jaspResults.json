@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -31,7 +31,7 @@
 											"NV",
 											"VV"
 										],
-										"title" : "JaspColumn_2_Encoded",
+										"title" : "JaspColumn_5_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleDiscrete"
@@ -70,7 +70,7 @@
 											2.2000000000000002,
 											1.2
 										],
-										"title" : "JaspColumn_3_Encoded",
+										"title" : "JaspColumn_9_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -80,7 +80,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1732272895554.png",
+							"filePathPng" : "resources/1/_0_t1749640095399.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "logFuseTime",
@@ -89,13 +89,13 @@
 							"optionMustBe" : {},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_3_Encoded"
+								"dependent" : "JaspColumn_9_Encoded"
 							},
 							"position" : 9999,
 							"resizedByUser" : false,
 							"revision" : 0,
 							"status" : "complete",
-							"title" : "JaspColumn_3_Encoded",
+							"title" : "JaspColumn_9_Encoded",
 							"type" : "plot",
 							"width" : 530
 						}
@@ -139,7 +139,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"group" : "JaspColumn_2_Encoded",
+				"group" : "JaspColumn_5_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -165,7 +165,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"group" : "JaspColumn_2_Encoded",
+				"group" : "JaspColumn_5_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -205,7 +205,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_1_t1732272896017.png",
+									"filePathPng" : "resources/1/_1_t1749640095869.png",
 									"height" : 400,
 									"messages" : [],
 									"name" : "priorAndPosteriorPlot",
@@ -239,7 +239,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_2_t1732272900409.png",
+									"filePathPng" : "resources/1/_2_t1749640100339.png",
 									"height" : 400,
 									"messages" : [],
 									"name" : "robustnessPlot",
@@ -277,11 +277,11 @@
 							"optionMustBe" : {},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_3_Encoded"
+								"dependent" : "JaspColumn_9_Encoded"
 							},
 							"order_increment" : 2,
 							"position" : 9999,
-							"title" : "JaspColumn_3_Encoded",
+							"title" : "JaspColumn_9_Encoded",
 							"type" : "container"
 						}
 					},
@@ -469,7 +469,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_3_Encoded"
+							"JaspColumn_9_Encoded"
 						],
 						[
 							4.5674152619559925
@@ -501,7 +501,7 @@
 						"bayesFactorType" : "BF10",
 						"dependent" : 
 						[
-							"JaspColumn_3_Encoded"
+							"JaspColumn_9_Encoded"
 						],
 						"dependent.types" : 
 						[
@@ -527,7 +527,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_3_Encoded"
+							"JaspColumn_9_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -582,7 +582,7 @@
 			"optionMustBe" : 
 			{
 				"effectSizeStandardized" : "default",
-				"group" : "JaspColumn_2_Encoded",
+				"group" : "JaspColumn_5_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -650,7 +650,7 @@
 		"defaultStandardizedEffectSize" : "cauchy",
 		"dependent" : 
 		[
-			"JaspColumn_3_Encoded"
+			"JaspColumn_9_Encoded"
 		],
 		"dependent.types" : 
 		[
@@ -662,7 +662,7 @@
 		"dienesEffectSize" : "uniform",
 		"effectSize" : "standardized",
 		"effectSizeStandardized" : "default",
-		"group" : "JaspColumn_2_Encoded",
+		"group" : "JaspColumn_5_Encoded",
 		"group.types" : 
 		[
 			"nominal"

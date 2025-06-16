@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,7 +18,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_0_t1732712374082.png",
+			"filePathPng" : "resources/1/_0_t1749640379952.png",
 			"height" : 520,
 			"messages" : [],
 			"name" : "matrixPlot",
@@ -35,8 +35,8 @@
 				"splitBy.types" : [],
 				"variables" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -207,8 +207,8 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded"
 				],
 				[
 					100,
@@ -282,8 +282,8 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -314,8 +314,8 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -462,13 +462,11 @@
 		"pieChart" : false,
 		"plotHeight" : 320,
 		"plotWidth" : 480,
-		"predictors" : 0,
 		"qqPlot" : false,
 		"quantilesForEqualGroups" : false,
 		"quantilesForEqualGroupsNumber" : 4,
 		"quartiles" : false,
 		"range" : false,
-		"sampleSize" : 0,
 		"scatterPlot" : false,
 		"scatterPlotGraphTypeAbove" : "density",
 		"scatterPlotGraphTypeRight" : "density",
@@ -493,8 +491,8 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_9_Encoded",
-			"JaspColumn_6_Encoded"
+			"JaspColumn_0_Encoded",
+			"JaspColumn_3_Encoded"
 		],
 		"variables.types" : 
 		[

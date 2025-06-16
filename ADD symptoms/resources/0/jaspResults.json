@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -196,7 +196,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_10_t1732803200616.png",
+							"filePathPng" : "resources/0/_10_t1749641195575.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "anovaPlot",
@@ -312,7 +312,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_8_t1732803200418.png",
+							"filePathPng" : "resources/0/_8_t1749641195352.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "feldtPlot",
@@ -426,7 +426,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_11_t1732803200714.png",
+							"filePathPng" : "resources/0/_11_t1749641195674.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "irtPlot",
@@ -542,7 +542,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_9_t1732803200523.png",
+							"filePathPng" : "resources/0/_9_t1749641195473.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "mollenkopfFeldtPlot",
@@ -658,7 +658,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_7_t1732803200318.png",
+							"filePathPng" : "resources/0/_7_t1749641195242.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "thorndikePlot",
@@ -850,7 +850,7 @@
 							"lowerirt" : "Lower 95% CI",
 							"lowermollenkopfFeldt" : "Lower 95% CI",
 							"lowerthorndike" : "Lower 95% CI",
-							"score" : "Sum score",
+							"score" : "Sum Score",
 							"upperanova" : "Upper 95% CI",
 							"upperfeldt" : "Upper 95% CI",
 							"upperirt" : "Upper 95% CI",
@@ -1447,7 +1447,7 @@
 						"upperthorndike"
 					],
 					"status" : "complete",
-					"title" : "Sum score CI table",
+					"title" : "Sum Score CI Table",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -1561,7 +1561,7 @@
 							"feldt" : "Feldt",
 							"irt" : "IRT-GRM",
 							"mollenkopfFeldt" : "Mollenkopf-Feldt",
-							"score" : "Sum score",
+							"score" : "Sum Score",
 							"thorndike" : "Thorndike"
 						},
 						"listType" : "string",
@@ -1884,7 +1884,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : " The traditional sem value equals 2.182."
+							"text" : " The score-unrelated SEM value equals 2.182."
 						}
 					],
 					"messages" : [],
@@ -2000,7 +2000,7 @@
 						"thorndike"
 					],
 					"status" : "complete",
-					"title" : "Standard error of measurement",
+					"title" : "Standard Error of Measurement",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -2095,7 +2095,7 @@
 									4,
 									1
 								],
-								"title" : "sem",
+								"title" : "SEM",
 								"titleType" : "character"
 							},
 							"type" : "ScaleContinuous"
@@ -2105,7 +2105,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_6_t1732803200015.png",
+					"filePathPng" : "resources/0/_6_t1749641194932.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "combinedPlot",
@@ -2136,7 +2136,7 @@
 					"resizedByUser" : false,
 					"revision" : 0,
 					"status" : "complete",
-					"title" : "Combined plot",
+					"title" : "Combined Plot",
 					"type" : "plot",
 					"width" : 600
 				},
@@ -2224,7 +2224,7 @@
 									30,
 									10
 								],
-								"title" : "Sum scores",
+								"title" : "Sum Score",
 								"titleType" : "character"
 							},
 							"type" : "ScaleContinuous"
@@ -2277,7 +2277,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1732803199383.png",
+					"filePathPng" : "resources/0/_0_t1749641194275.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "histPlot",
@@ -2292,7 +2292,7 @@
 					"resizedByUser" : false,
 					"revision" : 0,
 					"status" : "complete",
-					"title" : "Histogram of counts per sum score group",
+					"title" : "Histogram of Counts per Sum Score Group",
 					"type" : "plot",
 					"width" : 500
 				},
@@ -2431,7 +2431,7 @@
 											3,
 											1
 										],
-										"title" : "sem",
+										"title" : "SEM",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -2441,7 +2441,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_4_t1732803199846.png",
+							"filePathPng" : "resources/0/_4_t1749641194745.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "anovaPlot",
@@ -2551,7 +2551,7 @@
 											4,
 											1
 										],
-										"title" : "sem",
+										"title" : "SEM",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -2561,7 +2561,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_2_t1732803199687.png",
+							"filePathPng" : "resources/0/_2_t1749641194577.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "feldtPlot",
@@ -2670,7 +2670,7 @@
 											2,
 											0.5
 										],
-										"title" : "sem",
+										"title" : "SEM",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -2680,7 +2680,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_5_t1732803199923.png",
+							"filePathPng" : "resources/0/_5_t1749641194822.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "irtPlot",
@@ -2789,7 +2789,7 @@
 											2.5,
 											0.25
 										],
-										"title" : "sem",
+										"title" : "SEM",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -2799,7 +2799,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_3_t1732803199765.png",
+							"filePathPng" : "resources/0/_3_t1749641194663.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "mollenkopfFeldtPlot",
@@ -2906,7 +2906,7 @@
 											2,
 											1
 										],
-										"title" : "sem",
+										"title" : "SEM",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -2916,7 +2916,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1732803199608.png",
+							"filePathPng" : "resources/0/_1_t1749641194498.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "thorndikePlot",
@@ -3030,15 +3030,15 @@
 			{
 				"variables" : 
 				[
+					"JaspColumn_1_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_7_Encoded",
 					"JaspColumn_10_Encoded",
 					"JaspColumn_13_Encoded",
 					"JaspColumn_16_Encoded",
 					"JaspColumn_19_Encoded",
 					"JaspColumn_22_Encoded",
-					"JaspColumn_25_Encoded",
-					"JaspColumn_28_Encoded",
-					"JaspColumn_31_Encoded",
-					"JaspColumn_34_Encoded"
+					"JaspColumn_25_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -3112,15 +3112,15 @@
 		"userReliability" : false,
 		"variables" : 
 		[
+			"JaspColumn_1_Encoded",
+			"JaspColumn_4_Encoded",
+			"JaspColumn_7_Encoded",
 			"JaspColumn_10_Encoded",
 			"JaspColumn_13_Encoded",
 			"JaspColumn_16_Encoded",
 			"JaspColumn_19_Encoded",
 			"JaspColumn_22_Encoded",
-			"JaspColumn_25_Encoded",
-			"JaspColumn_28_Encoded",
-			"JaspColumn_31_Encoded",
-			"JaspColumn_34_Encoded"
+			"JaspColumn_25_Encoded"
 		],
 		"variables.types" : 
 		[

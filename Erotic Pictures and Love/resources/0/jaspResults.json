@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -159,9 +159,9 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_10_Encoded",
-					"JaspColumn_13_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				[
 					223,
@@ -174,22 +174,22 @@
 					3
 				],
 				[
-					1.5560538116591929,
+					null,
 					35.425339366515836,
 					9.0882575757772717
 				],
 				[
-					0.4979658050882696,
+					null,
 					11.103238286756199,
 					9.4115758382850885
 				],
 				[
-					1.0,
+					null,
 					18.0,
 					0.25
 				],
 				[
-					2.0,
+					null,
 					83.0,
 					60.0
 				]
@@ -241,9 +241,9 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_10_Encoded",
-					"JaspColumn_13_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -275,9 +275,9 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_10_Encoded",
-					"JaspColumn_13_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -425,7 +425,7 @@
 						{
 							"Cumulative Percent" : "Cumulative Percent",
 							"Frequency" : "Frequency",
-							"Level" : "JaspColumn_9_Encoded",
+							"Level" : "JaspColumn_11_Encoded",
 							"Percent" : "Percent",
 							"Valid Percent" : "Valid Percent"
 						},
@@ -511,7 +511,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "The following variables have more than 10 distinct values and are omitted: JaspColumn_10_Encoded, JaspColumn_13_Encoded."
+							"text" : "The following variables have more than 10 distinct values and are omitted: JaspColumn_0_Encoded, JaspColumn_18_Encoded."
 						}
 					],
 					"messages" : [],
@@ -521,7 +521,7 @@
 					"optionMustBe" : {},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_9_Encoded"
+						"variables" : "JaspColumn_11_Encoded"
 					},
 					"position" : 9999,
 					"rowNames" : 
@@ -572,7 +572,7 @@
 						"Valid Percent"
 					],
 					"status" : "complete",
-					"title" : "Frequencies for JaspColumn_9_Encoded",
+					"title" : "Frequencies for JaspColumn_11_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -598,9 +598,9 @@
 				"splitBy.types" : [],
 				"variables" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_10_Encoded",
-					"JaspColumn_13_Encoded"
+					"JaspColumn_11_Encoded",
+					"JaspColumn_0_Encoded",
+					"JaspColumn_18_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -750,9 +750,9 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_9_Encoded",
-			"JaspColumn_10_Encoded",
-			"JaspColumn_13_Encoded"
+			"JaspColumn_11_Encoded",
+			"JaspColumn_0_Encoded",
+			"JaspColumn_18_Encoded"
 		],
 		"variables.types" : 
 		[

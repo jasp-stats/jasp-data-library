@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -40,12 +40,12 @@
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "JaspColumn_2_Encoded",
+								"processDependent" : "DonationAttitude.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "mediators",
-								"processVariable" : "JaspColumn_3_Encoded",
+								"processVariable" : "Justification.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -53,12 +53,12 @@
 								]
 							},
 							{
-								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent" : "Justification.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable" : "Skepticism.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -66,12 +66,12 @@
 								]
 							},
 							{
-								"processDependent" : "JaspColumn_2_Encoded",
+								"processDependent" : "DonationAttitude.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable" : "Skepticism.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -108,15 +108,15 @@
 				"bootstrapCiType" : "percentileBiasCorrected",
 				"covariates" : 
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_12_Encoded"
 				],
 				"covariates.types" : 
 				[
 					"scale",
 					"scale"
 				],
-				"dependent" : "JaspColumn_2_Encoded",
+				"dependent" : "JaspColumn_0_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -126,7 +126,7 @@
 				"estimator" : "default",
 				"factors" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_5_Encoded"
 				],
 				"factors.types" : 
 				[
@@ -136,6 +136,30 @@
 				"mcmcChains" : null,
 				"mcmcSamples" : null,
 				"meanCenteredModeration" : false,
+				"moderationProbes" : 
+				[
+					{
+						"probePercentile" : 16.0,
+						"value" : 
+						[
+							"16"
+						]
+					},
+					{
+						"probePercentile" : 50.0,
+						"value" : 
+						[
+							"50"
+						]
+					},
+					{
+						"probePercentile" : 84.0,
+						"value" : 
+						[
+							"84"
+						]
+					}
+				],
 				"naAction" : "listwise",
 				"nuPriorMu" : null,
 				"nuPriorSigma" : null,
@@ -343,15 +367,15 @@
 				"bootstrapCiType" : "percentileBiasCorrected",
 				"covariates" : 
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_12_Encoded"
 				],
 				"covariates.types" : 
 				[
 					"scale",
 					"scale"
 				],
-				"dependent" : "JaspColumn_2_Encoded",
+				"dependent" : "JaspColumn_0_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -361,7 +385,7 @@
 				"estimator" : "default",
 				"factors" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_5_Encoded"
 				],
 				"factors.types" : 
 				[
@@ -372,6 +396,30 @@
 				"mcmcChains" : null,
 				"mcmcSamples" : null,
 				"meanCenteredModeration" : false,
+				"moderationProbes" : 
+				[
+					{
+						"probePercentile" : 16.0,
+						"value" : 
+						[
+							"16"
+						]
+					},
+					{
+						"probePercentile" : 50.0,
+						"value" : 
+						[
+							"50"
+						]
+					},
+					{
+						"probePercentile" : 84.0,
+						"value" : 
+						[
+							"84"
+						]
+					}
+				],
 				"naAction" : "listwise",
 				"nuPriorMu" : null,
 				"nuPriorSigma" : null,
@@ -406,12 +454,12 @@
 						"processRelationships" : 
 						[
 							{
-								"processDependent" : "JaspColumn_2_Encoded",
+								"processDependent" : "DonationAttitude.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "mediators",
-								"processVariable" : "JaspColumn_3_Encoded",
+								"processVariable" : "Justification.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -419,12 +467,12 @@
 								]
 							},
 							{
-								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent" : "Justification.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable" : "Skepticism.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -432,12 +480,12 @@
 								]
 							},
 							{
-								"processDependent" : "JaspColumn_2_Encoded",
+								"processDependent" : "DonationAttitude.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable" : "Skepticism.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -660,12 +708,12 @@
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "JaspColumn_2_Encoded",
+								"processDependent" : "DonationAttitude.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "mediators",
-								"processVariable" : "JaspColumn_3_Encoded",
+								"processVariable" : "Justification.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -673,12 +721,12 @@
 								]
 							},
 							{
-								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent" : "Justification.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable" : "Skepticism.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -686,12 +734,12 @@
 								]
 							},
 							{
-								"processDependent" : "JaspColumn_2_Encoded",
+								"processDependent" : "DonationAttitude.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable" : "Skepticism.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -708,15 +756,15 @@
 						"bootstrapCiType" : "percentileBiasCorrected",
 						"covariates" : 
 						[
-							"JaspColumn_3_Encoded",
-							"JaspColumn_4_Encoded"
+							"JaspColumn_9_Encoded",
+							"JaspColumn_12_Encoded"
 						],
 						"covariates.types" : 
 						[
 							"scale",
 							"scale"
 						],
-						"dependent" : "JaspColumn_2_Encoded",
+						"dependent" : "JaspColumn_0_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
@@ -726,7 +774,7 @@
 						"estimator" : "default",
 						"factors" : 
 						[
-							"JaspColumn_1_Encoded"
+							"JaspColumn_5_Encoded"
 						],
 						"factors.types" : 
 						[
@@ -736,6 +784,30 @@
 						"mcmcChains" : null,
 						"mcmcSamples" : null,
 						"meanCenteredModeration" : false,
+						"moderationProbes" : 
+						[
+							{
+								"probePercentile" : 16.0,
+								"value" : 
+								[
+									"16"
+								]
+							},
+							{
+								"probePercentile" : 50.0,
+								"value" : 
+								[
+									"50"
+								]
+							},
+							{
+								"probePercentile" : 84.0,
+								"value" : 
+								[
+									"84"
+								]
+							}
+						],
 						"naAction" : "listwise",
 						"nuPriorMu" : null,
 						"nuPriorSigma" : null,
@@ -794,8 +866,8 @@
 								"escapeHtml" : true,
 								"fields" : 
 								{
-									"JaspColumn_1_Encoded" : false,
-									"JaspColumn_4_Encoded" : false
+									"JaspColumn_12_Encoded" : false,
+									"JaspColumn_5_Encoded" : false
 								},
 								"listType" : "bool",
 								"messages" : [],
@@ -858,8 +930,8 @@
 									"lhs_2",
 									"op_3",
 									"lhs_3",
-									"JaspColumn_1_Encoded",
-									"JaspColumn_4_Encoded",
+									"JaspColumn_5_Encoded",
+									"JaspColumn_12_Encoded",
 									"est",
 									"se",
 									"z",
@@ -902,8 +974,8 @@
 								"escapeHtml" : true,
 								"fields" : 
 								{
-									"JaspColumn_1_Encoded" : "JaspColumn_1_Encoded",
-									"JaspColumn_4_Encoded" : "JaspColumn_4_Encoded",
+									"JaspColumn_12_Encoded" : "JaspColumn_12_Encoded",
+									"JaspColumn_5_Encoded" : "JaspColumn_5_Encoded",
 									"ci.lower" : "Lower",
 									"ci.upper" : "Upper",
 									"est" : "Estimate",
@@ -936,8 +1008,8 @@
 								"escapeHtml" : true,
 								"fields" : 
 								{
-									"JaspColumn_1_Encoded" : "string",
-									"JaspColumn_4_Encoded" : "string",
+									"JaspColumn_12_Encoded" : "string",
+									"JaspColumn_5_Encoded" : "string",
 									"ci.lower" : "number",
 									"ci.upper" : "number",
 									"est" : "number",
@@ -965,12 +1037,12 @@
 							"data" : 
 							[
 								[
-									"JaspColumn_1_Encoded",
-									"JaspColumn_1_Encoded",
-									"JaspColumn_1_Encoded",
-									"JaspColumn_1_Encoded",
-									"JaspColumn_1_Encoded",
-									"JaspColumn_1_Encoded"
+									"JaspColumn_5_Encoded",
+									"JaspColumn_5_Encoded",
+									"JaspColumn_5_Encoded",
+									"JaspColumn_5_Encoded",
+									"JaspColumn_5_Encoded",
+									"JaspColumn_5_Encoded"
 								],
 								[
 									"\u2192",
@@ -981,12 +1053,12 @@
 									"\u2192"
 								],
 								[
-									"JaspColumn_2_Encoded",
-									"JaspColumn_2_Encoded",
-									"JaspColumn_2_Encoded",
-									"JaspColumn_3_Encoded",
-									"JaspColumn_3_Encoded",
-									"JaspColumn_3_Encoded"
+									"JaspColumn_0_Encoded",
+									"JaspColumn_0_Encoded",
+									"JaspColumn_0_Encoded",
+									"JaspColumn_9_Encoded",
+									"JaspColumn_9_Encoded",
+									"JaspColumn_9_Encoded"
 								],
 								[
 									"",
@@ -1000,9 +1072,9 @@
 									"",
 									"",
 									"",
-									"JaspColumn_2_Encoded",
-									"JaspColumn_2_Encoded",
-									"JaspColumn_2_Encoded"
+									"JaspColumn_0_Encoded",
+									"JaspColumn_0_Encoded",
+									"JaspColumn_0_Encoded"
 								],
 								[
 									"Climate",
@@ -1029,43 +1101,43 @@
 									-0.44628944671213477
 								],
 								[
-									0.17931020808393877,
-									0.13925413131048314,
-									0.18422940939798141,
-									0.13778659544794991,
-									0.10653922730343703,
+									0.1793102080839388,
+									0.13925413131048317,
+									0.18422940939798152,
+									0.13778659544794997,
+									0.10653922730343708,
 									0.14330107196166761
 								],
 								[
-									1.0272405515837002,
-									1.4513203924203755,
-									1.2914205618042158,
-									1.6110331707882353,
-									-0.0072958892165907929,
+									1.0272405515837,
+									1.451320392420375,
+									1.2914205618042152,
+									1.6110331707882348,
+									-0.0072958892165907886,
 									-3.1143482780890515
 								],
 								[
 									0.30430720758090146,
 									0.14669066545310661,
-									0.1965578844706668,
-									0.10717249279265695,
+									0.19655788447066702,
+									0.10717249279265717,
 									0.9941787742807735,
 									0.0018435174150914779
 								],
 								[
-									-0.16724683284816946,
-									-0.070830721567269495,
-									-0.12316535992752839,
-									-0.048077988873745731,
-									-0.20959034685508995,
+									-0.16724683284816952,
+									-0.07083072156726955,
+									-0.12316535992752861,
+									-0.048077988873745842,
+									-0.20959034685509007,
 									-0.72715438670298571
 								],
 								[
 									0.53563626696163613,
-									0.47503544256664726,
-									0.59900065469872843,
-									0.49203554038699893,
-									0.20803575005583583,
+									0.47503544256664731,
+									0.59900065469872865,
+									0.49203554038699904,
+									0.20803575005583594,
 									-0.16542450672128378
 								]
 							],
@@ -1152,8 +1224,8 @@
 							"showSpecifiedColumnsOnly" : false,
 							"specifiedColumns" : 
 							[
-								"JaspColumn_1_Encoded",
-								"JaspColumn_4_Encoded",
+								"JaspColumn_12_Encoded",
+								"JaspColumn_5_Encoded",
 								"ci.lower",
 								"ci.upper",
 								"est",
@@ -1338,13 +1410,13 @@
 							"data" : 
 							[
 								[
-									"JaspColumn_1_EncodedClimate",
-									"JaspColumn_3_Encoded",
-									"JaspColumn_4_Encoded",
-									"JaspColumn_1_EncodedClimate:JaspColumn_4_Encoded",
-									"JaspColumn_1_EncodedClimate",
-									"JaspColumn_4_Encoded",
-									"JaspColumn_1_EncodedClimate:JaspColumn_4_Encoded"
+									"JaspColumn_5_EncodedClimate",
+									"JaspColumn_9_Encoded",
+									"JaspColumn_12_Encoded",
+									"JaspColumn_5_EncodedClimate:JaspColumn_12_Encoded",
+									"JaspColumn_5_EncodedClimate",
+									"JaspColumn_12_Encoded",
+									"JaspColumn_5_EncodedClimate:JaspColumn_12_Encoded"
 								],
 								[
 									"\u2192",
@@ -1356,13 +1428,13 @@
 									"\u2192"
 								],
 								[
-									"JaspColumn_2_Encoded",
-									"JaspColumn_2_Encoded",
-									"JaspColumn_2_Encoded",
-									"JaspColumn_2_Encoded",
-									"JaspColumn_3_Encoded",
-									"JaspColumn_3_Encoded",
-									"JaspColumn_3_Encoded"
+									"JaspColumn_0_Encoded",
+									"JaspColumn_0_Encoded",
+									"JaspColumn_0_Encoded",
+									"JaspColumn_0_Encoded",
+									"JaspColumn_9_Encoded",
+									"JaspColumn_9_Encoded",
+									"JaspColumn_9_Encoded"
 								],
 								[
 									0.16031785913279256,
@@ -1374,49 +1446,49 @@
 									0.20118413842228744
 								],
 								[
-									0.26446723167695102,
-									0.083025582013284249,
-									0.046374935546373452,
-									0.068100583861290184,
+									0.26446723167695108,
+									0.083025582013284277,
+									0.046374935546373446,
+									0.068100583861290212,
 									0.21584407827884819,
-									0.037766386070847584,
-									0.054742494413771707
+									0.037766386070847598,
+									0.054742494413771693
 								],
 								[
-									0.60619176945377562,
-									-11.113289890048083,
-									-0.91797728160232084,
-									0.21913227987675954,
+									0.60619176945377551,
+									-11.11328989004808,
+									-0.91797728160232095,
+									0.21913227987675946,
 									-2.6059235132833631,
-									2.7824218984412297,
-									3.6750999488922638
+									2.7824218984412288,
+									3.6750999488922647
 								],
 								[
 									0.54438741757613029,
 									0.0,
 									0.3586307598366667,
-									0.82654700608140352,
+									0.82654700608140375,
 									0.0091626920015706048,
 									0.0053954849838639962,
 									0.00023775631906941541
 								],
 								[
-									-0.35802839004504189,
+									-0.358028390045042,
 									-1.0854145117451035,
 									-0.13346434072360103,
-									-0.11855165549181541,
+									-0.11855165549181547,
 									-0.98551977849261174,
-									0.03106126310341574,
-									0.093890820947409817
+									0.031061263103415712,
+									0.093890820947409845
 								],
 								[
 									0.67866410831062707,
 									-0.7599602106620762,
 									0.048322066188915533,
-									0.14839772789674135,
+									0.14839772789674141,
 									-0.13942653908703878,
-									0.17910277615360853,
-									0.30847745589716508
+									0.17910277615360859,
+									0.30847745589716502
 								]
 							],
 							"error" : false,
@@ -1524,12 +1596,12 @@
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "JaspColumn_2_Encoded",
+								"processDependent" : "DonationAttitude.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "mediators",
-								"processVariable" : "JaspColumn_3_Encoded",
+								"processVariable" : "Justification.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -1537,12 +1609,12 @@
 								]
 							},
 							{
-								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent" : "Justification.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable" : "Skepticism.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -1550,12 +1622,12 @@
 								]
 							},
 							{
-								"processDependent" : "JaspColumn_2_Encoded",
+								"processDependent" : "DonationAttitude.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable" : "Skepticism.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -1622,12 +1694,12 @@
 								"processRelationships" : 
 								[
 									{
-										"processDependent" : "JaspColumn_2_Encoded",
+										"processDependent" : "DonationAttitude.scale",
 										"processDependent.types" : "scale",
-										"processIndependent" : "JaspColumn_1_Encoded",
+										"processIndependent" : "Framing.nominal",
 										"processIndependent.types" : "nominal",
 										"processType" : "mediators",
-										"processVariable" : "JaspColumn_3_Encoded",
+										"processVariable" : "Justification.scale",
 										"processVariable.types" : "scale",
 										"value" : 
 										[
@@ -1635,12 +1707,12 @@
 										]
 									},
 									{
-										"processDependent" : "JaspColumn_3_Encoded",
+										"processDependent" : "Justification.scale",
 										"processDependent.types" : "scale",
-										"processIndependent" : "JaspColumn_1_Encoded",
+										"processIndependent" : "Framing.nominal",
 										"processIndependent.types" : "nominal",
 										"processType" : "moderators",
-										"processVariable" : "JaspColumn_4_Encoded",
+										"processVariable" : "Skepticism.scale",
 										"processVariable.types" : "scale",
 										"value" : 
 										[
@@ -1648,12 +1720,12 @@
 										]
 									},
 									{
-										"processDependent" : "JaspColumn_2_Encoded",
+										"processDependent" : "DonationAttitude.scale",
 										"processDependent.types" : "scale",
-										"processIndependent" : "JaspColumn_1_Encoded",
+										"processIndependent" : "Framing.nominal",
 										"processIndependent.types" : "nominal",
 										"processType" : "moderators",
-										"processVariable" : "JaspColumn_4_Encoded",
+										"processVariable" : "Skepticism.scale",
 										"processVariable.types" : "scale",
 										"value" : 
 										[
@@ -1695,15 +1767,15 @@
 				"bootstrapCiType" : "percentileBiasCorrected",
 				"covariates" : 
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_12_Encoded"
 				],
 				"covariates.types" : 
 				[
 					"scale",
 					"scale"
 				],
-				"dependent" : "JaspColumn_2_Encoded",
+				"dependent" : "JaspColumn_0_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -1713,7 +1785,7 @@
 				"estimator" : "default",
 				"factors" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_5_Encoded"
 				],
 				"factors.types" : 
 				[
@@ -1723,6 +1795,30 @@
 				"mcmcChains" : null,
 				"mcmcSamples" : null,
 				"meanCenteredModeration" : false,
+				"moderationProbes" : 
+				[
+					{
+						"probePercentile" : 16.0,
+						"value" : 
+						[
+							"16"
+						]
+					},
+					{
+						"probePercentile" : 50.0,
+						"value" : 
+						[
+							"50"
+						]
+					},
+					{
+						"probePercentile" : 84.0,
+						"value" : 
+						[
+							"84"
+						]
+					}
+				],
 				"naAction" : "listwise",
 				"nuPriorMu" : null,
 				"nuPriorSigma" : null,
@@ -1852,7 +1948,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_2_t1732282283700.png",
+							"filePathPng" : "resources/1/_2_t1749642417929.png",
 							"height" : 480,
 							"messages" : [],
 							"name" : "conceptPathPlot",
@@ -1978,7 +2074,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_3_t1732282283892.png",
+							"filePathPng" : "resources/1/_3_t1749642418116.png",
 							"height" : 480,
 							"messages" : [],
 							"name" : "statPathPlot",
@@ -2038,12 +2134,12 @@
 						"processModels$!_SEP_!$1$!_SEP_!$processRelationships" : 
 						[
 							{
-								"processDependent" : "JaspColumn_2_Encoded",
+								"processDependent" : "DonationAttitude.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "mediators",
-								"processVariable" : "JaspColumn_3_Encoded",
+								"processVariable" : "Justification.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -2051,12 +2147,12 @@
 								]
 							},
 							{
-								"processDependent" : "JaspColumn_3_Encoded",
+								"processDependent" : "Justification.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable" : "Skepticism.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -2064,12 +2160,12 @@
 								]
 							},
 							{
-								"processDependent" : "JaspColumn_2_Encoded",
+								"processDependent" : "DonationAttitude.scale",
 								"processDependent.types" : "scale",
-								"processIndependent" : "JaspColumn_1_Encoded",
+								"processIndependent" : "Framing.nominal",
 								"processIndependent.types" : "nominal",
 								"processType" : "moderators",
-								"processVariable" : "JaspColumn_4_Encoded",
+								"processVariable" : "Skepticism.scale",
 								"processVariable.types" : "scale",
 								"value" : 
 								[
@@ -2106,15 +2202,15 @@
 				"bootstrapCiType" : "percentileBiasCorrected",
 				"covariates" : 
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded"
+					"JaspColumn_9_Encoded",
+					"JaspColumn_12_Encoded"
 				],
 				"covariates.types" : 
 				[
 					"scale",
 					"scale"
 				],
-				"dependent" : "JaspColumn_2_Encoded",
+				"dependent" : "JaspColumn_0_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -2124,7 +2220,7 @@
 				"estimator" : "default",
 				"factors" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_5_Encoded"
 				],
 				"factors.types" : 
 				[
@@ -2134,6 +2230,30 @@
 				"mcmcChains" : null,
 				"mcmcSamples" : null,
 				"meanCenteredModeration" : false,
+				"moderationProbes" : 
+				[
+					{
+						"probePercentile" : 16.0,
+						"value" : 
+						[
+							"16"
+						]
+					},
+					{
+						"probePercentile" : 50.0,
+						"value" : 
+						[
+							"50"
+						]
+					},
+					{
+						"probePercentile" : 84.0,
+						"value" : 
+						[
+							"84"
+						]
+					}
+				],
 				"naAction" : "listwise",
 				"nuPriorMu" : null,
 				"nuPriorSigma" : null,
@@ -2185,24 +2305,6 @@
 			"factors" : 
 			{
 				"shouldEncode" : true
-			},
-			"processModels" : 
-			{
-				"processRelationships" : 
-				{
-					"processDependent" : 
-					{
-						"shouldEncode" : true
-					},
-					"processIndependent" : 
-					{
-						"shouldEncode" : true
-					},
-					"processVariable" : 
-					{
-						"shouldEncode" : true
-					}
-				}
 			}
 		},
 		"aicWeights" : false,
@@ -2214,15 +2316,15 @@
 		"conceptualPathPlotsForAllModels" : true,
 		"covariates" : 
 		[
-			"JaspColumn_3_Encoded",
-			"JaspColumn_4_Encoded"
+			"JaspColumn_9_Encoded",
+			"JaspColumn_12_Encoded"
 		],
 		"covariates.types" : 
 		[
 			"scale",
 			"scale"
 		],
-		"dependent" : "JaspColumn_2_Encoded",
+		"dependent" : "JaspColumn_0_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
@@ -2233,7 +2335,7 @@
 		"estimator" : "default",
 		"factors" : 
 		[
-			"JaspColumn_1_Encoded"
+			"JaspColumn_5_Encoded"
 		],
 		"factors.types" : 
 		[
@@ -2241,7 +2343,6 @@
 		],
 		"hayesNumber" : false,
 		"independentCovariancesForAllModels" : false,
-		"inputType" : "inputVariables",
 		"interceptsForAllModels" : false,
 		"localTestBootstrapForAllModels" : false,
 		"localTestBootstrapSamplesForAllModels" : 1000,
@@ -2251,6 +2352,7 @@
 		"meanCenteredModeration" : false,
 		"mediationEffectsForAllModels" : true,
 		"mediatorCovariancesForAllModels" : false,
+		"moderatedMediationIndex" : false,
 		"moderationProbes" : 
 		[
 			{
@@ -2314,12 +2416,12 @@
 				"processRelationships" : 
 				[
 					{
-						"processDependent" : "JaspColumn_2_Encoded",
+						"processDependent" : "DonationAttitude.scale",
 						"processDependent.types" : "scale",
-						"processIndependent" : "JaspColumn_1_Encoded",
+						"processIndependent" : "Framing.nominal",
 						"processIndependent.types" : "nominal",
 						"processType" : "mediators",
-						"processVariable" : "JaspColumn_3_Encoded",
+						"processVariable" : "Justification.scale",
 						"processVariable.types" : "scale",
 						"value" : 
 						[
@@ -2327,12 +2429,12 @@
 						]
 					},
 					{
-						"processDependent" : "JaspColumn_3_Encoded",
+						"processDependent" : "Justification.scale",
 						"processDependent.types" : "scale",
-						"processIndependent" : "JaspColumn_1_Encoded",
+						"processIndependent" : "Framing.nominal",
 						"processIndependent.types" : "nominal",
 						"processType" : "moderators",
-						"processVariable" : "JaspColumn_4_Encoded",
+						"processVariable" : "Skepticism.scale",
 						"processVariable.types" : "scale",
 						"value" : 
 						[
@@ -2340,12 +2442,12 @@
 						]
 					},
 					{
-						"processDependent" : "JaspColumn_2_Encoded",
+						"processDependent" : "DonationAttitude.scale",
 						"processDependent.types" : "scale",
-						"processIndependent" : "JaspColumn_1_Encoded",
+						"processIndependent" : "Framing.nominal",
 						"processIndependent.types" : "nominal",
 						"processType" : "moderators",
-						"processVariable" : "JaspColumn_4_Encoded",
+						"processVariable" : "Skepticism.scale",
 						"processVariable.types" : "scale",
 						"value" : 
 						[

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -114,7 +114,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1749641615077.png",
+					"filePathPng" : "resources/0/_0_t1732277474690.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "curveplot",
@@ -289,7 +289,7 @@
 									"Growth curve model"
 								],
 								[
-									843.98419955266456,
+									843.98419955266422,
 									47.968827662027991
 								],
 								[
@@ -590,19 +590,19 @@
 									0.0020153496395839319
 								],
 								[
-									0.001466256791322292
+									0.0014662567913222913
 								],
 								[
-									1.3744861415212679
+									1.3744861415212684
 								],
 								[
-									0.1692908097229644
+									0.16929080972296418
 								],
 								[
-									-0.00085846086349502127
+									-0.00085846086349501997
 								],
 								[
-									0.004889160142662885
+									0.0048891601426628833
 								]
 							],
 							"error" : false,
@@ -859,16 +859,16 @@
 									0.1009237583653609
 								],
 								[
-									0.0065388469455646414,
-									0.093396402133231818,
-									0.00056357914557364963,
-									0.02740779619081311
+									0.0065388469455646431,
+									0.093396402133231568,
+									0.00056357914557365006,
+									0.027407796190813061
 								],
 								[
-									4.5149849043172647,
-									24.101266154931583,
-									5.5031361571144242,
-									3.6823011110681634
+									4.5149849043172638,
+									24.101266154931647,
+									5.5031361571144197,
+									3.68230111106817
 								],
 								[
 									6.3321276191352638e-06,
@@ -878,15 +878,15 @@
 								],
 								[
 									0.016706890737138977,
-									2.0679179612592855,
-									0.001996857945639796,
-									0.04720546493575313
+									2.067917961259286,
+									0.0019968579456397951,
+									0.047205464935753227
 								],
 								[
 									0.042338699764591849,
-									2.434025130192794,
-									0.004206047601164214,
-									0.15464205179496865
+									2.4340251301927935,
+									0.0042060476011642148,
+									0.15464205179496857
 								]
 							],
 							"error" : false,
@@ -1130,10 +1130,10 @@
 									"Linear slope"
 								],
 								[
-									"JaspColumn_21_Encoded",
-									"JaspColumn_44_Encoded1",
-									"JaspColumn_21_Encoded",
-									"JaspColumn_44_Encoded1"
+									"JaspColumn_2_Encoded",
+									"JaspColumn_1_Encoded1",
+									"JaspColumn_2_Encoded",
+									"JaspColumn_1_Encoded1"
 								],
 								[
 									0.099360071035552153,
@@ -1142,33 +1142,33 @@
 									0.025438392376686398
 								],
 								[
-									0.029627441146692187,
-									0.035279301473847779,
-									0.0086943699120816537,
+									0.029627441146692107,
+									0.035279301473847786,
+									0.008694369912081638,
 									0.0103529459643438
 								],
 								[
-									3.3536501024033054,
-									2.7124350385643199,
-									-0.30105845932575009,
+									3.3536501024033143,
+									2.712435038564319,
+									-0.30105845932575059,
 									2.4571163091450328
 								],
 								[
 									0.00079753143631799972,
 									0.0066790871368502813,
-									0.76336991696400891,
+									0.76336991696400847,
 									0.014005733358813499
 								],
 								[
-									0.041291353433955402,
-									0.026546653165266082,
-									-0.019658165506488176,
+									0.041291353433955555,
+									0.026546653165266068,
+									-0.019658165506488145,
 									0.005146991152683255
 								],
 								[
-									0.1574287886371489,
-									0.16483897374221104,
-									0.014423138285409256,
+									0.15742878863714876,
+									0.16483897374221107,
+									0.014423138285409224,
 									0.045729793600689544
 								]
 							],
@@ -1402,11 +1402,11 @@
 							[
 								[
 									"JaspColumn_3_Encoded",
+									"JaspColumn_4_Encoded",
+									"JaspColumn_5_Encoded",
 									"JaspColumn_6_Encoded",
-									"JaspColumn_9_Encoded",
-									"JaspColumn_12_Encoded",
-									"JaspColumn_15_Encoded",
-									"JaspColumn_18_Encoded"
+									"JaspColumn_7_Encoded",
+									"JaspColumn_8_Encoded"
 								],
 								[
 									0.080497171886650815,
@@ -1418,17 +1418,17 @@
 								],
 								[
 									0.0097959099396727131,
-									0.007900656806830008,
-									0.005966137727099175,
-									0.003388831989782726,
+									0.0079006568068300115,
+									0.0059661377270991732,
+									0.0033888319897827281,
 									0.0024384487192148259,
 									0.0033964284700409423
 								],
 								[
 									8.2174266997538634,
-									8.8254225584082278,
-									9.073944942155137,
-									8.5547597769024328,
+									8.8254225584082242,
+									9.0739449421551406,
+									8.5547597769024275,
 									5.9955840312397326,
 									4.6595224619173594
 								],
@@ -1442,9 +1442,9 @@
 								],
 								[
 									0.061297541209094364,
-									0.054241632013641038,
-									0.042442990181092467,
-									0.022348654947242148,
+									0.054241632013641031,
+									0.042442990181092474,
+									0.022348654947242145,
 									0.0098406525341125095,
 									0.0091688572691046577
 								],
@@ -1452,7 +1452,7 @@
 									0.099696802564207265,
 									0.085211637604837118,
 									0.065829820324932536,
-									0.035632632246504849,
+									0.035632632246504856,
 									0.019399195869730268,
 									0.022482612223798104
 								]
@@ -1565,7 +1565,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1749641616615.png",
+					"filePathPng" : "resources/0/_1_t1732277476007.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "pathplot",
@@ -1608,7 +1608,7 @@
 				"bootstrapSamples" : 1000,
 				"categorical" : 
 				[
-					"JaspColumn_44_Encoded"
+					"JaspColumn_1_Encoded"
 				],
 				"categorical.types" : 
 				[
@@ -1627,7 +1627,7 @@
 				"quadratic" : false,
 				"regressions" : 
 				[
-					"JaspColumn_21_Encoded"
+					"JaspColumn_2_Encoded"
 				],
 				"regressions.types" : 
 				[
@@ -1648,35 +1648,35 @@
 						"timing" : 1.0,
 						"variable" : 
 						[
-							"JaspColumn_6_Encoded"
+							"JaspColumn_4_Encoded"
 						]
 					},
 					{
 						"timing" : 2.0,
 						"variable" : 
 						[
-							"JaspColumn_9_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					},
 					{
 						"timing" : 3.0,
 						"variable" : 
 						[
-							"JaspColumn_12_Encoded"
+							"JaspColumn_6_Encoded"
 						]
 					},
 					{
 						"timing" : 4.0,
 						"variable" : 
 						[
-							"JaspColumn_15_Encoded"
+							"JaspColumn_7_Encoded"
 						]
 					},
 					{
 						"timing" : 5.0,
 						"variable" : 
 						[
-							"JaspColumn_18_Encoded"
+							"JaspColumn_8_Encoded"
 						]
 					}
 				],
@@ -1692,11 +1692,11 @@
 				"variables" : 
 				[
 					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
 					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_12_Encoded",
-					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded"
+					"JaspColumn_7_Encoded",
+					"JaspColumn_8_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -1767,7 +1767,7 @@
 		"bootstrapSamples" : 1000,
 		"categorical" : 
 		[
-			"JaspColumn_44_Encoded"
+			"JaspColumn_1_Encoded"
 		],
 		"categorical.types" : 
 		[
@@ -1806,7 +1806,7 @@
 		"rSquared" : false,
 		"regressions" : 
 		[
-			"JaspColumn_21_Encoded"
+			"JaspColumn_2_Encoded"
 		],
 		"regressions.types" : 
 		[
@@ -1833,35 +1833,35 @@
 				"timing" : 1.0,
 				"variable" : 
 				[
-					"JaspColumn_6_Encoded"
+					"JaspColumn_4_Encoded"
 				]
 			},
 			{
 				"timing" : 2.0,
 				"variable" : 
 				[
-					"JaspColumn_9_Encoded"
+					"JaspColumn_5_Encoded"
 				]
 			},
 			{
 				"timing" : 3.0,
 				"variable" : 
 				[
-					"JaspColumn_12_Encoded"
+					"JaspColumn_6_Encoded"
 				]
 			},
 			{
 				"timing" : 4.0,
 				"variable" : 
 				[
-					"JaspColumn_15_Encoded"
+					"JaspColumn_7_Encoded"
 				]
 			},
 			{
 				"timing" : 5.0,
 				"variable" : 
 				[
-					"JaspColumn_18_Encoded"
+					"JaspColumn_8_Encoded"
 				]
 			}
 		],
@@ -1877,11 +1877,11 @@
 		"variables" : 
 		[
 			"JaspColumn_3_Encoded",
+			"JaspColumn_4_Encoded",
+			"JaspColumn_5_Encoded",
 			"JaspColumn_6_Encoded",
-			"JaspColumn_9_Encoded",
-			"JaspColumn_12_Encoded",
-			"JaspColumn_15_Encoded",
-			"JaspColumn_18_Encoded"
+			"JaspColumn_7_Encoded",
+			"JaspColumn_8_Encoded"
 		],
 		"variables.types" : 
 		[

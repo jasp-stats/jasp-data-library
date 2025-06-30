@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -110,7 +110,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1749642061206.png",
+					"filePathPng" : "resources/0/_0_t1732281065979.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot1",
@@ -203,7 +203,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1749642061743.png",
+					"filePathPng" : "resources/0/_1_t1732281066548.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot2",
@@ -1221,12 +1221,12 @@
 		"linearityTable" : true,
 		"manualProcessVariation" : true,
 		"manualProcessVariationValue" : 6.0,
-		"measurement" : "JaspColumn_0_Encoded",
+		"measurement" : "JaspColumn_2_Encoded",
 		"measurement.types" : 
 		[
 			"scale"
 		],
-		"part" : "JaspColumn_4_Encoded",
+		"part" : "JaspColumn_0_Encoded",
 		"part.types" : 
 		[
 			"nominal"
@@ -1234,7 +1234,7 @@
 		"percentProcessVariationPlot" : true,
 		"plotHeight" : 320,
 		"plotWidth" : 480,
-		"standard" : "JaspColumn_7_Encoded",
+		"standard" : "JaspColumn_1_Encoded",
 		"standard.types" : 
 		[
 			"scale"

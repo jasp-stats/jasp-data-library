@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -159,16 +159,16 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_1_Encoded"
 				],
 				[
 					"Watson-Wheeler"
 				],
 				[
-					3.4323407778780988e-08
+					3.9479089154231628e-08
 				],
 				[
-					40.486977415323011
+					40.193213822757663
 				],
 				[
 					4.0
@@ -207,14 +207,14 @@
 			"optionMustBe" : 
 			{
 				"customPeriod" : 360.0,
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_0_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
 				],
 				"fixedFactors" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_1_Encoded"
 				],
 				"fixedFactors.types" : 
 				[
@@ -243,7 +243,7 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_1_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -311,14 +311,14 @@
 			}
 		},
 		"customPeriod" : 360.0,
-		"dependent" : "JaspColumn_3_Encoded",
+		"dependent" : "JaspColumn_0_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
 		],
 		"fixedFactors" : 
 		[
-			"JaspColumn_2_Encoded"
+			"JaspColumn_1_Encoded"
 		],
 		"fixedFactors.types" : 
 		[

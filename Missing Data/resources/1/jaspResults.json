@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -197,10 +197,10 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_3_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded",
-							"JaspColumn_12_Encoded"
+							"JaspColumn_0_Encoded",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						[
 							"-",
@@ -209,10 +209,10 @@
 							"-"
 						],
 						[
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded",
-							"JaspColumn_12_Encoded",
-							"JaspColumn_15_Encoded"
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded",
+							"JaspColumn_3_Encoded",
+							"JaspColumn_4_Encoded"
 						],
 						[
 							2.8997110620121198,
@@ -243,20 +243,20 @@
 						"pairs" : 
 						[
 							[
+								"JaspColumn_0_Encoded",
+								"JaspColumn_1_Encoded"
+							],
+							[
+								"JaspColumn_1_Encoded",
+								"JaspColumn_2_Encoded"
+							],
+							[
+								"JaspColumn_2_Encoded",
+								"JaspColumn_3_Encoded"
+							],
+							[
 								"JaspColumn_3_Encoded",
-								"JaspColumn_6_Encoded"
-							],
-							[
-								"JaspColumn_6_Encoded",
-								"JaspColumn_9_Encoded"
-							],
-							[
-								"JaspColumn_9_Encoded",
-								"JaspColumn_12_Encoded"
-							],
-							[
-								"JaspColumn_12_Encoded",
-								"JaspColumn_15_Encoded"
+								"JaspColumn_4_Encoded"
 							]
 						],
 						"pairs.types" : 
@@ -298,10 +298,10 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_3_Encoded - JaspColumn_6_Encoded",
-							"JaspColumn_6_Encoded - JaspColumn_9_Encoded",
-							"JaspColumn_9_Encoded - JaspColumn_12_Encoded",
-							"JaspColumn_12_Encoded - JaspColumn_15_Encoded"
+							"JaspColumn_0_Encoded - JaspColumn_1_Encoded",
+							"JaspColumn_1_Encoded - JaspColumn_2_Encoded",
+							"JaspColumn_2_Encoded - JaspColumn_3_Encoded",
+							"JaspColumn_3_Encoded - JaspColumn_4_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -370,20 +370,20 @@
 				"pairs" : 
 				[
 					[
+						"JaspColumn_0_Encoded",
+						"JaspColumn_1_Encoded"
+					],
+					[
+						"JaspColumn_1_Encoded",
+						"JaspColumn_2_Encoded"
+					],
+					[
+						"JaspColumn_2_Encoded",
+						"JaspColumn_3_Encoded"
+					],
+					[
 						"JaspColumn_3_Encoded",
-						"JaspColumn_6_Encoded"
-					],
-					[
-						"JaspColumn_6_Encoded",
-						"JaspColumn_9_Encoded"
-					],
-					[
-						"JaspColumn_9_Encoded",
-						"JaspColumn_12_Encoded"
-					],
-					[
-						"JaspColumn_12_Encoded",
-						"JaspColumn_15_Encoded"
+						"JaspColumn_4_Encoded"
 					]
 				],
 				"pairs.types" : 
@@ -475,20 +475,20 @@
 		"pairs" : 
 		[
 			[
+				"JaspColumn_0_Encoded",
+				"JaspColumn_1_Encoded"
+			],
+			[
+				"JaspColumn_1_Encoded",
+				"JaspColumn_2_Encoded"
+			],
+			[
+				"JaspColumn_2_Encoded",
+				"JaspColumn_3_Encoded"
+			],
+			[
 				"JaspColumn_3_Encoded",
-				"JaspColumn_6_Encoded"
-			],
-			[
-				"JaspColumn_6_Encoded",
-				"JaspColumn_9_Encoded"
-			],
-			[
-				"JaspColumn_9_Encoded",
-				"JaspColumn_12_Encoded"
-			],
-			[
-				"JaspColumn_12_Encoded",
-				"JaspColumn_15_Encoded"
+				"JaspColumn_4_Encoded"
 			]
 		],
 		"pairs.types" : 

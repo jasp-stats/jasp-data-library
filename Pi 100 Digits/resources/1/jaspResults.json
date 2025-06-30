@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -114,7 +114,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1749640530459.png",
+					"filePathPng" : "resources/1/_0_t1732274314637.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "priorPredictivePerformanceDistributionPlotPrior",
@@ -139,7 +139,7 @@
 						[
 							"unknown"
 						],
-						"dataVariableSelected" : "JaspColumn_5_Encoded",
+						"dataVariableSelected" : "JaspColumn_7_Encoded",
 						"dataVariableSelected.types" : 
 						[
 							"nominal"
@@ -339,7 +339,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_1_t1749640530685.png",
+					"filePathPng" : "resources/1/_1_t1732274314869.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "sequentialAnalysisPredictivePerformancePlot",
@@ -364,7 +364,7 @@
 						[
 							"unknown"
 						],
-						"dataVariableSelected" : "JaspColumn_5_Encoded",
+						"dataVariableSelected" : "JaspColumn_7_Encoded",
 						"dataVariableSelected.types" : 
 						[
 							"nominal"
@@ -673,7 +673,7 @@
 						[
 							"unknown"
 						],
-						"dataVariableSelected" : "JaspColumn_5_Encoded",
+						"dataVariableSelected" : "JaspColumn_7_Encoded",
 						"dataVariableSelected.types" : 
 						[
 							"nominal"
@@ -1000,7 +1000,7 @@
 						[
 							"unknown"
 						],
-						"dataVariableSelected" : "JaspColumn_5_Encoded",
+						"dataVariableSelected" : "JaspColumn_7_Encoded",
 						"dataVariableSelected.types" : 
 						[
 							"nominal"
@@ -1154,6 +1154,14 @@
 			"dataVariableSelected" : 
 			{
 				"shouldEncode" : true
+			},
+			"posteriorDistributionPlotConditionalCiBf" : 
+			{
+				"isRCode" : true
+			},
+			"posteriorDistributionPlotMarginalCiBf" : 
+			{
+				"isRCode" : true
 			}
 		},
 		"colorPalette" : "colorblind",
@@ -1174,7 +1182,7 @@
 		[
 			"unknown"
 		],
-		"dataVariableSelected" : "JaspColumn_5_Encoded",
+		"dataVariableSelected" : "JaspColumn_7_Encoded",
 		"dataVariableSelected.types" : 
 		[
 			"nominal"

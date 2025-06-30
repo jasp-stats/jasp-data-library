@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -74,10 +74,10 @@
 							{
 								"labels" : 
 								[
-									"JaspColumn_0_Encoded",
-									"JaspColumn_3_Encoded",
-									"JaspColumn_6_Encoded",
-									"JaspColumn_9_Encoded"
+									"JaspColumn_11_Encoded",
+									"JaspColumn_14_Encoded",
+									"JaspColumn_5_Encoded",
+									"JaspColumn_8_Encoded"
 								],
 								"title" : "Feature",
 								"titleType" : "character"
@@ -89,7 +89,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1749640942293.png",
+					"filePathPng" : "resources/0/_1_t1732274996755.png",
 					"height" : 600,
 					"messages" : [],
 					"name" : "oneFigure",
@@ -139,10 +139,10 @@
 				"numberOfTrees" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded",
+					"JaspColumn_14_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -191,10 +191,10 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"centroid1" : "sf:4;dp:3",
-					"centroid2" : "sf:4;dp:3",
-					"centroid3" : "sf:4;dp:3",
-					"centroid4" : "sf:4;dp:3",
+					"centroid1" : "dp:3",
+					"centroid2" : "dp:3",
+					"centroid3" : "dp:3",
+					"centroid4" : "dp:3",
 					"percentage" : "sf:4;dp:3",
 					"silh_scores" : "sf:4;dp:3",
 					"withinss" : "sf:4;dp:3"
@@ -269,10 +269,10 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"centroid1" : "Center JaspColumn_6_Encoded",
-					"centroid2" : "Center JaspColumn_9_Encoded",
-					"centroid3" : "Center JaspColumn_0_Encoded",
-					"centroid4" : "Center JaspColumn_3_Encoded",
+					"centroid1" : "Center JaspColumn_5_Encoded",
+					"centroid2" : "Center JaspColumn_8_Encoded",
+					"centroid3" : "Center JaspColumn_11_Encoded",
+					"centroid4" : "Center JaspColumn_14_Encoded",
 					"cluster" : "Cluster",
 					"percentage" : "Explained proportion within-cluster heterogeneity",
 					"silh_scores" : "Silhouette score",
@@ -412,10 +412,10 @@
 				"numberOfTrees" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded",
+					"JaspColumn_14_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -523,10 +523,10 @@
 				"numberOfTrees" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded",
+					"JaspColumn_14_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -577,10 +577,10 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"Silh" : "sf:4;dp:3",
-					"aic" : "sf:4;dp:3",
-					"bic" : "sf:4;dp:3",
-					"measure" : "sf:4;dp:3"
+					"Silh" : "dp:2",
+					"aic" : "dp:2",
+					"bic" : "dp:2",
+					"measure" : "dp:2"
 				},
 				"listType" : "string",
 				"messages" : [],
@@ -698,7 +698,7 @@
 			"data" : 
 			[
 				[
-					3
+					3.0
 				],
 				[
 					150
@@ -745,10 +745,10 @@
 				"numberOfTrees" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded",
+					"JaspColumn_14_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -830,9 +830,11 @@
 					{
 						"breaks" : 
 						[
-							-2,
+							-10,
+							-5,
 							0,
-							2
+							5,
+							10
 						],
 						"breaksType" : "range",
 						"expand" : 
@@ -844,21 +846,23 @@
 						],
 						"labels" : 
 						[
-							"-2",
+							"-10",
+							"-5",
 							"0",
-							"2"
+							"5",
+							"10"
 						],
 						"limits" : 
 						[
-							-3,
-							3
+							-10,
+							10
 						],
-						"limitsType" : "manual",
+						"limitsType" : "breaks",
 						"range" : 
 						[
-							-2,
-							2,
-							2
+							-10,
+							10,
+							5
 						],
 						"title" : null,
 						"titleType" : "NULL"
@@ -913,7 +917,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1749640942127.png",
+			"filePathPng" : "resources/0/_0_t1732274996586.png",
 			"height" : 300,
 			"messages" : [],
 			"name" : "plot2dCluster",
@@ -938,10 +942,10 @@
 				"numberOfTrees" : null,
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded",
+					"JaspColumn_14_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -980,10 +984,10 @@
 			{
 				"predictors" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded",
+					"JaspColumn_14_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1035,7 +1039,6 @@
 		},
 		"addEllips" : false,
 		"addPredictions" : false,
-		"addProbabilities" : false,
 		"algorithm" : "Hartigan-Wong",
 		"centers" : "means",
 		"clusterDensityPlot" : true,
@@ -1057,10 +1060,10 @@
 		"predictionsColumn" : "",
 		"predictors" : 
 		[
-			"JaspColumn_6_Encoded",
-			"JaspColumn_9_Encoded",
-			"JaspColumn_0_Encoded",
-			"JaspColumn_3_Encoded"
+			"JaspColumn_5_Encoded",
+			"JaspColumn_8_Encoded",
+			"JaspColumn_11_Encoded",
+			"JaspColumn_14_Encoded"
 		],
 		"predictors.types" : 
 		[

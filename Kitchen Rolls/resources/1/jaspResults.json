@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -156,7 +156,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_24_Encoded"
+							"JaspColumn_16_Encoded"
 						],
 						[
 							0.27109310003943926
@@ -204,7 +204,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_24_Encoded"
+							"JaspColumn_16_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -383,7 +383,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_24_Encoded"
+							"JaspColumn_16_Encoded"
 						],
 						[
 							0.98421614644869293
@@ -430,7 +430,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_24_Encoded"
+							"JaspColumn_16_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -485,14 +485,14 @@
 			{
 				"dependent" : 
 				[
-					"JaspColumn_24_Encoded"
+					"JaspColumn_16_Encoded"
 				],
 				"dependent.types" : 
 				[
 					"scale"
 				],
 				"equalityOfVariancesTest" : true,
-				"group" : "JaspColumn_17_Encoded",
+				"group" : "JaspColumn_20_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -664,7 +664,7 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_24_Encoded"
+					"JaspColumn_16_Encoded"
 				],
 				[
 					-0.75360532612302222
@@ -735,7 +735,7 @@
 				"alternative" : "greater",
 				"dependent" : 
 				[
-					"JaspColumn_24_Encoded"
+					"JaspColumn_16_Encoded"
 				],
 				"dependent.types" : 
 				[
@@ -747,7 +747,7 @@
 				"effectSizeType" : "cohen",
 				"equalityOfVariancesTest" : true,
 				"equalityOfVariancesTestType" : "brownForsythe",
-				"group" : "JaspColumn_17_Encoded",
+				"group" : "JaspColumn_20_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -780,7 +780,7 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"Student-JaspColumn_24_Encoded"
+					"Student-JaspColumn_16_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -983,8 +983,8 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_24_Encoded",
-							"JaspColumn_24_Encoded"
+							"JaspColumn_16_Encoded",
+							"JaspColumn_16_Encoded"
 						],
 						[
 							"clock",
@@ -1112,13 +1112,13 @@
 			{
 				"dependent" : 
 				[
-					"JaspColumn_24_Encoded"
+					"JaspColumn_16_Encoded"
 				],
 				"dependent.types" : 
 				[
 					"scale"
 				],
-				"group" : "JaspColumn_17_Encoded",
+				"group" : "JaspColumn_20_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -1169,7 +1169,7 @@
 		"barPlotYAxisFixedToZero" : true,
 		"dependent" : 
 		[
-			"JaspColumn_24_Encoded"
+			"JaspColumn_16_Encoded"
 		],
 		"dependent.types" : 
 		[
@@ -1184,7 +1184,7 @@
 		"effectSizeType" : "cohen",
 		"equalityOfVariancesTest" : true,
 		"equalityOfVariancesTestType" : "brownForsythe",
-		"group" : "JaspColumn_17_Encoded",
+		"group" : "JaspColumn_20_Encoded",
 		"group.types" : 
 		[
 			"nominal"

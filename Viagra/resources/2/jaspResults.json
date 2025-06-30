@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -159,8 +159,8 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_9_Encoded"
 				],
 				[
 					30,
@@ -234,8 +234,8 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_9_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -266,8 +266,8 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_9_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -442,8 +442,8 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_3_Encoded",
-			"JaspColumn_6_Encoded"
+			"JaspColumn_6_Encoded",
+			"JaspColumn_9_Encoded"
 		],
 		"variables.types" : 
 		[

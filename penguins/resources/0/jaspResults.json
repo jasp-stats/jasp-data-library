@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -61,13 +61,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_20_Encoded",
-					"JaspColumn_24_Encoded",
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
 					"JaspColumn_14_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -86,7 +86,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_23_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -256,7 +256,7 @@
 					0.01
 				],
 				[
-					23
+					22
 				],
 				[
 					300
@@ -265,7 +265,7 @@
 					33
 				],
 				[
-					0.90909090909090917
+					0.96969696969696972
 				]
 			],
 			"error" : false,
@@ -323,13 +323,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_20_Encoded",
-					"JaspColumn_24_Encoded",
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
 					"JaspColumn_14_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -350,7 +350,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_23_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -578,13 +578,13 @@
 					"Gentoo"
 				],
 				[
-					14,
-					1,
+					15,
+					0,
 					0
 				],
 				[
-					2,
-					6,
+					1,
+					7,
 					0
 				],
 				[
@@ -651,13 +651,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_20_Encoded",
-					"JaspColumn_24_Encoded",
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
 					"JaspColumn_14_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -676,7 +676,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_23_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -765,7 +765,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_3_t1749640951012.png",
+			"filePathPng" : "resources/0/_3_t1732275005116.png",
 			"height" : 1000,
 			"messages" : [],
 			"name" : "decisionBoundary",
@@ -819,13 +819,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_20_Encoded",
-					"JaspColumn_24_Encoded",
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
 					"JaspColumn_14_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -844,7 +844,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_23_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -965,7 +965,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_2_t1749640950441.png",
+			"filePathPng" : "resources/0/_2_t1732275004574.png",
 			"height" : 500,
 			"messages" : [],
 			"name" : "decisionTreePlot",
@@ -1017,13 +1017,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_20_Encoded",
-					"JaspColumn_24_Encoded",
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
 					"JaspColumn_14_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1042,7 +1042,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_23_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1082,13 +1082,13 @@
 			{
 				"predictors" : 
 				[
-					"JaspColumn_20_Encoded",
-					"JaspColumn_24_Encoded",
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
 					"JaspColumn_14_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1100,7 +1100,7 @@
 					"scale",
 					"scale"
 				],
-				"target" : "JaspColumn_23_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1209,7 +1209,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1749640949517.png",
+			"filePathPng" : "resources/0/_0_t1732275003768.png",
 			"height" : 30,
 			"messages" : [],
 			"name" : "plotDataSplit",
@@ -1223,13 +1223,13 @@
 				"modelValid" : "validationManual",
 				"predictors" : 
 				[
-					"JaspColumn_20_Encoded",
-					"JaspColumn_24_Encoded",
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
 					"JaspColumn_14_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1241,7 +1241,7 @@
 					"scale",
 					"scale"
 				],
-				"target" : "JaspColumn_23_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1368,7 +1368,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_1_t1749640949860.png",
+			"filePathPng" : "resources/0/_1_t1732275004113.png",
 			"height" : 300,
 			"messages" : [],
 			"name" : "rocCurve",
@@ -1419,13 +1419,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_20_Encoded",
-					"JaspColumn_24_Encoded",
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
 					"JaspColumn_14_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1445,7 +1445,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_23_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1673,80 +1673,80 @@
 					33
 				],
 				[
-					0.90909090909090906,
-					0.90909090909090906,
+					0.96969696969696972,
+					0.96969696969696972,
 					1.0,
-					0.93939393939393934
+					0.97979797979797978
 				],
 				[
-					0.93333333333333335,
-					0.75,
 					1.0,
-					0.91464646464646471
-				],
-				[
 					0.875,
-					0.8571428571428571,
 					1.0,
-					0.90909090909090906
+					0.97348484848484851
 				],
 				[
-					0.058823529411764705,
-					0.076923076923076927,
+					0.9375,
+					1.0,
+					1.0,
+					0.96969696969696972
+				],
+				[
 					0.0,
-					0.045248868778280542
-				],
-				[
-					0.066666666666666666,
-					0.25,
+					0.038461538461538464,
 					0.0,
-					0.10555555555555556
+					0.01282051282051282
 				],
 				[
-					0.90322580645161288,
-					0.79999999999999993,
-					1.0,
-					0.91065493646138806
-				],
-				[
-					0.81919376912458819,
-					0.744282234072562,
-					1.0,
-					0.85449200106571677
-				],
-				[
-					0.87683823529411764,
-					1.0,
-					1.0,
-					0.95894607843137258
-				],
-				[
-					0.88888888888888884,
-					0.95999999999999996,
-					1.0,
-					0.9496296296296296
-				],
-				[
-					0.94117647058823528,
-					0.92307692307692313,
-					1.0,
-					0.95475113122171951
-				],
-				[
+					0.0,
 					0.125,
-					0.14285714285714285,
 					0.0,
-					0.089285714285714288
+					0.041666666666666671
 				],
 				[
-					0.1111111111111111,
-					0.040000000000000001,
-					0.0,
-					0.050370370370370371
+					0.967741935483871,
+					0.93333333333333335,
+					1.0,
+					0.97021831215379595
 				],
 				[
+					0.94096581588635131,
+					0.91724923213167853,
+					1.0,
+					0.95273834933934332
+				],
+				[
+					0.96875,
+					1.0,
+					1.0,
+					0.98958333333333337
+				],
+				[
+					0.94444444444444442,
+					1.0,
+					1.0,
+					0.98148148148148151
+				],
+				[
+					1.0,
+					0.96153846153846156,
+					1.0,
+					0.98717948717948723
+				],
+				[
+					0.0625,
+					0.0,
+					0.0,
+					0.020833333333333336
+				],
+				[
+					0.055555555555555552,
+					0.0,
+					0.0,
+					0.018518518518518517
+				],
+				[
+					15.0,
 					3.5,
-					1.2,
 					"\u221e",
 					"\u221e"
 				],
@@ -1820,13 +1820,13 @@
 				"populationSize" : null,
 				"predictors" : 
 				[
-					"JaspColumn_20_Encoded",
-					"JaspColumn_24_Encoded",
+					"JaspColumn_29_Encoded",
+					"JaspColumn_30_Encoded",
 					"JaspColumn_14_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_15_Encoded",
+					"JaspColumn_18_Encoded",
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1845,7 +1845,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_23_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1978,7 +1978,6 @@
 		},
 		"addIndicator" : false,
 		"addPredictions" : false,
-		"addProbabilities" : false,
 		"andrewsCurve" : false,
 		"classProportionsTable" : false,
 		"complexityParameter" : 0.01,
@@ -2004,16 +2003,16 @@
 		"plotHeight" : 320,
 		"plotWidth" : 480,
 		"pointsShown" : true,
-		"predictionsColumn" : "JaspColumn_17_Encoded",
+		"predictionsColumn" : "JaspColumn_8_Encoded",
 		"predictors" : 
 		[
-			"JaspColumn_20_Encoded",
-			"JaspColumn_24_Encoded",
+			"JaspColumn_29_Encoded",
+			"JaspColumn_30_Encoded",
 			"JaspColumn_14_Encoded",
-			"JaspColumn_3_Encoded",
-			"JaspColumn_0_Encoded",
-			"JaspColumn_9_Encoded",
-			"JaspColumn_6_Encoded"
+			"JaspColumn_15_Encoded",
+			"JaspColumn_18_Encoded",
+			"JaspColumn_21_Encoded",
+			"JaspColumn_24_Encoded"
 		],
 		"predictors.types" : 
 		[
@@ -2034,7 +2033,7 @@
 		"splitsTable" : false,
 		"splitsTreeTable" : true,
 		"tableShap" : false,
-		"target" : "JaspColumn_23_Encoded",
+		"target" : "JaspColumn_11_Encoded",
 		"target.types" : 
 		[
 			"nominal"

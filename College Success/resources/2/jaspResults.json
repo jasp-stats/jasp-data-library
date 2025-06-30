@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,7 +18,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_0_t1749640320812.png",
+			"filePathPng" : "resources/2/_0_t1732712312389.png",
 			"height" : 1520,
 			"messages" : [],
 			"name" : "corrPlot",
@@ -45,12 +45,12 @@
 				"spearman" : true,
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded"
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -98,8 +98,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_1_Encoded",
+					"JaspColumn_4_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -133,8 +133,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -168,8 +168,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_9_Encoded"
+					"JaspColumn_1_Encoded",
+					"JaspColumn_3_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -203,8 +203,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_15_Encoded"
+					"JaspColumn_1_Encoded",
+					"JaspColumn_5_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -238,8 +238,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_18_Encoded"
+					"JaspColumn_1_Encoded",
+					"JaspColumn_6_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -273,8 +273,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_15_Encoded"
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -308,8 +308,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_18_Encoded"
+					"JaspColumn_4_Encoded",
+					"JaspColumn_6_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -343,8 +343,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_2_Encoded",
+					"JaspColumn_4_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -378,8 +378,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded"
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -413,8 +413,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_15_Encoded"
+					"JaspColumn_2_Encoded",
+					"JaspColumn_5_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -448,8 +448,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_18_Encoded"
+					"JaspColumn_2_Encoded",
+					"JaspColumn_6_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -483,8 +483,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -518,8 +518,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_15_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_5_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -553,8 +553,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_18_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -594,30 +594,30 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"JaspColumn_0_Encoded_pearson_estimate" : "sf:4;dp:3",
-					"JaspColumn_0_Encoded_pearson_p.value" : "dp:3;p:.001",
-					"JaspColumn_0_Encoded_spearman_estimate" : "sf:4;dp:3",
-					"JaspColumn_0_Encoded_spearman_p.value" : "dp:3;p:.001",
-					"JaspColumn_15_Encoded_pearson_estimate" : "sf:4;dp:3",
-					"JaspColumn_15_Encoded_pearson_p.value" : "dp:3;p:.001",
-					"JaspColumn_15_Encoded_spearman_estimate" : "sf:4;dp:3",
-					"JaspColumn_15_Encoded_spearman_p.value" : "dp:3;p:.001",
-					"JaspColumn_18_Encoded_pearson_estimate" : "sf:4;dp:3",
-					"JaspColumn_18_Encoded_pearson_p.value" : "dp:3;p:.001",
-					"JaspColumn_18_Encoded_spearman_estimate" : "sf:4;dp:3",
-					"JaspColumn_18_Encoded_spearman_p.value" : "dp:3;p:.001",
+					"JaspColumn_1_Encoded_pearson_estimate" : "sf:4;dp:3",
+					"JaspColumn_1_Encoded_pearson_p.value" : "dp:3;p:.001",
+					"JaspColumn_1_Encoded_spearman_estimate" : "sf:4;dp:3",
+					"JaspColumn_1_Encoded_spearman_p.value" : "dp:3;p:.001",
+					"JaspColumn_2_Encoded_pearson_estimate" : "sf:4;dp:3",
+					"JaspColumn_2_Encoded_pearson_p.value" : "dp:3;p:.001",
+					"JaspColumn_2_Encoded_spearman_estimate" : "sf:4;dp:3",
+					"JaspColumn_2_Encoded_spearman_p.value" : "dp:3;p:.001",
 					"JaspColumn_3_Encoded_pearson_estimate" : "sf:4;dp:3",
 					"JaspColumn_3_Encoded_pearson_p.value" : "dp:3;p:.001",
 					"JaspColumn_3_Encoded_spearman_estimate" : "sf:4;dp:3",
 					"JaspColumn_3_Encoded_spearman_p.value" : "dp:3;p:.001",
+					"JaspColumn_4_Encoded_pearson_estimate" : "sf:4;dp:3",
+					"JaspColumn_4_Encoded_pearson_p.value" : "dp:3;p:.001",
+					"JaspColumn_4_Encoded_spearman_estimate" : "sf:4;dp:3",
+					"JaspColumn_4_Encoded_spearman_p.value" : "dp:3;p:.001",
+					"JaspColumn_5_Encoded_pearson_estimate" : "sf:4;dp:3",
+					"JaspColumn_5_Encoded_pearson_p.value" : "dp:3;p:.001",
+					"JaspColumn_5_Encoded_spearman_estimate" : "sf:4;dp:3",
+					"JaspColumn_5_Encoded_spearman_p.value" : "dp:3;p:.001",
 					"JaspColumn_6_Encoded_pearson_estimate" : "sf:4;dp:3",
 					"JaspColumn_6_Encoded_pearson_p.value" : "dp:3;p:.001",
 					"JaspColumn_6_Encoded_spearman_estimate" : "sf:4;dp:3",
-					"JaspColumn_6_Encoded_spearman_p.value" : "dp:3;p:.001",
-					"JaspColumn_9_Encoded_pearson_estimate" : "sf:4;dp:3",
-					"JaspColumn_9_Encoded_pearson_p.value" : "dp:3;p:.001",
-					"JaspColumn_9_Encoded_spearman_estimate" : "sf:4;dp:3",
-					"JaspColumn_9_Encoded_spearman_p.value" : "dp:3;p:.001"
+					"JaspColumn_6_Encoded_spearman_p.value" : "dp:3;p:.001"
 				},
 				"listType" : "string",
 				"messages" : [],
@@ -649,87 +649,68 @@
 				"rows" : 
 				[
 					"var1",
-					"JaspColumn_0_Encoded_pearson_estimate",
-					"JaspColumn_0_Encoded_pearson_p.value",
-					"JaspColumn_0_Encoded_spearman_estimate",
-					"JaspColumn_0_Encoded_spearman_p.value",
-					"JaspColumn_6_Encoded_pearson_estimate",
-					"JaspColumn_6_Encoded_pearson_p.value",
-					"JaspColumn_6_Encoded_spearman_estimate",
-					"JaspColumn_6_Encoded_spearman_p.value",
-					"JaspColumn_9_Encoded_pearson_estimate",
-					"JaspColumn_9_Encoded_pearson_p.value",
-					"JaspColumn_9_Encoded_spearman_estimate",
-					"JaspColumn_9_Encoded_spearman_p.value",
+					"JaspColumn_1_Encoded_pearson_estimate",
+					"JaspColumn_1_Encoded_pearson_p.value",
+					"JaspColumn_1_Encoded_spearman_estimate",
+					"JaspColumn_1_Encoded_spearman_p.value",
+					"JaspColumn_2_Encoded_pearson_estimate",
+					"JaspColumn_2_Encoded_pearson_p.value",
+					"JaspColumn_2_Encoded_spearman_estimate",
+					"JaspColumn_2_Encoded_spearman_p.value",
 					"JaspColumn_3_Encoded_pearson_estimate",
 					"JaspColumn_3_Encoded_pearson_p.value",
 					"JaspColumn_3_Encoded_spearman_estimate",
 					"JaspColumn_3_Encoded_spearman_p.value",
-					"JaspColumn_15_Encoded_pearson_estimate",
-					"JaspColumn_15_Encoded_pearson_p.value",
-					"JaspColumn_15_Encoded_spearman_estimate",
-					"JaspColumn_15_Encoded_spearman_p.value",
-					"JaspColumn_18_Encoded_pearson_estimate",
-					"JaspColumn_18_Encoded_pearson_p.value",
-					"JaspColumn_18_Encoded_spearman_estimate",
-					"JaspColumn_18_Encoded_spearman_p.value",
-					"JaspColumn_0_Encoded_sample.size",
-					"JaspColumn_0_Encoded_covariance",
-					"JaspColumn_0_Encoded_pearson_lower.ci",
-					"JaspColumn_0_Encoded_pearson_upper.ci",
-					"JaspColumn_0_Encoded_pearson_vsmpr",
-					"JaspColumn_0_Encoded_pearson_effect.size",
-					"JaspColumn_0_Encoded_pearson_se.effect.size",
-					"JaspColumn_0_Encoded_spearman_lower.ci",
-					"JaspColumn_0_Encoded_spearman_upper.ci",
-					"JaspColumn_0_Encoded_spearman_vsmpr",
-					"JaspColumn_0_Encoded_spearman_effect.size",
-					"JaspColumn_0_Encoded_spearman_se.effect.size",
-					"JaspColumn_0_Encoded_kendall_estimate",
-					"JaspColumn_0_Encoded_kendall_p.value",
-					"JaspColumn_0_Encoded_kendall_lower.ci",
-					"JaspColumn_0_Encoded_kendall_upper.ci",
-					"JaspColumn_0_Encoded_kendall_vsmpr",
-					"JaspColumn_0_Encoded_kendall_effect.size",
-					"JaspColumn_0_Encoded_kendall_se.effect.size",
-					"JaspColumn_6_Encoded_sample.size",
-					"JaspColumn_6_Encoded_covariance",
-					"JaspColumn_6_Encoded_pearson_lower.ci",
-					"JaspColumn_6_Encoded_pearson_upper.ci",
-					"JaspColumn_6_Encoded_pearson_vsmpr",
-					"JaspColumn_6_Encoded_pearson_effect.size",
-					"JaspColumn_6_Encoded_pearson_se.effect.size",
-					"JaspColumn_6_Encoded_spearman_lower.ci",
-					"JaspColumn_6_Encoded_spearman_upper.ci",
-					"JaspColumn_6_Encoded_spearman_vsmpr",
-					"JaspColumn_6_Encoded_spearman_effect.size",
-					"JaspColumn_6_Encoded_spearman_se.effect.size",
-					"JaspColumn_6_Encoded_kendall_estimate",
-					"JaspColumn_6_Encoded_kendall_p.value",
-					"JaspColumn_6_Encoded_kendall_lower.ci",
-					"JaspColumn_6_Encoded_kendall_upper.ci",
-					"JaspColumn_6_Encoded_kendall_vsmpr",
-					"JaspColumn_6_Encoded_kendall_effect.size",
-					"JaspColumn_6_Encoded_kendall_se.effect.size",
-					"JaspColumn_9_Encoded_sample.size",
-					"JaspColumn_9_Encoded_covariance",
-					"JaspColumn_9_Encoded_pearson_lower.ci",
-					"JaspColumn_9_Encoded_pearson_upper.ci",
-					"JaspColumn_9_Encoded_pearson_vsmpr",
-					"JaspColumn_9_Encoded_pearson_effect.size",
-					"JaspColumn_9_Encoded_pearson_se.effect.size",
-					"JaspColumn_9_Encoded_spearman_lower.ci",
-					"JaspColumn_9_Encoded_spearman_upper.ci",
-					"JaspColumn_9_Encoded_spearman_vsmpr",
-					"JaspColumn_9_Encoded_spearman_effect.size",
-					"JaspColumn_9_Encoded_spearman_se.effect.size",
-					"JaspColumn_9_Encoded_kendall_estimate",
-					"JaspColumn_9_Encoded_kendall_p.value",
-					"JaspColumn_9_Encoded_kendall_lower.ci",
-					"JaspColumn_9_Encoded_kendall_upper.ci",
-					"JaspColumn_9_Encoded_kendall_vsmpr",
-					"JaspColumn_9_Encoded_kendall_effect.size",
-					"JaspColumn_9_Encoded_kendall_se.effect.size",
+					"JaspColumn_4_Encoded_pearson_estimate",
+					"JaspColumn_4_Encoded_pearson_p.value",
+					"JaspColumn_4_Encoded_spearman_estimate",
+					"JaspColumn_4_Encoded_spearman_p.value",
+					"JaspColumn_5_Encoded_pearson_estimate",
+					"JaspColumn_5_Encoded_pearson_p.value",
+					"JaspColumn_5_Encoded_spearman_estimate",
+					"JaspColumn_5_Encoded_spearman_p.value",
+					"JaspColumn_6_Encoded_pearson_estimate",
+					"JaspColumn_6_Encoded_pearson_p.value",
+					"JaspColumn_6_Encoded_spearman_estimate",
+					"JaspColumn_6_Encoded_spearman_p.value",
+					"JaspColumn_1_Encoded_sample.size",
+					"JaspColumn_1_Encoded_covariance",
+					"JaspColumn_1_Encoded_pearson_lower.ci",
+					"JaspColumn_1_Encoded_pearson_upper.ci",
+					"JaspColumn_1_Encoded_pearson_vsmpr",
+					"JaspColumn_1_Encoded_pearson_effect.size",
+					"JaspColumn_1_Encoded_pearson_se.effect.size",
+					"JaspColumn_1_Encoded_spearman_lower.ci",
+					"JaspColumn_1_Encoded_spearman_upper.ci",
+					"JaspColumn_1_Encoded_spearman_vsmpr",
+					"JaspColumn_1_Encoded_spearman_effect.size",
+					"JaspColumn_1_Encoded_spearman_se.effect.size",
+					"JaspColumn_1_Encoded_kendall_estimate",
+					"JaspColumn_1_Encoded_kendall_p.value",
+					"JaspColumn_1_Encoded_kendall_lower.ci",
+					"JaspColumn_1_Encoded_kendall_upper.ci",
+					"JaspColumn_1_Encoded_kendall_vsmpr",
+					"JaspColumn_1_Encoded_kendall_effect.size",
+					"JaspColumn_1_Encoded_kendall_se.effect.size",
+					"JaspColumn_2_Encoded_sample.size",
+					"JaspColumn_2_Encoded_covariance",
+					"JaspColumn_2_Encoded_pearson_lower.ci",
+					"JaspColumn_2_Encoded_pearson_upper.ci",
+					"JaspColumn_2_Encoded_pearson_vsmpr",
+					"JaspColumn_2_Encoded_pearson_effect.size",
+					"JaspColumn_2_Encoded_pearson_se.effect.size",
+					"JaspColumn_2_Encoded_spearman_lower.ci",
+					"JaspColumn_2_Encoded_spearman_upper.ci",
+					"JaspColumn_2_Encoded_spearman_vsmpr",
+					"JaspColumn_2_Encoded_spearman_effect.size",
+					"JaspColumn_2_Encoded_spearman_se.effect.size",
+					"JaspColumn_2_Encoded_kendall_estimate",
+					"JaspColumn_2_Encoded_kendall_p.value",
+					"JaspColumn_2_Encoded_kendall_lower.ci",
+					"JaspColumn_2_Encoded_kendall_upper.ci",
+					"JaspColumn_2_Encoded_kendall_vsmpr",
+					"JaspColumn_2_Encoded_kendall_effect.size",
+					"JaspColumn_2_Encoded_kendall_se.effect.size",
 					"JaspColumn_3_Encoded_sample.size",
 					"JaspColumn_3_Encoded_covariance",
 					"JaspColumn_3_Encoded_pearson_lower.ci",
@@ -749,44 +730,63 @@
 					"JaspColumn_3_Encoded_kendall_vsmpr",
 					"JaspColumn_3_Encoded_kendall_effect.size",
 					"JaspColumn_3_Encoded_kendall_se.effect.size",
-					"JaspColumn_15_Encoded_sample.size",
-					"JaspColumn_15_Encoded_covariance",
-					"JaspColumn_15_Encoded_pearson_lower.ci",
-					"JaspColumn_15_Encoded_pearson_upper.ci",
-					"JaspColumn_15_Encoded_pearson_vsmpr",
-					"JaspColumn_15_Encoded_pearson_effect.size",
-					"JaspColumn_15_Encoded_pearson_se.effect.size",
-					"JaspColumn_15_Encoded_spearman_lower.ci",
-					"JaspColumn_15_Encoded_spearman_upper.ci",
-					"JaspColumn_15_Encoded_spearman_vsmpr",
-					"JaspColumn_15_Encoded_spearman_effect.size",
-					"JaspColumn_15_Encoded_spearman_se.effect.size",
-					"JaspColumn_15_Encoded_kendall_estimate",
-					"JaspColumn_15_Encoded_kendall_p.value",
-					"JaspColumn_15_Encoded_kendall_lower.ci",
-					"JaspColumn_15_Encoded_kendall_upper.ci",
-					"JaspColumn_15_Encoded_kendall_vsmpr",
-					"JaspColumn_15_Encoded_kendall_effect.size",
-					"JaspColumn_15_Encoded_kendall_se.effect.size",
-					"JaspColumn_18_Encoded_sample.size",
-					"JaspColumn_18_Encoded_covariance",
-					"JaspColumn_18_Encoded_pearson_lower.ci",
-					"JaspColumn_18_Encoded_pearson_upper.ci",
-					"JaspColumn_18_Encoded_pearson_vsmpr",
-					"JaspColumn_18_Encoded_pearson_effect.size",
-					"JaspColumn_18_Encoded_pearson_se.effect.size",
-					"JaspColumn_18_Encoded_spearman_lower.ci",
-					"JaspColumn_18_Encoded_spearman_upper.ci",
-					"JaspColumn_18_Encoded_spearman_vsmpr",
-					"JaspColumn_18_Encoded_spearman_effect.size",
-					"JaspColumn_18_Encoded_spearman_se.effect.size",
-					"JaspColumn_18_Encoded_kendall_estimate",
-					"JaspColumn_18_Encoded_kendall_p.value",
-					"JaspColumn_18_Encoded_kendall_lower.ci",
-					"JaspColumn_18_Encoded_kendall_upper.ci",
-					"JaspColumn_18_Encoded_kendall_vsmpr",
-					"JaspColumn_18_Encoded_kendall_effect.size",
-					"JaspColumn_18_Encoded_kendall_se.effect.size"
+					"JaspColumn_4_Encoded_sample.size",
+					"JaspColumn_4_Encoded_covariance",
+					"JaspColumn_4_Encoded_pearson_lower.ci",
+					"JaspColumn_4_Encoded_pearson_upper.ci",
+					"JaspColumn_4_Encoded_pearson_vsmpr",
+					"JaspColumn_4_Encoded_pearson_effect.size",
+					"JaspColumn_4_Encoded_pearson_se.effect.size",
+					"JaspColumn_4_Encoded_spearman_lower.ci",
+					"JaspColumn_4_Encoded_spearman_upper.ci",
+					"JaspColumn_4_Encoded_spearman_vsmpr",
+					"JaspColumn_4_Encoded_spearman_effect.size",
+					"JaspColumn_4_Encoded_spearman_se.effect.size",
+					"JaspColumn_4_Encoded_kendall_estimate",
+					"JaspColumn_4_Encoded_kendall_p.value",
+					"JaspColumn_4_Encoded_kendall_lower.ci",
+					"JaspColumn_4_Encoded_kendall_upper.ci",
+					"JaspColumn_4_Encoded_kendall_vsmpr",
+					"JaspColumn_4_Encoded_kendall_effect.size",
+					"JaspColumn_4_Encoded_kendall_se.effect.size",
+					"JaspColumn_5_Encoded_sample.size",
+					"JaspColumn_5_Encoded_covariance",
+					"JaspColumn_5_Encoded_pearson_lower.ci",
+					"JaspColumn_5_Encoded_pearson_upper.ci",
+					"JaspColumn_5_Encoded_pearson_vsmpr",
+					"JaspColumn_5_Encoded_pearson_effect.size",
+					"JaspColumn_5_Encoded_pearson_se.effect.size",
+					"JaspColumn_5_Encoded_spearman_lower.ci",
+					"JaspColumn_5_Encoded_spearman_upper.ci",
+					"JaspColumn_5_Encoded_spearman_vsmpr",
+					"JaspColumn_5_Encoded_spearman_effect.size",
+					"JaspColumn_5_Encoded_spearman_se.effect.size",
+					"JaspColumn_5_Encoded_kendall_estimate",
+					"JaspColumn_5_Encoded_kendall_p.value",
+					"JaspColumn_5_Encoded_kendall_lower.ci",
+					"JaspColumn_5_Encoded_kendall_upper.ci",
+					"JaspColumn_5_Encoded_kendall_vsmpr",
+					"JaspColumn_5_Encoded_kendall_effect.size",
+					"JaspColumn_5_Encoded_kendall_se.effect.size",
+					"JaspColumn_6_Encoded_sample.size",
+					"JaspColumn_6_Encoded_covariance",
+					"JaspColumn_6_Encoded_pearson_lower.ci",
+					"JaspColumn_6_Encoded_pearson_upper.ci",
+					"JaspColumn_6_Encoded_pearson_vsmpr",
+					"JaspColumn_6_Encoded_pearson_effect.size",
+					"JaspColumn_6_Encoded_pearson_se.effect.size",
+					"JaspColumn_6_Encoded_spearman_lower.ci",
+					"JaspColumn_6_Encoded_spearman_upper.ci",
+					"JaspColumn_6_Encoded_spearman_vsmpr",
+					"JaspColumn_6_Encoded_spearman_effect.size",
+					"JaspColumn_6_Encoded_spearman_se.effect.size",
+					"JaspColumn_6_Encoded_kendall_estimate",
+					"JaspColumn_6_Encoded_kendall_p.value",
+					"JaspColumn_6_Encoded_kendall_lower.ci",
+					"JaspColumn_6_Encoded_kendall_upper.ci",
+					"JaspColumn_6_Encoded_kendall_vsmpr",
+					"JaspColumn_6_Encoded_kendall_effect.size",
+					"JaspColumn_6_Encoded_kendall_se.effect.size"
 				],
 				"title" : "colNames",
 				"type" : "list"
@@ -799,30 +799,30 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"JaspColumn_0_Encoded_pearson_estimate" : "1. JaspColumn_0_Encoded",
-					"JaspColumn_0_Encoded_pearson_p.value" : "1. JaspColumn_0_Encoded",
-					"JaspColumn_0_Encoded_spearman_estimate" : "1. JaspColumn_0_Encoded",
-					"JaspColumn_0_Encoded_spearman_p.value" : "1. JaspColumn_0_Encoded",
-					"JaspColumn_15_Encoded_pearson_estimate" : "5. JaspColumn_15_Encoded",
-					"JaspColumn_15_Encoded_pearson_p.value" : "5. JaspColumn_15_Encoded",
-					"JaspColumn_15_Encoded_spearman_estimate" : "5. JaspColumn_15_Encoded",
-					"JaspColumn_15_Encoded_spearman_p.value" : "5. JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded_pearson_estimate" : "6. JaspColumn_18_Encoded",
-					"JaspColumn_18_Encoded_pearson_p.value" : "6. JaspColumn_18_Encoded",
-					"JaspColumn_18_Encoded_spearman_estimate" : "6. JaspColumn_18_Encoded",
-					"JaspColumn_18_Encoded_spearman_p.value" : "6. JaspColumn_18_Encoded",
-					"JaspColumn_3_Encoded_pearson_estimate" : "4. JaspColumn_3_Encoded",
-					"JaspColumn_3_Encoded_pearson_p.value" : "4. JaspColumn_3_Encoded",
-					"JaspColumn_3_Encoded_spearman_estimate" : "4. JaspColumn_3_Encoded",
-					"JaspColumn_3_Encoded_spearman_p.value" : "4. JaspColumn_3_Encoded",
-					"JaspColumn_6_Encoded_pearson_estimate" : "2. JaspColumn_6_Encoded",
-					"JaspColumn_6_Encoded_pearson_p.value" : "2. JaspColumn_6_Encoded",
-					"JaspColumn_6_Encoded_spearman_estimate" : "2. JaspColumn_6_Encoded",
-					"JaspColumn_6_Encoded_spearman_p.value" : "2. JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded_pearson_estimate" : "3. JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded_pearson_p.value" : "3. JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded_spearman_estimate" : "3. JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded_spearman_p.value" : "3. JaspColumn_9_Encoded",
+					"JaspColumn_1_Encoded_pearson_estimate" : "1. JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded_pearson_p.value" : "1. JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded_spearman_estimate" : "1. JaspColumn_1_Encoded",
+					"JaspColumn_1_Encoded_spearman_p.value" : "1. JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded_pearson_estimate" : "2. JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded_pearson_p.value" : "2. JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded_spearman_estimate" : "2. JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded_spearman_p.value" : "2. JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded_pearson_estimate" : "3. JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded_pearson_p.value" : "3. JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded_spearman_estimate" : "3. JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded_spearman_p.value" : "3. JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded_pearson_estimate" : "4. JaspColumn_4_Encoded",
+					"JaspColumn_4_Encoded_pearson_p.value" : "4. JaspColumn_4_Encoded",
+					"JaspColumn_4_Encoded_spearman_estimate" : "4. JaspColumn_4_Encoded",
+					"JaspColumn_4_Encoded_spearman_p.value" : "4. JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded_pearson_estimate" : "5. JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded_pearson_p.value" : "5. JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded_spearman_estimate" : "5. JaspColumn_5_Encoded",
+					"JaspColumn_5_Encoded_spearman_p.value" : "5. JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded_pearson_estimate" : "6. JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded_pearson_p.value" : "6. JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded_spearman_estimate" : "6. JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded_spearman_p.value" : "6. JaspColumn_6_Encoded",
 					"var1" : "Variable"
 				},
 				"listType" : "string",
@@ -846,30 +846,30 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"JaspColumn_0_Encoded_pearson_estimate" : "Pearson's r",
-					"JaspColumn_0_Encoded_pearson_p.value" : "p-value",
-					"JaspColumn_0_Encoded_spearman_estimate" : "Spearman's rho",
-					"JaspColumn_0_Encoded_spearman_p.value" : "p-value",
-					"JaspColumn_15_Encoded_pearson_estimate" : "Pearson's r",
-					"JaspColumn_15_Encoded_pearson_p.value" : "p-value",
-					"JaspColumn_15_Encoded_spearman_estimate" : "Spearman's rho",
-					"JaspColumn_15_Encoded_spearman_p.value" : "p-value",
-					"JaspColumn_18_Encoded_pearson_estimate" : "Pearson's r",
-					"JaspColumn_18_Encoded_pearson_p.value" : "p-value",
-					"JaspColumn_18_Encoded_spearman_estimate" : "Spearman's rho",
-					"JaspColumn_18_Encoded_spearman_p.value" : "p-value",
+					"JaspColumn_1_Encoded_pearson_estimate" : "Pearson's r",
+					"JaspColumn_1_Encoded_pearson_p.value" : "p-value",
+					"JaspColumn_1_Encoded_spearman_estimate" : "Spearman's rho",
+					"JaspColumn_1_Encoded_spearman_p.value" : "p-value",
+					"JaspColumn_2_Encoded_pearson_estimate" : "Pearson's r",
+					"JaspColumn_2_Encoded_pearson_p.value" : "p-value",
+					"JaspColumn_2_Encoded_spearman_estimate" : "Spearman's rho",
+					"JaspColumn_2_Encoded_spearman_p.value" : "p-value",
 					"JaspColumn_3_Encoded_pearson_estimate" : "Pearson's r",
 					"JaspColumn_3_Encoded_pearson_p.value" : "p-value",
 					"JaspColumn_3_Encoded_spearman_estimate" : "Spearman's rho",
 					"JaspColumn_3_Encoded_spearman_p.value" : "p-value",
+					"JaspColumn_4_Encoded_pearson_estimate" : "Pearson's r",
+					"JaspColumn_4_Encoded_pearson_p.value" : "p-value",
+					"JaspColumn_4_Encoded_spearman_estimate" : "Spearman's rho",
+					"JaspColumn_4_Encoded_spearman_p.value" : "p-value",
+					"JaspColumn_5_Encoded_pearson_estimate" : "Pearson's r",
+					"JaspColumn_5_Encoded_pearson_p.value" : "p-value",
+					"JaspColumn_5_Encoded_spearman_estimate" : "Spearman's rho",
+					"JaspColumn_5_Encoded_spearman_p.value" : "p-value",
 					"JaspColumn_6_Encoded_pearson_estimate" : "Pearson's r",
 					"JaspColumn_6_Encoded_pearson_p.value" : "p-value",
 					"JaspColumn_6_Encoded_spearman_estimate" : "Spearman's rho",
 					"JaspColumn_6_Encoded_spearman_p.value" : "p-value",
-					"JaspColumn_9_Encoded_pearson_estimate" : "Pearson's r",
-					"JaspColumn_9_Encoded_pearson_p.value" : "p-value",
-					"JaspColumn_9_Encoded_spearman_estimate" : "Spearman's rho",
-					"JaspColumn_9_Encoded_spearman_p.value" : "p-value",
 					"var1" : ""
 				},
 				"listType" : "string",
@@ -892,30 +892,30 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"JaspColumn_0_Encoded_pearson_estimate" : "number",
-					"JaspColumn_0_Encoded_pearson_p.value" : "pvalue",
-					"JaspColumn_0_Encoded_spearman_estimate" : "number",
-					"JaspColumn_0_Encoded_spearman_p.value" : "pvalue",
-					"JaspColumn_15_Encoded_pearson_estimate" : "number",
-					"JaspColumn_15_Encoded_pearson_p.value" : "pvalue",
-					"JaspColumn_15_Encoded_spearman_estimate" : "number",
-					"JaspColumn_15_Encoded_spearman_p.value" : "pvalue",
-					"JaspColumn_18_Encoded_pearson_estimate" : "number",
-					"JaspColumn_18_Encoded_pearson_p.value" : "pvalue",
-					"JaspColumn_18_Encoded_spearman_estimate" : "number",
-					"JaspColumn_18_Encoded_spearman_p.value" : "pvalue",
+					"JaspColumn_1_Encoded_pearson_estimate" : "number",
+					"JaspColumn_1_Encoded_pearson_p.value" : "pvalue",
+					"JaspColumn_1_Encoded_spearman_estimate" : "number",
+					"JaspColumn_1_Encoded_spearman_p.value" : "pvalue",
+					"JaspColumn_2_Encoded_pearson_estimate" : "number",
+					"JaspColumn_2_Encoded_pearson_p.value" : "pvalue",
+					"JaspColumn_2_Encoded_spearman_estimate" : "number",
+					"JaspColumn_2_Encoded_spearman_p.value" : "pvalue",
 					"JaspColumn_3_Encoded_pearson_estimate" : "number",
 					"JaspColumn_3_Encoded_pearson_p.value" : "pvalue",
 					"JaspColumn_3_Encoded_spearman_estimate" : "number",
 					"JaspColumn_3_Encoded_spearman_p.value" : "pvalue",
+					"JaspColumn_4_Encoded_pearson_estimate" : "number",
+					"JaspColumn_4_Encoded_pearson_p.value" : "pvalue",
+					"JaspColumn_4_Encoded_spearman_estimate" : "number",
+					"JaspColumn_4_Encoded_spearman_p.value" : "pvalue",
+					"JaspColumn_5_Encoded_pearson_estimate" : "number",
+					"JaspColumn_5_Encoded_pearson_p.value" : "pvalue",
+					"JaspColumn_5_Encoded_spearman_estimate" : "number",
+					"JaspColumn_5_Encoded_spearman_p.value" : "pvalue",
 					"JaspColumn_6_Encoded_pearson_estimate" : "number",
 					"JaspColumn_6_Encoded_pearson_p.value" : "pvalue",
 					"JaspColumn_6_Encoded_spearman_estimate" : "number",
 					"JaspColumn_6_Encoded_spearman_p.value" : "pvalue",
-					"JaspColumn_9_Encoded_pearson_estimate" : "number",
-					"JaspColumn_9_Encoded_pearson_p.value" : "pvalue",
-					"JaspColumn_9_Encoded_spearman_estimate" : "number",
-					"JaspColumn_9_Encoded_spearman_p.value" : "pvalue",
 					"var1" : "string"
 				},
 				"listType" : "string",
@@ -933,12 +933,12 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded"
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				[
 					"\u2014",
@@ -2076,12 +2076,12 @@
 				"spearman" : true,
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded"
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -2113,12 +2113,12 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded"
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -2145,30 +2145,30 @@
 			"showSpecifiedColumnsOnly" : true,
 			"specifiedColumns" : 
 			[
-				"JaspColumn_0_Encoded_pearson_estimate",
-				"JaspColumn_0_Encoded_pearson_p.value",
-				"JaspColumn_0_Encoded_spearman_estimate",
-				"JaspColumn_0_Encoded_spearman_p.value",
-				"JaspColumn_15_Encoded_pearson_estimate",
-				"JaspColumn_15_Encoded_pearson_p.value",
-				"JaspColumn_15_Encoded_spearman_estimate",
-				"JaspColumn_15_Encoded_spearman_p.value",
-				"JaspColumn_18_Encoded_pearson_estimate",
-				"JaspColumn_18_Encoded_pearson_p.value",
-				"JaspColumn_18_Encoded_spearman_estimate",
-				"JaspColumn_18_Encoded_spearman_p.value",
+				"JaspColumn_1_Encoded_pearson_estimate",
+				"JaspColumn_1_Encoded_pearson_p.value",
+				"JaspColumn_1_Encoded_spearman_estimate",
+				"JaspColumn_1_Encoded_spearman_p.value",
+				"JaspColumn_2_Encoded_pearson_estimate",
+				"JaspColumn_2_Encoded_pearson_p.value",
+				"JaspColumn_2_Encoded_spearman_estimate",
+				"JaspColumn_2_Encoded_spearman_p.value",
 				"JaspColumn_3_Encoded_pearson_estimate",
 				"JaspColumn_3_Encoded_pearson_p.value",
 				"JaspColumn_3_Encoded_spearman_estimate",
 				"JaspColumn_3_Encoded_spearman_p.value",
+				"JaspColumn_4_Encoded_pearson_estimate",
+				"JaspColumn_4_Encoded_pearson_p.value",
+				"JaspColumn_4_Encoded_spearman_estimate",
+				"JaspColumn_4_Encoded_spearman_p.value",
+				"JaspColumn_5_Encoded_pearson_estimate",
+				"JaspColumn_5_Encoded_pearson_p.value",
+				"JaspColumn_5_Encoded_spearman_estimate",
+				"JaspColumn_5_Encoded_spearman_p.value",
 				"JaspColumn_6_Encoded_pearson_estimate",
 				"JaspColumn_6_Encoded_pearson_p.value",
 				"JaspColumn_6_Encoded_spearman_estimate",
 				"JaspColumn_6_Encoded_spearman_p.value",
-				"JaspColumn_9_Encoded_pearson_estimate",
-				"JaspColumn_9_Encoded_pearson_p.value",
-				"JaspColumn_9_Encoded_spearman_estimate",
-				"JaspColumn_9_Encoded_spearman_p.value",
 				"var1"
 			],
 			"status" : "complete",
@@ -2202,12 +2202,12 @@
 				"spearman" : true,
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded"
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -2251,8 +2251,8 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_15_Encoded",
-					"JaspColumn_18_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_6_Encoded"
 				]
 			},
 			"position" : 9999,
@@ -2343,12 +2343,12 @@
 		"spearman" : true,
 		"variables" : 
 		[
-			"JaspColumn_0_Encoded",
-			"JaspColumn_6_Encoded",
-			"JaspColumn_9_Encoded",
+			"JaspColumn_1_Encoded",
+			"JaspColumn_2_Encoded",
 			"JaspColumn_3_Encoded",
-			"JaspColumn_15_Encoded",
-			"JaspColumn_18_Encoded"
+			"JaspColumn_4_Encoded",
+			"JaspColumn_5_Encoded",
+			"JaspColumn_6_Encoded"
 		],
 		"variables.types" : 
 		[

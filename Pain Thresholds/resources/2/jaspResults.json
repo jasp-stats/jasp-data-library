@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -33,7 +33,7 @@
 											"Light Blond",
 											"Light Brunette"
 										],
-										"title" : "JaspColumn_2_Encoded",
+										"title" : "JaspColumn_1_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleDiscrete"
@@ -80,7 +80,7 @@
 											70,
 											10
 										],
-										"title" : "JaspColumn_3_Encoded",
+										"title" : "JaspColumn_2_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -90,7 +90,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_0_t1749640207737.png",
+							"filePathPng" : "resources/2/_0_t1732273658854.png",
 							"height" : 300,
 							"messages" : [],
 							"name" : "",
@@ -121,14 +121,14 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"dependent" : "JaspColumn_3_Encoded",
+						"dependent" : "JaspColumn_2_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
 						],
 						"descriptivePlotCi" : true,
 						"descriptivePlotCiLevel" : 0.94999999999999996,
-						"descriptivePlotHorizontalAxis" : "JaspColumn_2_Encoded",
+						"descriptivePlotHorizontalAxis" : "JaspColumn_1_Encoded",
 						"descriptivePlotHorizontalAxis.types" : 
 						[
 							"nominal"
@@ -160,7 +160,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_2_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -330,27 +330,27 @@
 			[
 				[
 					"Null model",
-					"JaspColumn_2_Encoded"
+					"JaspColumn_1_Encoded"
 				],
 				[
 					0.5,
 					0.5
 				],
 				[
-					0.077107904272387964,
+					0.077107904272387923,
 					0.92289209572761211
 				],
 				[
-					0.083550292205716359,
-					11.968839050111447
+					0.083550292205716317,
+					11.968839050111452
 				],
 				[
 					1.0,
-					11.968839050111447
+					11.968839050111452
 				],
 				[
 					"",
-					0.0040571593677368682
+					0.0040571593677311531
 				]
 			],
 			"error" : false,
@@ -375,7 +375,7 @@
 				"cauchyPriorScaleFixedEffects" : 0.5,
 				"cauchyPriorScaleRandomEffects" : 1.0,
 				"covariates" : null,
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_2_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -384,7 +384,7 @@
 				"enforcePrincipleOfMarginalityRandomSlopes" : false,
 				"fixedFactors" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_1_Encoded"
 				],
 				"fixedFactors.types" : 
 				[
@@ -399,7 +399,7 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_2_Encoded"
+							"JaspColumn_1_Encoded"
 						],
 						"isNuisance" : false
 					}
@@ -497,7 +497,7 @@
 				"cauchyPriorScaleCovariates" : 0.35399999999999998,
 				"cauchyPriorScaleFixedEffects" : 0.5,
 				"cauchyPriorScaleRandomEffects" : 1.0,
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_2_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -613,14 +613,14 @@
 		"criTable" : false,
 		"customPriorSpecification" : [],
 		"customPriorSpecification.types" : [],
-		"dependent" : "JaspColumn_3_Encoded",
+		"dependent" : "JaspColumn_2_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
 		],
 		"descriptivePlotCi" : true,
 		"descriptivePlotCiLevel" : 0.94999999999999996,
-		"descriptivePlotHorizontalAxis" : "JaspColumn_2_Encoded",
+		"descriptivePlotHorizontalAxis" : "JaspColumn_1_Encoded",
 		"descriptivePlotHorizontalAxis.types" : 
 		[
 			"nominal"
@@ -636,7 +636,7 @@
 		"enforcePrincipleOfMarginalityRandomSlopes" : false,
 		"fixedFactors" : 
 		[
-			"JaspColumn_2_Encoded"
+			"JaspColumn_1_Encoded"
 		],
 		"fixedFactors.types" : 
 		[
@@ -653,7 +653,7 @@
 			{
 				"components" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_1_Encoded"
 				],
 				"isNuisance" : false
 			}

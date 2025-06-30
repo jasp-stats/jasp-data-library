@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -22,7 +22,7 @@
 							"B",
 							"C"
 						],
-						"title" : "JaspColumn_5_Encoded",
+						"title" : "JaspColumn_1_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleDiscrete"
@@ -75,7 +75,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_6_t1749642028231.png",
+			"filePathPng" : "resources/0/_6_t1732281034883.png",
 			"height" : 600,
 			"messages" : [],
 			"name" : "NRoperatorGraph",
@@ -126,7 +126,7 @@
 									"9",
 									"10"
 								],
-								"title" : "JaspColumn_6_Encoded",
+								"title" : "JaspColumn_0_Encoded",
 								"titleType" : "character"
 							},
 							"type" : "ScaleDiscrete"
@@ -187,7 +187,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_3_t1749642027888.png",
+					"filePathPng" : "resources/0/_3_t1732281034544.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "A",
@@ -227,7 +227,7 @@
 									"19",
 									"20"
 								],
-								"title" : "JaspColumn_6_Encoded",
+								"title" : "JaspColumn_0_Encoded",
 								"titleType" : "character"
 							},
 							"type" : "ScaleDiscrete"
@@ -286,7 +286,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_4_t1749642027980.png",
+					"filePathPng" : "resources/0/_4_t1732281034628.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "B",
@@ -326,7 +326,7 @@
 									"29",
 									"30"
 								],
-								"title" : "JaspColumn_6_Encoded",
+								"title" : "JaspColumn_0_Encoded",
 								"titleType" : "character"
 							},
 							"type" : "ScaleDiscrete"
@@ -385,7 +385,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_5_t1749642028066.png",
+					"filePathPng" : "resources/0/_5_t1732281034720.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "C",
@@ -510,7 +510,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1749642026808.png",
+					"filePathPng" : "resources/0/_0_t1732281033445.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "Plot",
@@ -681,8 +681,8 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_5_Encoded",
-							"JaspColumn_6_Encoded(JaspColumn_5_Encoded)",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_0_Encoded(JaspColumn_1_Encoded)",
 							"Repeatability",
 							"Total"
 						],
@@ -1418,7 +1418,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1749642027181.png",
+					"filePathPng" : "resources/0/_1_t1732281033845.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -1493,7 +1493,9 @@
 						"rows" : 
 						[
 							"stage",
-							"test2"
+							"test2",
+							"test1",
+							"test3"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -1526,7 +1528,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"stage" : "JaspColumn_5_Encoded",
+							"stage" : "JaspColumn_1_Encoded",
 							"test2" : "Test 2: Shift"
 						},
 						"listType" : "string",
@@ -1570,7 +1572,13 @@
 							"C"
 						],
 						[
-							"Point 10"
+							"Point 30"
+						],
+						[
+							""
+						],
+						[
+							""
 						]
 					],
 					"error" : false,
@@ -1660,7 +1668,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"measurementLongFormat" : "JaspColumn_0_Encoded",
+				"measurementLongFormat" : "JaspColumn_2_Encoded",
 				"measurementLongFormat.types" : 
 				[
 					"scale"
@@ -1668,25 +1676,7 @@
 				"measurementsWideFormat" : [],
 				"measurementsWideFormat.types" : [],
 				"rChart" : true,
-				"report" : false,
-				"rule1" : true,
-				"rule2" : true,
-				"rule2Value" : 7,
-				"rule3" : true,
-				"rule3Value" : 7,
-				"rule4" : true,
-				"rule4Value" : 2,
-				"rule5" : true,
-				"rule5Value" : 15,
-				"rule6" : true,
-				"rule6Value" : 8,
-				"rule7" : false,
-				"rule7Value" : 4,
-				"rule8" : false,
-				"rule8Value" : 14,
-				"rule9" : null,
-				"rule9Value" : null,
-				"testSet" : "jaspDefault"
+				"report" : false
 			},
 			"optionMustContain" : {},
 			"order_increment" : 2,
@@ -1811,7 +1801,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1749642027553.png",
+					"filePathPng" : "resources/0/_2_t1732281034218.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -1886,7 +1876,9 @@
 						"rows" : 
 						[
 							"stage",
-							"test1"
+							"test1",
+							"test2",
+							"test3"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -1919,7 +1911,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"stage" : "JaspColumn_5_Encoded",
+							"stage" : "JaspColumn_1_Encoded",
 							"test1" : "Test 1: Beyond limit"
 						},
 						"listType" : "string",
@@ -1978,14 +1970,42 @@
 							"Point 5",
 							"Point 8",
 							"Point 10",
-							"Point 1",
-							"Point 5",
-							"Point 8",
-							"Point 10",
-							"Point 1",
-							"Point 3",
-							"Point 5",
-							"Point 10"
+							"Point 11",
+							"Point 15",
+							"Point 18",
+							"Point 20",
+							"Point 21",
+							"Point 23",
+							"Point 25",
+							"Point 30"
+						],
+						[
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						[
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
 						]
 					],
 					"error" : false,
@@ -2075,7 +2095,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"measurementLongFormat" : "JaspColumn_0_Encoded",
+				"measurementLongFormat" : "JaspColumn_2_Encoded",
 				"measurementLongFormat.types" : 
 				[
 					"scale"
@@ -2083,24 +2103,6 @@
 				"measurementsWideFormat" : [],
 				"measurementsWideFormat.types" : [],
 				"report" : false,
-				"rule1" : true,
-				"rule2" : true,
-				"rule2Value" : 7,
-				"rule3" : true,
-				"rule3Value" : 7,
-				"rule4" : true,
-				"rule4Value" : 2,
-				"rule5" : true,
-				"rule5Value" : 15,
-				"rule6" : true,
-				"rule6Value" : 8,
-				"rule7" : false,
-				"rule7Value" : 4,
-				"rule8" : false,
-				"rule8Value" : 14,
-				"rule9" : null,
-				"rule9Value" : null,
-				"testSet" : "jaspDefault",
 				"xBarChart" : true
 			},
 			"optionMustContain" : {},
@@ -2160,14 +2162,14 @@
 		"anova" : true,
 		"dataFormat" : "longFormat",
 		"historicalSdValue" : 3.0,
-		"measurementLongFormat" : "JaspColumn_0_Encoded",
+		"measurementLongFormat" : "JaspColumn_2_Encoded",
 		"measurementLongFormat.types" : 
 		[
 			"scale"
 		],
 		"measurementsWideFormat" : [],
 		"measurementsWideFormat.types" : [],
-		"operatorLongFormat" : "JaspColumn_5_Encoded",
+		"operatorLongFormat" : "JaspColumn_1_Encoded",
 		"operatorLongFormat.types" : 
 		[
 			"nominal"
@@ -2175,7 +2177,7 @@
 		"operatorMeasurementPlot" : true,
 		"operatorWideFormat" : "",
 		"operatorWideFormat.types" : [],
-		"partLongFormat" : "JaspColumn_6_Encoded",
+		"partLongFormat" : "JaspColumn_0_Encoded",
 		"partLongFormat.types" : 
 		[
 			"nominal"
@@ -2214,24 +2216,8 @@
 		"reportToleranceText" : "",
 		"reportTrafficLightChart" : true,
 		"reportVariationComponents" : true,
-		"rule1" : true,
-		"rule2" : true,
-		"rule2Value" : 7,
-		"rule3" : true,
-		"rule3Value" : 7,
-		"rule4" : true,
-		"rule4Value" : 2,
-		"rule5" : true,
-		"rule5Value" : 15,
-		"rule6" : true,
-		"rule6Value" : 8,
-		"rule7" : false,
-		"rule7Value" : 4,
-		"rule8" : false,
-		"rule8Value" : 14,
 		"studyVarianceMultiplierType" : "sd",
 		"studyVarianceMultiplierValue" : 6.0,
-		"testSet" : "jaspDefault",
 		"tolerance" : true,
 		"toleranceValue" : 1.0,
 		"trafficLightChart" : false,

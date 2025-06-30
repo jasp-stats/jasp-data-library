@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -76,7 +76,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_2_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -330,7 +330,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_2_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -633,7 +633,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_2_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -720,7 +720,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_1_t1749640968269.png",
+			"filePathPng" : "resources/0/_1_t1732275021775.png",
 			"height" : 300,
 			"messages" : [],
 			"name" : "decisionBoundary",
@@ -789,7 +789,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_2_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -837,7 +837,7 @@
 					"scale",
 					"scale"
 				],
-				"target" : "JaspColumn_2_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -948,7 +948,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1749640968058.png",
+			"filePathPng" : "resources/0/_0_t1732275021576.png",
 			"height" : 30,
 			"messages" : [],
 			"name" : "plotDataSplit",
@@ -970,7 +970,7 @@
 					"scale",
 					"scale"
 				],
-				"target" : "JaspColumn_2_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1340,7 +1340,7 @@
 				"shrinkage" : null,
 				"smoothingParameter" : null,
 				"survivalMethod" : null,
-				"target" : "JaspColumn_2_Encoded",
+				"target" : "JaspColumn_11_Encoded",
 				"target.types" : 
 				[
 					"nominal"
@@ -1471,7 +1471,6 @@
 		},
 		"addIndicator" : false,
 		"addPredictions" : false,
-		"addProbabilities" : false,
 		"andrewsCurve" : false,
 		"classProportionsTable" : false,
 		"complexityParameter" : 0.0,
@@ -1516,7 +1515,7 @@
 		"setSeed" : true,
 		"supportVectorsTable" : false,
 		"tableShap" : false,
-		"target" : "JaspColumn_2_Encoded",
+		"target" : "JaspColumn_11_Encoded",
 		"target.types" : 
 		[
 			"nominal"

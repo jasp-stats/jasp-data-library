@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -224,31 +224,31 @@
 									0.046845812306789546
 								],
 								[
-									0.53284555279847345
+									0.53284555279847368
 								],
 								[
-									0.66576361409736973
+									0.66576361409737017
 								],
 								[
 									0.33333333333333331
 								],
 								[
-									83.124999999999858
+									83.124999999999872
 								],
 								[
 									3.0
 								],
 								[
-									153.37499999999997
+									153.37499999999994
 								],
 								[
 									21.0
 								],
 								[
-									3.7938060309698396
+									3.7938060309698405
 								],
 								[
-									0.025570296863039542
+									0.02557029686303949
 								],
 								[
 									false
@@ -257,34 +257,34 @@
 									true
 								],
 								[
-									27.708333333333286
+									27.70833333333329
 								],
 								[
-									3.9240896477772584
+									3.9240896477772647
 								],
 								[
-									0.35147991543340346
+									0.35147991543340351
 								],
 								[
-									0.35147991543340346
+									0.35147991543340351
 								],
 								[
-									0.32742491383554867
+									0.32742491383554873
 								],
 								[
-									0.23878517692950649
+									0.23878517692950646
 								],
 								[
-									0.23878517692950649
+									0.23878517692950654
 								],
 								[
 									"None"
 								],
 								[
-									0.062584120686963424
+									0.062584120686963229
 								],
 								[
-									0.048330613551943236
+									0.048330613551943138
 								]
 							],
 							"error" : false,
@@ -848,9 +848,9 @@
 									"data" : 
 									[
 										[
-											"JaspColumn_9_Encoded - JaspColumn_6_Encoded",
-											"JaspColumn_6_Encoded - JaspColumn_3_Encoded",
-											"JaspColumn_3_Encoded - JaspColumn_12_Encoded"
+											"JaspColumn_1_Encoded - JaspColumn_2_Encoded",
+											"JaspColumn_2_Encoded - JaspColumn_3_Encoded",
+											"JaspColumn_3_Encoded - JaspColumn_4_Encoded"
 										],
 										[
 											3.8749999999999973,
@@ -878,9 +878,9 @@
 											0.40204213268670008
 										],
 										[
-											"JaspColumn_9_Encoded - JaspColumn_6_Encoded",
-											"JaspColumn_6_Encoded - JaspColumn_3_Encoded",
-											"JaspColumn_3_Encoded - JaspColumn_12_Encoded"
+											"JaspColumn_1_Encoded - JaspColumn_2_Encoded",
+											"JaspColumn_2_Encoded - JaspColumn_3_Encoded",
+											"JaspColumn_3_Encoded - JaspColumn_4_Encoded"
 										],
 										[
 											1.9561804246501429,
@@ -1063,10 +1063,10 @@
 											{
 												"labels" : 
 												[
-													"JaspColumn_12_Encoded",
+													"JaspColumn_1_Encoded",
+													"JaspColumn_2_Encoded",
 													"JaspColumn_3_Encoded",
-													"JaspColumn_6_Encoded",
-													"JaspColumn_9_Encoded"
+													"JaspColumn_4_Encoded"
 												],
 												"title" : "JaspExtraOptions_0_Encoded",
 												"titleType" : "character"
@@ -1125,7 +1125,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_0_t1749640158135.png",
+									"filePathPng" : "resources/0/_0_t1732273611258.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "",
@@ -1335,10 +1335,10 @@
 							"data" : 
 							[
 								[
-									"JaspColumn_9_Encoded",
-									"JaspColumn_6_Encoded",
+									"JaspColumn_1_Encoded",
+									"JaspColumn_2_Encoded",
 									"JaspColumn_3_Encoded",
-									"JaspColumn_12_Encoded"
+									"JaspColumn_4_Encoded"
 								],
 								[
 									8,
@@ -1421,10 +1421,10 @@
 								"position" : 9999,
 								"rows" : 
 								[
-									"JaspColumn_9_Encoded.",
-									"JaspColumn_6_Encoded.",
+									"JaspColumn_1_Encoded.",
+									"JaspColumn_2_Encoded.",
 									"JaspColumn_3_Encoded.",
-									"JaspColumn_12_Encoded."
+									"JaspColumn_4_Encoded."
 								],
 								"title" : "rowNames",
 								"type" : "list"
@@ -1483,10 +1483,10 @@
 						"dependent" : null,
 						"repeatedMeasuresCells" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded",
 							"JaspColumn_3_Encoded",
-							"JaspColumn_12_Encoded"
+							"JaspColumn_4_Encoded"
 						]
 					},
 					"optionMustContain" : {},
@@ -1735,20 +1735,20 @@
 							"data" : 
 							[
 								[
-									"JaspColumn_9_Encoded",
-									"JaspColumn_9_Encoded",
-									"JaspColumn_9_Encoded",
-									"JaspColumn_6_Encoded",
-									"JaspColumn_6_Encoded",
+									"JaspColumn_1_Encoded",
+									"JaspColumn_1_Encoded",
+									"JaspColumn_1_Encoded",
+									"JaspColumn_2_Encoded",
+									"JaspColumn_2_Encoded",
 									"JaspColumn_3_Encoded"
 								],
 								[
-									"JaspColumn_6_Encoded",
+									"JaspColumn_2_Encoded",
 									"JaspColumn_3_Encoded",
-									"JaspColumn_12_Encoded",
+									"JaspColumn_4_Encoded",
 									"JaspColumn_3_Encoded",
-									"JaspColumn_12_Encoded",
-									"JaspColumn_12_Encoded"
+									"JaspColumn_4_Encoded",
+									"JaspColumn_4_Encoded"
 								],
 								[
 									3.8749999999999973,
@@ -1791,12 +1791,12 @@
 									1.0
 								],
 								[
-									"JaspColumn_9_Encoded - JaspColumn_6_Encoded",
-									"JaspColumn_9_Encoded - JaspColumn_3_Encoded",
-									"JaspColumn_9_Encoded - JaspColumn_12_Encoded",
-									"JaspColumn_6_Encoded - JaspColumn_3_Encoded",
-									"JaspColumn_6_Encoded - JaspColumn_12_Encoded",
-									"JaspColumn_3_Encoded - JaspColumn_12_Encoded"
+									"JaspColumn_1_Encoded - JaspColumn_2_Encoded",
+									"JaspColumn_1_Encoded - JaspColumn_3_Encoded",
+									"JaspColumn_1_Encoded - JaspColumn_4_Encoded",
+									"JaspColumn_2_Encoded - JaspColumn_3_Encoded",
+									"JaspColumn_2_Encoded - JaspColumn_4_Encoded",
+									"JaspColumn_3_Encoded - JaspColumn_4_Encoded"
 								],
 								[
 									0.9246545280933165,
@@ -2234,57 +2234,57 @@
 							"Huynh-Feldt"
 						],
 						[
-							83.124999999999858,
-							83.124999999999858,
-							83.124999999999858,
-							153.37499999999997,
-							153.37499999999997,
-							153.37499999999997
+							83.124999999999872,
+							83.124999999999872,
+							83.124999999999872,
+							153.37499999999994,
+							153.37499999999994,
+							153.37499999999994
 						],
 						[
 							3.0,
-							1.5985366583954204,
-							1.9972908422921092,
+							1.598536658395421,
+							1.9972908422921105,
 							21.0,
-							11.189756608767942,
-							13.981035896044764
+							11.189756608767947,
+							13.981035896044773
 						],
 						[
-							27.708333333333286,
-							52.00068422793575,
-							41.618876049421452,
-							7.303571428571427,
-							13.706732448480617,
-							10.970217167054823
+							27.70833333333329,
+							52.000684227935743,
+							41.618876049421431,
+							7.3035714285714262,
+							13.706732448480608,
+							10.970217167054813
 						],
 						[
-							3.7938060309698396,
-							3.7938060309698396,
-							3.7938060309698396,
+							3.7938060309698405,
+							3.7938060309698405,
+							3.7938060309698405,
 							"",
 							"",
 							""
 						],
 						[
-							0.025570296863039542,
-							0.062584120686963424,
-							0.048330613551943236,
+							0.02557029686303949,
+							0.062584120686963229,
+							0.048330613551943138,
 							"",
 							"",
 							""
 						],
 						[
-							153.37499999999997,
-							153.37499999999997,
-							153.37499999999997,
+							153.37499999999994,
+							153.37499999999994,
+							153.37499999999994,
 							"",
 							"",
 							""
 						],
 						[
 							21.0,
-							11.189756608767942,
-							13.981035896044764,
+							11.189756608767947,
+							13.981035896044773,
 							"",
 							"",
 							""
@@ -2306,55 +2306,55 @@
 							true
 						],
 						[
-							3.9240896477772584,
-							2.1211268679863764,
-							2.5123781173451465
+							3.9240896477772647,
+							2.1211268679863808,
+							2.51237811734515
 						],
 						[
-							0.35147991543340346,
-							0.35147991543340346,
-							0.35147991543340346,
+							0.35147991543340351,
+							0.35147991543340351,
+							0.35147991543340351,
 							"",
 							"",
 							""
 						],
 						[
-							0.35147991543340346,
-							0.35147991543340346,
-							0.35147991543340346
+							0.35147991543340351,
+							0.35147991543340351,
+							0.35147991543340351
 						],
 						[
-							0.32742491383554867,
-							0.32742491383554867,
-							0.32742491383554867,
+							0.32742491383554873,
+							0.32742491383554873,
+							0.32742491383554873,
 							"",
 							"",
 							""
 						],
 						[
-							0.23878517692950649,
-							0.23878517692950649,
-							0.23878517692950649,
+							0.23878517692950646,
+							0.23878517692950646,
+							0.23878517692950646,
 							"",
 							"",
 							""
 						],
 						[
-							0.23878517692950649,
-							0.23878517692950649,
-							0.23878517692950649
+							0.23878517692950654,
+							0.23878517692950654,
+							0.23878517692950654
 						],
 						[
-							0.53284555279847345
+							0.53284555279847368
 						],
 						[
-							0.062584120686963424
+							0.062584120686963229
 						],
 						[
-							0.66576361409736973
+							0.66576361409737017
 						],
 						[
-							0.048330613551943236
+							0.048330613551943138
 						],
 						[
 							0.13624802937253466
@@ -2526,20 +2526,20 @@
 				"poolErrorTermFollowup" : false,
 				"repeatedMeasuresCells" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_12_Encoded"
+					"JaspColumn_4_Encoded"
 				],
 				"repeatedMeasuresFactors" : 
 				[
 					{
 						"levels" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded",
 							"JaspColumn_3_Encoded",
-							"JaspColumn_12_Encoded"
+							"JaspColumn_4_Encoded"
 						],
 						"name" : "JaspExtraOptions_0_Encoded"
 					}
@@ -2797,20 +2797,20 @@
 		"rainCloudYAxisLabel" : "",
 		"repeatedMeasuresCells" : 
 		[
-			"JaspColumn_9_Encoded",
-			"JaspColumn_6_Encoded",
+			"JaspColumn_1_Encoded",
+			"JaspColumn_2_Encoded",
 			"JaspColumn_3_Encoded",
-			"JaspColumn_12_Encoded"
+			"JaspColumn_4_Encoded"
 		],
 		"repeatedMeasuresFactors" : 
 		[
 			{
 				"levels" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded",
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
 					"JaspColumn_3_Encoded",
-					"JaspColumn_12_Encoded"
+					"JaspColumn_4_Encoded"
 				],
 				"name" : "JaspExtraOptions_0_Encoded"
 			}

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -368,12 +368,12 @@
 						"dependent" : null,
 						"repeatedMeasuresCells" : 
 						[
-							"JaspColumn_3_Encoded",
-							"JaspColumn_9_Encoded",
-							"JaspColumn_15_Encoded",
 							"JaspColumn_0_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_12_Encoded"
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded",
+							"JaspColumn_3_Encoded",
+							"JaspColumn_4_Encoded",
+							"JaspColumn_5_Encoded"
 						]
 					},
 					"optionMustContain" : {},
@@ -468,20 +468,20 @@
 							{
 								"components" : 
 								[
-									"JaspExtraOptions_5_Encoded"
+									"JaspExtraOptions_0_Encoded"
 								]
 							},
 							{
 								"components" : 
 								[
-									"JaspExtraOptions_1_Encoded"
+									"JaspExtraOptions_3_Encoded"
 								]
 							},
 							{
 								"components" : 
 								[
-									"JaspExtraOptions_5_Encoded",
-									"JaspExtraOptions_1_Encoded"
+									"JaspExtraOptions_0_Encoded",
+									"JaspExtraOptions_3_Encoded"
 								]
 							}
 						],
@@ -673,11 +673,11 @@
 					"data" : 
 					[
 						[
-							"JaspExtraOptions_5_Encoded",
+							"JaspExtraOptions_0_Encoded",
 							"Residuals",
-							"JaspExtraOptions_1_Encoded",
+							"JaspExtraOptions_3_Encoded",
 							"Residuals",
-							"JaspExtraOptions_5_Encoded \u273b JaspExtraOptions_1_Encoded",
+							"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_3_Encoded",
 							"Residuals"
 						],
 						[
@@ -883,8 +883,8 @@
 							],
 							"rows" : 
 							[
-								"JaspExtraOptions_1_EncodedNone",
-								"JaspExtraOptions_5_Encoded:JaspExtraOptions_1_EncodedNone"
+								"JaspExtraOptions_0_Encoded:JaspExtraOptions_3_EncodedNone",
+								"JaspExtraOptions_3_EncodedNone"
 							],
 							"symbol" : "",
 							"text" : "Mauchly's test of sphericity indicates that the assumption of sphericity is violated (p < .05)."
@@ -934,12 +934,12 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspExtraOptions_5_EncodedNone",
-							"JaspExtraOptions_5_EncodedResidNone",
-							"JaspExtraOptions_1_EncodedNone",
-							"JaspExtraOptions_1_EncodedResidNone",
-							"JaspExtraOptions_5_Encoded:JaspExtraOptions_1_EncodedNone",
-							"JaspExtraOptions_5_Encoded:JaspExtraOptions_1_EncodedResidNone"
+							"JaspExtraOptions_0_EncodedNone",
+							"JaspExtraOptions_0_EncodedResidNone",
+							"JaspExtraOptions_3_EncodedNone",
+							"JaspExtraOptions_3_EncodedResidNone",
+							"JaspExtraOptions_0_Encoded:JaspExtraOptions_3_EncodedNone",
+							"JaspExtraOptions_0_Encoded:JaspExtraOptions_3_EncodedResidNone"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -1009,31 +1009,31 @@
 				"poolErrorTermFollowup" : false,
 				"repeatedMeasuresCells" : 
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_15_Encoded",
 					"JaspColumn_0_Encoded",
-					"JaspColumn_6_Encoded",
-					"JaspColumn_12_Encoded"
+					"JaspColumn_1_Encoded",
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded",
+					"JaspColumn_5_Encoded"
 				],
 				"repeatedMeasuresFactors" : 
 				[
 					{
 						"levels" : 
 						[
-							"JaspExtraOptions_6_Encoded",
-							"JaspExtraOptions_0_Encoded"
+							"JaspExtraOptions_1_Encoded",
+							"JaspExtraOptions_2_Encoded"
 						],
-						"name" : "JaspExtraOptions_5_Encoded"
+						"name" : "JaspExtraOptions_0_Encoded"
 					},
 					{
 						"levels" : 
 						[
-							"JaspExtraOptions_2_Encoded",
-							"JaspExtraOptions_3_Encoded",
-							"JaspExtraOptions_4_Encoded"
+							"JaspExtraOptions_4_Encoded",
+							"JaspExtraOptions_5_Encoded",
+							"JaspExtraOptions_6_Encoded"
 						],
-						"name" : "JaspExtraOptions_1_Encoded"
+						"name" : "JaspExtraOptions_3_Encoded"
 					}
 				],
 				"sumOfSquares" : "type3",
@@ -1042,20 +1042,20 @@
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_5_Encoded"
+							"JaspExtraOptions_0_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_1_Encoded"
+							"JaspExtraOptions_3_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_5_Encoded",
-							"JaspExtraOptions_1_Encoded"
+							"JaspExtraOptions_0_Encoded",
+							"JaspExtraOptions_3_Encoded"
 						]
 					}
 				],
@@ -1219,22 +1219,22 @@
 				"contrast" : "none",
 				"variable" : 
 				[
-					"JaspExtraOptions_5_Encoded"
+					"JaspExtraOptions_0_Encoded"
 				]
 			},
 			{
 				"contrast" : "none",
 				"variable" : 
 				[
-					"JaspExtraOptions_1_Encoded"
+					"JaspExtraOptions_3_Encoded"
 				]
 			},
 			{
 				"contrast" : "none",
 				"variable" : 
 				[
-					"JaspExtraOptions_5_Encoded",
-					"JaspExtraOptions_1_Encoded"
+					"JaspExtraOptions_0_Encoded",
+					"JaspExtraOptions_3_Encoded"
 				]
 			}
 		],
@@ -1315,31 +1315,31 @@
 		"rainCloudYAxisLabel" : "",
 		"repeatedMeasuresCells" : 
 		[
-			"JaspColumn_3_Encoded",
-			"JaspColumn_9_Encoded",
-			"JaspColumn_15_Encoded",
 			"JaspColumn_0_Encoded",
-			"JaspColumn_6_Encoded",
-			"JaspColumn_12_Encoded"
+			"JaspColumn_1_Encoded",
+			"JaspColumn_2_Encoded",
+			"JaspColumn_3_Encoded",
+			"JaspColumn_4_Encoded",
+			"JaspColumn_5_Encoded"
 		],
 		"repeatedMeasuresFactors" : 
 		[
 			{
 				"levels" : 
 				[
-					"JaspExtraOptions_6_Encoded",
-					"JaspExtraOptions_0_Encoded"
+					"JaspExtraOptions_1_Encoded",
+					"JaspExtraOptions_2_Encoded"
 				],
-				"name" : "JaspExtraOptions_5_Encoded"
+				"name" : "JaspExtraOptions_0_Encoded"
 			},
 			{
 				"levels" : 
 				[
-					"JaspExtraOptions_2_Encoded",
-					"JaspExtraOptions_3_Encoded",
-					"JaspExtraOptions_4_Encoded"
+					"JaspExtraOptions_4_Encoded",
+					"JaspExtraOptions_5_Encoded",
+					"JaspExtraOptions_6_Encoded"
 				],
-				"name" : "JaspExtraOptions_1_Encoded"
+				"name" : "JaspExtraOptions_3_Encoded"
 			}
 		],
 		"restrictedAvailableCoefficients" : false,
@@ -1391,20 +1391,20 @@
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_5_Encoded"
+					"JaspExtraOptions_0_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_1_Encoded"
+					"JaspExtraOptions_3_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_5_Encoded",
-					"JaspExtraOptions_1_Encoded"
+					"JaspExtraOptions_0_Encoded",
+					"JaspExtraOptions_3_Encoded"
 				]
 			}
 		],

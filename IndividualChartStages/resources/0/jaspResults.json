@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -23,7 +23,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1749642053853.png",
+					"filePathPng" : "resources/0/_0_t1732281059161.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -446,7 +446,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"axisLabels" : "JaspColumn_2_Encoded",
+				"axisLabels" : "JaspColumn_1_Encoded",
 				"axisLabels.types" : 
 				[
 					"nominal"
@@ -458,29 +458,12 @@
 				"reportMiscellaneous" : null,
 				"reportReportedByBy" : null,
 				"reportTitle" : true,
-				"rule1" : true,
-				"rule2" : true,
-				"rule2Value" : 7,
-				"rule3" : true,
-				"rule3Value" : 7,
-				"rule4" : true,
-				"rule4Value" : 2,
-				"rule5" : true,
-				"rule5Value" : 15,
-				"rule6" : true,
-				"rule6Value" : 8,
-				"rule7" : false,
-				"rule7Value" : 4,
-				"rule8" : false,
-				"rule8Value" : 14,
-				"rule9" : null,
-				"rule9Value" : null,
-				"stage" : "JaspColumn_4_Encoded",
+				"stage" : "JaspColumn_2_Encoded",
 				"stage.types" : 
 				[
 					"nominal"
 				],
-				"testSet" : "jaspDefault",
+				"variables" : null,
 				"xmrChart" : true,
 				"xmrChartMovingRangeLength" : 2.0
 			},
@@ -611,7 +594,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1749642054354.png",
+					"filePathPng" : "resources/0/_1_t1732281059649.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "Yield",
@@ -620,7 +603,7 @@
 					"optionMustBe" : {},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_6_Encoded"
+						"variables" : "JaspColumn_0_Encoded"
 					},
 					"position" : 9999,
 					"resizedByUser" : false,
@@ -647,7 +630,7 @@
 			{
 				"autocorrelationPlot" : true,
 				"autocorrelationPlotLagsNumber" : 25.0,
-				"measurement" : "JaspColumn_6_Encoded",
+				"measurement" : "JaspColumn_0_Encoded",
 				"measurement.types" : 
 				[
 					"scale"
@@ -695,13 +678,13 @@
 		"autocorrelationPlot" : true,
 		"autocorrelationPlotCiLevel" : 0.94999999999999996,
 		"autocorrelationPlotLagsNumber" : 25.0,
-		"axisLabels" : "JaspColumn_2_Encoded",
+		"axisLabels" : "JaspColumn_1_Encoded",
 		"axisLabels.types" : 
 		[
 			"nominal"
 		],
 		"controlLimitsNumberOfSigmas" : 3.0,
-		"measurement" : "JaspColumn_6_Encoded",
+		"measurement" : "JaspColumn_0_Encoded",
 		"measurement.types" : 
 		[
 			"scale"
@@ -730,27 +713,11 @@
 		"reportSubtitleText" : "",
 		"reportTitle" : true,
 		"reportTitleText" : "",
-		"rule1" : true,
-		"rule2" : true,
-		"rule2Value" : 7,
-		"rule3" : true,
-		"rule3Value" : 7,
-		"rule4" : true,
-		"rule4Value" : 2,
-		"rule5" : true,
-		"rule5Value" : 15,
-		"rule6" : true,
-		"rule6Value" : 8,
-		"rule7" : false,
-		"rule7Value" : 4,
-		"rule8" : false,
-		"rule8Value" : 14,
-		"stage" : "JaspColumn_4_Encoded",
+		"stage" : "JaspColumn_2_Encoded",
 		"stage.types" : 
 		[
 			"nominal"
 		],
-		"testSet" : "jaspDefault",
 		"xmrChart" : true,
 		"xmrChartMovingRangeLength" : 2.0
 	},

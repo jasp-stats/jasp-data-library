@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -299,14 +299,14 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_0_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded",
-							"JaspColumn_12_Encoded",
-							"JaspColumn_33_Encoded",
-							"JaspColumn_45_Encoded",
-							"JaspColumn_57_Encoded",
-							"JaspColumn_60_Encoded"
+							"JaspColumn_23_Encoded",
+							"JaspColumn_29_Encoded",
+							"JaspColumn_32_Encoded",
+							"JaspColumn_35_Encoded",
+							"JaspColumn_56_Encoded",
+							"JaspColumn_68_Encoded",
+							"JaspColumn_80_Encoded",
+							"JaspColumn_83_Encoded"
 						],
 						[
 							0.80170105423778359,
@@ -349,24 +349,24 @@
 							0.60612639684485081
 						],
 						[
-							0.50799407263535945,
-							0.52164787762285991,
-							0.54854256039344462,
-							0.46467321884277163,
-							0.54491371209067141,
-							0.57183213948355915,
-							0.38610870385843743,
-							0.58108445970211431
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
 						],
 						[
-							0.56311027739125918,
-							0.57566493563730348,
-							0.60032029911296259,
-							0.52310766411027232,
-							0.59699933182470177,
-							0.6215915100558006,
-							0.44989807190290049,
-							0.63002166913027557
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
 						],
 						[
 							3.6258265266433294,
@@ -440,7 +440,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "The following item was reverse scaled: JaspColumn_6_Encoded. "
+							"text" : " The analytic confidence interval is not available for the item-rest correlation."
 						}
 					],
 					"messages" : [],
@@ -484,14 +484,14 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_0_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded",
-							"JaspColumn_12_Encoded",
-							"JaspColumn_33_Encoded",
-							"JaspColumn_45_Encoded",
-							"JaspColumn_57_Encoded",
-							"JaspColumn_60_Encoded"
+							"JaspColumn_23_Encoded",
+							"JaspColumn_29_Encoded",
+							"JaspColumn_32_Encoded",
+							"JaspColumn_35_Encoded",
+							"JaspColumn_56_Encoded",
+							"JaspColumn_68_Encoded",
+							"JaspColumn_80_Encoded",
+							"JaspColumn_83_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -959,7 +959,7 @@
 				"naAction" : "listwise",
 				"reverseScaledItems" : 
 				[
-					"JaspColumn_6_Encoded"
+					"JaspColumn_29_Encoded"
 				],
 				"reverseScaledItems.types" : 
 				[
@@ -970,14 +970,14 @@
 				"setSeed" : false,
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_12_Encoded",
-					"JaspColumn_33_Encoded",
-					"JaspColumn_45_Encoded",
-					"JaspColumn_57_Encoded",
-					"JaspColumn_60_Encoded"
+					"JaspColumn_23_Encoded",
+					"JaspColumn_29_Encoded",
+					"JaspColumn_32_Encoded",
+					"JaspColumn_35_Encoded",
+					"JaspColumn_56_Encoded",
+					"JaspColumn_68_Encoded",
+					"JaspColumn_80_Encoded",
+					"JaspColumn_83_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -1049,7 +1049,7 @@
 		"plotWidth" : 480,
 		"reverseScaledItems" : 
 		[
-			"JaspColumn_6_Encoded"
+			"JaspColumn_29_Encoded"
 		],
 		"reverseScaledItems.types" : 
 		[
@@ -1068,14 +1068,14 @@
 		"standardizedLoadings" : false,
 		"variables" : 
 		[
-			"JaspColumn_0_Encoded",
-			"JaspColumn_6_Encoded",
-			"JaspColumn_9_Encoded",
-			"JaspColumn_12_Encoded",
-			"JaspColumn_33_Encoded",
-			"JaspColumn_45_Encoded",
-			"JaspColumn_57_Encoded",
-			"JaspColumn_60_Encoded"
+			"JaspColumn_23_Encoded",
+			"JaspColumn_29_Encoded",
+			"JaspColumn_32_Encoded",
+			"JaspColumn_35_Encoded",
+			"JaspColumn_56_Encoded",
+			"JaspColumn_68_Encoded",
+			"JaspColumn_80_Encoded",
+			"JaspColumn_83_Encoded"
 		],
 		"variables.types" : 
 		[

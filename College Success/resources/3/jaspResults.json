@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -218,7 +218,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "M\u2081 includes JaspColumn_6_Encoded, JaspColumn_9_Encoded, JaspColumn_3_Encoded"
+							"text" : "M\u2081 includes JaspColumn_2_Encoded, JaspColumn_3_Encoded, JaspColumn_4_Encoded"
 						},
 						{
 							"cols" : null,
@@ -466,9 +466,9 @@
 						[
 							"(Intercept)",
 							"(Intercept)",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded",
-							"JaspColumn_3_Encoded"
+							"JaspColumn_2_Encoded",
+							"JaspColumn_3_Encoded",
+							"JaspColumn_4_Encoded"
 						],
 						[
 							2.6352232142857166,
@@ -656,10 +656,10 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"(Intercept)" : "number",
-							"JaspColumn_3_Encoded" : "number",
-							"JaspColumn_6_Encoded" : "number",
-							"JaspColumn_9_Encoded" : "number",
+							"(Intercept)" : "dp:3",
+							"JaspColumn_2_Encoded" : "dp:3",
+							"JaspColumn_3_Encoded" : "dp:3",
+							"JaspColumn_4_Encoded" : "dp:3",
 							"condIndex" : "sf:4;dp:3",
 							"eigenvalue" : "sf:4;dp:3"
 						},
@@ -697,9 +697,9 @@
 							"eigenvalue",
 							"condIndex",
 							"(Intercept)",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded",
+							"JaspColumn_2_Encoded",
 							"JaspColumn_3_Encoded",
+							"JaspColumn_4_Encoded",
 							".isNewGroup"
 						],
 						"title" : "colNames",
@@ -714,9 +714,9 @@
 						"fields" : 
 						{
 							"(Intercept)" : "Variance Proportions",
+							"JaspColumn_2_Encoded" : "Variance Proportions",
 							"JaspColumn_3_Encoded" : "Variance Proportions",
-							"JaspColumn_6_Encoded" : "Variance Proportions",
-							"JaspColumn_9_Encoded" : "Variance Proportions"
+							"JaspColumn_4_Encoded" : "Variance Proportions"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -740,9 +740,9 @@
 						"fields" : 
 						{
 							"(Intercept)" : "(Intercept)",
+							"JaspColumn_2_Encoded" : "JaspColumn_2_Encoded",
 							"JaspColumn_3_Encoded" : "JaspColumn_3_Encoded",
-							"JaspColumn_6_Encoded" : "JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded" : "JaspColumn_9_Encoded",
+							"JaspColumn_4_Encoded" : "JaspColumn_4_Encoded",
 							"condIndex" : "Condition Index",
 							"dimension" : "Dimension",
 							"eigenvalue" : "Eigenvalue",
@@ -769,9 +769,9 @@
 						"fields" : 
 						{
 							"(Intercept)" : "number",
+							"JaspColumn_2_Encoded" : "number",
 							"JaspColumn_3_Encoded" : "number",
-							"JaspColumn_6_Encoded" : "number",
-							"JaspColumn_9_Encoded" : "number",
+							"JaspColumn_4_Encoded" : "number",
 							"condIndex" : "number",
 							"dimension" : "integer",
 							"eigenvalue" : "number",
@@ -805,39 +805,39 @@
 						],
 						[
 							3.9453399845121027,
-							0.021619445484106006,
-							0.019455452545571093,
-							0.013585117458226595
+							0.021619445484106038,
+							0.019455452545571131,
+							0.013585117458226615
 						],
 						[
 							1.0,
-							13.50889859582515,
-							14.240379012658885,
-							17.041605915651733
+							13.508898595825139,
+							14.24037901265887,
+							17.041605915651722
 						],
 						[
-							0.0015984529290915385,
-							0.63780716141484406,
-							0.044309501668252572,
-							0.31628488398781179
+							0.0015984529290915409,
+							0.63780716141485438,
+							0.044309501668243212,
+							0.31628488398781079
 						],
 						[
-							0.0015289006257229289,
-							0.10183522867055723,
-							0.63366828250590723,
-							0.26296758819781252
+							0.0015289006257229332,
+							0.1018352286705466,
+							0.63366828250592322,
+							0.26296758819780719
 						],
 						[
-							0.0014380902979492149,
-							0.35790498778227764,
-							0.097871013260383041,
-							0.54278590865939003
+							0.0014380902979492178,
+							0.35790498778228486,
+							0.097871013260375506,
+							0.54278590865939036
 						],
 						[
-							0.001366842857106245,
-							0.021667997775537625,
-							0.41100374964852271,
-							0.56596140971883346
+							0.0013668428571062417,
+							0.021667997775532896,
+							0.41100374964852293,
+							0.56596140971883802
 						],
 						[
 							true,
@@ -912,9 +912,9 @@
 					"specifiedColumns" : 
 					[
 						"(Intercept)",
+						"JaspColumn_2_Encoded",
 						"JaspColumn_3_Encoded",
-						"JaspColumn_6_Encoded",
-						"JaspColumn_9_Encoded",
+						"JaspColumn_4_Encoded",
 						"condIndex",
 						"dimension",
 						"eigenvalue",
@@ -1057,7 +1057,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_6_t1749640324651.png",
+					"filePathPng" : "resources/3/_6_t1732712316177.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsQQPlot",
@@ -1082,6 +1082,252 @@
 					"data" : 
 					{
 						"hse" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											3,
+											4,
+											5,
+											6,
+											7,
+											8,
+											9,
+											10
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"3",
+											"4",
+											"5",
+											"6",
+											"7",
+											"8",
+											"9",
+											"10"
+										],
+										"limits" : 
+										[
+											3,
+											10
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											3,
+											10,
+											1
+										],
+										"title" : "JaspColumn_4_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											-3,
+											-2,
+											-1,
+											0,
+											1,
+											2
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"-3",
+											"-2",
+											"-1",
+											"0",
+											"1",
+											"2"
+										],
+										"limits" : 
+										[
+											-3,
+											2
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											-3,
+											2,
+											1
+										],
+										"title" : "Residuals",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_3",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/3/_3_t1732712315795.png",
+							"height" : 400,
+							"messages" : [],
+							"name" : "hse",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Residuals vs. JaspColumn_4_Encoded",
+							"type" : "plot",
+							"width" : 530
+						},
+						"hsm" : 
+						{
+							"aspectRatio" : 0.0,
+							"citations" : [],
+							"editOptions" : 
+							{
+								"error" : "success",
+								"xAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											2,
+											4,
+											6,
+											8,
+											10
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"2",
+											"4",
+											"6",
+											"8",
+											"10"
+										],
+										"limits" : 
+										[
+											2,
+											10
+										],
+										"limitsType" : "data",
+										"range" : 
+										[
+											2,
+											10,
+											2
+										],
+										"title" : "JaspColumn_2_Encoded",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								},
+								"yAxis" : 
+								{
+									"settings" : 
+									{
+										"breaks" : 
+										[
+											-3,
+											-2,
+											-1,
+											0,
+											1,
+											2
+										],
+										"breaksType" : "range",
+										"expand" : 
+										[
+											0.050000000000000003,
+											0,
+											0.050000000000000003,
+											0
+										],
+										"labels" : 
+										[
+											"-3",
+											"-2",
+											"-1",
+											"0",
+											"1",
+											"2"
+										],
+										"limits" : 
+										[
+											-3,
+											2
+										],
+										"limitsType" : "breaks",
+										"range" : 
+										[
+											-3,
+											2,
+											1
+										],
+										"title" : "Residuals",
+										"titleType" : "character"
+									},
+									"type" : "ScaleContinuous"
+								}
+							},
+							"environmentName" : "plot_1",
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"filePathPng" : "resources/3/_1_t1732712315534.png",
+							"height" : 400,
+							"messages" : [],
+							"name" : "hsm",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"position" : 9999,
+							"resizedByUser" : false,
+							"revision" : 0,
+							"status" : "complete",
+							"title" : "Residuals vs. JaspColumn_2_Encoded",
+							"type" : "plot",
+							"width" : 530
+						},
+						"hss" : 
 						{
 							"aspectRatio" : 0.0,
 							"citations" : [],
@@ -1187,257 +1433,11 @@
 									"type" : "ScaleContinuous"
 								}
 							},
-							"environmentName" : "plot_3",
-							"error" : false,
-							"errorMessage" : "",
-							"escapeHtml" : true,
-							"filePathPng" : "resources/3/_3_t1749640324225.png",
-							"height" : 400,
-							"messages" : [],
-							"name" : "hse",
-							"nestedOptionMustBe" : {},
-							"nestedOptionMustContain" : {},
-							"optionMustBe" : {},
-							"optionMustContain" : {},
-							"position" : 9999,
-							"resizedByUser" : false,
-							"revision" : 0,
-							"status" : "complete",
-							"title" : "Residuals vs. JaspColumn_3_Encoded",
-							"type" : "plot",
-							"width" : 530
-						},
-						"hsm" : 
-						{
-							"aspectRatio" : 0.0,
-							"citations" : [],
-							"editOptions" : 
-							{
-								"error" : "success",
-								"xAxis" : 
-								{
-									"settings" : 
-									{
-										"breaks" : 
-										[
-											2,
-											4,
-											6,
-											8,
-											10
-										],
-										"breaksType" : "range",
-										"expand" : 
-										[
-											0.050000000000000003,
-											0,
-											0.050000000000000003,
-											0
-										],
-										"labels" : 
-										[
-											"2",
-											"4",
-											"6",
-											"8",
-											"10"
-										],
-										"limits" : 
-										[
-											2,
-											10
-										],
-										"limitsType" : "data",
-										"range" : 
-										[
-											2,
-											10,
-											2
-										],
-										"title" : "JaspColumn_6_Encoded",
-										"titleType" : "character"
-									},
-									"type" : "ScaleContinuous"
-								},
-								"yAxis" : 
-								{
-									"settings" : 
-									{
-										"breaks" : 
-										[
-											-3,
-											-2,
-											-1,
-											0,
-											1,
-											2
-										],
-										"breaksType" : "range",
-										"expand" : 
-										[
-											0.050000000000000003,
-											0,
-											0.050000000000000003,
-											0
-										],
-										"labels" : 
-										[
-											"-3",
-											"-2",
-											"-1",
-											"0",
-											"1",
-											"2"
-										],
-										"limits" : 
-										[
-											-3,
-											2
-										],
-										"limitsType" : "breaks",
-										"range" : 
-										[
-											-3,
-											2,
-											1
-										],
-										"title" : "Residuals",
-										"titleType" : "character"
-									},
-									"type" : "ScaleContinuous"
-								}
-							},
-							"environmentName" : "plot_1",
-							"error" : false,
-							"errorMessage" : "",
-							"escapeHtml" : true,
-							"filePathPng" : "resources/3/_1_t1749640323944.png",
-							"height" : 400,
-							"messages" : [],
-							"name" : "hsm",
-							"nestedOptionMustBe" : {},
-							"nestedOptionMustContain" : {},
-							"optionMustBe" : {},
-							"optionMustContain" : {},
-							"position" : 9999,
-							"resizedByUser" : false,
-							"revision" : 0,
-							"status" : "complete",
-							"title" : "Residuals vs. JaspColumn_6_Encoded",
-							"type" : "plot",
-							"width" : 530
-						},
-						"hss" : 
-						{
-							"aspectRatio" : 0.0,
-							"citations" : [],
-							"editOptions" : 
-							{
-								"error" : "success",
-								"xAxis" : 
-								{
-									"settings" : 
-									{
-										"breaks" : 
-										[
-											3,
-											4,
-											5,
-											6,
-											7,
-											8,
-											9,
-											10
-										],
-										"breaksType" : "range",
-										"expand" : 
-										[
-											0.050000000000000003,
-											0,
-											0.050000000000000003,
-											0
-										],
-										"labels" : 
-										[
-											"3",
-											"4",
-											"5",
-											"6",
-											"7",
-											"8",
-											"9",
-											"10"
-										],
-										"limits" : 
-										[
-											3,
-											10
-										],
-										"limitsType" : "data",
-										"range" : 
-										[
-											3,
-											10,
-											1
-										],
-										"title" : "JaspColumn_9_Encoded",
-										"titleType" : "character"
-									},
-									"type" : "ScaleContinuous"
-								},
-								"yAxis" : 
-								{
-									"settings" : 
-									{
-										"breaks" : 
-										[
-											-3,
-											-2,
-											-1,
-											0,
-											1,
-											2
-										],
-										"breaksType" : "range",
-										"expand" : 
-										[
-											0.050000000000000003,
-											0,
-											0.050000000000000003,
-											0
-										],
-										"labels" : 
-										[
-											"-3",
-											"-2",
-											"-1",
-											"0",
-											"1",
-											"2"
-										],
-										"limits" : 
-										[
-											-3,
-											2
-										],
-										"limitsType" : "breaks",
-										"range" : 
-										[
-											-3,
-											2,
-											1
-										],
-										"title" : "Residuals",
-										"titleType" : "character"
-									},
-									"type" : "ScaleContinuous"
-								}
-							},
 							"environmentName" : "plot_2",
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/3/_2_t1749640324087.png",
+							"filePathPng" : "resources/3/_2_t1732712315666.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "hss",
@@ -1449,7 +1449,7 @@
 							"resizedByUser" : false,
 							"revision" : 0,
 							"status" : "complete",
-							"title" : "Residuals vs. JaspColumn_9_Encoded",
+							"title" : "Residuals vs. JaspColumn_3_Encoded",
 							"type" : "plot",
 							"width" : 530
 						}
@@ -1571,7 +1571,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_5_t1749640324517.png",
+					"filePathPng" : "resources/3/_5_t1732712316052.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsHistPlot",
@@ -1697,7 +1697,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_4_t1749640324375.png",
+					"filePathPng" : "resources/3/_4_t1732712315922.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsPredPlot",
@@ -1945,7 +1945,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "M\u2081 includes JaspColumn_6_Encoded, JaspColumn_9_Encoded, JaspColumn_3_Encoded"
+							"text" : "M\u2081 includes JaspColumn_2_Encoded, JaspColumn_3_Encoded, JaspColumn_4_Encoded"
 						}
 					],
 					"messages" : [],
@@ -2009,7 +2009,7 @@
 						"model"
 					],
 					"status" : "complete",
-					"title" : "Model Summary - JaspColumn_0_Encoded",
+					"title" : "Model Summary - JaspColumn_1_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -2039,9 +2039,9 @@
 			{
 				"covariates" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_2_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_4_Encoded"
 				],
 				"covariates.types" : 
 				[
@@ -2049,7 +2049,7 @@
 					"scale",
 					"scale"
 				],
-				"dependent" : "JaspColumn_0_Encoded",
+				"dependent" : "JaspColumn_1_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -2062,7 +2062,6 @@
 				[
 					{
 						"components" : [],
-						"components.types" : [],
 						"name" : "model0",
 						"title" : "Model 0"
 					},
@@ -2070,20 +2069,14 @@
 						"components" : 
 						[
 							[
-								"JaspColumn_6_Encoded"
-							],
-							[
-								"JaspColumn_9_Encoded"
+								"JaspColumn_2_Encoded"
 							],
 							[
 								"JaspColumn_3_Encoded"
+							],
+							[
+								"JaspColumn_4_Encoded"
 							]
-						],
-						"components.types" : 
-						[
-							"scale",
-							"scale",
-							"scale"
 						],
 						"name" : "model1",
 						"title" : "Model 1"
@@ -2139,10 +2132,6 @@
 			{
 				"shouldEncode" : true
 			},
-			"predictionsSavedToDataColumn" : 
-			{
-				"shouldEncode" : true
-			},
 			"residualsSavedToDataColumn" : 
 			{
 				"shouldEncode" : true
@@ -2163,9 +2152,9 @@
 		"covarianceRatio" : false,
 		"covariates" : 
 		[
-			"JaspColumn_6_Encoded",
-			"JaspColumn_9_Encoded",
-			"JaspColumn_3_Encoded"
+			"JaspColumn_2_Encoded",
+			"JaspColumn_3_Encoded",
+			"JaspColumn_4_Encoded"
 		],
 		"covariates.types" : 
 		[
@@ -2173,7 +2162,7 @@
 			"scale",
 			"scale"
 		],
-		"dependent" : "JaspColumn_0_Encoded",
+		"dependent" : "JaspColumn_1_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
@@ -2199,7 +2188,6 @@
 		[
 			{
 				"components" : [],
-				"components.types" : [],
 				"name" : "model0",
 				"title" : "Model 0"
 			},
@@ -2207,20 +2195,14 @@
 				"components" : 
 				[
 					[
-						"JaspColumn_6_Encoded"
-					],
-					[
-						"JaspColumn_9_Encoded"
+						"JaspColumn_2_Encoded"
 					],
 					[
 						"JaspColumn_3_Encoded"
+					],
+					[
+						"JaspColumn_4_Encoded"
 					]
-				],
-				"components.types" : 
-				[
-					"scale",
-					"scale",
-					"scale"
 				],
 				"name" : "model1",
 				"title" : "Model 1"
@@ -2236,8 +2218,6 @@
 		"partialResidualPlotPredictionIntervalLevel" : 0.94999999999999996,
 		"plotHeight" : 320,
 		"plotWidth" : 480,
-		"predictionsSavedToData" : false,
-		"predictionsSavedToDataColumn" : "",
 		"rSquaredChange" : false,
 		"residualCasewiseDiagnostic" : false,
 		"residualCasewiseDiagnosticCooksDistanceThreshold" : 0.0,

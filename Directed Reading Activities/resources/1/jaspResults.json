@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -26,7 +26,7 @@
 									"Control",
 									"Treat"
 								],
-								"title" : "JaspColumn_8_Encoded",
+								"title" : "JaspColumn_9_Encoded",
 								"titleType" : "character"
 							},
 							"type" : "ScaleDiscrete"
@@ -77,7 +77,7 @@
 									120,
 									20
 								],
-								"title" : "JaspColumn_0_Encoded",
+								"title" : "JaspColumn_13_Encoded",
 								"titleType" : "character"
 							},
 							"type" : "ScaleContinuous"
@@ -87,7 +87,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1749640055312.png",
+					"filePathPng" : "resources/1/_0_t1732272856948.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "drp",
@@ -104,13 +104,13 @@
 					},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_0_Encoded"
+						"variables" : "JaspColumn_13_Encoded"
 					},
 					"position" : 9999,
 					"resizedByUser" : false,
 					"revision" : 0,
 					"status" : "complete",
-					"title" : "JaspColumn_0_Encoded",
+					"title" : "JaspColumn_13_Encoded",
 					"type" : "plot",
 					"width" : 480
 				}
@@ -130,7 +130,7 @@
 			"optionMustBe" : 
 			{
 				"boxPlot" : true,
-				"splitBy" : "JaspColumn_8_Encoded",
+				"splitBy" : "JaspColumn_9_Encoded",
 				"splitBy.types" : 
 				[
 					"nominal"
@@ -299,8 +299,8 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_0_Encoded"
+					"JaspColumn_13_Encoded",
+					"JaspColumn_13_Encoded"
 				],
 				[
 					"Control",
@@ -372,7 +372,7 @@
 				"seMean" : false,
 				"shapiroWilkTest" : false,
 				"skewness" : false,
-				"splitBy" : "JaspColumn_8_Encoded",
+				"splitBy" : "JaspColumn_9_Encoded",
 				"splitBy.types" : 
 				[
 					"nominal"
@@ -381,7 +381,7 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded"
+					"JaspColumn_13_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -411,8 +411,8 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_0_Encoded1",
-					"JaspColumn_0_Encoded2"
+					"JaspColumn_13_Encoded1",
+					"JaspColumn_13_Encoded2"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -580,7 +580,7 @@
 		"seMean" : false,
 		"shapiroWilkTest" : false,
 		"skewness" : false,
-		"splitBy" : "JaspColumn_8_Encoded",
+		"splitBy" : "JaspColumn_9_Encoded",
 		"splitBy.types" : 
 		[
 			"nominal"
@@ -592,7 +592,7 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_0_Encoded"
+			"JaspColumn_13_Encoded"
 		],
 		"variables.types" : 
 		[

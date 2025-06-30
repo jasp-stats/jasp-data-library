@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -228,11 +228,11 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_0_Encoded",
-							"JaspColumn_3_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded",
-							"JaspColumn_12_Encoded"
+							"JaspColumn_5_Encoded",
+							"JaspColumn_8_Encoded",
+							"JaspColumn_11_Encoded",
+							"JaspColumn_14_Encoded",
+							"JaspColumn_17_Encoded"
 						],
 						[
 							0.70304579613397677,
@@ -917,11 +917,11 @@
 				"thinning" : 1,
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_3_Encoded",
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_12_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_17_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -958,6 +958,10 @@
 	{
 		".meta" : 
 		{
+			"inverseWishartPriorScale" : 
+			{
+				"isRCode" : true
+			},
 			"reverseScaledItems" : 
 			{
 				"shouldEncode" : true
@@ -1026,11 +1030,11 @@
 		"tracePlot" : false,
 		"variables" : 
 		[
-			"JaspColumn_0_Encoded",
-			"JaspColumn_3_Encoded",
-			"JaspColumn_6_Encoded",
-			"JaspColumn_9_Encoded",
-			"JaspColumn_12_Encoded"
+			"JaspColumn_5_Encoded",
+			"JaspColumn_8_Encoded",
+			"JaspColumn_11_Encoded",
+			"JaspColumn_14_Encoded",
+			"JaspColumn_17_Encoded"
 		],
 		"variables.types" : 
 		[

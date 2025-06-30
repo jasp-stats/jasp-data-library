@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software].",
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software].",
 		"Revelle, W. (2018) psych: Procedures for Personality and Psychological Research, Northwestern University, Evanston, Illinois, USA, https://CRAN.R-project.org/package=psych Version = 1.8.12."
 	],
 	"data" : 
@@ -410,13 +410,13 @@
 							"Model"
 						],
 						[
-							20.415315445005088
+							20.415315445005124
 						],
 						[
 							14.0
 						],
 						[
-							0.1175817806290101
+							0.11758178062900899
 						]
 					],
 					"error" : false,
@@ -624,27 +624,27 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_24_Encoded",
-							"JaspColumn_30_Encoded",
-							"JaspColumn_36_Encoded",
-							"JaspColumn_27_Encoded",
-							"JaspColumn_39_Encoded",
-							"JaspColumn_33_Encoded",
-							"JaspColumn_42_Encoded"
+							"JaspColumn_13_Encoded",
+							"JaspColumn_14_Encoded",
+							"JaspColumn_16_Encoded",
+							"JaspColumn_15_Encoded",
+							"JaspColumn_10_Encoded",
+							"JaspColumn_11_Encoded",
+							"JaspColumn_12_Encoded"
 						],
 						[
 							0.9403674602957045,
 							0.90729775597742657,
-							0.8818546668634144,
+							0.88185466686341452,
 							0.80525959115469536,
 							0.53122107255743511,
-							0.29200352887768766,
-							0.22386571090565233
+							0.2920035288776876,
+							0.22386571090565216
 						],
 						[
 							0.11570903961700651,
 							0.17681078199832612,
-							0.22233234653121636,
+							0.22233234653121625,
 							0.35155699085337289,
 							0.71780417207092828,
 							0.9147339391229774,
@@ -838,7 +838,7 @@
 								"limits" : 
 								[
 									0.0599864666922326,
-									3.5511685863254701
+									3.5511685863254598
 								],
 								"limitsType" : "data",
 								"range" : 
@@ -857,7 +857,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_2_t1749640582190.png",
+					"filePathPng" : "resources/3/_2_t1732274576628.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "scree",
@@ -910,13 +910,13 @@
 				"sampleSize" : 200,
 				"variables" : 
 				[
-					"JaspColumn_39_Encoded",
-					"JaspColumn_33_Encoded",
-					"JaspColumn_42_Encoded",
-					"JaspColumn_24_Encoded",
-					"JaspColumn_30_Encoded",
-					"JaspColumn_27_Encoded",
-					"JaspColumn_36_Encoded"
+					"JaspColumn_10_Encoded",
+					"JaspColumn_11_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_13_Encoded",
+					"JaspColumn_14_Encoded",
+					"JaspColumn_15_Encoded",
+					"JaspColumn_16_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -976,6 +976,7 @@
 		"obliqueSelector" : "promax",
 		"orthogonalSelector" : "none",
 		"parallelAnalysisMethod" : "principalComponentBased",
+		"parallelAnalysisSeed" : 1234,
 		"parallelAnalysisTable" : false,
 		"parallelAnalysisTableMethod" : "principalComponentBased",
 		"pathDiagram" : false,
@@ -986,17 +987,15 @@
 		"sampleSize" : 200,
 		"screePlot" : true,
 		"screePlotParallelAnalysisResults" : true,
-		"seed" : 1,
-		"setSeed" : false,
 		"variables" : 
 		[
-			"JaspColumn_39_Encoded",
-			"JaspColumn_33_Encoded",
-			"JaspColumn_42_Encoded",
-			"JaspColumn_24_Encoded",
-			"JaspColumn_30_Encoded",
-			"JaspColumn_27_Encoded",
-			"JaspColumn_36_Encoded"
+			"JaspColumn_10_Encoded",
+			"JaspColumn_11_Encoded",
+			"JaspColumn_12_Encoded",
+			"JaspColumn_13_Encoded",
+			"JaspColumn_14_Encoded",
+			"JaspColumn_15_Encoded",
+			"JaspColumn_16_Encoded"
 		],
 		"variables.types" : 
 		[

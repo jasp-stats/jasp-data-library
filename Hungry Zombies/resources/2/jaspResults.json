@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -24,7 +24,7 @@
 				"testValue" : "1",
 				"variables" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -196,7 +196,7 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				[
 					"Hungry"
@@ -250,7 +250,7 @@
 				"testValue" : "1",
 				"variables" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -336,7 +336,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_0_t1749640502644.png",
+							"filePathPng" : "resources/2/_0_t1732274288066.png",
 							"height" : 371,
 							"messages" : [],
 							"name" : "OutcomeHungrypriorposterior",
@@ -369,7 +369,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_1_t1749640503040.png",
+							"filePathPng" : "resources/2/_1_t1732274288382.png",
 							"height" : 371,
 							"messages" : [],
 							"name" : "OutcomeHungrysequential",
@@ -406,11 +406,11 @@
 					"optionMustBe" : {},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_2_Encoded"
+						"variables" : "JaspColumn_0_Encoded"
 					},
 					"order_increment" : 2,
 					"position" : 9999,
-					"title" : "JaspColumn_2_Encoded - Hungry",
+					"title" : "JaspColumn_0_Encoded - Hungry",
 					"type" : "container"
 				}
 			},
@@ -523,6 +523,18 @@
 	{
 		".meta" : 
 		{
+			"priorA" : 
+			{
+				"isRCode" : true
+			},
+			"priorB" : 
+			{
+				"isRCode" : true
+			},
+			"testValue" : 
+			{
+				"isRCode" : true
+			},
 			"variables" : 
 			{
 				"shouldEncode" : true
@@ -542,7 +554,7 @@
 		"testValue" : "1",
 		"variables" : 
 		[
-			"JaspColumn_2_Encoded"
+			"JaspColumn_0_Encoded"
 		],
 		"variables.types" : 
 		[

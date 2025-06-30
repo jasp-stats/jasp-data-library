@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -179,12 +179,12 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_3_Encoded",
-							"JaspColumn_3_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded",
-							"JaspColumn_9_Encoded"
+							"JaspColumn_0_Encoded",
+							"JaspColumn_0_Encoded",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded",
+							"JaspColumn_2_Encoded"
 						],
 						[
 							"0",
@@ -265,9 +265,9 @@
 					{
 						"dependent" : 
 						[
-							"JaspColumn_3_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded"
+							"JaspColumn_0_Encoded",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded"
 						],
 						"dependent.types" : 
 						[
@@ -353,7 +353,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"group" : "JaspColumn_2_Encoded",
+				"group" : "JaspColumn_6_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -379,7 +379,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"group" : "JaspColumn_2_Encoded",
+				"group" : "JaspColumn_6_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -557,9 +557,9 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_3_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded"
+							"JaspColumn_0_Encoded",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded"
 						],
 						[
 							0.6391124277306709,
@@ -587,9 +587,9 @@
 						"bayesFactorType" : "BF10",
 						"dependent" : 
 						[
-							"JaspColumn_3_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded"
+							"JaspColumn_0_Encoded",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded"
 						],
 						"dependent.types" : 
 						[
@@ -617,9 +617,9 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_3_Encoded",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded"
+							"JaspColumn_0_Encoded",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -674,7 +674,7 @@
 			{
 				"dependents" : null,
 				"effectSizeStandardized" : "default",
-				"group" : "JaspColumn_2_Encoded",
+				"group" : "JaspColumn_6_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -742,9 +742,9 @@
 		"defaultStandardizedEffectSize" : "cauchy",
 		"dependent" : 
 		[
-			"JaspColumn_3_Encoded",
-			"JaspColumn_6_Encoded",
-			"JaspColumn_9_Encoded"
+			"JaspColumn_0_Encoded",
+			"JaspColumn_1_Encoded",
+			"JaspColumn_2_Encoded"
 		],
 		"dependent.types" : 
 		[
@@ -758,7 +758,7 @@
 		"dienesEffectSize" : "uniform",
 		"effectSize" : "standardized",
 		"effectSizeStandardized" : "default",
-		"group" : "JaspColumn_2_Encoded",
+		"group" : "JaspColumn_6_Encoded",
 		"group.types" : 
 		[
 			"nominal"

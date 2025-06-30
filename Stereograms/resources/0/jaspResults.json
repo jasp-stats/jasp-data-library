@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -64,7 +64,7 @@
 											50,
 											10
 										],
-										"title" : "JaspColumn_6_Encoded",
+										"title" : "JaspColumn_7_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -119,7 +119,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1749640094310.png",
+							"filePathPng" : "resources/0/_0_t1732272894479.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "NV",
@@ -127,7 +127,7 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"splitBy" : "JaspColumn_5_Encoded",
+								"splitBy" : "JaspColumn_12_Encoded",
 								"splitBy.types" : 
 								[
 									"nominal"
@@ -135,7 +135,7 @@
 							},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_6_Encoded"
+								"variables" : "JaspColumn_7_Encoded"
 							},
 							"position" : 9999,
 							"resizedByUser" : false,
@@ -192,7 +192,7 @@
 											20,
 											5
 										],
-										"title" : "JaspColumn_6_Encoded",
+										"title" : "JaspColumn_7_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -249,7 +249,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1749640094459.png",
+							"filePathPng" : "resources/0/_1_t1732272894638.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "VV",
@@ -257,7 +257,7 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"splitBy" : "JaspColumn_5_Encoded",
+								"splitBy" : "JaspColumn_12_Encoded",
 								"splitBy.types" : 
 								[
 									"nominal"
@@ -265,7 +265,7 @@
 							},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_6_Encoded"
+								"variables" : "JaspColumn_7_Encoded"
 							},
 							"position" : 9999,
 							"resizedByUser" : false,
@@ -291,7 +291,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_12_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
@@ -299,11 +299,11 @@
 					},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_6_Encoded"
+						"variables" : "JaspColumn_7_Encoded"
 					},
 					"order_increment" : 2,
 					"position" : 9999,
-					"title" : "JaspColumn_6_Encoded",
+					"title" : "JaspColumn_7_Encoded",
 					"type" : "container"
 				},
 				"logFuseTime" : 
@@ -364,7 +364,7 @@
 											4,
 											0.5
 										],
-										"title" : "JaspColumn_9_Encoded",
+										"title" : "JaspColumn_13_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -423,7 +423,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_2_t1749640094656.png",
+							"filePathPng" : "resources/0/_2_t1732272894784.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "NV",
@@ -431,7 +431,7 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"splitBy" : "JaspColumn_5_Encoded",
+								"splitBy" : "JaspColumn_12_Encoded",
 								"splitBy.types" : 
 								[
 									"nominal"
@@ -439,7 +439,7 @@
 							},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_9_Encoded"
+								"variables" : "JaspColumn_13_Encoded"
 							},
 							"position" : 9999,
 							"resizedByUser" : false,
@@ -500,7 +500,7 @@
 											3,
 											0.5
 										],
-										"title" : "JaspColumn_9_Encoded",
+										"title" : "JaspColumn_13_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -561,7 +561,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_3_t1749640094757.png",
+							"filePathPng" : "resources/0/_3_t1732272894884.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "VV",
@@ -569,7 +569,7 @@
 							"nestedOptionMustContain" : {},
 							"optionMustBe" : 
 							{
-								"splitBy" : "JaspColumn_5_Encoded",
+								"splitBy" : "JaspColumn_12_Encoded",
 								"splitBy.types" : 
 								[
 									"nominal"
@@ -577,7 +577,7 @@
 							},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_9_Encoded"
+								"variables" : "JaspColumn_13_Encoded"
 							},
 							"position" : 9999,
 							"resizedByUser" : false,
@@ -603,7 +603,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_12_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
@@ -611,11 +611,11 @@
 					},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_9_Encoded"
+						"variables" : "JaspColumn_13_Encoded"
 					},
 					"order_increment" : 2,
 					"position" : 9999,
-					"title" : "JaspColumn_9_Encoded",
+					"title" : "JaspColumn_13_Encoded",
 					"type" : "container"
 				}
 			},
@@ -639,15 +639,15 @@
 				"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 				"distributionAndCorrelationPlotRugMarks" : false,
 				"distributionPlots" : true,
-				"splitBy" : "JaspColumn_5_Encoded",
+				"splitBy" : "JaspColumn_12_Encoded",
 				"splitBy.types" : 
 				[
 					"nominal"
 				],
 				"variables" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded"
+					"JaspColumn_7_Encoded",
+					"JaspColumn_13_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -818,10 +818,10 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded"
+					"JaspColumn_7_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_13_Encoded",
+					"JaspColumn_13_Encoded"
 				],
 				[
 					"NV",
@@ -907,7 +907,7 @@
 				"seMean" : false,
 				"shapiroWilkTest" : false,
 				"skewness" : false,
-				"splitBy" : "JaspColumn_5_Encoded",
+				"splitBy" : "JaspColumn_12_Encoded",
 				"splitBy.types" : 
 				[
 					"nominal"
@@ -916,8 +916,8 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_6_Encoded",
-					"JaspColumn_9_Encoded"
+					"JaspColumn_7_Encoded",
+					"JaspColumn_13_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -948,10 +948,10 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_6_Encoded1",
-					"JaspColumn_6_Encoded2",
-					"JaspColumn_9_Encoded1",
-					"JaspColumn_9_Encoded2"
+					"JaspColumn_7_Encoded1",
+					"JaspColumn_7_Encoded2",
+					"JaspColumn_13_Encoded1",
+					"JaspColumn_13_Encoded2"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -1119,7 +1119,7 @@
 		"seMean" : false,
 		"shapiroWilkTest" : false,
 		"skewness" : false,
-		"splitBy" : "JaspColumn_5_Encoded",
+		"splitBy" : "JaspColumn_12_Encoded",
 		"splitBy.types" : 
 		[
 			"nominal"
@@ -1131,8 +1131,8 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_6_Encoded",
-			"JaspColumn_9_Encoded"
+			"JaspColumn_7_Encoded",
+			"JaspColumn_13_Encoded"
 		],
 		"variables.types" : 
 		[

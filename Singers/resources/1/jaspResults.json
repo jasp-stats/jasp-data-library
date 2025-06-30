@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -237,7 +237,7 @@
 					"optionMustBe" : {},
 					"optionMustContain" : 
 					{
-						"postHocTerms" : "JaspColumn_11_Encoded"
+						"postHocTerms" : "JaspColumn_7_Encoded"
 					},
 					"position" : 9999,
 					"rowNames" : 
@@ -297,7 +297,7 @@
 						"error %"
 					],
 					"status" : "complete",
-					"title" : "Post Hoc Comparisons - JaspColumn_11_Encoded",
+					"title" : "Post Hoc Comparisons - JaspColumn_7_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -318,7 +318,7 @@
 			"optionMustBe" : 
 			{
 				"bayesFactorType" : "BF10",
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_1_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -360,7 +360,7 @@
 											"3. low",
 											"4. very low"
 										],
-										"title" : "JaspColumn_11_Encoded",
+										"title" : "JaspColumn_7_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleDiscrete"
@@ -409,7 +409,7 @@
 											76,
 											2
 										],
-										"title" : "JaspColumn_3_Encoded",
+										"title" : "JaspColumn_1_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -419,7 +419,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1749640224493.png",
+							"filePathPng" : "resources/1/_0_t1732273674729.png",
 							"height" : 300,
 							"messages" : [],
 							"name" : "",
@@ -450,14 +450,14 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"dependent" : "JaspColumn_3_Encoded",
+						"dependent" : "JaspColumn_1_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
 						],
 						"descriptivePlotCi" : true,
 						"descriptivePlotCiLevel" : 0.94999999999999996,
-						"descriptivePlotHorizontalAxis" : "JaspColumn_11_Encoded",
+						"descriptivePlotHorizontalAxis" : "JaspColumn_7_Encoded",
 						"descriptivePlotHorizontalAxis.types" : 
 						[
 							"nominal"
@@ -489,7 +489,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_1_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -658,9 +658,9 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_11_Encoded",
-					"JaspColumn_2_Encoded\u2009\u273b\u2009JaspColumn_11_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded",
+					"JaspColumn_3_Encoded\u2009\u273b\u2009JaspColumn_7_Encoded"
 				],
 				[
 					0.60000000000000009,
@@ -674,18 +674,18 @@
 				],
 				[
 					1.0,
-					0.99577621972428754,
-					0.093741661403491952
+					0.99573520296617146,
+					0.09750382595044399
 				],
 				[
 					0.0,
-					0.0042237802757124632,
-					0.90625833859650806
+					0.0042647970338285379,
+					0.90249617404955607
 				],
 				[
 					"\u221e",
-					157.16982650986671,
-					0.41375249158497795
+					155.65183134827757,
+					0.43215175312240184
 				]
 			],
 			"error" : false,
@@ -709,7 +709,7 @@
 				"cauchyPriorScaleFixedEffects" : 0.5,
 				"cauchyPriorScaleRandomEffects" : 1.0,
 				"covariates" : null,
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_1_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -720,8 +720,8 @@
 				"enforcePrincipleOfMarginalityRandomSlopes" : false,
 				"fixedFactors" : 
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_11_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded"
 				],
 				"fixedFactors.types" : 
 				[
@@ -735,22 +735,22 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_2_Encoded"
+							"JaspColumn_3_Encoded"
 						],
 						"isNuisance" : false
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_11_Encoded"
+							"JaspColumn_7_Encoded"
 						],
 						"isNuisance" : false
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_2_Encoded",
-							"JaspColumn_11_Encoded"
+							"JaspColumn_3_Encoded",
+							"JaspColumn_7_Encoded"
 						],
 						"isNuisance" : false
 					}
@@ -760,8 +760,8 @@
 					"nominal",
 					"nominal",
 					[
-						"nominal",
-						"nominal"
+						"unknown",
+						"unknown"
 					]
 				],
 				"priorSpecificationMode" : "acrossParameters",
@@ -826,7 +826,7 @@
 				"P(incl|data)"
 			],
 			"status" : "complete",
-			"title" : "Analysis of Effects - JaspColumn_3_Encoded",
+			"title" : "Analysis of Effects - JaspColumn_1_Encoded",
 			"transposeTable" : false,
 			"transposeWithOvertitle" : false,
 			"type" : "table"
@@ -988,10 +988,10 @@
 			[
 				[
 					"Null model",
-					"JaspColumn_2_Encoded + JaspColumn_11_Encoded",
-					"JaspColumn_2_Encoded + JaspColumn_11_Encoded + JaspColumn_2_Encoded\u2009\u273b\u2009JaspColumn_11_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_11_Encoded"
+					"JaspColumn_3_Encoded + JaspColumn_7_Encoded",
+					"JaspColumn_3_Encoded + JaspColumn_7_Encoded + JaspColumn_3_Encoded\u2009\u273b\u2009JaspColumn_7_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded"
 				],
 				[
 					0.20000000000000001,
@@ -1001,32 +1001,32 @@
 					0.20000000000000001
 				],
 				[
-					1.1094516182155452e-40,
-					0.9020345583207956,
-					0.093741661403491952,
-					0.0042237802757146272,
-					9.0129803556118935e-39
+					1.1202254051308501e-40,
+					0.89823137701572753,
+					0.09750382595044399,
+					0.0042647970338323083,
+					9.1005046137488768e-39
 				],
 				[
-					4.4378064728621969e-40,
-					36.830724911119617,
-					0.41375249158497934,
-					0.016966785075000646,
-					3.6051921422447704e-38
+					4.4809016205234166e-40,
+					35.304845469099391,
+					0.43215175312239901,
+					0.017132253720177834,
+					3.6402018454995643e-38
 				],
 				[
 					1.0,
-					8.1304542127906267e+39,
-					8.4493690273999632e+38,
+					8.0183092875920622e+39,
+					8.7039470363604961e+38,
 					3.8070883005319373e+37,
 					81.238155928858944
 				],
 				[
 					"",
-					2.3665453945492456,
-					1.4869382949045227,
+					1.1840959191697882,
+					2.0126103314512012,
 					1.7086085461376179e-43,
-					0.0027001407408118253
+					0.0027001407407947499
 				]
 			],
 			"error" : false,
@@ -1051,7 +1051,7 @@
 				"cauchyPriorScaleFixedEffects" : 0.5,
 				"cauchyPriorScaleRandomEffects" : 1.0,
 				"covariates" : null,
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_1_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -1060,8 +1060,8 @@
 				"enforcePrincipleOfMarginalityRandomSlopes" : false,
 				"fixedFactors" : 
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_11_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded"
 				],
 				"fixedFactors.types" : 
 				[
@@ -1077,22 +1077,22 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_2_Encoded"
+							"JaspColumn_3_Encoded"
 						],
 						"isNuisance" : false
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_11_Encoded"
+							"JaspColumn_7_Encoded"
 						],
 						"isNuisance" : false
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_2_Encoded",
-							"JaspColumn_11_Encoded"
+							"JaspColumn_3_Encoded",
+							"JaspColumn_7_Encoded"
 						],
 						"isNuisance" : false
 					}
@@ -1102,8 +1102,8 @@
 					"nominal",
 					"nominal",
 					[
-						"nominal",
-						"nominal"
+						"unknown",
+						"unknown"
 					]
 				],
 				"modelsShown" : "limited",
@@ -1198,7 +1198,7 @@
 				"cauchyPriorScaleCovariates" : 0.35399999999999998,
 				"cauchyPriorScaleFixedEffects" : 0.5,
 				"cauchyPriorScaleRandomEffects" : 1.0,
-				"dependent" : "JaspColumn_3_Encoded",
+				"dependent" : "JaspColumn_1_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -1316,14 +1316,14 @@
 		"criTable" : false,
 		"customPriorSpecification" : [],
 		"customPriorSpecification.types" : [],
-		"dependent" : "JaspColumn_3_Encoded",
+		"dependent" : "JaspColumn_1_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
 		],
 		"descriptivePlotCi" : true,
 		"descriptivePlotCiLevel" : 0.94999999999999996,
-		"descriptivePlotHorizontalAxis" : "JaspColumn_11_Encoded",
+		"descriptivePlotHorizontalAxis" : "JaspColumn_7_Encoded",
 		"descriptivePlotHorizontalAxis.types" : 
 		[
 			"nominal"
@@ -1339,8 +1339,8 @@
 		"enforcePrincipleOfMarginalityRandomSlopes" : false,
 		"fixedFactors" : 
 		[
-			"JaspColumn_2_Encoded",
-			"JaspColumn_11_Encoded"
+			"JaspColumn_3_Encoded",
+			"JaspColumn_7_Encoded"
 		],
 		"fixedFactors.types" : 
 		[
@@ -1358,22 +1358,22 @@
 			{
 				"components" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_3_Encoded"
 				],
 				"isNuisance" : false
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_7_Encoded"
 				],
 				"isNuisance" : false
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_11_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_7_Encoded"
 				],
 				"isNuisance" : false
 			}
@@ -1383,8 +1383,8 @@
 			"nominal",
 			"nominal",
 			[
-				"nominal",
-				"nominal"
+				"unknown",
+				"unknown"
 			]
 		],
 		"modelsShown" : "limited",
@@ -1394,7 +1394,7 @@
 		"postHocNullControl" : true,
 		"postHocTerms" : 
 		[
-			"JaspColumn_11_Encoded"
+			"JaspColumn_7_Encoded"
 		],
 		"postHocTerms.types" : 
 		[

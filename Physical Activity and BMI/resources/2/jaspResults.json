@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -218,7 +218,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "M\u2081 includes JaspColumn_3_Encoded"
+							"text" : "M\u2081 includes JaspColumn_1_Encoded"
 						},
 						{
 							"cols" : null,
@@ -474,7 +474,7 @@
 						[
 							"(Intercept)",
 							"(Intercept)",
-							"JaspColumn_3_Encoded"
+							"JaspColumn_1_Encoded"
 						],
 						[
 							23.939,
@@ -855,7 +855,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "M\u2081 includes JaspColumn_3_Encoded"
+							"text" : "M\u2081 includes JaspColumn_1_Encoded"
 						}
 					],
 					"messages" : [],
@@ -919,7 +919,7 @@
 						"model"
 					],
 					"status" : "complete",
-					"title" : "Model Summary - JaspColumn_0_Encoded",
+					"title" : "Model Summary - JaspColumn_2_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -944,13 +944,13 @@
 			{
 				"covariates" : 
 				[
-					"JaspColumn_3_Encoded"
+					"JaspColumn_1_Encoded"
 				],
 				"covariates.types" : 
 				[
 					"scale"
 				],
-				"dependent" : "JaspColumn_0_Encoded",
+				"dependent" : "JaspColumn_2_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -963,7 +963,6 @@
 				[
 					{
 						"components" : [],
-						"components.types" : [],
 						"name" : "model0",
 						"title" : "Model 0"
 					},
@@ -971,12 +970,8 @@
 						"components" : 
 						[
 							[
-								"JaspColumn_3_Encoded"
+								"JaspColumn_1_Encoded"
 							]
-						],
-						"components.types" : 
-						[
-							"scale"
 						],
 						"name" : "model1",
 						"title" : "Model 1"
@@ -1032,10 +1027,6 @@
 			{
 				"shouldEncode" : true
 			},
-			"predictionsSavedToDataColumn" : 
-			{
-				"shouldEncode" : true
-			},
 			"residualsSavedToDataColumn" : 
 			{
 				"shouldEncode" : true
@@ -1056,13 +1047,13 @@
 		"covarianceRatio" : false,
 		"covariates" : 
 		[
-			"JaspColumn_3_Encoded"
+			"JaspColumn_1_Encoded"
 		],
 		"covariates.types" : 
 		[
 			"scale"
 		],
-		"dependent" : "JaspColumn_0_Encoded",
+		"dependent" : "JaspColumn_2_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
@@ -1088,7 +1079,6 @@
 		[
 			{
 				"components" : [],
-				"components.types" : [],
 				"name" : "model0",
 				"title" : "Model 0"
 			},
@@ -1096,12 +1086,8 @@
 				"components" : 
 				[
 					[
-						"JaspColumn_3_Encoded"
+						"JaspColumn_1_Encoded"
 					]
-				],
-				"components.types" : 
-				[
-					"scale"
 				],
 				"name" : "model1",
 				"title" : "Model 1"
@@ -1117,8 +1103,6 @@
 		"partialResidualPlotPredictionIntervalLevel" : 0.94999999999999996,
 		"plotHeight" : 320,
 		"plotWidth" : 480,
-		"predictionsSavedToData" : false,
-		"predictionsSavedToDataColumn" : "",
 		"rSquaredChange" : false,
 		"residualCasewiseDiagnostic" : false,
 		"residualCasewiseDiagnosticCooksDistanceThreshold" : 0.0,

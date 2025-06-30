@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -156,7 +156,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_3_Encoded"
+							"JaspColumn_2_Encoded"
 						],
 						[
 							0.26975476839236967
@@ -204,7 +204,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_3_Encoded"
+							"JaspColumn_2_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -383,7 +383,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_3_Encoded"
+							"JaspColumn_2_Encoded"
 						],
 						[
 							0.96497345264316603
@@ -430,7 +430,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_3_Encoded"
+							"JaspColumn_2_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -485,14 +485,14 @@
 			{
 				"dependent" : 
 				[
-					"JaspColumn_3_Encoded"
+					"JaspColumn_2_Encoded"
 				],
 				"dependent.types" : 
 				[
 					"scale"
 				],
 				"equalityOfVariancesTest" : true,
-				"group" : "JaspColumn_2_Encoded",
+				"group" : "JaspColumn_1_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -679,8 +679,8 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded"
 				],
 				[
 					"Student",
@@ -750,7 +750,7 @@
 				"alternative" : "twoSided",
 				"dependent" : 
 				[
-					"JaspColumn_3_Encoded"
+					"JaspColumn_2_Encoded"
 				],
 				"dependent.types" : 
 				[
@@ -762,7 +762,7 @@
 				"effectSizeType" : "cohen",
 				"equalityOfVariancesTest" : true,
 				"equalityOfVariancesTestType" : "brownForsythe",
-				"group" : "JaspColumn_2_Encoded",
+				"group" : "JaspColumn_1_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -795,8 +795,8 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"Student-JaspColumn_3_Encoded",
-					"Welch-JaspColumn_3_Encoded"
+					"Student-JaspColumn_2_Encoded",
+					"Welch-JaspColumn_2_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -865,7 +865,7 @@
 											"0",
 											"1"
 										],
-										"title" : "JaspColumn_2_Encoded",
+										"title" : "JaspColumn_1_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleDiscrete"
@@ -904,7 +904,7 @@
 											7,
 											5
 										],
-										"title" : "JaspColumn_3_Encoded",
+										"title" : "JaspColumn_2_Encoded",
 										"titleType" : "character"
 									},
 									"type" : "ScaleContinuous"
@@ -914,7 +914,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1749640075208.png",
+							"filePathPng" : "resources/1/_0_t1732272875497.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Mischief",
@@ -923,13 +923,13 @@
 							"optionMustBe" : {},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_3_Encoded"
+								"variables" : "JaspColumn_2_Encoded"
 							},
 							"position" : 9999,
 							"resizedByUser" : false,
 							"revision" : 0,
 							"status" : "complete",
-							"title" : "JaspColumn_3_Encoded",
+							"title" : "JaspColumn_2_Encoded",
 							"type" : "plot",
 							"width" : 480
 						}
@@ -1117,8 +1117,8 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_3_Encoded",
-							"JaspColumn_3_Encoded"
+							"JaspColumn_2_Encoded",
+							"JaspColumn_2_Encoded"
 						],
 						[
 							"0",
@@ -1247,13 +1247,13 @@
 			{
 				"dependent" : 
 				[
-					"JaspColumn_3_Encoded"
+					"JaspColumn_2_Encoded"
 				],
 				"dependent.types" : 
 				[
 					"scale"
 				],
-				"group" : "JaspColumn_2_Encoded",
+				"group" : "JaspColumn_1_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -1304,7 +1304,7 @@
 		"barPlotYAxisFixedToZero" : true,
 		"dependent" : 
 		[
-			"JaspColumn_3_Encoded"
+			"JaspColumn_2_Encoded"
 		],
 		"dependent.types" : 
 		[
@@ -1319,7 +1319,7 @@
 		"effectSizeType" : "cohen",
 		"equalityOfVariancesTest" : true,
 		"equalityOfVariancesTestType" : "brownForsythe",
-		"group" : "JaspColumn_2_Encoded",
+		"group" : "JaspColumn_1_Encoded",
 		"group.types" : 
 		[
 			"nominal"

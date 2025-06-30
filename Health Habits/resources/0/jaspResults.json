@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -765,7 +765,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_2_Encoded" : true
+							"JaspColumn_1_Encoded" : true
 						},
 						"listType" : "bool",
 						"messages" : [],
@@ -829,7 +829,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded",
 							"type[counts]",
 							"type[expected]",
 							"type[col.proportions]",
@@ -857,15 +857,15 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"Low[col.proportions]" : "JaspColumn_5_Encoded",
-							"Low[counts]" : "JaspColumn_5_Encoded",
-							"Low[expected]" : "JaspColumn_5_Encoded",
-							"Moderate[col.proportions]" : "JaspColumn_5_Encoded",
-							"Moderate[counts]" : "JaspColumn_5_Encoded",
-							"Moderate[expected]" : "JaspColumn_5_Encoded",
-							"Vigorous[col.proportions]" : "JaspColumn_5_Encoded",
-							"Vigorous[counts]" : "JaspColumn_5_Encoded",
-							"Vigorous[expected]" : "JaspColumn_5_Encoded"
+							"Low[col.proportions]" : "JaspColumn_0_Encoded",
+							"Low[counts]" : "JaspColumn_0_Encoded",
+							"Low[expected]" : "JaspColumn_0_Encoded",
+							"Moderate[col.proportions]" : "JaspColumn_0_Encoded",
+							"Moderate[counts]" : "JaspColumn_0_Encoded",
+							"Moderate[expected]" : "JaspColumn_0_Encoded",
+							"Vigorous[col.proportions]" : "JaspColumn_0_Encoded",
+							"Vigorous[counts]" : "JaspColumn_0_Encoded",
+							"Vigorous[expected]" : "JaspColumn_0_Encoded"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -888,7 +888,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_2_Encoded" : "JaspColumn_2_Encoded",
+							"JaspColumn_1_Encoded" : "JaspColumn_1_Encoded",
 							"Low[col.proportions]" : "Low",
 							"Low[counts]" : "Low",
 							"Low[expected]" : "Low",
@@ -925,7 +925,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_2_Encoded" : "string",
+							"JaspColumn_1_Encoded" : "string",
 							"Low[col.proportions]" : "number",
 							"Low[counts]" : "number",
 							"Low[expected]" : "number",
@@ -1120,7 +1120,7 @@
 					"showSpecifiedColumnsOnly" : true,
 					"specifiedColumns" : 
 					[
-						"JaspColumn_2_Encoded",
+						"JaspColumn_1_Encoded",
 						"Low[col.proportions]",
 						"Low[counts]",
 						"Low[expected]",
@@ -1220,8 +1220,8 @@
 			},
 			"optionMustContain" : 
 			{
-				"columns" : "JaspColumn_5_Encoded",
-				"rows" : "JaspColumn_2_Encoded"
+				"columns" : "JaspColumn_0_Encoded",
+				"rows" : "JaspColumn_1_Encoded"
 			},
 			"order_increment" : 6,
 			"position" : 1,
@@ -1271,7 +1271,7 @@
 		"columnOrder" : "ascending",
 		"columns" : 
 		[
-			"JaspColumn_5_Encoded"
+			"JaspColumn_0_Encoded"
 		],
 		"columns.types" : 
 		[
@@ -1307,7 +1307,7 @@
 		"rowOrder" : "ascending",
 		"rows" : 
 		[
-			"JaspColumn_2_Encoded"
+			"JaspColumn_1_Encoded"
 		],
 		"rows.types" : 
 		[

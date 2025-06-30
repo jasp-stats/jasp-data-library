@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -180,7 +180,7 @@
 							"BF\u208a\u2080 Independent multinomial"
 						],
 						[
-							0.55040280969029853
+							0.56079301948050819
 						],
 						[
 							"N"
@@ -281,7 +281,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_5_Encoded" : true
+							"JaspColumn_0_Encoded" : true
 						},
 						"listType" : "bool",
 						"messages" : [],
@@ -331,7 +331,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_5_Encoded",
+							"JaspColumn_0_Encoded",
 							"Did Well[counts]",
 							"Blood Poisoning[counts]",
 							"total[counts]",
@@ -348,8 +348,8 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"Blood Poisoning[counts]" : "JaspColumn_8_Encoded",
-							"Did Well[counts]" : "JaspColumn_8_Encoded"
+							"Blood Poisoning[counts]" : "JaspColumn_1_Encoded",
+							"Did Well[counts]" : "JaspColumn_1_Encoded"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -374,7 +374,7 @@
 						{
 							"Blood Poisoning[counts]" : "Blood Poisoning",
 							"Did Well[counts]" : "Did Well",
-							"JaspColumn_5_Encoded" : "JaspColumn_5_Encoded",
+							"JaspColumn_0_Encoded" : "JaspColumn_0_Encoded",
 							"total[counts]" : "Total"
 						},
 						"listType" : "string",
@@ -399,7 +399,7 @@
 						{
 							"Blood Poisoning[counts]" : "integer",
 							"Did Well[counts]" : "integer",
-							"JaspColumn_5_Encoded" : "string",
+							"JaspColumn_0_Encoded" : "string",
 							"total[counts]" : "integer"
 						},
 						"listType" : "string",
@@ -519,7 +519,7 @@
 					[
 						"Blood Poisoning[counts]",
 						"Did Well[counts]",
-						"JaspColumn_5_Encoded",
+						"JaspColumn_0_Encoded",
 						"total[counts]"
 					],
 					"status" : "complete",
@@ -598,7 +598,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"counts" : "JaspColumn_0_Encoded",
+				"counts" : "JaspColumn_2_Encoded",
 				"counts.types" : 
 				[
 					"scale"
@@ -607,8 +607,8 @@
 			},
 			"optionMustContain" : 
 			{
-				"columns" : "JaspColumn_8_Encoded",
-				"rows" : "JaspColumn_5_Encoded"
+				"columns" : "JaspColumn_1_Encoded",
+				"rows" : "JaspColumn_0_Encoded"
 			},
 			"order_increment" : 5,
 			"position" : 1,
@@ -643,7 +643,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1749640511241.png",
+							"filePathPng" : "resources/0/_0_t1732274296487.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "plot",
@@ -655,7 +655,7 @@
 							"resizedByUser" : false,
 							"revision" : 0,
 							"status" : "complete",
-							"title" : "JaspColumn_5_Encoded - JaspColumn_8_Encoded",
+							"title" : "JaspColumn_0_Encoded - JaspColumn_1_Encoded",
 							"type" : "plot",
 							"width" : 530
 						}
@@ -675,8 +675,8 @@
 					"optionMustBe" : {},
 					"optionMustContain" : 
 					{
-						"columns" : "JaspColumn_8_Encoded",
-						"rows" : "JaspColumn_5_Encoded"
+						"columns" : "JaspColumn_1_Encoded",
+						"rows" : "JaspColumn_0_Encoded"
 					},
 					"order_increment" : 1,
 					"position" : 9999,
@@ -699,7 +699,7 @@
 			"optionMustBe" : 
 			{
 				"alternative" : "greater",
-				"counts" : "JaspColumn_0_Encoded",
+				"counts" : "JaspColumn_2_Encoded",
 				"counts.types" : 
 				[
 					"scale"
@@ -760,13 +760,13 @@
 		"columnOrder" : "descending",
 		"columns" : 
 		[
-			"JaspColumn_8_Encoded"
+			"JaspColumn_1_Encoded"
 		],
 		"columns.types" : 
 		[
 			"nominal"
 		],
-		"counts" : "JaspColumn_0_Encoded",
+		"counts" : "JaspColumn_2_Encoded",
 		"counts.types" : 
 		[
 			"scale"
@@ -794,7 +794,7 @@
 		"rowOrder" : "ascending",
 		"rows" : 
 		[
-			"JaspColumn_5_Encoded"
+			"JaspColumn_0_Encoded"
 		],
 		"rows.types" : 
 		[

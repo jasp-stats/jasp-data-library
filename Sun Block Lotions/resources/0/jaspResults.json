@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -23,7 +23,7 @@
 				"testValue" : "0.5",
 				"variables" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -201,8 +201,8 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_0_Encoded"
 				],
 				[
 					"Theirs",
@@ -267,7 +267,7 @@
 				"testValue" : "0.5",
 				"variables" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -406,7 +406,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1749640537751.png",
+							"filePathPng" : "resources/0/_0_t1732274321533.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Theirs",
@@ -485,7 +485,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1749640537888.png",
+							"filePathPng" : "resources/0/_1_t1732274321661.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Yours",
@@ -518,11 +518,11 @@
 					"optionMustBe" : {},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_2_Encoded"
+						"variables" : "JaspColumn_0_Encoded"
 					},
 					"order_increment" : 2,
 					"position" : 9999,
-					"title" : "JaspColumn_2_Encoded",
+					"title" : "JaspColumn_0_Encoded",
 					"type" : "container"
 				}
 			},
@@ -592,6 +592,10 @@
 	{
 		".meta" : 
 		{
+			"testValue" : 
+			{
+				"isRCode" : true
+			},
 			"variables" : 
 			{
 				"shouldEncode" : true
@@ -607,7 +611,7 @@
 		"testValue" : "0.5",
 		"variables" : 
 		[
-			"JaspColumn_2_Encoded"
+			"JaspColumn_0_Encoded"
 		],
 		"variables.types" : 
 		[

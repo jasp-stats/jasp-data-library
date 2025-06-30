@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -151,7 +151,7 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_3_Encoded"
+					"JaspColumn_4_Encoded"
 				],
 				[
 					84.672595704948648
@@ -183,17 +183,17 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"count" : "JaspColumn_9_Encoded",
+				"count" : "JaspColumn_1_Encoded",
 				"count.types" : 
 				[
 					"scale"
 				],
-				"expectedCount" : "JaspColumn_3_Encoded",
+				"expectedCount" : "JaspColumn_4_Encoded",
 				"expectedCount.types" : 
 				[
 					"scale"
 				],
-				"factor" : "JaspColumn_7_Encoded",
+				"factor" : "JaspColumn_0_Encoded",
 				"factor.types" : 
 				[
 					"nominal"
@@ -319,17 +319,17 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"count" : "JaspColumn_9_Encoded",
+				"count" : "JaspColumn_1_Encoded",
 				"count.types" : 
 				[
 					"scale"
 				],
-				"expectedCount" : "JaspColumn_3_Encoded",
+				"expectedCount" : "JaspColumn_4_Encoded",
 				"expectedCount.types" : 
 				[
 					"scale"
 				],
-				"factor" : "JaspColumn_7_Encoded",
+				"factor" : "JaspColumn_0_Encoded",
 				"factor.types" : 
 				[
 					"nominal"
@@ -422,7 +422,7 @@
 				"shouldEncode" : true
 			}
 		},
-		"count" : "JaspColumn_9_Encoded",
+		"count" : "JaspColumn_1_Encoded",
 		"count.types" : 
 		[
 			"scale"
@@ -433,12 +433,12 @@
 		"descriptivesTableCi" : false,
 		"descriptivesTableCiLevel" : 0.94999999999999996,
 		"descriptivesType" : "counts",
-		"expectedCount" : "JaspColumn_3_Encoded",
+		"expectedCount" : "JaspColumn_4_Encoded",
 		"expectedCount.types" : 
 		[
 			"scale"
 		],
-		"factor" : "JaspColumn_7_Encoded",
+		"factor" : "JaspColumn_0_Encoded",
 		"factor.types" : 
 		[
 			"nominal"

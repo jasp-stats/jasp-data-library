@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -152,7 +152,7 @@
 							"Total gauge r&amp;R",
 							"Repeatability",
 							"Reproducibility",
-							"JaspColumn_5_Encoded",
+							"JaspColumn_1_Encoded",
 							"Part-to-part",
 							"Total variation"
 						],
@@ -186,21 +186,21 @@
 					"optionMustBe" : 
 					{
 						"anova" : true,
-						"measurementLongFormat" : "JaspColumn_0_Encoded",
+						"measurementLongFormat" : "JaspColumn_2_Encoded",
 						"measurementLongFormat.types" : 
 						[
 							"scale"
 						],
 						"measurementsWideFormat" : [],
 						"measurementsWideFormat.types" : [],
-						"operatorLongFormat" : "JaspColumn_5_Encoded",
+						"operatorLongFormat" : "JaspColumn_1_Encoded",
 						"operatorLongFormat.types" : 
 						[
 							"nominal"
 						],
 						"operatorWideFormat" : "",
 						"operatorWideFormat.types" : [],
-						"partLongFormat" : "JaspColumn_7_Encoded",
+						"partLongFormat" : "JaspColumn_0_Encoded",
 						"partLongFormat.types" : 
 						[
 							"nominal"
@@ -410,7 +410,7 @@
 							"Total gauge r&amp;R",
 							"Repeatability",
 							"Reproducibility",
-							"JaspColumn_5_Encoded",
+							"JaspColumn_1_Encoded",
 							"Part-to-part",
 							"Total variation"
 						],
@@ -474,21 +474,21 @@
 					"optionMustBe" : 
 					{
 						"anova" : true,
-						"measurementLongFormat" : "JaspColumn_0_Encoded",
+						"measurementLongFormat" : "JaspColumn_2_Encoded",
 						"measurementLongFormat.types" : 
 						[
 							"scale"
 						],
 						"measurementsWideFormat" : [],
 						"measurementsWideFormat.types" : [],
-						"operatorLongFormat" : "JaspColumn_5_Encoded",
+						"operatorLongFormat" : "JaspColumn_1_Encoded",
 						"operatorLongFormat.types" : 
 						[
 							"nominal"
 						],
 						"operatorWideFormat" : "",
 						"operatorWideFormat.types" : [],
-						"partLongFormat" : "JaspColumn_7_Encoded",
+						"partLongFormat" : "JaspColumn_0_Encoded",
 						"partLongFormat.types" : 
 						[
 							"nominal"
@@ -628,7 +628,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1749642016687.png",
+					"filePathPng" : "resources/0/_0_t1732281023458.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "VarCompGraph",
@@ -799,9 +799,9 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_7_Encoded",
-							"JaspColumn_5_Encoded",
-							"JaspColumn_7_Encoded  *  JaspColumn_5_Encoded",
+							"JaspColumn_0_Encoded",
+							"JaspColumn_1_Encoded",
+							"JaspColumn_0_Encoded  *  JaspColumn_1_Encoded",
 							"Repeatability",
 							"Total"
 						],
@@ -1054,8 +1054,8 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_7_Encoded",
-							"JaspColumn_5_Encoded",
+							"JaspColumn_0_Encoded",
+							"JaspColumn_1_Encoded",
 							"Repeatability",
 							"Total"
 						],
@@ -1266,7 +1266,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_6_t1749642019079.png",
+			"filePathPng" : "resources/0/_6_t1732281025790.png",
 			"height" : 400,
 			"messages" : [],
 			"name" : "gaugeByInteraction",
@@ -1304,7 +1304,7 @@
 							"B",
 							"C"
 						],
-						"title" : "JaspColumn_5_Encoded",
+						"title" : "JaspColumn_1_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleDiscrete"
@@ -1357,7 +1357,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_5_t1749642018834.png",
+			"filePathPng" : "resources/0/_5_t1732281025557.png",
 			"height" : 600,
 			"messages" : [],
 			"name" : "gaugeByOperator",
@@ -1402,7 +1402,7 @@
 							"9",
 							"10"
 						],
-						"title" : "JaspColumn_7_Encoded",
+						"title" : "JaspColumn_0_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleDiscrete"
@@ -1461,7 +1461,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_4_t1749642018654.png",
+			"filePathPng" : "resources/0/_4_t1732281025389.png",
 			"height" : 300,
 			"messages" : [],
 			"name" : "gaugeByPart",
@@ -1495,7 +1495,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_3_t1749642018004.png",
+			"filePathPng" : "resources/0/_3_t1732281024756.png",
 			"height" : 700,
 			"messages" : [],
 			"name" : "gaugeScatterOperators",
@@ -1629,7 +1629,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1749642017089.png",
+					"filePathPng" : "resources/0/_1_t1732281023812.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -1704,7 +1704,9 @@
 						"rows" : 
 						[
 							"stage",
-							"test2"
+							"test2",
+							"test1",
+							"test3"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -1737,7 +1739,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"stage" : "JaspColumn_5_Encoded",
+							"stage" : "JaspColumn_1_Encoded",
 							"test2" : "Test 2: Shift"
 						},
 						"listType" : "string",
@@ -1781,7 +1783,13 @@
 							"C"
 						],
 						[
-							"Point 10"
+							"Point 30"
+						],
+						[
+							""
+						],
+						[
+							""
 						]
 					],
 					"error" : false,
@@ -1873,7 +1881,7 @@
 			{
 				"anovaGaugeReport" : null,
 				"gaugeRRmethod" : null,
-				"measurementLongFormat" : "JaspColumn_0_Encoded",
+				"measurementLongFormat" : "JaspColumn_2_Encoded",
 				"measurementLongFormat.types" : 
 				[
 					"scale"
@@ -1881,25 +1889,7 @@
 				"measurementsWideFormat" : [],
 				"measurementsWideFormat.types" : [],
 				"rChart" : true,
-				"report" : false,
-				"rule1" : true,
-				"rule2" : true,
-				"rule2Value" : 7,
-				"rule3" : true,
-				"rule3Value" : 7,
-				"rule4" : true,
-				"rule4Value" : 2,
-				"rule5" : true,
-				"rule5Value" : 15,
-				"rule6" : true,
-				"rule6Value" : 8,
-				"rule7" : false,
-				"rule7Value" : 4,
-				"rule8" : false,
-				"rule8Value" : 14,
-				"rule9" : null,
-				"rule9Value" : null,
-				"testSet" : "jaspDefault"
+				"report" : false
 			},
 			"optionMustContain" : {},
 			"order_increment" : 2,
@@ -1925,7 +1915,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_7_t1749642019515.png",
+					"filePathPng" : "resources/0/_7_t1732281026182.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "plot",
@@ -2087,7 +2077,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1749642017475.png",
+					"filePathPng" : "resources/0/_2_t1732281024265.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "plot",
@@ -2162,7 +2152,9 @@
 						"rows" : 
 						[
 							"stage",
-							"test1"
+							"test1",
+							"test2",
+							"test3"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -2195,7 +2187,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"stage" : "JaspColumn_5_Encoded",
+							"stage" : "JaspColumn_1_Encoded",
 							"test1" : "Test 1: Beyond limit"
 						},
 						"listType" : "string",
@@ -2254,14 +2246,42 @@
 							"Point 5",
 							"Point 8",
 							"Point 10",
-							"Point 1",
-							"Point 5",
-							"Point 8",
-							"Point 10",
-							"Point 1",
-							"Point 3",
-							"Point 5",
-							"Point 10"
+							"Point 11",
+							"Point 15",
+							"Point 18",
+							"Point 20",
+							"Point 21",
+							"Point 23",
+							"Point 25",
+							"Point 30"
+						],
+						[
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						[
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
 						]
 					],
 					"error" : false,
@@ -2353,7 +2373,7 @@
 			{
 				"anovaGaugeReport" : null,
 				"gaugeRRmethod" : null,
-				"measurementLongFormat" : "JaspColumn_0_Encoded",
+				"measurementLongFormat" : "JaspColumn_2_Encoded",
 				"measurementLongFormat.types" : 
 				[
 					"scale"
@@ -2361,24 +2381,6 @@
 				"measurementsWideFormat" : [],
 				"measurementsWideFormat.types" : [],
 				"report" : false,
-				"rule1" : true,
-				"rule2" : true,
-				"rule2Value" : 7,
-				"rule3" : true,
-				"rule3Value" : 7,
-				"rule4" : true,
-				"rule4Value" : 2,
-				"rule5" : true,
-				"rule5Value" : 15,
-				"rule6" : true,
-				"rule6Value" : 8,
-				"rule7" : false,
-				"rule7Value" : 4,
-				"rule8" : false,
-				"rule8Value" : 14,
-				"rule9" : null,
-				"rule9Value" : null,
-				"testSet" : "jaspDefault",
 				"xBarChart" : true
 			},
 			"optionMustContain" : {},
@@ -2443,14 +2445,14 @@
 		"anovaModelType" : "fixedEffect",
 		"dataFormat" : "longFormat",
 		"historicalSdValue" : 3.0,
-		"measurementLongFormat" : "JaspColumn_0_Encoded",
+		"measurementLongFormat" : "JaspColumn_2_Encoded",
 		"measurementLongFormat.types" : 
 		[
 			"scale"
 		],
 		"measurementsWideFormat" : [],
 		"measurementsWideFormat.types" : [],
-		"operatorLongFormat" : "JaspColumn_5_Encoded",
+		"operatorLongFormat" : "JaspColumn_1_Encoded",
 		"operatorLongFormat.types" : 
 		[
 			"nominal"
@@ -2459,7 +2461,7 @@
 		"operatorWideFormat" : "",
 		"operatorWideFormat.types" : [],
 		"partByOperatorMeasurementPlot" : true,
-		"partLongFormat" : "JaspColumn_7_Encoded",
+		"partLongFormat" : "JaspColumn_0_Encoded",
 		"partLongFormat.types" : 
 		[
 			"nominal"
@@ -2500,27 +2502,11 @@
 		"reportToleranceText" : "",
 		"reportTrafficLightChart" : true,
 		"reportVariationComponents" : true,
-		"rule1" : true,
-		"rule2" : true,
-		"rule2Value" : 7,
-		"rule3" : true,
-		"rule3Value" : 7,
-		"rule4" : true,
-		"rule4Value" : 2,
-		"rule5" : true,
-		"rule5Value" : 15,
-		"rule6" : true,
-		"rule6Value" : 8,
-		"rule7" : false,
-		"rule7Value" : 4,
-		"rule8" : false,
-		"rule8Value" : 14,
 		"scatterPlot" : true,
 		"scatterPlotFitLine" : false,
 		"scatterPlotOriginLine" : false,
 		"studyVarianceMultiplierType" : "sd",
 		"studyVarianceMultiplierValue" : 6.0,
-		"testSet" : "jaspDefault",
 		"tolerance" : true,
 		"toleranceValue" : 10.0,
 		"trafficLightChart" : true,

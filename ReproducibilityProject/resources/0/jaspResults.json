@@ -1,0 +1,809 @@
+{
+	"citations" : 
+	[
+		"Hadley Wickham (2019). stringr: Simple, Consistent Wrappers for Common String Operations. R package version 1.4.0. https://CRAN.R-project.org/package=stringr",
+		"JASP Team (2011). JASP (Version 0.95) [Computer software].",
+		"Martyn Plummer (2018). rjags: Bayesian Graphical Models using MCMC. R package version 4-8. https://CRAN.R-project.org/package=rjags",
+		"Martyn Plummer, Nicky Best, Kate Cowles and Karen Vines (2006). CODA: Convergence Diagnosis and Output Analysis for MCMC, R News, vol 6, 7-11",
+		"Plummer, Martyn. (2003). JAGS: A Program for Analysis of Bayesian Graphical Models using Gibbs Sampling. 3rd International Workshop on Distributed Statistical Computing (DSC 2003); Vienna, Austria. 124."
+	],
+	"data" : 
+	{
+		"__goodModel" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_33",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "__goodModel",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : {},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"__monitorWarning" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_34",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "__monitorWarning",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : {},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"mainContainer" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"mainTable" : 
+				{
+					"citations" : [],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"2.5%" : "sf:4;dp:3",
+							"50%" : "sf:4;dp:3",
+							"97.5%" : "sf:4;dp:3",
+							"Mean" : "sf:4;dp:3",
+							"SD" : "sf:4;dp:3",
+							"rhatCI" : "sf:4;dp:3",
+							"rhatPoint" : "sf:4;dp:3"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"parameter",
+							"Mean",
+							"50%",
+							"SD",
+							"2.5%",
+							"97.5%",
+							"rhatPoint",
+							"rhatCI",
+							"neff"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"2.5%" : "95% Credible Interval",
+							"50%" : "Posterior",
+							"97.5%" : "95% Credible Interval",
+							"Mean" : "Posterior",
+							"SD" : "Posterior",
+							"rhatCI" : "Rhat",
+							"rhatPoint" : "Rhat"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"2.5%" : "Lower",
+							"50%" : "Median",
+							"97.5%" : "Upper",
+							"Mean" : "Mean",
+							"SD" : "SD",
+							"neff" : "Effective Sample Size",
+							"parameter" : "Parameter",
+							"rhatCI" : "Upper CI",
+							"rhatPoint" : "Point est."
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"2.5%" : "number",
+							"50%" : "number",
+							"97.5%" : "number",
+							"Mean" : "number",
+							"SD" : "number",
+							"neff" : "integer",
+							"parameter" : "string",
+							"rhatCI" : "number",
+							"rhatPoint" : "number"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							"alpha",
+							"phi",
+							"tau"
+						],
+						[
+							0.82476073418117279,
+							0.54335754123394875,
+							49.553121464212701
+						],
+						[
+							0.82879619671186266,
+							0.53968084653237125,
+							48.999387254704651
+						],
+						[
+							0.061715434320040709,
+							0.086124996010614338,
+							10.004269209186326
+						],
+						[
+							0.69266026154091953,
+							0.38612405027664992,
+							31.694670989238436
+						],
+						[
+							0.93690638163464912,
+							0.72544273646557422,
+							71.230363495961953
+						],
+						[
+							1.0030182117633164,
+							1.0068747367469344,
+							1.0009200670434453
+						],
+						[
+							1.0105035271590663,
+							1.0246071899859699,
+							1.0022920238539463
+						],
+						[
+							918,
+							842,
+							1350
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 0,
+					"footnotes" : 
+					[
+						{
+							"cols" : null,
+							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : "Output based on 6000 MCMC draws."
+						},
+						{
+							"cols" : null,
+							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : "The multivariate potential scale reduction factor is estimated at 1.006."
+						}
+					],
+					"messages" : [],
+					"name" : "mainTable",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 1,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"alpha",
+							"phi",
+							"tau"
+						],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : false,
+					"specifiedColumns" : 
+					[
+						"2.5%",
+						"50%",
+						"97.5%",
+						"Mean",
+						"SD",
+						"neff",
+						"parameter",
+						"rhatCI",
+						"rhatPoint"
+					],
+					"status" : "complete",
+					"title" : "MCMC Summary",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				}
+			},
+			"data_order" : 
+			{
+				"mainTable" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "mainContainer",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"burnin" : 500,
+				"chains" : 3,
+				"deviance" : false,
+				"initialValues" : 
+				[
+					{
+						"levels" : 
+						[
+							"Row 1",
+							"Row 2",
+							"Row 3",
+							"Row 4",
+							"Row 5"
+						],
+						"name" : "Parameter",
+						"values" : 
+						[
+							"mu",
+							"alpha",
+							"phi",
+							"clust",
+							"tau"
+						]
+					},
+					{
+						"levels" : 
+						[
+							"Row 1",
+							"Row 2",
+							"Row 3",
+							"Row 4",
+							"Row 5"
+						],
+						"name" : "R Code",
+						"values" : 
+						[
+							"...",
+							"...",
+							"...",
+							"...",
+							"..."
+						]
+					}
+				],
+				"model" : 
+				{
+					"columns" : 
+					[
+						"JaspColumn_6_Encoded",
+						"JaspColumn_15_Encoded"
+					],
+					"model" : "model {\n\n  \n  alpha ~ dunif(0, 1) \n  tau ~ dgamma(0.001, 0.001) \n  phi ~ dbeta(1, 1) \n\n  \n  for(i in 1:n) {\n    JaspColumn_15_Encoded[i] ~ dnorm(mu[i] , tau) \n\n    clust[i] ~ dbern(phi)\n    \n    \n\n    mu[i] <- alpha * JaspColumn_6_Encoded[i] * equals(clust[i], 1)\n    \n    \n    }\n}\n",
+					"modelOriginal" : "model {\n\n  # Mixture Model Priors on the Model Parameters:\n  alpha ~ dunif(0, 1) # flat prior on slope for predicted effect size under H1\n  tau ~ dgamma(0.001, 0.001) # vague prior on study precision\n  phi ~ dbeta(1, 1) # flat prior on the true effect rate\n\n  # Mixture Model Likelihood:\n  for(i in 1:n) {\n    replication Effect[i] ~ dnorm(mu[i] , tau) # point prediction is mu[i]\n\n    clust[i] ~ dbern(phi)\n    # if clust[i] = 0 then H0 is true, if clust[i] = 1 then H1 is true, and\n    # the replication effect is a function of the original effect:\n\n    mu[i] <- alpha * original Effect[i] * equals(clust[i], 1)\n    # when clust[i] = 0, then mu[i] = 0;\n    # when clust[i] = 0, then mu[i] = alpha * orgEffect[i]\n    }\n}\n",
+					"parameters" : 
+					[
+						"mu",
+						"alpha",
+						"phi",
+						"clust",
+						"tau"
+					]
+				},
+				"monitoredParametersShown" : 
+				[
+					"tau",
+					"phi",
+					"alpha"
+				],
+				"monitoredParametersShown.types" : 
+				[
+					"unknown",
+					"unknown",
+					"unknown"
+				],
+				"parametersMonitored" : null,
+				"samples" : 2000,
+				"seed" : 1,
+				"setSeed" : false,
+				"thinning" : 1,
+				"userData" : 
+				[
+					{
+						"levels" : 
+						[
+							"Row 0"
+						],
+						"name" : "Parameter",
+						"values" : 
+						[
+							"n"
+						]
+					},
+					{
+						"levels" : 
+						[
+							"Row 0"
+						],
+						"name" : "R Code",
+						"values" : 
+						[
+							"94"
+						]
+					}
+				]
+			},
+			"optionMustContain" : {},
+			"order_increment" : 1,
+			"position" : 9999,
+			"title" : "",
+			"type" : "container"
+		},
+		"stateMCMC" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_35",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "stateMCMC",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"burnin" : 500,
+				"chains" : 3,
+				"initialValues" : 
+				[
+					{
+						"levels" : 
+						[
+							"Row 1",
+							"Row 2",
+							"Row 3",
+							"Row 4",
+							"Row 5"
+						],
+						"name" : "Parameter",
+						"values" : 
+						[
+							"mu",
+							"alpha",
+							"phi",
+							"clust",
+							"tau"
+						]
+					},
+					{
+						"levels" : 
+						[
+							"Row 1",
+							"Row 2",
+							"Row 3",
+							"Row 4",
+							"Row 5"
+						],
+						"name" : "R Code",
+						"values" : 
+						[
+							"...",
+							"...",
+							"...",
+							"...",
+							"..."
+						]
+					}
+				],
+				"model" : 
+				{
+					"columns" : 
+					[
+						"JaspColumn_6_Encoded",
+						"JaspColumn_15_Encoded"
+					],
+					"model" : "model {\n\n  \n  alpha ~ dunif(0, 1) \n  tau ~ dgamma(0.001, 0.001) \n  phi ~ dbeta(1, 1) \n\n  \n  for(i in 1:n) {\n    JaspColumn_15_Encoded[i] ~ dnorm(mu[i] , tau) \n\n    clust[i] ~ dbern(phi)\n    \n    \n\n    mu[i] <- alpha * JaspColumn_6_Encoded[i] * equals(clust[i], 1)\n    \n    \n    }\n}\n",
+					"modelOriginal" : "model {\n\n  # Mixture Model Priors on the Model Parameters:\n  alpha ~ dunif(0, 1) # flat prior on slope for predicted effect size under H1\n  tau ~ dgamma(0.001, 0.001) # vague prior on study precision\n  phi ~ dbeta(1, 1) # flat prior on the true effect rate\n\n  # Mixture Model Likelihood:\n  for(i in 1:n) {\n    replication Effect[i] ~ dnorm(mu[i] , tau) # point prediction is mu[i]\n\n    clust[i] ~ dbern(phi)\n    # if clust[i] = 0 then H0 is true, if clust[i] = 1 then H1 is true, and\n    # the replication effect is a function of the original effect:\n\n    mu[i] <- alpha * original Effect[i] * equals(clust[i], 1)\n    # when clust[i] = 0, then mu[i] = 0;\n    # when clust[i] = 0, then mu[i] = alpha * orgEffect[i]\n    }\n}\n",
+					"parameters" : 
+					[
+						"mu",
+						"alpha",
+						"phi",
+						"clust",
+						"tau"
+					]
+				},
+				"monitoredParametersShown" : 
+				[
+					"tau",
+					"phi",
+					"alpha"
+				],
+				"monitoredParametersShown.types" : 
+				[
+					"unknown",
+					"unknown",
+					"unknown"
+				],
+				"resultsFor" : "allParameters",
+				"samples" : 2000,
+				"seed" : 1,
+				"setSeed" : false,
+				"thinning" : 1,
+				"userData" : 
+				[
+					{
+						"levels" : 
+						[
+							"Row 0"
+						],
+						"name" : "Parameter",
+						"values" : 
+						[
+							"n"
+						]
+					},
+					{
+						"levels" : 
+						[
+							"Row 0"
+						],
+						"name" : "R Code",
+						"values" : 
+						[
+							"94"
+						]
+					}
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		}
+	},
+	"data_order" : 
+	{
+		"__goodModel" : 1,
+		"__monitorWarning" : 2,
+		"mainContainer" : 0,
+		"stateMCMC" : 4
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"initialValues" : 
+			{
+				"values" : 
+				{
+					"isRCode" : true
+				}
+			}
+		},
+		"actualExporter" : false,
+		"aggregatedChains" : true,
+		"autoCorPlot" : false,
+		"autoCorPlotLags" : 20,
+		"autoCorPlotType" : "lines",
+		"bivariateScatterDiagonalType" : "density",
+		"bivariateScatterOffDiagonalType" : "hexagon",
+		"bivariateScatterPlot" : false,
+		"burnin" : 500,
+		"chains" : 3,
+		"colorScheme" : "colorblind",
+		"customInference" : 
+		[
+			{
+				"ciLevel" : 0.94999999999999996,
+				"dataSplit" : "",
+				"dataSplit.types" : "unknown",
+				"ess" : true,
+				"hdiLevel" : 0.94999999999999996,
+				"inferenceCi" : false,
+				"inferenceCiLevel" : 0.94999999999999996,
+				"inferenceCustomHigh" : "1",
+				"inferenceCustomLow" : "0",
+				"inferenceData" : "",
+				"inferenceData.types" : "unknown",
+				"inferenceHdi" : false,
+				"inferenceHdiLevel" : 0.94999999999999996,
+				"inferenceManual" : false,
+				"mean" : true,
+				"median" : true,
+				"mode" : true,
+				"name" : 
+				[
+					"Plot 1"
+				],
+				"overlayGeomType" : "histogram",
+				"overlayHistogramBinWidthType" : "sturges",
+				"overlayHistogramManualNumberOfBins" : 30,
+				"parameter" : "",
+				"parameterOrder" : "orderMean",
+				"parameterSubset" : "",
+				"plotCustomHigh" : "1",
+				"plotCustomLow" : "0",
+				"plotInterval" : "ci",
+				"plotsType" : "",
+				"rhat" : true,
+				"savageDickey" : false,
+				"savageDickeyPoint" : "0",
+				"savageDickeyPosteriorMethod" : "samplingPosteriorPoint",
+				"savageDickeyPosteriorSamplingType" : "normalKernel",
+				"savageDickeyPriorHeight" : "0",
+				"savageDickeyPriorMethod" : "sampling",
+				"savageDickeySamplingType" : "normalKernel",
+				"sd" : true,
+				"shadeIntervalInPlot" : false
+			}
+		],
+		"densityPlot" : false,
+		"deviance" : false,
+		"exportSamplesFile" : "",
+		"histogramPlot" : false,
+		"initialValues" : 
+		[
+			{
+				"levels" : 
+				[
+					"Row 1",
+					"Row 2",
+					"Row 3",
+					"Row 4",
+					"Row 5"
+				],
+				"name" : "Parameter",
+				"values" : 
+				[
+					"mu",
+					"alpha",
+					"phi",
+					"clust",
+					"tau"
+				]
+			},
+			{
+				"levels" : 
+				[
+					"Row 1",
+					"Row 2",
+					"Row 3",
+					"Row 4",
+					"Row 5"
+				],
+				"name" : "R Code",
+				"values" : 
+				[
+					"...",
+					"...",
+					"...",
+					"...",
+					"..."
+				]
+			}
+		],
+		"legend" : true,
+		"model" : 
+		{
+			"columns" : 
+			[
+				"JaspColumn_6_Encoded",
+				"JaspColumn_15_Encoded"
+			],
+			"model" : "model {\n\n  \n  alpha ~ dunif(0, 1) \n  tau ~ dgamma(0.001, 0.001) \n  phi ~ dbeta(1, 1) \n\n  \n  for(i in 1:n) {\n    JaspColumn_15_Encoded[i] ~ dnorm(mu[i] , tau) \n\n    clust[i] ~ dbern(phi)\n    \n    \n\n    mu[i] <- alpha * JaspColumn_6_Encoded[i] * equals(clust[i], 1)\n    \n    \n    }\n}\n",
+			"modelOriginal" : "model {\n\n  # Mixture Model Priors on the Model Parameters:\n  alpha ~ dunif(0, 1) # flat prior on slope for predicted effect size under H1\n  tau ~ dgamma(0.001, 0.001) # vague prior on study precision\n  phi ~ dbeta(1, 1) # flat prior on the true effect rate\n\n  # Mixture Model Likelihood:\n  for(i in 1:n) {\n    replication Effect[i] ~ dnorm(mu[i] , tau) # point prediction is mu[i]\n\n    clust[i] ~ dbern(phi)\n    # if clust[i] = 0 then H0 is true, if clust[i] = 1 then H1 is true, and\n    # the replication effect is a function of the original effect:\n\n    mu[i] <- alpha * original Effect[i] * equals(clust[i], 1)\n    # when clust[i] = 0, then mu[i] = 0;\n    # when clust[i] = 0, then mu[i] = alpha * orgEffect[i]\n    }\n}\n",
+			"parameters" : 
+			[
+				"mu",
+				"alpha",
+				"phi",
+				"clust",
+				"tau"
+			]
+		},
+		"monitoredParameters" : [],
+		"monitoredParameters.types" : [],
+		"monitoredParametersShown" : 
+		[
+			"tau",
+			"phi",
+			"alpha"
+		],
+		"monitoredParametersShown.types" : 
+		[
+			"unknown",
+			"unknown",
+			"unknown"
+		],
+		"plotHeight" : 320,
+		"plotWidth" : 480,
+		"resultsFor" : "allParameters",
+		"samples" : 2000,
+		"seed" : 1,
+		"setSeed" : false,
+		"thinning" : 1,
+		"tracePlot" : false,
+		"userData" : 
+		[
+			{
+				"levels" : 
+				[
+					"Row 0"
+				],
+				"name" : "Parameter",
+				"values" : 
+				[
+					"n"
+				]
+			},
+			{
+				"levels" : 
+				[
+					"Row 0"
+				],
+				"name" : "R Code",
+				"values" : 
+				[
+					"94"
+				]
+			}
+		]
+	},
+	"order_increment" : 5,
+	"position" : 9999,
+	"relativePathKeep" : "resources/0/state",
+	"title" : "JAGS",
+	"type" : "results"
+}

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -141,9 +141,9 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_2_Encoded",
+					"JaspColumn_5_Encoded",
 					"JaspColumn_8_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_11_Encoded"
 				],
 				[
 					270,
@@ -203,9 +203,9 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_2_Encoded",
+					"JaspColumn_5_Encoded",
 					"JaspColumn_8_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_11_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -237,9 +237,9 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_2_Encoded",
+					"JaspColumn_5_Encoded",
 					"JaspColumn_8_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_11_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -282,252 +282,6 @@
 			"data" : 
 			{
 				"Animal" : 
-				{
-					"citations" : [],
-					"colCombines" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "bool",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "",
-						"type" : "list"
-					},
-					"colFormats" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"Cumulative Percent" : "dp:1",
-							"Percent" : "dp:1",
-							"Valid Percent" : "dp:1"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colFormats",
-						"type" : "list"
-					},
-					"colNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : 
-						[
-							"Level",
-							"Frequency",
-							"Percent",
-							"Valid Percent",
-							"Cumulative Percent"
-						],
-						"title" : "colNames",
-						"type" : "list"
-					},
-					"colOvertitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colOvertitles",
-						"type" : "list"
-					},
-					"colRowCombinations" : [],
-					"colTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"Cumulative Percent" : "Cumulative Percent",
-							"Frequency" : "Frequency",
-							"Level" : "JaspColumn_2_Encoded",
-							"Percent" : "Percent",
-							"Valid Percent" : "Valid Percent"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTitles",
-						"type" : "list"
-					},
-					"colTypes" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"Cumulative Percent" : "number",
-							"Frequency" : "integer",
-							"Level" : "string",
-							"Percent" : "number",
-							"Valid Percent" : "number"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTypes",
-						"type" : "list"
-					},
-					"data" : 
-					[
-						[
-							"Cat",
-							"Dog",
-							"Missing",
-							"Total"
-						],
-						[
-							200.0,
-							70.0,
-							0,
-							270
-						],
-						[
-							74.074074074074076,
-							25.925925925925924,
-							0.0,
-							100.0
-						],
-						[
-							74.074074074074076,
-							25.925925925925924,
-							"",
-							""
-						],
-						[
-							74.074074074074076,
-							100.0,
-							"",
-							""
-						]
-					],
-					"error" : false,
-					"errorMessage" : "",
-					"escapeHtml" : true,
-					"expectedColumnCount" : 0,
-					"expectedRowCount" : 0,
-					"footnotes" : [],
-					"messages" : [],
-					"name" : "Animal",
-					"nestedOptionMustBe" : {},
-					"nestedOptionMustContain" : {},
-					"optionMustBe" : {},
-					"optionMustContain" : 
-					{
-						"variables" : "JaspColumn_2_Encoded"
-					},
-					"position" : 9999,
-					"rowNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "rowNames",
-						"type" : "list"
-					},
-					"rowTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "rowTitles",
-						"type" : "list"
-					},
-					"showSpecifiedColumnsOnly" : false,
-					"specifiedColumns" : 
-					[
-						"Cumulative Percent",
-						"Frequency",
-						"Level",
-						"Percent",
-						"Valid Percent"
-					],
-					"status" : "complete",
-					"title" : "Frequencies for JaspColumn_2_Encoded",
-					"transposeTable" : false,
-					"transposeWithOvertitle" : false,
-					"type" : "table"
-				},
-				"Dance" : 
 				{
 					"citations" : [],
 					"colCombines" : 
@@ -674,31 +428,31 @@
 					"data" : 
 					[
 						[
-							"No",
-							"Yes",
+							"Cat",
+							"Dog",
 							"Missing",
 							"Total"
 						],
 						[
-							145.0,
-							125.0,
+							200.0,
+							70.0,
 							0,
 							270
 						],
 						[
-							53.703703703703709,
-							46.296296296296298,
+							74.074074074074076,
+							25.925925925925924,
 							0.0,
 							100.0
 						],
 						[
-							53.703703703703709,
-							46.296296296296298,
+							74.074074074074076,
+							25.925925925925924,
 							"",
 							""
 						],
 						[
-							53.703703703703709,
+							74.074074074074076,
 							100.0,
 							"",
 							""
@@ -711,7 +465,7 @@
 					"expectedRowCount" : 0,
 					"footnotes" : [],
 					"messages" : [],
-					"name" : "Dance",
+					"name" : "Animal",
 					"nestedOptionMustBe" : {},
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : {},
@@ -769,6 +523,252 @@
 					],
 					"status" : "complete",
 					"title" : "Frequencies for JaspColumn_5_Encoded",
+					"transposeTable" : false,
+					"transposeWithOvertitle" : false,
+					"type" : "table"
+				},
+				"Dance" : 
+				{
+					"citations" : [],
+					"colCombines" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "bool",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "",
+						"type" : "list"
+					},
+					"colFormats" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"Cumulative Percent" : "dp:1",
+							"Percent" : "dp:1",
+							"Valid Percent" : "dp:1"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colFormats",
+						"type" : "list"
+					},
+					"colNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : 
+						[
+							"Level",
+							"Frequency",
+							"Percent",
+							"Valid Percent",
+							"Cumulative Percent"
+						],
+						"title" : "colNames",
+						"type" : "list"
+					},
+					"colOvertitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colOvertitles",
+						"type" : "list"
+					},
+					"colRowCombinations" : [],
+					"colTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"Cumulative Percent" : "Cumulative Percent",
+							"Frequency" : "Frequency",
+							"Level" : "JaspColumn_11_Encoded",
+							"Percent" : "Percent",
+							"Valid Percent" : "Valid Percent"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTitles",
+						"type" : "list"
+					},
+					"colTypes" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : 
+						{
+							"Cumulative Percent" : "number",
+							"Frequency" : "integer",
+							"Level" : "string",
+							"Percent" : "number",
+							"Valid Percent" : "number"
+						},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "colTypes",
+						"type" : "list"
+					},
+					"data" : 
+					[
+						[
+							"No",
+							"Yes",
+							"Missing",
+							"Total"
+						],
+						[
+							145.0,
+							125.0,
+							0,
+							270
+						],
+						[
+							53.703703703703709,
+							46.296296296296298,
+							0.0,
+							100.0
+						],
+						[
+							53.703703703703709,
+							46.296296296296298,
+							"",
+							""
+						],
+						[
+							53.703703703703709,
+							100.0,
+							"",
+							""
+						]
+					],
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"expectedColumnCount" : 0,
+					"expectedRowCount" : 0,
+					"footnotes" : [],
+					"messages" : [],
+					"name" : "Dance",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : 
+					{
+						"variables" : "JaspColumn_11_Encoded"
+					},
+					"position" : 9999,
+					"rowNames" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowNames",
+						"type" : "list"
+					},
+					"rowTitles" : 
+					{
+						"citations" : [],
+						"error" : false,
+						"errorMessage" : "",
+						"escapeHtml" : true,
+						"fields" : {},
+						"listType" : "string",
+						"messages" : [],
+						"name" : "",
+						"nestedOptionMustBe" : {},
+						"nestedOptionMustContain" : {},
+						"optionMustBe" : {},
+						"optionMustContain" : {},
+						"position" : 9999,
+						"rows" : [],
+						"title" : "rowTitles",
+						"type" : "list"
+					},
+					"showSpecifiedColumnsOnly" : false,
+					"specifiedColumns" : 
+					[
+						"Cumulative Percent",
+						"Frequency",
+						"Level",
+						"Percent",
+						"Valid Percent"
+					],
+					"status" : "complete",
+					"title" : "Frequencies for JaspColumn_11_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -1182,9 +1182,9 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_2_Encoded",
+			"JaspColumn_5_Encoded",
 			"JaspColumn_8_Encoded",
-			"JaspColumn_5_Encoded"
+			"JaspColumn_11_Encoded"
 		],
 		"variables.types" : 
 		[

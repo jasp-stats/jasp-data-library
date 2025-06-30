@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -118,7 +118,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/12/_2_t1749640401143.png",
+					"filePathPng" : "resources/12/_2_t1732712394876.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "squaredPearson",
@@ -152,7 +152,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"dependent" : "JaspColumn_14_Encoded",
+				"dependent" : "JaspColumn_4_Encoded",
 				"dependent.types" : 
 				[
 					"nominal"
@@ -163,7 +163,6 @@
 				[
 					{
 						"components" : [],
-						"components.types" : [],
 						"name" : "model0",
 						"title" : "Model 0"
 					},
@@ -171,16 +170,11 @@
 						"components" : 
 						[
 							[
-								"JaspColumn_0_Encoded"
+								"JaspColumn_2_Encoded"
 							],
 							[
-								"JaspColumn_8_Encoded"
+								"JaspColumn_1_Encoded"
 							]
-						],
-						"components.types" : 
-						[
-							"scale",
-							"nominal"
 						],
 						"name" : "model1",
 						"title" : "Model 1"
@@ -246,7 +240,7 @@
 									80,
 									20
 								],
-								"title" : "JaspColumn_0_Encoded",
+								"title" : "JaspColumn_2_Encoded",
 								"titleType" : "character"
 							},
 							"type" : "ScaleContinuous"
@@ -291,7 +285,7 @@
 									1,
 									0.25
 								],
-								"title" : "\"P(\" * \"JaspColumn_14_Encoded\" ~ \"=\" ~ \"1\" * \")\"",
+								"title" : "\"P(\" * \"JaspColumn_4_Encoded\" ~ \"=\" ~ \"1\" * \")\"",
 								"titleType" : "expression"
 							},
 							"type" : "ScaleContinuous"
@@ -301,7 +295,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/12/_0_t1749640400795.png",
+					"filePathPng" : "resources/12/_0_t1732712394571.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "Age",
@@ -318,7 +312,7 @@
 					"resizedByUser" : false,
 					"revision" : 0,
 					"status" : "complete",
-					"title" : "JaspColumn_0_Encoded",
+					"title" : "JaspColumn_2_Encoded",
 					"type" : "plot",
 					"width" : 480
 				},
@@ -339,7 +333,7 @@
 									"2nd",
 									"3rd"
 								],
-								"title" : "JaspColumn_8_Encoded",
+								"title" : "JaspColumn_1_Encoded",
 								"titleType" : "character"
 							},
 							"type" : "ScaleDiscrete"
@@ -384,7 +378,7 @@
 									1,
 									0.25
 								],
-								"title" : "\"P(\" * \"JaspColumn_14_Encoded\" ~ \"=\" ~ \"1\" * \")\"",
+								"title" : "\"P(\" * \"JaspColumn_4_Encoded\" ~ \"=\" ~ \"1\" * \")\"",
 								"titleType" : "expression"
 							},
 							"type" : "ScaleContinuous"
@@ -394,7 +388,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/12/_1_t1749640400948.png",
+					"filePathPng" : "resources/12/_1_t1732712394734.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "PClass",
@@ -411,7 +405,7 @@
 					"resizedByUser" : false,
 					"revision" : 0,
 					"status" : "complete",
-					"title" : "JaspColumn_8_Encoded",
+					"title" : "JaspColumn_1_Encoded",
 					"type" : "plot",
 					"width" : 480
 				}
@@ -431,7 +425,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"dependent" : "JaspColumn_14_Encoded",
+				"dependent" : "JaspColumn_4_Encoded",
 				"dependent.types" : 
 				[
 					"nominal"
@@ -442,7 +436,6 @@
 				[
 					{
 						"components" : [],
-						"components.types" : [],
 						"name" : "model0",
 						"title" : "Model 0"
 					},
@@ -450,16 +443,11 @@
 						"components" : 
 						[
 							[
-								"JaspColumn_0_Encoded"
+								"JaspColumn_2_Encoded"
 							],
 							[
-								"JaspColumn_8_Encoded"
+								"JaspColumn_1_Encoded"
 							]
-						],
-						"components.types" : 
-						[
-							"scale",
-							"nominal"
 						],
 						"name" : "model1",
 						"title" : "Model 1"
@@ -656,9 +644,9 @@
 				[
 					"(Intercept)",
 					"(Intercept)",
-					"JaspColumn_0_Encoded",
-					"JaspColumn_8_Encoded (2nd)",
-					"JaspColumn_8_Encoded (3rd)"
+					"JaspColumn_2_Encoded",
+					"JaspColumn_1_Encoded (2nd)",
+					"JaspColumn_1_Encoded (3rd)"
 				],
 				[
 					-0.34736657950498162,
@@ -756,7 +744,7 @@
 					"cols" : null,
 					"rows" : null,
 					"symbol" : "<em>Note.</em>",
-					"text" : "JaspColumn_14_Encoded level '1' coded as class 1."
+					"text" : "JaspColumn_4_Encoded level '1' coded as class 1."
 				}
 			],
 			"messages" : [],
@@ -770,7 +758,7 @@
 				"coefficientCiLevel" : 0.94999999999999996,
 				"coefficientEstimate" : true,
 				"coefficientStandardized" : false,
-				"dependent" : "JaspColumn_14_Encoded",
+				"dependent" : "JaspColumn_4_Encoded",
 				"dependent.types" : 
 				[
 					"nominal"
@@ -781,7 +769,6 @@
 				[
 					{
 						"components" : [],
-						"components.types" : [],
 						"name" : "model0",
 						"title" : "Model 0"
 					},
@@ -789,16 +776,11 @@
 						"components" : 
 						[
 							[
-								"JaspColumn_0_Encoded"
+								"JaspColumn_2_Encoded"
 							],
 							[
-								"JaspColumn_8_Encoded"
+								"JaspColumn_1_Encoded"
 							]
-						],
-						"components.types" : 
-						[
-							"scale",
-							"nominal"
 						],
 						"name" : "model1",
 						"title" : "Model 1"
@@ -881,7 +863,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"dependent" : "JaspColumn_14_Encoded",
+				"dependent" : "JaspColumn_4_Encoded",
 				"dependent.types" : 
 				[
 					"nominal"
@@ -892,7 +874,6 @@
 				[
 					{
 						"components" : [],
-						"components.types" : [],
 						"name" : "model0",
 						"title" : "Model 0"
 					},
@@ -900,16 +881,11 @@
 						"components" : 
 						[
 							[
-								"JaspColumn_0_Encoded"
+								"JaspColumn_2_Encoded"
 							],
 							[
-								"JaspColumn_8_Encoded"
+								"JaspColumn_1_Encoded"
 							]
-						],
-						"components.types" : 
-						[
-							"scale",
-							"nominal"
 						],
 						"name" : "model1",
 						"title" : "Model 1"
@@ -1147,7 +1123,7 @@
 					"cols" : null,
 					"rows" : null,
 					"symbol" : "<em>Note.</em>",
-					"text" : "M\u2081 includes JaspColumn_0_Encoded, JaspColumn_8_Encoded"
+					"text" : "M\u2081 includes JaspColumn_2_Encoded, JaspColumn_1_Encoded"
 				}
 			],
 			"messages" : [],
@@ -1156,7 +1132,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"dependent" : "JaspColumn_14_Encoded",
+				"dependent" : "JaspColumn_4_Encoded",
 				"dependent.types" : 
 				[
 					"nominal"
@@ -1167,7 +1143,6 @@
 				[
 					{
 						"components" : [],
-						"components.types" : [],
 						"name" : "model0",
 						"title" : "Model 0"
 					},
@@ -1175,16 +1150,11 @@
 						"components" : 
 						[
 							[
-								"JaspColumn_0_Encoded"
+								"JaspColumn_2_Encoded"
 							],
 							[
-								"JaspColumn_8_Encoded"
+								"JaspColumn_1_Encoded"
 							]
-						],
-						"components.types" : 
-						[
-							"scale",
-							"nominal"
 						],
 						"name" : "model1",
 						"title" : "Model 1"
@@ -1247,7 +1217,7 @@
 				"tju"
 			],
 			"status" : "complete",
-			"title" : "Model Summary - JaspColumn_14_Encoded",
+			"title" : "Model Summary - JaspColumn_4_Encoded",
 			"transposeTable" : false,
 			"transposeWithOvertitle" : false,
 			"type" : "table"
@@ -1444,7 +1414,7 @@
 					"optionMustBe" : 
 					{
 						"confusionMatrix" : true,
-						"dependent" : "JaspColumn_14_Encoded",
+						"dependent" : "JaspColumn_4_Encoded",
 						"dependent.types" : 
 						[
 							"nominal"
@@ -1455,7 +1425,6 @@
 						[
 							{
 								"components" : [],
-								"components.types" : [],
 								"name" : "model0",
 								"title" : "Model 0"
 							},
@@ -1463,16 +1432,11 @@
 								"components" : 
 								[
 									[
-										"JaspColumn_0_Encoded"
+										"JaspColumn_2_Encoded"
 									],
 									[
-										"JaspColumn_8_Encoded"
+										"JaspColumn_1_Encoded"
 									]
-								],
-								"components.types" : 
-								[
-									"scale",
-									"nominal"
 								],
 								"name" : "model1",
 								"title" : "Model 1"
@@ -1692,7 +1656,7 @@
 						"accuracy" : false,
 						"auc" : false,
 						"brierScore" : false,
-						"dependent" : "JaspColumn_14_Encoded",
+						"dependent" : "JaspColumn_4_Encoded",
 						"dependent.types" : 
 						[
 							"nominal"
@@ -1705,7 +1669,6 @@
 						[
 							{
 								"components" : [],
-								"components.types" : [],
 								"name" : "model0",
 								"title" : "Model 0"
 							},
@@ -1713,16 +1676,11 @@
 								"components" : 
 								[
 									[
-										"JaspColumn_0_Encoded"
+										"JaspColumn_2_Encoded"
 									],
 									[
-										"JaspColumn_8_Encoded"
+										"JaspColumn_1_Encoded"
 									]
-								],
-								"components.types" : 
-								[
-									"scale",
-									"nominal"
 								],
 								"name" : "model1",
 								"title" : "Model 1"
@@ -1845,10 +1803,6 @@
 			{
 				"shouldEncode" : true
 			},
-			"predictionsSavedToDataColumn" : 
-			{
-				"shouldEncode" : true
-			},
 			"residualsSavedToDataColumn" : 
 			{
 				"shouldEncode" : true
@@ -1875,13 +1829,13 @@
 		"covarianceRatio" : false,
 		"covariates" : 
 		[
-			"JaspColumn_0_Encoded"
+			"JaspColumn_2_Encoded"
 		],
 		"covariates.types" : 
 		[
 			"scale"
 		],
-		"dependent" : "JaspColumn_14_Encoded",
+		"dependent" : "JaspColumn_4_Encoded",
 		"dependent.types" : 
 		[
 			"nominal"
@@ -1892,7 +1846,7 @@
 		"fMeasure" : false,
 		"factors" : 
 		[
-			"JaspColumn_8_Encoded"
+			"JaspColumn_1_Encoded"
 		],
 		"factors.types" : 
 		[
@@ -1910,7 +1864,6 @@
 		[
 			{
 				"components" : [],
-				"components.types" : [],
 				"name" : "model0",
 				"title" : "Model 0"
 			},
@@ -1918,16 +1871,11 @@
 				"components" : 
 				[
 					[
-						"JaspColumn_0_Encoded"
+						"JaspColumn_2_Encoded"
 					],
 					[
-						"JaspColumn_8_Encoded"
+						"JaspColumn_1_Encoded"
 					]
-				],
-				"components.types" : 
-				[
-					"scale",
-					"nominal"
 				],
 				"name" : "model1",
 				"title" : "Model 1"
@@ -1942,8 +1890,6 @@
 		"precisionRecallPlot" : false,
 		"precisionRecallPlotCutoffLabel" : false,
 		"precisionRecallPlotCutoffStep" : 0.20000000000000001,
-		"predictionsSavedToData" : false,
-		"predictionsSavedToDataColumn" : "",
 		"residualCasewiseDiagnostic" : false,
 		"residualCasewiseDiagnosticCooksDistanceThreshold" : 0.0,
 		"residualCasewiseDiagnosticType" : "outliersOutside",

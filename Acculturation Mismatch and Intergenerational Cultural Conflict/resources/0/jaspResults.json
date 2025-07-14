@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -299,7 +299,7 @@
 				"estimates" : null,
 				"inferenceMeanEstimatesTable" : true,
 				"measures" : "correlation",
-				"sampleSize" : "JaspColumn_6_Encoded",
+				"sampleSize" : "JaspColumn_0_Encoded",
 				"sampleSize.types" : 
 				[
 					"scale"
@@ -781,7 +781,7 @@
 				"effectSizeSe" : "",
 				"effectSizeSe.types" : [],
 				"measures" : "correlation",
-				"sampleSize" : "JaspColumn_6_Encoded",
+				"sampleSize" : "JaspColumn_0_Encoded",
 				"sampleSize.types" : 
 				[
 					"scale"
@@ -816,7 +816,7 @@
 				"effectSizeSe.types" : [],
 				"measures" : "correlation",
 				"modelPValueFrequencyTable" : null,
-				"sampleSize" : "JaspColumn_6_Encoded",
+				"sampleSize" : "JaspColumn_0_Encoded",
 				"sampleSize.types" : 
 				[
 					"scale"
@@ -878,7 +878,7 @@
 		"plotsMeanModelEstimatesPlot" : false,
 		"plotsRegressionEstimatePeesePlot" : false,
 		"plotsRegressionEstimatePetPlot" : false,
-		"sampleSize" : "JaspColumn_6_Encoded",
+		"sampleSize" : "JaspColumn_0_Encoded",
 		"sampleSize.types" : 
 		[
 			"scale"

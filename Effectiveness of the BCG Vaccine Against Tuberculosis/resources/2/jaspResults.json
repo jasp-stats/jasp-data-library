@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -54,7 +54,7 @@
 							60,
 							10
 						],
-						"title" : "JaspColumn_34_Encoded",
+						"title" : "JaspColumn_0_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleContinuous"
@@ -109,7 +109,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_2_t1733739815259.png",
+			"filePathPng" : "resources/2/_2_t1751898629420.png",
 			"height" : 350,
 			"messages" : [],
 			"name" : "bubblePlot",
@@ -135,7 +135,7 @@
 					{
 						"variable" : 
 						[
-							"JaspColumn_34_Encoded"
+							"JaspColumn_0_Encoded"
 						]
 					}
 				],
@@ -156,7 +156,7 @@
 				"computeCovarianceMatrix" : true,
 				"confidenceIntervalsLevel" : 0.94999999999999996,
 				"diagnosticsCasewiseDiagnosticsRerunWithoutInfluentialCases" : null,
-				"effectSize" : "JaspColumn_43_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -167,13 +167,13 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_34_Encoded"
+							"JaspColumn_0_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_39_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					}
 				],
@@ -182,7 +182,7 @@
 					"scale",
 					"nominal"
 				],
-				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError" : "JaspColumn_18_Encoded",
 				"effectSizeStandardError.types" : 
 				[
 					"scale"
@@ -197,6 +197,7 @@
 				"heterogeneityModelLink" : "log",
 				"heterogeneityModelTerms" : [],
 				"heterogeneityModelTerms.types" : [],
+				"includeFullDatasetInSubgroupAnalysis" : false,
 				"method" : "restrictedML",
 				"optimizerConvergenceRelativeTolerance" : false,
 				"optimizerConvergenceRelativeToleranceValue" : 1e-08,
@@ -226,8 +227,8 @@
 				"permutationTestType" : "approximate",
 				"predictors" : 
 				[
-					"JaspColumn_34_Encoded",
-					"JaspColumn_39_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_5_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -238,19 +239,42 @@
 				"randomEffectsSpecification" : null,
 				"seed" : 1,
 				"setSeed" : false,
+				"subgroup" : "",
+				"subgroup.types" : [],
 				"transformEffectSize" : "none",
+				"varianceCovarianceMatrixCheckPositiveDefiniteness" : null,
+				"varianceCovarianceMatrixCluster" : null,
+				"varianceCovarianceMatrixConstruct" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixConstructType" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixCorrelationMatrix" : null,
+				"varianceCovarianceMatrixFile" : null,
+				"varianceCovarianceMatrixForcePositiveDefiniteness" : null,
+				"varianceCovarianceMatrixGroup1" : null,
+				"varianceCovarianceMatrixGroupSize1" : null,
+				"varianceCovarianceMatrixGroupSize2" : null,
+				"varianceCovarianceMatrixSubcluster" : null,
+				"varianceCovarianceMatrixTime1" : null,
+				"varianceCovarianceMatrixTime2" : null,
+				"varianceCovarianceMatrixTimeLag1Correlation" : null,
+				"varianceCovarianceMatrixType" : null,
 				"weightedEstimation" : true
 			},
 			"optionMustContain" : {},
-			"position" : 6,
+			"position" : 5,
 			"resizedByUser" : false,
 			"revision" : 0,
 			"status" : "complete",
-			"title" : "Bubble Plot",
+			"title" : "Bubble Plots",
 			"type" : "plot",
 			"width" : 450
 		},
-		"estimatedMarginalMeansContainer" : 
+		"estimatedMarginalMeansAndContrastsContainer" : 
 		{
 			"citations" : [],
 			"data" : 
@@ -258,320 +282,646 @@
 				"effectSize" : 
 				{
 					"citations" : [],
-					"colCombines" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "bool",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "",
-						"type" : "list"
-					},
-					"colFormats" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"est" : "sf:4;dp:3",
-							"lCi" : "sf:4;dp:3",
-							"lPi" : "sf:4;dp:3",
-							"uCi" : "sf:4;dp:3",
-							"uPi" : "sf:4;dp:3"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colFormats",
-						"type" : "list"
-					},
-					"colNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : 
-						[
-							"variable",
-							"value",
-							"est",
-							"lCi",
-							"uCi",
-							"lPi",
-							"uPi"
-						],
-						"title" : "colNames",
-						"type" : "list"
-					},
-					"colOvertitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"lCi" : "95% CI",
-							"lPi" : "95% PI",
-							"uCi" : "95% CI",
-							"uPi" : "95% PI"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colOvertitles",
-						"type" : "list"
-					},
-					"colRowCombinations" : [],
-					"colTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"est" : "Estimate",
-							"lCi" : "Lower",
-							"lPi" : "Lower",
-							"uCi" : "Upper",
-							"uPi" : "Upper",
-							"value" : "Level",
-							"variable" : "Variable"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTitles",
-						"type" : "list"
-					},
-					"colTypes" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"est" : "number",
-							"lCi" : "number",
-							"lPi" : "number",
-							"uCi" : "number",
-							"uPi" : "number",
-							"value" : "string",
-							"variable" : "string"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTypes",
-						"type" : "list"
-					},
 					"data" : 
-					[
-						[
-							"Adjusted Estimate",
-							"JaspColumn_39_Encoded",
-							"JaspColumn_39_Encoded",
-							"JaspColumn_39_Encoded"
-						],
-						[
-							"",
-							"alternate",
-							"random",
-							"systematic"
-						],
-						[
-							-0.68917106355414948,
-							-0.61949449930926381,
-							-0.88698616585979051,
-							-0.561032525493394
-						],
-						[
-							-1.0237405649708224,
-							-1.3062388544110166,
-							-1.3342482838760272,
-							-1.1326475293969889
-						],
-						[
-							-0.35460156213747657,
-							0.067249855792489099,
-							-0.43972404784355368,
-							0.010582478410200769
-						],
-						[
-							-1.6121467171998494,
-							-1.7202056854106083,
-							-1.8565173454290069,
-							-1.5938398737593773
-						],
-						[
-							0.2338045900915503,
-							0.48121668679208052,
-							0.082545013709425796,
-							0.47177482277258942
-						]
-					],
+					{
+						"adjustedEstimate" : 
+						{
+							"citations" : [],
+							"data" : 
+							{
+								"estimatedMarginalMeansTable" : 
+								{
+									"citations" : [],
+									"colCombines" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "bool",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "",
+										"type" : "list"
+									},
+									"colFormats" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"est" : "sf:4;dp:3",
+											"lCi" : "sf:4;dp:3",
+											"lPi" : "sf:4;dp:3",
+											"uCi" : "sf:4;dp:3",
+											"uPi" : "sf:4;dp:3"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colFormats",
+										"type" : "list"
+									},
+									"colNames" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : 
+										[
+											"est",
+											"lCi",
+											"uCi",
+											"lPi",
+											"uPi"
+										],
+										"title" : "colNames",
+										"type" : "list"
+									},
+									"colOvertitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"lCi" : "95% CI",
+											"lPi" : "95% PI",
+											"uCi" : "95% CI",
+											"uPi" : "95% PI"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colOvertitles",
+										"type" : "list"
+									},
+									"colRowCombinations" : [],
+									"colTitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"est" : "Estimate",
+											"lCi" : "Lower",
+											"lPi" : "Lower",
+											"uCi" : "Upper",
+											"uPi" : "Upper"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colTitles",
+										"type" : "list"
+									},
+									"colTypes" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"est" : "number",
+											"lCi" : "number",
+											"lPi" : "number",
+											"uCi" : "number",
+											"uPi" : "number"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colTypes",
+										"type" : "list"
+									},
+									"data" : 
+									[
+										[
+											-0.68917106355414948
+										],
+										[
+											-1.0237405649708224
+										],
+										[
+											-0.35460156213747657
+										],
+										[
+											-1.6121467171998494
+										],
+										[
+											0.2338045900915503
+										]
+									],
+									"error" : false,
+									"errorMessage" : "",
+									"escapeHtml" : true,
+									"expectedColumnCount" : 0,
+									"expectedRowCount" : 0,
+									"footnotes" : 
+									[
+										{
+											"cols" : null,
+											"rows" : null,
+											"symbol" : "<em>Note.</em>",
+											"text" : "Each marginal mean estimate is averaged across the levels of the remaining predictors."
+										}
+									],
+									"messages" : [],
+									"name" : "estimatedMarginalMeansTable",
+									"nestedOptionMustBe" : {},
+									"nestedOptionMustContain" : {},
+									"optionMustBe" : 
+									{
+										"estimatedMarginalMeansEffectSize" : true,
+										"estimatedMarginalMeansEffectSizeSdFactorCovariates" : 1.0,
+										"estimatedMarginalMeansEffectSizeTestAgainst" : false,
+										"estimatedMarginalMeansEffectSizeTestAgainstValue" : 0.0,
+										"predictionIntervals" : true,
+										"transformEffectSize" : "none"
+									},
+									"optionMustContain" : {},
+									"position" : 1,
+									"rowNames" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : 
+										[
+											"__fullDataset"
+										],
+										"title" : "rowNames",
+										"type" : "list"
+									},
+									"rowTitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "rowTitles",
+										"type" : "list"
+									},
+									"showSpecifiedColumnsOnly" : false,
+									"specifiedColumns" : 
+									[
+										"est",
+										"lCi",
+										"lPi",
+										"uCi",
+										"uPi"
+									],
+									"status" : "complete",
+									"title" : "Adjusted Estimate",
+									"transposeTable" : false,
+									"transposeWithOvertitle" : false,
+									"type" : "table"
+								}
+							},
+							"data_order" : 
+							{
+								"estimatedMarginalMeansTable" : 0
+							},
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"initCollapsed" : false,
+							"messages" : [],
+							"name" : "adjustedEstimate",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : 
+							{
+								"estimatedMarginalMeansEffectSizeAddAdjustedEstimate" : true
+							},
+							"optionMustContain" : {},
+							"order_increment" : 1,
+							"position" : 0,
+							"title" : "Adjusted Estimate",
+							"type" : "container"
+						},
+						"alloc" : 
+						{
+							"citations" : [],
+							"data" : 
+							{
+								"estimatedMarginalMeansTable" : 
+								{
+									"citations" : [],
+									"colCombines" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "bool",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "",
+										"type" : "list"
+									},
+									"colFormats" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"est" : "sf:4;dp:3",
+											"lCi" : "sf:4;dp:3",
+											"lPi" : "sf:4;dp:3",
+											"uCi" : "sf:4;dp:3",
+											"uPi" : "sf:4;dp:3"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colFormats",
+										"type" : "list"
+									},
+									"colNames" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : 
+										[
+											"value",
+											"est",
+											"lCi",
+											"uCi",
+											"lPi",
+											"uPi"
+										],
+										"title" : "colNames",
+										"type" : "list"
+									},
+									"colOvertitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"lCi" : "95% CI",
+											"lPi" : "95% PI",
+											"uCi" : "95% CI",
+											"uPi" : "95% PI"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colOvertitles",
+										"type" : "list"
+									},
+									"colRowCombinations" : [],
+									"colTitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"est" : "Estimate",
+											"lCi" : "Lower",
+											"lPi" : "Lower",
+											"uCi" : "Upper",
+											"uPi" : "Upper",
+											"value" : "Level"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colTitles",
+										"type" : "list"
+									},
+									"colTypes" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : 
+										{
+											"est" : "number",
+											"lCi" : "number",
+											"lPi" : "number",
+											"uCi" : "number",
+											"uPi" : "number",
+											"value" : "string"
+										},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "colTypes",
+										"type" : "list"
+									},
+									"data" : 
+									[
+										[
+											"alternate",
+											"random",
+											"systematic"
+										],
+										[
+											-0.61949449930926381,
+											-0.88698616585979051,
+											-0.561032525493394
+										],
+										[
+											-1.3062388544110166,
+											-1.3342482838760272,
+											-1.1326475293969889
+										],
+										[
+											0.067249855792489099,
+											-0.43972404784355368,
+											0.010582478410200769
+										],
+										[
+											-1.7202056854106083,
+											-1.8565173454290069,
+											-1.5938398737593773
+										],
+										[
+											0.48121668679208052,
+											0.082545013709425796,
+											0.47177482277258942
+										]
+									],
+									"error" : false,
+									"errorMessage" : "",
+									"escapeHtml" : true,
+									"expectedColumnCount" : 0,
+									"expectedRowCount" : 0,
+									"footnotes" : 
+									[
+										{
+											"cols" : null,
+											"rows" : null,
+											"symbol" : "<em>Note.</em>",
+											"text" : "Each marginal mean estimate is averaged across the levels of the remaining predictors."
+										}
+									],
+									"messages" : [],
+									"name" : "estimatedMarginalMeansTable",
+									"nestedOptionMustBe" : {},
+									"nestedOptionMustContain" : {},
+									"optionMustBe" : 
+									{
+										"estimatedMarginalMeansEffectSize" : true,
+										"estimatedMarginalMeansEffectSizeSdFactorCovariates" : 1.0,
+										"estimatedMarginalMeansEffectSizeTestAgainst" : false,
+										"estimatedMarginalMeansEffectSizeTestAgainstValue" : 0.0,
+										"predictionIntervals" : true,
+										"transformEffectSize" : "none"
+									},
+									"optionMustContain" : {},
+									"position" : 1,
+									"rowNames" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : 
+										[
+											"__fullDataset.1",
+											"__fullDataset.2",
+											"__fullDataset.3"
+										],
+										"title" : "rowNames",
+										"type" : "list"
+									},
+									"rowTitles" : 
+									{
+										"citations" : [],
+										"error" : false,
+										"errorMessage" : "",
+										"escapeHtml" : true,
+										"fields" : {},
+										"listType" : "string",
+										"messages" : [],
+										"name" : "",
+										"nestedOptionMustBe" : {},
+										"nestedOptionMustContain" : {},
+										"optionMustBe" : {},
+										"optionMustContain" : {},
+										"position" : 9999,
+										"rows" : [],
+										"title" : "rowTitles",
+										"type" : "list"
+									},
+									"showSpecifiedColumnsOnly" : false,
+									"specifiedColumns" : 
+									[
+										"est",
+										"lCi",
+										"lPi",
+										"uCi",
+										"uPi",
+										"value"
+									],
+									"status" : "complete",
+									"title" : "Estimated Marginal Means",
+									"transposeTable" : false,
+									"transposeWithOvertitle" : false,
+									"type" : "table"
+								}
+							},
+							"data_order" : 
+							{
+								"estimatedMarginalMeansTable" : 0
+							},
+							"error" : false,
+							"errorMessage" : "",
+							"escapeHtml" : true,
+							"initCollapsed" : false,
+							"messages" : [],
+							"name" : "alloc",
+							"nestedOptionMustBe" : {},
+							"nestedOptionMustContain" : {},
+							"optionMustBe" : {},
+							"optionMustContain" : {},
+							"order_increment" : 1,
+							"position" : 1,
+							"title" : "JaspColumn_5_Encoded",
+							"type" : "container"
+						}
+					},
+					"data_order" : 
+					{
+						"adjustedEstimate" : 0,
+						"alloc" : 1
+					},
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"expectedColumnCount" : 0,
-					"expectedRowCount" : 0,
-					"footnotes" : 
-					[
-						{
-							"cols" : null,
-							"rows" : null,
-							"symbol" : "<em>Note.</em>",
-							"text" : "Each marginal mean estimate is averaged across the levels of the remaining predictors."
-						}
-					],
+					"initCollapsed" : false,
 					"messages" : [],
 					"name" : "effectSize",
 					"nestedOptionMustBe" : {},
 					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"order_increment" : 2,
+					"position" : 1,
+					"title" : "",
+					"type" : "container"
+				},
+				"effectSizeMetaData" : 
+				{
+					"citations" : [],
+					"environmentName" : "state_3",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"messages" : [],
+					"name" : "effectSizeMetaData",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"estimatedMarginalMeansEffectSizeAddAdjustedEstimate" : true,
-						"estimatedMarginalMeansEffectSizeSdFactorCovariates" : 1.0,
-						"estimatedMarginalMeansEffectSizeSelectedVariables" : 
-						[
-							{
-								"variable" : 
-								[
-									"JaspColumn_39_Encoded"
-								]
-							}
-						],
-						"estimatedMarginalMeansEffectSizeSelectedVariables.types" : 
-						[
-							"nominal"
-						],
-						"estimatedMarginalMeansEffectSizeTestAgainst" : false,
-						"estimatedMarginalMeansEffectSizeTestAgainstValue" : 0.0,
-						"predictionIntervals" : true,
-						"transformEffectSize" : "none"
+						"contrastsEffectSize" : false,
+						"estimatedMarginalMeansEffectSize" : true
 					},
 					"optionMustContain" : {},
-					"position" : 1,
-					"rowNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : 
-						[
-							"1",
-							"variable.1",
-							"variable.2",
-							"variable.3"
-						],
-						"title" : "rowNames",
-						"type" : "list"
-					},
-					"rowTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "rowTitles",
-						"type" : "list"
-					},
-					"showSpecifiedColumnsOnly" : false,
-					"specifiedColumns" : 
-					[
-						"est",
-						"lCi",
-						"lPi",
-						"uCi",
-						"uPi",
-						"value",
-						"variable"
-					],
-					"status" : "complete",
-					"title" : "Estimated Marginal Means: Effect Size",
-					"transposeTable" : false,
-					"transposeWithOvertitle" : false,
-					"type" : "table"
+					"position" : 9999,
+					"title" : "",
+					"type" : "state"
 				}
 			},
 			"data_order" : 
 			{
-				"effectSize" : 0
+				"effectSize" : 0,
+				"effectSizeMetaData" : 1
 			},
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
 			"initCollapsed" : false,
 			"messages" : [],
-			"name" : "estimatedMarginalMeansContainer",
+			"name" : "estimatedMarginalMeansAndContrastsContainer",
 			"nestedOptionMustBe" : {},
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
@@ -586,7 +936,7 @@
 				"confidenceIntervals" : true,
 				"confidenceIntervalsLevel" : 0.94999999999999996,
 				"diagnosticsCasewiseDiagnosticsRerunWithoutInfluentialCases" : null,
-				"effectSize" : "JaspColumn_43_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -597,13 +947,13 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_34_Encoded"
+							"JaspColumn_0_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_39_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					}
 				],
@@ -612,7 +962,7 @@
 					"scale",
 					"nominal"
 				],
-				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError" : "JaspColumn_18_Encoded",
 				"effectSizeStandardError.types" : 
 				[
 					"scale"
@@ -627,6 +977,7 @@
 				"heterogeneityModelLink" : "log",
 				"heterogeneityModelTerms" : [],
 				"heterogeneityModelTerms.types" : [],
+				"includeFullDatasetInSubgroupAnalysis" : false,
 				"method" : "restrictedML",
 				"optimizerConvergenceRelativeTolerance" : false,
 				"optimizerConvergenceRelativeToleranceValue" : 1e-08,
@@ -656,8 +1007,8 @@
 				"permutationTestType" : "approximate",
 				"predictors" : 
 				[
-					"JaspColumn_34_Encoded",
-					"JaspColumn_39_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_5_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -668,12 +1019,35 @@
 				"randomEffectsSpecification" : null,
 				"seed" : 1,
 				"setSeed" : false,
+				"subgroup" : "",
+				"subgroup.types" : [],
+				"varianceCovarianceMatrixCheckPositiveDefiniteness" : null,
+				"varianceCovarianceMatrixCluster" : null,
+				"varianceCovarianceMatrixConstruct" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixConstructType" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixCorrelationMatrix" : null,
+				"varianceCovarianceMatrixFile" : null,
+				"varianceCovarianceMatrixForcePositiveDefiniteness" : null,
+				"varianceCovarianceMatrixGroup1" : null,
+				"varianceCovarianceMatrixGroupSize1" : null,
+				"varianceCovarianceMatrixGroupSize2" : null,
+				"varianceCovarianceMatrixSubcluster" : null,
+				"varianceCovarianceMatrixTime1" : null,
+				"varianceCovarianceMatrixTime2" : null,
+				"varianceCovarianceMatrixTimeLag1Correlation" : null,
+				"varianceCovarianceMatrixType" : null,
 				"weightedEstimation" : true
 			},
 			"optionMustContain" : {},
-			"order_increment" : 1,
+			"order_increment" : 2,
 			"position" : 4,
-			"title" : "Estimated Marginal Means Summary",
+			"title" : "Estimated Marginal Means and Contrasts Summary",
 			"type" : "container"
 		},
 		"fit" : 
@@ -698,7 +1072,7 @@
 				"computeCovarianceMatrix" : true,
 				"confidenceIntervalsLevel" : 0.94999999999999996,
 				"diagnosticsCasewiseDiagnosticsRerunWithoutInfluentialCases" : null,
-				"effectSize" : "JaspColumn_43_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -709,13 +1083,13 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_34_Encoded"
+							"JaspColumn_0_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_39_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					}
 				],
@@ -724,7 +1098,7 @@
 					"scale",
 					"nominal"
 				],
-				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError" : "JaspColumn_18_Encoded",
 				"effectSizeStandardError.types" : 
 				[
 					"scale"
@@ -768,8 +1142,8 @@
 				"permutationTestType" : "approximate",
 				"predictors" : 
 				[
-					"JaspColumn_34_Encoded",
-					"JaspColumn_39_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_5_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -780,7 +1154,71 @@
 				"randomEffectsSpecification" : null,
 				"seed" : 1,
 				"setSeed" : false,
+				"subgroup" : "",
+				"subgroup.types" : [],
+				"varianceCovarianceMatrixCheckPositiveDefiniteness" : null,
+				"varianceCovarianceMatrixCluster" : null,
+				"varianceCovarianceMatrixConstruct" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixConstructType" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixCorrelationMatrix" : null,
+				"varianceCovarianceMatrixFile" : null,
+				"varianceCovarianceMatrixForcePositiveDefiniteness" : null,
+				"varianceCovarianceMatrixGroup1" : null,
+				"varianceCovarianceMatrixGroupSize1" : null,
+				"varianceCovarianceMatrixGroupSize2" : null,
+				"varianceCovarianceMatrixSubcluster" : null,
+				"varianceCovarianceMatrixTime1" : null,
+				"varianceCovarianceMatrixTime2" : null,
+				"varianceCovarianceMatrixTimeLag1Correlation" : null,
+				"varianceCovarianceMatrixType" : null,
 				"weightedEstimation" : true
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"fitDataSet" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_2",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "fitDataSet",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"forestPlotMappingColor" : "JaspColumn_5_Encoded",
+				"forestPlotMappingColor.types" : "nominal",
+				"forestPlotMappingShape" : "",
+				"forestPlotMappingShape.types" : "unknown",
+				"forestPlotStudyInformationAggregateBy" : "",
+				"forestPlotStudyInformationAggregateBy.types" : "unknown",
+				"forestPlotStudyInformationOrderBy" : "JaspColumn_36_Encoded",
+				"forestPlotStudyInformationOrderBy.types" : "scale",
+				"forestPlotStudyInformationSelectedVariables" : 
+				[
+					"JaspColumn_8_Encoded",
+					"JaspColumn_38_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_2_Encoded"
+				],
+				"forestPlotStudyInformationSelectedVariables.types" : 
+				[
+					"nominal",
+					"nominal",
+					"nominal",
+					"nominal"
+				]
 			},
 			"optionMustContain" : {},
 			"position" : 9999,
@@ -800,7 +1238,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_1_t1733739814895.png",
+			"filePathPng" : "resources/2/_1_t1751898628999.png",
 			"height" : 460,
 			"messages" : [],
 			"name" : "forestPlot",
@@ -810,6 +1248,7 @@
 			{
 				"advancedExtendMetaforCall" : false,
 				"advancedExtendMetaforCallCode" : "",
+				"bayesFactorType" : null,
 				"clustering" : "",
 				"clustering.types" : [],
 				"clusteringSmallSampleCorrection" : true,
@@ -817,7 +1256,7 @@
 				"computeCovarianceMatrix" : true,
 				"confidenceIntervalsLevel" : 0.94999999999999996,
 				"diagnosticsCasewiseDiagnosticsRerunWithoutInfluentialCases" : null,
-				"effectSize" : "JaspColumn_43_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -828,13 +1267,13 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_34_Encoded"
+							"JaspColumn_0_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_39_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					}
 				],
@@ -843,7 +1282,7 @@
 					"scale",
 					"nominal"
 				],
-				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError" : "JaspColumn_18_Encoded",
 				"effectSizeStandardError.types" : 
 				[
 					"scale"
@@ -854,6 +1293,7 @@
 				"fixParametersWeightsVariable" : "",
 				"fixParametersWeightsVariable.types" : "unknown",
 				"fixedEffectTest" : "knha",
+				"forestPlotAllignLeftPanel" : "right",
 				"forestPlotAuxiliaryAddVerticalLine" : true,
 				"forestPlotAuxiliaryAddVerticalLine2" : false,
 				"forestPlotAuxiliaryAddVerticalLineValue" : 0.0,
@@ -866,18 +1306,24 @@
 				"forestPlotAuxiliarySetXAxisLimitLower" : 0.0,
 				"forestPlotAuxiliarySetXAxisLimitUpper" : 2.0,
 				"forestPlotAuxiliaryTestsInformation" : "statisticAndPValue",
+				"forestPlotConditionalEstimates" : false,
+				"forestPlotEffectSizeFixedEffectEstimate" : false,
+				"forestPlotEffectSizeFixedEffectTest" : true,
 				"forestPlotEffectSizeModerationTest" : true,
+				"forestPlotEffectSizePooledEstimate" : true,
+				"forestPlotEffectSizePooledEstimateTest" : true,
 				"forestPlotEstimatedMarginalMeans" : true,
 				"forestPlotEstimatedMarginalMeansAdjustedEffectSizeEstimate" : false,
 				"forestPlotEstimatedMarginalMeansCoefficientTests" : true,
 				"forestPlotEstimatedMarginalMeansCoefficientTestsAgainst" : 0.0,
+				"forestPlotEstimatedMarginalMeansCoefficientTestsAgainst0" : true,
 				"forestPlotEstimatedMarginalMeansModelVariables" : null,
 				"forestPlotEstimatedMarginalMeansSelectedVariables" : 
 				[
 					{
 						"variable" : 
 						[
-							"JaspColumn_39_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					}
 				],
@@ -887,15 +1333,19 @@
 				],
 				"forestPlotEstimatedMarginalMeansTermTests" : true,
 				"forestPlotEstimatesAndConfidenceIntervals" : true,
+				"forestPlotHeterogeneityEstimateH2" : false,
+				"forestPlotHeterogeneityEstimateI2" : false,
+				"forestPlotHeterogeneityEstimateTau" : true,
+				"forestPlotHeterogeneityEstimateTau2" : false,
 				"forestPlotHeterogeneityModerationTest" : true,
-				"forestPlotMappingColor" : "JaspColumn_39_Encoded",
+				"forestPlotHeterogeneityTest" : true,
+				"forestPlotMappingColor" : "JaspColumn_5_Encoded",
 				"forestPlotMappingColor.types" : "nominal",
 				"forestPlotMappingShape" : "",
 				"forestPlotMappingShape.types" : "unknown",
 				"forestPlotModelInformation" : true,
-				"forestPlotPooledEffectSizeEstimate" : true,
-				"forestPlotPooledEffectSizeTest" : true,
 				"forestPlotPredictionIntervals" : false,
+				"forestPlotPublicationBiasTest" : false,
 				"forestPlotRelativeSizeAxisLabels" : 1.0,
 				"forestPlotRelativeSizeEstimates" : 1.0,
 				"forestPlotRelativeSizeLeftPanel" : 0.5,
@@ -903,22 +1353,24 @@
 				"forestPlotRelativeSizeRightPanel" : 0.59999999999999998,
 				"forestPlotRelativeSizeRow" : 1.0,
 				"forestPlotRelativeSizeText" : 1.0,
-				"forestPlotResidualHeterogeneityEstimate" : true,
-				"forestPlotResidualHeterogeneityTest" : true,
 				"forestPlotStudyInformation" : true,
+				"forestPlotStudyInformationAggregateBy" : "",
+				"forestPlotStudyInformationAggregateBy.types" : "unknown",
+				"forestPlotStudyInformationAggregateMethod" : "boxplot",
+				"forestPlotStudyInformationAggregateMethodBubbleRelativeSize" : 1.0,
 				"forestPlotStudyInformationAllVariables" : null,
 				"forestPlotStudyInformationOrderAscending" : true,
-				"forestPlotStudyInformationOrderBy" : "JaspColumn_19_Encoded",
+				"forestPlotStudyInformationOrderBy" : "JaspColumn_36_Encoded",
 				"forestPlotStudyInformationOrderBy.types" : "scale",
 				"forestPlotStudyInformationPredictedEffects" : false,
 				"forestPlotStudyInformationSecondaryConfidenceInterval" : false,
 				"forestPlotStudyInformationSecondaryConfidenceIntervalLevel" : 0.89000000000000001,
 				"forestPlotStudyInformationSelectedVariables" : 
 				[
-					"JaspColumn_18_Encoded",
-					"JaspColumn_21_Encoded",
-					"JaspColumn_39_Encoded",
-					"JaspColumn_36_Encoded"
+					"JaspColumn_8_Encoded",
+					"JaspColumn_38_Encoded",
+					"JaspColumn_5_Encoded",
+					"JaspColumn_2_Encoded"
 				],
 				"forestPlotStudyInformationSelectedVariables.types" : 
 				[
@@ -934,7 +1386,7 @@
 						"title" : "Authors",
 						"value" : 
 						[
-							"JaspColumn_18_Encoded"
+							"JaspColumn_8_Encoded"
 						],
 						"value.types" : 
 						[
@@ -947,7 +1399,7 @@
 						"title" : "Year",
 						"value" : 
 						[
-							"JaspColumn_21_Encoded"
+							"JaspColumn_38_Encoded"
 						],
 						"value.types" : 
 						[
@@ -960,7 +1412,7 @@
 						"title" : "Allocation",
 						"value" : 
 						[
-							"JaspColumn_39_Encoded"
+							"JaspColumn_5_Encoded"
 						],
 						"value.types" : 
 						[
@@ -973,7 +1425,7 @@
 						"title" : "Latitude",
 						"value" : 
 						[
-							"JaspColumn_36_Encoded"
+							"JaspColumn_2_Encoded"
 						],
 						"value.types" : 
 						[
@@ -983,6 +1435,9 @@
 					}
 				],
 				"forestPlotStudyInformationStudyWeights" : false,
+				"forestPlotSubgroupFullDatasetEstimatedMarginalMeans" : true,
+				"forestPlotSubgroupFullDatasetModelInformation" : true,
+				"forestPlotSubgroupPanelsWithinSubgroup" : false,
 				"forestPlotTestsInRightPanel" : false,
 				"heterogeneityModelIncludeIntercept" : true,
 				"heterogeneityModelLink" : "log",
@@ -1017,8 +1472,8 @@
 				"permutationTestType" : "approximate",
 				"predictors" : 
 				[
-					"JaspColumn_34_Encoded",
-					"JaspColumn_39_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_5_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1029,7 +1484,30 @@
 				"randomEffectsSpecification" : null,
 				"seed" : 1,
 				"setSeed" : false,
+				"subgroup" : "",
+				"subgroup.types" : [],
 				"transformEffectSize" : "none",
+				"varianceCovarianceMatrixCheckPositiveDefiniteness" : null,
+				"varianceCovarianceMatrixCluster" : null,
+				"varianceCovarianceMatrixConstruct" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixConstructType" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixCorrelationMatrix" : null,
+				"varianceCovarianceMatrixFile" : null,
+				"varianceCovarianceMatrixForcePositiveDefiniteness" : null,
+				"varianceCovarianceMatrixGroup1" : null,
+				"varianceCovarianceMatrixGroupSize1" : null,
+				"varianceCovarianceMatrixGroupSize2" : null,
+				"varianceCovarianceMatrixSubcluster" : null,
+				"varianceCovarianceMatrixTime1" : null,
+				"varianceCovarianceMatrixTime2" : null,
+				"varianceCovarianceMatrixTimeLag1Correlation" : null,
+				"varianceCovarianceMatrixType" : null,
 				"weightedEstimation" : true
 			},
 			"optionMustContain" : {},
@@ -1116,11 +1594,11 @@
 							"name",
 							"est",
 							"se",
+							"lCi",
+							"uCi",
 							"stat",
 							"df",
-							"pval",
-							"lCi",
-							"uCi"
+							"pval"
 						],
 						"title" : "colNames",
 						"type" : "list"
@@ -1211,9 +1689,9 @@
 					[
 						[
 							"Intercept",
-							"JaspColumn_34_Encoded",
-							"JaspColumn_39_Encoded (random)",
-							"JaspColumn_39_Encoded (systematic)"
+							"JaspColumn_0_Encoded",
+							"JaspColumn_5_Encoded (random)",
+							"JaspColumn_5_Encoded (systematic)"
 						],
 						[
 							0.2931936937216183,
@@ -1226,6 +1704,18 @@
 							0.009513883613081987,
 							0.36241121498703088,
 							0.392487717157123
+						],
+						[
+							-0.65429523923775579,
+							-0.04879763906343422,
+							-1.0873227924118387,
+							-0.82940692686143191
+						],
+						[
+							1.2406826266809925,
+							-0.0057538391407104574,
+							0.55233945931078532,
+							0.94633087449317155
 						],
 						[
 							0.70000840249187413,
@@ -1244,18 +1734,6 @@
 							0.018569074205119423,
 							0.47926297989516653,
 							0.88487541759585631
-						],
-						[
-							-0.65429523923775579,
-							-0.04879763906343422,
-							-1.0873227924118387,
-							-0.82940692686143191
-						],
-						[
-							1.2406826266809925,
-							-0.0057538391407104574,
-							0.55233945931078532,
-							0.94633087449317155
 						]
 					],
 					"error" : false,
@@ -1269,7 +1747,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "Fixed effect tested using Knapp and Hartung adjustment."
+							"text" : "Fixed effects tested using Knapp and Hartung adjustment."
 						}
 					],
 					"messages" : [],
@@ -1279,6 +1757,8 @@
 					"optionMustBe" : 
 					{
 						"confidenceIntervals" : true,
+						"confidenceIntervalsLevel" : 0.94999999999999996,
+						"includeFullDatasetInSubgroupAnalysis" : false,
 						"metaregressionCoefficientEstimates" : true
 					},
 					"optionMustContain" : {},
@@ -1300,10 +1780,10 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"intrcpt",
-							"JaspColumn_34_Encoded",
-							"JaspColumn_39_Encodedrandom",
-							"JaspColumn_39_Encodedsystematic"
+							"__fullDataset.intrcpt",
+							"__fullDataset.JaspColumn_0_Encoded",
+							"__fullDataset.JaspColumn_5_Encodedrandom",
+							"__fullDataset.JaspColumn_5_Encodedsystematic"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -1492,8 +1972,8 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_34_Encoded",
-							"JaspColumn_39_Encoded"
+							"JaspColumn_0_Encoded",
+							"JaspColumn_5_Encoded"
 						],
 						[
 							8.2193483485131615,
@@ -1523,7 +2003,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "Fixed effect tested using Knapp and Hartung adjustment."
+							"text" : "Fixed effects tested using Knapp and Hartung adjustment."
 						}
 					],
 					"messages" : [],
@@ -1532,6 +2012,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
+						"includeFullDatasetInSubgroupAnalysis" : false,
 						"metaregressionTermTests" : true
 					},
 					"optionMustContain" : {},
@@ -1553,8 +2034,8 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"1",
-							"2"
+							"__fullDataset.1",
+							"__fullDataset.2"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -1616,10 +2097,9 @@
 				"clusteringSmallSampleCorrection" : true,
 				"clusteringUseClubSandwich" : true,
 				"computeCovarianceMatrix" : true,
-				"confidenceInterval" : null,
 				"confidenceIntervalsLevel" : 0.94999999999999996,
 				"diagnosticsCasewiseDiagnosticsRerunWithoutInfluentialCases" : null,
-				"effectSize" : "JaspColumn_43_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -1630,13 +2110,13 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_34_Encoded"
+							"JaspColumn_0_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_39_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					}
 				],
@@ -1645,7 +2125,7 @@
 					"scale",
 					"nominal"
 				],
-				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError" : "JaspColumn_18_Encoded",
 				"effectSizeStandardError.types" : 
 				[
 					"scale"
@@ -1689,8 +2169,8 @@
 				"permutationTestType" : "approximate",
 				"predictors" : 
 				[
-					"JaspColumn_34_Encoded",
-					"JaspColumn_39_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_5_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -1701,6 +2181,29 @@
 				"randomEffectsSpecification" : null,
 				"seed" : 1,
 				"setSeed" : false,
+				"subgroup" : "",
+				"subgroup.types" : [],
+				"varianceCovarianceMatrixCheckPositiveDefiniteness" : null,
+				"varianceCovarianceMatrixCluster" : null,
+				"varianceCovarianceMatrixConstruct" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixConstructType" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixCorrelationMatrix" : null,
+				"varianceCovarianceMatrixFile" : null,
+				"varianceCovarianceMatrixForcePositiveDefiniteness" : null,
+				"varianceCovarianceMatrixGroup1" : null,
+				"varianceCovarianceMatrixGroupSize1" : null,
+				"varianceCovarianceMatrixGroupSize2" : null,
+				"varianceCovarianceMatrixSubcluster" : null,
+				"varianceCovarianceMatrixTime1" : null,
+				"varianceCovarianceMatrixTime2" : null,
+				"varianceCovarianceMatrixTimeLag1Correlation" : null,
+				"varianceCovarianceMatrixType" : null,
 				"weightedEstimation" : true
 			},
 			"optionMustContain" : {},
@@ -1714,476 +2217,6 @@
 			"citations" : [],
 			"data" : 
 			{
-				"moderatorsTable" : 
-				{
-					"citations" : [],
-					"colCombines" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "bool",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "",
-						"type" : "list"
-					},
-					"colFormats" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"df2" : "sf:4;dp:3",
-							"pval" : "dp:3;p:.001",
-							"stat" : "sf:4;dp:3"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colFormats",
-						"type" : "list"
-					},
-					"colNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : 
-						[
-							"parameter",
-							"stat",
-							"df1",
-							"df2",
-							"pval"
-						],
-						"title" : "colNames",
-						"type" : "list"
-					},
-					"colOvertitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colOvertitles",
-						"type" : "list"
-					},
-					"colRowCombinations" : [],
-					"colTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"df1" : "df\u2081",
-							"df2" : "df\u2082",
-							"parameter" : "Parameter",
-							"pval" : "p",
-							"stat" : "F"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTitles",
-						"type" : "list"
-					},
-					"colTypes" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"df1" : "integer",
-							"df2" : "number",
-							"parameter" : "string",
-							"pval" : "pvalue",
-							"stat" : "number"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTypes",
-						"type" : "list"
-					},
-					"data" : 
-					[
-						[
-							"Effect Size"
-						],
-						[
-							3.4470993330714959
-						],
-						[
-							3
-						],
-						[
-							9
-						],
-						[
-							0.065007292997930483
-						]
-					],
-					"error" : false,
-					"errorMessage" : "",
-					"escapeHtml" : true,
-					"expectedColumnCount" : 0,
-					"expectedRowCount" : 0,
-					"footnotes" : [],
-					"messages" : [],
-					"name" : "moderatorsTable",
-					"nestedOptionMustBe" : {},
-					"nestedOptionMustContain" : {},
-					"optionMustBe" : 
-					{
-						"addOmnibusModeratorTestEffectSizeCoefficients" : false,
-						"addOmnibusModeratorTestEffectSizeCoefficientsValues" : "(1, 2)",
-						"addOmnibusModeratorTestHeterogeneityCoefficients" : false,
-						"addOmnibusModeratorTestHeterogeneityCoefficientsValues" : "(1, 2)"
-					},
-					"optionMustContain" : {},
-					"position" : 2,
-					"rowNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "rowNames",
-						"type" : "list"
-					},
-					"rowTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "rowTitles",
-						"type" : "list"
-					},
-					"showSpecifiedColumnsOnly" : false,
-					"specifiedColumns" : 
-					[
-						"df1",
-						"df2",
-						"parameter",
-						"pval",
-						"stat"
-					],
-					"status" : "complete",
-					"title" : "Omnibus Moderation Test",
-					"transposeTable" : false,
-					"transposeWithOvertitle" : false,
-					"type" : "table"
-				},
-				"pooledEffectSizeTest" : 
-				{
-					"citations" : [],
-					"colCombines" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "bool",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "",
-						"type" : "list"
-					},
-					"colFormats" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"df" : "sf:4;dp:3",
-							"est" : "sf:4;dp:3",
-							"pval" : "dp:3;p:.001",
-							"se" : "sf:4;dp:3",
-							"stat" : "sf:4;dp:3"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colFormats",
-						"type" : "list"
-					},
-					"colNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : 
-						[
-							"est",
-							"se",
-							"stat",
-							"df",
-							"pval"
-						],
-						"title" : "colNames",
-						"type" : "list"
-					},
-					"colOvertitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colOvertitles",
-						"type" : "list"
-					},
-					"colRowCombinations" : [],
-					"colTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"df" : "df",
-							"est" : "Estimate",
-							"pval" : "p",
-							"se" : "Standard Error",
-							"stat" : "t"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTitles",
-						"type" : "list"
-					},
-					"colTypes" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"df" : "number",
-							"est" : "number",
-							"pval" : "pvalue",
-							"se" : "number",
-							"stat" : "number"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTypes",
-						"type" : "list"
-					},
-					"data" : 
-					[
-						[
-							-0.74554017397004901
-						],
-						[
-							0.14009888318713085
-						],
-						[
-							-5.3215283163551481
-						],
-						[
-							9
-						],
-						[
-							0.00048001577036708461
-						]
-					],
-					"error" : false,
-					"errorMessage" : "",
-					"escapeHtml" : true,
-					"expectedColumnCount" : 0,
-					"expectedRowCount" : 0,
-					"footnotes" : [],
-					"messages" : [],
-					"name" : "pooledEffectSizeTest",
-					"nestedOptionMustBe" : {},
-					"nestedOptionMustContain" : {},
-					"optionMustBe" : 
-					{
-						"confidenceIntervals" : true
-					},
-					"optionMustContain" : {},
-					"position" : 1,
-					"rowNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : 
-						[
-							"1"
-						],
-						"title" : "rowNames",
-						"type" : "list"
-					},
-					"rowTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "rowTitles",
-						"type" : "list"
-					},
-					"showSpecifiedColumnsOnly" : false,
-					"specifiedColumns" : 
-					[
-						"df",
-						"est",
-						"pval",
-						"se",
-						"stat"
-					],
-					"status" : "complete",
-					"title" : "Pooled Effect Size Test",
-					"transposeTable" : false,
-					"transposeWithOvertitle" : false,
-					"type" : "table"
-				},
 				"pooledEstimatesTable" : 
 				{
 					"citations" : [],
@@ -2342,30 +2375,34 @@
 					"data" : 
 					[
 						[
-							"Effect Size",
+							"Pooled effect",
 							"\ud835\udf0f",
 							"\ud835\udf0f\u00b2"
 						],
 						[
 							"-0.7455402",
-							0.38025735457625437,
-							0.14459565570933125
+							"0.380257354576254",
+							"0.144595655709331"
 						],
 						[
 							"-1.062466",
-							0.1512508330662245,
-							0.022876814503226914
+							"0.151250833066224",
+							"0.0228768145032269"
 						],
 						[
 							"-0.4286145",
-							0.95889622095098526,
-							0.91948196255408077
+							"0.958896220950985",
+							"0.919481962554081"
 						],
 						[
-							"-1.662268"
+							"-1.662268",
+							"",
+							""
 						],
 						[
-							"0.1711873"
+							"0.1711873",
+							"",
+							""
 						]
 					],
 					"error" : false,
@@ -2394,6 +2431,7 @@
 						"heterogeneityI2" : false,
 						"heterogeneityTau" : true,
 						"heterogeneityTau2" : true,
+						"includeFullDatasetInSubgroupAnalysis" : false,
 						"predictionIntervals" : true,
 						"transformEffectSize" : "none"
 					},
@@ -2414,7 +2452,12 @@
 						"optionMustBe" : {},
 						"optionMustContain" : {},
 						"position" : 9999,
-						"rows" : [],
+						"rows" : 
+						[
+							"effect",
+							"heterogeneity.__fullDataset.tau",
+							"heterogeneity.__fullDataset.tau^2"
+						],
 						"title" : "rowNames",
 						"type" : "list"
 					},
@@ -2453,7 +2496,7 @@
 					"transposeWithOvertitle" : false,
 					"type" : "table"
 				},
-				"residualHeterogeneityTable" : 
+				"testsTable" : 
 				{
 					"citations" : [],
 					"colCombines" : 
@@ -2483,8 +2526,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"pval" : "dp:3;p:.001",
-							"qstat" : "sf:4;dp:3"
+							"pval" : "dp:3;p:.001"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -2515,8 +2557,8 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"qstat",
-							"df",
+							"test",
+							"stat",
 							"pval"
 						],
 						"title" : "colNames",
@@ -2550,9 +2592,9 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"df" : "df",
 							"pval" : "p",
-							"qstat" : "Q\u2091"
+							"stat" : "Test",
+							"test" : ""
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -2574,9 +2616,9 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"df" : "integer",
 							"pval" : "pvalue",
-							"qstat" : "number"
+							"stat" : "string",
+							"test" : "string"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -2593,13 +2635,19 @@
 					"data" : 
 					[
 						[
-							26.203436491648404
+							"Residual heterogeneity",
+							"Pooled effect",
+							"Moderation"
 						],
 						[
-							9
+							"Q\u2091(9) = 26.20",
+							"t(9) = -5.32",
+							"F\u2098(3, 9) = 3.45"
 						],
 						[
-							0.0018920957218359507
+							0.0018920957218359507,
+							0.00048001577036708461,
+							0.065007292997930483
 						]
 					],
 					"error" : false,
@@ -2609,10 +2657,17 @@
 					"expectedRowCount" : 0,
 					"footnotes" : [],
 					"messages" : [],
-					"name" : "residualHeterogeneityTable",
+					"name" : "testsTable",
 					"nestedOptionMustBe" : {},
 					"nestedOptionMustContain" : {},
-					"optionMustBe" : {},
+					"optionMustBe" : 
+					{
+						"addOmnibusModeratorTestEffectSizeCoefficients" : false,
+						"addOmnibusModeratorTestEffectSizeCoefficientsValues" : "(1, 2)",
+						"addOmnibusModeratorTestHeterogeneityCoefficients" : false,
+						"addOmnibusModeratorTestHeterogeneityCoefficientsValues" : "(1, 2)",
+						"includeFullDatasetInSubgroupAnalysis" : false
+					},
 					"optionMustContain" : {},
 					"position" : 1,
 					"rowNames" : 
@@ -2630,7 +2685,12 @@
 						"optionMustBe" : {},
 						"optionMustContain" : {},
 						"position" : 9999,
-						"rows" : [],
+						"rows" : 
+						[
+							"heterogeneity",
+							"effect",
+							"moderationEffect"
+						],
 						"title" : "rowNames",
 						"type" : "list"
 					},
@@ -2656,12 +2716,12 @@
 					"showSpecifiedColumnsOnly" : false,
 					"specifiedColumns" : 
 					[
-						"df",
 						"pval",
-						"qstat"
+						"stat",
+						"test"
 					],
 					"status" : "complete",
-					"title" : "Residual Heterogeneity Test",
+					"title" : "Meta-Analytic Tests",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -2669,10 +2729,8 @@
 			},
 			"data_order" : 
 			{
-				"moderatorsTable" : 2,
-				"pooledEffectSizeTest" : 1,
-				"pooledEstimatesTable" : 3,
-				"residualHeterogeneityTable" : 0
+				"pooledEstimatesTable" : 1,
+				"testsTable" : 0
 			},
 			"error" : false,
 			"errorMessage" : "",
@@ -2693,7 +2751,7 @@
 				"computeCovarianceMatrix" : true,
 				"confidenceIntervalsLevel" : 0.94999999999999996,
 				"diagnosticsCasewiseDiagnosticsRerunWithoutInfluentialCases" : null,
-				"effectSize" : "JaspColumn_43_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -2704,13 +2762,13 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_34_Encoded"
+							"JaspColumn_0_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspColumn_39_Encoded"
+							"JaspColumn_5_Encoded"
 						]
 					}
 				],
@@ -2719,7 +2777,7 @@
 					"scale",
 					"nominal"
 				],
-				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError" : "JaspColumn_18_Encoded",
 				"effectSizeStandardError.types" : 
 				[
 					"scale"
@@ -2763,8 +2821,8 @@
 				"permutationTestType" : "approximate",
 				"predictors" : 
 				[
-					"JaspColumn_34_Encoded",
-					"JaspColumn_39_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_5_Encoded"
 				],
 				"predictors.types" : 
 				[
@@ -2775,10 +2833,33 @@
 				"randomEffectsSpecification" : null,
 				"seed" : 1,
 				"setSeed" : false,
+				"subgroup" : "",
+				"subgroup.types" : [],
+				"varianceCovarianceMatrixCheckPositiveDefiniteness" : null,
+				"varianceCovarianceMatrixCluster" : null,
+				"varianceCovarianceMatrixConstruct" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixConstructType" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixCorrelationMatrix" : null,
+				"varianceCovarianceMatrixFile" : null,
+				"varianceCovarianceMatrixForcePositiveDefiniteness" : null,
+				"varianceCovarianceMatrixGroup1" : null,
+				"varianceCovarianceMatrixGroupSize1" : null,
+				"varianceCovarianceMatrixGroupSize2" : null,
+				"varianceCovarianceMatrixSubcluster" : null,
+				"varianceCovarianceMatrixTime1" : null,
+				"varianceCovarianceMatrixTime2" : null,
+				"varianceCovarianceMatrixTimeLag1Correlation" : null,
+				"varianceCovarianceMatrixType" : null,
 				"weightedEstimation" : true
 			},
 			"optionMustContain" : {},
-			"order_increment" : 4,
+			"order_increment" : 2,
 			"position" : 1,
 			"title" : "Model Summary",
 			"type" : "container"
@@ -2786,12 +2867,13 @@
 	},
 	"data_order" : 
 	{
-		"bubblePlot" : 5,
-		"estimatedMarginalMeansContainer" : 3,
+		"bubblePlot" : 6,
+		"estimatedMarginalMeansAndContrastsContainer" : 4,
 		"fit" : 0,
-		"forestPlot" : 4,
-		"metaregressionContainer" : 2,
-		"modelSummaryContainer" : 1
+		"fitDataSet" : 1,
+		"forestPlot" : 5,
+		"metaregressionContainer" : 3,
+		"modelSummaryContainer" : 2
 	},
 	"error" : false,
 	"errorMessage" : "",
@@ -2843,10 +2925,6 @@
 			{
 				"shouldEncode" : true
 			},
-			"fixParametersTau2Value" : 
-			{
-				"isRCode" : true
-			},
 			"fixParametersWeightsVariable" : 
 			{
 				"shouldEncode" : true
@@ -2860,6 +2938,10 @@
 				"shouldEncode" : true
 			},
 			"forestPlotMappingShape" : 
+			{
+				"shouldEncode" : true
+			},
+			"forestPlotStudyInformationAggregateBy" : 
 			{
 				"shouldEncode" : true
 			},
@@ -2886,6 +2968,10 @@
 			"studyLabels" : 
 			{
 				"shouldEncode" : true
+			},
+			"subgroup" : 
+			{
+				"shouldEncode" : true
 			}
 		},
 		"addOmnibusModeratorTestEffectSizeCoefficients" : false,
@@ -2910,7 +2996,7 @@
 			{
 				"variable" : 
 				[
-					"JaspColumn_34_Encoded"
+					"JaspColumn_0_Encoded"
 				]
 			}
 		],
@@ -2931,6 +3017,10 @@
 		"computeCovarianceMatrix" : true,
 		"confidenceIntervals" : true,
 		"confidenceIntervalsLevel" : 0.94999999999999996,
+		"contrastsEffectSize" : false,
+		"contrastsEffectSizePValueAdjustment" : "none",
+		"contrastsHeterogeneity" : false,
+		"contrastsHeterogeneityPValueAdjustment" : "none",
 		"diagnosticsCasewiseDiagnostics" : false,
 		"diagnosticsCasewiseDiagnosticsDifferenceInCoefficients" : false,
 		"diagnosticsCasewiseDiagnosticsExportToDataset" : false,
@@ -2942,7 +3032,7 @@
 		"diagnosticsResidualFunnel" : false,
 		"diagnosticsVarianceInflationFactor" : false,
 		"diagnosticsVarianceInflationFactorAggregate" : true,
-		"effectSize" : "JaspColumn_43_Encoded",
+		"effectSize" : "JaspColumn_12_Encoded",
 		"effectSize.types" : 
 		[
 			"scale"
@@ -2953,13 +3043,13 @@
 			{
 				"components" : 
 				[
-					"JaspColumn_34_Encoded"
+					"JaspColumn_0_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspColumn_39_Encoded"
+					"JaspColumn_5_Encoded"
 				]
 			}
 		],
@@ -2968,11 +3058,12 @@
 			"scale",
 			"nominal"
 		],
-		"effectSizeStandardError" : "JaspColumn_46_Encoded",
+		"effectSizeStandardError" : "JaspColumn_18_Encoded",
 		"effectSizeStandardError.types" : 
 		[
 			"scale"
 		],
+		"estimatedMarginalMeansEffectSize" : true,
 		"estimatedMarginalMeansEffectSizeAddAdjustedEstimate" : true,
 		"estimatedMarginalMeansEffectSizeSdFactorCovariates" : 1.0,
 		"estimatedMarginalMeansEffectSizeSelectedVariables" : 
@@ -2980,7 +3071,7 @@
 			{
 				"variable" : 
 				[
-					"JaspColumn_39_Encoded"
+					"JaspColumn_5_Encoded"
 				]
 			}
 		],
@@ -2990,6 +3081,7 @@
 		],
 		"estimatedMarginalMeansEffectSizeTestAgainst" : false,
 		"estimatedMarginalMeansEffectSizeTestAgainstValue" : 0.0,
+		"estimatedMarginalMeansHeterogeneity" : true,
 		"estimatedMarginalMeansHeterogeneityAddAdjustedEstimate" : false,
 		"estimatedMarginalMeansHeterogeneitySdFactorCovariates" : 1.0,
 		"estimatedMarginalMeansHeterogeneitySelectedVariables" : [],
@@ -3002,6 +3094,7 @@
 		"fixParametersWeightsVariable" : "",
 		"fixParametersWeightsVariable.types" : "unknown",
 		"fixedEffectTest" : "knha",
+		"forestPlotAllignLeftPanel" : "right",
 		"forestPlotAuxiliaryAddVerticalLine" : true,
 		"forestPlotAuxiliaryAddVerticalLine2" : false,
 		"forestPlotAuxiliaryAddVerticalLineValue" : 0.0,
@@ -3014,17 +3107,23 @@
 		"forestPlotAuxiliarySetXAxisLimitLower" : 0.0,
 		"forestPlotAuxiliarySetXAxisLimitUpper" : 2.0,
 		"forestPlotAuxiliaryTestsInformation" : "statisticAndPValue",
+		"forestPlotConditionalEstimates" : false,
+		"forestPlotEffectSizeFixedEffectEstimate" : false,
+		"forestPlotEffectSizeFixedEffectTest" : true,
 		"forestPlotEffectSizeModerationTest" : true,
+		"forestPlotEffectSizePooledEstimate" : true,
+		"forestPlotEffectSizePooledEstimateTest" : true,
 		"forestPlotEstimatedMarginalMeans" : true,
 		"forestPlotEstimatedMarginalMeansAdjustedEffectSizeEstimate" : false,
 		"forestPlotEstimatedMarginalMeansCoefficientTests" : true,
 		"forestPlotEstimatedMarginalMeansCoefficientTestsAgainst" : 0.0,
+		"forestPlotEstimatedMarginalMeansCoefficientTestsAgainst0" : true,
 		"forestPlotEstimatedMarginalMeansSelectedVariables" : 
 		[
 			{
 				"variable" : 
 				[
-					"JaspColumn_39_Encoded"
+					"JaspColumn_5_Encoded"
 				]
 			}
 		],
@@ -3034,15 +3133,19 @@
 		],
 		"forestPlotEstimatedMarginalMeansTermTests" : true,
 		"forestPlotEstimatesAndConfidenceIntervals" : true,
+		"forestPlotHeterogeneityEstimateH2" : false,
+		"forestPlotHeterogeneityEstimateI2" : false,
+		"forestPlotHeterogeneityEstimateTau" : true,
+		"forestPlotHeterogeneityEstimateTau2" : false,
 		"forestPlotHeterogeneityModerationTest" : true,
-		"forestPlotMappingColor" : "JaspColumn_39_Encoded",
+		"forestPlotHeterogeneityTest" : true,
+		"forestPlotMappingColor" : "JaspColumn_5_Encoded",
 		"forestPlotMappingColor.types" : "nominal",
 		"forestPlotMappingShape" : "",
 		"forestPlotMappingShape.types" : "unknown",
 		"forestPlotModelInformation" : true,
-		"forestPlotPooledEffectSizeEstimate" : true,
-		"forestPlotPooledEffectSizeTest" : true,
 		"forestPlotPredictionIntervals" : false,
+		"forestPlotPublicationBiasTest" : false,
 		"forestPlotRelativeSizeAxisLabels" : 1.0,
 		"forestPlotRelativeSizeEstimates" : 1.0,
 		"forestPlotRelativeSizeLeftPanel" : 0.5,
@@ -3050,21 +3153,23 @@
 		"forestPlotRelativeSizeRightPanel" : 0.59999999999999998,
 		"forestPlotRelativeSizeRow" : 1.0,
 		"forestPlotRelativeSizeText" : 1.0,
-		"forestPlotResidualHeterogeneityEstimate" : true,
-		"forestPlotResidualHeterogeneityTest" : true,
 		"forestPlotStudyInformation" : true,
+		"forestPlotStudyInformationAggregateBy" : "",
+		"forestPlotStudyInformationAggregateBy.types" : "unknown",
+		"forestPlotStudyInformationAggregateMethod" : "boxplot",
+		"forestPlotStudyInformationAggregateMethodBubbleRelativeSize" : 1.0,
 		"forestPlotStudyInformationOrderAscending" : true,
-		"forestPlotStudyInformationOrderBy" : "JaspColumn_19_Encoded",
+		"forestPlotStudyInformationOrderBy" : "JaspColumn_36_Encoded",
 		"forestPlotStudyInformationOrderBy.types" : "scale",
 		"forestPlotStudyInformationPredictedEffects" : false,
 		"forestPlotStudyInformationSecondaryConfidenceInterval" : false,
 		"forestPlotStudyInformationSecondaryConfidenceIntervalLevel" : 0.89000000000000001,
 		"forestPlotStudyInformationSelectedVariables" : 
 		[
-			"JaspColumn_18_Encoded",
-			"JaspColumn_21_Encoded",
-			"JaspColumn_39_Encoded",
-			"JaspColumn_36_Encoded"
+			"JaspColumn_8_Encoded",
+			"JaspColumn_38_Encoded",
+			"JaspColumn_5_Encoded",
+			"JaspColumn_2_Encoded"
 		],
 		"forestPlotStudyInformationSelectedVariables.types" : 
 		[
@@ -3080,7 +3185,7 @@
 				"title" : "Authors",
 				"value" : 
 				[
-					"JaspColumn_18_Encoded"
+					"JaspColumn_8_Encoded"
 				],
 				"value.types" : 
 				[
@@ -3093,7 +3198,7 @@
 				"title" : "Year",
 				"value" : 
 				[
-					"JaspColumn_21_Encoded"
+					"JaspColumn_38_Encoded"
 				],
 				"value.types" : 
 				[
@@ -3106,7 +3211,7 @@
 				"title" : "Allocation",
 				"value" : 
 				[
-					"JaspColumn_39_Encoded"
+					"JaspColumn_5_Encoded"
 				],
 				"value.types" : 
 				[
@@ -3119,7 +3224,7 @@
 				"title" : "Latitude",
 				"value" : 
 				[
-					"JaspColumn_36_Encoded"
+					"JaspColumn_2_Encoded"
 				],
 				"value.types" : 
 				[
@@ -3129,6 +3234,9 @@
 			}
 		],
 		"forestPlotStudyInformationStudyWeights" : false,
+		"forestPlotSubgroupFullDatasetEstimatedMarginalMeans" : true,
+		"forestPlotSubgroupFullDatasetModelInformation" : true,
+		"forestPlotSubgroupPanelsWithinSubgroup" : false,
 		"forestPlotTestsInRightPanel" : false,
 		"heterogeneityH2" : false,
 		"heterogeneityI2" : false,
@@ -3138,6 +3246,7 @@
 		"heterogeneityModelTerms.types" : [],
 		"heterogeneityTau" : true,
 		"heterogeneityTau2" : true,
+		"includeFullDatasetInSubgroupAnalysis" : false,
 		"metaregressionCoefficientCorrelationMatrix" : false,
 		"metaregressionCoefficientEstimates" : true,
 		"metaregressionTermTests" : true,
@@ -3173,28 +3282,31 @@
 		"predictionIntervals" : true,
 		"predictors" : 
 		[
-			"JaspColumn_34_Encoded",
-			"JaspColumn_39_Encoded"
+			"JaspColumn_0_Encoded",
+			"JaspColumn_5_Encoded"
 		],
 		"predictors.types" : 
 		[
 			"scale",
 			"nominal"
 		],
+		"randomEffectsConfidenceIntervals" : false,
 		"randomEffectsTestInclusion" : false,
 		"seed" : 1,
 		"setSeed" : false,
 		"showMetaforRCode" : false,
-		"studyLabels" : "JaspColumn_42_Encoded",
+		"studyLabels" : "JaspColumn_26_Encoded",
 		"studyLabels.types" : 
 		[
 			"nominal"
 		],
+		"subgroup" : "",
+		"subgroup.types" : [],
 		"transformEffectSize" : "none",
 		"useSparseMatricies" : false,
 		"weightedEstimation" : true
 	},
-	"order_increment" : 6,
+	"order_increment" : 7,
 	"position" : 9999,
 	"relativePathKeep" : "resources/2/state",
 	"title" : "Classical Meta-Analysis",

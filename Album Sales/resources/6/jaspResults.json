@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -251,7 +251,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "M\u2081 includes JaspColumn_0_Encoded, JaspColumn_2_Encoded, JaspColumn_3_Encoded"
+							"text" : "M\u2081 includes JaspColumn_0_Encoded, JaspColumn_3_Encoded, JaspColumn_6_Encoded"
 						}
 					],
 					"messages" : [],
@@ -506,8 +506,8 @@
 							"JaspColumn_0_Encoded",
 							"(Intercept)",
 							"JaspColumn_0_Encoded",
-							"JaspColumn_2_Encoded",
-							"JaspColumn_3_Encoded"
+							"JaspColumn_3_Encoded",
+							"JaspColumn_6_Encoded"
 						],
 						[
 							134.13993781207409,
@@ -708,10 +708,10 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"(Intercept)" : "dp:3",
-							"JaspColumn_0_Encoded" : "dp:3",
-							"JaspColumn_2_Encoded" : "dp:3",
-							"JaspColumn_3_Encoded" : "dp:3",
+							"(Intercept)" : "number",
+							"JaspColumn_0_Encoded" : "number",
+							"JaspColumn_3_Encoded" : "number",
+							"JaspColumn_6_Encoded" : "number",
 							"condIndex" : "sf:4;dp:3",
 							"eigenvalue" : "sf:4;dp:3"
 						},
@@ -750,8 +750,8 @@
 							"condIndex",
 							"(Intercept)",
 							"JaspColumn_0_Encoded",
-							"JaspColumn_2_Encoded",
 							"JaspColumn_3_Encoded",
+							"JaspColumn_6_Encoded",
 							".isNewGroup"
 						],
 						"title" : "colNames",
@@ -767,8 +767,8 @@
 						{
 							"(Intercept)" : "Variance Proportions",
 							"JaspColumn_0_Encoded" : "Variance Proportions",
-							"JaspColumn_2_Encoded" : "Variance Proportions",
-							"JaspColumn_3_Encoded" : "Variance Proportions"
+							"JaspColumn_3_Encoded" : "Variance Proportions",
+							"JaspColumn_6_Encoded" : "Variance Proportions"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -793,8 +793,8 @@
 						{
 							"(Intercept)" : "(Intercept)",
 							"JaspColumn_0_Encoded" : "JaspColumn_0_Encoded",
-							"JaspColumn_2_Encoded" : "JaspColumn_2_Encoded",
 							"JaspColumn_3_Encoded" : "JaspColumn_3_Encoded",
+							"JaspColumn_6_Encoded" : "JaspColumn_6_Encoded",
 							"condIndex" : "Condition Index",
 							"dimension" : "Dimension",
 							"eigenvalue" : "Eigenvalue",
@@ -822,8 +822,8 @@
 						{
 							"(Intercept)" : "number",
 							"JaspColumn_0_Encoded" : "number",
-							"JaspColumn_2_Encoded" : "number",
 							"JaspColumn_3_Encoded" : "number",
+							"JaspColumn_6_Encoded" : "number",
 							"condIndex" : "number",
 							"dimension" : "integer",
 							"eigenvalue" : "number",
@@ -863,48 +863,48 @@
 							1.7852697145568572,
 							0.21473028544314376,
 							3.5620911600709073,
-							0.30802871793237047,
-							0.10949462632810372,
-							0.020385495668616208
+							0.30802871793237058,
+							0.10949462632810376,
+							0.020385495668616218
 						],
 						[
 							1.0,
 							2.8834024830552294,
 							1.0,
-							3.4006106506214429,
-							5.7036926090528759,
-							13.218795288024271
+							3.4006106506214424,
+							5.7036926090528741,
+							13.218795288024268
 						],
 						[
 							0.10736514272157192,
 							0.89263485727842806,
-							0.0027733197842981089,
-							0.00638420233464002,
-							0.053686366785412186,
-							0.93715611109564967
+							0.0027733197842981084,
+							0.0063842023346400148,
+							0.053686366785412075,
+							0.93715611109564978
 						],
 						[
 							0.10736514272157176,
 							0.89263485727842828,
-							0.022585735005973495,
+							0.022585735005973502,
 							0.95988454774936671,
-							0.015217503078323721,
-							0.0023122141663360304
+							0.015217503078323667,
+							0.0023122141663360417
 						],
 						[
 							null,
 							null,
-							0.011217160546082182,
-							0.053483616925278615,
-							0.93240477924567411,
-							0.0028944432829651505
+							0.011217160546082183,
+							0.053483616925278574,
+							0.932404779245674,
+							0.0028944432829651743
 						],
 						[
 							null,
 							null,
-							0.0029255359699433816,
-							0.0076291241968094396,
-							0.068540641588872644,
+							0.002925535969943386,
+							0.0076291241968094543,
+							0.068540641588872686,
 							0.92090469824437449
 						],
 						[
@@ -975,8 +975,8 @@
 					[
 						"(Intercept)",
 						"JaspColumn_0_Encoded",
-						"JaspColumn_2_Encoded",
 						"JaspColumn_3_Encoded",
+						"JaspColumn_6_Encoded",
 						"condIndex",
 						"dimension",
 						"eigenvalue",
@@ -1135,10 +1135,10 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_1_Encoded",
+							"JaspColumn_9_Encoded",
 							"JaspColumn_0_Encoded",
-							"JaspColumn_2_Encoded",
-							"JaspColumn_3_Encoded"
+							"JaspColumn_3_Encoded",
+							"JaspColumn_6_Encoded"
 						],
 						[
 							200,
@@ -1340,7 +1340,7 @@
 						{
 							"caseN" : "Case Number",
 							"cooksDistance" : "Cook's Distance",
-							"dependent" : "JaspColumn_1_Encoded",
+							"dependent" : "JaspColumn_9_Encoded",
 							"predicted" : "Predicted Value",
 							"residual" : "Residual",
 							"stdResidual" : "Std. Residual"
@@ -1498,7 +1498,7 @@
 					"optionMustBe" : 
 					{
 						"covarianceRatio" : false,
-						"dependent" : "JaspColumn_1_Encoded",
+						"dependent" : "JaspColumn_9_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
@@ -1518,6 +1518,10 @@
 										"JaspColumn_0_Encoded"
 									]
 								],
+								"components.types" : 
+								[
+									"scale"
+								],
 								"name" : "model0",
 								"title" : "Model 0"
 							},
@@ -1528,11 +1532,17 @@
 										"JaspColumn_0_Encoded"
 									],
 									[
-										"JaspColumn_2_Encoded"
+										"JaspColumn_3_Encoded"
 									],
 									[
-										"JaspColumn_3_Encoded"
+										"JaspColumn_6_Encoded"
 									]
+								],
+								"components.types" : 
+								[
+									"scale",
+									"scale",
+									"scale"
 								],
 								"name" : "model1",
 								"title" : "Model 1"
@@ -1616,7 +1626,7 @@
 				"model" : 
 				{
 					"citations" : [],
-					"environmentName" : "state_8",
+					"environmentName" : "state_9",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
@@ -1740,11 +1750,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_3",
+					"environmentName" : "plot_6",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_3_t1732712283276.png",
+					"filePathPng" : "resources/6/_6_t1751898020416.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsQQPlot",
@@ -1856,11 +1866,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_2",
+					"environmentName" : "plot_5",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_2_t1732712283154.png",
+					"filePathPng" : "resources/6/_5_t1751898020282.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsHistPlot",
@@ -1988,11 +1998,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_1",
+					"environmentName" : "plot_4",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_1_t1732712283018.png",
+					"filePathPng" : "resources/6/_4_t1751898020145.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsPredPlot",
@@ -2256,7 +2266,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "M\u2081 includes JaspColumn_0_Encoded, JaspColumn_2_Encoded, JaspColumn_3_Encoded"
+							"text" : "M\u2081 includes JaspColumn_0_Encoded, JaspColumn_3_Encoded, JaspColumn_6_Encoded"
 						}
 					],
 					"messages" : [],
@@ -2324,7 +2334,7 @@
 						"p"
 					],
 					"status" : "complete",
-					"title" : "Model Summary - JaspColumn_1_Encoded",
+					"title" : "Model Summary - JaspColumn_9_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -2356,8 +2366,8 @@
 				"covariates" : 
 				[
 					"JaspColumn_0_Encoded",
-					"JaspColumn_2_Encoded",
-					"JaspColumn_3_Encoded"
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				"covariates.types" : 
 				[
@@ -2365,7 +2375,7 @@
 					"scale",
 					"scale"
 				],
-				"dependent" : "JaspColumn_1_Encoded",
+				"dependent" : "JaspColumn_9_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -2383,6 +2393,10 @@
 								"JaspColumn_0_Encoded"
 							]
 						],
+						"components.types" : 
+						[
+							"scale"
+						],
 						"name" : "model0",
 						"title" : "Model 0"
 					},
@@ -2393,11 +2407,17 @@
 								"JaspColumn_0_Encoded"
 							],
 							[
-								"JaspColumn_2_Encoded"
+								"JaspColumn_3_Encoded"
 							],
 							[
-								"JaspColumn_3_Encoded"
+								"JaspColumn_6_Encoded"
 							]
+						],
+						"components.types" : 
+						[
+							"scale",
+							"scale",
+							"scale"
 						],
 						"name" : "model1",
 						"title" : "Model 1"
@@ -2453,6 +2473,10 @@
 			{
 				"shouldEncode" : true
 			},
+			"predictionsSavedToDataColumn" : 
+			{
+				"shouldEncode" : true
+			},
 			"residualsSavedToDataColumn" : 
 			{
 				"shouldEncode" : true
@@ -2474,8 +2498,8 @@
 		"covariates" : 
 		[
 			"JaspColumn_0_Encoded",
-			"JaspColumn_2_Encoded",
-			"JaspColumn_3_Encoded"
+			"JaspColumn_3_Encoded",
+			"JaspColumn_6_Encoded"
 		],
 		"covariates.types" : 
 		[
@@ -2483,7 +2507,7 @@
 			"scale",
 			"scale"
 		],
-		"dependent" : "JaspColumn_1_Encoded",
+		"dependent" : "JaspColumn_9_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
@@ -2514,6 +2538,10 @@
 						"JaspColumn_0_Encoded"
 					]
 				],
+				"components.types" : 
+				[
+					"scale"
+				],
 				"name" : "model0",
 				"title" : "Model 0"
 			},
@@ -2524,11 +2552,17 @@
 						"JaspColumn_0_Encoded"
 					],
 					[
-						"JaspColumn_2_Encoded"
+						"JaspColumn_3_Encoded"
 					],
 					[
-						"JaspColumn_3_Encoded"
+						"JaspColumn_6_Encoded"
 					]
+				],
+				"components.types" : 
+				[
+					"scale",
+					"scale",
+					"scale"
 				],
 				"name" : "model1",
 				"title" : "Model 1"
@@ -2544,6 +2578,8 @@
 		"partialResidualPlotPredictionIntervalLevel" : 0.94999999999999996,
 		"plotHeight" : 320,
 		"plotWidth" : 480,
+		"predictionsSavedToData" : false,
+		"predictionsSavedToDataColumn" : "",
 		"rSquaredChange" : true,
 		"residualCasewiseDiagnostic" : true,
 		"residualCasewiseDiagnosticCooksDistanceThreshold" : 0.0,
@@ -2559,6 +2595,7 @@
 		"residualVsFittedPlot" : true,
 		"residualsSavedToData" : false,
 		"residualsSavedToDataColumn" : "",
+		"residualsSavedToDataType" : "raw",
 		"steppingMethodCriteriaFEntry" : 3.8399999999999999,
 		"steppingMethodCriteriaFRemoval" : 2.71,
 		"steppingMethodCriteriaPEntry" : 0.050000000000000003,

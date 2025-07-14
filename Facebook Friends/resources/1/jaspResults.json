@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -29,7 +29,7 @@
 									"702",
 									"902"
 								],
-								"title" : "JaspColumn_5_Encoded",
+								"title" : "JaspColumn_2_Encoded",
 								"titleType" : "character"
 							},
 							"type" : "ScaleDiscrete"
@@ -78,7 +78,7 @@
 									7,
 									1
 								],
-								"title" : "JaspColumn_9_Encoded",
+								"title" : "JaspColumn_6_Encoded",
 								"titleType" : "character"
 							},
 							"type" : "ScaleContinuous"
@@ -88,7 +88,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1732273634429.png",
+					"filePathPng" : "resources/1/_0_t1751897793843.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "Score",
@@ -104,13 +104,13 @@
 					},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_9_Encoded"
+						"variables" : "JaspColumn_6_Encoded"
 					},
 					"position" : 9999,
 					"resizedByUser" : false,
 					"revision" : 0,
 					"status" : "complete",
-					"title" : "JaspColumn_9_Encoded",
+					"title" : "JaspColumn_6_Encoded",
 					"type" : "plot",
 					"width" : 480
 				}
@@ -130,7 +130,7 @@
 			"optionMustBe" : 
 			{
 				"boxPlot" : true,
-				"splitBy" : "JaspColumn_5_Encoded",
+				"splitBy" : "JaspColumn_2_Encoded",
 				"splitBy.types" : 
 				[
 					"nominal"
@@ -303,11 +303,11 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				[
 					"102",
@@ -407,7 +407,7 @@
 				"seMean" : false,
 				"shapiroWilkTest" : false,
 				"skewness" : false,
-				"splitBy" : "JaspColumn_5_Encoded",
+				"splitBy" : "JaspColumn_2_Encoded",
 				"splitBy.types" : 
 				[
 					"nominal"
@@ -416,7 +416,7 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_9_Encoded"
+					"JaspColumn_6_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -446,11 +446,11 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_9_Encoded1",
-					"JaspColumn_9_Encoded2",
-					"JaspColumn_9_Encoded3",
-					"JaspColumn_9_Encoded4",
-					"JaspColumn_9_Encoded5"
+					"JaspColumn_6_Encoded1",
+					"JaspColumn_6_Encoded2",
+					"JaspColumn_6_Encoded3",
+					"JaspColumn_6_Encoded4",
+					"JaspColumn_6_Encoded5"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -619,7 +619,7 @@
 		"seMean" : false,
 		"shapiroWilkTest" : false,
 		"skewness" : false,
-		"splitBy" : "JaspColumn_5_Encoded",
+		"splitBy" : "JaspColumn_2_Encoded",
 		"splitBy.types" : 
 		[
 			"nominal"
@@ -631,7 +631,7 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_9_Encoded"
+			"JaspColumn_6_Encoded"
 		],
 		"variables.types" : 
 		[

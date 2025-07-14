@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -150,7 +150,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_2_Encoded"
+							"JaspColumn_0_Encoded"
 						],
 						[
 							0.93801434277983153
@@ -197,7 +197,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_2_Encoded"
+							"JaspColumn_0_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -251,7 +251,7 @@
 			{
 				"dependent" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				"dependent.types" : 
 				[
@@ -439,7 +439,7 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				[
 					-5.8232503028762315
@@ -510,7 +510,7 @@
 				"alternative" : "twoSided",
 				"dependent" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				"dependent.types" : 
 				[
@@ -549,7 +549,7 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"Student-JaspColumn_2_Encoded"
+					"Student-JaspColumn_0_Encoded"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -607,7 +607,7 @@
 			{
 				"dependent" : 
 				[
-					"JaspColumn_2_Encoded"
+					"JaspColumn_0_Encoded"
 				],
 				"dependent.types" : 
 				[
@@ -656,7 +656,7 @@
 		"barPlotYAxisFixedToZero" : true,
 		"dependent" : 
 		[
-			"JaspColumn_2_Encoded"
+			"JaspColumn_0_Encoded"
 		],
 		"dependent.types" : 
 		[

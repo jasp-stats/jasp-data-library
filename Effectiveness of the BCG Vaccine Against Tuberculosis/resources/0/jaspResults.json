@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -211,22 +211,22 @@
 						"eventsGroup2.types" : [],
 						"fStatistic" : "",
 						"fStatistic.types" : [],
-						"group1OutcomeMinus" : "JaspColumn_25_Encoded",
+						"group1OutcomeMinus" : "JaspColumn_27_Encoded",
 						"group1OutcomeMinus.types" : 
 						[
 							"scale"
 						],
-						"group1OutcomePlus" : "JaspColumn_22_Encoded",
+						"group1OutcomePlus" : "JaspColumn_30_Encoded",
 						"group1OutcomePlus.types" : 
 						[
 							"scale"
 						],
-						"group2OutcomeMinus" : "JaspColumn_31_Encoded",
+						"group2OutcomeMinus" : "JaspColumn_9_Encoded",
 						"group2OutcomeMinus.types" : 
 						[
 							"scale"
 						],
-						"group2OutcomePlus" : "JaspColumn_28_Encoded",
+						"group2OutcomePlus" : "JaspColumn_21_Encoded",
 						"group2OutcomePlus.types" : 
 						[
 							"scale"
@@ -385,7 +385,7 @@
 			"citations" : [],
 			"columnName" : "computed effect size",
 			"columnType" : "scale",
-			"encoded" : "JaspColumn_10_Encoded",
+			"encoded" : "JaspColumn_12_Encoded",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -431,22 +431,22 @@
 						"eventsGroup2.types" : [],
 						"fStatistic" : "",
 						"fStatistic.types" : [],
-						"group1OutcomeMinus" : "JaspColumn_25_Encoded",
+						"group1OutcomeMinus" : "JaspColumn_27_Encoded",
 						"group1OutcomeMinus.types" : 
 						[
 							"scale"
 						],
-						"group1OutcomePlus" : "JaspColumn_22_Encoded",
+						"group1OutcomePlus" : "JaspColumn_30_Encoded",
 						"group1OutcomePlus.types" : 
 						[
 							"scale"
 						],
-						"group2OutcomeMinus" : "JaspColumn_31_Encoded",
+						"group2OutcomeMinus" : "JaspColumn_9_Encoded",
 						"group2OutcomeMinus.types" : 
 						[
 							"scale"
 						],
-						"group2OutcomePlus" : "JaspColumn_28_Encoded",
+						"group2OutcomePlus" : "JaspColumn_21_Encoded",
 						"group2OutcomePlus.types" : 
 						[
 							"scale"
@@ -553,7 +553,7 @@
 			"citations" : [],
 			"columnName" : "computed effect size type",
 			"columnType" : "scale",
-			"encoded" : "JaspColumn_12_Encoded",
+			"encoded" : "JaspColumn_15_Encoded",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -599,22 +599,22 @@
 						"eventsGroup2.types" : [],
 						"fStatistic" : "",
 						"fStatistic.types" : [],
-						"group1OutcomeMinus" : "JaspColumn_25_Encoded",
+						"group1OutcomeMinus" : "JaspColumn_27_Encoded",
 						"group1OutcomeMinus.types" : 
 						[
 							"scale"
 						],
-						"group1OutcomePlus" : "JaspColumn_22_Encoded",
+						"group1OutcomePlus" : "JaspColumn_30_Encoded",
 						"group1OutcomePlus.types" : 
 						[
 							"scale"
 						],
-						"group2OutcomeMinus" : "JaspColumn_31_Encoded",
+						"group2OutcomeMinus" : "JaspColumn_9_Encoded",
 						"group2OutcomeMinus.types" : 
 						[
 							"scale"
 						],
-						"group2OutcomePlus" : "JaspColumn_28_Encoded",
+						"group2OutcomePlus" : "JaspColumn_21_Encoded",
 						"group2OutcomePlus.types" : 
 						[
 							"scale"
@@ -721,7 +721,7 @@
 			"citations" : [],
 			"columnName" : "computed standard error",
 			"columnType" : "scale",
-			"encoded" : "JaspColumn_11_Encoded",
+			"encoded" : "JaspColumn_18_Encoded",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -767,22 +767,22 @@
 						"eventsGroup2.types" : [],
 						"fStatistic" : "",
 						"fStatistic.types" : [],
-						"group1OutcomeMinus" : "JaspColumn_25_Encoded",
+						"group1OutcomeMinus" : "JaspColumn_27_Encoded",
 						"group1OutcomeMinus.types" : 
 						[
 							"scale"
 						],
-						"group1OutcomePlus" : "JaspColumn_22_Encoded",
+						"group1OutcomePlus" : "JaspColumn_30_Encoded",
 						"group1OutcomePlus.types" : 
 						[
 							"scale"
 						],
-						"group2OutcomeMinus" : "JaspColumn_31_Encoded",
+						"group2OutcomeMinus" : "JaspColumn_9_Encoded",
 						"group2OutcomeMinus.types" : 
 						[
 							"scale"
 						],
-						"group2OutcomePlus" : "JaspColumn_28_Encoded",
+						"group2OutcomePlus" : "JaspColumn_21_Encoded",
 						"group2OutcomePlus.types" : 
 						[
 							"scale"
@@ -1131,7 +1131,6 @@
 		"computedColumnsNamesEffectSizeType" : "computed effect size type",
 		"computedcolumnsNamesSamplingVariance" : "computed sampling variance",
 		"computedcolumnsNamesStandardError" : "computed standard error",
-		"dropStudiesWithNoCasesOrEvents" : "no",
 		"effectSizeType" : 
 		[
 			{
@@ -1169,22 +1168,22 @@
 				"eventsGroup2.types" : [],
 				"fStatistic" : "",
 				"fStatistic.types" : [],
-				"group1OutcomeMinus" : "JaspColumn_25_Encoded",
+				"group1OutcomeMinus" : "JaspColumn_27_Encoded",
 				"group1OutcomeMinus.types" : 
 				[
 					"scale"
 				],
-				"group1OutcomePlus" : "JaspColumn_22_Encoded",
+				"group1OutcomePlus" : "JaspColumn_30_Encoded",
 				"group1OutcomePlus.types" : 
 				[
 					"scale"
 				],
-				"group2OutcomeMinus" : "JaspColumn_31_Encoded",
+				"group2OutcomeMinus" : "JaspColumn_9_Encoded",
 				"group2OutcomeMinus.types" : 
 				[
 					"scale"
 				],
-				"group2OutcomePlus" : "JaspColumn_28_Encoded",
+				"group2OutcomePlus" : "JaspColumn_21_Encoded",
 				"group2OutcomePlus.types" : 
 				[
 					"scale"

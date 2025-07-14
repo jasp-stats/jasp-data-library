@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -179,8 +179,8 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_16_Encoded",
-							"JaspColumn_16_Encoded"
+							"JaspColumn_24_Encoded",
+							"JaspColumn_24_Encoded"
 						],
 						[
 							"clock",
@@ -229,7 +229,7 @@
 					{
 						"dependent" : 
 						[
-							"JaspColumn_16_Encoded"
+							"JaspColumn_24_Encoded"
 						],
 						"dependent.types" : 
 						[
@@ -313,7 +313,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"group" : "JaspColumn_20_Encoded",
+				"group" : "JaspColumn_17_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -339,7 +339,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"group" : "JaspColumn_20_Encoded",
+				"group" : "JaspColumn_17_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -379,7 +379,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_0_t1732272882029.png",
+									"filePathPng" : "resources/0/_0_t1751885632312.png",
 									"height" : 400,
 									"messages" : [],
 									"name" : "priorAndPosteriorPlot",
@@ -416,11 +416,11 @@
 							"optionMustBe" : {},
 							"optionMustContain" : 
 							{
-								"variables" : "JaspColumn_16_Encoded"
+								"dependent" : "JaspColumn_24_Encoded"
 							},
 							"order_increment" : 1,
 							"position" : 9999,
-							"title" : "JaspColumn_16_Encoded",
+							"title" : "JaspColumn_24_Encoded",
 							"type" : "container"
 						}
 					},
@@ -608,7 +608,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_16_Encoded"
+							"JaspColumn_24_Encoded"
 						],
 						[
 							7.7488508344875289
@@ -640,7 +640,7 @@
 						"bayesFactorType" : "BF01",
 						"dependent" : 
 						[
-							"JaspColumn_16_Encoded"
+							"JaspColumn_24_Encoded"
 						],
 						"dependent.types" : 
 						[
@@ -666,7 +666,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_16_Encoded"
+							"JaspColumn_24_Encoded"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -721,7 +721,7 @@
 			"optionMustBe" : 
 			{
 				"effectSizeStandardized" : "default",
-				"group" : "JaspColumn_20_Encoded",
+				"group" : "JaspColumn_17_Encoded",
 				"group.types" : 
 				[
 					"nominal"
@@ -789,7 +789,7 @@
 		"defaultStandardizedEffectSize" : "cauchy",
 		"dependent" : 
 		[
-			"JaspColumn_16_Encoded"
+			"JaspColumn_24_Encoded"
 		],
 		"dependent.types" : 
 		[
@@ -801,7 +801,7 @@
 		"dienesEffectSize" : "uniform",
 		"effectSize" : "standardized",
 		"effectSizeStandardized" : "default",
-		"group" : "JaspColumn_20_Encoded",
+		"group" : "JaspColumn_17_Encoded",
 		"group.types" : 
 		[
 			"nominal"

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software].",
+		"JASP Team (2025). JASP (Version 0.95) [Computer software].",
 		"Rosseel, Y. (2012). lavaan: An R Package for Structural Equation Modeling. Journal of Statistical Software, 48(2), 1-36. URL http://www.jstatsoft.org/v48/i02/"
 	],
 	"data" : 
@@ -197,14 +197,14 @@
 							0.17349468458067971
 						],
 						[
-							0.073523882195915422,
-							0.056276399499470303,
-							0.049314660447006144
+							0.073523882195915491,
+							0.056276399499470338,
+							0.049314660447006185
 						],
 						[
-							5.5523787632398047,
-							4.6595838465306958,
-							3.5181157693890692
+							5.5523787632397994,
+							4.6595838465306931,
+							3.5181157693890661
 						],
 						[
 							2.8180815681011495e-08,
@@ -212,14 +212,14 @@
 							0.00043462270918492862
 						],
 						[
-							0.26412828098798613,
-							0.15192488585009026,
-							0.07683972619472576
+							0.26412828098798596,
+							0.15192488585009017,
+							0.076839726194725691
 						],
 						[
-							0.55233660320310585,
-							0.37252431824718968,
-							0.27014964296663369
+							0.55233660320310607,
+							0.37252431824718973,
+							0.27014964296663374
 						]
 					],
 					"error" : false,
@@ -242,50 +242,50 @@
 							{
 								"indicators" : 
 								[
-									"JaspColumn_7_Encoded",
-									"JaspColumn_8_Encoded",
-									"JaspColumn_9_Encoded"
+									"JaspColumn_21_Encoded",
+									"JaspColumn_24_Encoded",
+									"JaspColumn_27_Encoded"
+								],
+								"indicators.types" : 
+								[
+									"scale",
+									"scale",
+									"scale"
 								],
 								"name" : "Factor1",
-								"title" : "Visual",
-								"types" : 
-								[
-									"scale",
-									"scale",
-									"scale"
-								]
+								"title" : "Visual"
 							},
 							{
 								"indicators" : 
 								[
-									"JaspColumn_10_Encoded",
-									"JaspColumn_11_Encoded",
-									"JaspColumn_12_Encoded"
+									"JaspColumn_30_Encoded",
+									"JaspColumn_33_Encoded",
+									"JaspColumn_36_Encoded"
+								],
+								"indicators.types" : 
+								[
+									"scale",
+									"scale",
+									"scale"
 								],
 								"name" : "Factor2",
-								"title" : "Textual",
-								"types" : 
-								[
-									"scale",
-									"scale",
-									"scale"
-								]
+								"title" : "Textual"
 							},
 							{
 								"indicators" : 
 								[
-									"JaspColumn_13_Encoded",
-									"JaspColumn_14_Encoded",
-									"JaspColumn_15_Encoded"
+									"JaspColumn_39_Encoded",
+									"JaspColumn_42_Encoded",
+									"JaspColumn_45_Encoded"
 								],
-								"name" : "Factor3",
-								"title" : "Speed",
-								"types" : 
+								"indicators.types" : 
 								[
 									"scale",
 									"scale",
 									"scale"
-								]
+								],
+								"name" : "Factor3",
+								"title" : "Speed"
 							}
 						],
 						"factorsUncorrelated" : false,
@@ -545,15 +545,15 @@
 							"Speed"
 						],
 						[
-							"JaspColumn_7_Encoded",
-							"JaspColumn_8_Encoded",
-							"JaspColumn_9_Encoded",
-							"JaspColumn_10_Encoded",
-							"JaspColumn_11_Encoded",
-							"JaspColumn_12_Encoded",
-							"JaspColumn_13_Encoded",
-							"JaspColumn_14_Encoded",
-							"JaspColumn_15_Encoded"
+							"JaspColumn_21_Encoded",
+							"JaspColumn_24_Encoded",
+							"JaspColumn_27_Encoded",
+							"JaspColumn_30_Encoded",
+							"JaspColumn_33_Encoded",
+							"JaspColumn_36_Encoded",
+							"JaspColumn_39_Encoded",
+							"JaspColumn_42_Encoded",
+							"JaspColumn_45_Encoded"
 						],
 						[
 							1.0,
@@ -568,25 +568,25 @@
 						],
 						[
 							0.0,
-							0.099665118768311023,
-							0.10910970312001825,
+							0.09966511876831112,
+							0.10910970312001829,
 							0.0,
-							0.065420108609565847,
+							0.065420108609565902,
 							0.055448856241987213,
 							0.0,
-							0.1649865720209816,
-							0.1511674380857248
+							0.16498657202098163,
+							0.15116743808572483
 						],
 						[
 							"",
-							5.5536009047495352,
-							6.6847419515453472,
+							5.5536009047495298,
+							6.6847419515453446,
 							"",
-							17.014288141303236,
+							17.014288141303222,
 							16.702711280291958,
 							"",
-							7.1517992344297774,
-							7.1545180004027289
+							7.1517992344297765,
+							7.154518000402728
 						],
 						[
 							"",
@@ -601,10 +601,10 @@
 						],
 						[
 							1.0,
-							0.35816025046286537,
-							0.51551912128795097,
+							0.3581602504628652,
+							0.51551912128795085,
 							1.0,
-							0.98485552137905819,
+							0.98485552137905807,
 							0.81746847541409295,
 							1.0,
 							0.85658310037700192,
@@ -612,10 +612,10 @@
 						],
 						[
 							1.0,
-							0.74884033706445852,
-							0.94322129824613754,
+							0.74884033706445874,
+							0.94322129824613765,
 							1.0,
-							1.2412976348579536,
+							1.2412976348579539,
 							1.0348239978505607,
 							1.0,
 							1.5033185785646972,
@@ -642,50 +642,50 @@
 							{
 								"indicators" : 
 								[
-									"JaspColumn_7_Encoded",
-									"JaspColumn_8_Encoded",
-									"JaspColumn_9_Encoded"
+									"JaspColumn_21_Encoded",
+									"JaspColumn_24_Encoded",
+									"JaspColumn_27_Encoded"
+								],
+								"indicators.types" : 
+								[
+									"scale",
+									"scale",
+									"scale"
 								],
 								"name" : "Factor1",
-								"title" : "Visual",
-								"types" : 
-								[
-									"scale",
-									"scale",
-									"scale"
-								]
+								"title" : "Visual"
 							},
 							{
 								"indicators" : 
 								[
-									"JaspColumn_10_Encoded",
-									"JaspColumn_11_Encoded",
-									"JaspColumn_12_Encoded"
+									"JaspColumn_30_Encoded",
+									"JaspColumn_33_Encoded",
+									"JaspColumn_36_Encoded"
+								],
+								"indicators.types" : 
+								[
+									"scale",
+									"scale",
+									"scale"
 								],
 								"name" : "Factor2",
-								"title" : "Textual",
-								"types" : 
-								[
-									"scale",
-									"scale",
-									"scale"
-								]
+								"title" : "Textual"
 							},
 							{
 								"indicators" : 
 								[
-									"JaspColumn_13_Encoded",
-									"JaspColumn_14_Encoded",
-									"JaspColumn_15_Encoded"
+									"JaspColumn_39_Encoded",
+									"JaspColumn_42_Encoded",
+									"JaspColumn_45_Encoded"
 								],
-								"name" : "Factor3",
-								"title" : "Speed",
-								"types" : 
+								"indicators.types" : 
 								[
 									"scale",
 									"scale",
 									"scale"
-								]
+								],
+								"name" : "Factor3",
+								"title" : "Speed"
 							}
 						],
 						"factorsUncorrelated" : false,
@@ -946,14 +946,14 @@
 							0.38374764926410676
 						],
 						[
-							0.14546240741428815,
-							0.11210584930135914,
-							0.086209194428875716
+							0.14546240741428826,
+							0.11210584930135929,
+							0.086209194428875771
 						],
 						[
-							5.5637466440784786,
-							8.7372013054078526,
-							4.4513540789515922
+							5.5637466440784742,
+							8.7372013054078419,
+							4.4513540789515886
 						],
 						[
 							2.6404322062134611e-08,
@@ -961,13 +961,13 @@
 							8.5330508041714381e-06
 						],
 						[
-							0.52421490145432514,
-							0.75976794577275242,
-							0.21478073304729933
+							0.52421490145432492,
+							0.7597679457727522,
+							0.21478073304729922
 						],
 						[
-							1.0944170607273189,
-							1.1992147999466298,
+							1.0944170607273191,
+							1.1992147999466301,
 							0.55271456548091424
 						]
 					],
@@ -991,50 +991,50 @@
 							{
 								"indicators" : 
 								[
-									"JaspColumn_7_Encoded",
-									"JaspColumn_8_Encoded",
-									"JaspColumn_9_Encoded"
+									"JaspColumn_21_Encoded",
+									"JaspColumn_24_Encoded",
+									"JaspColumn_27_Encoded"
+								],
+								"indicators.types" : 
+								[
+									"scale",
+									"scale",
+									"scale"
 								],
 								"name" : "Factor1",
-								"title" : "Visual",
-								"types" : 
-								[
-									"scale",
-									"scale",
-									"scale"
-								]
+								"title" : "Visual"
 							},
 							{
 								"indicators" : 
 								[
-									"JaspColumn_10_Encoded",
-									"JaspColumn_11_Encoded",
-									"JaspColumn_12_Encoded"
+									"JaspColumn_30_Encoded",
+									"JaspColumn_33_Encoded",
+									"JaspColumn_36_Encoded"
+								],
+								"indicators.types" : 
+								[
+									"scale",
+									"scale",
+									"scale"
 								],
 								"name" : "Factor2",
-								"title" : "Textual",
-								"types" : 
-								[
-									"scale",
-									"scale",
-									"scale"
-								]
+								"title" : "Textual"
 							},
 							{
 								"indicators" : 
 								[
-									"JaspColumn_13_Encoded",
-									"JaspColumn_14_Encoded",
-									"JaspColumn_15_Encoded"
+									"JaspColumn_39_Encoded",
+									"JaspColumn_42_Encoded",
+									"JaspColumn_45_Encoded"
 								],
-								"name" : "Factor3",
-								"title" : "Speed",
-								"types" : 
+								"indicators.types" : 
 								[
 									"scale",
 									"scale",
 									"scale"
-								]
+								],
+								"name" : "Factor3",
+								"title" : "Speed"
 							}
 						],
 						"factorsUncorrelated" : false,
@@ -1278,15 +1278,15 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_7_Encoded",
-							"JaspColumn_8_Encoded",
-							"JaspColumn_9_Encoded",
-							"JaspColumn_10_Encoded",
-							"JaspColumn_11_Encoded",
-							"JaspColumn_12_Encoded",
-							"JaspColumn_13_Encoded",
-							"JaspColumn_14_Encoded",
-							"JaspColumn_15_Encoded"
+							"JaspColumn_21_Encoded",
+							"JaspColumn_24_Encoded",
+							"JaspColumn_27_Encoded",
+							"JaspColumn_30_Encoded",
+							"JaspColumn_33_Encoded",
+							"JaspColumn_36_Encoded",
+							"JaspColumn_39_Encoded",
+							"JaspColumn_42_Encoded",
+							"JaspColumn_45_Encoded"
 						],
 						[
 							0.54905397319901905,
@@ -1300,26 +1300,26 @@
 							0.56613129357369474
 						],
 						[
-							0.11360092326414939,
-							0.10172337095600002,
-							0.090623183536807636,
+							0.11360092326414944,
+							0.10172337095600008,
+							0.09062318353680765,
 							0.047717790989155198,
-							0.058392775476026226,
+							0.058392775476026268,
 							0.043034967866353559,
 							0.081381559055571373,
-							0.074194091252030442,
-							0.07073693710338752
+							0.074194091252030428,
+							0.070736937103387507
 						],
 						[
-							4.8331823142170851,
-							11.146298100702021,
-							9.3168658698197842,
+							4.8331823142170824,
+							11.146298100702014,
+							9.3168658698197824,
 							7.7785032614187504,
-							7.6422993533383439,
+							7.6422993533383385,
 							8.2770519402999927,
 							9.8227614167386115,
-							6.5732604246408526,
-							8.0033334316730436
+							6.5732604246408535,
+							8.0033334316730453
 						],
 						[
 							1.3436762764662546e-06,
@@ -1333,22 +1333,22 @@
 							1.1102230246251565e-15
 						],
 						[
-							0.32640025499078795,
-							0.9344648730241023,
+							0.32640025499078784,
+							0.93446487302410219,
 							0.66670586981199109,
 							0.27764784107628787,
-							0.33180733336972124,
+							0.33180733336972118,
 							0.2718556771850581,
 							0.63988671357046178,
 							0.34227933704950586,
 							0.4274894444743802
 						],
 						[
-							0.77170769140725015,
+							0.77170769140725026,
 							1.3332131599436379,
 							1.0219422216050034,
 							0.46469814459739606,
-							0.56070280715041143,
+							0.56070280715041154,
 							0.44054965137284108,
 							0.95889656307974058,
 							0.63311483048882167,
@@ -1375,50 +1375,50 @@
 							{
 								"indicators" : 
 								[
-									"JaspColumn_7_Encoded",
-									"JaspColumn_8_Encoded",
-									"JaspColumn_9_Encoded"
+									"JaspColumn_21_Encoded",
+									"JaspColumn_24_Encoded",
+									"JaspColumn_27_Encoded"
+								],
+								"indicators.types" : 
+								[
+									"scale",
+									"scale",
+									"scale"
 								],
 								"name" : "Factor1",
-								"title" : "Visual",
-								"types" : 
-								[
-									"scale",
-									"scale",
-									"scale"
-								]
+								"title" : "Visual"
 							},
 							{
 								"indicators" : 
 								[
-									"JaspColumn_10_Encoded",
-									"JaspColumn_11_Encoded",
-									"JaspColumn_12_Encoded"
+									"JaspColumn_30_Encoded",
+									"JaspColumn_33_Encoded",
+									"JaspColumn_36_Encoded"
+								],
+								"indicators.types" : 
+								[
+									"scale",
+									"scale",
+									"scale"
 								],
 								"name" : "Factor2",
-								"title" : "Textual",
-								"types" : 
-								[
-									"scale",
-									"scale",
-									"scale"
-								]
+								"title" : "Textual"
 							},
 							{
 								"indicators" : 
 								[
-									"JaspColumn_13_Encoded",
-									"JaspColumn_14_Encoded",
-									"JaspColumn_15_Encoded"
+									"JaspColumn_39_Encoded",
+									"JaspColumn_42_Encoded",
+									"JaspColumn_45_Encoded"
 								],
-								"name" : "Factor3",
-								"title" : "Speed",
-								"types" : 
+								"indicators.types" : 
 								[
 									"scale",
 									"scale",
 									"scale"
-								]
+								],
+								"name" : "Factor3",
+								"title" : "Speed"
 							}
 						],
 						"factorsUncorrelated" : false,
@@ -1531,50 +1531,50 @@
 					{
 						"indicators" : 
 						[
-							"JaspColumn_7_Encoded",
-							"JaspColumn_8_Encoded",
-							"JaspColumn_9_Encoded"
+							"JaspColumn_21_Encoded",
+							"JaspColumn_24_Encoded",
+							"JaspColumn_27_Encoded"
+						],
+						"indicators.types" : 
+						[
+							"scale",
+							"scale",
+							"scale"
 						],
 						"name" : "Factor1",
-						"title" : "Visual",
-						"types" : 
-						[
-							"scale",
-							"scale",
-							"scale"
-						]
+						"title" : "Visual"
 					},
 					{
 						"indicators" : 
 						[
-							"JaspColumn_10_Encoded",
-							"JaspColumn_11_Encoded",
-							"JaspColumn_12_Encoded"
+							"JaspColumn_30_Encoded",
+							"JaspColumn_33_Encoded",
+							"JaspColumn_36_Encoded"
+						],
+						"indicators.types" : 
+						[
+							"scale",
+							"scale",
+							"scale"
 						],
 						"name" : "Factor2",
-						"title" : "Textual",
-						"types" : 
-						[
-							"scale",
-							"scale",
-							"scale"
-						]
+						"title" : "Textual"
 					},
 					{
 						"indicators" : 
 						[
-							"JaspColumn_13_Encoded",
-							"JaspColumn_14_Encoded",
-							"JaspColumn_15_Encoded"
+							"JaspColumn_39_Encoded",
+							"JaspColumn_42_Encoded",
+							"JaspColumn_45_Encoded"
 						],
-						"name" : "Factor3",
-						"title" : "Speed",
-						"types" : 
+						"indicators.types" : 
 						[
 							"scale",
 							"scale",
 							"scale"
-						]
+						],
+						"name" : "Factor3",
+						"title" : "Speed"
 					}
 				],
 				"factorsUncorrelated" : false,
@@ -1751,7 +1751,7 @@
 							"Factor model"
 						],
 						[
-							918.85158929238423,
+							918.85158929238366,
 							85.305521769973765
 						],
 						[
@@ -1791,50 +1791,50 @@
 							{
 								"indicators" : 
 								[
-									"JaspColumn_7_Encoded",
-									"JaspColumn_8_Encoded",
-									"JaspColumn_9_Encoded"
+									"JaspColumn_21_Encoded",
+									"JaspColumn_24_Encoded",
+									"JaspColumn_27_Encoded"
+								],
+								"indicators.types" : 
+								[
+									"scale",
+									"scale",
+									"scale"
 								],
 								"name" : "Factor1",
-								"title" : "Visual",
-								"types" : 
-								[
-									"scale",
-									"scale",
-									"scale"
-								]
+								"title" : "Visual"
 							},
 							{
 								"indicators" : 
 								[
-									"JaspColumn_10_Encoded",
-									"JaspColumn_11_Encoded",
-									"JaspColumn_12_Encoded"
+									"JaspColumn_30_Encoded",
+									"JaspColumn_33_Encoded",
+									"JaspColumn_36_Encoded"
+								],
+								"indicators.types" : 
+								[
+									"scale",
+									"scale",
+									"scale"
 								],
 								"name" : "Factor2",
-								"title" : "Textual",
-								"types" : 
-								[
-									"scale",
-									"scale",
-									"scale"
-								]
+								"title" : "Textual"
 							},
 							{
 								"indicators" : 
 								[
-									"JaspColumn_13_Encoded",
-									"JaspColumn_14_Encoded",
-									"JaspColumn_15_Encoded"
+									"JaspColumn_39_Encoded",
+									"JaspColumn_42_Encoded",
+									"JaspColumn_45_Encoded"
 								],
-								"name" : "Factor3",
-								"title" : "Speed",
-								"types" : 
+								"indicators.types" : 
 								[
 									"scale",
 									"scale",
 									"scale"
-								]
+								],
+								"name" : "Factor3",
+								"title" : "Speed"
 							}
 						],
 						"factorsUncorrelated" : false,
@@ -2283,11 +2283,11 @@
 								],
 								[
 									0.93055965179933486,
-									0.8958394776990023,
-									0.8958394776990023,
-									0.90716071804841925,
+									0.89583947769900218,
+									0.89583947769900218,
+									0.90716071804841913,
 									0.60477381203227942,
-									0.86074107707262881,
+									0.8607410770726287,
 									0.93149084998725662,
 									0.93055965179933486
 								]
@@ -2649,50 +2649,50 @@
 					{
 						"indicators" : 
 						[
-							"JaspColumn_7_Encoded",
-							"JaspColumn_8_Encoded",
-							"JaspColumn_9_Encoded"
+							"JaspColumn_21_Encoded",
+							"JaspColumn_24_Encoded",
+							"JaspColumn_27_Encoded"
+						],
+						"indicators.types" : 
+						[
+							"scale",
+							"scale",
+							"scale"
 						],
 						"name" : "Factor1",
-						"title" : "Visual",
-						"types" : 
-						[
-							"scale",
-							"scale",
-							"scale"
-						]
+						"title" : "Visual"
 					},
 					{
 						"indicators" : 
 						[
-							"JaspColumn_10_Encoded",
-							"JaspColumn_11_Encoded",
-							"JaspColumn_12_Encoded"
+							"JaspColumn_30_Encoded",
+							"JaspColumn_33_Encoded",
+							"JaspColumn_36_Encoded"
+						],
+						"indicators.types" : 
+						[
+							"scale",
+							"scale",
+							"scale"
 						],
 						"name" : "Factor2",
-						"title" : "Textual",
-						"types" : 
-						[
-							"scale",
-							"scale",
-							"scale"
-						]
+						"title" : "Textual"
 					},
 					{
 						"indicators" : 
 						[
-							"JaspColumn_13_Encoded",
-							"JaspColumn_14_Encoded",
-							"JaspColumn_15_Encoded"
+							"JaspColumn_39_Encoded",
+							"JaspColumn_42_Encoded",
+							"JaspColumn_45_Encoded"
 						],
-						"name" : "Factor3",
-						"title" : "Speed",
-						"types" : 
+						"indicators.types" : 
 						[
 							"scale",
 							"scale",
 							"scale"
-						]
+						],
+						"name" : "Factor3",
+						"title" : "Speed"
 					}
 				],
 				"factorsUncorrelated" : false,
@@ -2735,7 +2735,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1732274598810.png",
+					"filePathPng" : "resources/0/_0_t1751898291447.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "pathplot",
@@ -2782,50 +2782,50 @@
 					{
 						"indicators" : 
 						[
-							"JaspColumn_7_Encoded",
-							"JaspColumn_8_Encoded",
-							"JaspColumn_9_Encoded"
+							"JaspColumn_21_Encoded",
+							"JaspColumn_24_Encoded",
+							"JaspColumn_27_Encoded"
+						],
+						"indicators.types" : 
+						[
+							"scale",
+							"scale",
+							"scale"
 						],
 						"name" : "Factor1",
-						"title" : "Visual",
-						"types" : 
-						[
-							"scale",
-							"scale",
-							"scale"
-						]
+						"title" : "Visual"
 					},
 					{
 						"indicators" : 
 						[
-							"JaspColumn_10_Encoded",
-							"JaspColumn_11_Encoded",
-							"JaspColumn_12_Encoded"
+							"JaspColumn_30_Encoded",
+							"JaspColumn_33_Encoded",
+							"JaspColumn_36_Encoded"
+						],
+						"indicators.types" : 
+						[
+							"scale",
+							"scale",
+							"scale"
 						],
 						"name" : "Factor2",
-						"title" : "Textual",
-						"types" : 
-						[
-							"scale",
-							"scale",
-							"scale"
-						]
+						"title" : "Textual"
 					},
 					{
 						"indicators" : 
 						[
-							"JaspColumn_13_Encoded",
-							"JaspColumn_14_Encoded",
-							"JaspColumn_15_Encoded"
+							"JaspColumn_39_Encoded",
+							"JaspColumn_42_Encoded",
+							"JaspColumn_45_Encoded"
 						],
-						"name" : "Factor3",
-						"title" : "Speed",
-						"types" : 
+						"indicators.types" : 
 						[
 							"scale",
 							"scale",
 							"scale"
-						]
+						],
+						"name" : "Factor3",
+						"title" : "Speed"
 					}
 				],
 				"factorsUncorrelated" : false,
@@ -2870,50 +2870,50 @@
 					{
 						"indicators" : 
 						[
-							"JaspColumn_7_Encoded",
-							"JaspColumn_8_Encoded",
-							"JaspColumn_9_Encoded"
+							"JaspColumn_21_Encoded",
+							"JaspColumn_24_Encoded",
+							"JaspColumn_27_Encoded"
+						],
+						"indicators.types" : 
+						[
+							"scale",
+							"scale",
+							"scale"
 						],
 						"name" : "Factor1",
-						"title" : "Visual",
-						"types" : 
-						[
-							"scale",
-							"scale",
-							"scale"
-						]
+						"title" : "Visual"
 					},
 					{
 						"indicators" : 
 						[
-							"JaspColumn_10_Encoded",
-							"JaspColumn_11_Encoded",
-							"JaspColumn_12_Encoded"
+							"JaspColumn_30_Encoded",
+							"JaspColumn_33_Encoded",
+							"JaspColumn_36_Encoded"
+						],
+						"indicators.types" : 
+						[
+							"scale",
+							"scale",
+							"scale"
 						],
 						"name" : "Factor2",
-						"title" : "Textual",
-						"types" : 
-						[
-							"scale",
-							"scale",
-							"scale"
-						]
+						"title" : "Textual"
 					},
 					{
 						"indicators" : 
 						[
-							"JaspColumn_13_Encoded",
-							"JaspColumn_14_Encoded",
-							"JaspColumn_15_Encoded"
+							"JaspColumn_39_Encoded",
+							"JaspColumn_42_Encoded",
+							"JaspColumn_45_Encoded"
 						],
-						"name" : "Factor3",
-						"title" : "Speed",
-						"types" : 
+						"indicators.types" : 
 						[
 							"scale",
 							"scale",
 							"scale"
-						]
+						],
+						"name" : "Factor3",
+						"title" : "Speed"
 					}
 				],
 				"factorsUncorrelated" : false,
@@ -2977,6 +2977,8 @@
 				"shouldEncode" : true
 			}
 		},
+		"addFactorScoresToData" : false,
+		"addFactorScoresToDataPrefix" : "FS",
 		"ave" : false,
 		"bartlettTest" : false,
 		"bootstrapSamples" : 1000,
@@ -2991,50 +2993,50 @@
 			{
 				"indicators" : 
 				[
-					"JaspColumn_7_Encoded",
-					"JaspColumn_8_Encoded",
-					"JaspColumn_9_Encoded"
+					"JaspColumn_21_Encoded",
+					"JaspColumn_24_Encoded",
+					"JaspColumn_27_Encoded"
+				],
+				"indicators.types" : 
+				[
+					"scale",
+					"scale",
+					"scale"
 				],
 				"name" : "Factor1",
-				"title" : "Visual",
-				"types" : 
-				[
-					"scale",
-					"scale",
-					"scale"
-				]
+				"title" : "Visual"
 			},
 			{
 				"indicators" : 
 				[
-					"JaspColumn_10_Encoded",
-					"JaspColumn_11_Encoded",
-					"JaspColumn_12_Encoded"
+					"JaspColumn_30_Encoded",
+					"JaspColumn_33_Encoded",
+					"JaspColumn_36_Encoded"
+				],
+				"indicators.types" : 
+				[
+					"scale",
+					"scale",
+					"scale"
 				],
 				"name" : "Factor2",
-				"title" : "Textual",
-				"types" : 
-				[
-					"scale",
-					"scale",
-					"scale"
-				]
+				"title" : "Textual"
 			},
 			{
 				"indicators" : 
 				[
-					"JaspColumn_13_Encoded",
-					"JaspColumn_14_Encoded",
-					"JaspColumn_15_Encoded"
+					"JaspColumn_39_Encoded",
+					"JaspColumn_42_Encoded",
+					"JaspColumn_45_Encoded"
 				],
-				"name" : "Factor3",
-				"title" : "Speed",
-				"types" : 
+				"indicators.types" : 
 				[
 					"scale",
 					"scale",
 					"scale"
-				]
+				],
+				"name" : "Factor3",
+				"title" : "Speed"
 			}
 		],
 		"factorsUncorrelated" : false,

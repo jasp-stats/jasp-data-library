@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software].",
+		"JASP Team (2025). JASP (Version 0.95) [Computer software].",
 		"Revelle, W. (2018) psych: Procedures for Personality and Psychological Research, Northwestern University, Evanston, Illinois, USA, https://CRAN.R-project.org/package=psych Version = 1.8.12."
 	],
 	"data" : 
@@ -178,22 +178,22 @@
 							"Component 1"
 						],
 						[
-							3.5511685863254647
+							3.5511685863254634
 						],
 						[
-							0.50730979804649545
+							0.50730979804649567
 						],
 						[
-							0.50730979804649545
+							0.50730979804649567
 						],
 						[
-							3.5511685863254656
+							3.5511685863254621
 						],
 						[
-							0.50730979804649512
+							0.50730979804649456
 						],
 						[
-							0.50730979804649512
+							0.50730979804649456
 						]
 					],
 					"error" : false,
@@ -410,13 +410,13 @@
 							"Model"
 						],
 						[
-							20.415315445005124
+							20.415315445005056
 						],
 						[
 							14.0
 						],
 						[
-							0.11758178062900899
+							0.11758178062901099
 						]
 					],
 					"error" : false,
@@ -479,7 +479,7 @@
 						"p"
 					],
 					"status" : "complete",
-					"title" : "Chi-squared Test",
+					"title" : "Chi-Squared Test",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -624,31 +624,31 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_13_Encoded",
-							"JaspColumn_14_Encoded",
-							"JaspColumn_16_Encoded",
-							"JaspColumn_15_Encoded",
-							"JaspColumn_10_Encoded",
-							"JaspColumn_11_Encoded",
-							"JaspColumn_12_Encoded"
+							"JaspColumn_24_Encoded",
+							"JaspColumn_30_Encoded",
+							"JaspColumn_36_Encoded",
+							"JaspColumn_27_Encoded",
+							"JaspColumn_39_Encoded",
+							"JaspColumn_33_Encoded",
+							"JaspColumn_42_Encoded"
 						],
 						[
-							0.9403674602957045,
-							0.90729775597742657,
-							0.88185466686341452,
-							0.80525959115469536,
-							0.53122107255743511,
-							0.2920035288776876,
-							0.22386571090565216
+							0.9403674602957055,
+							0.90729775597742557,
+							0.88185466686341385,
+							0.80525959115469425,
+							0.53122107255743445,
+							0.29200352887768805,
+							0.22386571090565205
 						],
 						[
-							0.11570903961700651,
-							0.17681078199832612,
-							0.22233234653121625,
-							0.35155699085337289,
-							0.71780417207092828,
-							0.9147339391229774,
-							0.94988414348070693
+							0.11570903961700463,
+							0.17681078199832789,
+							0.22233234653121736,
+							0.35155699085337466,
+							0.71780417207092895,
+							0.91473393912297718,
+							0.94988414348070704
 						]
 					],
 					"error" : false,
@@ -671,8 +671,8 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						"componentLoadingsOrder" : "sortByComponentSize",
-						"loadingsDisplayLimit" : 0.20999999999999999
+						"loadingsDisplayLimit" : 0.20999999999999999,
+						"orderLoadingsBy" : "size"
 					},
 					"optionMustContain" : {},
 					"position" : 2,
@@ -693,13 +693,13 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"4",
-							"5",
-							"7",
-							"6",
 							"1",
+							"3",
+							"5",
 							"2",
-							"3"
+							"6",
+							"4",
+							"7"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -837,8 +837,8 @@
 								],
 								"limits" : 
 								[
-									0.0599864666922326,
-									3.5511685863254598
+									0.059986466692232301,
+									3.5511685863254701
 								],
 								"limitsType" : "data",
 								"range" : 
@@ -857,7 +857,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_2_t1732274576628.png",
+					"filePathPng" : "resources/3/_2_t1751898278704.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "scree",
@@ -897,10 +897,10 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"analysisBasedOn" : "correlationMatrix",
+				"baseDecompositionOn" : "correlationMatrix",
 				"componentCountMethod" : "parallelAnalysis",
 				"dataType" : "raw",
-				"eigenValuesAbove" : 1.0,
+				"eigenvaluesAbove" : 1.0,
 				"manualNumberOfComponents" : 1,
 				"naAction" : "pairwise",
 				"obliqueSelector" : "promax",
@@ -910,13 +910,13 @@
 				"sampleSize" : 200,
 				"variables" : 
 				[
-					"JaspColumn_10_Encoded",
-					"JaspColumn_11_Encoded",
-					"JaspColumn_12_Encoded",
-					"JaspColumn_13_Encoded",
-					"JaspColumn_14_Encoded",
-					"JaspColumn_15_Encoded",
-					"JaspColumn_16_Encoded"
+					"JaspColumn_39_Encoded",
+					"JaspColumn_33_Encoded",
+					"JaspColumn_42_Encoded",
+					"JaspColumn_24_Encoded",
+					"JaspColumn_30_Encoded",
+					"JaspColumn_27_Encoded",
+					"JaspColumn_36_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -959,24 +959,27 @@
 				"shouldEncode" : true
 			}
 		},
-		"addScores" : false,
-		"addedScoresPrefix" : "PC",
-		"analysisBasedOn" : "correlationMatrix",
+		"addScoresToData" : false,
+		"addScoresToDataPrefix" : "PC",
+		"antiImageCorrelationMatrix" : false,
 		"bartlettTest" : false,
+		"baseDecompositionOn" : "correlationMatrix",
 		"componentCorrelations" : false,
 		"componentCountMethod" : "parallelAnalysis",
-		"componentLoadingsOrder" : "sortByComponentSize",
 		"dataType" : "raw",
-		"eigenValuesAbove" : 1.0,
+		"eigenvaluesAbove" : 1.0,
+		"factorStructure" : false,
+		"factoringMethod" : "minimumResidual",
+		"fitIndices" : false,
 		"kaiserMeyerOlkinTest" : false,
 		"loadingsDisplayLimit" : 0.20999999999999999,
 		"manualNumberOfComponents" : 1,
 		"mardiaTest" : false,
 		"naAction" : "pairwise",
 		"obliqueSelector" : "promax",
+		"orderLoadingsBy" : "size",
 		"orthogonalSelector" : "none",
 		"parallelAnalysisMethod" : "principalComponentBased",
-		"parallelAnalysisSeed" : 1234,
 		"parallelAnalysisTable" : false,
 		"parallelAnalysisTableMethod" : "principalComponentBased",
 		"pathDiagram" : false,
@@ -987,15 +990,17 @@
 		"sampleSize" : 200,
 		"screePlot" : true,
 		"screePlotParallelAnalysisResults" : true,
+		"seed" : 1,
+		"setSeed" : false,
 		"variables" : 
 		[
-			"JaspColumn_10_Encoded",
-			"JaspColumn_11_Encoded",
-			"JaspColumn_12_Encoded",
-			"JaspColumn_13_Encoded",
-			"JaspColumn_14_Encoded",
-			"JaspColumn_15_Encoded",
-			"JaspColumn_16_Encoded"
+			"JaspColumn_39_Encoded",
+			"JaspColumn_33_Encoded",
+			"JaspColumn_42_Encoded",
+			"JaspColumn_24_Encoded",
+			"JaspColumn_30_Encoded",
+			"JaspColumn_27_Encoded",
+			"JaspColumn_36_Encoded"
 		],
 		"variables.types" : 
 		[

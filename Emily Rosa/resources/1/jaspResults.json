@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -24,7 +24,7 @@
 				"testValue" : "0.5",
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded"
+					"JaspColumn_2_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -196,8 +196,8 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_0_Encoded",
-					"JaspColumn_0_Encoded"
+					"JaspColumn_2_Encoded",
+					"JaspColumn_2_Encoded"
 				],
 				[
 					"Correct",
@@ -259,7 +259,7 @@
 				"testValue" : "0.5",
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded"
+					"JaspColumn_2_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -345,7 +345,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1732274275595.png",
+							"filePathPng" : "resources/1/_0_t1751898193912.png",
 							"height" : 371,
 							"messages" : [],
 							"name" : "OutcomeCorrectpriorposterior",
@@ -381,11 +381,11 @@
 					"optionMustBe" : {},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_0_Encoded"
+						"variables" : "JaspColumn_2_Encoded"
 					},
 					"order_increment" : 1,
 					"position" : 9999,
-					"title" : "JaspColumn_0_Encoded - Correct",
+					"title" : "JaspColumn_2_Encoded - Correct",
 					"type" : "container"
 				},
 				"Outcome - Incorrect" : 
@@ -406,7 +406,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_1_t1732274275911.png",
+							"filePathPng" : "resources/1/_1_t1751898194345.png",
 							"height" : 371,
 							"messages" : [],
 							"name" : "OutcomeIncorrectpriorposterior",
@@ -442,11 +442,11 @@
 					"optionMustBe" : {},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_0_Encoded"
+						"variables" : "JaspColumn_2_Encoded"
 					},
 					"order_increment" : 1,
 					"position" : 9999,
-					"title" : "JaspColumn_0_Encoded - Incorrect",
+					"title" : "JaspColumn_2_Encoded - Incorrect",
 					"type" : "container"
 				}
 			},
@@ -560,18 +560,6 @@
 	{
 		".meta" : 
 		{
-			"priorA" : 
-			{
-				"isRCode" : true
-			},
-			"priorB" : 
-			{
-				"isRCode" : true
-			},
-			"testValue" : 
-			{
-				"isRCode" : true
-			},
 			"variables" : 
 			{
 				"shouldEncode" : true
@@ -591,7 +579,7 @@
 		"testValue" : "0.5",
 		"variables" : 
 		[
-			"JaspColumn_0_Encoded"
+			"JaspColumn_2_Encoded"
 		],
 		"variables.types" : 
 		[

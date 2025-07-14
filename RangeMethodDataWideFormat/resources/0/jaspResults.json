@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -24,7 +24,7 @@
 							"4",
 							"5"
 						],
-						"title" : "JaspColumn_0_Encoded",
+						"title" : "JaspColumn_7_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleDiscrete"
@@ -83,7 +83,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1732281108980.png",
+			"filePathPng" : "resources/0/_0_t1751899602818.png",
 			"height" : 320,
 			"messages" : [],
 			"name" : "ScatterOperatorParts",
@@ -147,7 +147,7 @@
 							10,
 							2
 						],
-						"title" : "JaspColumn_1_Encoded",
+						"title" : "JaspColumn_0_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleContinuous"
@@ -190,7 +190,7 @@
 							10,
 							2
 						],
-						"title" : "JaspColumn_2_Encoded",
+						"title" : "JaspColumn_3_Encoded",
 						"titleType" : "character"
 					},
 					"type" : "ScaleContinuous"
@@ -200,7 +200,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_2_t1732281109373.png",
+			"filePathPng" : "resources/0/_2_t1751899603271.png",
 			"height" : 320,
 			"messages" : [],
 			"name" : "ScatterOperators",
@@ -253,8 +253,8 @@
 				"fields" : 
 				{
 					"GRR" : "sf:4;dp:3",
-					"GRRpercent.PSD" : "sf:4;dp:3",
-					"GRRpercent.Tol" : "sf:4;dp:3",
+					"GRRpercent.PSD" : "pc",
+					"GRRpercent.Tol" : "pc",
 					"PSD" : "sf:4;dp:3",
 					"Rbar" : "sf:4;dp:3",
 					"d2" : "sf:4;dp:3",
@@ -292,10 +292,10 @@
 					"n",
 					"Rbar",
 					"d2",
-					"PSD",
-					"tolerance",
 					"GRR",
+					"PSD",
 					"GRRpercent.PSD",
+					"tolerance",
 					"GRRpercent.Tol"
 				],
 				"title" : "colNames",
@@ -391,16 +391,16 @@
 					1.1910499999999999
 				],
 				[
-					2.0
-				],
-				[
-					0.0
-				],
-				[
 					0.58771672054069934
 				],
 				[
-					29.385836027034966
+					2.0
+				],
+				[
+					0.29385836027034967
+				],
+				[
+					0.0
 				],
 				[
 					"\u221e"
@@ -591,7 +591,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1732281109157.png",
+					"filePathPng" : "resources/0/_1_t1751899602989.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "plot",
@@ -847,7 +847,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_3_t1732281110010.png",
+					"filePathPng" : "resources/0/_3_t1751899603956.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "plot",
@@ -941,8 +941,8 @@
 		"measurementLongFormat.types" : [],
 		"measurementsWideFormat" : 
 		[
-			"JaspColumn_1_Encoded",
-			"JaspColumn_2_Encoded"
+			"JaspColumn_0_Encoded",
+			"JaspColumn_3_Encoded"
 		],
 		"measurementsWideFormat.types" : 
 		[
@@ -953,7 +953,7 @@
 		"operator.types" : [],
 		"partLongFormat" : "",
 		"partLongFormat.types" : [],
-		"partWideFormat" : "JaspColumn_0_Encoded",
+		"partWideFormat" : "JaspColumn_7_Encoded",
 		"partWideFormat.types" : 
 		[
 			"ordinal"

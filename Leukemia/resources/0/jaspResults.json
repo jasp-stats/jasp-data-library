@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -220,7 +220,7 @@
 							0.37686705950167976,
 							0.25485995119931731,
 							0.15487711789719105,
-							0.035917898489185258
+							0.035917898489185238
 						],
 						[
 							1.0,
@@ -229,7 +229,7 @@
 							0.99915760022847266,
 							0.94558495520042918,
 							0.87526067814390762,
-							0.94352576947455202
+							0.9435257694745518
 						]
 					],
 					"error" : false,
@@ -304,7 +304,7 @@
 						"upperCI"
 					],
 					"status" : "complete",
-					"title" : "JaspColumn_11_Encoded=Maintained",
+					"title" : "JaspColumn_8_Encoded=Maintained",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -619,7 +619,7 @@
 						"upperCI"
 					],
 					"status" : "complete",
-					"title" : "JaspColumn_11_Encoded=Nonmaintained",
+					"title" : "JaspColumn_8_Encoded=Nonmaintained",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -641,8 +641,11 @@
 			"optionMustBe" : 
 			{
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_8_Encoded",
-				"eventStatus.types" : "nominal",
+				"eventStatus" : "JaspColumn_2_Encoded",
+				"eventStatus.types" : 
+				[
+					"nominal"
+				],
 				"lifeTable" : true,
 				"lifeTableRoundSteps" : true,
 				"lifeTableStepsFrom" : 0.0,
@@ -652,14 +655,19 @@
 				"lifeTableStepsType" : "default",
 				"strata" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_8_Encoded"
 				],
 				"strata.types" : 
 				[
 					"nominal"
 				],
 				"timeToEvent" : "JaspColumn_3_Encoded",
-				"timeToEvent.types" : "scale"
+				"timeToEvent.types" : 
+				[
+					"scale"
+				],
+				"weights" : "",
+				"weights.types" : []
 			},
 			"optionMustContain" : {},
 			"order_increment" : 2,
@@ -681,18 +689,26 @@
 			"optionMustBe" : 
 			{
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_8_Encoded",
-				"eventStatus.types" : "nominal",
+				"eventStatus" : "JaspColumn_2_Encoded",
+				"eventStatus.types" : 
+				[
+					"nominal"
+				],
 				"strata" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_8_Encoded"
 				],
 				"strata.types" : 
 				[
 					"nominal"
 				],
 				"timeToEvent" : "JaspColumn_3_Encoded",
-				"timeToEvent.types" : "scale"
+				"timeToEvent.types" : 
+				[
+					"scale"
+				],
+				"weights" : "",
+				"weights.types" : []
 			},
 			"optionMustContain" : {},
 			"position" : 9999,
@@ -861,8 +877,8 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_11_Encoded=Maintained",
-					"JaspColumn_11_Encoded=Nonmaintained"
+					"JaspColumn_8_Encoded=Maintained",
+					"JaspColumn_8_Encoded=Nonmaintained"
 				],
 				[
 					11.0,
@@ -906,18 +922,26 @@
 			"optionMustBe" : 
 			{
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_8_Encoded",
-				"eventStatus.types" : "nominal",
+				"eventStatus" : "JaspColumn_2_Encoded",
+				"eventStatus.types" : 
+				[
+					"nominal"
+				],
 				"strata" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_8_Encoded"
 				],
 				"strata.types" : 
 				[
 					"nominal"
 				],
 				"timeToEvent" : "JaspColumn_3_Encoded",
-				"timeToEvent.types" : "scale"
+				"timeToEvent.types" : 
+				[
+					"scale"
+				],
+				"weights" : "",
+				"weights.types" : []
 			},
 			"optionMustContain" : {},
 			"position" : 1,
@@ -938,8 +962,8 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_11_Encoded=Maintained",
-					"JaspColumn_11_Encoded=Nonmaintained"
+					"JaspColumn_8_Encoded=Maintained",
+					"JaspColumn_8_Encoded=Nonmaintained"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -990,11 +1014,11 @@
 				"errorType" : "fatalError",
 				"reasonNotEditable" : "Plot editing terminated unexpectedly. Fatal error in plotEditingOptions: Computing plotEditingOptions gave an error: ! Patchworks can only be indexed with numeric indices To receive assistance with this problem, please report the message above at: https://jasp-stats.org/bug-reports"
 			},
-			"environmentName" : "plot_12",
+			"environmentName" : "plot_0",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_4_t1422200136.png",
+			"filePathPng" : "resources/0/_0_t1751899655585.png",
 			"height" : 450,
 			"messages" : [],
 			"name" : "surivalPlot",
@@ -1004,8 +1028,11 @@
 			{
 				"colorPalette" : "colorblind",
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_8_Encoded",
-				"eventStatus.types" : "nominal",
+				"eventStatus" : "JaspColumn_2_Encoded",
+				"eventStatus.types" : 
+				[
+					"nominal"
+				],
 				"plot" : true,
 				"plotAddQuantile" : false,
 				"plotAddQuantileValue" : 0.5,
@@ -1023,14 +1050,19 @@
 				"plotType" : "survival",
 				"strata" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_8_Encoded"
 				],
 				"strata.types" : 
 				[
 					"nominal"
 				],
 				"timeToEvent" : "JaspColumn_3_Encoded",
-				"timeToEvent.types" : "scale"
+				"timeToEvent.types" : 
+				[
+					"scale"
+				],
+				"weights" : "",
+				"weights.types" : []
 			},
 			"optionMustContain" : {},
 			"position" : 3,
@@ -1055,11 +1087,14 @@
 			"optionMustBe" : 
 			{
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_8_Encoded",
-				"eventStatus.types" : "nominal",
+				"eventStatus" : "JaspColumn_2_Encoded",
+				"eventStatus.types" : 
+				[
+					"nominal"
+				],
 				"strata" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_8_Encoded"
 				],
 				"strata.types" : 
 				[
@@ -1068,7 +1103,12 @@
 				"testsFlemmingHarrington" : true,
 				"testsFlemmingHarringtonRho" : 1.0,
 				"timeToEvent" : "JaspColumn_3_Encoded",
-				"timeToEvent.types" : "scale"
+				"timeToEvent.types" : 
+				[
+					"scale"
+				],
+				"weights" : "",
+				"weights.types" : []
 			},
 			"optionMustContain" : {},
 			"position" : 9999,
@@ -1089,11 +1129,14 @@
 			"optionMustBe" : 
 			{
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_8_Encoded",
-				"eventStatus.types" : "nominal",
+				"eventStatus" : "JaspColumn_2_Encoded",
+				"eventStatus.types" : 
+				[
+					"nominal"
+				],
 				"strata" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_8_Encoded"
 				],
 				"strata.types" : 
 				[
@@ -1101,7 +1144,12 @@
 				],
 				"testsLogRank" : true,
 				"timeToEvent" : "JaspColumn_3_Encoded",
-				"timeToEvent.types" : "scale"
+				"timeToEvent.types" : 
+				[
+					"scale"
+				],
+				"weights" : "",
+				"weights.types" : []
 			},
 			"optionMustContain" : {},
 			"position" : 9999,
@@ -1122,11 +1170,14 @@
 			"optionMustBe" : 
 			{
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_8_Encoded",
-				"eventStatus.types" : "nominal",
+				"eventStatus" : "JaspColumn_2_Encoded",
+				"eventStatus.types" : 
+				[
+					"nominal"
+				],
 				"strata" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_8_Encoded"
 				],
 				"strata.types" : 
 				[
@@ -1134,7 +1185,12 @@
 				],
 				"testsPetoAndPeto" : true,
 				"timeToEvent" : "JaspColumn_3_Encoded",
-				"timeToEvent.types" : "scale"
+				"timeToEvent.types" : 
+				[
+					"scale"
+				],
+				"weights" : "",
+				"weights.types" : []
 			},
 			"optionMustContain" : {},
 			"position" : 9999,
@@ -1317,11 +1373,14 @@
 			"optionMustBe" : 
 			{
 				"eventIndicator" : "1",
-				"eventStatus" : "JaspColumn_8_Encoded",
-				"eventStatus.types" : "nominal",
+				"eventStatus" : "JaspColumn_2_Encoded",
+				"eventStatus.types" : 
+				[
+					"nominal"
+				],
 				"strata" : 
 				[
-					"JaspColumn_11_Encoded"
+					"JaspColumn_8_Encoded"
 				],
 				"strata.types" : 
 				[
@@ -1332,7 +1391,12 @@
 				"testsLogRank" : true,
 				"testsPetoAndPeto" : true,
 				"timeToEvent" : "JaspColumn_3_Encoded",
-				"timeToEvent.types" : "scale"
+				"timeToEvent.types" : 
+				[
+					"scale"
+				],
+				"weights" : "",
+				"weights.types" : []
 			},
 			"optionMustContain" : {},
 			"position" : 2,
@@ -1391,10 +1455,10 @@
 	},
 	"data_order" : 
 	{
-		"LifeTableContainer" : 6,
+		"LifeTableContainer" : 7,
 		"fit" : 0,
 		"summaryTable" : 4,
-		"surivalPlot" : 7,
+		"surivalPlot" : 6,
 		"testFlemmingHarrington" : 3,
 		"testLogRank" : 1,
 		"testPetoAndPeto" : 2,
@@ -1425,12 +1489,20 @@
 			"timeToEvent" : 
 			{
 				"shouldEncode" : true
+			},
+			"weights" : 
+			{
+				"shouldEncode" : true
 			}
 		},
+		"censoringSummary" : false,
 		"colorPalette" : "colorblind",
 		"eventIndicator" : "1",
-		"eventStatus" : "JaspColumn_8_Encoded",
-		"eventStatus.types" : "nominal",
+		"eventStatus" : "JaspColumn_2_Encoded",
+		"eventStatus.types" : 
+		[
+			"nominal"
+		],
 		"lifeTable" : true,
 		"lifeTableRoundSteps" : true,
 		"lifeTableStepsFrom" : 0.0,
@@ -1456,7 +1528,7 @@
 		"plotWidth" : 480,
 		"strata" : 
 		[
-			"JaspColumn_11_Encoded"
+			"JaspColumn_8_Encoded"
 		],
 		"strata.types" : 
 		[
@@ -1467,7 +1539,12 @@
 		"testsLogRank" : true,
 		"testsPetoAndPeto" : true,
 		"timeToEvent" : "JaspColumn_3_Encoded",
-		"timeToEvent.types" : "scale"
+		"timeToEvent.types" : 
+		[
+			"scale"
+		],
+		"weights" : "",
+		"weights.types" : []
 	},
 	"order_increment" : 8,
 	"position" : 9999,

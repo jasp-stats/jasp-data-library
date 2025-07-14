@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -176,15 +176,15 @@
 							"data" : 
 							[
 								[
-									"JaspColumn_2_Encoded",
-									"JaspColumn_5_Encoded",
-									"JaspColumn_8_Encoded",
-									"JaspColumn_3_Encoded",
+									"JaspColumn_0_Encoded",
 									"JaspColumn_6_Encoded",
+									"JaspColumn_3_Encoded",
 									"JaspColumn_9_Encoded",
-									"JaspColumn_4_Encoded",
-									"JaspColumn_7_Encoded",
-									"JaspColumn_10_Encoded"
+									"JaspColumn_15_Encoded",
+									"JaspColumn_12_Encoded",
+									"JaspColumn_24_Encoded",
+									"JaspColumn_30_Encoded",
+									"JaspColumn_27_Encoded"
 								],
 								[
 									1.1310520023908985,
@@ -496,9 +496,9 @@
 							"data" : 
 							[
 								[
-									"JaspExtraOptions_0_Encoded",
 									"JaspExtraOptions_4_Encoded",
-									"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_4_Encoded"
+									"JaspExtraOptions_2_Encoded",
+									"JaspExtraOptions_4_Encoded \u273b JaspExtraOptions_2_Encoded"
 								],
 								[
 									0.96020540163633339,
@@ -523,12 +523,12 @@
 								[
 									0.96172840441151319,
 									0.93399443741418664,
-									0.79935427808591664
+									0.79935427808591708
 								],
 								[
 									1.0,
 									1.0,
-									0.99224111056188102
+									0.99224111056188169
 								],
 								[
 									0.5,
@@ -537,7 +537,7 @@
 								],
 								[
 									20779.63333333331,
-									23233.599999999984,
+									23233.59999999998,
 									4055.2666666666755
 								],
 								[
@@ -547,7 +547,7 @@
 								],
 								[
 									882.71111111111145,
-									1274.044444444444,
+									1274.0444444444438,
 									1992.6222222222236
 								],
 								[
@@ -577,7 +577,7 @@
 								],
 								[
 									10389.816666666655,
-									11616.799999999992,
+									11616.79999999999,
 									1013.8166666666689
 								],
 								[
@@ -587,7 +587,7 @@
 								],
 								[
 									0.32461989016677012,
-									0.36295581154842355,
+									0.36295581154842349,
 									0.063351465293595255
 								],
 								[
@@ -597,12 +597,12 @@
 								],
 								[
 									0.80888491547042396,
-									0.82554933340913605,
+									0.82554933340913594,
 									0.45235102957471068
 								],
 								[
 									0.92280334959123156,
-									0.91516108680953134,
+									0.91516108680953123,
 									0.57581990996219035
 								],
 								[
@@ -618,12 +618,12 @@
 								[
 									7.6241142416800853e-25,
 									2.0566205185281652e-22,
-									9.0035984243933795e-14
+									9.0035984243932103e-14
 								],
 								[
 									9.5948116005485974e-26,
 									7.6894297549216035e-24,
-									1.4268831247586506e-16
+									1.4268831247586183e-16
 								]
 							],
 							"error" : false,
@@ -656,9 +656,9 @@
 								"position" : 9999,
 								"rows" : 
 								[
-									"JaspExtraOptions_0_Encoded",
 									"JaspExtraOptions_4_Encoded",
-									"JaspExtraOptions_0_Encoded:JaspExtraOptions_4_Encoded"
+									"JaspExtraOptions_2_Encoded",
+									"JaspExtraOptions_4_Encoded:JaspExtraOptions_2_Encoded"
 								],
 								"title" : "rowNames",
 								"type" : "list"
@@ -893,7 +893,7 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_1_Encoded",
+							"JaspColumn_20_Encoded",
 							"Residuals"
 						],
 						[
@@ -1006,7 +1006,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_1_Encoded",
+							"JaspColumn_20_Encoded",
 							"Residuals"
 						],
 						"title" : "rowNames",
@@ -1215,8 +1215,8 @@
 									"data" : 
 									[
 										[
-											"JaspExtraOptions_5_Encoded - JaspExtraOptions_6_Encoded",
-											"JaspExtraOptions_6_Encoded - JaspExtraOptions_7_Encoded"
+											"JaspExtraOptions_3_Encoded - JaspExtraOptions_6_Encoded",
+											"JaspExtraOptions_6_Encoded - JaspExtraOptions_5_Encoded"
 										],
 										[
 											12.799999999999983,
@@ -1239,8 +1239,8 @@
 											1.1562666831765081e-11
 										],
 										[
-											"JaspExtraOptions_5_Encoded - JaspExtraOptions_6_Encoded",
-											"JaspExtraOptions_6_Encoded - JaspExtraOptions_7_Encoded"
+											"JaspExtraOptions_3_Encoded - JaspExtraOptions_6_Encoded",
+											"JaspExtraOptions_6_Encoded - JaspExtraOptions_5_Encoded"
 										],
 										[
 											10.23523223250621,
@@ -1274,7 +1274,7 @@
 											"cols" : null,
 											"rows" : null,
 											"symbol" : "<em>Note.</em>",
-											"text" : "Results are averaged over the levels of: JaspColumn_1_Encoded, JaspExtraOptions_0_Encoded"
+											"text" : "Results are averaged over the levels of: JaspColumn_20_Encoded, JaspExtraOptions_4_Encoded"
 										}
 									],
 									"messages" : [],
@@ -1337,7 +1337,7 @@
 										"t.ratio"
 									],
 									"status" : "complete",
-									"title" : "Repeated Contrast - JaspExtraOptions_4_Encoded",
+									"title" : "Repeated Contrast - JaspExtraOptions_2_Encoded",
 									"transposeTable" : false,
 									"transposeWithOvertitle" : false,
 									"type" : "table"
@@ -1523,8 +1523,8 @@
 									"data" : 
 									[
 										[
-											"JaspExtraOptions_1_Encoded - JaspExtraOptions_2_Encoded",
-											"JaspExtraOptions_2_Encoded - JaspExtraOptions_3_Encoded"
+											"JaspExtraOptions_0_Encoded - JaspExtraOptions_1_Encoded",
+											"JaspExtraOptions_1_Encoded - JaspExtraOptions_7_Encoded"
 										],
 										[
 											14.316666666666659,
@@ -1547,8 +1547,8 @@
 											2.1438521428167623e-10
 										],
 										[
-											"JaspExtraOptions_1_Encoded - JaspExtraOptions_2_Encoded",
-											"JaspExtraOptions_2_Encoded - JaspExtraOptions_3_Encoded"
+											"JaspExtraOptions_0_Encoded - JaspExtraOptions_1_Encoded",
+											"JaspExtraOptions_1_Encoded - JaspExtraOptions_7_Encoded"
 										],
 										[
 											12.320244754500095,
@@ -1582,7 +1582,7 @@
 											"cols" : null,
 											"rows" : null,
 											"symbol" : "<em>Note.</em>",
-											"text" : "Results are averaged over the levels of: JaspColumn_1_Encoded, JaspExtraOptions_4_Encoded"
+											"text" : "Results are averaged over the levels of: JaspColumn_20_Encoded, JaspExtraOptions_2_Encoded"
 										}
 									],
 									"messages" : [],
@@ -1645,7 +1645,7 @@
 										"t.ratio"
 									],
 									"status" : "complete",
-									"title" : "Repeated Contrast - JaspExtraOptions_0_Encoded",
+									"title" : "Repeated Contrast - JaspExtraOptions_4_Encoded",
 									"transposeTable" : false,
 									"transposeWithOvertitle" : false,
 									"type" : "table"
@@ -1695,21 +1695,21 @@
 								"contrast" : "repeated",
 								"variable" : 
 								[
-									"JaspExtraOptions_0_Encoded"
+									"JaspExtraOptions_4_Encoded"
 								]
 							},
 							{
 								"contrast" : "repeated",
 								"variable" : 
 								[
-									"JaspExtraOptions_4_Encoded"
+									"JaspExtraOptions_2_Encoded"
 								]
 							},
 							{
 								"contrast" : "none",
 								"variable" : 
 								[
-									"JaspColumn_1_Encoded"
+									"JaspColumn_20_Encoded"
 								]
 							}
 						],
@@ -1750,11 +1750,11 @@
 											{
 												"labels" : 
 												[
+													"JaspExtraOptions_0_Encoded",
 													"JaspExtraOptions_1_Encoded",
-													"JaspExtraOptions_2_Encoded",
-													"JaspExtraOptions_3_Encoded"
+													"JaspExtraOptions_7_Encoded"
 												],
-												"title" : "JaspExtraOptions_0_Encoded",
+												"title" : "JaspExtraOptions_4_Encoded",
 												"titleType" : "character"
 											},
 											"type" : "ScaleDiscrete"
@@ -1813,7 +1813,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_1_t1732273651193.png",
+									"filePathPng" : "resources/0/_1_t1751897720268.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "gender: Female",
@@ -1825,7 +1825,7 @@
 									"resizedByUser" : false,
 									"revision" : 0,
 									"status" : "complete",
-									"title" : "JaspColumn_1_Encoded: Female",
+									"title" : "JaspColumn_20_Encoded: Female",
 									"type" : "plot",
 									"width" : 430
 								},
@@ -1842,11 +1842,11 @@
 											{
 												"labels" : 
 												[
+													"JaspExtraOptions_0_Encoded",
 													"JaspExtraOptions_1_Encoded",
-													"JaspExtraOptions_2_Encoded",
-													"JaspExtraOptions_3_Encoded"
+													"JaspExtraOptions_7_Encoded"
 												],
-												"title" : "JaspExtraOptions_0_Encoded",
+												"title" : "JaspExtraOptions_4_Encoded",
 												"titleType" : "character"
 											},
 											"type" : "ScaleDiscrete"
@@ -1905,7 +1905,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_0_t1732273650979.png",
+									"filePathPng" : "resources/0/_0_t1751897720048.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "gender: Male",
@@ -1917,7 +1917,7 @@
 									"resizedByUser" : false,
 									"revision" : 0,
 									"status" : "complete",
-									"title" : "JaspColumn_1_Encoded: Male",
+									"title" : "JaspColumn_20_Encoded: Male",
 									"type" : "plot",
 									"width" : 430
 								}
@@ -1942,17 +1942,17 @@
 								"descriptivePlotErrorBar" : true,
 								"descriptivePlotErrorBarPooled" : false,
 								"descriptivePlotErrorBarType" : "ci",
-								"descriptivePlotHorizontalAxis" : "JaspExtraOptions_0_Encoded",
+								"descriptivePlotHorizontalAxis" : "JaspExtraOptions_4_Encoded",
 								"descriptivePlotHorizontalAxis.types" : 
 								[
 									"unknown"
 								],
-								"descriptivePlotSeparateLines" : "JaspExtraOptions_4_Encoded",
+								"descriptivePlotSeparateLines" : "JaspExtraOptions_2_Encoded",
 								"descriptivePlotSeparateLines.types" : 
 								[
 									"unknown"
 								],
-								"descriptivePlotSeparatePlot" : "JaspColumn_1_Encoded",
+								"descriptivePlotSeparatePlot" : "JaspColumn_20_Encoded",
 								"descriptivePlotSeparatePlot.types" : 
 								[
 									"nominal"
@@ -1977,8 +1977,8 @@
 								"escapeHtml" : true,
 								"fields" : 
 								{
-									"JaspColumn_1_Encoded." : true,
-									"JaspExtraOptions_0_Encoded." : true,
+									"JaspColumn_20_Encoded." : true,
+									"JaspExtraOptions_2_Encoded." : true,
 									"JaspExtraOptions_4_Encoded." : true
 								},
 								"listType" : "bool",
@@ -2035,9 +2035,9 @@
 								"position" : 9999,
 								"rows" : 
 								[
-									"JaspExtraOptions_0_Encoded.",
 									"JaspExtraOptions_4_Encoded.",
-									"JaspColumn_1_Encoded.",
+									"JaspExtraOptions_2_Encoded.",
+									"JaspColumn_20_Encoded.",
 									"N",
 									"Mean",
 									"SD",
@@ -2077,8 +2077,8 @@
 								"escapeHtml" : true,
 								"fields" : 
 								{
-									"JaspColumn_1_Encoded." : "JaspColumn_1_Encoded",
-									"JaspExtraOptions_0_Encoded." : "JaspExtraOptions_0_Encoded",
+									"JaspColumn_20_Encoded." : "JaspColumn_20_Encoded",
+									"JaspExtraOptions_2_Encoded." : "JaspExtraOptions_2_Encoded",
 									"JaspExtraOptions_4_Encoded." : "JaspExtraOptions_4_Encoded",
 									"Mean" : "Mean",
 									"N" : "N",
@@ -2106,8 +2106,8 @@
 								"escapeHtml" : true,
 								"fields" : 
 								{
-									"JaspColumn_1_Encoded." : "string",
-									"JaspExtraOptions_0_Encoded." : "string",
+									"JaspColumn_20_Encoded." : "string",
+									"JaspExtraOptions_2_Encoded." : "string",
 									"JaspExtraOptions_4_Encoded." : "string",
 									"Mean" : "number",
 									"N" : "integer",
@@ -2130,44 +2130,44 @@
 							"data" : 
 							[
 								[
+									"JaspExtraOptions_0_Encoded",
+									"JaspExtraOptions_0_Encoded",
+									"JaspExtraOptions_0_Encoded",
+									"JaspExtraOptions_0_Encoded",
+									"JaspExtraOptions_0_Encoded",
+									"JaspExtraOptions_0_Encoded",
 									"JaspExtraOptions_1_Encoded",
 									"JaspExtraOptions_1_Encoded",
 									"JaspExtraOptions_1_Encoded",
 									"JaspExtraOptions_1_Encoded",
 									"JaspExtraOptions_1_Encoded",
 									"JaspExtraOptions_1_Encoded",
-									"JaspExtraOptions_2_Encoded",
-									"JaspExtraOptions_2_Encoded",
-									"JaspExtraOptions_2_Encoded",
-									"JaspExtraOptions_2_Encoded",
-									"JaspExtraOptions_2_Encoded",
-									"JaspExtraOptions_2_Encoded",
-									"JaspExtraOptions_3_Encoded",
-									"JaspExtraOptions_3_Encoded",
-									"JaspExtraOptions_3_Encoded",
-									"JaspExtraOptions_3_Encoded",
-									"JaspExtraOptions_3_Encoded",
-									"JaspExtraOptions_3_Encoded"
-								],
-								[
-									"JaspExtraOptions_5_Encoded",
-									"JaspExtraOptions_5_Encoded",
-									"JaspExtraOptions_6_Encoded",
-									"JaspExtraOptions_6_Encoded",
 									"JaspExtraOptions_7_Encoded",
 									"JaspExtraOptions_7_Encoded",
-									"JaspExtraOptions_5_Encoded",
-									"JaspExtraOptions_5_Encoded",
-									"JaspExtraOptions_6_Encoded",
-									"JaspExtraOptions_6_Encoded",
 									"JaspExtraOptions_7_Encoded",
 									"JaspExtraOptions_7_Encoded",
-									"JaspExtraOptions_5_Encoded",
-									"JaspExtraOptions_5_Encoded",
-									"JaspExtraOptions_6_Encoded",
-									"JaspExtraOptions_6_Encoded",
 									"JaspExtraOptions_7_Encoded",
 									"JaspExtraOptions_7_Encoded"
+								],
+								[
+									"JaspExtraOptions_3_Encoded",
+									"JaspExtraOptions_3_Encoded",
+									"JaspExtraOptions_6_Encoded",
+									"JaspExtraOptions_6_Encoded",
+									"JaspExtraOptions_5_Encoded",
+									"JaspExtraOptions_5_Encoded",
+									"JaspExtraOptions_3_Encoded",
+									"JaspExtraOptions_3_Encoded",
+									"JaspExtraOptions_6_Encoded",
+									"JaspExtraOptions_6_Encoded",
+									"JaspExtraOptions_5_Encoded",
+									"JaspExtraOptions_5_Encoded",
+									"JaspExtraOptions_3_Encoded",
+									"JaspExtraOptions_3_Encoded",
+									"JaspExtraOptions_6_Encoded",
+									"JaspExtraOptions_6_Encoded",
+									"JaspExtraOptions_5_Encoded",
+									"JaspExtraOptions_5_Encoded"
 								],
 								[
 									"Male",
@@ -2344,7 +2344,7 @@
 							{
 								"betweenSubjectFactors" : 
 								[
-									"JaspColumn_1_Encoded"
+									"JaspColumn_20_Encoded"
 								],
 								"betweenSubjectFactors.types" : 
 								[
@@ -2374,24 +2374,24 @@
 								"position" : 9999,
 								"rows" : 
 								[
-									"JaspExtraOptions_1_Encoded.JaspExtraOptions_5_Encoded.Male.",
-									"JaspExtraOptions_1_Encoded.JaspExtraOptions_5_Encoded.Female.",
+									"JaspExtraOptions_0_Encoded.JaspExtraOptions_3_Encoded.Male.",
+									"JaspExtraOptions_0_Encoded.JaspExtraOptions_3_Encoded.Female.",
+									"JaspExtraOptions_0_Encoded.JaspExtraOptions_6_Encoded.Male.",
+									"JaspExtraOptions_0_Encoded.JaspExtraOptions_6_Encoded.Female.",
+									"JaspExtraOptions_0_Encoded.JaspExtraOptions_5_Encoded.Male.",
+									"JaspExtraOptions_0_Encoded.JaspExtraOptions_5_Encoded.Female.",
+									"JaspExtraOptions_1_Encoded.JaspExtraOptions_3_Encoded.Male.",
+									"JaspExtraOptions_1_Encoded.JaspExtraOptions_3_Encoded.Female.",
 									"JaspExtraOptions_1_Encoded.JaspExtraOptions_6_Encoded.Male.",
 									"JaspExtraOptions_1_Encoded.JaspExtraOptions_6_Encoded.Female.",
-									"JaspExtraOptions_1_Encoded.JaspExtraOptions_7_Encoded.Male.",
-									"JaspExtraOptions_1_Encoded.JaspExtraOptions_7_Encoded.Female.",
-									"JaspExtraOptions_2_Encoded.JaspExtraOptions_5_Encoded.Male.",
-									"JaspExtraOptions_2_Encoded.JaspExtraOptions_5_Encoded.Female.",
-									"JaspExtraOptions_2_Encoded.JaspExtraOptions_6_Encoded.Male.",
-									"JaspExtraOptions_2_Encoded.JaspExtraOptions_6_Encoded.Female.",
-									"JaspExtraOptions_2_Encoded.JaspExtraOptions_7_Encoded.Male.",
-									"JaspExtraOptions_2_Encoded.JaspExtraOptions_7_Encoded.Female.",
-									"JaspExtraOptions_3_Encoded.JaspExtraOptions_5_Encoded.Male.",
-									"JaspExtraOptions_3_Encoded.JaspExtraOptions_5_Encoded.Female.",
-									"JaspExtraOptions_3_Encoded.JaspExtraOptions_6_Encoded.Male.",
-									"JaspExtraOptions_3_Encoded.JaspExtraOptions_6_Encoded.Female.",
-									"JaspExtraOptions_3_Encoded.JaspExtraOptions_7_Encoded.Male.",
-									"JaspExtraOptions_3_Encoded.JaspExtraOptions_7_Encoded.Female."
+									"JaspExtraOptions_1_Encoded.JaspExtraOptions_5_Encoded.Male.",
+									"JaspExtraOptions_1_Encoded.JaspExtraOptions_5_Encoded.Female.",
+									"JaspExtraOptions_7_Encoded.JaspExtraOptions_3_Encoded.Male.",
+									"JaspExtraOptions_7_Encoded.JaspExtraOptions_3_Encoded.Female.",
+									"JaspExtraOptions_7_Encoded.JaspExtraOptions_6_Encoded.Male.",
+									"JaspExtraOptions_7_Encoded.JaspExtraOptions_6_Encoded.Female.",
+									"JaspExtraOptions_7_Encoded.JaspExtraOptions_5_Encoded.Male.",
+									"JaspExtraOptions_7_Encoded.JaspExtraOptions_5_Encoded.Female."
 								],
 								"title" : "rowNames",
 								"type" : "list"
@@ -2418,8 +2418,8 @@
 							"showSpecifiedColumnsOnly" : true,
 							"specifiedColumns" : 
 							[
-								"JaspColumn_1_Encoded.",
-								"JaspExtraOptions_0_Encoded.",
+								"JaspColumn_20_Encoded.",
+								"JaspExtraOptions_2_Encoded.",
 								"JaspExtraOptions_4_Encoded.",
 								"Mean",
 								"N",
@@ -2452,15 +2452,15 @@
 						"dependent" : null,
 						"repeatedMeasuresCells" : 
 						[
-							"JaspColumn_2_Encoded",
-							"JaspColumn_5_Encoded",
-							"JaspColumn_8_Encoded",
-							"JaspColumn_3_Encoded",
+							"JaspColumn_0_Encoded",
 							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded",
 							"JaspColumn_9_Encoded",
-							"JaspColumn_4_Encoded",
-							"JaspColumn_7_Encoded",
-							"JaspColumn_10_Encoded"
+							"JaspColumn_15_Encoded",
+							"JaspColumn_12_Encoded",
+							"JaspColumn_24_Encoded",
+							"JaspColumn_30_Encoded",
+							"JaspColumn_27_Encoded"
 						]
 					},
 					"optionMustContain" : {},
@@ -2712,14 +2712,14 @@
 							"data" : 
 							[
 								[
-									"JaspExtraOptions_5_Encoded",
-									"JaspExtraOptions_5_Encoded",
+									"JaspExtraOptions_3_Encoded",
+									"JaspExtraOptions_3_Encoded",
 									"JaspExtraOptions_6_Encoded"
 								],
 								[
 									"JaspExtraOptions_6_Encoded",
-									"JaspExtraOptions_7_Encoded",
-									"JaspExtraOptions_7_Encoded"
+									"JaspExtraOptions_5_Encoded",
+									"JaspExtraOptions_5_Encoded"
 								],
 								[
 									12.799999999999983,
@@ -2752,9 +2752,9 @@
 									3.4688000495295247e-11
 								],
 								[
-									"JaspExtraOptions_5_Encoded - JaspExtraOptions_6_Encoded",
-									"JaspExtraOptions_5_Encoded - JaspExtraOptions_7_Encoded",
-									"JaspExtraOptions_6_Encoded - JaspExtraOptions_7_Encoded"
+									"JaspExtraOptions_3_Encoded - JaspExtraOptions_6_Encoded",
+									"JaspExtraOptions_3_Encoded - JaspExtraOptions_5_Encoded",
+									"JaspExtraOptions_6_Encoded - JaspExtraOptions_5_Encoded"
 								],
 								[
 									9.5781795626220561,
@@ -2819,7 +2819,7 @@
 									"cols" : null,
 									"rows" : null,
 									"symbol" : "<em>Note.</em>",
-									"text" : "Results are averaged over the levels of: JaspColumn_1_Encoded, JaspExtraOptions_0_Encoded"
+									"text" : "Results are averaged over the levels of: JaspColumn_20_Encoded, JaspExtraOptions_4_Encoded"
 								}
 							],
 							"messages" : [],
@@ -2885,7 +2885,7 @@
 								"t.ratio"
 							],
 							"status" : "complete",
-							"title" : "Post Hoc Comparisons - JaspExtraOptions_4_Encoded",
+							"title" : "Post Hoc Comparisons - JaspExtraOptions_2_Encoded",
 							"transposeTable" : false,
 							"transposeWithOvertitle" : false,
 							"type" : "table"
@@ -3061,14 +3061,14 @@
 							"data" : 
 							[
 								[
-									"JaspExtraOptions_1_Encoded",
-									"JaspExtraOptions_1_Encoded",
-									"JaspExtraOptions_2_Encoded"
+									"JaspExtraOptions_0_Encoded",
+									"JaspExtraOptions_0_Encoded",
+									"JaspExtraOptions_1_Encoded"
 								],
 								[
-									"JaspExtraOptions_2_Encoded",
-									"JaspExtraOptions_3_Encoded",
-									"JaspExtraOptions_3_Encoded"
+									"JaspExtraOptions_1_Encoded",
+									"JaspExtraOptions_7_Encoded",
+									"JaspExtraOptions_7_Encoded"
 								],
 								[
 									14.316666666666659,
@@ -3101,9 +3101,9 @@
 									6.4315564284502867e-10
 								],
 								[
-									"JaspExtraOptions_1_Encoded - JaspExtraOptions_2_Encoded",
-									"JaspExtraOptions_1_Encoded - JaspExtraOptions_3_Encoded",
-									"JaspExtraOptions_2_Encoded - JaspExtraOptions_3_Encoded"
+									"JaspExtraOptions_0_Encoded - JaspExtraOptions_1_Encoded",
+									"JaspExtraOptions_0_Encoded - JaspExtraOptions_7_Encoded",
+									"JaspExtraOptions_1_Encoded - JaspExtraOptions_7_Encoded"
 								],
 								[
 									11.808793244453209,
@@ -3168,7 +3168,7 @@
 									"cols" : null,
 									"rows" : null,
 									"symbol" : "<em>Note.</em>",
-									"text" : "Results are averaged over the levels of: JaspColumn_1_Encoded, JaspExtraOptions_4_Encoded"
+									"text" : "Results are averaged over the levels of: JaspColumn_20_Encoded, JaspExtraOptions_2_Encoded"
 								}
 							],
 							"messages" : [],
@@ -3234,7 +3234,7 @@
 								"t.ratio"
 							],
 							"status" : "complete",
-							"title" : "Post Hoc Comparisons - JaspExtraOptions_0_Encoded",
+							"title" : "Post Hoc Comparisons - JaspExtraOptions_4_Encoded",
 							"transposeTable" : false,
 							"transposeWithOvertitle" : false,
 							"type" : "table"
@@ -3475,7 +3475,7 @@
 									"cols" : null,
 									"rows" : null,
 									"symbol" : "<em>Note.</em>",
-									"text" : "Results are averaged over the levels of: JaspExtraOptions_4_Encoded, JaspExtraOptions_0_Encoded"
+									"text" : "Results are averaged over the levels of: JaspExtraOptions_2_Encoded, JaspExtraOptions_4_Encoded"
 								}
 							],
 							"messages" : [],
@@ -3539,7 +3539,7 @@
 								"t.ratio"
 							],
 							"status" : "complete",
-							"title" : "Post Hoc Comparisons - JaspColumn_1_Encoded",
+							"title" : "Post Hoc Comparisons - JaspColumn_20_Encoded",
 							"transposeTable" : false,
 							"transposeWithOvertitle" : false,
 							"type" : "table"
@@ -3577,19 +3577,19 @@
 							{
 								"variable" : 
 								[
-									"JaspExtraOptions_0_Encoded"
-								]
-							},
-							{
-								"variable" : 
-								[
 									"JaspExtraOptions_4_Encoded"
 								]
 							},
 							{
 								"variable" : 
 								[
-									"JaspColumn_1_Encoded"
+									"JaspExtraOptions_2_Encoded"
+								]
+							},
+							{
+								"variable" : 
+								[
+									"JaspColumn_20_Encoded"
 								]
 							}
 						],
@@ -3625,20 +3625,20 @@
 							{
 								"components" : 
 								[
-									"JaspExtraOptions_0_Encoded"
-								]
-							},
-							{
-								"components" : 
-								[
 									"JaspExtraOptions_4_Encoded"
 								]
 							},
 							{
 								"components" : 
 								[
-									"JaspExtraOptions_0_Encoded",
-									"JaspExtraOptions_4_Encoded"
+									"JaspExtraOptions_2_Encoded"
+								]
+							},
+							{
+								"components" : 
+								[
+									"JaspExtraOptions_4_Encoded",
+									"JaspExtraOptions_2_Encoded"
 								]
 							}
 						],
@@ -3839,30 +3839,30 @@
 					"data" : 
 					[
 						[
-							"JaspExtraOptions_0_Encoded",
-							"JaspExtraOptions_0_Encoded",
-							"JaspExtraOptions_0_Encoded",
-							"JaspExtraOptions_0_Encoded \u273b JaspColumn_1_Encoded",
-							"JaspExtraOptions_0_Encoded \u273b JaspColumn_1_Encoded",
-							"JaspExtraOptions_0_Encoded \u273b JaspColumn_1_Encoded",
-							"Residuals",
-							"Residuals",
-							"Residuals",
 							"JaspExtraOptions_4_Encoded",
 							"JaspExtraOptions_4_Encoded",
 							"JaspExtraOptions_4_Encoded",
-							"JaspExtraOptions_4_Encoded \u273b JaspColumn_1_Encoded",
-							"JaspExtraOptions_4_Encoded \u273b JaspColumn_1_Encoded",
-							"JaspExtraOptions_4_Encoded \u273b JaspColumn_1_Encoded",
+							"JaspExtraOptions_4_Encoded \u273b JaspColumn_20_Encoded",
+							"JaspExtraOptions_4_Encoded \u273b JaspColumn_20_Encoded",
+							"JaspExtraOptions_4_Encoded \u273b JaspColumn_20_Encoded",
 							"Residuals",
 							"Residuals",
 							"Residuals",
-							"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_4_Encoded",
-							"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_4_Encoded",
-							"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_4_Encoded",
-							"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_4_Encoded \u273b JaspColumn_1_Encoded",
-							"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_4_Encoded \u273b JaspColumn_1_Encoded",
-							"JaspExtraOptions_0_Encoded \u273b JaspExtraOptions_4_Encoded \u273b JaspColumn_1_Encoded",
+							"JaspExtraOptions_2_Encoded",
+							"JaspExtraOptions_2_Encoded",
+							"JaspExtraOptions_2_Encoded",
+							"JaspExtraOptions_2_Encoded \u273b JaspColumn_20_Encoded",
+							"JaspExtraOptions_2_Encoded \u273b JaspColumn_20_Encoded",
+							"JaspExtraOptions_2_Encoded \u273b JaspColumn_20_Encoded",
+							"Residuals",
+							"Residuals",
+							"Residuals",
+							"JaspExtraOptions_4_Encoded \u273b JaspExtraOptions_2_Encoded",
+							"JaspExtraOptions_4_Encoded \u273b JaspExtraOptions_2_Encoded",
+							"JaspExtraOptions_4_Encoded \u273b JaspExtraOptions_2_Encoded",
+							"JaspExtraOptions_4_Encoded \u273b JaspExtraOptions_2_Encoded \u273b JaspColumn_20_Encoded",
+							"JaspExtraOptions_4_Encoded \u273b JaspExtraOptions_2_Encoded \u273b JaspColumn_20_Encoded",
+							"JaspExtraOptions_4_Encoded \u273b JaspExtraOptions_2_Encoded \u273b JaspColumn_20_Encoded",
 							"Residuals",
 							"Residuals",
 							"Residuals"
@@ -3906,15 +3906,15 @@
 							882.71111111111145,
 							882.71111111111145,
 							882.71111111111145,
-							23233.599999999984,
-							23233.599999999984,
-							23233.599999999984,
+							23233.59999999998,
+							23233.59999999998,
+							23233.59999999998,
 							4420.1333333333341,
 							4420.1333333333341,
 							4420.1333333333341,
-							1274.044444444444,
-							1274.044444444444,
-							1274.044444444444,
+							1274.0444444444438,
+							1274.0444444444438,
+							1274.0444444444438,
 							4055.2666666666755,
 							4055.2666666666755,
 							4055.2666666666755,
@@ -3945,14 +3945,14 @@
 							33.62379974691072,
 							37.369934257647614,
 							4.0,
-							3.1974171123436665,
-							3.9689644422475241,
+							3.1974171123436683,
+							3.9689644422475268,
 							4.0,
-							3.1974171123436665,
-							3.9689644422475241,
+							3.1974171123436683,
+							3.9689644422475268,
 							72.0,
-							57.553508022185994,
-							71.441359960455429
+							57.55350802218603,
+							71.441359960455486
 						],
 						[
 							10389.816666666655,
@@ -3964,24 +3964,24 @@
 							24.519753086419762,
 							25.495506812470126,
 							22.821543923672451,
-							11616.799999999992,
-							12437.761441236975,
-							11616.799999999992,
+							11616.79999999999,
+							12437.761441236973,
+							11616.79999999999,
 							2210.0666666666671,
 							2366.2524937357812,
 							2210.0666666666671,
-							35.390123456790114,
+							35.390123456790107,
 							37.89115013871983,
 							34.09276654490543,
 							1013.8166666666689,
-							1268.294540306071,
-							1021.7442674720161,
+							1268.2945403060703,
+							1021.7442674720154,
 							667.41666666666697,
-							834.94476099486303,
-							672.6355716996303,
+							834.94476099486258,
+							672.63557169962985,
 							27.675308641975327,
-							34.622081098064399,
-							27.891717393470529
+							34.622081098064378,
+							27.891717393470504
 						],
 						[
 							423.73251598610278,
@@ -3996,9 +3996,9 @@
 							328.24977325054056,
 							328.24977325054056,
 							328.24977325054056,
-							62.44868485313615,
-							62.44868485313615,
-							62.44868485313615,
+							62.448684853136157,
+							62.448684853136157,
+							62.448684853136157,
 							"",
 							"",
 							"",
@@ -4025,18 +4025,18 @@
 							7.6894297549216035e-24,
 							2.0566205185281652e-22,
 							7.6894297549216035e-24,
-							1.9749859639075459e-12,
+							1.974985963907539e-12,
 							9.4424256584936001e-12,
-							1.9749859639075459e-12,
+							1.974985963907539e-12,
 							"",
 							"",
 							"",
 							1.1013081325369259e-16,
-							9.0035984243933795e-14,
-							1.4268831247586506e-16,
+							9.0035984243932103e-14,
+							1.4268831247586183e-16,
 							1.1078009545646225e-12,
-							1.4704218266805763e-10,
-							1.3378764445002146e-12,
+							1.470421826680559e-10,
+							1.3378764445002002e-12,
 							"",
 							"",
 							""
@@ -4051,9 +4051,9 @@
 							"",
 							"",
 							"",
-							0.36295581154842355,
-							0.36295581154842355,
-							0.36295581154842355,
+							0.36295581154842349,
+							0.36295581154842349,
+							0.36295581154842349,
 							0.069051420406318439,
 							0.069051420406318439,
 							0.069051420406318439,
@@ -4106,12 +4106,12 @@
 							"",
 							"",
 							"",
-							1274.044444444444,
-							1274.044444444444,
-							1274.044444444444,
-							1274.044444444444,
-							1274.044444444444,
-							1274.044444444444,
+							1274.0444444444438,
+							1274.0444444444438,
+							1274.0444444444438,
+							1274.0444444444438,
+							1274.0444444444438,
+							1274.0444444444438,
 							"",
 							"",
 							"",
@@ -4145,11 +4145,11 @@
 							"",
 							"",
 							72.0,
-							57.553508022185994,
-							71.441359960455429,
+							57.55350802218603,
+							71.441359960455486,
 							72.0,
-							57.553508022185994,
-							71.441359960455429,
+							57.55350802218603,
+							71.441359960455486,
 							"",
 							"",
 							""
@@ -4225,18 +4225,18 @@
 							8.9891493782850948e+20,
 							3.5821129256248033e+19,
 							8.9891493782850948e+20,
-							6911547947.1209621,
+							6911547947.120986,
 							1534726348.2063766,
-							6911547947.1209621,
+							6911547947.120986,
 							null,
 							null,
 							null,
 							90907568460161.75,
-							136022324172.87495,
-							70663056902760.5,
+							136022324172.87741,
+							70663056902762.047,
 							12063100903.879782,
-							110504857.58444954,
-							10057545206.410202
+							110504857.58445078,
+							10057545206.410307
 						],
 						[
 							0.80888491547042396,
@@ -4248,9 +4248,9 @@
 							"",
 							"",
 							"",
-							0.82554933340913605,
-							0.82554933340913605,
-							0.82554933340913605,
+							0.82554933340913594,
+							0.82554933340913594,
+							0.82554933340913594,
 							0.47376845354636793,
 							0.47376845354636793,
 							0.47376845354636793,
@@ -4277,12 +4277,12 @@
 							"",
 							"",
 							"",
-							0.91516108680953134,
-							0.91516108680953134,
-							0.91516108680953134,
-							0.6694778721138428,
-							0.6694778721138428,
-							0.6694778721138428,
+							0.91516108680953123,
+							0.91516108680953123,
+							0.91516108680953123,
+							0.66947787211384291,
+							0.66947787211384291,
+							0.66947787211384291,
 							"",
 							"",
 							"",
@@ -4341,10 +4341,10 @@
 							null,
 							null,
 							null,
-							0.79935427808591664,
+							0.79935427808591708,
 							null,
 							null,
-							0.79935427808591664
+							0.79935427808591708
 						],
 						[
 							7.6241142416800853e-25,
@@ -4365,10 +4365,10 @@
 							null,
 							null,
 							null,
-							9.0035984243933795e-14,
+							9.0035984243932103e-14,
 							null,
 							null,
-							1.4704218266805763e-10
+							1.470421826680559e-10
 						],
 						[
 							1.0744125449367947,
@@ -4389,10 +4389,10 @@
 							null,
 							null,
 							null,
-							0.99224111056188102,
+							0.99224111056188169,
 							null,
 							null,
-							0.99224111056188102
+							0.99224111056188169
 						],
 						[
 							9.5948116005485974e-26,
@@ -4407,16 +4407,16 @@
 							7.6894297549216035e-24,
 							null,
 							null,
-							1.9749859639075459e-12,
+							1.974985963907539e-12,
 							null,
 							null,
 							null,
 							null,
 							null,
-							1.4268831247586506e-16,
+							1.4268831247586183e-16,
 							null,
 							null,
-							1.3378764445002146e-12
+							1.3378764445002002e-12
 						],
 						[
 							0.96020540163633339,
@@ -4577,33 +4577,33 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspExtraOptions_0_EncodedNone",
-							"JaspExtraOptions_0_EncodedGreenhouse-Geisser",
-							"JaspExtraOptions_0_EncodedHuynh-Feldt",
-							"JaspColumn_1_Encoded:JaspExtraOptions_0_EncodedNone",
-							"JaspColumn_1_Encoded:JaspExtraOptions_0_EncodedGreenhouse-Geisser",
-							"JaspColumn_1_Encoded:JaspExtraOptions_0_EncodedHuynh-Feldt",
-							"JaspExtraOptions_0_EncodedResidNone",
-							"JaspExtraOptions_0_EncodedResidGreenhouse-Geisser",
-							"JaspExtraOptions_0_EncodedResidHuynh-Feldt",
 							"JaspExtraOptions_4_EncodedNone",
 							"JaspExtraOptions_4_EncodedGreenhouse-Geisser",
 							"JaspExtraOptions_4_EncodedHuynh-Feldt",
-							"JaspColumn_1_Encoded:JaspExtraOptions_4_EncodedNone",
-							"JaspColumn_1_Encoded:JaspExtraOptions_4_EncodedGreenhouse-Geisser",
-							"JaspColumn_1_Encoded:JaspExtraOptions_4_EncodedHuynh-Feldt",
+							"JaspColumn_20_Encoded:JaspExtraOptions_4_EncodedNone",
+							"JaspColumn_20_Encoded:JaspExtraOptions_4_EncodedGreenhouse-Geisser",
+							"JaspColumn_20_Encoded:JaspExtraOptions_4_EncodedHuynh-Feldt",
 							"JaspExtraOptions_4_EncodedResidNone",
 							"JaspExtraOptions_4_EncodedResidGreenhouse-Geisser",
 							"JaspExtraOptions_4_EncodedResidHuynh-Feldt",
-							"JaspExtraOptions_0_Encoded:JaspExtraOptions_4_EncodedNone",
-							"JaspExtraOptions_0_Encoded:JaspExtraOptions_4_EncodedGreenhouse-Geisser",
-							"JaspExtraOptions_0_Encoded:JaspExtraOptions_4_EncodedHuynh-Feldt",
-							"JaspColumn_1_Encoded:JaspExtraOptions_0_Encoded:JaspExtraOptions_4_EncodedNone",
-							"JaspColumn_1_Encoded:JaspExtraOptions_0_Encoded:JaspExtraOptions_4_EncodedGreenhouse-Geisser",
-							"JaspColumn_1_Encoded:JaspExtraOptions_0_Encoded:JaspExtraOptions_4_EncodedHuynh-Feldt",
-							"JaspExtraOptions_0_Encoded:JaspExtraOptions_4_EncodedResidNone",
-							"JaspExtraOptions_0_Encoded:JaspExtraOptions_4_EncodedResidGreenhouse-Geisser",
-							"JaspExtraOptions_0_Encoded:JaspExtraOptions_4_EncodedResidHuynh-Feldt"
+							"JaspExtraOptions_2_EncodedNone",
+							"JaspExtraOptions_2_EncodedGreenhouse-Geisser",
+							"JaspExtraOptions_2_EncodedHuynh-Feldt",
+							"JaspColumn_20_Encoded:JaspExtraOptions_2_EncodedNone",
+							"JaspColumn_20_Encoded:JaspExtraOptions_2_EncodedGreenhouse-Geisser",
+							"JaspColumn_20_Encoded:JaspExtraOptions_2_EncodedHuynh-Feldt",
+							"JaspExtraOptions_2_EncodedResidNone",
+							"JaspExtraOptions_2_EncodedResidGreenhouse-Geisser",
+							"JaspExtraOptions_2_EncodedResidHuynh-Feldt",
+							"JaspExtraOptions_4_Encoded:JaspExtraOptions_2_EncodedNone",
+							"JaspExtraOptions_4_Encoded:JaspExtraOptions_2_EncodedGreenhouse-Geisser",
+							"JaspExtraOptions_4_Encoded:JaspExtraOptions_2_EncodedHuynh-Feldt",
+							"JaspColumn_20_Encoded:JaspExtraOptions_4_Encoded:JaspExtraOptions_2_EncodedNone",
+							"JaspColumn_20_Encoded:JaspExtraOptions_4_Encoded:JaspExtraOptions_2_EncodedGreenhouse-Geisser",
+							"JaspColumn_20_Encoded:JaspExtraOptions_4_Encoded:JaspExtraOptions_2_EncodedHuynh-Feldt",
+							"JaspExtraOptions_4_Encoded:JaspExtraOptions_2_EncodedResidNone",
+							"JaspExtraOptions_4_Encoded:JaspExtraOptions_2_EncodedResidGreenhouse-Geisser",
+							"JaspExtraOptions_4_Encoded:JaspExtraOptions_2_EncodedResidHuynh-Feldt"
 						],
 						"title" : "rowNames",
 						"type" : "list"
@@ -4674,7 +4674,7 @@
 					{
 						"components" : 
 						[
-							"JaspColumn_1_Encoded"
+							"JaspColumn_20_Encoded"
 						]
 					}
 				],
@@ -4684,7 +4684,7 @@
 				],
 				"betweenSubjectFactors" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_20_Encoded"
 				],
 				"betweenSubjectFactors.types" : 
 				[
@@ -4695,35 +4695,35 @@
 				"poolErrorTermFollowup" : false,
 				"repeatedMeasuresCells" : 
 				[
-					"JaspColumn_2_Encoded",
-					"JaspColumn_5_Encoded",
-					"JaspColumn_8_Encoded",
-					"JaspColumn_3_Encoded",
+					"JaspColumn_0_Encoded",
 					"JaspColumn_6_Encoded",
+					"JaspColumn_3_Encoded",
 					"JaspColumn_9_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_7_Encoded",
-					"JaspColumn_10_Encoded"
+					"JaspColumn_15_Encoded",
+					"JaspColumn_12_Encoded",
+					"JaspColumn_24_Encoded",
+					"JaspColumn_30_Encoded",
+					"JaspColumn_27_Encoded"
 				],
 				"repeatedMeasuresFactors" : 
 				[
 					{
 						"levels" : 
 						[
+							"JaspExtraOptions_0_Encoded",
 							"JaspExtraOptions_1_Encoded",
-							"JaspExtraOptions_2_Encoded",
-							"JaspExtraOptions_3_Encoded"
+							"JaspExtraOptions_7_Encoded"
 						],
-						"name" : "JaspExtraOptions_0_Encoded"
+						"name" : "JaspExtraOptions_4_Encoded"
 					},
 					{
 						"levels" : 
 						[
-							"JaspExtraOptions_5_Encoded",
+							"JaspExtraOptions_3_Encoded",
 							"JaspExtraOptions_6_Encoded",
-							"JaspExtraOptions_7_Encoded"
+							"JaspExtraOptions_5_Encoded"
 						],
-						"name" : "JaspExtraOptions_4_Encoded"
+						"name" : "JaspExtraOptions_2_Encoded"
 					}
 				],
 				"sumOfSquares" : "type3",
@@ -4732,20 +4732,20 @@
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_0_Encoded"
-						]
-					},
-					{
-						"components" : 
-						[
 							"JaspExtraOptions_4_Encoded"
 						]
 					},
 					{
 						"components" : 
 						[
-							"JaspExtraOptions_0_Encoded",
-							"JaspExtraOptions_4_Encoded"
+							"JaspExtraOptions_2_Encoded"
+						]
+					},
+					{
+						"components" : 
+						[
+							"JaspExtraOptions_4_Encoded",
+							"JaspExtraOptions_2_Encoded"
 						]
 					}
 				],
@@ -4901,7 +4901,7 @@
 			{
 				"components" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_20_Encoded"
 				]
 			}
 		],
@@ -4911,7 +4911,7 @@
 		],
 		"betweenSubjectFactors" : 
 		[
-			"JaspColumn_1_Encoded"
+			"JaspColumn_20_Encoded"
 		],
 		"betweenSubjectFactors.types" : 
 		[
@@ -4927,21 +4927,21 @@
 				"contrast" : "repeated",
 				"variable" : 
 				[
-					"JaspExtraOptions_0_Encoded"
+					"JaspExtraOptions_4_Encoded"
 				]
 			},
 			{
 				"contrast" : "repeated",
 				"variable" : 
 				[
-					"JaspExtraOptions_4_Encoded"
+					"JaspExtraOptions_2_Encoded"
 				]
 			},
 			{
 				"contrast" : "none",
 				"variable" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspColumn_20_Encoded"
 				]
 			}
 		],
@@ -4958,17 +4958,17 @@
 		"descriptivePlotErrorBar" : true,
 		"descriptivePlotErrorBarPooled" : false,
 		"descriptivePlotErrorBarType" : "ci",
-		"descriptivePlotHorizontalAxis" : "JaspExtraOptions_0_Encoded",
+		"descriptivePlotHorizontalAxis" : "JaspExtraOptions_4_Encoded",
 		"descriptivePlotHorizontalAxis.types" : 
 		[
 			"unknown"
 		],
-		"descriptivePlotSeparateLines" : "JaspExtraOptions_4_Encoded",
+		"descriptivePlotSeparateLines" : "JaspExtraOptions_2_Encoded",
 		"descriptivePlotSeparateLines.types" : 
 		[
 			"unknown"
 		],
-		"descriptivePlotSeparatePlot" : "JaspColumn_1_Encoded",
+		"descriptivePlotSeparatePlot" : "JaspColumn_20_Encoded",
 		"descriptivePlotSeparatePlot.types" : 
 		[
 			"nominal"
@@ -5022,19 +5022,19 @@
 			{
 				"variable" : 
 				[
-					"JaspExtraOptions_0_Encoded"
-				]
-			},
-			{
-				"variable" : 
-				[
 					"JaspExtraOptions_4_Encoded"
 				]
 			},
 			{
 				"variable" : 
 				[
-					"JaspColumn_1_Encoded"
+					"JaspExtraOptions_2_Encoded"
+				]
+			},
+			{
+				"variable" : 
+				[
+					"JaspColumn_20_Encoded"
 				]
 			}
 		],
@@ -5053,35 +5053,35 @@
 		"rainCloudYAxisLabel" : "",
 		"repeatedMeasuresCells" : 
 		[
-			"JaspColumn_2_Encoded",
-			"JaspColumn_5_Encoded",
-			"JaspColumn_8_Encoded",
-			"JaspColumn_3_Encoded",
+			"JaspColumn_0_Encoded",
 			"JaspColumn_6_Encoded",
+			"JaspColumn_3_Encoded",
 			"JaspColumn_9_Encoded",
-			"JaspColumn_4_Encoded",
-			"JaspColumn_7_Encoded",
-			"JaspColumn_10_Encoded"
+			"JaspColumn_15_Encoded",
+			"JaspColumn_12_Encoded",
+			"JaspColumn_24_Encoded",
+			"JaspColumn_30_Encoded",
+			"JaspColumn_27_Encoded"
 		],
 		"repeatedMeasuresFactors" : 
 		[
 			{
 				"levels" : 
 				[
+					"JaspExtraOptions_0_Encoded",
 					"JaspExtraOptions_1_Encoded",
-					"JaspExtraOptions_2_Encoded",
-					"JaspExtraOptions_3_Encoded"
+					"JaspExtraOptions_7_Encoded"
 				],
-				"name" : "JaspExtraOptions_0_Encoded"
+				"name" : "JaspExtraOptions_4_Encoded"
 			},
 			{
 				"levels" : 
 				[
-					"JaspExtraOptions_5_Encoded",
+					"JaspExtraOptions_3_Encoded",
 					"JaspExtraOptions_6_Encoded",
-					"JaspExtraOptions_7_Encoded"
+					"JaspExtraOptions_5_Encoded"
 				],
-				"name" : "JaspExtraOptions_4_Encoded"
+				"name" : "JaspExtraOptions_2_Encoded"
 			}
 		],
 		"restrictedAvailableCoefficients" : false,
@@ -5133,20 +5133,20 @@
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_0_Encoded"
-				]
-			},
-			{
-				"components" : 
-				[
 					"JaspExtraOptions_4_Encoded"
 				]
 			},
 			{
 				"components" : 
 				[
-					"JaspExtraOptions_0_Encoded",
-					"JaspExtraOptions_4_Encoded"
+					"JaspExtraOptions_2_Encoded"
+				]
+			},
+			{
+				"components" : 
+				[
+					"JaspExtraOptions_4_Encoded",
+					"JaspExtraOptions_2_Encoded"
 				]
 			}
 		],

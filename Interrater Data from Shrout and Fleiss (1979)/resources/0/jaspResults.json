@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -152,13 +152,13 @@
 					"ICC3,1"
 				],
 				[
-					0.71484151151088526
+					0.71484151151092334
 				],
 				[
-					0.34246594942210001
+					0.34246594942215663
 				],
 				[
-					0.94585844455258727
+					0.94585844455259616
 				]
 			],
 			"error" : false,
@@ -187,10 +187,10 @@
 				"iccType" : "icc3",
 				"variables" : 
 				[
-					"JaspColumn_4_Encoded",
-					"JaspColumn_7_Encoded",
-					"JaspColumn_10_Encoded",
-					"JaspColumn_13_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_9_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -289,10 +289,10 @@
 		"plotWidth" : 480,
 		"variables" : 
 		[
-			"JaspColumn_4_Encoded",
-			"JaspColumn_7_Encoded",
-			"JaspColumn_10_Encoded",
-			"JaspColumn_13_Encoded"
+			"JaspColumn_0_Encoded",
+			"JaspColumn_3_Encoded",
+			"JaspColumn_6_Encoded",
+			"JaspColumn_9_Encoded"
 		],
 		"variables.types" : 
 		[

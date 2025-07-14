@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -23,7 +23,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1732282374081.png",
+					"filePathPng" : "resources/0/_0_t1751900342597.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "away",
@@ -36,15 +36,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -74,7 +74,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1732282374600.png",
+					"filePathPng" : "resources/0/_1_t1751900343130.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "bullseye",
@@ -87,15 +87,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -125,7 +125,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1732282375023.png",
+					"filePathPng" : "resources/0/_2_t1751900343569.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "circle",
@@ -138,15 +138,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -176,7 +176,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_3_t1732282375430.png",
+					"filePathPng" : "resources/0/_3_t1751900344003.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "dino",
@@ -189,15 +189,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -227,7 +227,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_4_t1732282375843.png",
+					"filePathPng" : "resources/0/_4_t1751900344460.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "dots",
@@ -240,15 +240,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -278,7 +278,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_5_t1732282376266.png",
+					"filePathPng" : "resources/0/_5_t1751900344921.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "h_lines",
@@ -291,15 +291,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -329,7 +329,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_6_t1732282376690.png",
+					"filePathPng" : "resources/0/_6_t1751900345363.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "high_lines",
@@ -342,15 +342,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -380,7 +380,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_7_t1732282377101.png",
+					"filePathPng" : "resources/0/_7_t1751900345822.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "slant_down",
@@ -393,15 +393,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -431,7 +431,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_8_t1732282377551.png",
+					"filePathPng" : "resources/0/_8_t1751900346293.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "slant_up",
@@ -444,15 +444,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -482,7 +482,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_9_t1732282377985.png",
+					"filePathPng" : "resources/0/_9_t1751900346756.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "star",
@@ -495,15 +495,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -533,7 +533,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_10_t1732282378419.png",
+					"filePathPng" : "resources/0/_10_t1751900347239.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "v_lines",
@@ -546,15 +546,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -584,7 +584,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_11_t1732282378898.png",
+					"filePathPng" : "resources/0/_11_t1751900347733.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "wide_lines",
@@ -597,15 +597,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -635,7 +635,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_12_t1732282379346.png",
+					"filePathPng" : "resources/0/_12_t1751900348236.png",
 					"height" : 520,
 					"messages" : [],
 					"name" : "x_shape",
@@ -648,15 +648,15 @@
 						"distributionAndCorrelationPlotHistogramBinWidthType" : "sturges",
 						"distributionAndCorrelationPlotHistogramManualNumberOfBins" : 30.0,
 						"distributionAndCorrelationPlotRugMarks" : false,
-						"splitBy" : "JaspColumn_5_Encoded",
+						"splitBy" : "JaspColumn_2_Encoded",
 						"splitBy.types" : 
 						[
 							"nominal"
 						],
 						"variables" : 
 						[
-							"JaspColumn_9_Encoded",
-							"JaspColumn_6_Encoded"
+							"JaspColumn_6_Encoded",
+							"JaspColumn_3_Encoded"
 						],
 						"variables.types" : 
 						[
@@ -701,15 +701,15 @@
 			"optionMustBe" : 
 			{
 				"correlationPlots" : true,
-				"splitBy" : "JaspColumn_5_Encoded",
+				"splitBy" : "JaspColumn_2_Encoded",
 				"splitBy.types" : 
 				[
 					"nominal"
 				],
 				"variables" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_3_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -872,19 +872,6 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded",
 					"JaspColumn_6_Encoded",
 					"JaspColumn_6_Encoded",
 					"JaspColumn_6_Encoded",
@@ -897,7 +884,20 @@
 					"JaspColumn_6_Encoded",
 					"JaspColumn_6_Encoded",
 					"JaspColumn_6_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_3_Encoded"
 				],
 				[
 					"away",
@@ -1081,7 +1081,7 @@
 				"seMean" : false,
 				"shapiroWilkTest" : false,
 				"skewness" : false,
-				"splitBy" : "JaspColumn_5_Encoded",
+				"splitBy" : "JaspColumn_2_Encoded",
 				"splitBy.types" : 
 				[
 					"nominal"
@@ -1090,8 +1090,8 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_6_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_3_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -1122,19 +1122,6 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_9_Encoded1",
-					"JaspColumn_9_Encoded2",
-					"JaspColumn_9_Encoded3",
-					"JaspColumn_9_Encoded4",
-					"JaspColumn_9_Encoded5",
-					"JaspColumn_9_Encoded6",
-					"JaspColumn_9_Encoded7",
-					"JaspColumn_9_Encoded8",
-					"JaspColumn_9_Encoded9",
-					"JaspColumn_9_Encoded10",
-					"JaspColumn_9_Encoded11",
-					"JaspColumn_9_Encoded12",
-					"JaspColumn_9_Encoded13",
 					"JaspColumn_6_Encoded1",
 					"JaspColumn_6_Encoded2",
 					"JaspColumn_6_Encoded3",
@@ -1147,7 +1134,20 @@
 					"JaspColumn_6_Encoded10",
 					"JaspColumn_6_Encoded11",
 					"JaspColumn_6_Encoded12",
-					"JaspColumn_6_Encoded13"
+					"JaspColumn_6_Encoded13",
+					"JaspColumn_3_Encoded1",
+					"JaspColumn_3_Encoded2",
+					"JaspColumn_3_Encoded3",
+					"JaspColumn_3_Encoded4",
+					"JaspColumn_3_Encoded5",
+					"JaspColumn_3_Encoded6",
+					"JaspColumn_3_Encoded7",
+					"JaspColumn_3_Encoded8",
+					"JaspColumn_3_Encoded9",
+					"JaspColumn_3_Encoded10",
+					"JaspColumn_3_Encoded11",
+					"JaspColumn_3_Encoded12",
+					"JaspColumn_3_Encoded13"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -1313,7 +1313,7 @@
 		"seMean" : false,
 		"shapiroWilkTest" : false,
 		"skewness" : false,
-		"splitBy" : "JaspColumn_5_Encoded",
+		"splitBy" : "JaspColumn_2_Encoded",
 		"splitBy.types" : 
 		[
 			"nominal"
@@ -1325,8 +1325,8 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_9_Encoded",
-			"JaspColumn_6_Encoded"
+			"JaspColumn_6_Encoded",
+			"JaspColumn_3_Encoded"
 		],
 		"variables.types" : 
 		[

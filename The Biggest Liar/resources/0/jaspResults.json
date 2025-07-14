@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -57,7 +57,7 @@
 									60,
 									10
 								],
-								"title" : "JaspColumn_3_Encoded",
+								"title" : "JaspColumn_0_Encoded",
 								"titleType" : "character"
 							},
 							"type" : "ScaleContinuous"
@@ -112,7 +112,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1732712387526.png",
+					"filePathPng" : "resources/0/_0_t1751898126353.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "Creativity",
@@ -125,13 +125,13 @@
 					},
 					"optionMustContain" : 
 					{
-						"variables" : "JaspColumn_3_Encoded"
+						"variables" : "JaspColumn_0_Encoded"
 					},
 					"position" : 9999,
 					"resizedByUser" : false,
 					"revision" : 0,
 					"status" : "complete",
-					"title" : "JaspColumn_3_Encoded",
+					"title" : "JaspColumn_0_Encoded",
 					"type" : "plot",
 					"width" : 480
 				},
@@ -208,7 +208,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1732712387694.png",
+					"filePathPng" : "resources/0/_1_t1751898126514.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "Position",
@@ -256,7 +256,7 @@
 				"splitBy.types" : [],
 				"variables" : 
 				[
-					"JaspColumn_3_Encoded",
+					"JaspColumn_0_Encoded",
 					"JaspColumn_7_Encoded"
 				],
 				"variables.types" : 
@@ -425,7 +425,7 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_3_Encoded",
+					"JaspColumn_0_Encoded",
 					"JaspColumn_7_Encoded"
 				],
 				[
@@ -437,20 +437,18 @@
 					0
 				],
 				[
-					39.985294117647058,
-					2.2205882352941178
+					39.985294117647058
 				],
 				[
-					8.1175921859427209,
-					1.3805210808911608
+					8.1175921859427209
 				],
 				[
 					21.0,
-					1.0
+					1
 				],
 				[
 					56.0,
-					6.0
+					6
 				]
 			],
 			"error" : false,
@@ -500,7 +498,7 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_3_Encoded",
+					"JaspColumn_0_Encoded",
 					"JaspColumn_7_Encoded"
 				],
 				"variables.types" : 
@@ -532,7 +530,7 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_3_Encoded",
+					"JaspColumn_0_Encoded",
 					"JaspColumn_7_Encoded"
 				],
 				"title" : "rowNames",
@@ -680,13 +678,11 @@
 		"pieChart" : false,
 		"plotHeight" : 320,
 		"plotWidth" : 480,
-		"predictors" : 0,
 		"qqPlot" : false,
 		"quantilesForEqualGroups" : false,
 		"quantilesForEqualGroupsNumber" : 4,
 		"quartiles" : false,
 		"range" : false,
-		"sampleSize" : 0,
 		"scatterPlot" : false,
 		"scatterPlotGraphTypeAbove" : "density",
 		"scatterPlotGraphTypeRight" : "density",
@@ -711,7 +707,7 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_3_Encoded",
+			"JaspColumn_0_Encoded",
 			"JaspColumn_7_Encoded"
 		],
 		"variables.types" : 

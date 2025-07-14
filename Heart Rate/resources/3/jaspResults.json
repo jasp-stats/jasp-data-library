@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -154,8 +154,8 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_9_Encoded",
-					"JaspColumn_9_Encoded"
+					"JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded"
 				],
 				[
 					"Female",
@@ -219,7 +219,7 @@
 				"seMean" : false,
 				"shapiroWilkTest" : false,
 				"skewness" : false,
-				"splitBy" : "JaspColumn_5_Encoded",
+				"splitBy" : "JaspColumn_2_Encoded",
 				"splitBy.types" : 
 				[
 					"nominal"
@@ -228,7 +228,7 @@
 				"valid" : true,
 				"variables" : 
 				[
-					"JaspColumn_9_Encoded"
+					"JaspColumn_6_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -258,8 +258,8 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_9_Encoded1",
-					"JaspColumn_9_Encoded2"
+					"JaspColumn_6_Encoded1",
+					"JaspColumn_6_Encoded2"
 				],
 				"title" : "rowNames",
 				"type" : "list"
@@ -424,7 +424,7 @@
 		"seMean" : false,
 		"shapiroWilkTest" : false,
 		"skewness" : false,
-		"splitBy" : "JaspColumn_5_Encoded",
+		"splitBy" : "JaspColumn_2_Encoded",
 		"splitBy.types" : 
 		[
 			"nominal"
@@ -436,7 +436,7 @@
 		"valid" : true,
 		"variables" : 
 		[
-			"JaspColumn_9_Encoded"
+			"JaspColumn_6_Encoded"
 		],
 		"variables.types" : 
 		[

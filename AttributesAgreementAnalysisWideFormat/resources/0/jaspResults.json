@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -803,7 +803,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1732281009890.png",
+					"filePathPng" : "resources/0/_0_t1751899496775.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "PlotVs",
@@ -903,7 +903,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1732281010085.png",
+					"filePathPng" : "resources/0/_1_t1751899496965.png",
 					"height" : 500,
 					"messages" : [],
 					"name" : "PlotWithin",
@@ -1437,9 +1437,9 @@
 				"measurementLongFormat.types" : [],
 				"measurementsWideFormat" : 
 				[
-					"JaspColumn_3_Encoded",
-					"JaspColumn_4_Encoded",
-					"JaspColumn_5_Encoded"
+					"JaspColumn_5_Encoded",
+					"JaspColumn_8_Encoded",
+					"JaspColumn_11_Encoded"
 				],
 				"measurementsWideFormat.types" : 
 				[
@@ -1456,14 +1456,14 @@
 				],
 				"partLongFormat" : "",
 				"partLongFormat.types" : [],
-				"partWideFormat" : "JaspColumn_0_Encoded",
+				"partWideFormat" : "JaspColumn_12_Encoded",
 				"partWideFormat.types" : 
 				[
 					"nominal"
 				],
 				"standardLongFormat" : "",
 				"standardLongFormat.types" : [],
-				"standardWideFormat" : "JaspColumn_1_Encoded",
+				"standardWideFormat" : "JaspColumn_17_Encoded",
 				"standardWideFormat.types" : 
 				[
 					"nominal"
@@ -2219,9 +2219,9 @@
 		"measurementLongFormat.types" : [],
 		"measurementsWideFormat" : 
 		[
-			"JaspColumn_3_Encoded",
-			"JaspColumn_4_Encoded",
-			"JaspColumn_5_Encoded"
+			"JaspColumn_5_Encoded",
+			"JaspColumn_8_Encoded",
+			"JaspColumn_11_Encoded"
 		],
 		"measurementsWideFormat.types" : 
 		[
@@ -2238,7 +2238,7 @@
 		],
 		"partLongFormat" : "",
 		"partLongFormat.types" : [],
-		"partWideFormat" : "JaspColumn_0_Encoded",
+		"partWideFormat" : "JaspColumn_12_Encoded",
 		"partWideFormat.types" : 
 		[
 			"nominal"
@@ -2248,7 +2248,7 @@
 		"positiveReference" : "Yes",
 		"standardLongFormat" : "",
 		"standardLongFormat.types" : [],
-		"standardWideFormat" : "JaspColumn_1_Encoded",
+		"standardWideFormat" : "JaspColumn_17_Encoded",
 		"standardWideFormat.types" : 
 		[
 			"nominal"

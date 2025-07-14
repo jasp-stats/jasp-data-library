@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2011). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -19,12 +19,12 @@
 						"errorType" : "validationError",
 						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
 					},
-					"environmentName" : "plot_4",
+					"environmentName" : "plot_0",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_2_t1750748607025.png",
-					"height" : 945,
+					"filePathPng" : "resources/1/_0_t1751900299324.png",
+					"height" : 320,
 					"messages" : [],
 					"name" : "original Effect - replication Effect",
 					"nestedOptionMustBe" : {},
@@ -39,12 +39,12 @@
 						]
 					},
 					"position" : 9999,
-					"resizedByUser" : true,
-					"revision" : 1,
+					"resizedByUser" : false,
+					"revision" : 0,
 					"status" : "complete",
 					"title" : "JaspColumn_6_Encoded - JaspColumn_15_Encoded",
 					"type" : "plot",
-					"width" : 1179
+					"width" : 320
 				}
 			},
 			"data_order" : 
@@ -271,8 +271,8 @@
 				[
 					0.16536680989335192,
 					0.2214377158262622,
-					0.14791851859742253,
-					0.22870163845479896
+					0.1479185185974225,
+					0.22870163845479893
 				],
 				[
 					0.12739236100000001,

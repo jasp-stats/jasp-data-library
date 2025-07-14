@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -21,7 +21,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_0_Encoded" : true
+							"JaspColumn_2_Encoded" : true
 						},
 						"listType" : "bool",
 						"messages" : [],
@@ -76,7 +76,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_0_Encoded",
+							"JaspColumn_2_Encoded",
 							"type[chiSquared]",
 							"value[chiSquared]",
 							"df[chiSquared]",
@@ -148,7 +148,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_0_Encoded" : "string",
+							"JaspColumn_2_Encoded" : "string",
 							"df[N]" : "integer",
 							"df[chiSquared]" : "integer",
 							"p[N]" : "pvalue",
@@ -295,7 +295,7 @@
 					"showSpecifiedColumnsOnly" : true,
 					"specifiedColumns" : 
 					[
-						"JaspColumn_0_Encoded",
+						"JaspColumn_2_Encoded",
 						"df[N]",
 						"df[chiSquared]",
 						"p[N]",
@@ -322,7 +322,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_0_Encoded" : true
+							"JaspColumn_2_Encoded" : true
 						},
 						"listType" : "bool",
 						"messages" : [],
@@ -382,7 +382,7 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_0_Encoded",
+							"JaspColumn_2_Encoded",
 							"type[oddsRatio]",
 							"value[oddsRatio]",
 							"low[oddsRatio]",
@@ -462,7 +462,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_0_Encoded" : "string",
+							"JaspColumn_2_Encoded" : "string",
 							"low[FisherTest]" : "number",
 							"low[oddsRatio]" : "number",
 							"p[FisherTest]" : "pvalue",
@@ -613,7 +613,7 @@
 					"showSpecifiedColumnsOnly" : true,
 					"specifiedColumns" : 
 					[
-						"JaspColumn_0_Encoded",
+						"JaspColumn_2_Encoded",
 						"low[FisherTest]",
 						"low[oddsRatio]",
 						"p[FisherTest]",
@@ -642,8 +642,8 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_0_Encoded" : true,
-							"JaspColumn_1_Encoded" : true
+							"JaspColumn_2_Encoded" : true,
+							"JaspColumn_8_Encoded" : true
 						},
 						"listType" : "bool",
 						"messages" : [],
@@ -701,8 +701,8 @@
 						"position" : 9999,
 						"rows" : 
 						[
-							"JaspColumn_0_Encoded",
-							"JaspColumn_1_Encoded",
+							"JaspColumn_2_Encoded",
+							"JaspColumn_8_Encoded",
 							"type[counts]",
 							"type[expected]",
 							"No[counts]",
@@ -723,10 +723,10 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"No[counts]" : "JaspColumn_2_Encoded",
-							"No[expected]" : "JaspColumn_2_Encoded",
-							"Yes[counts]" : "JaspColumn_2_Encoded",
-							"Yes[expected]" : "JaspColumn_2_Encoded"
+							"No[counts]" : "JaspColumn_5_Encoded",
+							"No[expected]" : "JaspColumn_5_Encoded",
+							"Yes[counts]" : "JaspColumn_5_Encoded",
+							"Yes[expected]" : "JaspColumn_5_Encoded"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -749,7 +749,7 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_1_Encoded" : "JaspColumn_1_Encoded",
+							"JaspColumn_8_Encoded" : "JaspColumn_8_Encoded",
 							"No[counts]" : "No",
 							"No[expected]" : "No",
 							"Yes[counts]" : "Yes",
@@ -779,8 +779,8 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"JaspColumn_0_Encoded" : "string",
-							"JaspColumn_1_Encoded" : "string",
+							"JaspColumn_2_Encoded" : "string",
+							"JaspColumn_8_Encoded" : "string",
 							"No[counts]" : "number",
 							"No[expected]" : "number",
 							"Yes[counts]" : "number",
@@ -995,8 +995,8 @@
 					"showSpecifiedColumnsOnly" : true,
 					"specifiedColumns" : 
 					[
-						"JaspColumn_0_Encoded",
-						"JaspColumn_1_Encoded",
+						"JaspColumn_2_Encoded",
+						"JaspColumn_8_Encoded",
 						"No[counts]",
 						"No[expected]",
 						"Yes[counts]",
@@ -1090,15 +1090,15 @@
 						"name" : "Layer 1",
 						"variables" : 
 						[
-							"JaspColumn_0_Encoded"
+							"JaspColumn_2_Encoded"
 						]
 					}
 				]
 			},
 			"optionMustContain" : 
 			{
-				"columns" : "JaspColumn_2_Encoded",
-				"rows" : "JaspColumn_1_Encoded"
+				"columns" : "JaspColumn_5_Encoded",
+				"rows" : "JaspColumn_8_Encoded"
 			},
 			"order_increment" : 5,
 			"position" : 1,
@@ -1148,7 +1148,7 @@
 		"columnOrder" : "ascending",
 		"columns" : 
 		[
-			"JaspColumn_2_Encoded"
+			"JaspColumn_5_Encoded"
 		],
 		"columns.types" : 
 		[
@@ -1171,7 +1171,7 @@
 				"name" : "Layer 1",
 				"variables" : 
 				[
-					"JaspColumn_0_Encoded"
+					"JaspColumn_2_Encoded"
 				]
 			}
 		],
@@ -1193,7 +1193,7 @@
 		"rowOrder" : "descending",
 		"rows" : 
 		[
-			"JaspColumn_1_Encoded"
+			"JaspColumn_8_Encoded"
 		],
 		"rows.types" : 
 		[

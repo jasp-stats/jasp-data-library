@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,7 +18,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_0_t1732277640985.png",
+			"filePathPng" : "resources/2/_0_t1751900641585.png",
 			"height" : 320,
 			"messages" : [],
 			"name" : "historyPlot",
@@ -26,7 +26,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"dependent" : "JaspColumn_1_Encoded",
+				"dependent" : "JaspColumn_9_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -38,7 +38,7 @@
 				"historyPlotRange" : false,
 				"historyPlotStart" : "",
 				"historyPlotType" : "line",
-				"time" : "JaspColumn_0_Encoded",
+				"time" : "JaspColumn_5_Encoded",
 				"time.types" : 
 				[
 					"nominal"
@@ -219,20 +219,20 @@
 							"2020-08-13"
 						],
 						[
-							-0.97876146905479733,
-							2.4551442592240509
+							-0.9766154018526888,
+							2.4507377425524051
 						],
 						[
-							0.077286604787357563,
-							0.13607055128787121
+							0.07807417234625609,
+							0.14260442721129232
 						],
 						[
-							-1.1298486852571628,
-							2.1811301739387998
+							-1.124692428922849,
+							2.1627901487614052
 						],
 						[
-							-0.8273871406716734,
-							2.712935104321307
+							-0.81740659050658315,
+							2.7229479056465467
 						]
 					],
 					"error" : false,
@@ -366,16 +366,12 @@
 						{
 							"aspectRatio" : 0.0,
 							"citations" : [],
-							"editOptions" : 
-							{
-								"errorType" : "fatalError",
-								"reasonNotEditable" : "Plot editing terminated unexpectedly. Fatal error in plotEditingOptions: Computing plotEditingOptions gave an error: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\" To receive assistance with this problem, please report the message above at: https://jasp-stats.org/bug-reports"
-							},
+							"editOptions" : null,
 							"environmentName" : "plot_1",
-							"error" : false,
-							"errorMessage" : "",
+							"error" : true,
+							"errorMessage" : "'recursive' must be a length-1 vector",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_1_t1732277641142.png",
+							"filePathPng" : "",
 							"height" : 320,
 							"messages" : [],
 							"name" : "prophetOverallForecastPlot",
@@ -405,16 +401,12 @@
 						{
 							"aspectRatio" : 0.0,
 							"citations" : [],
-							"editOptions" : 
-							{
-								"errorType" : "fatalError",
-								"reasonNotEditable" : "Plot editing terminated unexpectedly. Fatal error in plotEditingOptions: Computing plotEditingOptions gave an error: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\" To receive assistance with this problem, please report the message above at: https://jasp-stats.org/bug-reports"
-							},
+							"editOptions" : null,
 							"environmentName" : "plot_2",
-							"error" : false,
-							"errorMessage" : "",
+							"error" : true,
+							"errorMessage" : "'recursive' must be a length-1 vector",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_2_t1732277641296.png",
+							"filePathPng" : "",
 							"height" : 320,
 							"messages" : [],
 							"name" : "prophetTrendForecastPlot",
@@ -621,20 +613,20 @@
 							14.0
 						],
 						[
-							0.1110396723841157,
-							0.11657986134311474,
-							0.10508854570259328,
-							0.14794449988247738,
-							0.15011034287139172,
-							0.15441606879223238,
-							0.17671454782828039,
-							0.15951048151790098,
-							0.15372261632183506,
-							0.14568246658697268,
-							0.18953027339563769,
-							0.1815773702047305,
-							0.19605823044262335,
-							0.2077766030088623
+							0.11121500825083504,
+							0.11661045885316387,
+							0.10536380258534264,
+							0.14757955574511639,
+							0.15001951238220418,
+							0.15407876370305615,
+							0.17675045092366415,
+							0.15947588198385665,
+							0.15365182369867433,
+							0.14642812651187784,
+							0.18937037238393711,
+							0.18155572419498089,
+							0.19576248910089231,
+							0.2077779370708267
 						]
 					],
 					"error" : false,
@@ -741,7 +733,8 @@
 													0.59999999999999998,
 													0.65000000000000002,
 													0.69999999999999996,
-													0.75
+													0.75,
+													0.80000000000000004
 												],
 												"breaksType" : "manual",
 												"expand" : 
@@ -760,18 +753,19 @@
 													"0.60",
 													"0.65",
 													"0.70",
-													"0.75"
+													"0.75",
+													"0.80"
 												],
 												"limits" : 
 												[
 													0.40000000000000002,
-													0.75
+													0.80000000000000004
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
 													0.40000000000000002,
-													0.75,
+													0.80000000000000004,
 													0.050000000000000003
 												],
 												"title" : "Growth rate",
@@ -833,7 +827,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_4_t1732277641604.png",
+									"filePathPng" : "resources/2/_2_t1751900642020.png",
 									"height" : 320,
 									"messages" : [],
 									"name" : "k",
@@ -862,13 +856,13 @@
 											{
 												"breaks" : 
 												[
+													0.17999999999999999,
 													0.20000000000000001,
 													0.22,
 													0.23999999999999999,
 													0.26000000000000001,
 													0.28000000000000003,
-													0.29999999999999999,
-													0.32000000000000001
+													0.29999999999999999
 												],
 												"breaksType" : "manual",
 												"expand" : 
@@ -880,24 +874,24 @@
 												],
 												"labels" : 
 												[
+													"0.18",
 													"0.20",
 													"0.22",
 													"0.24",
 													"0.26",
 													"0.28",
-													"0.30",
-													"0.32"
+													"0.30"
 												],
 												"limits" : 
 												[
-													0.20000000000000001,
-													0.32000000000000001
+													0.17999999999999999,
+													0.29999999999999999
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
-													0.20000000000000001,
-													0.32000000000000001,
+													0.17999999999999999,
+													0.29999999999999999,
 													0.02
 												],
 												"title" : "Offset",
@@ -955,7 +949,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_5_t1732277641701.png",
+									"filePathPng" : "resources/2/_3_t1751900642131.png",
 									"height" : 320,
 									"messages" : [],
 									"name" : "m",
@@ -984,6 +978,7 @@
 											{
 												"breaks" : 
 												[
+													0.055,
 													0.059999999999999998,
 													0.065000000000000002,
 													0.070000000000000007,
@@ -1002,6 +997,7 @@
 												],
 												"labels" : 
 												[
+													"0.055",
 													"0.060",
 													"0.065",
 													"0.070",
@@ -1012,13 +1008,13 @@
 												],
 												"limits" : 
 												[
-													0.059999999999999998,
+													0.055,
 													0.089999999999999997
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
-													0.059999999999999998,
+													0.055,
 													0.089999999999999997,
 													0.0050000000000000001
 												],
@@ -1083,7 +1079,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_6_t1732277641790.png",
+									"filePathPng" : "resources/2/_4_t1751900642230.png",
 									"height" : 320,
 									"messages" : [],
 									"name" : "sigma_obs",
@@ -1162,7 +1158,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_3_t1732277641435.png",
+							"filePathPng" : "resources/2/_1_t1751900641778.png",
 							"height" : 320,
 							"messages" : [],
 							"name" : "Weekly",
@@ -1378,39 +1374,39 @@
 							"Residual variance (sigma)"
 						],
 						[
-							0.58106790089135263,
-							0.24662736184122111,
-							0.071476666404899733
+							0.58017386545509997,
+							0.2468987821494284,
+							0.071485205725666773
 						],
 						[
-							0.045181687956140949,
-							0.012379018779451431,
-							0.0032727873407185602
+							0.045039787295534935,
+							0.012171712793505101,
+							0.0032812257900633932
 						],
 						[
-							0.49346981176728233,
-							0.22132557669265948,
-							0.065339784133184572
+							0.48864641813576265,
+							0.2234757258786263,
+							0.065450808911510117
 						],
 						[
-							0.6715728188267982,
-							0.27077763625450579,
-							0.078118590253863765
+							0.66594131385521804,
+							0.27099006364139866,
+							0.078298539138738063
 						],
 						[
-							1.0001592514998749,
-							1.0014257169542264,
-							1.0006213037126432
+							1.0007273025429013,
+							1.0007441673285709,
+							1.0002048256697007
 						],
 						[
-							1533.0,
-							1784.0,
-							3654.0
+							1728.0,
+							2050.0,
+							3816.0
 						],
 						[
-							2326.0,
-							2695.0,
-							3138.0
+							1963.0,
+							2393.0,
+							2742.0
 						]
 					],
 					"error" : false,
@@ -1514,7 +1510,7 @@
 				"changepoints.types" : [],
 				"covariates" : [],
 				"covariates.types" : [],
-				"dependent" : "JaspColumn_1_Encoded",
+				"dependent" : "JaspColumn_9_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -1546,7 +1542,7 @@
 						]
 					}
 				],
-				"time" : "JaspColumn_0_Encoded",
+				"time" : "JaspColumn_5_Encoded",
 				"time.types" : 
 				[
 					"nominal"
@@ -1612,7 +1608,7 @@
 				"crossValidationInitial" : 42,
 				"crossValidationPeriod" : 7,
 				"crossValidationUnit" : "days",
-				"dependent" : "JaspColumn_1_Encoded",
+				"dependent" : "JaspColumn_9_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -1650,7 +1646,7 @@
 						]
 					}
 				],
-				"time" : "JaspColumn_0_Encoded",
+				"time" : "JaspColumn_5_Encoded",
 				"time.types" : 
 				[
 					"nominal"
@@ -1740,7 +1736,7 @@
 		"crossValidationInitial" : 42,
 		"crossValidationPeriod" : 7,
 		"crossValidationUnit" : "days",
-		"dependent" : "JaspColumn_1_Encoded",
+		"dependent" : "JaspColumn_9_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
@@ -1815,7 +1811,7 @@
 		[
 			"unknown"
 		],
-		"time" : "JaspColumn_0_Encoded",
+		"time" : "JaspColumn_5_Encoded",
 		"time.types" : 
 		[
 			"nominal"

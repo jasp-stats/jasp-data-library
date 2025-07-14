@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -147,7 +147,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1733739830623.png",
+			"filePathPng" : "resources/0/_0_t1751898646080.png",
 			"height" : 625,
 			"messages" : [],
 			"name" : "forestPlot",
@@ -155,7 +155,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_26_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -163,8 +163,8 @@
 				"effectSizeCi" : 
 				[
 					[
-						"JaspColumn_32_Encoded",
-						"JaspColumn_35_Encoded"
+						"JaspColumn_15_Encoded",
+						"JaspColumn_18_Encoded"
 					]
 				],
 				"effectSizeCi.types" : 
@@ -174,7 +174,7 @@
 						"scale"
 					]
 				],
-				"effectSizeSe" : "JaspColumn_29_Encoded",
+				"effectSizeSe" : "JaspColumn_45_Encoded",
 				"effectSizeSe.types" : 
 				[
 					"scale"
@@ -184,22 +184,22 @@
 				"forestPlotLabels" : true,
 				"measure" : "cStatistic",
 				"method" : "restrictedML",
-				"numberOfExpectedEvents" : "JaspColumn_47_Encoded",
+				"numberOfExpectedEvents" : "JaspColumn_21_Encoded",
 				"numberOfExpectedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfObservedEvents" : "JaspColumn_23_Encoded",
+				"numberOfObservedEvents" : "JaspColumn_36_Encoded",
 				"numberOfObservedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfParticipants" : "JaspColumn_20_Encoded",
+				"numberOfParticipants" : "JaspColumn_33_Encoded",
 				"numberOfParticipants.types" : 
 				[
 					"scale"
 				],
-				"studyLabel" : "JaspColumn_19_Encoded",
+				"studyLabel" : "JaspColumn_11_Encoded",
 				"studyLabel.types" : 
 				[
 					"nominal"
@@ -328,7 +328,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1733739831008.png",
+					"filePathPng" : "resources/0/_2_t1751898646518.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "D-FIV",
@@ -451,7 +451,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1733739830911.png",
+					"filePathPng" : "resources/0/_1_t1751898646413.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "E-UW",
@@ -486,7 +486,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_26_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -494,8 +494,8 @@
 				"effectSizeCi" : 
 				[
 					[
-						"JaspColumn_32_Encoded",
-						"JaspColumn_35_Encoded"
+						"JaspColumn_15_Encoded",
+						"JaspColumn_18_Encoded"
 					]
 				],
 				"effectSizeCi.types" : 
@@ -505,7 +505,7 @@
 						"scale"
 					]
 				],
-				"effectSizeSe" : "JaspColumn_29_Encoded",
+				"effectSizeSe" : "JaspColumn_45_Encoded",
 				"effectSizeSe.types" : 
 				[
 					"scale"
@@ -514,22 +514,22 @@
 				"funnelPlotAsymmetryTestPlot" : true,
 				"measure" : "cStatistic",
 				"method" : "restrictedML",
-				"numberOfExpectedEvents" : "JaspColumn_47_Encoded",
+				"numberOfExpectedEvents" : "JaspColumn_21_Encoded",
 				"numberOfExpectedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfObservedEvents" : "JaspColumn_23_Encoded",
+				"numberOfObservedEvents" : "JaspColumn_36_Encoded",
 				"numberOfObservedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfParticipants" : "JaspColumn_20_Encoded",
+				"numberOfParticipants" : "JaspColumn_33_Encoded",
 				"numberOfParticipants.types" : 
 				[
 					"scale"
 				],
-				"studyLabel" : "JaspColumn_19_Encoded",
+				"studyLabel" : "JaspColumn_11_Encoded",
 				"studyLabel.types" : 
 				[
 					"nominal"
@@ -713,7 +713,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_26_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -721,8 +721,8 @@
 				"effectSizeCi" : 
 				[
 					[
-						"JaspColumn_32_Encoded",
-						"JaspColumn_35_Encoded"
+						"JaspColumn_15_Encoded",
+						"JaspColumn_18_Encoded"
 					]
 				],
 				"effectSizeCi.types" : 
@@ -732,7 +732,7 @@
 						"scale"
 					]
 				],
-				"effectSizeSe" : "JaspColumn_29_Encoded",
+				"effectSizeSe" : "JaspColumn_45_Encoded",
 				"effectSizeSe.types" : 
 				[
 					"scale"
@@ -746,22 +746,22 @@
 				"funnelPlotAsymmetryTestPeters" : false,
 				"measure" : "cStatistic",
 				"method" : "restrictedML",
-				"numberOfExpectedEvents" : "JaspColumn_47_Encoded",
+				"numberOfExpectedEvents" : "JaspColumn_21_Encoded",
 				"numberOfExpectedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfObservedEvents" : "JaspColumn_23_Encoded",
+				"numberOfObservedEvents" : "JaspColumn_36_Encoded",
 				"numberOfObservedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfParticipants" : "JaspColumn_20_Encoded",
+				"numberOfParticipants" : "JaspColumn_33_Encoded",
 				"numberOfParticipants.types" : 
 				[
 					"scale"
 				],
-				"studyLabel" : "JaspColumn_19_Encoded",
+				"studyLabel" : "JaspColumn_11_Encoded",
 				"studyLabel.types" : 
 				[
 					"nominal"
@@ -835,7 +835,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_26_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -843,8 +843,8 @@
 				"effectSizeCi" : 
 				[
 					[
-						"JaspColumn_32_Encoded",
-						"JaspColumn_35_Encoded"
+						"JaspColumn_15_Encoded",
+						"JaspColumn_18_Encoded"
 					]
 				],
 				"effectSizeCi.types" : 
@@ -854,29 +854,29 @@
 						"scale"
 					]
 				],
-				"effectSizeSe" : "JaspColumn_29_Encoded",
+				"effectSizeSe" : "JaspColumn_45_Encoded",
 				"effectSizeSe.types" : 
 				[
 					"scale"
 				],
 				"measure" : "cStatistic",
 				"method" : "restrictedML",
-				"numberOfExpectedEvents" : "JaspColumn_47_Encoded",
+				"numberOfExpectedEvents" : "JaspColumn_21_Encoded",
 				"numberOfExpectedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfObservedEvents" : "JaspColumn_23_Encoded",
+				"numberOfObservedEvents" : "JaspColumn_36_Encoded",
 				"numberOfObservedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfParticipants" : "JaspColumn_20_Encoded",
+				"numberOfParticipants" : "JaspColumn_33_Encoded",
 				"numberOfParticipants.types" : 
 				[
 					"scale"
 				],
-				"studyLabel" : "JaspColumn_19_Encoded",
+				"studyLabel" : "JaspColumn_11_Encoded",
 				"studyLabel.types" : 
 				[
 					"nominal"
@@ -901,7 +901,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_26_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -909,8 +909,8 @@
 				"effectSizeCi" : 
 				[
 					[
-						"JaspColumn_32_Encoded",
-						"JaspColumn_35_Encoded"
+						"JaspColumn_15_Encoded",
+						"JaspColumn_18_Encoded"
 					]
 				],
 				"effectSizeCi.types" : 
@@ -920,7 +920,7 @@
 						"scale"
 					]
 				],
-				"effectSizeSe" : "JaspColumn_29_Encoded",
+				"effectSizeSe" : "JaspColumn_45_Encoded",
 				"effectSizeSe.types" : 
 				[
 					"scale"
@@ -934,22 +934,22 @@
 				"funnelPlotAsymmetryTestPeters" : false,
 				"measure" : "cStatistic",
 				"method" : "restrictedML",
-				"numberOfExpectedEvents" : "JaspColumn_47_Encoded",
+				"numberOfExpectedEvents" : "JaspColumn_21_Encoded",
 				"numberOfExpectedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfObservedEvents" : "JaspColumn_23_Encoded",
+				"numberOfObservedEvents" : "JaspColumn_36_Encoded",
 				"numberOfObservedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfParticipants" : "JaspColumn_20_Encoded",
+				"numberOfParticipants" : "JaspColumn_33_Encoded",
 				"numberOfParticipants.types" : 
 				[
 					"scale"
 				],
-				"studyLabel" : "JaspColumn_19_Encoded",
+				"studyLabel" : "JaspColumn_11_Encoded",
 				"studyLabel.types" : 
 				[
 					"nominal"
@@ -1157,7 +1157,7 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_26_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
@@ -1165,8 +1165,8 @@
 				"effectSizeCi" : 
 				[
 					[
-						"JaspColumn_32_Encoded",
-						"JaspColumn_35_Encoded"
+						"JaspColumn_15_Encoded",
+						"JaspColumn_18_Encoded"
 					]
 				],
 				"effectSizeCi.types" : 
@@ -1176,29 +1176,29 @@
 						"scale"
 					]
 				],
-				"effectSizeSe" : "JaspColumn_29_Encoded",
+				"effectSizeSe" : "JaspColumn_45_Encoded",
 				"effectSizeSe.types" : 
 				[
 					"scale"
 				],
 				"measure" : "cStatistic",
 				"method" : "restrictedML",
-				"numberOfExpectedEvents" : "JaspColumn_47_Encoded",
+				"numberOfExpectedEvents" : "JaspColumn_21_Encoded",
 				"numberOfExpectedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfObservedEvents" : "JaspColumn_23_Encoded",
+				"numberOfObservedEvents" : "JaspColumn_36_Encoded",
 				"numberOfObservedEvents.types" : 
 				[
 					"scale"
 				],
-				"numberOfParticipants" : "JaspColumn_20_Encoded",
+				"numberOfParticipants" : "JaspColumn_33_Encoded",
 				"numberOfParticipants.types" : 
 				[
 					"scale"
 				],
-				"studyLabel" : "JaspColumn_19_Encoded",
+				"studyLabel" : "JaspColumn_11_Encoded",
 				"studyLabel.types" : 
 				[
 					"nominal"
@@ -1337,7 +1337,7 @@
 				"shouldEncode" : true
 			}
 		},
-		"effectSize" : "JaspColumn_26_Encoded",
+		"effectSize" : "JaspColumn_12_Encoded",
 		"effectSize.types" : 
 		[
 			"scale"
@@ -1345,8 +1345,8 @@
 		"effectSizeCi" : 
 		[
 			[
-				"JaspColumn_32_Encoded",
-				"JaspColumn_35_Encoded"
+				"JaspColumn_15_Encoded",
+				"JaspColumn_18_Encoded"
 			]
 		],
 		"effectSizeCi.types" : 
@@ -1356,7 +1356,7 @@
 				"scale"
 			]
 		],
-		"effectSizeSe" : "JaspColumn_29_Encoded",
+		"effectSizeSe" : "JaspColumn_45_Encoded",
 		"effectSizeSe.types" : 
 		[
 			"scale"
@@ -1381,17 +1381,17 @@
 		"funnelPlotAsymmetryTestPlot" : true,
 		"measure" : "cStatistic",
 		"method" : "restrictedML",
-		"numberOfExpectedEvents" : "JaspColumn_47_Encoded",
+		"numberOfExpectedEvents" : "JaspColumn_21_Encoded",
 		"numberOfExpectedEvents.types" : 
 		[
 			"scale"
 		],
-		"numberOfObservedEvents" : "JaspColumn_23_Encoded",
+		"numberOfObservedEvents" : "JaspColumn_36_Encoded",
 		"numberOfObservedEvents.types" : 
 		[
 			"scale"
 		],
-		"numberOfParticipants" : "JaspColumn_20_Encoded",
+		"numberOfParticipants" : "JaspColumn_33_Encoded",
 		"numberOfParticipants.types" : 
 		[
 			"scale"
@@ -1399,7 +1399,7 @@
 		"plotHeight" : 320,
 		"plotWidth" : 480,
 		"priorAndPosteriorPlot" : false,
-		"studyLabel" : "JaspColumn_19_Encoded",
+		"studyLabel" : "JaspColumn_11_Encoded",
 		"studyLabel.types" : 
 		[
 			"nominal"

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,12 +18,12 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_43_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
 				],
-				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError" : "JaspColumn_18_Encoded",
 				"effectSizeStandardError.types" : 
 				[
 					"scale"
@@ -125,10 +125,10 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"est" : "Limit Estimate",
-							"lCI" : "Limit Estimate",
+							"est" : "Limit Estimate \u03bc",
+							"lCI" : "Limit Estimate \u03bc",
 							"p" : "Asymmetry Test",
-							"uCI" : "Limit Estimate",
+							"uCI" : "Limit Estimate \u03bc",
 							"z" : "Asymmetry Test"
 						},
 						"listType" : "string",
@@ -307,12 +307,12 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_43_Encoded",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
 				],
-				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError" : "JaspColumn_18_Encoded",
 				"effectSizeStandardError.types" : 
 				[
 					"scale"
@@ -436,7 +436,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1733739814024.png",
+					"filePathPng" : "resources/1/_0_t1751898628042.png",
 					"height" : 480,
 					"messages" : [],
 					"name" : "funnelPlot",
@@ -467,12 +467,13 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"effectSize" : "JaspColumn_43_Encoded",
+				"colorPalette" : "colorblind",
+				"effectSize" : "JaspColumn_12_Encoded",
 				"effectSize.types" : 
 				[
 					"scale"
 				],
-				"effectSizeStandardError" : "JaspColumn_46_Encoded",
+				"effectSizeStandardError" : "JaspColumn_18_Encoded",
 				"effectSizeStandardError.types" : 
 				[
 					"scale"
@@ -503,7 +504,7 @@
 				"method" : "restrictedML",
 				"split" : "",
 				"split.types" : [],
-				"studyLabel" : "JaspColumn_42_Encoded",
+				"studyLabel" : "JaspColumn_26_Encoded",
 				"studyLabel.types" : 
 				[
 					"nominal"
@@ -561,12 +562,13 @@
 				"shouldEncode" : true
 			}
 		},
-		"effectSize" : "JaspColumn_43_Encoded",
+		"colorPalette" : "colorblind",
+		"effectSize" : "JaspColumn_12_Encoded",
 		"effectSize.types" : 
 		[
 			"scale"
 		],
-		"effectSizeStandardError" : "JaspColumn_46_Encoded",
+		"effectSizeStandardError" : "JaspColumn_18_Encoded",
 		"effectSizeStandardError.types" : 
 		[
 			"scale"
@@ -578,6 +580,14 @@
 		"estimatesMappingLabelOffset" : 0.10000000000000001,
 		"estimatesMappingShape" : "",
 		"estimatesMappingShape.types" : "unknown",
+		"failSafeN" : false,
+		"failSafeNAlpha" : 0.050000000000000003,
+		"failSafeNGeneral" : false,
+		"failSafeNGeneralExact" : false,
+		"failSafeNOrwin" : false,
+		"failSafeNRosenberg" : false,
+		"failSafeNRosenthal" : true,
+		"failSafeNTarget" : 0.10000000000000001,
 		"funnelPlotAsymmetryTests" : true,
 		"funnelPlotAsymmetryTestsMetaRegression" : true,
 		"funnelPlotAsymmetryTestsRankCorrelation" : false,
@@ -604,11 +614,17 @@
 		"plotWidth" : 480,
 		"split" : "",
 		"split.types" : [],
-		"studyLabel" : "JaspColumn_42_Encoded",
+		"studyLabel" : "JaspColumn_26_Encoded",
 		"studyLabel.types" : 
 		[
 			"nominal"
-		]
+		],
+		"trimAndFill" : false,
+		"trimAndFillEstimatesTable" : false,
+		"trimAndFillEstimator" : "L0",
+		"trimAndFillFillColors" : true,
+		"trimAndFillIncludeHeterogeneity" : false,
+		"trimAndFillLineType" : "none"
 	},
 	"order_increment" : 3,
 	"position" : 9999,

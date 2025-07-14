@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -52,6 +52,7 @@
 						"itemDeletedAlpha" : true,
 						"itemDeletedLambda2" : false,
 						"itemDeletedOmega" : true,
+						"itemDeletedSplitHalf" : null,
 						"itemMean" : false,
 						"itemRestCorrelation" : false,
 						"itemSd" : false,
@@ -228,11 +229,11 @@
 					"data" : 
 					[
 						[
-							"JaspColumn_5_Encoded",
-							"JaspColumn_8_Encoded",
-							"JaspColumn_11_Encoded",
-							"JaspColumn_14_Encoded",
-							"JaspColumn_17_Encoded"
+							"JaspColumn_0_Encoded",
+							"JaspColumn_3_Encoded",
+							"JaspColumn_6_Encoded",
+							"JaspColumn_9_Encoded",
+							"JaspColumn_12_Encoded"
 						],
 						[
 							0.70304579613397677,
@@ -623,6 +624,7 @@
 						"scaleMean" : false,
 						"scaleOmega" : true,
 						"scaleSd" : false,
+						"scaleSplithalf" : false,
 						"scaleVar" : false,
 						"standardizedLoadings" : false
 					},
@@ -917,11 +919,11 @@
 				"thinning" : 1,
 				"variables" : 
 				[
-					"JaspColumn_5_Encoded",
-					"JaspColumn_8_Encoded",
-					"JaspColumn_11_Encoded",
-					"JaspColumn_14_Encoded",
-					"JaspColumn_17_Encoded"
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded",
+					"JaspColumn_6_Encoded",
+					"JaspColumn_9_Encoded",
+					"JaspColumn_12_Encoded"
 				],
 				"variables.types" : 
 				[
@@ -958,10 +960,6 @@
 	{
 		".meta" : 
 		{
-			"inverseWishartPriorScale" : 
-			{
-				"isRCode" : true
-			},
 			"reverseScaledItems" : 
 			{
 				"shouldEncode" : true
@@ -1030,11 +1028,11 @@
 		"tracePlot" : false,
 		"variables" : 
 		[
-			"JaspColumn_5_Encoded",
-			"JaspColumn_8_Encoded",
-			"JaspColumn_11_Encoded",
-			"JaspColumn_14_Encoded",
-			"JaspColumn_17_Encoded"
+			"JaspColumn_0_Encoded",
+			"JaspColumn_3_Encoded",
+			"JaspColumn_6_Encoded",
+			"JaspColumn_9_Encoded",
+			"JaspColumn_12_Encoded"
 		],
 		"variables.types" : 
 		[

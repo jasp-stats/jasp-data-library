@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -32,7 +32,7 @@
 			{
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
+					"JaspColumn_6_Encoded",
 					"JaspColumn_0_Encoded"
 				]
 			},
@@ -42,19 +42,138 @@
 		},
 		"corrPlot" : 
 		{
-			"aspectRatio" : 0.0,
 			"citations" : [],
-			"editOptions" : 
+			"data" : 
 			{
-				"errorType" : "validationError",
-				"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+				"Position_Creativity" : 
+				{
+					"aspectRatio" : 0.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"error" : "success",
+						"xAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"1",
+									"2",
+									"3",
+									"4",
+									"5",
+									"6"
+								],
+								"limits" : 
+								[
+									1,
+									6
+								],
+								"limitsType" : "breaks",
+								"range" : 
+								[
+									1,
+									6,
+									1
+								],
+								"title" : "JaspColumn_6_Encoded",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						},
+						"yAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									20,
+									30,
+									40,
+									50,
+									60
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"20",
+									"30",
+									"40",
+									"50",
+									"60"
+								],
+								"limits" : 
+								[
+									20,
+									60
+								],
+								"limitsType" : "breaks",
+								"range" : 
+								[
+									20,
+									60,
+									10
+								],
+								"title" : "JaspColumn_0_Encoded",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						}
+					},
+					"environmentName" : "plot_0",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/1/_0_t1751898126949.png",
+					"height" : 400,
+					"messages" : [],
+					"name" : "Position_Creativity",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "JaspColumn_6_Encoded vs. JaspColumn_0_Encoded",
+					"type" : "plot",
+					"width" : 400
+				}
 			},
-			"environmentName" : "plot_0",
+			"data_order" : 
+			{
+				"Position_Creativity" : 0
+			},
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_0_t1732712388052.png",
-			"height" : 400,
+			"initCollapsed" : false,
 			"messages" : [],
 			"name" : "corrPlot",
 			"nestedOptionMustBe" : {},
@@ -63,6 +182,8 @@
 			{
 				"alternative" : "twoSided",
 				"ci" : false,
+				"ciBootstrap" : false,
+				"ciBootstrapSamples" : 1000,
 				"ciLevel" : 0.94999999999999996,
 				"kendallsTauB" : true,
 				"naAction" : "pairwise",
@@ -80,7 +201,7 @@
 				"spearman" : true,
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
+					"JaspColumn_6_Encoded",
 					"JaspColumn_0_Encoded"
 				],
 				"variables.types" : 
@@ -90,13 +211,10 @@
 				]
 			},
 			"optionMustContain" : {},
+			"order_increment" : 1,
 			"position" : 3,
-			"resizedByUser" : false,
-			"revision" : 0,
-			"status" : "complete",
-			"title" : "Correlation plot",
-			"type" : "plot",
-			"width" : 400
+			"title" : "Scatter plots",
+			"type" : "container"
 		},
 		"mainTable" : 
 		{
@@ -135,10 +253,10 @@
 					"JaspColumn_0_Encoded_kendall_p.value" : "dp:3;p:.001",
 					"JaspColumn_0_Encoded_spearman_estimate" : "sf:4;dp:3",
 					"JaspColumn_0_Encoded_spearman_p.value" : "dp:3;p:.001",
-					"JaspColumn_1_Encoded_kendall_estimate" : "sf:4;dp:3",
-					"JaspColumn_1_Encoded_kendall_p.value" : "dp:3;p:.001",
-					"JaspColumn_1_Encoded_spearman_estimate" : "sf:4;dp:3",
-					"JaspColumn_1_Encoded_spearman_p.value" : "dp:3;p:.001"
+					"JaspColumn_6_Encoded_kendall_estimate" : "sf:4;dp:3",
+					"JaspColumn_6_Encoded_kendall_p.value" : "dp:3;p:.001",
+					"JaspColumn_6_Encoded_spearman_estimate" : "sf:4;dp:3",
+					"JaspColumn_6_Encoded_spearman_p.value" : "dp:3;p:.001"
 				},
 				"listType" : "string",
 				"messages" : [],
@@ -170,33 +288,33 @@
 				"rows" : 
 				[
 					"var1",
-					"JaspColumn_1_Encoded_spearman_estimate",
-					"JaspColumn_1_Encoded_spearman_p.value",
-					"JaspColumn_1_Encoded_kendall_estimate",
-					"JaspColumn_1_Encoded_kendall_p.value",
+					"JaspColumn_6_Encoded_spearman_estimate",
+					"JaspColumn_6_Encoded_spearman_p.value",
+					"JaspColumn_6_Encoded_kendall_estimate",
+					"JaspColumn_6_Encoded_kendall_p.value",
 					"JaspColumn_0_Encoded_spearman_estimate",
 					"JaspColumn_0_Encoded_spearman_p.value",
 					"JaspColumn_0_Encoded_kendall_estimate",
 					"JaspColumn_0_Encoded_kendall_p.value",
-					"JaspColumn_1_Encoded_sample.size",
-					"JaspColumn_1_Encoded_covariance",
-					"JaspColumn_1_Encoded_pearson_estimate",
-					"JaspColumn_1_Encoded_pearson_p.value",
-					"JaspColumn_1_Encoded_pearson_lower.ci",
-					"JaspColumn_1_Encoded_pearson_upper.ci",
-					"JaspColumn_1_Encoded_pearson_vsmpr",
-					"JaspColumn_1_Encoded_pearson_effect.size",
-					"JaspColumn_1_Encoded_pearson_se.effect.size",
-					"JaspColumn_1_Encoded_spearman_lower.ci",
-					"JaspColumn_1_Encoded_spearman_upper.ci",
-					"JaspColumn_1_Encoded_spearman_vsmpr",
-					"JaspColumn_1_Encoded_spearman_effect.size",
-					"JaspColumn_1_Encoded_spearman_se.effect.size",
-					"JaspColumn_1_Encoded_kendall_lower.ci",
-					"JaspColumn_1_Encoded_kendall_upper.ci",
-					"JaspColumn_1_Encoded_kendall_vsmpr",
-					"JaspColumn_1_Encoded_kendall_effect.size",
-					"JaspColumn_1_Encoded_kendall_se.effect.size",
+					"JaspColumn_6_Encoded_sample.size",
+					"JaspColumn_6_Encoded_covariance",
+					"JaspColumn_6_Encoded_pearson_estimate",
+					"JaspColumn_6_Encoded_pearson_p.value",
+					"JaspColumn_6_Encoded_pearson_lower.ci",
+					"JaspColumn_6_Encoded_pearson_upper.ci",
+					"JaspColumn_6_Encoded_pearson_vsmpr",
+					"JaspColumn_6_Encoded_pearson_effect.size",
+					"JaspColumn_6_Encoded_pearson_se.effect.size",
+					"JaspColumn_6_Encoded_spearman_lower.ci",
+					"JaspColumn_6_Encoded_spearman_upper.ci",
+					"JaspColumn_6_Encoded_spearman_vsmpr",
+					"JaspColumn_6_Encoded_spearman_effect.size",
+					"JaspColumn_6_Encoded_spearman_se.effect.size",
+					"JaspColumn_6_Encoded_kendall_lower.ci",
+					"JaspColumn_6_Encoded_kendall_upper.ci",
+					"JaspColumn_6_Encoded_kendall_vsmpr",
+					"JaspColumn_6_Encoded_kendall_effect.size",
+					"JaspColumn_6_Encoded_kendall_se.effect.size",
 					"JaspColumn_0_Encoded_sample.size",
 					"JaspColumn_0_Encoded_covariance",
 					"JaspColumn_0_Encoded_pearson_estimate",
@@ -232,10 +350,10 @@
 					"JaspColumn_0_Encoded_kendall_p.value" : "2. JaspColumn_0_Encoded",
 					"JaspColumn_0_Encoded_spearman_estimate" : "2. JaspColumn_0_Encoded",
 					"JaspColumn_0_Encoded_spearman_p.value" : "2. JaspColumn_0_Encoded",
-					"JaspColumn_1_Encoded_kendall_estimate" : "1. JaspColumn_1_Encoded",
-					"JaspColumn_1_Encoded_kendall_p.value" : "1. JaspColumn_1_Encoded",
-					"JaspColumn_1_Encoded_spearman_estimate" : "1. JaspColumn_1_Encoded",
-					"JaspColumn_1_Encoded_spearman_p.value" : "1. JaspColumn_1_Encoded",
+					"JaspColumn_6_Encoded_kendall_estimate" : "1. JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded_kendall_p.value" : "1. JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded_spearman_estimate" : "1. JaspColumn_6_Encoded",
+					"JaspColumn_6_Encoded_spearman_p.value" : "1. JaspColumn_6_Encoded",
 					"var1" : "Variable"
 				},
 				"listType" : "string",
@@ -263,10 +381,10 @@
 					"JaspColumn_0_Encoded_kendall_p.value" : "p-value",
 					"JaspColumn_0_Encoded_spearman_estimate" : "Spearman's rho",
 					"JaspColumn_0_Encoded_spearman_p.value" : "p-value",
-					"JaspColumn_1_Encoded_kendall_estimate" : "Kendall's Tau B",
-					"JaspColumn_1_Encoded_kendall_p.value" : "p-value",
-					"JaspColumn_1_Encoded_spearman_estimate" : "Spearman's rho",
-					"JaspColumn_1_Encoded_spearman_p.value" : "p-value",
+					"JaspColumn_6_Encoded_kendall_estimate" : "Kendall's Tau B",
+					"JaspColumn_6_Encoded_kendall_p.value" : "p-value",
+					"JaspColumn_6_Encoded_spearman_estimate" : "Spearman's rho",
+					"JaspColumn_6_Encoded_spearman_p.value" : "p-value",
 					"var1" : ""
 				},
 				"listType" : "string",
@@ -293,10 +411,10 @@
 					"JaspColumn_0_Encoded_kendall_p.value" : "pvalue",
 					"JaspColumn_0_Encoded_spearman_estimate" : "number",
 					"JaspColumn_0_Encoded_spearman_p.value" : "pvalue",
-					"JaspColumn_1_Encoded_kendall_estimate" : "number",
-					"JaspColumn_1_Encoded_kendall_p.value" : "pvalue",
-					"JaspColumn_1_Encoded_spearman_estimate" : "number",
-					"JaspColumn_1_Encoded_spearman_p.value" : "pvalue",
+					"JaspColumn_6_Encoded_kendall_estimate" : "number",
+					"JaspColumn_6_Encoded_kendall_p.value" : "pvalue",
+					"JaspColumn_6_Encoded_spearman_estimate" : "number",
+					"JaspColumn_6_Encoded_spearman_p.value" : "pvalue",
 					"var1" : "string"
 				},
 				"listType" : "string",
@@ -314,7 +432,7 @@
 			"data" : 
 			[
 				[
-					"JaspColumn_1_Encoded",
+					"JaspColumn_6_Encoded",
 					"JaspColumn_0_Encoded"
 				],
 				[
@@ -533,7 +651,7 @@
 				"spearman" : true,
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
+					"JaspColumn_6_Encoded",
 					"JaspColumn_0_Encoded"
 				],
 				"variables.types" : 
@@ -562,7 +680,7 @@
 				"position" : 9999,
 				"rows" : 
 				[
-					"JaspColumn_1_Encoded",
+					"JaspColumn_6_Encoded",
 					"JaspColumn_0_Encoded"
 				],
 				"title" : "rowNames",
@@ -594,10 +712,10 @@
 				"JaspColumn_0_Encoded_kendall_p.value",
 				"JaspColumn_0_Encoded_spearman_estimate",
 				"JaspColumn_0_Encoded_spearman_p.value",
-				"JaspColumn_1_Encoded_kendall_estimate",
-				"JaspColumn_1_Encoded_kendall_p.value",
-				"JaspColumn_1_Encoded_spearman_estimate",
-				"JaspColumn_1_Encoded_spearman_p.value",
+				"JaspColumn_6_Encoded_kendall_estimate",
+				"JaspColumn_6_Encoded_kendall_p.value",
+				"JaspColumn_6_Encoded_spearman_estimate",
+				"JaspColumn_6_Encoded_spearman_p.value",
 				"var1"
 			],
 			"status" : "complete",
@@ -631,7 +749,7 @@
 				"spearman" : true,
 				"variables" : 
 				[
-					"JaspColumn_1_Encoded",
+					"JaspColumn_6_Encoded",
 					"JaspColumn_0_Encoded"
 				],
 				"variables.types" : 
@@ -715,7 +833,7 @@
 		"spearman" : true,
 		"variables" : 
 		[
-			"JaspColumn_1_Encoded",
+			"JaspColumn_6_Encoded",
 			"JaspColumn_0_Encoded"
 		],
 		"variables.types" : 

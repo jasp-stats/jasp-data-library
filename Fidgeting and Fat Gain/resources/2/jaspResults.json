@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2024). JASP (Version 0.19.2) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
 	],
 	"data" : 
 	{
@@ -191,7 +191,7 @@
 						[
 							"(Intercept)",
 							"(Intercept)",
-							"JaspColumn_0_Encoded"
+							"JaspColumn_3_Encoded"
 						],
 						[
 							2.3875000000000002,
@@ -432,7 +432,7 @@
 						{
 							"caseN" : "Case Number",
 							"cooksDistance" : "Cook's Distance",
-							"dependent" : "JaspColumn_1_Encoded",
+							"dependent" : "JaspColumn_0_Encoded",
 							"predicted" : "Predicted Value",
 							"residual" : "Residual",
 							"stdResidual" : "Std. Residual"
@@ -618,7 +618,7 @@
 					"optionMustBe" : 
 					{
 						"covarianceRatio" : false,
-						"dependent" : "JaspColumn_1_Encoded",
+						"dependent" : "JaspColumn_0_Encoded",
 						"dependent.types" : 
 						[
 							"scale"
@@ -633,6 +633,7 @@
 						[
 							{
 								"components" : [],
+								"components.types" : [],
 								"name" : "model0",
 								"title" : "Model 0"
 							},
@@ -640,8 +641,12 @@
 								"components" : 
 								[
 									[
-										"JaspColumn_0_Encoded"
+										"JaspColumn_3_Encoded"
 									]
+								],
+								"components.types" : 
+								[
+									"scale"
 								],
 								"name" : "model1",
 								"title" : "Model 1"
@@ -972,7 +977,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "M\u2081 includes JaspColumn_0_Encoded"
+							"text" : "M\u2081 includes JaspColumn_3_Encoded"
 						}
 					],
 					"messages" : [],
@@ -1036,7 +1041,7 @@
 						"model"
 					],
 					"status" : "complete",
-					"title" : "Model Summary - JaspColumn_1_Encoded",
+					"title" : "Model Summary - JaspColumn_0_Encoded",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -1061,13 +1066,13 @@
 			{
 				"covariates" : 
 				[
-					"JaspColumn_0_Encoded"
+					"JaspColumn_3_Encoded"
 				],
 				"covariates.types" : 
 				[
 					"scale"
 				],
-				"dependent" : "JaspColumn_1_Encoded",
+				"dependent" : "JaspColumn_0_Encoded",
 				"dependent.types" : 
 				[
 					"scale"
@@ -1080,6 +1085,7 @@
 				[
 					{
 						"components" : [],
+						"components.types" : [],
 						"name" : "model0",
 						"title" : "Model 0"
 					},
@@ -1087,8 +1093,12 @@
 						"components" : 
 						[
 							[
-								"JaspColumn_0_Encoded"
+								"JaspColumn_3_Encoded"
 							]
+						],
+						"components.types" : 
+						[
+							"scale"
 						],
 						"name" : "model1",
 						"title" : "Model 1"
@@ -1144,6 +1154,10 @@
 			{
 				"shouldEncode" : true
 			},
+			"predictionsSavedToDataColumn" : 
+			{
+				"shouldEncode" : true
+			},
 			"residualsSavedToDataColumn" : 
 			{
 				"shouldEncode" : true
@@ -1164,13 +1178,13 @@
 		"covarianceRatio" : false,
 		"covariates" : 
 		[
-			"JaspColumn_0_Encoded"
+			"JaspColumn_3_Encoded"
 		],
 		"covariates.types" : 
 		[
 			"scale"
 		],
-		"dependent" : "JaspColumn_1_Encoded",
+		"dependent" : "JaspColumn_0_Encoded",
 		"dependent.types" : 
 		[
 			"scale"
@@ -1196,6 +1210,7 @@
 		[
 			{
 				"components" : [],
+				"components.types" : [],
 				"name" : "model0",
 				"title" : "Model 0"
 			},
@@ -1203,8 +1218,12 @@
 				"components" : 
 				[
 					[
-						"JaspColumn_0_Encoded"
+						"JaspColumn_3_Encoded"
 					]
+				],
+				"components.types" : 
+				[
+					"scale"
 				],
 				"name" : "model1",
 				"title" : "Model 1"
@@ -1220,6 +1239,8 @@
 		"partialResidualPlotPredictionIntervalLevel" : 0.94999999999999996,
 		"plotHeight" : 320,
 		"plotWidth" : 480,
+		"predictionsSavedToData" : false,
+		"predictionsSavedToDataColumn" : "",
 		"rSquaredChange" : false,
 		"residualCasewiseDiagnostic" : true,
 		"residualCasewiseDiagnosticCooksDistanceThreshold" : 0.0,
@@ -1235,6 +1256,7 @@
 		"residualVsFittedPlot" : false,
 		"residualsSavedToData" : false,
 		"residualsSavedToDataColumn" : "",
+		"residualsSavedToDataType" : "raw",
 		"steppingMethodCriteriaFEntry" : 3.8399999999999999,
 		"steppingMethodCriteriaFRemoval" : 2.71,
 		"steppingMethodCriteriaPEntry" : 0.050000000000000003,

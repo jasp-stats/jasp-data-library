@@ -1,0 +1,1673 @@
+{
+	"citations" : 
+	[
+		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+	],
+	"data" : 
+	{
+		"availablePlotIDs" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"availablePlotIDsText" : 
+				{
+					"citations" : [],
+					"class" : "",
+					"elementType" : "p",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"maxWidth" : "15cm",
+					"messages" : [],
+					"name" : "availablePlotIDsText",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : {},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"rawtext" : "Available Plot IDs: Plot 1",
+					"text" : "<p>Available Plot IDs: Plot 1 </p>",
+					"title" : "hide me",
+					"type" : "html"
+				}
+			},
+			"data_order" : 
+			{
+				"availablePlotIDsText" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "availablePlotIDs",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : {},
+			"optionMustContain" : {},
+			"order_increment" : 1,
+			"position" : 9999,
+			"title" : "Available Plot IDs",
+			"type" : "container"
+		},
+		"plotGridContainer" : 
+		{
+			"citations" : [],
+			"data" : {},
+			"data_order" : {},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "plotGridContainer",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : {},
+			"optionMustContain" : {},
+			"order_increment" : 0,
+			"position" : 9999,
+			"title" : "Plot Grid",
+			"type" : "container"
+		},
+		"statePlotResults" : 
+		{
+			"citations" : [],
+			"environmentName" : "state_48",
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"messages" : [],
+			"name" : "statePlotResults",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : 
+			{
+				"PlotBuilderTab" : 
+				[
+					{
+						"XPaddingFirst" : 0.050000000000000003,
+						"XPaddingSecond" : 0.050000000000000003,
+						"YPaddingFirst" : 0.040000000000000001,
+						"YPaddingSecond" : 0.050000000000000003,
+						"accuracyCountValue" : 0.10000000000000001,
+						"accuracyMeanValue" : 0.10000000000000001,
+						"accuracyMedianValue" : 0.10000000000000001,
+						"accuracySumValue" : 0.10000000000000001,
+						"addAreaStack" : false,
+						"addBarStack" : false,
+						"addBoxplot" : false,
+						"addCI95ErrorBar" : false,
+						"addCi95Ribbon" : false,
+						"addCountArea" : false,
+						"addCountBar" : false,
+						"addCountDash" : false,
+						"addCountDot" : false,
+						"addCountLine" : false,
+						"addCountValue" : false,
+						"addCurveFitPlotBuilder" : true,
+						"addDataPoint" : true,
+						"addDensity" : false,
+						"addHistogram" : false,
+						"addIdentityLinePlotBuilder" : false,
+						"addMeanArea" : false,
+						"addMeanBar" : false,
+						"addMeanDash" : false,
+						"addMeanDot" : false,
+						"addMeanLine" : false,
+						"addMeanValue" : false,
+						"addMedianArea" : false,
+						"addMedianBar" : false,
+						"addMedianDash" : false,
+						"addMedianDot" : false,
+						"addMedianLine" : false,
+						"addMedianValue" : false,
+						"addRangeErrorBar" : false,
+						"addRangeRibbon" : false,
+						"addReferenceLinePlotBuilder" : false,
+						"addSDErrorBar" : false,
+						"addSEMErrorBar" : false,
+						"addSdRibbon" : false,
+						"addSemRibbon" : false,
+						"addStatEllipse" : false,
+						"addSumArea" : false,
+						"addSumBar" : false,
+						"addSumDash" : false,
+						"addSumDot" : false,
+						"addSumLine" : false,
+						"addSumValue" : false,
+						"addViolin" : false,
+						"aggregationFun" : "mean",
+						"aggregationFunY" : "mean",
+						"alphaAreaStack" : 0.40000000000000002,
+						"alphaBarStack" : 0.80000000000000004,
+						"alphaBoxplotPlotBuilder" : 0.80000000000000004,
+						"alphaCi95Ribbon" : 0.40000000000000002,
+						"alphaCountArea" : 1.0,
+						"alphaCountBar" : 1.0,
+						"alphaCountDash" : 1.0,
+						"alphaCountDot" : 1.0,
+						"alphaCountLine" : 1.0,
+						"alphaCountValue" : 1.0,
+						"alphaDensityPlotBuilder" : 0.80000000000000004,
+						"alphaHistogramPlotBuilder" : 0.80000000000000004,
+						"alphaMeanArea" : 1.0,
+						"alphaMeanBar" : 1.0,
+						"alphaMeanDash" : 1.0,
+						"alphaMeanDot" : 1.0,
+						"alphaMeanLine" : 1.0,
+						"alphaMeanValue" : 1.0,
+						"alphaMedianArea" : 1.0,
+						"alphaMedianBar" : 1.0,
+						"alphaMedianDash" : 1.0,
+						"alphaMedianDot" : 1.0,
+						"alphaMedianLine" : 1.0,
+						"alphaMedianValue" : 1.0,
+						"alphaPlotBuilder" : 0.5,
+						"alphaRangeRibbon" : 0.40000000000000002,
+						"alphaSdRibbon" : 0.40000000000000002,
+						"alphaSemRibbon" : 0.40000000000000002,
+						"alphaSumArea" : 1.0,
+						"alphaSumBar" : 1.0,
+						"alphaSumDash" : 1.0,
+						"alphaSumDot" : 1.0,
+						"alphaSumLine" : 1.0,
+						"alphaSumValue" : 1.0,
+						"alphaViolinPlotBuilder" : 0.80000000000000004,
+						"annotationLineList" : [],
+						"annotationPlotBuilder" : 
+						[
+							{
+								"ColumnAnnotation" : "",
+								"GridAnnotation" : "",
+								"RMColumnAnnotation" : "",
+								"RMGridAnnotation" : "",
+								"RMRowAnnotation" : "",
+								"RowAnnotation" : "",
+								"annotationSize" : 5.5,
+								"annotationText" : "r  = -0.368",
+								"annotationX" : 2.0,
+								"annotationY" : 2.2000000000000002,
+								"colorText" : "black",
+								"value" : 
+								[
+									"#"
+								]
+							},
+							{
+								"ColumnAnnotation" : "",
+								"GridAnnotation" : "",
+								"RMColumnAnnotation" : "",
+								"RMGridAnnotation" : "",
+								"RMRowAnnotation" : "",
+								"RowAnnotation" : "",
+								"annotationSize" : 5.5,
+								"annotationText" : "p < .001",
+								"annotationX" : 2.0,
+								"annotationY" : 1.8,
+								"colorText" : "black",
+								"value" : 
+								[
+									"#2"
+								]
+							}
+						],
+						"asPercentage" : false,
+						"asTable" : "bottom-right",
+						"asTableFacetWrap" : "bottom-rightFacetWrap",
+						"axes" : "margins",
+						"axisLabels" : "all",
+						"backgroundDataLabels" : false,
+						"barwidthCountBar" : 0.80000000000000004,
+						"baseFontSize" : 18.0,
+						"betweenSubjectFactors" : [],
+						"betweenSubjectFactors.types" : [],
+						"binsPlotBuilder" : 30.0,
+						"blackDensityOutline" : false,
+						"blackHistogramOutline" : false,
+						"blackOutlineBoxplot" : true,
+						"blackOutlineCI95ErrorBar" : false,
+						"blackOutlineCi95Ribbon" : false,
+						"blackOutlineCountDash" : false,
+						"blackOutlineCountDot" : false,
+						"blackOutlineCountLine" : false,
+						"blackOutlineCountValue" : false,
+						"blackOutlineCurveFit" : true,
+						"blackOutlineDataPoint" : false,
+						"blackOutlineMeanDash" : false,
+						"blackOutlineMeanDot" : false,
+						"blackOutlineMeanLine" : false,
+						"blackOutlineMeanValue" : false,
+						"blackOutlineMedianDash" : false,
+						"blackOutlineMedianDot" : false,
+						"blackOutlineMedianLine" : false,
+						"blackOutlineMedianValue" : false,
+						"blackOutlineRangeErrorBar" : false,
+						"blackOutlineRangeRibbon" : false,
+						"blackOutlineSDErrorBar" : false,
+						"blackOutlineSEMErrorBar" : false,
+						"blackOutlineSdRibbon" : false,
+						"blackOutlineSemRibbon" : false,
+						"blackOutlineSumDash" : false,
+						"blackOutlineSumDot" : false,
+						"blackOutlineSumLine" : false,
+						"blackOutlineSumValue" : false,
+						"blackOutlineViolin" : false,
+						"bottomMargin" : 10.0,
+						"breakByX" : "",
+						"breakByY" : "",
+						"breakFromX" : "",
+						"breakFromY" : "",
+						"breakToX" : "",
+						"breakToY" : "",
+						"captionPlotBuilder" : "",
+						"colSplitRM" : "",
+						"colSplitRM.types" : [],
+						"colorByGroup" : "none",
+						"colorIdentityLine" : "lightgray",
+						"colorLabelRenamer" : [],
+						"colorReferenceLine" : "lightgray",
+						"colorsAll" : "jaspPalette",
+						"columnsvariableSplitPlotBuilder" : "",
+						"columnsvariableSplitPlotBuilder.types" : [],
+						"connectRMPlotBuilder" : false,
+						"covariates" : [],
+						"covariates.types" : [],
+						"curvaFitMethod" : "lm",
+						"customColors" : "",
+						"cutShortScale" : false,
+						"cutShortScaleY" : false,
+						"dashwidthCountDash" : 0.80000000000000004,
+						"dashwidthMeanDash" : 0.80000000000000004,
+						"dashwidthMedianDash" : 0.80000000000000004,
+						"deleteNAListwise" : true,
+						"densityOverlayMode" : "count",
+						"dodgeBoxplotPlotBuilder" : 0.80000000000000004,
+						"dodgeCI95ErrorBar" : 0.80000000000000004,
+						"dodgeCountArea" : 0.80000000000000004,
+						"dodgeCountBar" : 0.80000000000000004,
+						"dodgeCountDash" : 0.80000000000000004,
+						"dodgeCountDot" : 0.80000000000000004,
+						"dodgeCountLine" : 0.80000000000000004,
+						"dodgeCurveFit" : 0.80000000000000004,
+						"dodgeMeanArea" : 0.80000000000000004,
+						"dodgeMeanBar" : 0.80000000000000004,
+						"dodgeMeanDash" : 0.80000000000000004,
+						"dodgeMeanDot" : 0.80000000000000004,
+						"dodgeMeanLine" : 0.80000000000000004,
+						"dodgeMedianArea" : 0.80000000000000004,
+						"dodgeMedianBar" : 0.80000000000000004,
+						"dodgeMedianDash" : 0.80000000000000004,
+						"dodgeMedianDot" : 0.80000000000000004,
+						"dodgeMedianLine" : 0.80000000000000004,
+						"dodgeRangeErrorBar" : 0.80000000000000004,
+						"dodgeSDErrorBar" : 0.80000000000000004,
+						"dodgeSEMErrorBar" : 0.80000000000000004,
+						"dodgeSumArea" : 0.80000000000000004,
+						"dodgeSumBar" : 0.80000000000000004,
+						"dodgeSumDash" : 0.80000000000000004,
+						"dodgeSumDot" : 0.80000000000000004,
+						"dodgeSumLine" : 0.80000000000000004,
+						"dodgeViolinPlotBuilder" : 0.80000000000000004,
+						"drawQuantilesViolinPlotBuilder" : "0.25, 0.5, 0.75",
+						"ellipseType" : "t",
+						"emptyCircles" : false,
+						"enableSort" : false,
+						"enableSortY" : false,
+						"fillEllipse" : 0.20000000000000001,
+						"flipPlot" : false,
+						"fontsizeCountValue" : 14.0,
+						"fontsizeDataLabels" : 4.0,
+						"fontsizeMeanValue" : 14.0,
+						"fontsizeMedianValue" : 14.0,
+						"fontsizeSumValue" : 14.0,
+						"gridVarRM" : "",
+						"gridVarRM.types" : [],
+						"gridVariablePlotBuilder" : "",
+						"gridVariablePlotBuilder.types" : [],
+						"groupVarRM" : "",
+						"groupVarRM.types" : [],
+						"heightPlotBuilder" : 300.0,
+						"hjustCountValue" : 0.5,
+						"hjustMeanValue" : 0.5,
+						"hjustMedianValue" : 0.5,
+						"hjustSumValue" : 0.5,
+						"isRM" : "noRM",
+						"jitterhPlotBuilder" : 0.29999999999999999,
+						"jitterwPlotBuilder" : 0.29999999999999999,
+						"labelSizePValue" : 4.5,
+						"labelVariablePlotBuilder" : "",
+						"labelVariablePlotBuilder.types" : [],
+						"labelcolor" : "black",
+						"layerOrder" : "",
+						"leftMargin" : 10.0,
+						"legendPosistionPlotBuilder" : "right",
+						"levelEllipse" : 0.94999999999999996,
+						"limitFromX" : "",
+						"limitFromY" : "",
+						"limitToX" : "",
+						"limitToY" : "",
+						"lineRMsize" : 0.5,
+						"lineRMtransparency" : 0.5,
+						"lineWidthDensity" : 0.80000000000000004,
+						"linewidhtReferenceLines" : 1.0,
+						"linewidthAreaStack" : 0.25,
+						"linewidthCI95ErrorBar" : 1.0,
+						"linewidthCountDash" : 1.0,
+						"linewidthCountLine" : 1.0,
+						"linewidthCurveFit" : 1.0,
+						"linewidthMeanDash" : 1.0,
+						"linewidthMeanLine" : 1.0,
+						"linewidthMedianDash" : 1.0,
+						"linewidthMedianLine" : 1.0,
+						"linewidthRangeErrorBar" : 1.0,
+						"linewidthSDErrorBar" : 1.0,
+						"linewidthSEMErrorBar" : 1.0,
+						"linewidthSumDash" : 1.0,
+						"linewidthSumLine" : 0.5,
+						"linewidthViolinPlotBuilder" : 0.80000000000000004,
+						"margins" : false,
+						"ncolFacetWrap" : 1.0,
+						"nrowFacetWrap" : 1.0,
+						"outlierBoxplotPlotBuilder" : false,
+						"outlierCoefBoxplotPlotBuilder" : 1.5,
+						"outlierSizeBoxplotPlotBuilder" : 1.0,
+						"pairwiseComparisons" : [],
+						"plotStyle" : "JASP",
+						"pointDodgePlotBuilder" : 0.80000000000000004,
+						"pointShapeVariable" : "",
+						"pointShapeVariable.types" : [],
+						"pointSizeMax" : 4.0,
+						"pointSizeMin" : 1.0,
+						"pointsizePlotBuilder" : 3.0,
+						"propMode" : "absolute",
+						"removeLegendTitle" : false,
+						"repeatedMeasuresCells" : 
+						[
+							"",
+							""
+						],
+						"repeatedMeasuresFactors" : 
+						[
+							{
+								"levels" : 
+								[
+									"JaspExtraOptions_0_Encoded",
+									"JaspExtraOptions_1_Encoded"
+								],
+								"name" : "JaspExtraOptions_2_Encoded"
+							}
+						],
+						"replaceNaAreaStack" : false,
+						"reverseAreaStack" : false,
+						"reverseBarStack" : false,
+						"reversedirectionIdentityLine" : false,
+						"rightMargin" : 10.0,
+						"rotateXLa\tbel" : false,
+						"rotateYLabel" : false,
+						"rowSplitRM" : "",
+						"rowSplitRM.types" : [],
+						"rowsvariableSplitPlotBuilder" : "",
+						"rowsvariableSplitPlotBuilder.types" : [],
+						"scaleViolinPlotBuilder" : "width",
+						"scales" : "fixed",
+						"scalesFacetWrap" : "fixed",
+						"seCurveFit" : true,
+						"shapebyVariable" : false,
+						"sizeByVariable" : false,
+						"sizeCountDot" : 5.0,
+						"sizeMeanDot" : 5.0,
+						"sizeMedianDot" : 5.0,
+						"sizeSumDot" : 5.0,
+						"sizeVariablePlotBuilder" : "",
+						"sizeVariablePlotBuilder.types" : [],
+						"sortXLabelsOrder" : "Increasing",
+						"sortYLabelsOrder" : "Increasing",
+						"space" : "fixed",
+						"stepDistance" : 0.14999999999999999,
+						"stripPosition" : "top",
+						"titlePlotBuilder" : "",
+						"titleXPlotBuilder" : "",
+						"titleYPlotBuilder" : "",
+						"topMargin" : 10.0,
+						"transparencyCI95ErrorBar" : 1.0,
+						"transparencyCurveFit" : 0.20000000000000001,
+						"transparencyRangeErrorBar" : 1.0,
+						"transparencySDErrorBar" : 1.0,
+						"transparencySEMErrorBar" : 1.0,
+						"trimViolinPlotBuilder" : false,
+						"value" : 
+						[
+							"Plot 1"
+						],
+						"variableColorPlotBuilder" : "",
+						"variableColorPlotBuilder.types" : [],
+						"variableXPlotBuilder" : "JaspColumn_9_Encoded",
+						"variableXPlotBuilder.types" : 
+						[
+							"scale"
+						],
+						"variableYPlotBuilder" : "JaspColumn_3_Encoded",
+						"variableYPlotBuilder.types" : 
+						[
+							"scale"
+						],
+						"vjustCountValue" : -0.5,
+						"vjustMeanValue" : -0.5,
+						"vjustMedianValue" : -0.5,
+						"vjustSumValue" : -0.5,
+						"whiteBorder" : false,
+						"whiteOutlineBoxplot" : false,
+						"whiteOutlineCountDot" : false,
+						"whiteOutlineMeanDot" : false,
+						"whiteOutlineMedianDot" : false,
+						"whiteOutlineSumDot" : false,
+						"whiteOutlineViolin" : false,
+						"widthBoxplotPlotBuilder" : 0.59999999999999998,
+						"widthCI95ErrorBar" : 0.29999999999999999,
+						"widthLineBoxplotPlotBuilder" : 0.80000000000000004,
+						"widthMeanBar" : 0.80000000000000004,
+						"widthMedianBar" : 0.80000000000000004,
+						"widthPlotBuilder" : 380.0,
+						"widthRangeErrorBar" : 0.29999999999999999,
+						"widthSDErrorBar" : 0.29999999999999999,
+						"widthSEMErrorBar" : 0.29999999999999999,
+						"widthSumBar" : 0.80000000000000004,
+						"widthSumDash" : 0.80000000000000004,
+						"widthWhiskersPlotBuilder" : 0.29999999999999999,
+						"xAxisLabelRenamer" : [],
+						"xAxisTitleSplit" : "",
+						"xReferenceLine" : "",
+						"xVarRM" : "",
+						"xVarRM.types" : [],
+						"yAxisLabelRenamer" : [],
+						"yAxisTitleSplit" : "",
+						"yPositionPValue" : 70.0,
+						"yReferenceLine" : ""
+					}
+				]
+			},
+			"optionMustContain" : {},
+			"position" : 9999,
+			"title" : "",
+			"type" : "state"
+		},
+		"tidyPlotsContainer" : 
+		{
+			"citations" : [],
+			"data" : 
+			{
+				"tidyPlot_Plot 1" : 
+				{
+					"aspectRatio" : 0.0,
+					"citations" : [],
+					"editOptions" : 
+					{
+						"error" : "success",
+						"xAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									1,
+									2,
+									3,
+									4,
+									5
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.050000000000000003,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"1",
+									"2",
+									"3",
+									"4",
+									"5"
+								],
+								"limits" : 
+								[
+									1.10385397473195,
+									4.9119014778174499
+								],
+								"limitsType" : "data",
+								"range" : 
+								[
+									1,
+									5,
+									1
+								],
+								"title" : "JaspColumn_9_Encoded",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						},
+						"yAxis" : 
+						{
+							"settings" : 
+							{
+								"breaks" : 
+								[
+									2,
+									3,
+									4
+								],
+								"breaksType" : "range",
+								"expand" : 
+								[
+									0.040000000000000001,
+									0,
+									0.050000000000000003,
+									0
+								],
+								"labels" : 
+								[
+									"2",
+									"3",
+									"4"
+								],
+								"limits" : 
+								[
+									1.6493179071694599,
+									4.6918854268888701
+								],
+								"limitsType" : "data",
+								"range" : 
+								[
+									2,
+									4,
+									1
+								],
+								"title" : "JaspColumn_3_Encoded",
+								"titleType" : "character"
+							},
+							"type" : "ScaleContinuous"
+						}
+					},
+					"environmentName" : "plot_48",
+					"error" : false,
+					"errorMessage" : "",
+					"escapeHtml" : true,
+					"filePathPng" : "resources/1/_16_t1752582084878.png",
+					"height" : 300,
+					"messages" : [],
+					"name" : "tidyPlot_Plot 1",
+					"nestedOptionMustBe" : {},
+					"nestedOptionMustContain" : {},
+					"optionMustBe" : 
+					{
+						".meta" : 
+						{
+							"PlotBuilderTab" : 
+							{
+								"betweenSubjectFactors" : 
+								{
+									"shouldEncode" : true
+								},
+								"colSplitRM" : 
+								{
+									"shouldEncode" : true
+								},
+								"columnsvariableSplitPlotBuilder" : 
+								{
+									"shouldEncode" : true
+								},
+								"covariates" : 
+								{
+									"shouldEncode" : true
+								},
+								"drawQuantilesViolinPlotBuilder" : 
+								{
+									"isRCode" : true
+								},
+								"gridVarRM" : 
+								{
+									"shouldEncode" : true
+								},
+								"gridVariablePlotBuilder" : 
+								{
+									"shouldEncode" : true
+								},
+								"groupVarRM" : 
+								{
+									"shouldEncode" : true
+								},
+								"labelVariablePlotBuilder" : 
+								{
+									"shouldEncode" : true
+								},
+								"pointShapeVariable" : 
+								{
+									"shouldEncode" : true
+								},
+								"repeatedMeasuresCells" : 
+								{
+									"shouldEncode" : true
+								},
+								"repeatedMeasuresFactors" : 
+								{
+									"encodeThis" : 
+									[
+										"RM Factor 1",
+										"Level 1",
+										"Level 2"
+									],
+									"shouldEncode" : true
+								},
+								"rowSplitRM" : 
+								{
+									"shouldEncode" : true
+								},
+								"rowsvariableSplitPlotBuilder" : 
+								{
+									"shouldEncode" : true
+								},
+								"sizeVariablePlotBuilder" : 
+								{
+									"shouldEncode" : true
+								},
+								"variableColorPlotBuilder" : 
+								{
+									"shouldEncode" : true
+								},
+								"variableXPlotBuilder" : 
+								{
+									"shouldEncode" : true
+								},
+								"variableYPlotBuilder" : 
+								{
+									"shouldEncode" : true
+								},
+								"xVarRM" : 
+								{
+									"shouldEncode" : true
+								}
+							}
+						},
+						"PlotBuilderTab" : 
+						[
+							{
+								"XPaddingFirst" : 0.050000000000000003,
+								"XPaddingSecond" : 0.050000000000000003,
+								"YPaddingFirst" : 0.040000000000000001,
+								"YPaddingSecond" : 0.050000000000000003,
+								"accuracyCountValue" : 0.10000000000000001,
+								"accuracyMeanValue" : 0.10000000000000001,
+								"accuracyMedianValue" : 0.10000000000000001,
+								"accuracySumValue" : 0.10000000000000001,
+								"addAreaStack" : false,
+								"addBarStack" : false,
+								"addBoxplot" : false,
+								"addCI95ErrorBar" : false,
+								"addCi95Ribbon" : false,
+								"addCountArea" : false,
+								"addCountBar" : false,
+								"addCountDash" : false,
+								"addCountDot" : false,
+								"addCountLine" : false,
+								"addCountValue" : false,
+								"addCurveFitPlotBuilder" : true,
+								"addDataPoint" : true,
+								"addDensity" : false,
+								"addHistogram" : false,
+								"addIdentityLinePlotBuilder" : false,
+								"addMeanArea" : false,
+								"addMeanBar" : false,
+								"addMeanDash" : false,
+								"addMeanDot" : false,
+								"addMeanLine" : false,
+								"addMeanValue" : false,
+								"addMedianArea" : false,
+								"addMedianBar" : false,
+								"addMedianDash" : false,
+								"addMedianDot" : false,
+								"addMedianLine" : false,
+								"addMedianValue" : false,
+								"addRangeErrorBar" : false,
+								"addRangeRibbon" : false,
+								"addReferenceLinePlotBuilder" : false,
+								"addSDErrorBar" : false,
+								"addSEMErrorBar" : false,
+								"addSdRibbon" : false,
+								"addSemRibbon" : false,
+								"addStatEllipse" : false,
+								"addSumArea" : false,
+								"addSumBar" : false,
+								"addSumDash" : false,
+								"addSumDot" : false,
+								"addSumLine" : false,
+								"addSumValue" : false,
+								"addViolin" : false,
+								"aggregationFun" : "mean",
+								"aggregationFunY" : "mean",
+								"alphaAreaStack" : 0.40000000000000002,
+								"alphaBarStack" : 0.80000000000000004,
+								"alphaBoxplotPlotBuilder" : 0.80000000000000004,
+								"alphaCi95Ribbon" : 0.40000000000000002,
+								"alphaCountArea" : 1.0,
+								"alphaCountBar" : 1.0,
+								"alphaCountDash" : 1.0,
+								"alphaCountDot" : 1.0,
+								"alphaCountLine" : 1.0,
+								"alphaCountValue" : 1.0,
+								"alphaDensityPlotBuilder" : 0.80000000000000004,
+								"alphaHistogramPlotBuilder" : 0.80000000000000004,
+								"alphaMeanArea" : 1.0,
+								"alphaMeanBar" : 1.0,
+								"alphaMeanDash" : 1.0,
+								"alphaMeanDot" : 1.0,
+								"alphaMeanLine" : 1.0,
+								"alphaMeanValue" : 1.0,
+								"alphaMedianArea" : 1.0,
+								"alphaMedianBar" : 1.0,
+								"alphaMedianDash" : 1.0,
+								"alphaMedianDot" : 1.0,
+								"alphaMedianLine" : 1.0,
+								"alphaMedianValue" : 1.0,
+								"alphaPlotBuilder" : 0.5,
+								"alphaRangeRibbon" : 0.40000000000000002,
+								"alphaSdRibbon" : 0.40000000000000002,
+								"alphaSemRibbon" : 0.40000000000000002,
+								"alphaSumArea" : 1.0,
+								"alphaSumBar" : 1.0,
+								"alphaSumDash" : 1.0,
+								"alphaSumDot" : 1.0,
+								"alphaSumLine" : 1.0,
+								"alphaSumValue" : 1.0,
+								"alphaViolinPlotBuilder" : 0.80000000000000004,
+								"annotationLineList" : [],
+								"annotationPlotBuilder" : 
+								[
+									{
+										"ColumnAnnotation" : "",
+										"GridAnnotation" : "",
+										"RMColumnAnnotation" : "",
+										"RMGridAnnotation" : "",
+										"RMRowAnnotation" : "",
+										"RowAnnotation" : "",
+										"annotationSize" : 5.5,
+										"annotationText" : "r  = -0.368",
+										"annotationX" : 2.0,
+										"annotationY" : 2.2000000000000002,
+										"colorText" : "black",
+										"value" : 
+										[
+											"#"
+										]
+									},
+									{
+										"ColumnAnnotation" : "",
+										"GridAnnotation" : "",
+										"RMColumnAnnotation" : "",
+										"RMGridAnnotation" : "",
+										"RMRowAnnotation" : "",
+										"RowAnnotation" : "",
+										"annotationSize" : 5.5,
+										"annotationText" : "p < .001",
+										"annotationX" : 2.0,
+										"annotationY" : 1.8,
+										"colorText" : "black",
+										"value" : 
+										[
+											"#2"
+										]
+									}
+								],
+								"asPercentage" : false,
+								"asTable" : "bottom-right",
+								"asTableFacetWrap" : "bottom-rightFacetWrap",
+								"axes" : "margins",
+								"axisLabels" : "all",
+								"backgroundDataLabels" : false,
+								"barwidthCountBar" : 0.80000000000000004,
+								"baseFontSize" : 18.0,
+								"betweenSubjectFactors" : [],
+								"betweenSubjectFactors.types" : [],
+								"binsPlotBuilder" : 30.0,
+								"blackDensityOutline" : false,
+								"blackHistogramOutline" : false,
+								"blackOutlineBoxplot" : true,
+								"blackOutlineCI95ErrorBar" : false,
+								"blackOutlineCi95Ribbon" : false,
+								"blackOutlineCountDash" : false,
+								"blackOutlineCountDot" : false,
+								"blackOutlineCountLine" : false,
+								"blackOutlineCountValue" : false,
+								"blackOutlineCurveFit" : true,
+								"blackOutlineDataPoint" : false,
+								"blackOutlineMeanDash" : false,
+								"blackOutlineMeanDot" : false,
+								"blackOutlineMeanLine" : false,
+								"blackOutlineMeanValue" : false,
+								"blackOutlineMedianDash" : false,
+								"blackOutlineMedianDot" : false,
+								"blackOutlineMedianLine" : false,
+								"blackOutlineMedianValue" : false,
+								"blackOutlineRangeErrorBar" : false,
+								"blackOutlineRangeRibbon" : false,
+								"blackOutlineSDErrorBar" : false,
+								"blackOutlineSEMErrorBar" : false,
+								"blackOutlineSdRibbon" : false,
+								"blackOutlineSemRibbon" : false,
+								"blackOutlineSumDash" : false,
+								"blackOutlineSumDot" : false,
+								"blackOutlineSumLine" : false,
+								"blackOutlineSumValue" : false,
+								"blackOutlineViolin" : false,
+								"bottomMargin" : 10.0,
+								"breakByX" : "",
+								"breakByY" : "",
+								"breakFromX" : "",
+								"breakFromY" : "",
+								"breakToX" : "",
+								"breakToY" : "",
+								"captionPlotBuilder" : "",
+								"colSplitRM" : "",
+								"colSplitRM.types" : [],
+								"colorByGroup" : "none",
+								"colorIdentityLine" : "lightgray",
+								"colorLabelRenamer" : [],
+								"colorReferenceLine" : "lightgray",
+								"colorsAll" : "jaspPalette",
+								"columnsvariableSplitPlotBuilder" : "",
+								"columnsvariableSplitPlotBuilder.types" : [],
+								"connectRMPlotBuilder" : false,
+								"covariates" : [],
+								"covariates.types" : [],
+								"curvaFitMethod" : "lm",
+								"customColors" : "",
+								"cutShortScale" : false,
+								"cutShortScaleY" : false,
+								"dashwidthCountDash" : 0.80000000000000004,
+								"dashwidthMeanDash" : 0.80000000000000004,
+								"dashwidthMedianDash" : 0.80000000000000004,
+								"deleteNAListwise" : true,
+								"densityOverlayMode" : "count",
+								"dodgeBoxplotPlotBuilder" : 0.80000000000000004,
+								"dodgeCI95ErrorBar" : 0.80000000000000004,
+								"dodgeCountArea" : 0.80000000000000004,
+								"dodgeCountBar" : 0.80000000000000004,
+								"dodgeCountDash" : 0.80000000000000004,
+								"dodgeCountDot" : 0.80000000000000004,
+								"dodgeCountLine" : 0.80000000000000004,
+								"dodgeCurveFit" : 0.80000000000000004,
+								"dodgeMeanArea" : 0.80000000000000004,
+								"dodgeMeanBar" : 0.80000000000000004,
+								"dodgeMeanDash" : 0.80000000000000004,
+								"dodgeMeanDot" : 0.80000000000000004,
+								"dodgeMeanLine" : 0.80000000000000004,
+								"dodgeMedianArea" : 0.80000000000000004,
+								"dodgeMedianBar" : 0.80000000000000004,
+								"dodgeMedianDash" : 0.80000000000000004,
+								"dodgeMedianDot" : 0.80000000000000004,
+								"dodgeMedianLine" : 0.80000000000000004,
+								"dodgeRangeErrorBar" : 0.80000000000000004,
+								"dodgeSDErrorBar" : 0.80000000000000004,
+								"dodgeSEMErrorBar" : 0.80000000000000004,
+								"dodgeSumArea" : 0.80000000000000004,
+								"dodgeSumBar" : 0.80000000000000004,
+								"dodgeSumDash" : 0.80000000000000004,
+								"dodgeSumDot" : 0.80000000000000004,
+								"dodgeSumLine" : 0.80000000000000004,
+								"dodgeViolinPlotBuilder" : 0.80000000000000004,
+								"drawQuantilesViolinPlotBuilder" : "0.25, 0.5, 0.75",
+								"ellipseType" : "t",
+								"emptyCircles" : false,
+								"enableSort" : false,
+								"enableSortY" : false,
+								"fillEllipse" : 0.20000000000000001,
+								"flipPlot" : false,
+								"fontsizeCountValue" : 14.0,
+								"fontsizeDataLabels" : 4.0,
+								"fontsizeMeanValue" : 14.0,
+								"fontsizeMedianValue" : 14.0,
+								"fontsizeSumValue" : 14.0,
+								"gridVarRM" : "",
+								"gridVarRM.types" : [],
+								"gridVariablePlotBuilder" : "",
+								"gridVariablePlotBuilder.types" : [],
+								"groupVarRM" : "",
+								"groupVarRM.types" : [],
+								"heightPlotBuilder" : 300.0,
+								"hjustCountValue" : 0.5,
+								"hjustMeanValue" : 0.5,
+								"hjustMedianValue" : 0.5,
+								"hjustSumValue" : 0.5,
+								"isRM" : "noRM",
+								"jitterhPlotBuilder" : 0.29999999999999999,
+								"jitterwPlotBuilder" : 0.29999999999999999,
+								"labelSizePValue" : 4.5,
+								"labelVariablePlotBuilder" : "",
+								"labelVariablePlotBuilder.types" : [],
+								"labelcolor" : "black",
+								"layerOrder" : "",
+								"leftMargin" : 10.0,
+								"legendPosistionPlotBuilder" : "right",
+								"levelEllipse" : 0.94999999999999996,
+								"limitFromX" : "",
+								"limitFromY" : "",
+								"limitToX" : "",
+								"limitToY" : "",
+								"lineRMsize" : 0.5,
+								"lineRMtransparency" : 0.5,
+								"lineWidthDensity" : 0.80000000000000004,
+								"linewidhtReferenceLines" : 1.0,
+								"linewidthAreaStack" : 0.25,
+								"linewidthCI95ErrorBar" : 1.0,
+								"linewidthCountDash" : 1.0,
+								"linewidthCountLine" : 1.0,
+								"linewidthCurveFit" : 1.0,
+								"linewidthMeanDash" : 1.0,
+								"linewidthMeanLine" : 1.0,
+								"linewidthMedianDash" : 1.0,
+								"linewidthMedianLine" : 1.0,
+								"linewidthRangeErrorBar" : 1.0,
+								"linewidthSDErrorBar" : 1.0,
+								"linewidthSEMErrorBar" : 1.0,
+								"linewidthSumDash" : 1.0,
+								"linewidthSumLine" : 0.5,
+								"linewidthViolinPlotBuilder" : 0.80000000000000004,
+								"margins" : false,
+								"ncolFacetWrap" : 1.0,
+								"nrowFacetWrap" : 1.0,
+								"outlierBoxplotPlotBuilder" : false,
+								"outlierCoefBoxplotPlotBuilder" : 1.5,
+								"outlierSizeBoxplotPlotBuilder" : 1.0,
+								"pairwiseComparisons" : [],
+								"plotStyle" : "JASP",
+								"pointDodgePlotBuilder" : 0.80000000000000004,
+								"pointShapeVariable" : "",
+								"pointShapeVariable.types" : [],
+								"pointSizeMax" : 4.0,
+								"pointSizeMin" : 1.0,
+								"pointsizePlotBuilder" : 3.0,
+								"propMode" : "absolute",
+								"removeLegendTitle" : false,
+								"repeatedMeasuresCells" : 
+								[
+									"",
+									""
+								],
+								"repeatedMeasuresFactors" : 
+								[
+									{
+										"levels" : 
+										[
+											"JaspExtraOptions_0_Encoded",
+											"JaspExtraOptions_1_Encoded"
+										],
+										"name" : "JaspExtraOptions_2_Encoded"
+									}
+								],
+								"replaceNaAreaStack" : false,
+								"reverseAreaStack" : false,
+								"reverseBarStack" : false,
+								"reversedirectionIdentityLine" : false,
+								"rightMargin" : 10.0,
+								"rotateXLa\tbel" : false,
+								"rotateYLabel" : false,
+								"rowSplitRM" : "",
+								"rowSplitRM.types" : [],
+								"rowsvariableSplitPlotBuilder" : "",
+								"rowsvariableSplitPlotBuilder.types" : [],
+								"scaleViolinPlotBuilder" : "width",
+								"scales" : "fixed",
+								"scalesFacetWrap" : "fixed",
+								"seCurveFit" : true,
+								"shapebyVariable" : false,
+								"sizeByVariable" : false,
+								"sizeCountDot" : 5.0,
+								"sizeMeanDot" : 5.0,
+								"sizeMedianDot" : 5.0,
+								"sizeSumDot" : 5.0,
+								"sizeVariablePlotBuilder" : "",
+								"sizeVariablePlotBuilder.types" : [],
+								"sortXLabelsOrder" : "Increasing",
+								"sortYLabelsOrder" : "Increasing",
+								"space" : "fixed",
+								"stepDistance" : 0.14999999999999999,
+								"stripPosition" : "top",
+								"titlePlotBuilder" : "",
+								"titleXPlotBuilder" : "",
+								"titleYPlotBuilder" : "",
+								"topMargin" : 10.0,
+								"transparencyCI95ErrorBar" : 1.0,
+								"transparencyCurveFit" : 0.20000000000000001,
+								"transparencyRangeErrorBar" : 1.0,
+								"transparencySDErrorBar" : 1.0,
+								"transparencySEMErrorBar" : 1.0,
+								"trimViolinPlotBuilder" : false,
+								"value" : 
+								[
+									"Plot 1"
+								],
+								"variableColorPlotBuilder" : "",
+								"variableColorPlotBuilder.types" : [],
+								"variableXPlotBuilder" : "JaspColumn_9_Encoded",
+								"variableXPlotBuilder.types" : 
+								[
+									"scale"
+								],
+								"variableYPlotBuilder" : "JaspColumn_3_Encoded",
+								"variableYPlotBuilder.types" : 
+								[
+									"scale"
+								],
+								"vjustCountValue" : -0.5,
+								"vjustMeanValue" : -0.5,
+								"vjustMedianValue" : -0.5,
+								"vjustSumValue" : -0.5,
+								"whiteBorder" : false,
+								"whiteOutlineBoxplot" : false,
+								"whiteOutlineCountDot" : false,
+								"whiteOutlineMeanDot" : false,
+								"whiteOutlineMedianDot" : false,
+								"whiteOutlineSumDot" : false,
+								"whiteOutlineViolin" : false,
+								"widthBoxplotPlotBuilder" : 0.59999999999999998,
+								"widthCI95ErrorBar" : 0.29999999999999999,
+								"widthLineBoxplotPlotBuilder" : 0.80000000000000004,
+								"widthMeanBar" : 0.80000000000000004,
+								"widthMedianBar" : 0.80000000000000004,
+								"widthPlotBuilder" : 380.0,
+								"widthRangeErrorBar" : 0.29999999999999999,
+								"widthSDErrorBar" : 0.29999999999999999,
+								"widthSEMErrorBar" : 0.29999999999999999,
+								"widthSumBar" : 0.80000000000000004,
+								"widthSumDash" : 0.80000000000000004,
+								"widthWhiskersPlotBuilder" : 0.29999999999999999,
+								"xAxisLabelRenamer" : [],
+								"xAxisTitleSplit" : "",
+								"xReferenceLine" : "",
+								"xVarRM" : "",
+								"xVarRM.types" : [],
+								"yAxisLabelRenamer" : [],
+								"yAxisTitleSplit" : "",
+								"yPositionPValue" : 70.0,
+								"yReferenceLine" : ""
+							}
+						],
+						"columnWidthInput" : "",
+						"fullRowSpecifications" : [],
+						"getCommonLegend" : false,
+						"labelDistance1" : 0.050000000000000003,
+						"labelDistance2" : 0.94999999999999996,
+						"labelSize" : 18.0,
+						"layoutHeight" : 500.0,
+						"layoutWidth" : 500.0,
+						"plotHeight" : 320,
+						"plotSpacing" : 10.0,
+						"plotWidth" : 480,
+						"relHeightWithinRowLayout" : "",
+						"relativeHeight" : "",
+						"rowSpecifications" : []
+					},
+					"optionMustContain" : {},
+					"position" : 9999,
+					"resizedByUser" : false,
+					"revision" : 0,
+					"status" : "complete",
+					"title" : "Plot 1",
+					"type" : "plot",
+					"width" : 380
+				}
+			},
+			"data_order" : 
+			{
+				"tidyPlot_Plot 1" : 0
+			},
+			"error" : false,
+			"errorMessage" : "",
+			"escapeHtml" : true,
+			"initCollapsed" : false,
+			"messages" : [],
+			"name" : "tidyPlotsContainer",
+			"nestedOptionMustBe" : {},
+			"nestedOptionMustContain" : {},
+			"optionMustBe" : {},
+			"optionMustContain" : {},
+			"order_increment" : 1,
+			"position" : 9999,
+			"title" : "Plots",
+			"type" : "container"
+		}
+	},
+	"data_order" : 
+	{
+		"availablePlotIDs" : 2,
+		"plotGridContainer" : 3,
+		"statePlotResults" : 0,
+		"tidyPlotsContainer" : 1
+	},
+	"error" : false,
+	"errorMessage" : "",
+	"escapeHtml" : true,
+	"initCollapsed" : false,
+	"messages" : [],
+	"name" : "",
+	"nestedOptionMustBe" : {},
+	"nestedOptionMustContain" : {},
+	"optionMustBe" : {},
+	"optionMustContain" : {},
+	"options" : 
+	{
+		".meta" : 
+		{
+			"PlotBuilderTab" : 
+			{
+				"betweenSubjectFactors" : 
+				{
+					"shouldEncode" : true
+				},
+				"colSplitRM" : 
+				{
+					"shouldEncode" : true
+				},
+				"columnsvariableSplitPlotBuilder" : 
+				{
+					"shouldEncode" : true
+				},
+				"covariates" : 
+				{
+					"shouldEncode" : true
+				},
+				"drawQuantilesViolinPlotBuilder" : 
+				{
+					"isRCode" : true
+				},
+				"gridVarRM" : 
+				{
+					"shouldEncode" : true
+				},
+				"gridVariablePlotBuilder" : 
+				{
+					"shouldEncode" : true
+				},
+				"groupVarRM" : 
+				{
+					"shouldEncode" : true
+				},
+				"labelVariablePlotBuilder" : 
+				{
+					"shouldEncode" : true
+				},
+				"pointShapeVariable" : 
+				{
+					"shouldEncode" : true
+				},
+				"repeatedMeasuresCells" : 
+				{
+					"shouldEncode" : true
+				},
+				"repeatedMeasuresFactors" : 
+				{
+					"encodeThis" : 
+					[
+						"RM Factor 1",
+						"Level 1",
+						"Level 2"
+					],
+					"shouldEncode" : true
+				},
+				"rowSplitRM" : 
+				{
+					"shouldEncode" : true
+				},
+				"rowsvariableSplitPlotBuilder" : 
+				{
+					"shouldEncode" : true
+				},
+				"sizeVariablePlotBuilder" : 
+				{
+					"shouldEncode" : true
+				},
+				"variableColorPlotBuilder" : 
+				{
+					"shouldEncode" : true
+				},
+				"variableXPlotBuilder" : 
+				{
+					"shouldEncode" : true
+				},
+				"variableYPlotBuilder" : 
+				{
+					"shouldEncode" : true
+				},
+				"xVarRM" : 
+				{
+					"shouldEncode" : true
+				}
+			}
+		},
+		"PlotBuilderTab" : 
+		[
+			{
+				"XPaddingFirst" : 0.050000000000000003,
+				"XPaddingSecond" : 0.050000000000000003,
+				"YPaddingFirst" : 0.040000000000000001,
+				"YPaddingSecond" : 0.050000000000000003,
+				"accuracyCountValue" : 0.10000000000000001,
+				"accuracyMeanValue" : 0.10000000000000001,
+				"accuracyMedianValue" : 0.10000000000000001,
+				"accuracySumValue" : 0.10000000000000001,
+				"addAreaStack" : false,
+				"addBarStack" : false,
+				"addBoxplot" : false,
+				"addCI95ErrorBar" : false,
+				"addCi95Ribbon" : false,
+				"addCountArea" : false,
+				"addCountBar" : false,
+				"addCountDash" : false,
+				"addCountDot" : false,
+				"addCountLine" : false,
+				"addCountValue" : false,
+				"addCurveFitPlotBuilder" : true,
+				"addDataPoint" : true,
+				"addDensity" : false,
+				"addHistogram" : false,
+				"addIdentityLinePlotBuilder" : false,
+				"addMeanArea" : false,
+				"addMeanBar" : false,
+				"addMeanDash" : false,
+				"addMeanDot" : false,
+				"addMeanLine" : false,
+				"addMeanValue" : false,
+				"addMedianArea" : false,
+				"addMedianBar" : false,
+				"addMedianDash" : false,
+				"addMedianDot" : false,
+				"addMedianLine" : false,
+				"addMedianValue" : false,
+				"addRangeErrorBar" : false,
+				"addRangeRibbon" : false,
+				"addReferenceLinePlotBuilder" : false,
+				"addSDErrorBar" : false,
+				"addSEMErrorBar" : false,
+				"addSdRibbon" : false,
+				"addSemRibbon" : false,
+				"addStatEllipse" : false,
+				"addSumArea" : false,
+				"addSumBar" : false,
+				"addSumDash" : false,
+				"addSumDot" : false,
+				"addSumLine" : false,
+				"addSumValue" : false,
+				"addViolin" : false,
+				"aggregationFun" : "mean",
+				"aggregationFunY" : "mean",
+				"alphaAreaStack" : 0.40000000000000002,
+				"alphaBarStack" : 0.80000000000000004,
+				"alphaBoxplotPlotBuilder" : 0.80000000000000004,
+				"alphaCi95Ribbon" : 0.40000000000000002,
+				"alphaCountArea" : 1.0,
+				"alphaCountBar" : 1.0,
+				"alphaCountDash" : 1.0,
+				"alphaCountDot" : 1.0,
+				"alphaCountLine" : 1.0,
+				"alphaCountValue" : 1.0,
+				"alphaDensityPlotBuilder" : 0.80000000000000004,
+				"alphaHistogramPlotBuilder" : 0.80000000000000004,
+				"alphaMeanArea" : 1.0,
+				"alphaMeanBar" : 1.0,
+				"alphaMeanDash" : 1.0,
+				"alphaMeanDot" : 1.0,
+				"alphaMeanLine" : 1.0,
+				"alphaMeanValue" : 1.0,
+				"alphaMedianArea" : 1.0,
+				"alphaMedianBar" : 1.0,
+				"alphaMedianDash" : 1.0,
+				"alphaMedianDot" : 1.0,
+				"alphaMedianLine" : 1.0,
+				"alphaMedianValue" : 1.0,
+				"alphaPlotBuilder" : 0.5,
+				"alphaRangeRibbon" : 0.40000000000000002,
+				"alphaSdRibbon" : 0.40000000000000002,
+				"alphaSemRibbon" : 0.40000000000000002,
+				"alphaSumArea" : 1.0,
+				"alphaSumBar" : 1.0,
+				"alphaSumDash" : 1.0,
+				"alphaSumDot" : 1.0,
+				"alphaSumLine" : 1.0,
+				"alphaSumValue" : 1.0,
+				"alphaViolinPlotBuilder" : 0.80000000000000004,
+				"annotationLineList" : [],
+				"annotationPlotBuilder" : 
+				[
+					{
+						"ColumnAnnotation" : "",
+						"GridAnnotation" : "",
+						"RMColumnAnnotation" : "",
+						"RMGridAnnotation" : "",
+						"RMRowAnnotation" : "",
+						"RowAnnotation" : "",
+						"annotationSize" : 5.5,
+						"annotationText" : "r  = -0.368",
+						"annotationX" : 2.0,
+						"annotationY" : 2.2000000000000002,
+						"colorText" : "black",
+						"value" : 
+						[
+							"#"
+						]
+					},
+					{
+						"ColumnAnnotation" : "",
+						"GridAnnotation" : "",
+						"RMColumnAnnotation" : "",
+						"RMGridAnnotation" : "",
+						"RMRowAnnotation" : "",
+						"RowAnnotation" : "",
+						"annotationSize" : 5.5,
+						"annotationText" : "p < .001",
+						"annotationX" : 2.0,
+						"annotationY" : 1.8,
+						"colorText" : "black",
+						"value" : 
+						[
+							"#2"
+						]
+					}
+				],
+				"asPercentage" : false,
+				"asTable" : "bottom-right",
+				"asTableFacetWrap" : "bottom-rightFacetWrap",
+				"axes" : "margins",
+				"axisLabels" : "all",
+				"backgroundDataLabels" : false,
+				"barwidthCountBar" : 0.80000000000000004,
+				"baseFontSize" : 18.0,
+				"betweenSubjectFactors" : [],
+				"betweenSubjectFactors.types" : [],
+				"binsPlotBuilder" : 30.0,
+				"blackDensityOutline" : false,
+				"blackHistogramOutline" : false,
+				"blackOutlineBoxplot" : true,
+				"blackOutlineCI95ErrorBar" : false,
+				"blackOutlineCi95Ribbon" : false,
+				"blackOutlineCountDash" : false,
+				"blackOutlineCountDot" : false,
+				"blackOutlineCountLine" : false,
+				"blackOutlineCountValue" : false,
+				"blackOutlineCurveFit" : true,
+				"blackOutlineDataPoint" : false,
+				"blackOutlineMeanDash" : false,
+				"blackOutlineMeanDot" : false,
+				"blackOutlineMeanLine" : false,
+				"blackOutlineMeanValue" : false,
+				"blackOutlineMedianDash" : false,
+				"blackOutlineMedianDot" : false,
+				"blackOutlineMedianLine" : false,
+				"blackOutlineMedianValue" : false,
+				"blackOutlineRangeErrorBar" : false,
+				"blackOutlineRangeRibbon" : false,
+				"blackOutlineSDErrorBar" : false,
+				"blackOutlineSEMErrorBar" : false,
+				"blackOutlineSdRibbon" : false,
+				"blackOutlineSemRibbon" : false,
+				"blackOutlineSumDash" : false,
+				"blackOutlineSumDot" : false,
+				"blackOutlineSumLine" : false,
+				"blackOutlineSumValue" : false,
+				"blackOutlineViolin" : false,
+				"bottomMargin" : 10.0,
+				"breakByX" : "",
+				"breakByY" : "",
+				"breakFromX" : "",
+				"breakFromY" : "",
+				"breakToX" : "",
+				"breakToY" : "",
+				"captionPlotBuilder" : "",
+				"colSplitRM" : "",
+				"colSplitRM.types" : [],
+				"colorByGroup" : "none",
+				"colorIdentityLine" : "lightgray",
+				"colorLabelRenamer" : [],
+				"colorReferenceLine" : "lightgray",
+				"colorsAll" : "jaspPalette",
+				"columnsvariableSplitPlotBuilder" : "",
+				"columnsvariableSplitPlotBuilder.types" : [],
+				"connectRMPlotBuilder" : false,
+				"covariates" : [],
+				"covariates.types" : [],
+				"curvaFitMethod" : "lm",
+				"customColors" : "",
+				"cutShortScale" : false,
+				"cutShortScaleY" : false,
+				"dashwidthCountDash" : 0.80000000000000004,
+				"dashwidthMeanDash" : 0.80000000000000004,
+				"dashwidthMedianDash" : 0.80000000000000004,
+				"deleteNAListwise" : true,
+				"densityOverlayMode" : "count",
+				"dodgeBoxplotPlotBuilder" : 0.80000000000000004,
+				"dodgeCI95ErrorBar" : 0.80000000000000004,
+				"dodgeCountArea" : 0.80000000000000004,
+				"dodgeCountBar" : 0.80000000000000004,
+				"dodgeCountDash" : 0.80000000000000004,
+				"dodgeCountDot" : 0.80000000000000004,
+				"dodgeCountLine" : 0.80000000000000004,
+				"dodgeCurveFit" : 0.80000000000000004,
+				"dodgeMeanArea" : 0.80000000000000004,
+				"dodgeMeanBar" : 0.80000000000000004,
+				"dodgeMeanDash" : 0.80000000000000004,
+				"dodgeMeanDot" : 0.80000000000000004,
+				"dodgeMeanLine" : 0.80000000000000004,
+				"dodgeMedianArea" : 0.80000000000000004,
+				"dodgeMedianBar" : 0.80000000000000004,
+				"dodgeMedianDash" : 0.80000000000000004,
+				"dodgeMedianDot" : 0.80000000000000004,
+				"dodgeMedianLine" : 0.80000000000000004,
+				"dodgeRangeErrorBar" : 0.80000000000000004,
+				"dodgeSDErrorBar" : 0.80000000000000004,
+				"dodgeSEMErrorBar" : 0.80000000000000004,
+				"dodgeSumArea" : 0.80000000000000004,
+				"dodgeSumBar" : 0.80000000000000004,
+				"dodgeSumDash" : 0.80000000000000004,
+				"dodgeSumDot" : 0.80000000000000004,
+				"dodgeSumLine" : 0.80000000000000004,
+				"dodgeViolinPlotBuilder" : 0.80000000000000004,
+				"drawQuantilesViolinPlotBuilder" : "0.25, 0.5, 0.75",
+				"ellipseType" : "t",
+				"emptyCircles" : false,
+				"enableSort" : false,
+				"enableSortY" : false,
+				"fillEllipse" : 0.20000000000000001,
+				"flipPlot" : false,
+				"fontsizeCountValue" : 14.0,
+				"fontsizeDataLabels" : 4.0,
+				"fontsizeMeanValue" : 14.0,
+				"fontsizeMedianValue" : 14.0,
+				"fontsizeSumValue" : 14.0,
+				"gridVarRM" : "",
+				"gridVarRM.types" : [],
+				"gridVariablePlotBuilder" : "",
+				"gridVariablePlotBuilder.types" : [],
+				"groupVarRM" : "",
+				"groupVarRM.types" : [],
+				"heightPlotBuilder" : 300.0,
+				"hjustCountValue" : 0.5,
+				"hjustMeanValue" : 0.5,
+				"hjustMedianValue" : 0.5,
+				"hjustSumValue" : 0.5,
+				"isRM" : "noRM",
+				"jitterhPlotBuilder" : 0.29999999999999999,
+				"jitterwPlotBuilder" : 0.29999999999999999,
+				"labelSizePValue" : 4.5,
+				"labelVariablePlotBuilder" : "",
+				"labelVariablePlotBuilder.types" : [],
+				"labelcolor" : "black",
+				"layerOrder" : "",
+				"leftMargin" : 10.0,
+				"legendPosistionPlotBuilder" : "right",
+				"levelEllipse" : 0.94999999999999996,
+				"limitFromX" : "",
+				"limitFromY" : "",
+				"limitToX" : "",
+				"limitToY" : "",
+				"lineRMsize" : 0.5,
+				"lineRMtransparency" : 0.5,
+				"lineWidthDensity" : 0.80000000000000004,
+				"linewidhtReferenceLines" : 1.0,
+				"linewidthAreaStack" : 0.25,
+				"linewidthCI95ErrorBar" : 1.0,
+				"linewidthCountDash" : 1.0,
+				"linewidthCountLine" : 1.0,
+				"linewidthCurveFit" : 1.0,
+				"linewidthMeanDash" : 1.0,
+				"linewidthMeanLine" : 1.0,
+				"linewidthMedianDash" : 1.0,
+				"linewidthMedianLine" : 1.0,
+				"linewidthRangeErrorBar" : 1.0,
+				"linewidthSDErrorBar" : 1.0,
+				"linewidthSEMErrorBar" : 1.0,
+				"linewidthSumDash" : 1.0,
+				"linewidthSumLine" : 0.5,
+				"linewidthViolinPlotBuilder" : 0.80000000000000004,
+				"margins" : false,
+				"ncolFacetWrap" : 1.0,
+				"nrowFacetWrap" : 1.0,
+				"outlierBoxplotPlotBuilder" : false,
+				"outlierCoefBoxplotPlotBuilder" : 1.5,
+				"outlierSizeBoxplotPlotBuilder" : 1.0,
+				"pairwiseComparisons" : [],
+				"plotStyle" : "JASP",
+				"pointDodgePlotBuilder" : 0.80000000000000004,
+				"pointShapeVariable" : "",
+				"pointShapeVariable.types" : [],
+				"pointSizeMax" : 4.0,
+				"pointSizeMin" : 1.0,
+				"pointsizePlotBuilder" : 3.0,
+				"propMode" : "absolute",
+				"removeLegendTitle" : false,
+				"repeatedMeasuresCells" : 
+				[
+					"",
+					""
+				],
+				"repeatedMeasuresFactors" : 
+				[
+					{
+						"levels" : 
+						[
+							"JaspExtraOptions_0_Encoded",
+							"JaspExtraOptions_1_Encoded"
+						],
+						"name" : "JaspExtraOptions_2_Encoded"
+					}
+				],
+				"replaceNaAreaStack" : false,
+				"reverseAreaStack" : false,
+				"reverseBarStack" : false,
+				"reversedirectionIdentityLine" : false,
+				"rightMargin" : 10.0,
+				"rotateXLa\tbel" : false,
+				"rotateYLabel" : false,
+				"rowSplitRM" : "",
+				"rowSplitRM.types" : [],
+				"rowsvariableSplitPlotBuilder" : "",
+				"rowsvariableSplitPlotBuilder.types" : [],
+				"scaleViolinPlotBuilder" : "width",
+				"scales" : "fixed",
+				"scalesFacetWrap" : "fixed",
+				"seCurveFit" : true,
+				"shapebyVariable" : false,
+				"sizeByVariable" : false,
+				"sizeCountDot" : 5.0,
+				"sizeMeanDot" : 5.0,
+				"sizeMedianDot" : 5.0,
+				"sizeSumDot" : 5.0,
+				"sizeVariablePlotBuilder" : "",
+				"sizeVariablePlotBuilder.types" : [],
+				"sortXLabelsOrder" : "Increasing",
+				"sortYLabelsOrder" : "Increasing",
+				"space" : "fixed",
+				"stepDistance" : 0.14999999999999999,
+				"stripPosition" : "top",
+				"titlePlotBuilder" : "",
+				"titleXPlotBuilder" : "",
+				"titleYPlotBuilder" : "",
+				"topMargin" : 10.0,
+				"transparencyCI95ErrorBar" : 1.0,
+				"transparencyCurveFit" : 0.20000000000000001,
+				"transparencyRangeErrorBar" : 1.0,
+				"transparencySDErrorBar" : 1.0,
+				"transparencySEMErrorBar" : 1.0,
+				"trimViolinPlotBuilder" : false,
+				"value" : 
+				[
+					"Plot 1"
+				],
+				"variableColorPlotBuilder" : "",
+				"variableColorPlotBuilder.types" : [],
+				"variableXPlotBuilder" : "JaspColumn_9_Encoded",
+				"variableXPlotBuilder.types" : 
+				[
+					"scale"
+				],
+				"variableYPlotBuilder" : "JaspColumn_3_Encoded",
+				"variableYPlotBuilder.types" : 
+				[
+					"scale"
+				],
+				"vjustCountValue" : -0.5,
+				"vjustMeanValue" : -0.5,
+				"vjustMedianValue" : -0.5,
+				"vjustSumValue" : -0.5,
+				"whiteBorder" : false,
+				"whiteOutlineBoxplot" : false,
+				"whiteOutlineCountDot" : false,
+				"whiteOutlineMeanDot" : false,
+				"whiteOutlineMedianDot" : false,
+				"whiteOutlineSumDot" : false,
+				"whiteOutlineViolin" : false,
+				"widthBoxplotPlotBuilder" : 0.59999999999999998,
+				"widthCI95ErrorBar" : 0.29999999999999999,
+				"widthLineBoxplotPlotBuilder" : 0.80000000000000004,
+				"widthMeanBar" : 0.80000000000000004,
+				"widthMedianBar" : 0.80000000000000004,
+				"widthPlotBuilder" : 380.0,
+				"widthRangeErrorBar" : 0.29999999999999999,
+				"widthSDErrorBar" : 0.29999999999999999,
+				"widthSEMErrorBar" : 0.29999999999999999,
+				"widthSumBar" : 0.80000000000000004,
+				"widthSumDash" : 0.80000000000000004,
+				"widthWhiskersPlotBuilder" : 0.29999999999999999,
+				"xAxisLabelRenamer" : [],
+				"xAxisTitleSplit" : "",
+				"xReferenceLine" : "",
+				"xVarRM" : "",
+				"xVarRM.types" : [],
+				"yAxisLabelRenamer" : [],
+				"yAxisTitleSplit" : "",
+				"yPositionPValue" : 70.0,
+				"yReferenceLine" : ""
+			}
+		],
+		"columnWidthInput" : "",
+		"fullRowSpecifications" : [],
+		"getCommonLegend" : false,
+		"labelDistance1" : 0.050000000000000003,
+		"labelDistance2" : 0.94999999999999996,
+		"labelSize" : 18.0,
+		"layoutHeight" : 500.0,
+		"layoutWidth" : 500.0,
+		"plotHeight" : 320,
+		"plotSpacing" : 10.0,
+		"plotWidth" : 480,
+		"relHeightWithinRowLayout" : "",
+		"relativeHeight" : "",
+		"rowSpecifications" : []
+	},
+	"order_increment" : 4,
+	"position" : 9999,
+	"relativePathKeep" : "resources/1/state",
+	"title" : "Plot Builder (beta)",
+	"type" : "results"
+}

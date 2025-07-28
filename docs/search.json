@@ -24,7 +24,47 @@
     "href": "myChapters/chapter_1.html",
     "title": "1  Descriptives",
     "section": "",
-    "text": "1.1 Sleep",
+    "text": "1.1 Boxplot",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Descriptives</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_1.html#boxplot",
+    "href": "myChapters/chapter_1.html#boxplot",
+    "title": "1  Descriptives",
+    "section": "",
+    "text": ".jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Descriptives</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_1.html#plot-layout",
+    "href": "myChapters/chapter_1.html#plot-layout",
+    "title": "1  Descriptives",
+    "section": "1.2 Plot layout",
+    "text": "1.2 Plot layout\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Descriptives</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_1.html#repeated-measures",
+    "href": "myChapters/chapter_1.html#repeated-measures",
+    "title": "1  Descriptives",
+    "section": "1.3 Repeated measures",
+    "text": "1.3 Repeated measures\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Descriptives</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_1.html#scatter-plot",
+    "href": "myChapters/chapter_1.html#scatter-plot",
+    "title": "1  Descriptives",
+    "section": "1.4 Scatter plot",
+    "text": "1.4 Scatter plot\n\n\n\n.jasp\n.html\n.csv",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Descriptives</span>"
     ]
@@ -33,8 +73,8 @@
     "objectID": "myChapters/chapter_1.html#sleep",
     "href": "myChapters/chapter_1.html#sleep",
     "title": "1  Descriptives",
-    "section": "",
-    "text": ".jasp\n.html\n.csv",
+    "section": "1.5 Sleep",
+    "text": "1.5 Sleep\n\n\n\n.jasp\n.html\n.csv",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Descriptives</span>"
     ]
@@ -750,11 +790,21 @@
     ]
   },
   {
+    "objectID": "myChapters/chapter_11.html#recidivism-and-mental-health-in-delinquent-juveniles",
+    "href": "myChapters/chapter_11.html#recidivism-and-mental-health-in-delinquent-juveniles",
+    "title": "11  Meta-Analysis",
+    "section": "11.6 Recidivism and Mental Health in Delinquent Juveniles",
+    "text": "11.6 Recidivism and Mental Health in Delinquent Juveniles\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Meta-Analysis</span>"
+    ]
+  },
+  {
     "objectID": "myChapters/chapter_11.html#temporal-trends-in-fish-community-structures-in-french-rivers",
     "href": "myChapters/chapter_11.html#temporal-trends-in-fish-community-structures-in-french-rivers",
     "title": "11  Meta-Analysis",
-    "section": "11.6 Temporal Trends in Fish Community Structures in French Rivers",
-    "text": "11.6 Temporal Trends in Fish Community Structures in French Rivers\n\n\n\n.jasp\n.html\n.csv",
+    "section": "11.7 Temporal Trends in Fish Community Structures in French Rivers",
+    "text": "11.7 Temporal Trends in Fish Community Structures in French Rivers\n\n\n\n.jasp\n.html\n.csv",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Meta-Analysis</span>"
     ]
@@ -1192,81 +1242,101 @@
   {
     "objectID": "myChapters/chapter_21.html",
     "href": "myChapters/chapter_21.html",
-    "title": "21  Miscellaneous",
+    "title": "21  JAGS",
     "section": "",
-    "text": "21.1 Anscombe’s Quartet",
+    "text": "21.1 ReproducibilityProject",
     "crumbs": [
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Miscellaneous</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>JAGS</span>"
     ]
   },
   {
-    "objectID": "myChapters/chapter_21.html#anscombes-quartet",
-    "href": "myChapters/chapter_21.html#anscombes-quartet",
-    "title": "21  Miscellaneous",
+    "objectID": "myChapters/chapter_21.html#reproducibilityproject",
+    "href": "myChapters/chapter_21.html#reproducibilityproject",
+    "title": "21  JAGS",
     "section": "",
     "text": ".jasp\n.html\n.csv",
     "crumbs": [
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Miscellaneous</span>"
-    ]
-  },
-  {
-    "objectID": "myChapters/chapter_21.html#missing-data",
-    "href": "myChapters/chapter_21.html#missing-data",
-    "title": "21  Miscellaneous",
-    "section": "21.2 Missing Data",
-    "text": "21.2 Missing Data\n\n\n\n.jasp\n.html\n.csv",
-    "crumbs": [
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Miscellaneous</span>"
-    ]
-  },
-  {
-    "objectID": "myChapters/chapter_21.html#the-datasaurus-dozen-long",
-    "href": "myChapters/chapter_21.html#the-datasaurus-dozen-long",
-    "title": "21  Miscellaneous",
-    "section": "21.3 The Datasaurus Dozen (Long)",
-    "text": "21.3 The Datasaurus Dozen (Long)\n\n\n\n.jasp\n.html\n.csv",
-    "crumbs": [
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Miscellaneous</span>"
-    ]
-  },
-  {
-    "objectID": "myChapters/chapter_21.html#the-datasaurus-dozen-wide",
-    "href": "myChapters/chapter_21.html#the-datasaurus-dozen-wide",
-    "title": "21  Miscellaneous",
-    "section": "21.4 The Datasaurus Dozen (Wide)",
-    "text": "21.4 The Datasaurus Dozen (Wide)\n\n\n\n.jasp\n.html\n.csv",
-    "crumbs": [
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Miscellaneous</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>JAGS</span>"
     ]
   },
   {
     "objectID": "myChapters/chapter_22.html",
     "href": "myChapters/chapter_22.html",
-    "title": "22  Books",
+    "title": "22  Miscellaneous",
     "section": "",
-    "text": "22.1 Field - Discovering Statistics",
+    "text": "22.1 Anscombe’s Quartet",
     "crumbs": [
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Books</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Miscellaneous</span>"
     ]
   },
   {
-    "objectID": "myChapters/chapter_22.html#field---discovering-statistics",
-    "href": "myChapters/chapter_22.html#field---discovering-statistics",
-    "title": "22  Books",
+    "objectID": "myChapters/chapter_22.html#anscombes-quartet",
+    "href": "myChapters/chapter_22.html#anscombes-quartet",
+    "title": "22  Miscellaneous",
     "section": "",
-    "text": "22.1.1 Fear of Statistics\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.2 Invisibility Cloak\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.3 Alcohol Attitudes\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.4 Beer Goggles\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.5 Bush Tucker Food\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.6 Looks or Personality\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.7 Viagra\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.8 Album Sales\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.9 Exam Anxiety\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.10 The Biggest Liar\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.11 Dancing Cats\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.1.12 Dancing Cats and Dogs\n\n\n\n.jasp\n.html\n.csv",
+    "text": ".jasp\n.html\n.csv",
     "crumbs": [
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Books</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Miscellaneous</span>"
     ]
   },
   {
-    "objectID": "myChapters/chapter_22.html#moore-mccabe-craig---introduction-to-the-practice-of-statistics",
-    "href": "myChapters/chapter_22.html#moore-mccabe-craig---introduction-to-the-practice-of-statistics",
-    "title": "22  Books",
-    "section": "22.2 Moore, McCabe, & Craig - Introduction to the Practice of Statistics",
-    "text": "22.2 Moore, McCabe, & Craig - Introduction to the Practice of Statistics\n\n22.2.1 Directed Reading Activities\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.2 Moon and Aggression\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.3 Weight Gain\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.4 Facebook Friends\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.5 Heart Rate\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.6 Response to Eye Color\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.7 College Success\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.8 Fidgeting and Fat Gain\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.9 Physical Activity and BMI\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n22.2.10 Health Habits\n\n\n\n.jasp\n.html\n.csv",
+    "objectID": "myChapters/chapter_22.html#missing-data",
+    "href": "myChapters/chapter_22.html#missing-data",
+    "title": "22  Miscellaneous",
+    "section": "22.2 Missing Data",
+    "text": "22.2 Missing Data\n\n\n\n.jasp\n.html\n.csv",
     "crumbs": [
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Books</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Miscellaneous</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_22.html#the-datasaurus-dozen-long",
+    "href": "myChapters/chapter_22.html#the-datasaurus-dozen-long",
+    "title": "22  Miscellaneous",
+    "section": "22.3 The Datasaurus Dozen (Long)",
+    "text": "22.3 The Datasaurus Dozen (Long)\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Miscellaneous</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_22.html#the-datasaurus-dozen-wide",
+    "href": "myChapters/chapter_22.html#the-datasaurus-dozen-wide",
+    "title": "22  Miscellaneous",
+    "section": "22.4 The Datasaurus Dozen (Wide)",
+    "text": "22.4 The Datasaurus Dozen (Wide)\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Miscellaneous</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_23.html",
+    "href": "myChapters/chapter_23.html",
+    "title": "23  Books",
+    "section": "",
+    "text": "23.1 Field - Discovering Statistics",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Books</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_23.html#field---discovering-statistics",
+    "href": "myChapters/chapter_23.html#field---discovering-statistics",
+    "title": "23  Books",
+    "section": "",
+    "text": "23.1.1 Fear of Statistics\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.1.2 Invisibility Cloak\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.1.3 Alcohol Attitudes\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.1.4 Beer Goggles\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.1.5 Bush Tucker Food\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.1.6 Looks or Personality\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.1.7 Viagra\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.1.8 Album Sales\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.1.9 Exam Anxiety\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.1.10 The Biggest Liar\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.1.11 Dancing Cats\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.1.12 Dancing Cats and Dogs\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Books</span>"
+    ]
+  },
+  {
+    "objectID": "myChapters/chapter_23.html#moore-mccabe-craig---introduction-to-the-practice-of-statistics",
+    "href": "myChapters/chapter_23.html#moore-mccabe-craig---introduction-to-the-practice-of-statistics",
+    "title": "23  Books",
+    "section": "23.2 Moore, McCabe, & Craig - Introduction to the Practice of Statistics",
+    "text": "23.2 Moore, McCabe, & Craig - Introduction to the Practice of Statistics\n\n23.2.1 Directed Reading Activities\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.2.2 Moon and Aggression\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.2.3 Weight Gain\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.2.4 Facebook Friends\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.2.5 Heart Rate\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.2.6 Response to Eye Color\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.2.7 College Success\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.2.8 Fidgeting and Fat Gain\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.2.9 Physical Activity and BMI\n\n\n\n.jasp\n.html\n.csv\n\n\n\n\n\n23.2.10 Health Habits\n\n\n\n.jasp\n.html\n.csv",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Books</span>"
     ]
   }
 ]

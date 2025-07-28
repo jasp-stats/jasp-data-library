@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>21&nbsp; Miscellaneous – The JASP Data Library</title>
+<title>21&nbsp; JAGS – The JASP Data Library</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../myChapters/chapter_21.html"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Miscellaneous</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../myChapters/chapter_21.html"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">JAGS</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -236,13 +236,19 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../myChapters/chapter_21.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Miscellaneous</span></span></a>
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">JAGS</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../myChapters/chapter_22.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Books</span></span></a>
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Miscellaneous</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../myChapters/chapter_23.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Books</span></span></a>
   </div>
 </li>
     </ul>
@@ -255,10 +261,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#anscombes-quartet" id="toc-anscombes-quartet" class="nav-link active" data-scroll-target="#anscombes-quartet"><span class="header-section-number">21.1</span> Anscombe’s Quartet</a></li>
-  <li><a href="#missing-data" id="toc-missing-data" class="nav-link" data-scroll-target="#missing-data"><span class="header-section-number">21.2</span> Missing Data</a></li>
-  <li><a href="#the-datasaurus-dozen-long" id="toc-the-datasaurus-dozen-long" class="nav-link" data-scroll-target="#the-datasaurus-dozen-long"><span class="header-section-number">21.3</span> The Datasaurus Dozen (Long)</a></li>
-  <li><a href="#the-datasaurus-dozen-wide" id="toc-the-datasaurus-dozen-wide" class="nav-link" data-scroll-target="#the-datasaurus-dozen-wide"><span class="header-section-number">21.4</span> The Datasaurus Dozen (Wide)</a></li>
+  <li><a href="#reproducibilityproject" id="toc-reproducibilityproject" class="nav-link active" data-scroll-target="#reproducibilityproject"><span class="header-section-number">21.1</span> ReproducibilityProject</a></li>
   </ul>
 </nav>
     </div>
@@ -267,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Miscellaneous</span></h1>
+<h1 class="title"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">JAGS</span></h1>
 </div>
 
 
@@ -284,50 +287,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="anscombes-quartet" class="level2" data-number="21.1">
-<h2 data-number="21.1" class="anchored" data-anchor-id="anscombes-quartet"><span class="header-section-number">21.1</span> Anscombe’s Quartet</h2>
+<section id="reproducibilityproject" class="level2" data-number="21.1">
+<h2 data-number="21.1" class="anchored" data-anchor-id="reproducibilityproject"><span class="header-section-number">21.1</span> ReproducibilityProject</h2>
 <table class="caption-top table">
 <tbody>
 <tr class="odd">
-<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/Anscombe's%20Quartet/Anscombe's%20Quartet.jasp">.jasp</a></td>
-<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Anscombe's%20Quartet/Anscombe's_Quartet.html">.html</a></td>
-<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Anscombe's%20Quartet/Anscombe's%20Quartet.csv">.csv</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="missing-data" class="level2" data-number="21.2">
-<h2 data-number="21.2" class="anchored" data-anchor-id="missing-data"><span class="header-section-number">21.2</span> Missing Data</h2>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/Missing%20Data/Missing%20Data.jasp">.jasp</a></td>
-<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Missing%20Data/Missing_Data.html">.html</a></td>
-<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Missing%20Data/Missing%20Data.csv">.csv</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="the-datasaurus-dozen-long" class="level2" data-number="21.3">
-<h2 data-number="21.3" class="anchored" data-anchor-id="the-datasaurus-dozen-long"><span class="header-section-number">21.3</span> The Datasaurus Dozen (Long)</h2>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/The%20Datasaurus%20Dozen%20(Long)/The%20Datasaurus%20Dozen%20(Long).jasp">.jasp</a></td>
-<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/The%20Datasaurus%20Dozen%20(Long)/The_Datasaurus_Dozen_(Long).html">.html</a></td>
-<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/The%20Datasaurus%20Dozen%20(Long)/The%20Datasaurus%20Dozen%20(Long).csv">.csv</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="the-datasaurus-dozen-wide" class="level2" data-number="21.4">
-<h2 data-number="21.4" class="anchored" data-anchor-id="the-datasaurus-dozen-wide"><span class="header-section-number">21.4</span> The Datasaurus Dozen (Wide)</h2>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/The%20Datasaurus%20Dozen%20(Wide)/The%20Datasaurus%20Dozen%20(Wide).jasp">.jasp</a></td>
-<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/The%20Datasaurus%20Dozen%20(Wide)/The_Datasaurus_Dozen_(Wide).html">.html</a></td>
-<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/The%20Datasaurus%20Dozen%20(Wide)/The%20Datasaurus%20Dozen%20(Wide).csv">.csv</a></td>
+<td><a href="https://github.com/jasp-stats/jasp-data-library/raw/main/ReproducibilityProject/ReproducibilityProject.jasp">.jasp</a></td>
+<td><a href="https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/ReproducibilityProject/ReproducibilityProject.html">.html</a></td>
+<td><a href="https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/ReproducibilityProject/ReproducibilityProject.csv">.csv</a></td>
 </tr>
 </tbody>
 </table>
@@ -742,8 +709,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../myChapters/chapter_22.html" class="pagination-link" aria-label="Books">
-        <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Books</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../myChapters/chapter_22.html" class="pagination-link" aria-label="Miscellaneous">
+        <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Miscellaneous</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

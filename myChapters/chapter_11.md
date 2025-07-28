@@ -27,6 +27,11 @@
 |---|---|---|
 |[.jasp](https://github.com/jasp-stats/jasp-data-library/raw/main/Precognition/Precognition.jasp) | [.html](https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Precognition/Precognition.html) | [.csv](https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Precognition/Precognition.csv)|
 
+## Recidivism and Mental Health in Delinquent Juveniles 
+|  |  |  |
+|---|---|---|
+|[.jasp](https://github.com/jasp-stats/jasp-data-library/raw/main/Recidivism%20and%20Mental%20Health%20in%20Delinquent%20Juveniles/Recidivism%20and%20Mental%20Health%20in%20Delinquent%20Juveniles.jasp) | [.html](https://htmlpreview.github.io/?https://github.com/jasp-stats/jasp-data-library/blob/main/Recidivism%20and%20Mental%20Health%20in%20Delinquent%20Juveniles/Recidivism_and_Mental_Health_in_Delinquent_Juveniles.html) | [.csv](https://raw.githubusercontent.com/jasp-stats/jasp-data-library/main/Recidivism%20and%20Mental%20Health%20in%20Delinquent%20Juveniles/Recidivism%20and%20Mental%20Health%20in%20Delinquent%20Juveniles.csv)|
+
 ## Temporal Trends in Fish Community Structures in French Rivers 
 |  |  |  |
 |---|---|---|

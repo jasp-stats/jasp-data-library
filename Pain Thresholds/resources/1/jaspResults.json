@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -230,7 +230,7 @@
 							""
 						],
 						[
-							0.004114227333077424,
+							0.0041142273330774248,
 							""
 						],
 						[
@@ -601,10 +601,6 @@
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
-			{
-				"shouldEncode" : true
-			},
-			"randomFactors" : 
 			{
 				"shouldEncode" : true
 			},

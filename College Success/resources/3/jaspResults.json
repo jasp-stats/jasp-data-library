@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -507,16 +507,16 @@
 						],
 						[
 							2.5326001359206232,
-							0.0099803976702742547,
-							0.098618536127324852,
-							-0.039705683765796695,
-							-0.031160181763637516
+							0.0099803976702743658,
+							0.09861853612732488,
+							-0.039705683765796668,
+							-0.031160181763637503
 						],
 						[
 							2.73784629265081,
-							1.1697728370710756,
-							0.23851474800578831,
-							0.10833681951442087,
+							1.1697728370710754,
+							0.23851474800578829,
+							0.10833681951442084,
 							0.12136383086309244
 						],
 						[
@@ -1057,7 +1057,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_6_t1751898055524.png",
+					"filePathPng" : "resources/3/_6_t1757494987033.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsQQPlot",
@@ -1191,7 +1191,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/3/_3_t1751898055103.png",
+							"filePathPng" : "resources/3/_3_t1757494986634.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "hse",
@@ -1311,7 +1311,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/3/_1_t1751898054810.png",
+							"filePathPng" : "resources/3/_1_t1757494986353.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "hsm",
@@ -1437,7 +1437,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/3/_2_t1751898054958.png",
+							"filePathPng" : "resources/3/_2_t1757494986498.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "hss",
@@ -1571,7 +1571,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_5_t1751898055383.png",
+					"filePathPng" : "resources/3/_5_t1757494986901.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsHistPlot",
@@ -1697,7 +1697,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_4_t1751898055238.png",
+					"filePathPng" : "resources/3/_4_t1757494986766.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsPredPlot",

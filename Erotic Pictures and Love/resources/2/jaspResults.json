@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -545,7 +545,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_1_t1751897623353.png",
+									"filePathPng" : "resources/2/_1_t1757493788845.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "",
@@ -1134,7 +1134,7 @@
 									45.957842650852818
 								],
 								[
-									7.1140602326535623e-125,
+									7.1140602326539664e-125,
 									1.9172462595486183e-114
 								],
 								[
@@ -1399,7 +1399,7 @@
 								],
 								[
 									1.6114441749055937e-114,
-									5.8096432273276319e-125
+									5.8096432273279626e-125
 								],
 								[
 									true,
@@ -2170,10 +2170,6 @@
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
-			{
-				"shouldEncode" : true
-			},
-			"randomFactors" : 
 			{
 				"shouldEncode" : true
 			},

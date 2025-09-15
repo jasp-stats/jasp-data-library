@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -158,22 +158,26 @@
 						[
 							1,
 							2,
-							3
+							3,
+							4
 						],
 						[
 							"JaspColumn_11_Encoded + JaspColumn_8_Encoded + JaspColumn_5_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_8_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded",
 							"JaspColumn_11_Encoded + JaspColumn_8_Encoded + JaspColumn_5_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_8_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded + JaspColumn_8_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded",
-							"JaspColumn_11_Encoded + JaspColumn_8_Encoded + JaspColumn_5_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_8_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded + JaspColumn_8_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_8_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded"
+							"JaspColumn_11_Encoded + JaspColumn_8_Encoded + JaspColumn_5_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_8_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded + JaspColumn_8_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_8_Encoded\u2009\u273b\u2009JaspColumn_5_Encoded",
+							"JaspColumn_11_Encoded + JaspColumn_8_Encoded + JaspColumn_5_Encoded + JaspColumn_11_Encoded\u2009\u273b\u2009JaspColumn_8_Encoded"
 						],
 						[
-							0.46500000000000002,
-							0.40300000000000002,
-							0.13200000000000001
+							0.51649999999999996,
+							0.38400000000000001,
+							0.097000000000000003,
+							0.0025000000000000001
 						],
 						[
 							1.0,
-							1.1538461538461537,
-							3.5227272727272725
+							1.3450520833333333,
+							5.3247422680412368,
+							206.59999999999997
 						]
 					],
 					"error" : false,
@@ -187,7 +191,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "Total number of models visited = 3"
+							"text" : "Total number of models visited = 4"
 						}
 					],
 					"messages" : [],

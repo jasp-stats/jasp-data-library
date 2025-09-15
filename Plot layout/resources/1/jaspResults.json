@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.2) [Computer software]."
 	],
 	"data" : 
 	{
@@ -65,11 +65,11 @@
 						"errorType" : "fatalError",
 						"reasonNotEditable" : "Plot editing terminated unexpectedly. Fatal error in plotEditingOptions: Computing plotEditingOptions gave an error: ! Patchworks can only be indexed with numeric indices To receive assistance with this problem, please report the message above at: https://jasp-stats.org/bug-reports"
 					},
-					"environmentName" : "plot_90",
+					"environmentName" : "plot_2",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_30_t1752592360449.png",
+					"filePathPng" : "resources/1/_2_t1757669884457.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "plotGrid",
@@ -132,7 +132,7 @@
 		"statePlotResults" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_14",
+			"environmentName" : "state_0",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -426,7 +426,7 @@
 						"reverseBarStack" : false,
 						"reversedirectionIdentityLine" : false,
 						"rightMargin" : 10.0,
-						"rotateXLa\tbel" : false,
+						"rotateXLabel" : false,
 						"rotateYLabel" : false,
 						"rowSplitRM" : "",
 						"rowSplitRM.types" : [],
@@ -465,12 +465,12 @@
 						],
 						"variableColorPlotBuilder" : "",
 						"variableColorPlotBuilder.types" : [],
-						"variableXPlotBuilder" : "JaspColumn_20_Encoded",
+						"variableXPlotBuilder" : "species",
 						"variableXPlotBuilder.types" : 
 						[
 							"nominal"
 						],
-						"variableYPlotBuilder" : "JaspColumn_3_Encoded",
+						"variableYPlotBuilder" : "bill_length_mm",
 						"variableYPlotBuilder.types" : 
 						[
 							"scale"
@@ -790,7 +790,7 @@
 						"reverseBarStack" : false,
 						"reversedirectionIdentityLine" : false,
 						"rightMargin" : 10.0,
-						"rotateXLa\tbel" : false,
+						"rotateXLabel" : false,
 						"rotateYLabel" : false,
 						"rowSplitRM" : "",
 						"rowSplitRM.types" : [],
@@ -827,17 +827,17 @@
 						[
 							"Plot 2"
 						],
-						"variableColorPlotBuilder" : "JaspColumn_20_Encoded",
+						"variableColorPlotBuilder" : "species",
 						"variableColorPlotBuilder.types" : 
 						[
 							"nominal"
 						],
-						"variableXPlotBuilder" : "JaspColumn_3_Encoded",
+						"variableXPlotBuilder" : "bill_length_mm",
 						"variableXPlotBuilder.types" : 
 						[
 							"scale"
 						],
-						"variableYPlotBuilder" : "JaspColumn_0_Encoded",
+						"variableYPlotBuilder" : "bill_depth_mm",
 						"variableYPlotBuilder.types" : 
 						[
 							"scale"
@@ -951,11 +951,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_88",
+					"environmentName" : "plot_0",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_28_t1752592359825.png",
+					"filePathPng" : "resources/1/_0_t1757669883954.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "tidyPlot_Plot 1",
@@ -963,24 +963,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						".meta" : 
-						{
-							"PlotBuilderTab" : 
-							{
-								"variableColorPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"variableXPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"variableYPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								}
-							}
-						},
+						".meta" : null,
 						"PlotBuilderTab" : 
 						[
 							{
@@ -1265,7 +1248,7 @@
 								"reverseBarStack" : false,
 								"reversedirectionIdentityLine" : false,
 								"rightMargin" : 10.0,
-								"rotateXLa\tbel" : false,
+								"rotateXLabel" : false,
 								"rotateYLabel" : false,
 								"rowSplitRM" : "",
 								"rowSplitRM.types" : [],
@@ -1304,12 +1287,12 @@
 								],
 								"variableColorPlotBuilder" : "",
 								"variableColorPlotBuilder.types" : [],
-								"variableXPlotBuilder" : "JaspColumn_20_Encoded",
+								"variableXPlotBuilder" : "species",
 								"variableXPlotBuilder.types" : 
 								[
 									"nominal"
 								],
-								"variableYPlotBuilder" : "JaspColumn_3_Encoded",
+								"variableYPlotBuilder" : "bill_length_mm",
 								"variableYPlotBuilder.types" : 
 								[
 									"scale"
@@ -1629,7 +1612,7 @@
 								"reverseBarStack" : false,
 								"reversedirectionIdentityLine" : false,
 								"rightMargin" : 10.0,
-								"rotateXLa\tbel" : false,
+								"rotateXLabel" : false,
 								"rotateYLabel" : false,
 								"rowSplitRM" : "",
 								"rowSplitRM.types" : [],
@@ -1666,17 +1649,17 @@
 								[
 									"Plot 2"
 								],
-								"variableColorPlotBuilder" : "JaspColumn_20_Encoded",
+								"variableColorPlotBuilder" : "species",
 								"variableColorPlotBuilder.types" : 
 								[
 									"nominal"
 								],
-								"variableXPlotBuilder" : "JaspColumn_3_Encoded",
+								"variableXPlotBuilder" : "bill_length_mm",
 								"variableXPlotBuilder.types" : 
 								[
 									"scale"
 								],
-								"variableYPlotBuilder" : "JaspColumn_0_Encoded",
+								"variableYPlotBuilder" : "bill_depth_mm",
 								"variableYPlotBuilder.types" : 
 								[
 									"scale"
@@ -1805,10 +1788,10 @@
 							{
 								"breaks" : 
 								[
-									12.5,
 									15,
 									17.5,
-									20
+									20,
+									22.5
 								],
 								"breaksType" : "manual",
 								"expand" : 
@@ -1820,21 +1803,21 @@
 								],
 								"labels" : 
 								[
-									"12.5",
 									"15.0",
 									"17.5",
-									"20.0"
+									"20.0",
+									"22.5"
 								],
 								"limits" : 
 								[
-									12.5561874753946,
+									12.5561874753945,
 									21.5
 								],
 								"limitsType" : "data",
 								"range" : 
 								[
-									12.5,
-									20,
+									15,
+									22.5,
 									2.5
 								],
 								"title" : "JaspColumn_0_Encoded",
@@ -1843,11 +1826,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_89",
+					"environmentName" : "plot_1",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_29_t1752592360141.png",
+					"filePathPng" : "resources/1/_1_t1757669884223.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "tidyPlot_Plot 2",
@@ -1855,24 +1838,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						".meta" : 
-						{
-							"PlotBuilderTab" : 
-							{
-								"variableColorPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"variableXPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"variableYPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								}
-							}
-						},
+						".meta" : null,
 						"PlotBuilderTab" : 
 						[
 							{
@@ -2157,7 +2123,7 @@
 								"reverseBarStack" : false,
 								"reversedirectionIdentityLine" : false,
 								"rightMargin" : 10.0,
-								"rotateXLa\tbel" : false,
+								"rotateXLabel" : false,
 								"rotateYLabel" : false,
 								"rowSplitRM" : "",
 								"rowSplitRM.types" : [],
@@ -2196,12 +2162,12 @@
 								],
 								"variableColorPlotBuilder" : "",
 								"variableColorPlotBuilder.types" : [],
-								"variableXPlotBuilder" : "JaspColumn_20_Encoded",
+								"variableXPlotBuilder" : "species",
 								"variableXPlotBuilder.types" : 
 								[
 									"nominal"
 								],
-								"variableYPlotBuilder" : "JaspColumn_3_Encoded",
+								"variableYPlotBuilder" : "bill_length_mm",
 								"variableYPlotBuilder.types" : 
 								[
 									"scale"
@@ -2521,7 +2487,7 @@
 								"reverseBarStack" : false,
 								"reversedirectionIdentityLine" : false,
 								"rightMargin" : 10.0,
-								"rotateXLa\tbel" : false,
+								"rotateXLabel" : false,
 								"rotateYLabel" : false,
 								"rowSplitRM" : "",
 								"rowSplitRM.types" : [],
@@ -2558,17 +2524,17 @@
 								[
 									"Plot 2"
 								],
-								"variableColorPlotBuilder" : "JaspColumn_20_Encoded",
+								"variableColorPlotBuilder" : "species",
 								"variableColorPlotBuilder.types" : 
 								[
 									"nominal"
 								],
-								"variableXPlotBuilder" : "JaspColumn_3_Encoded",
+								"variableXPlotBuilder" : "bill_length_mm",
 								"variableXPlotBuilder.types" : 
 								[
 									"scale"
 								],
-								"variableYPlotBuilder" : "JaspColumn_0_Encoded",
+								"variableYPlotBuilder" : "bill_depth_mm",
 								"variableYPlotBuilder.types" : 
 								[
 									"scale"
@@ -2684,24 +2650,7 @@
 	"optionMustContain" : {},
 	"options" : 
 	{
-		".meta" : 
-		{
-			"PlotBuilderTab" : 
-			{
-				"variableColorPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"variableXPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"variableYPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				}
-			}
-		},
+		".meta" : null,
 		"PlotBuilderTab" : 
 		[
 			{
@@ -2986,7 +2935,7 @@
 				"reverseBarStack" : false,
 				"reversedirectionIdentityLine" : false,
 				"rightMargin" : 10.0,
-				"rotateXLa\tbel" : false,
+				"rotateXLabel" : false,
 				"rotateYLabel" : false,
 				"rowSplitRM" : "",
 				"rowSplitRM.types" : [],
@@ -3025,12 +2974,12 @@
 				],
 				"variableColorPlotBuilder" : "",
 				"variableColorPlotBuilder.types" : [],
-				"variableXPlotBuilder" : "JaspColumn_20_Encoded",
+				"variableXPlotBuilder" : "species",
 				"variableXPlotBuilder.types" : 
 				[
 					"nominal"
 				],
-				"variableYPlotBuilder" : "JaspColumn_3_Encoded",
+				"variableYPlotBuilder" : "bill_length_mm",
 				"variableYPlotBuilder.types" : 
 				[
 					"scale"
@@ -3350,7 +3299,7 @@
 				"reverseBarStack" : false,
 				"reversedirectionIdentityLine" : false,
 				"rightMargin" : 10.0,
-				"rotateXLa\tbel" : false,
+				"rotateXLabel" : false,
 				"rotateYLabel" : false,
 				"rowSplitRM" : "",
 				"rowSplitRM.types" : [],
@@ -3387,17 +3336,17 @@
 				[
 					"Plot 2"
 				],
-				"variableColorPlotBuilder" : "JaspColumn_20_Encoded",
+				"variableColorPlotBuilder" : "species",
 				"variableColorPlotBuilder.types" : 
 				[
 					"nominal"
 				],
-				"variableXPlotBuilder" : "JaspColumn_3_Encoded",
+				"variableXPlotBuilder" : "bill_length_mm",
 				"variableXPlotBuilder.types" : 
 				[
 					"scale"
 				],
-				"variableYPlotBuilder" : "JaspColumn_0_Encoded",
+				"variableYPlotBuilder" : "bill_depth_mm",
 				"variableYPlotBuilder.types" : 
 				[
 					"scale"

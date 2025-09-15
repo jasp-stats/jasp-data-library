@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -74,7 +74,7 @@
 		"statePlotResults" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_8",
+			"environmentName" : "state_0",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -389,7 +389,7 @@
 						"reverseBarStack" : false,
 						"reversedirectionIdentityLine" : false,
 						"rightMargin" : 10.0,
-						"rotateXLa\tbel" : false,
+						"rotateXLabel" : false,
 						"rotateYLabel" : false,
 						"rowSplitRM" : "",
 						"rowSplitRM.types" : [],
@@ -507,12 +507,8 @@
 							{
 								"breaks" : 
 								[
-									120,
-									140,
-									160,
-									180,
-									200,
-									220
+									150,
+									200
 								],
 								"breaksType" : "range",
 								"expand" : 
@@ -524,12 +520,8 @@
 								],
 								"labels" : 
 								[
-									"120",
-									"140",
-									"160",
-									"180",
-									"200",
-									"220"
+									"150",
+									"200"
 								],
 								"limits" : 
 								[
@@ -539,9 +531,9 @@
 								"limitsType" : "data",
 								"range" : 
 								[
-									120,
-									220,
-									20
+									150,
+									200,
+									50
 								],
 								"title" : "Weight (lb)",
 								"titleType" : "character"
@@ -549,11 +541,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_8",
+					"environmentName" : "plot_0",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/10/_2_t1752591073226.png",
+					"filePathPng" : "resources/10/_0_t1757493215596.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "tidyPlot_Plot 1",
@@ -876,7 +868,7 @@
 								"reverseBarStack" : false,
 								"reversedirectionIdentityLine" : false,
 								"rightMargin" : 10.0,
-								"rotateXLa\tbel" : false,
+								"rotateXLabel" : false,
 								"rotateYLabel" : false,
 								"rowSplitRM" : "",
 								"rowSplitRM.types" : [],
@@ -1335,7 +1327,7 @@
 				"reverseBarStack" : false,
 				"reversedirectionIdentityLine" : false,
 				"rightMargin" : 10.0,
-				"rotateXLa\tbel" : false,
+				"rotateXLabel" : false,
 				"rotateYLabel" : false,
 				"rowSplitRM" : "",
 				"rowSplitRM.types" : [],

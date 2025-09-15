@@ -1,14 +1,14 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.2) [Computer software]."
 	],
 	"data" : 
 	{
 		"fit" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_55",
+			"environmentName" : "state_0",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -911,7 +911,7 @@
 						],
 						[
 							7.5025796578006053e-24,
-							1.466084376843812e-06
+							1.4660843756201886e-06
 						]
 					],
 					"error" : false,
@@ -1377,11 +1377,11 @@
 									"\u03c1"
 								],
 								[
-									3425.58619067774,
-									12.875526465059901
+									3425.5861923002299,
+									12.875526468391
 								],
 								[
-									58.528507504273001,
+									58.528507518133701,
 									""
 								]
 							],
@@ -1639,12 +1639,12 @@
 									"JaspColumn_20_Encoded/JaspColumn_26_Encoded"
 								],
 								[
-									7158.3491698495054,
-									1.5106177174988043e-05
+									7158.3491673525714,
+									1.5106128181012111e-05
 								],
 								[
-									84.607027898688798,
-									0.0038866665891208168
+									84.60702788393273,
+									0.0038866602862884878
 								],
 								[
 									11,
@@ -1977,11 +1977,11 @@
 	},
 	"data_order" : 
 	{
-		"fit" : 2,
-		"fitDataSet" : 3,
+		"fit" : 0,
+		"fitDataSet" : 1,
 		"metaforRCode" : 4,
-		"modelSummaryContainer" : 0,
-		"randomEstimatesContainer" : 1
+		"modelSummaryContainer" : 2,
+		"randomEstimatesContainer" : 3
 	},
 	"error" : false,
 	"errorMessage" : "",

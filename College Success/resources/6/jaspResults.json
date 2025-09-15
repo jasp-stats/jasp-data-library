@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -561,35 +561,35 @@
 							0.36190242855229526,
 							0.24505989036968648,
 							0.41493207133860899,
-							0.00025562792414473087,
+							0.00025562792414473098,
 							0.34320679484433292,
 							0.16371923233056221,
-							0.17017578081165688,
+							0.17017578081165682,
 							0.49151830067949054
 						],
 						[
-							0.0099803976702742547,
-							0.098618536127324852,
-							-0.039705683765796695,
-							-0.031160181763637516,
-							-0.46163646747206766,
-							0.068581406683362975,
+							0.0099803976702743658,
+							0.09861853612732488,
+							-0.039705683765796668,
+							-0.031160181763637503,
+							-0.46163646747206755,
+							0.068581406683362989,
 							-0.038591782705799091,
 							-0.022693572941674518,
-							-0.00040777320179956192,
-							-0.0015744141399749757
+							-0.00040777320179956171,
+							-0.0015744141399749753
 						],
 						[
-							1.1697728370710756,
-							0.23851474800578831,
-							0.10833681951442087,
+							1.1697728370710754,
+							0.23851474800578829,
+							0.10833681951442084,
 							0.12136383086309244,
 							1.1150739455658409,
 							0.22334075241637147,
 							0.11040242248793765,
 							0.13327873546190622,
 							0.002294958300854045,
-							0.00075871511204478337
+							0.00075871511204478315
 						],
 						[
 							null,
@@ -621,10 +621,10 @@
 							1.0001327241093727,
 							1.0675050298977471,
 							1.0,
-							173.97940889791028,
+							173.97940889791016,
 							1.0023063472719722,
 							1.2417171374002909,
-							1.2206973356768556,
+							1.2206973356768558,
 							1.0
 						],
 						[
@@ -1231,7 +1231,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_14_t1751898057026.png",
+					"filePathPng" : "resources/6/_14_t1757494988417.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsQQPlot",
@@ -1365,7 +1365,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/6/_9_t1751898056225.png",
+							"filePathPng" : "resources/6/_9_t1757494987685.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "hse",
@@ -1485,7 +1485,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/6/_7_t1751898055926.png",
+							"filePathPng" : "resources/6/_7_t1757494987406.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "hsm",
@@ -1611,7 +1611,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/6/_8_t1751898056075.png",
+							"filePathPng" : "resources/6/_8_t1757494987546.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "hss",
@@ -1733,7 +1733,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/6/_10_t1751898056376.png",
+							"filePathPng" : "resources/6/_10_t1757494987826.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "satm",
@@ -1857,7 +1857,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/6/_11_t1751898056527.png",
+							"filePathPng" : "resources/6/_11_t1757494987969.png",
 							"height" : 400,
 							"messages" : [],
 							"name" : "satv",
@@ -1993,7 +1993,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_13_t1751898056840.png",
+					"filePathPng" : "resources/6/_13_t1757494988261.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsHistPlot",
@@ -2119,7 +2119,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_12_t1751898056680.png",
+					"filePathPng" : "resources/6/_12_t1757494988110.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsPredPlot",

@@ -2,7 +2,7 @@
 	"citations" : 
 	[
 		"Hadley Wickham (2019). stringr: Simple, Consistent Wrappers for Common String Operations. R package version 1.4.0. https://CRAN.R-project.org/package=stringr",
-		"JASP Team (2025). JASP (Version 0.95) [Computer software].",
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software].",
 		"Martyn Plummer (2018). rjags: Bayesian Graphical Models using MCMC. R package version 4-8. https://CRAN.R-project.org/package=rjags",
 		"Martyn Plummer, Nicky Best, Kate Cowles and Karen Vines (2006). CODA: Convergence Diagnosis and Output Analysis for MCMC, R News, vol 6, 7-11",
 		"Plummer, Martyn. (2003). JAGS: A Program for Analysis of Bayesian Graphical Models using Gibbs Sampling. 3rd International Workshop on Distributed Statistical Computing (DSC 2003); Vienna, Austria. 124."
@@ -225,44 +225,44 @@
 							"tau"
 						],
 						[
-							0.82132013246870916,
-							0.54979176116227513,
-							49.021563247679602
+							0.81780402705594368,
+							0.55112228541947494,
+							48.737977418159609
 						],
 						[
-							0.82605632479499325,
-							0.54673001348407513,
-							48.434822967580018
+							0.82135763740798862,
+							0.54671582859932033,
+							48.301548200486295
 						],
 						[
-							0.06248404821904785,
-							0.085442489299283594,
-							9.9898910629935234
+							0.062262114421136522,
+							0.087244229924076155,
+							9.8595731921826886
 						],
 						[
-							0.68563631809530534,
-							0.39377064821196106,
-							30.63717911302259
+							0.68545390077932122,
+							0.39177664592626843,
+							31.017982054170556
 						],
 						[
-							0.93337087340389979,
-							0.72844541849417177,
-							69.642188599392782
+							0.93060854011144412,
+							0.74073502354456633,
+							69.527150303013158
 						],
 						[
-							1.0097861738212368,
-							1.0061745103032402,
-							1.0057616201724175
+							1.003919625248423,
+							1.002358420190373,
+							1.0044125622775522
 						],
 						[
-							1.0250809286012259,
-							1.0205840367505974,
-							1.02068788092777
+							1.0093337360859636,
+							1.0062047944311012,
+							1.0164092789262906
 						],
 						[
 							841,
-							849,
-							1541
+							892,
+							1458
 						]
 					],
 					"error" : false,
@@ -282,7 +282,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "The multivariate potential scale reduction factor is estimated at 1.008."
+							"text" : "The multivariate potential scale reduction factor is estimated at 1.006."
 						}
 					],
 					"messages" : [],
@@ -387,10 +387,10 @@
 						"values" : 
 						[
 							"tau",
-							"mu",
-							"clust",
 							"phi",
-							"alpha"
+							"mu",
+							"alpha",
+							"clust"
 						]
 					},
 					{
@@ -425,10 +425,10 @@
 					"parameters" : 
 					[
 						"tau",
-						"mu",
-						"clust",
 						"phi",
-						"alpha"
+						"mu",
+						"alpha",
+						"clust"
 					]
 				},
 				"monitoredParametersShown" : 
@@ -510,10 +510,10 @@
 						"values" : 
 						[
 							"tau",
-							"mu",
-							"clust",
 							"phi",
-							"alpha"
+							"mu",
+							"alpha",
+							"clust"
 						]
 					},
 					{
@@ -548,10 +548,10 @@
 					"parameters" : 
 					[
 						"tau",
-						"mu",
-						"clust",
 						"phi",
-						"alpha"
+						"mu",
+						"alpha",
+						"clust"
 					]
 				},
 				"monitoredParametersShown" : 
@@ -708,10 +708,10 @@
 				"values" : 
 				[
 					"tau",
-					"mu",
-					"clust",
 					"phi",
-					"alpha"
+					"mu",
+					"alpha",
+					"clust"
 				]
 			},
 			{
@@ -747,10 +747,10 @@
 			"parameters" : 
 			[
 				"tau",
-				"mu",
-				"clust",
 				"phi",
-				"alpha"
+				"mu",
+				"alpha",
+				"clust"
 			]
 		},
 		"monitoredParameters" : [],

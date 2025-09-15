@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -74,7 +74,7 @@
 		"statePlotResults" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_98",
+			"environmentName" : "state_0",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -416,10 +416,10 @@
 							{
 								"levels" : 
 								[
-									"JaspExtraOptions_0_Encoded",
-									"JaspExtraOptions_1_Encoded"
+									"Level 1",
+									"Level 2"
 								],
-								"name" : "JaspExtraOptions_2_Encoded"
+								"name" : "RM Factor 1"
 							}
 						],
 						"replaceNaAreaStack" : false,
@@ -427,7 +427,7 @@
 						"reverseBarStack" : false,
 						"reversedirectionIdentityLine" : false,
 						"rightMargin" : 10.0,
-						"rotateXLa\tbel" : false,
+						"rotateXLabel" : false,
 						"rotateYLabel" : false,
 						"rowSplitRM" : "",
 						"rowSplitRM.types" : [],
@@ -466,12 +466,12 @@
 						],
 						"variableColorPlotBuilder" : "",
 						"variableColorPlotBuilder.types" : [],
-						"variableXPlotBuilder" : "JaspColumn_14_Encoded",
+						"variableXPlotBuilder" : "Species",
 						"variableXPlotBuilder.types" : 
 						[
 							"nominal"
 						],
-						"variableYPlotBuilder" : "JaspColumn_6_Encoded",
+						"variableYPlotBuilder" : "Sepal.Length",
 						"variableYPlotBuilder.types" : 
 						[
 							"scale"
@@ -549,25 +549,23 @@
 							{
 								"breaks" : 
 								[
-									5,
 									6,
-									7,
-									8
+									8,
+									10
 								],
 								"breaksType" : "range",
 								"expand" : 
 								[
 									0.040000000000000001,
 									0,
-									0.25,
+									0.55000000000000004,
 									0
 								],
 								"labels" : 
 								[
-									"5",
 									"6",
-									"7",
-									"8"
+									"8",
+									"10"
 								],
 								"limits" : 
 								[
@@ -577,9 +575,9 @@
 								"limitsType" : "data",
 								"range" : 
 								[
-									5,
-									8,
-									1
+									6,
+									10,
+									2
 								],
 								"title" : "JaspColumn_6_Encoded",
 								"titleType" : "character"
@@ -587,11 +585,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_98",
+					"environmentName" : "plot_0",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_32_t1752581051802.png",
+					"filePathPng" : "resources/1/_0_t1757493201964.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "tidyPlot_Plot 1",
@@ -599,94 +597,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						".meta" : 
-						{
-							"PlotBuilderTab" : 
-							{
-								"betweenSubjectFactors" : 
-								{
-									"shouldEncode" : true
-								},
-								"colSplitRM" : 
-								{
-									"shouldEncode" : true
-								},
-								"columnsvariableSplitPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"covariates" : 
-								{
-									"shouldEncode" : true
-								},
-								"drawQuantilesViolinPlotBuilder" : 
-								{
-									"isRCode" : true
-								},
-								"gridVarRM" : 
-								{
-									"shouldEncode" : true
-								},
-								"gridVariablePlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"groupVarRM" : 
-								{
-									"shouldEncode" : true
-								},
-								"labelVariablePlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"pointShapeVariable" : 
-								{
-									"shouldEncode" : true
-								},
-								"repeatedMeasuresCells" : 
-								{
-									"shouldEncode" : true
-								},
-								"repeatedMeasuresFactors" : 
-								{
-									"encodeThis" : 
-									[
-										"RM Factor 1",
-										"Level 1",
-										"Level 2"
-									],
-									"shouldEncode" : true
-								},
-								"rowSplitRM" : 
-								{
-									"shouldEncode" : true
-								},
-								"rowsvariableSplitPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"sizeVariablePlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"variableColorPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"variableXPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"variableYPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"xVarRM" : 
-								{
-									"shouldEncode" : true
-								}
-							}
-						},
+						".meta" : null,
 						"PlotBuilderTab" : 
 						[
 							{
@@ -1019,10 +930,10 @@
 									{
 										"levels" : 
 										[
-											"JaspExtraOptions_0_Encoded",
-											"JaspExtraOptions_1_Encoded"
+											"Level 1",
+											"Level 2"
 										],
-										"name" : "JaspExtraOptions_2_Encoded"
+										"name" : "RM Factor 1"
 									}
 								],
 								"replaceNaAreaStack" : false,
@@ -1030,7 +941,7 @@
 								"reverseBarStack" : false,
 								"reversedirectionIdentityLine" : false,
 								"rightMargin" : 10.0,
-								"rotateXLa\tbel" : false,
+								"rotateXLabel" : false,
 								"rotateYLabel" : false,
 								"rowSplitRM" : "",
 								"rowSplitRM.types" : [],
@@ -1069,12 +980,12 @@
 								],
 								"variableColorPlotBuilder" : "",
 								"variableColorPlotBuilder.types" : [],
-								"variableXPlotBuilder" : "JaspColumn_14_Encoded",
+								"variableXPlotBuilder" : "Species",
 								"variableXPlotBuilder.types" : 
 								[
 									"nominal"
 								],
-								"variableYPlotBuilder" : "JaspColumn_6_Encoded",
+								"variableYPlotBuilder" : "Sepal.Length",
 								"variableYPlotBuilder.types" : 
 								[
 									"scale"
@@ -1177,94 +1088,7 @@
 	"optionMustContain" : {},
 	"options" : 
 	{
-		".meta" : 
-		{
-			"PlotBuilderTab" : 
-			{
-				"betweenSubjectFactors" : 
-				{
-					"shouldEncode" : true
-				},
-				"colSplitRM" : 
-				{
-					"shouldEncode" : true
-				},
-				"columnsvariableSplitPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"covariates" : 
-				{
-					"shouldEncode" : true
-				},
-				"drawQuantilesViolinPlotBuilder" : 
-				{
-					"isRCode" : true
-				},
-				"gridVarRM" : 
-				{
-					"shouldEncode" : true
-				},
-				"gridVariablePlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"groupVarRM" : 
-				{
-					"shouldEncode" : true
-				},
-				"labelVariablePlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"pointShapeVariable" : 
-				{
-					"shouldEncode" : true
-				},
-				"repeatedMeasuresCells" : 
-				{
-					"shouldEncode" : true
-				},
-				"repeatedMeasuresFactors" : 
-				{
-					"encodeThis" : 
-					[
-						"RM Factor 1",
-						"Level 1",
-						"Level 2"
-					],
-					"shouldEncode" : true
-				},
-				"rowSplitRM" : 
-				{
-					"shouldEncode" : true
-				},
-				"rowsvariableSplitPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"sizeVariablePlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"variableColorPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"variableXPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"variableYPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"xVarRM" : 
-				{
-					"shouldEncode" : true
-				}
-			}
-		},
+		".meta" : null,
 		"PlotBuilderTab" : 
 		[
 			{
@@ -1597,10 +1421,10 @@
 					{
 						"levels" : 
 						[
-							"JaspExtraOptions_0_Encoded",
-							"JaspExtraOptions_1_Encoded"
+							"Level 1",
+							"Level 2"
 						],
-						"name" : "JaspExtraOptions_2_Encoded"
+						"name" : "RM Factor 1"
 					}
 				],
 				"replaceNaAreaStack" : false,
@@ -1608,7 +1432,7 @@
 				"reverseBarStack" : false,
 				"reversedirectionIdentityLine" : false,
 				"rightMargin" : 10.0,
-				"rotateXLa\tbel" : false,
+				"rotateXLabel" : false,
 				"rotateYLabel" : false,
 				"rowSplitRM" : "",
 				"rowSplitRM.types" : [],
@@ -1647,12 +1471,12 @@
 				],
 				"variableColorPlotBuilder" : "",
 				"variableColorPlotBuilder.types" : [],
-				"variableXPlotBuilder" : "JaspColumn_14_Encoded",
+				"variableXPlotBuilder" : "Species",
 				"variableXPlotBuilder.types" : 
 				[
 					"nominal"
 				],
-				"variableYPlotBuilder" : "JaspColumn_6_Encoded",
+				"variableYPlotBuilder" : "Sepal.Length",
 				"variableYPlotBuilder.types" : 
 				[
 					"scale"

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -87,7 +87,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1751885586284.png",
+					"filePathPng" : "resources/0/_0_t1757493228374.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "extra",
@@ -172,9 +172,7 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"Maximum" : "sf:4;dp:3",
 					"Mean" : "sf:4;dp:3",
-					"Minimum" : "sf:4;dp:3",
 					"Std. Deviation" : "sf:4;dp:3"
 				},
 				"listType" : "string",
@@ -276,9 +274,9 @@
 				"fields" : 
 				{
 					"Level" : "string",
-					"Maximum" : "number",
+					"Maximum" : "mixed",
 					"Mean" : "number",
-					"Minimum" : "number",
+					"Minimum" : "mixed",
 					"Missing" : "integer",
 					"Std. Deviation" : "number",
 					"Valid" : "integer",
@@ -323,12 +321,28 @@
 					2.002248735796829
 				],
 				[
-					-1.6000000000000001,
-					-0.10000000000000001
+					{
+						"format" : "sf:4;dp:3",
+						"type" : "number",
+						"value" : -1.6000000000000001
+					},
+					{
+						"format" : "sf:4;dp:3",
+						"type" : "number",
+						"value" : -0.10000000000000001
+					}
 				],
 				[
-					3.7000000000000002,
-					5.5
+					{
+						"format" : "sf:4;dp:3",
+						"type" : "number",
+						"value" : 3.7000000000000002
+					},
+					{
+						"format" : "sf:4;dp:3",
+						"type" : "number",
+						"value" : 5.5
+					}
 				]
 			],
 			"error" : false,

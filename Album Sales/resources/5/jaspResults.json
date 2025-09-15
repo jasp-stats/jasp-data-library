@@ -1,14 +1,14 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
 		"adverts_airplay" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_5",
+			"environmentName" : "state_4",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -43,7 +43,7 @@
 		"adverts_attract" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_6",
+			"environmentName" : "state_5",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -78,7 +78,7 @@
 		"airplay_attract" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_7",
+			"environmentName" : "state_6",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -119,11 +119,11 @@
 				"errorType" : "validationError",
 				"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
 			},
-			"environmentName" : "plot_3",
+			"environmentName" : "plot_0",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/5/_3_t1751898018434.png",
+			"filePathPng" : "resources/5/_0_t1757494953816.png",
 			"height" : 1020,
 			"messages" : [],
 			"name" : "corrPlot",
@@ -458,7 +458,7 @@
 					""
 				],
 				[
-					1.4709899260829491e-19,
+					1.4709899260829284e-19,
 					"\u2014",
 					"",
 					""
@@ -482,9 +482,9 @@
 					"\u2014"
 				],
 				[
-					1.2236682502845093e-06,
-					0.12783227546499668,
-					0.0049521861047408609,
+					1.2236682502845091e-06,
+					0.12783227546499665,
+					0.0049521861047408617,
 					"\u2014"
 				],
 				[
@@ -638,7 +638,7 @@
 					""
 				],
 				[
-					57673284406262728.0,
+					57673284406263520.0,
 					"\u2014",
 					"",
 					""
@@ -890,9 +890,9 @@
 					"\u2014"
 				],
 				[
-					22083.454346340073,
-					1.3990172173040223,
-					13.995347553702349,
+					22083.454346340077,
+					1.3990172173040225,
+					13.995347553702345,
 					"\u2014"
 				],
 				[
@@ -1113,7 +1113,7 @@
 		"results" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_8",
+			"environmentName" : "state_7",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -1156,7 +1156,7 @@
 		"sales_adverts" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_2",
+			"environmentName" : "state_1",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -1191,7 +1191,7 @@
 		"sales_airplay" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_3",
+			"environmentName" : "state_2",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -1226,7 +1226,7 @@
 		"sales_attract" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_4",
+			"environmentName" : "state_3",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,

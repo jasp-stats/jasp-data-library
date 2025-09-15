@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,7 +18,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1751900356475.png",
+			"filePathPng" : "resources/0/_0_t1757502887993.png",
 			"height" : 520,
 			"messages" : [],
 			"name" : "matrixPlot",
@@ -83,9 +83,7 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"Maximum" : "sf:4;dp:3",
 					"Mean" : "sf:4;dp:3",
-					"Minimum" : "sf:4;dp:3",
 					"Std. Deviation" : "sf:4;dp:3"
 				},
 				"listType" : "string",
@@ -184,9 +182,9 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"Maximum" : "number",
+					"Maximum" : "mixed",
 					"Mean" : "number",
-					"Minimum" : "number",
+					"Minimum" : "mixed",
 					"Missing" : "integer",
 					"Std. Deviation" : "number",
 					"Valid" : "integer",
@@ -227,12 +225,28 @@
 					16.765142039116782
 				],
 				[
-					2.9487000000000001,
-					22.307700000000001
+					{
+						"format" : "sf:4;dp:3",
+						"type" : "number",
+						"value" : 2.9487000000000001
+					},
+					{
+						"format" : "sf:4;dp:3",
+						"type" : "number",
+						"value" : 22.307700000000001
+					}
 				],
 				[
-					99.487200000000001,
-					98.205100000000002
+					{
+						"format" : "sf:4;dp:3",
+						"type" : "number",
+						"value" : 99.487200000000001
+					},
+					{
+						"format" : "sf:4;dp:3",
+						"type" : "number",
+						"value" : 98.205100000000002
+					}
 				]
 			],
 			"error" : false,

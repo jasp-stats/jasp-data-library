@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -240,8 +240,8 @@
 							""
 						],
 						[
-							0.00029522359229003213,
-							0.0049433894969830687,
+							0.00029522359229003223,
+							0.0049433894969830704,
 							0.00079127386888028217,
 							""
 						],
@@ -696,7 +696,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1751885808624.png",
+							"filePathPng" : "resources/0/_0_t1757493721050.png",
 							"height" : 300,
 							"messages" : [],
 							"name" : "qqPlot",
@@ -823,7 +823,7 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_1_t1751885808853.png",
+									"filePathPng" : "resources/0/_1_t1757493721274.png",
 									"height" : 300,
 									"messages" : [],
 									"name" : "",
@@ -1498,10 +1498,6 @@
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
-			{
-				"shouldEncode" : true
-			},
-			"randomFactors" : 
 			{
 				"shouldEncode" : true
 			},

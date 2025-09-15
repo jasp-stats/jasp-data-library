@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -74,7 +74,7 @@
 		"statePlotResults" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_48",
+			"environmentName" : "state_0",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -393,10 +393,10 @@
 							{
 								"levels" : 
 								[
-									"JaspExtraOptions_0_Encoded",
-									"JaspExtraOptions_1_Encoded"
+									"Level 1",
+									"Level 2"
 								],
-								"name" : "JaspExtraOptions_2_Encoded"
+								"name" : "RM Factor 1"
 							}
 						],
 						"replaceNaAreaStack" : false,
@@ -404,7 +404,7 @@
 						"reverseBarStack" : false,
 						"reversedirectionIdentityLine" : false,
 						"rightMargin" : 10.0,
-						"rotateXLa\tbel" : false,
+						"rotateXLabel" : false,
 						"rotateYLabel" : false,
 						"rowSplitRM" : "",
 						"rowSplitRM.types" : [],
@@ -443,12 +443,12 @@
 						],
 						"variableColorPlotBuilder" : "",
 						"variableColorPlotBuilder.types" : [],
-						"variableXPlotBuilder" : "JaspColumn_9_Encoded",
+						"variableXPlotBuilder" : "Neuroticism",
 						"variableXPlotBuilder.types" : 
 						[
 							"scale"
 						],
-						"variableYPlotBuilder" : "JaspColumn_3_Encoded",
+						"variableYPlotBuilder" : "Conscientiousness",
 						"variableYPlotBuilder.types" : 
 						[
 							"scale"
@@ -592,11 +592,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_48",
+					"environmentName" : "plot_0",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_16_t1752582084878.png",
+					"filePathPng" : "resources/1/_0_t1757493221882.png",
 					"height" : 300,
 					"messages" : [],
 					"name" : "tidyPlot_Plot 1",
@@ -604,94 +604,7 @@
 					"nestedOptionMustContain" : {},
 					"optionMustBe" : 
 					{
-						".meta" : 
-						{
-							"PlotBuilderTab" : 
-							{
-								"betweenSubjectFactors" : 
-								{
-									"shouldEncode" : true
-								},
-								"colSplitRM" : 
-								{
-									"shouldEncode" : true
-								},
-								"columnsvariableSplitPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"covariates" : 
-								{
-									"shouldEncode" : true
-								},
-								"drawQuantilesViolinPlotBuilder" : 
-								{
-									"isRCode" : true
-								},
-								"gridVarRM" : 
-								{
-									"shouldEncode" : true
-								},
-								"gridVariablePlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"groupVarRM" : 
-								{
-									"shouldEncode" : true
-								},
-								"labelVariablePlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"pointShapeVariable" : 
-								{
-									"shouldEncode" : true
-								},
-								"repeatedMeasuresCells" : 
-								{
-									"shouldEncode" : true
-								},
-								"repeatedMeasuresFactors" : 
-								{
-									"encodeThis" : 
-									[
-										"RM Factor 1",
-										"Level 1",
-										"Level 2"
-									],
-									"shouldEncode" : true
-								},
-								"rowSplitRM" : 
-								{
-									"shouldEncode" : true
-								},
-								"rowsvariableSplitPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"sizeVariablePlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"variableColorPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"variableXPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"variableYPlotBuilder" : 
-								{
-									"shouldEncode" : true
-								},
-								"xVarRM" : 
-								{
-									"shouldEncode" : true
-								}
-							}
-						},
+						".meta" : null,
 						"PlotBuilderTab" : 
 						[
 							{
@@ -1001,10 +914,10 @@
 									{
 										"levels" : 
 										[
-											"JaspExtraOptions_0_Encoded",
-											"JaspExtraOptions_1_Encoded"
+											"Level 1",
+											"Level 2"
 										],
-										"name" : "JaspExtraOptions_2_Encoded"
+										"name" : "RM Factor 1"
 									}
 								],
 								"replaceNaAreaStack" : false,
@@ -1012,7 +925,7 @@
 								"reverseBarStack" : false,
 								"reversedirectionIdentityLine" : false,
 								"rightMargin" : 10.0,
-								"rotateXLa\tbel" : false,
+								"rotateXLabel" : false,
 								"rotateYLabel" : false,
 								"rowSplitRM" : "",
 								"rowSplitRM.types" : [],
@@ -1051,12 +964,12 @@
 								],
 								"variableColorPlotBuilder" : "",
 								"variableColorPlotBuilder.types" : [],
-								"variableXPlotBuilder" : "JaspColumn_9_Encoded",
+								"variableXPlotBuilder" : "Neuroticism",
 								"variableXPlotBuilder.types" : 
 								[
 									"scale"
 								],
-								"variableYPlotBuilder" : "JaspColumn_3_Encoded",
+								"variableYPlotBuilder" : "Conscientiousness",
 								"variableYPlotBuilder.types" : 
 								[
 									"scale"
@@ -1159,94 +1072,7 @@
 	"optionMustContain" : {},
 	"options" : 
 	{
-		".meta" : 
-		{
-			"PlotBuilderTab" : 
-			{
-				"betweenSubjectFactors" : 
-				{
-					"shouldEncode" : true
-				},
-				"colSplitRM" : 
-				{
-					"shouldEncode" : true
-				},
-				"columnsvariableSplitPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"covariates" : 
-				{
-					"shouldEncode" : true
-				},
-				"drawQuantilesViolinPlotBuilder" : 
-				{
-					"isRCode" : true
-				},
-				"gridVarRM" : 
-				{
-					"shouldEncode" : true
-				},
-				"gridVariablePlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"groupVarRM" : 
-				{
-					"shouldEncode" : true
-				},
-				"labelVariablePlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"pointShapeVariable" : 
-				{
-					"shouldEncode" : true
-				},
-				"repeatedMeasuresCells" : 
-				{
-					"shouldEncode" : true
-				},
-				"repeatedMeasuresFactors" : 
-				{
-					"encodeThis" : 
-					[
-						"RM Factor 1",
-						"Level 1",
-						"Level 2"
-					],
-					"shouldEncode" : true
-				},
-				"rowSplitRM" : 
-				{
-					"shouldEncode" : true
-				},
-				"rowsvariableSplitPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"sizeVariablePlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"variableColorPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"variableXPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"variableYPlotBuilder" : 
-				{
-					"shouldEncode" : true
-				},
-				"xVarRM" : 
-				{
-					"shouldEncode" : true
-				}
-			}
-		},
+		".meta" : null,
 		"PlotBuilderTab" : 
 		[
 			{
@@ -1556,10 +1382,10 @@
 					{
 						"levels" : 
 						[
-							"JaspExtraOptions_0_Encoded",
-							"JaspExtraOptions_1_Encoded"
+							"Level 1",
+							"Level 2"
 						],
-						"name" : "JaspExtraOptions_2_Encoded"
+						"name" : "RM Factor 1"
 					}
 				],
 				"replaceNaAreaStack" : false,
@@ -1567,7 +1393,7 @@
 				"reverseBarStack" : false,
 				"reversedirectionIdentityLine" : false,
 				"rightMargin" : 10.0,
-				"rotateXLa\tbel" : false,
+				"rotateXLabel" : false,
 				"rotateYLabel" : false,
 				"rowSplitRM" : "",
 				"rowSplitRM.types" : [],
@@ -1606,12 +1432,12 @@
 				],
 				"variableColorPlotBuilder" : "",
 				"variableColorPlotBuilder.types" : [],
-				"variableXPlotBuilder" : "JaspColumn_9_Encoded",
+				"variableXPlotBuilder" : "Neuroticism",
 				"variableXPlotBuilder.types" : 
 				[
 					"scale"
 				],
-				"variableYPlotBuilder" : "JaspColumn_3_Encoded",
+				"variableYPlotBuilder" : "Conscientiousness",
 				"variableYPlotBuilder.types" : 
 				[
 					"scale"

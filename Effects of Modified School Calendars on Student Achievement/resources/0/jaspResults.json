@@ -1,14 +1,14 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.2) [Computer software]."
 	],
 	"data" : 
 	{
 		"dropLevelFits" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_17",
+			"environmentName" : "state_3",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -192,7 +192,7 @@
 		"dropOneFits" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_16",
+			"environmentName" : "state_2",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -376,7 +376,7 @@
 		"fit" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_11",
+			"environmentName" : "state_0",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -997,8 +997,8 @@
 							"t(55) = 2.18"
 						],
 						[
-							1.7968303019344979e-88,
-							0.033205018811843283
+							1.7968303019346829e-88,
+							0.033205018825501219
 						]
 					],
 					"error" : false,
@@ -1381,7 +1381,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1752785374341.png",
+					"filePathPng" : "resources/0/_0_t1757669572383.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "plot1",
@@ -1509,7 +1509,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1752785374941.png",
+					"filePathPng" : "resources/0/_1_t1757669572540.png",
 					"height" : 320,
 					"messages" : [],
 					"name" : "plot2",
@@ -1718,7 +1718,7 @@
 		"profileLikelihoodResults" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_26",
+			"environmentName" : "state_4",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -2056,12 +2056,12 @@
 									"JaspColumn_2_Encoded/JaspColumn_5_Encoded"
 								],
 								[
-									0.065061944290896123,
-									0.032736517028578868
+									0.065061944305443278,
+									0.032736517024496446
 								],
 								[
-									0.25507242949973274,
-									0.1809323548417443
+									0.25507242952824849,
+									0.18093235483046266
 								],
 								[
 									11,
@@ -2325,32 +2325,32 @@
 									"Component 1"
 								],
 								[
-									-7.9587240337109293,
-									-218.8618122265579
+									-7.9587240337109577,
+									-218.86181222655784
 								],
 								[
 									3.0,
 									1.0
 								],
 								[
-									21.917448067421859,
-									439.7236244531158
+									21.917448067421915,
+									439.72362445311569
 								],
 								[
-									27.939447623119271,
-									441.73095763834829
+									27.939447623119328,
+									441.73095763834817
 								],
 								[
-									22.388036302715975,
-									439.79909615122904
-								],
-								[
-									"",
-									421.80617638569396
+									22.388036302716031,
+									439.79909615122892
 								],
 								[
 									"",
-									2.546552191721308e-92
+									421.80617638569379
+								],
+								[
+									"",
+									2.546552191721525e-92
 								]
 							],
 							"error" : false,
@@ -2598,8 +2598,8 @@
 									"JaspColumn_5_Encoded"
 								],
 								[
-									-7.9587240337109293,
-									-16.845499452610639,
+									-7.9587240337109577,
+									-16.845499452610646,
 									-32.216476185980135
 								],
 								[
@@ -2608,29 +2608,29 @@
 									2.0
 								],
 								[
-									21.917448067421859,
-									37.690998905221278,
+									21.917448067421915,
+									37.690998905221292,
 									68.432952371960269
 								],
 								[
-									27.939447623119271,
-									41.705665275686222,
+									27.939447623119328,
+									41.705665275686236,
 									72.447618742425206
 								],
 								[
-									22.388036302715975,
-									37.921768135990511,
+									22.388036302716031,
+									37.921768135990526,
 									68.663721602729495
 								],
 								[
 									"",
-									17.773550837799419,
-									48.51550430453841
+									17.773550837799377,
+									48.515504304538354
 								],
 								[
 									"",
-									2.4881825125138375e-05,
-									3.2768792174421473e-12
+									2.4881825125138924e-05,
+									3.276879217442241e-12
 								]
 							],
 							"error" : false,
@@ -2932,12 +2932,12 @@
 	{
 		"dropLevelFits" : 5,
 		"dropOneFits" : 4,
-		"fit" : 2,
-		"fitDataSet" : 3,
-		"modelSummaryContainer" : 0,
+		"fit" : 0,
+		"fitDataSet" : 1,
+		"modelSummaryContainer" : 2,
 		"profileLikelihoodPlot" : 7,
 		"profileLikelihoodResults" : 6,
-		"randomEstimatesContainer" : 1
+		"randomEstimatesContainer" : 3
 	},
 	"error" : false,
 	"errorMessage" : "",

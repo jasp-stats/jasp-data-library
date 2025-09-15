@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -543,24 +543,24 @@
 						],
 						[
 							5.9678171979745044e-43,
-							2.9419798521657085e-19,
+							2.9419798521657509e-19,
 							0.12666977357649206,
-							5.0549368012364363e-26,
-							1.3263071705486132e-25,
-							9.4921209529316133e-06
+							5.0549368012364013e-26,
+							1.326307170548613e-25,
+							9.4921209529316167e-06
 						],
 						[
 							119.27768082113673,
 							0.077129291444523213,
-							-60.829609671646736,
+							-60.829609671646722,
 							0.071231658201945824,
 							2.8196218631738716,
-							6.2785521770913917
+							6.2785521770913926
 						],
 						[
 							149.00219480301146,
 							0.11511968050323113,
-							7.6036929482894919,
+							7.6036929482894777,
 							0.098537992105009187,
 							3.9152284778467443,
 							15.894118232012357
@@ -583,11 +583,11 @@
 						],
 						[
 							6.3403472968639012e+39,
-							29305074856436444.0,
+							29305074856436032.0,
 							1.4056140733616738,
-							1.2494456406051933e+23,
-							4.8421862796044618e+22,
-							3351.1571714681354
+							1.2494456406052021e+23,
+							4.8421862796044626e+22,
+							3351.157171468134
 						],
 						[
 							false,
@@ -1626,7 +1626,7 @@
 				"model" : 
 				{
 					"citations" : [],
-					"environmentName" : "state_9",
+					"environmentName" : "state_8",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
@@ -1750,11 +1750,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_6",
+					"environmentName" : "plot_3",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_6_t1751898020416.png",
+					"filePathPng" : "resources/6/_3_t1757494955740.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsQQPlot",
@@ -1866,11 +1866,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_5",
+					"environmentName" : "plot_2",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_5_t1751898020282.png",
+					"filePathPng" : "resources/6/_2_t1757494955609.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsHistPlot",
@@ -1998,11 +1998,11 @@
 							"type" : "ScaleContinuous"
 						}
 					},
-					"environmentName" : "plot_4",
+					"environmentName" : "plot_1",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/6/_4_t1751898020145.png",
+					"filePathPng" : "resources/6/_1_t1757494955460.png",
 					"height" : 400,
 					"messages" : [],
 					"name" : "residualsVsPredPlot",
@@ -2222,7 +2222,7 @@
 						],
 						[
 							2.9419798521658568e-19,
-							6.8793949103790775e-30
+							6.8793949103791251e-30
 						],
 						[
 							2247.3753322675047,

@@ -1,14 +1,14 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95) [Computer software]."
+		"JASP Team (2025). JASP (Version 0.95.2) [Computer software]."
 	],
 	"data" : 
 	{
 		"fit" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_61",
+			"environmentName" : "state_0",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -221,7 +221,7 @@
 		"fitDataSet" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_93",
+			"environmentName" : "state_1",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -264,11 +264,11 @@
 				"errorType" : "validationError",
 				"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
 			},
-			"environmentName" : "plot_42",
+			"environmentName" : "plot_0",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_14_t1752790988693.png",
+			"filePathPng" : "resources/0/_0_t1757669596517.png",
 			"height" : 490,
 			"messages" : [],
 			"name" : "forestPlot",
@@ -975,39 +975,39 @@
 							"JaspColumn_2_Encoded (overt)"
 						],
 						[
-							-0.29195841115890359,
-							0.69482787265021229,
-							0.53795490124096546
+							-0.29195841116423865,
+							0.69482787266326795,
+							0.53795490123278555
 						],
 						[
-							0.11755480090159418,
-							0.089910294323220147,
-							0.14389774546145812
+							0.11755480089685998,
+							0.089910294312265923,
+							0.14389774544987405
 						],
 						[
-							-0.72528343896756686,
-							0.2909419014551396,
-							-0.018603282516883257
+							-0.72528343886696256,
+							0.29094190153813326,
+							-0.01860328249170673
 						],
 						[
-							0.14136661664975969,
-							1.098713843845285,
-							1.0945130849988143
+							0.14136661653848526,
+							1.0987138437884028,
+							1.0945130849572777
 						],
 						[
-							-2.4835941103188435,
-							7.7280124359549189,
-							3.738452604075388
+							-2.4835941104642472,
+							7.7280124370416701,
+							3.7384526043194959
 						],
 						[
-							2.3977156861474356,
-							1.9145171290624454,
-							2.2554995468163352
+							2.3977156867955784,
+							1.9145171291592513,
+							2.2554995467596393
 						],
 						[
-							0.11022263545664446,
-							0.018461220120328664,
-							0.053554519218152033
+							0.11022263541611316,
+							0.018461220112891228,
+							0.053554519213264117
 						]
 					],
 					"error" : false,
@@ -1248,16 +1248,16 @@
 							"JaspColumn_2_Encoded"
 						],
 						[
-							35.404948962497144
+							35.404948972155267
 						],
 						[
 							2.0
 						],
 						[
-							0.88403096902543288
+							0.8840309689743171
 						],
 						[
-							0.14328009255592572
+							0.14328009255134228
 						]
 					],
 					"error" : false,
@@ -1983,9 +1983,9 @@
 							"F\u2098(2, 0.88) = 35.40"
 						],
 						[
-							8.4702480222650775e-108,
-							0.0037924195647236702,
-							0.14328009255592572
+							8.4702480222659231e-108,
+							0.0037924195643720625,
+							0.14328009255134228
 						]
 					],
 					"error" : false,
@@ -2438,12 +2438,12 @@
 									"JaspColumn_17_Encoded/JaspColumn_5_Encoded"
 								],
 								[
-									0.07475445542776582,
-									0.13869403697744115
+									0.074754455462985897,
+									0.13869403697774677
 								],
 								[
-									0.27341261022082691,
-									0.37241648322468374
+									0.27341261028523517,
+									0.37241648322509407
 								],
 								[
 									17,
@@ -2758,13 +2758,13 @@
 	},
 	"data_order" : 
 	{
-		"fit" : 2,
-		"fitDataSet" : 3,
-		"forestPlot" : 6,
-		"metaforRCode" : 5,
+		"fit" : 0,
+		"fitDataSet" : 1,
+		"forestPlot" : 5,
+		"metaforRCode" : 6,
 		"metaregressionContainer" : 4,
-		"modelSummaryContainer" : 0,
-		"randomEstimatesContainer" : 1
+		"modelSummaryContainer" : 2,
+		"randomEstimatesContainer" : 3
 	},
 	"error" : false,
 	"errorMessage" : "",

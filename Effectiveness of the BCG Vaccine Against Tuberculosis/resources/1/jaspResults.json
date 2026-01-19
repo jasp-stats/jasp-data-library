@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.2) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -204,19 +204,19 @@
 							13
 						],
 						[
-							-0.80332911207010127
+							-0.80332911207009916
 						],
 						[
-							0.42178453567223056
+							0.42178453567223168
 						],
 						[
-							-0.51043188378949977
+							-0.51043188378949989
 						],
 						[
 							-1.1182240448943326
 						],
 						[
-							0.097360277315333033
+							0.09736027731533281
 						]
 					],
 					"error" : false,
@@ -436,8 +436,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1757669562217.png",
+					"filePathPng" : "resources/1/_0_t1768743723851.png",
 					"height" : 480,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/1/_1_t1768743724454.json",
 					"messages" : [],
 					"name" : "funnelPlot",
 					"nestedOptionMustBe" : {},

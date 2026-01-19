@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.2) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -109,8 +109,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_2_t1757669563553.png",
+			"filePathPng" : "resources/2/_3_t1768743725778.png",
 			"height" : 350,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/2/_4_t1768743726216.json",
 			"messages" : [],
 			"name" : "bubblePlot",
 			"nestedOptionMustBe" : {},
@@ -337,6 +340,7 @@
 											"lCi" : "sf:4;dp:3",
 											"lPi" : "sf:4;dp:3",
 											"pval" : "dp:3;p:.001",
+											"se" : "sf:4;dp:3",
 											"stat" : "sf:4;dp:3",
 											"uCi" : "sf:4;dp:3",
 											"uPi" : "sf:4;dp:3"
@@ -371,13 +375,16 @@
 										"rows" : 
 										[
 											"est",
+											"se",
 											"lCi",
 											"uCi",
 											"lPi",
 											"uPi",
 											"stat",
 											"df",
-											"pval"
+											"pval",
+											"variable",
+											"value"
 										],
 										"title" : "colNames",
 										"type" : "list"
@@ -421,6 +428,7 @@
 											"lCi" : "Lower",
 											"lPi" : "Lower",
 											"pval" : "p",
+											"se" : "Standard Error",
 											"stat" : "t",
 											"uCi" : "Upper",
 											"uPi" : "Upper"
@@ -450,6 +458,7 @@
 											"lCi" : "number",
 											"lPi" : "number",
 											"pval" : "pvalue",
+											"se" : "number",
 											"stat" : "number",
 											"uCi" : "number",
 											"uPi" : "number"
@@ -469,28 +478,37 @@
 									"data" : 
 									[
 										[
-											-0.68917106355414948
+											-0.68917106355415092
 										],
 										[
-											-1.0237405649708224
+											0.1478984338129819
 										],
 										[
-											-0.35460156213747657
+											-1.0237405649708242
 										],
 										[
-											-1.6121467171998494
+											-0.35460156213747768
 										],
 										[
-											0.2338045900915503
+											-1.6121467171998507
 										],
 										[
-											-4.6597590372431492
+											0.23380459009154875
+										],
+										[
+											-4.6597590372431545
 										],
 										[
 											9
 										],
 										[
-											0.0011856297072569458
+											0.0011856297072569372
+										],
+										[
+											"Adjusted estimate"
+										],
+										[
+											""
 										]
 									],
 									"error" : false,
@@ -518,6 +536,7 @@
 										"estimatedMarginalMeansEffectSizeTestAgainst" : true,
 										"estimatedMarginalMeansEffectSizeTestAgainstValue" : 0.0,
 										"predictionIntervals" : true,
+										"standardErrors" : true,
 										"transformEffectSize" : "none"
 									},
 									"optionMustContain" : {},
@@ -563,7 +582,7 @@
 										"title" : "rowTitles",
 										"type" : "list"
 									},
-									"showSpecifiedColumnsOnly" : false,
+									"showSpecifiedColumnsOnly" : true,
 									"specifiedColumns" : 
 									[
 										"df",
@@ -571,6 +590,7 @@
 										"lCi",
 										"lPi",
 										"pval",
+										"se",
 										"stat",
 										"uCi",
 										"uPi"
@@ -644,6 +664,7 @@
 											"lCi" : "sf:4;dp:3",
 											"lPi" : "sf:4;dp:3",
 											"pval" : "dp:3;p:.001",
+											"se" : "sf:4;dp:3",
 											"stat" : "sf:4;dp:3",
 											"uCi" : "sf:4;dp:3",
 											"uPi" : "sf:4;dp:3"
@@ -679,6 +700,7 @@
 										[
 											"comparison",
 											"est",
+											"se",
 											"lCi",
 											"uCi",
 											"lPi",
@@ -730,6 +752,7 @@
 											"lCi" : "Lower",
 											"lPi" : "Lower",
 											"pval" : "p",
+											"se" : "Standard Error",
 											"stat" : "t",
 											"uCi" : "Upper",
 											"uPi" : "Upper"
@@ -760,6 +783,7 @@
 											"lCi" : "number",
 											"lPi" : "number",
 											"pval" : "pvalue",
+											"se" : "number",
 											"stat" : "number",
 											"uCi" : "number",
 											"uPi" : "number"
@@ -784,34 +808,39 @@
 											"random \u2013 systematic"
 										],
 										[
-											0.2674916665505267,
-											-0.058461973815869844,
-											-0.32595364036639651
+											0.26749166655052548,
+											-0.058461973815871864,
+											-0.32595364036639735
 										],
 										[
-											-0.55233945931078532,
-											-0.94633087449317155,
-											-1.0521421498237147
+											0.36241121498703099,
+											0.39248771715712316,
+											0.32101594062503147
 										],
 										[
-											1.0873227924118387,
-											0.82940692686143191,
-											0.40023486909092176
+											-0.55233945931078687,
+											-0.94633087449317388,
+											-1.0521421498237156
 										],
 										[
-											-0.92081400998036167,
-											-1.2946894976699646,
-											-1.4516965316219208
+											1.0873227924118378,
+											0.82940692686143025,
+											0.40023486909092082
 										],
 										[
-											1.4557973430814151,
-											1.1777655500382249,
-											0.79978925088912778
+											-0.92081400998036289,
+											-1.2946894976699665,
+											-1.4516965316219215
 										],
 										[
-											0.73808882145134236,
-											-0.14895236528501604,
-											-1.0153814783519817
+											1.455797343081414,
+											1.1777655500382229,
+											0.79978925088912667
+										],
+										[
+											0.73808882145133881,
+											-0.14895236528502112,
+											-1.0153814783519846
 										],
 										[
 											9,
@@ -819,9 +848,9 @@
 											9
 										],
 										[
-											0.47926297989516653,
-											0.88487541759585631,
-											0.33644180969222748
+											0.47926297989516853,
+											0.88487541759585242,
+											0.33644180969222581
 										]
 									],
 									"error" : false,
@@ -847,6 +876,7 @@
 										"contrastsEffectSize" : true,
 										"contrastsEffectSizePValueAdjustment" : "none",
 										"predictionIntervals" : true,
+										"standardErrors" : true,
 										"transformEffectSize" : "none"
 									},
 									"optionMustContain" : {},
@@ -894,7 +924,7 @@
 										"title" : "rowTitles",
 										"type" : "list"
 									},
-									"showSpecifiedColumnsOnly" : false,
+									"showSpecifiedColumnsOnly" : true,
 									"specifiedColumns" : 
 									[
 										"comparison",
@@ -903,6 +933,7 @@
 										"lCi",
 										"lPi",
 										"pval",
+										"se",
 										"stat",
 										"uCi",
 										"uPi"
@@ -948,6 +979,7 @@
 											"lCi" : "sf:4;dp:3",
 											"lPi" : "sf:4;dp:3",
 											"pval" : "dp:3;p:.001",
+											"se" : "sf:4;dp:3",
 											"stat" : "sf:4;dp:3",
 											"uCi" : "sf:4;dp:3",
 											"uPi" : "sf:4;dp:3"
@@ -983,13 +1015,15 @@
 										[
 											"value",
 											"est",
+											"se",
 											"lCi",
 											"uCi",
 											"lPi",
 											"uPi",
 											"stat",
 											"df",
-											"pval"
+											"pval",
+											"variable"
 										],
 										"title" : "colNames",
 										"type" : "list"
@@ -1033,6 +1067,7 @@
 											"lCi" : "Lower",
 											"lPi" : "Lower",
 											"pval" : "p",
+											"se" : "Standard Error",
 											"stat" : "t",
 											"uCi" : "Upper",
 											"uPi" : "Upper",
@@ -1063,6 +1098,7 @@
 											"lCi" : "number",
 											"lPi" : "number",
 											"pval" : "pvalue",
+											"se" : "number",
 											"stat" : "number",
 											"uCi" : "number",
 											"uPi" : "number",
@@ -1088,34 +1124,39 @@
 											"systematic"
 										],
 										[
-											-0.61949449930926381,
-											-0.88698616585979051,
-											-0.561032525493394
+											-0.61949449930926637,
+											-0.88698616585979173,
+											-0.56103252549339455
 										],
 										[
-											-1.3062388544110166,
-											-1.3342482838760272,
-											-1.1326475293969889
+											0.30357941808617583,
+											0.19771487382556147,
+											0.25268580508196348
 										],
 										[
-											0.067249855792489099,
-											-0.43972404784355368,
-											0.010582478410200769
+											-1.3062388544110199,
+											-1.334248283876029,
+											-1.1326475293969893
 										],
 										[
-											-1.7202056854106083,
-											-1.8565173454290069,
-											-1.5938398737593773
+											0.067249855792487212,
+											-0.43972404784355457,
+											0.010582478410200213
 										],
 										[
-											0.48121668679208052,
-											0.082545013709425796,
-											0.47177482277258942
+											-1.7202056854106109,
+											-1.8565173454290078,
+											-1.5938398737593777
 										],
 										[
-											-2.0406340562040706,
-											-4.4861883615410516,
-											-2.2202771750926504
+											0.48121668679207819,
+											0.082545013709424464,
+											0.47177482277258864
+										],
+										[
+											-2.0406340562040772,
+											-4.4861883615410534,
+											-2.2202771750926527
 										],
 										[
 											9,
@@ -1123,9 +1164,14 @@
 											9
 										],
 										[
-											0.071691568426307944,
-											0.0015188275359862859,
-											0.053539822126688535
+											0.071691568426307223,
+											0.00151882753598628,
+											0.053539822126688355
+										],
+										[
+											"JaspColumn_5_Encoded",
+											"JaspColumn_5_Encoded",
+											"JaspColumn_5_Encoded"
 										]
 									],
 									"error" : false,
@@ -1153,6 +1199,7 @@
 										"estimatedMarginalMeansEffectSizeTestAgainst" : true,
 										"estimatedMarginalMeansEffectSizeTestAgainstValue" : 0.0,
 										"predictionIntervals" : true,
+										"standardErrors" : true,
 										"transformEffectSize" : "none"
 									},
 									"optionMustContain" : {},
@@ -1200,7 +1247,7 @@
 										"title" : "rowTitles",
 										"type" : "list"
 									},
-									"showSpecifiedColumnsOnly" : false,
+									"showSpecifiedColumnsOnly" : true,
 									"specifiedColumns" : 
 									[
 										"df",
@@ -1208,6 +1255,7 @@
 										"lCi",
 										"lPi",
 										"pval",
+										"se",
 										"stat",
 										"uCi",
 										"uPi",
@@ -1641,8 +1689,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_1_t1757669563138.png",
+			"filePathPng" : "resources/2/_2_t1768743725319.png",
 			"height" : 470,
+			"interactive" : false,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "",
 			"messages" : [],
 			"name" : "forestPlot",
 			"nestedOptionMustBe" : {},
@@ -2110,34 +2161,34 @@
 							"JaspColumn_5_Encoded (systematic)"
 						],
 						[
-							0.2931936937216183,
-							-0.02727573910207234,
-							-0.2674916665505267,
-							0.058461973815869844
+							0.29319369372161314,
+							-0.027275739102072261,
+							-0.26749166655052548,
+							0.058461973815871864
 						],
 						[
-							0.41884310627974464,
-							0.009513883613081987,
-							0.36241121498703088,
-							0.392487717157123
+							0.41884310627974475,
+							0.0095138836130819818,
+							0.36241121498703099,
+							0.39248771715712316
 						],
 						[
-							-0.65429523923775579,
-							-0.04879763906343422,
-							-1.0873227924118387,
-							-0.82940692686143191
+							-0.65429523923776123,
+							-0.04879763906343413,
+							-1.0873227924118378,
+							-0.82940692686143025
 						],
 						[
-							1.2406826266809925,
-							-0.0057538391407104574,
-							0.55233945931078532,
-							0.94633087449317155
+							1.2406826266809876,
+							-0.0057538391407103914,
+							0.55233945931078687,
+							0.94633087449317388
 						],
 						[
-							0.70000840249187413,
-							-2.8669405903354819,
-							-0.73808882145134236,
-							0.14895236528501604
+							0.70000840249186158,
+							-2.8669405903354752,
+							-0.73808882145133881,
+							0.14895236528502112
 						],
 						[
 							9,
@@ -2146,10 +2197,10 @@
 							9
 						],
 						[
-							0.50161403669383797,
-							0.018569074205119423,
-							0.47926297989516653,
-							0.88487541759585631
+							0.50161403669384552,
+							0.018569074205119638,
+							0.47926297989516853,
+							0.88487541759585242
 						]
 					],
 					"error" : false,
@@ -2175,7 +2226,8 @@
 						"confidenceIntervals" : true,
 						"confidenceIntervalsLevel" : 0.94999999999999996,
 						"includeFullDatasetInSubgroupAnalysis" : false,
-						"metaregressionCoefficientEstimates" : true
+						"metaregressionCoefficientEstimates" : true,
+						"standardErrors" : true
 					},
 					"optionMustContain" : {},
 					"position" : 3,
@@ -2392,8 +2444,8 @@
 							"JaspColumn_5_Encoded"
 						],
 						[
-							8.2193483485131615,
-							0.60072788702644342
+							8.2193483485131242,
+							0.60072788702644409
 						],
 						[
 							1,
@@ -2404,8 +2456,8 @@
 							9
 						],
 						[
-							0.018569074205119423,
-							0.56899914316171396
+							0.018569074205119621,
+							0.56899914316171352
 						]
 					],
 					"error" : false,
@@ -2679,6 +2731,7 @@
 							"est" : "sf:4;dp:3",
 							"lCi" : "sf:4;dp:3",
 							"lPi" : "sf:4;dp:3",
+							"se" : "sf:4;dp:3",
 							"uCi" : "sf:4;dp:3",
 							"uPi" : "sf:4;dp:3"
 						},
@@ -2713,6 +2766,7 @@
 						[
 							"par",
 							"est",
+							"se",
 							"lCi",
 							"uCi",
 							"lPi",
@@ -2759,6 +2813,7 @@
 							"lCi" : "Lower",
 							"lPi" : "Lower",
 							"par" : "",
+							"se" : "Standard Error",
 							"uCi" : "Upper",
 							"uPi" : "Upper"
 						},
@@ -2786,6 +2841,7 @@
 							"lCi" : "number",
 							"lPi" : "number",
 							"par" : "string",
+							"se" : "number",
 							"uCi" : "number",
 							"uPi" : "number"
 						},
@@ -2814,14 +2870,19 @@
 							"0.144595655709331"
 						],
 						[
+							"0.1400989",
+							"0.147747899851243",
+							"0.112364451083262"
+						],
+						[
 							"-1.062466",
-							"0.151250833066224",
-							"0.0228768145032269"
+							"0.151250833066227",
+							"0.0228768145032278"
 						],
 						[
 							"-0.4286145",
-							"0.958896220950985",
-							"0.919481962554081"
+							"0.958896220950989",
+							"0.919481962554088"
 						],
 						[
 							"-1.662268",
@@ -2862,6 +2923,7 @@
 						"heterogeneityTau2" : true,
 						"includeFullDatasetInSubgroupAnalysis" : false,
 						"predictionIntervals" : true,
+						"standardErrors" : true,
 						"transformEffectSize" : "none"
 					},
 					"optionMustContain" : {},
@@ -2909,13 +2971,14 @@
 						"title" : "rowTitles",
 						"type" : "list"
 					},
-					"showSpecifiedColumnsOnly" : false,
+					"showSpecifiedColumnsOnly" : true,
 					"specifiedColumns" : 
 					[
 						"est",
 						"lCi",
 						"lPi",
 						"par",
+						"se",
 						"uCi",
 						"uPi"
 					],
@@ -3074,9 +3137,9 @@
 							"F\u2098(3, 9) = 3.45"
 						],
 						[
-							0.0018920957218359507,
-							0.00048001577036708461,
-							0.06500729299793051
+							0.0018920957218359206,
+							0.00048001577036707978,
+							0.065007292997930968
 						]
 					],
 					"error" : false,
@@ -3737,6 +3800,7 @@
 		"seed" : 1,
 		"setSeed" : false,
 		"showMetaforRCode" : false,
+		"standardErrors" : true,
 		"studyLabels" : "JaspColumn_26_Encoded",
 		"studyLabels.types" : 
 		[

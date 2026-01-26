@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -114,8 +114,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1757495197390.png",
+					"filePathPng" : "resources/1/_0_t1769009870446.png",
 					"height" : 400,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/1/_1_t1769009870877.json",
 					"messages" : [],
 					"name" : "priorPredictivePerformanceDistributionPlotPrior",
 					"nestedOptionMustBe" : {},
@@ -339,8 +342,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_1_t1757495197610.png",
+					"filePathPng" : "resources/1/_2_t1769009870979.png",
 					"height" : 400,
+					"interactive" : true,
+					"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: the condition has length > 1",
+					"interactiveJsonData" : "",
 					"messages" : [],
 					"name" : "sequentialAnalysisPredictivePerformancePlot",
 					"nestedOptionMustBe" : {},

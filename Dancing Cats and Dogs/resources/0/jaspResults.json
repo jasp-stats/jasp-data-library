@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -176,10 +176,12 @@
 				"mad" : false,
 				"madRobust" : false,
 				"maximum" : false,
-				"mean" : false,
+				"meanArithmetic" : false,
 				"meanCi" : false,
 				"meanCiLevel" : 0.94999999999999996,
 				"meanCiMethod" : "normalModel",
+				"meanGeometric" : false,
+				"meanHarmonic" : false,
 				"median" : false,
 				"minimum" : false,
 				"missing" : true,
@@ -1079,6 +1081,10 @@
 			{
 				"shouldEncode" : true
 			},
+			"paretoAddCountVariable" : 
+			{
+				"shouldEncode" : true
+			},
 			"splitBy" : 
 			{
 				"shouldEncode" : true
@@ -1137,17 +1143,23 @@
 		"mad" : false,
 		"madRobust" : false,
 		"maximum" : false,
-		"mean" : false,
+		"meanArithmetic" : false,
 		"meanCi" : false,
 		"meanCiLevel" : 0.94999999999999996,
 		"meanCiMethod" : "normalModel",
+		"meanGeometric" : false,
+		"meanHarmonic" : false,
 		"median" : false,
 		"minimum" : false,
 		"missing" : true,
 		"mode" : false,
+		"paretoAddCountVariable" : "",
+		"paretoAddCountVariable.types" : "unknown",
 		"paretoPlot" : false,
 		"paretoPlotRule" : false,
 		"paretoPlotRuleCi" : 0.94999999999999996,
+		"paretoPlotTurnXAxisLabels" : false,
+		"paretoShiftAccumulationLine" : false,
 		"percentileValues" : [],
 		"percentiles" : false,
 		"pieChart" : false,

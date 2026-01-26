@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -80,8 +80,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1757493318958.png",
+							"filePathPng" : "resources/1/_0_t1769008141445.png",
 							"height" : 400,
+							"interactive" : true,
+							"interactiveConvertError" : "",
+							"interactiveJsonData" : "resources/1/_1_t1769008141933.json",
 							"messages" : [],
 							"name" : "CriticalRecall",
 							"nestedOptionMustBe" : {},
@@ -494,8 +497,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_1_t1757493319597.png",
+									"filePathPng" : "resources/1/_2_t1769008142587.png",
 									"height" : 400,
+									"interactive" : false,
+									"interactiveConvertError" : "",
+									"interactiveJsonData" : "",
 									"messages" : [],
 									"name" : "priorAndPosteriorPlot",
 									"nestedOptionMustBe" : {},
@@ -528,8 +534,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_2_t1757493324233.png",
+									"filePathPng" : "resources/1/_3_t1769008147361.png",
 									"height" : 400,
+									"interactive" : false,
+									"interactiveConvertError" : "",
+									"interactiveJsonData" : "",
 									"messages" : [],
 									"name" : "robustnessPlot",
 									"nestedOptionMustBe" : {},

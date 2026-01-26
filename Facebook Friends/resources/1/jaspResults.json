@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -88,8 +88,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1757493808833.png",
+					"filePathPng" : "resources/1/_0_t1769008568426.png",
 					"height" : 320,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/1/_1_t1769008568928.json",
 					"messages" : [],
 					"name" : "Score",
 					"nestedOptionMustBe" : {},
@@ -172,7 +175,7 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"Mean" : "sf:4;dp:3",
+					"MeanArithmetic" : "sf:4;dp:3",
 					"Std. Deviation" : "sf:4;dp:3",
 					"Variance" : "sf:4;dp:3"
 				},
@@ -209,7 +212,7 @@
 					"Level",
 					"Valid",
 					"Missing",
-					"Mean",
+					"MeanArithmetic",
 					"Std. Deviation",
 					"Variance",
 					"Minimum",
@@ -248,7 +251,7 @@
 				{
 					"Level" : "",
 					"Maximum" : "Maximum",
-					"Mean" : "Mean",
+					"MeanArithmetic" : "Mean (arithmetic)",
 					"Minimum" : "Minimum",
 					"Missing" : "Missing",
 					"Std. Deviation" : "Std. Deviation",
@@ -278,7 +281,7 @@
 				{
 					"Level" : "string",
 					"Maximum" : "mixed",
-					"Mean" : "number",
+					"MeanArithmetic" : "number",
 					"Minimum" : "mixed",
 					"Missing" : "integer",
 					"Std. Deviation" : "number",
@@ -424,10 +427,12 @@
 				"mad" : false,
 				"madRobust" : false,
 				"maximum" : true,
-				"mean" : true,
+				"meanArithmetic" : true,
 				"meanCi" : false,
 				"meanCiLevel" : 0.94999999999999996,
 				"meanCiMethod" : "normalModel",
+				"meanGeometric" : false,
+				"meanHarmonic" : false,
 				"median" : false,
 				"minimum" : true,
 				"missing" : true,
@@ -517,7 +522,7 @@
 			[
 				"Level",
 				"Maximum",
-				"Mean",
+				"MeanArithmetic",
 				"Minimum",
 				"Missing",
 				"Std. Deviation",
@@ -560,6 +565,10 @@
 				"shouldEncode" : true
 			},
 			"heatmapVerticalAxis" : 
+			{
+				"shouldEncode" : true
+			},
+			"paretoAddCountVariable" : 
 			{
 				"shouldEncode" : true
 			},
@@ -621,17 +630,23 @@
 		"mad" : false,
 		"madRobust" : false,
 		"maximum" : true,
-		"mean" : true,
+		"meanArithmetic" : true,
 		"meanCi" : false,
 		"meanCiLevel" : 0.94999999999999996,
 		"meanCiMethod" : "normalModel",
+		"meanGeometric" : false,
+		"meanHarmonic" : false,
 		"median" : false,
 		"minimum" : true,
 		"missing" : true,
 		"mode" : false,
+		"paretoAddCountVariable" : "",
+		"paretoAddCountVariable.types" : "unknown",
 		"paretoPlot" : false,
 		"paretoPlotRule" : false,
 		"paretoPlotRuleCi" : 0.94999999999999996,
+		"paretoPlotTurnXAxisLabels" : false,
+		"paretoShiftAccumulationLine" : false,
 		"percentileValues" : [],
 		"percentiles" : false,
 		"pieChart" : false,

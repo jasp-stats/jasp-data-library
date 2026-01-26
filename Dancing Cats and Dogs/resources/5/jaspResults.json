@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -439,8 +439,8 @@
 							"type[oddsRatio]" : "",
 							"up[FisherTest]" : "Upper",
 							"up[oddsRatio]" : "Upper",
-							"value[FisherTest]" : "Log Odds Ratio",
-							"value[oddsRatio]" : "Log Odds Ratio"
+							"value[FisherTest]" : "Estimate",
+							"value[oddsRatio]" : "Estimate"
 						},
 						"listType" : "string",
 						"messages" : [],
@@ -494,9 +494,9 @@
 							"Total"
 						],
 						[
-							"Odds ratio",
-							"Odds ratio",
-							"Odds ratio"
+							"Log Odds Ratio",
+							"Log Odds Ratio",
+							"Log Odds Ratio"
 						],
 						[
 							1.8946168546677624,
@@ -506,12 +506,12 @@
 						[
 							1.0977051661801291,
 							-2.1360215161744627,
-							0.57792172132145392
+							0.57792172132145381
 						],
 						[
 							2.6915285431553957,
 							0.0066000421896064143,
-							1.7123428872845512
+							1.7123428872845514
 						],
 						[
 							"",
@@ -549,7 +549,15 @@
 					"escapeHtml" : true,
 					"expectedColumnCount" : 0,
 					"expectedRowCount" : 0,
-					"footnotes" : [],
+					"footnotes" : 
+					[
+						{
+							"cols" : null,
+							"rows" : null,
+							"symbol" : "<em>Note.</em>",
+							"text" : "Log odds ratio indicates the following:<br>(Ratio > 0): Group <em>No</em> is more likely in group <em>Affection as Reward</em> <br>(Ratio < 0): Group <em>No</em> is less likely in group <em>Affection as Reward</em>"
+						}
+					],
 					"messages" : [],
 					"name" : "crossTabLogOdds",
 					"nestedOptionMustBe" : {},

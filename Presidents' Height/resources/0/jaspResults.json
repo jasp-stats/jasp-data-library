@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -327,8 +327,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_1_t1757495040980.png",
+							"filePathPng" : "resources/0/_2_t1769009376825.png",
 							"height" : 400,
+							"interactive" : false,
+							"interactiveConvertError" : "",
+							"interactiveJsonData" : "",
 							"messages" : [],
 							"name" : "priorPosteriorPlot",
 							"nestedOptionMustBe" : {},
@@ -464,8 +467,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1757495040809.png",
+							"filePathPng" : "resources/0/_0_t1769009376348.png",
 							"height" : 400,
+							"interactive" : true,
+							"interactiveConvertError" : "",
+							"interactiveJsonData" : "resources/0/_1_t1769009376710.json",
 							"messages" : [],
 							"name" : "scatterPlot",
 							"nestedOptionMustBe" : {},

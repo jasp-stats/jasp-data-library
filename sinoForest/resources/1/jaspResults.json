@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -126,8 +126,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1757495671630.png",
+					"filePathPng" : "resources/1/_0_t1769091825330.png",
 					"height" : 400,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/1/_1_t1769091825833.json",
 					"messages" : [],
 					"name" : "benfordsLawPlot",
 					"nestedOptionMustBe" : {},
@@ -883,8 +886,8 @@
 			"optionMustBe" : {},
 			"optionMustContain" : {},
 			"position" : 99,
-			"rawtext" : "Created by JASP for Audit (Version 0.95.1) on Sep 10 2025 at 11:14:31.",
-			"text" : "<p>Created by JASP for Audit (Version 0.95.1) on Sep 10 2025 at 11:14:31. </p>",
+			"rawtext" : "Created by JASP for Audit (Version 0.96) on Jan 22 2026 at 15:23:45.",
+			"text" : "<p>Created by JASP for Audit (Version 0.96) on Jan 22 2026 at 15:23:45. </p>",
 			"title" : "hide me",
 			"type" : "html"
 		},

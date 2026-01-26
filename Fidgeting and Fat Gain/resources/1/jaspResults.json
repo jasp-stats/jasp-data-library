@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,8 +18,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_0_t1757495003479.png",
+			"filePathPng" : "resources/1/_0_t1769009329576.png",
 			"height" : 520,
+			"interactive" : false,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "",
 			"messages" : [],
 			"name" : "matrixPlot",
 			"nestedOptionMustBe" : {},
@@ -83,7 +86,7 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"Mean" : "sf:4;dp:3",
+					"MeanArithmetic" : "sf:4;dp:3",
 					"Std. Deviation" : "sf:4;dp:3"
 				},
 				"listType" : "string",
@@ -118,7 +121,7 @@
 					"Variable",
 					"Valid",
 					"Missing",
-					"Mean",
+					"MeanArithmetic",
 					"Std. Deviation",
 					"Minimum",
 					"Maximum"
@@ -155,7 +158,7 @@
 				"fields" : 
 				{
 					"Maximum" : "Maximum",
-					"Mean" : "Mean",
+					"MeanArithmetic" : "Mean (arithmetic)",
 					"Minimum" : "Minimum",
 					"Missing" : "Missing",
 					"Std. Deviation" : "Std. Deviation",
@@ -183,7 +186,7 @@
 				"fields" : 
 				{
 					"Maximum" : "mixed",
-					"Mean" : "number",
+					"MeanArithmetic" : "number",
 					"Minimum" : "mixed",
 					"Missing" : "integer",
 					"Std. Deviation" : "number",
@@ -269,10 +272,12 @@
 				"mad" : false,
 				"madRobust" : false,
 				"maximum" : true,
-				"mean" : true,
+				"meanArithmetic" : true,
 				"meanCi" : false,
 				"meanCiLevel" : 0.94999999999999996,
 				"meanCiMethod" : "normalModel",
+				"meanGeometric" : false,
+				"meanHarmonic" : false,
 				"median" : false,
 				"minimum" : true,
 				"missing" : true,
@@ -357,7 +362,7 @@
 			"specifiedColumns" : 
 			[
 				"Maximum",
-				"Mean",
+				"MeanArithmetic",
 				"Minimum",
 				"Missing",
 				"Std. Deviation",
@@ -399,6 +404,10 @@
 				"shouldEncode" : true
 			},
 			"heatmapVerticalAxis" : 
+			{
+				"shouldEncode" : true
+			},
+			"paretoAddCountVariable" : 
 			{
 				"shouldEncode" : true
 			},
@@ -460,17 +469,23 @@
 		"mad" : false,
 		"madRobust" : false,
 		"maximum" : true,
-		"mean" : true,
+		"meanArithmetic" : true,
 		"meanCi" : false,
 		"meanCiLevel" : 0.94999999999999996,
 		"meanCiMethod" : "normalModel",
+		"meanGeometric" : false,
+		"meanHarmonic" : false,
 		"median" : false,
 		"minimum" : true,
 		"missing" : true,
 		"mode" : false,
+		"paretoAddCountVariable" : "",
+		"paretoAddCountVariable.types" : "unknown",
 		"paretoPlot" : false,
 		"paretoPlotRule" : false,
 		"paretoPlotRuleCi" : 0.94999999999999996,
+		"paretoPlotTurnXAxisLabels" : false,
+		"paretoShiftAccumulationLine" : false,
 		"percentileValues" : [],
 		"percentiles" : false,
 		"pieChart" : false,

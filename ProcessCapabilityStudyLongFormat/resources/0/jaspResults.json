@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -28,8 +28,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_3_t1757502641082.png",
+							"filePathPng" : "resources/0/_3_t1770827419093.png",
 							"height" : 500,
+							"interactive" : false,
+							"interactiveConvertError" : "",
+							"interactiveJsonData" : "",
 							"messages" : [],
 							"name" : "capabilityPlot",
 							"nestedOptionMustBe" : {},
@@ -116,7 +119,8 @@
 									"ppkuci",
 									"cpm",
 									"cpmlci",
-									"cpmuci"
+									"cpmuci",
+									"zbench"
 								],
 								"title" : "colNames",
 								"type" : "list"
@@ -247,6 +251,9 @@
 								],
 								[
 									1.4379999999999999
+								],
+								[
+									3.8140000000000001
 								]
 							],
 							"error" : false,
@@ -615,7 +622,8 @@
 									"cpu",
 									"cpk",
 									"cpklci",
-									"cpkuci"
+									"cpkuci",
+									"zbench"
 								],
 								"title" : "colNames",
 								"type" : "list"
@@ -729,6 +737,9 @@
 								],
 								[
 									1.516
+								],
+								[
+									4.0170000000000003
 								]
 							],
 							"error" : false,
@@ -1081,13 +1092,23 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
-				"CapabilityStudyType" : null,
+				"capabilityStudyType" : "normalCapabilityAnalysis",
 				"controlChartSdEstimationMethodGroupSizeEqualOne" : "meanMovingRange",
 				"controlChartSdEstimationMethodGroupSizeLargerThanOne" : "rBar",
 				"controlChartSdEstimationMethodMeanMovingRangeLength" : 2.0,
 				"controlChartSdUnbiasingConstant" : true,
 				"dataFormat" : "longFormat",
+				"dataTransformation" : "none",
+				"dataTransformationContinuityAdjustment" : false,
+				"dataTransformationLambda" : 0.0,
+				"dataTransformationLambdaLower" : null,
+				"dataTransformationLambdaUpper" : null,
+				"dataTransformationMethod" : "loglik",
+				"dataTransformationShift" : 0.0,
+				"fixedSubgroupSizeValue" : 5,
+				"groupingVariable" : null,
 				"groupingVariableMethod" : "newLabel",
+				"lowerSpecificationLimit" : true,
 				"lowerSpecificationLimitBoundary" : false,
 				"lowerSpecificationLimitValue" : -16.0,
 				"manualSubgroupSize" : null,
@@ -1111,7 +1132,11 @@
 				[
 					"nominal"
 				],
+				"subgroupSizeType" : "manual",
+				"subgroupSizeUnequal" : "actualSizes",
+				"target" : true,
 				"targetValue" : -8.0,
+				"upperSpecificationLimit" : true,
 				"upperSpecificationLimitBoundary" : false,
 				"upperSpecificationLimitValue" : 0.0
 			},
@@ -1134,19 +1159,34 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_1_t1757502640452.png",
+			"filePathPng" : "resources/0/_1_t1770827418267.png",
 			"height" : 400,
+			"interactive" : false,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "",
 			"messages" : [],
 			"name" : "histogram",
 			"nestedOptionMustBe" : {},
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
+				"dataFormat" : "longFormat",
+				"dataTransformation" : "none",
+				"dataTransformationContinuityAdjustment" : false,
+				"dataTransformationLambda" : 0.0,
+				"dataTransformationLambdaLower" : null,
+				"dataTransformationLambdaUpper" : null,
+				"dataTransformationMethod" : "loglik",
+				"dataTransformationShift" : 0.0,
+				"fixedSubgroupSizeValue" : 5,
+				"groupingVariable" : null,
 				"groupingVariableMethod" : "newLabel",
 				"histogram" : true,
 				"histogramBinBoundaryDirection" : "left",
 				"histogramBinNumber" : 10.0,
 				"histogramDensityLine" : true,
+				"lowerSpecificationLimit" : true,
+				"lowerSpecificationLimitValue" : -16.0,
 				"manualSubgroupSizeValue" : 5.0,
 				"measurementLongFormat" : "JaspColumn_0_Encoded",
 				"measurementLongFormat.types" : 
@@ -1166,7 +1206,12 @@
 				[
 					"nominal"
 				],
-				"subgroupSizeType" : "manual"
+				"subgroupSizeType" : "manual",
+				"subgroupSizeUnequal" : "actualSizes",
+				"target" : true,
+				"targetValue" : -8.0,
+				"upperSpecificationLimit" : true,
+				"upperSpecificationLimitValue" : 0.0
 			},
 			"optionMustContain" : {},
 			"position" : 2,
@@ -1195,8 +1240,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1757502640749.png",
+					"filePathPng" : "resources/0/_2_t1770827418668.png",
 					"height" : 600,
+					"interactive" : false,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "",
 					"messages" : [],
 					"name" : "ProbabilityPlot",
 					"nestedOptionMustBe" : {},
@@ -1468,7 +1516,19 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
+				"dataFormat" : "longFormat",
+				"dataTransformation" : "none",
+				"dataTransformationContinuityAdjustment" : false,
+				"dataTransformationLambda" : 0.0,
+				"dataTransformationLambdaLower" : null,
+				"dataTransformationLambdaUpper" : null,
+				"dataTransformationMethod" : "loglik",
+				"dataTransformationShift" : 0.0,
+				"fixedSubgroupSizeValue" : 5,
+				"groupingVariable" : null,
 				"groupingVariableMethod" : "newLabel",
+				"lowerSpecificationLimit" : true,
+				"lowerSpecificationLimitValue" : -16.0,
 				"manualSubgroupSizeValue" : 5.0,
 				"measurementLongFormat" : "JaspColumn_0_Encoded",
 				"measurementLongFormat.types" : 
@@ -1491,7 +1551,12 @@
 				[
 					"nominal"
 				],
-				"subgroupSizeType" : "manual"
+				"subgroupSizeType" : "manual",
+				"subgroupSizeUnequal" : "actualSizes",
+				"target" : true,
+				"targetValue" : -8.0,
+				"upperSpecificationLimit" : true,
+				"upperSpecificationLimitValue" : 0.0
 			},
 			"optionMustContain" : {},
 			"order_increment" : 2,
@@ -1517,8 +1582,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1757502639941.png",
+					"filePathPng" : "resources/0/_0_t1770827417688.png",
 					"height" : 500,
+					"interactive" : false,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "",
 					"messages" : [],
 					"name" : "plot",
 					"nestedOptionMustBe" : {},
@@ -1944,7 +2012,19 @@
 				"controlChartSdUnbiasingConstant" : true,
 				"controlChartType" : "xBarR",
 				"controlLimitsNumberOfSigmas" : 3.0,
+				"dataFormat" : "longFormat",
+				"dataTransformation" : "none",
+				"dataTransformationContinuityAdjustment" : false,
+				"dataTransformationLambda" : 0.0,
+				"dataTransformationLambdaLower" : null,
+				"dataTransformationLambdaUpper" : null,
+				"dataTransformationMethod" : "loglik",
+				"dataTransformationShift" : 0.0,
+				"fixedSubgroupSizeValue" : 5,
+				"groupingVariable" : null,
 				"groupingVariableMethod" : "newLabel",
+				"lowerSpecificationLimit" : true,
+				"lowerSpecificationLimitValue" : -16.0,
 				"manualSubgroupSizeValue" : 5.0,
 				"measurementLongFormat" : "JaspColumn_0_Encoded",
 				"measurementLongFormat.types" : 
@@ -1975,10 +2055,19 @@
 				"stagesLongFormat.types" : [],
 				"stagesWideFormat" : "",
 				"stagesWideFormat.types" : [],
+				"subgroup" : "JaspColumn_5_Encoded",
+				"subgroup.types" : 
+				[
+					"nominal"
+				],
 				"subgroupSizeType" : "manual",
 				"subgroupSizeUnequal" : "actualSizes",
 				"subgroups" : null,
-				"testSet" : "jaspDefault"
+				"target" : true,
+				"targetValue" : -8.0,
+				"testSet" : "jaspDefault",
+				"upperSpecificationLimit" : true,
+				"upperSpecificationLimitValue" : 0.0
 			},
 			"optionMustContain" : {},
 			"order_increment" : 3,
@@ -2045,6 +2134,11 @@
 		"controlChartType" : "xBarR",
 		"controlLimitsNumberOfSigmas" : 3.0,
 		"dataFormat" : "longFormat",
+		"dataTransformation" : "none",
+		"dataTransformationContinuityAdjustment" : false,
+		"dataTransformationLambda" : 0.0,
+		"dataTransformationMethod" : "loglik",
+		"dataTransformationShift" : 0.0,
 		"fixedSubgroupSizeValue" : 5,
 		"groupingVariableMethod" : "newLabel",
 		"histogram" : true,
@@ -2077,6 +2171,7 @@
 		"processCapabilityTable" : true,
 		"processCapabilityTableCi" : true,
 		"processCapabilityTableCiLevel" : 0.90000000000000002,
+		"processCapabilityTableZbench" : false,
 		"report" : false,
 		"reportConclusion" : true,
 		"reportConclusionText" : "",

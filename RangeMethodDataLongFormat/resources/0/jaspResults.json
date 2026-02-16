@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -83,8 +83,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1757502655743.png",
+			"filePathPng" : "resources/0/_0_t1770827436829.png",
 			"height" : 320,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/0/_1_t1770827437215.json",
 			"messages" : [],
 			"name" : "ScatterOperatorParts",
 			"nestedOptionMustBe" : {},
@@ -200,8 +203,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_2_t1757502656145.png",
+			"filePathPng" : "resources/0/_4_t1770827437788.png",
 			"height" : 320,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/0/_5_t1770827438535.json",
 			"messages" : [],
 			"name" : "ScatterOperators",
 			"nestedOptionMustBe" : {},
@@ -591,8 +597,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1757502655892.png",
+					"filePathPng" : "resources/0/_2_t1770827437299.png",
 					"height" : 400,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_3_t1770827437697.json",
 					"messages" : [],
 					"name" : "plot",
 					"nestedOptionMustBe" : {},
@@ -847,8 +856,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_3_t1757502656774.png",
+					"filePathPng" : "resources/0/_6_t1770827438775.png",
 					"height" : 320,
+					"interactive" : false,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "",
 					"messages" : [],
 					"name" : "plot",
 					"nestedOptionMustBe" : {},

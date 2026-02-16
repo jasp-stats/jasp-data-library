@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.2) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -626,6 +626,7 @@
 							"est" : "sf:4;dp:3",
 							"lCi" : "sf:4;dp:3",
 							"lPi" : "sf:4;dp:3",
+							"se" : "sf:4;dp:3",
 							"uCi" : "sf:4;dp:3",
 							"uPi" : "sf:4;dp:3"
 						},
@@ -660,6 +661,7 @@
 						[
 							"par",
 							"est",
+							"se",
 							"lCi",
 							"uCi",
 							"lPi",
@@ -706,6 +708,7 @@
 							"lCi" : "Lower",
 							"lPi" : "Lower",
 							"par" : "",
+							"se" : "Standard Error",
 							"uCi" : "Upper",
 							"uPi" : "Upper"
 						},
@@ -733,6 +736,7 @@
 							"lCi" : "number",
 							"lPi" : "number",
 							"par" : "string",
+							"se" : "number",
 							"uCi" : "number",
 							"uPi" : "number"
 						},
@@ -755,6 +759,9 @@
 						],
 						[
 							"0.1847132"
+						],
+						[
+							"0.08455592"
 						],
 						[
 							"0.01525932"
@@ -789,6 +796,7 @@
 						"heterogeneityTau2" : true,
 						"includeFullDatasetInSubgroupAnalysis" : false,
 						"predictionIntervals" : true,
+						"standardErrors" : true,
 						"transformEffectSize" : "none"
 					},
 					"optionMustContain" : {},
@@ -834,13 +842,14 @@
 						"title" : "rowTitles",
 						"type" : "list"
 					},
-					"showSpecifiedColumnsOnly" : false,
+					"showSpecifiedColumnsOnly" : true,
 					"specifiedColumns" : 
 					[
 						"est",
 						"lCi",
 						"lPi",
 						"par",
+						"se",
 						"uCi",
 						"uPi"
 					],
@@ -998,7 +1007,7 @@
 						],
 						[
 							1.7968303019346829e-88,
-							0.033205018825501219
+							0.033205018853370051
 						]
 					],
 					"error" : false,
@@ -1381,8 +1390,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1757669572383.png",
+					"filePathPng" : "resources/0/_0_t1770824056158.png",
 					"height" : 320,
+					"interactive" : true,
+					"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: the condition has length > 1",
+					"interactiveJsonData" : "",
 					"messages" : [],
 					"name" : "plot1",
 					"nestedOptionMustBe" : {},
@@ -1509,8 +1521,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1757669572540.png",
+					"filePathPng" : "resources/0/_1_t1770824056503.png",
 					"height" : 320,
+					"interactive" : true,
+					"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: the condition has length > 1",
+					"interactiveJsonData" : "",
 					"messages" : [],
 					"name" : "plot2",
 					"nestedOptionMustBe" : {},
@@ -2056,12 +2071,12 @@
 									"JaspColumn_2_Encoded/JaspColumn_5_Encoded"
 								],
 								[
-									0.065061944305443278,
-									0.032736517024496446
+									0.065061944331786983,
+									0.032736517024135568
 								],
 								[
-									0.25507242952824849,
-									0.18093235483046266
+									0.25507242957988813,
+									0.1809323548294654
 								],
 								[
 									11,
@@ -2325,32 +2340,32 @@
 									"Component 1"
 								],
 								[
-									-7.9587240337109577,
-									-218.86181222655784
+									-7.9587240337109364,
+									-218.86181222655802
 								],
 								[
 									3.0,
 									1.0
 								],
 								[
-									21.917448067421915,
-									439.72362445311569
+									21.917448067421873,
+									439.72362445311603
 								],
 								[
-									27.939447623119328,
-									441.73095763834817
+									27.939447623119285,
+									441.73095763834851
 								],
 								[
-									22.388036302716031,
-									439.79909615122892
-								],
-								[
-									"",
-									421.80617638569379
+									22.388036302715989,
+									439.79909615122926
 								],
 								[
 									"",
-									2.546552191721525e-92
+									421.80617638569413
+								],
+								[
+									"",
+									2.5465521917210907e-92
 								]
 							],
 							"error" : false,
@@ -2598,9 +2613,9 @@
 									"JaspColumn_5_Encoded"
 								],
 								[
-									-7.9587240337109577,
-									-16.845499452610646,
-									-32.216476185980135
+									-7.9587240337109364,
+									-16.845499452610618,
+									-32.216476185980156
 								],
 								[
 									3.0,
@@ -2608,29 +2623,29 @@
 									2.0
 								],
 								[
-									21.917448067421915,
-									37.690998905221292,
-									68.432952371960269
+									21.917448067421873,
+									37.690998905221235,
+									68.432952371960312
 								],
 								[
-									27.939447623119328,
-									41.705665275686236,
-									72.447618742425206
+									27.939447623119285,
+									41.705665275686179,
+									72.447618742425249
 								],
 								[
-									22.388036302716031,
-									37.921768135990526,
-									68.663721602729495
-								],
-								[
-									"",
-									17.773550837799377,
-									48.515504304538354
+									22.388036302715989,
+									37.921768135990469,
+									68.663721602729538
 								],
 								[
 									"",
-									2.4881825125138924e-05,
-									3.276879217442241e-12
+									17.773550837799363,
+									48.515504304538439
+								],
+								[
+									"",
+									2.4881825125139121e-05,
+									3.2768792174420984e-12
 								]
 							],
 							"error" : false,
@@ -3388,6 +3403,7 @@
 		"seed" : 1,
 		"setSeed" : false,
 		"showMetaforRCode" : false,
+		"standardErrors" : true,
 		"studyLabels" : "",
 		"studyLabels.types" : [],
 		"subgroup" : "",

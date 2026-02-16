@@ -118,11 +118,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/12/_2_t1769009392764.png",
+					"filePathPng" : "resources/12/_2_t1770822938124.png",
 					"height" : 320,
 					"interactive" : true,
 					"interactiveConvertError" : "",
-					"interactiveJsonData" : "resources/12/_3_t1769009393605.json",
+					"interactiveJsonData" : "resources/12/_3_t1770822938981.json",
 					"messages" : [],
 					"name" : "squaredPearson",
 					"nestedOptionMustBe" : {},
@@ -304,7 +304,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/12/_0_t1769009392040.png",
+					"filePathPng" : "resources/12/_0_t1770822937421.png",
 					"height" : 320,
 					"interactive" : true,
 					"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: the condition has length > 1",
@@ -400,7 +400,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/12/_1_t1769009392478.png",
+					"filePathPng" : "resources/12/_1_t1770822937799.png",
 					"height" : 320,
 					"interactive" : true,
 					"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: the condition has length > 1",
@@ -1098,13 +1098,67 @@
 				"title" : "colTypes",
 				"type" : "list"
 			},
-			"data" : [],
-			"error" : true,
-			"errorMessage" : "argument \"quadraticTerms\" is missing, with no default",
+			"data" : 
+			[
+				[
+					"M\u2080",
+					"M\u2081"
+				],
+				[
+					1025.5725472453166,
+					909.91671762796705
+				],
+				[
+					1027.5725472453166,
+					917.91671762796705
+				],
+				[
+					1032.2005886214961,
+					936.4288831326852
+				],
+				[
+					755,
+					752
+				],
+				[
+					null,
+					115.65582961734958
+				],
+				[
+					null,
+					0.0
+				],
+				[
+					0.0,
+					0.11277196325896266
+				],
+				[
+					null,
+					0.1910629538870216
+				],
+				[
+					0.0,
+					0.14763778314812848
+				],
+				[
+					null,
+					0.14185646357069284
+				]
+			],
+			"error" : false,
+			"errorMessage" : "",
 			"escapeHtml" : true,
 			"expectedColumnCount" : 0,
 			"expectedRowCount" : 0,
-			"footnotes" : [],
+			"footnotes" : 
+			[
+				{
+					"cols" : null,
+					"rows" : null,
+					"symbol" : "<em>Note.</em>",
+					"text" : "M\u2081 includes JaspColumn_0_Encoded, JaspColumn_8_Encoded"
+				}
+			],
 			"messages" : [],
 			"name" : "modelSummary",
 			"nestedOptionMustBe" : {},
@@ -1895,6 +1949,7 @@
 		"precisionRecallPlotCutoffStep" : 0.20000000000000001,
 		"predictionsSavedToData" : false,
 		"predictionsSavedToDataColumn" : "",
+		"quadraticTerms" : false,
 		"residualCasewiseDiagnostic" : false,
 		"residualCasewiseDiagnosticCooksDistanceThreshold" : 0.0,
 		"residualCasewiseDiagnosticType" : "outliersOutside",

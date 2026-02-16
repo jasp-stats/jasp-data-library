@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.2) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -147,8 +147,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1757669582042.png",
+			"filePathPng" : "resources/0/_0_t1770824066187.png",
 			"height" : 625,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/0/_1_t1770824066646.json",
 			"messages" : [],
 			"name" : "forestPlot",
 			"nestedOptionMustBe" : {},
@@ -328,8 +331,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1757669582443.png",
+					"filePathPng" : "resources/0/_4_t1770824067051.png",
 					"height" : 300,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_5_t1770824067288.json",
 					"messages" : [],
 					"name" : "D-FIV",
 					"nestedOptionMustBe" : {},
@@ -451,8 +457,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1757669582343.png",
+					"filePathPng" : "resources/0/_2_t1770824066776.png",
 					"height" : 300,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_3_t1770824067013.json",
 					"messages" : [],
 					"name" : "E-UW",
 					"nestedOptionMustBe" : {},
@@ -689,15 +698,15 @@
 					"Debray"
 				],
 				[
-					-1.0368665475325687,
-					-1.0229787088058877
+					-1.0368665475325698,
+					-1.0229787088058879
 				],
 				[
 					21.0,
 					21.0
 				],
 				[
-					0.31159067836125132,
+					0.31159067836125059,
 					0.31795860875686732
 				]
 			],
@@ -1116,19 +1125,19 @@
 			"data" : 
 			[
 				[
-					0.78886028434652344
+					0.78886028434652333
 				],
 				[
-					0.76487840032152776
+					0.76487840032152754
 				],
 				[
-					0.81100049404359642
+					0.81100049404359609
 				],
 				[
-					0.67925684553533083
+					0.67925684553533061
 				],
 				[
-					0.86827357831049778
+					0.86827357831049756
 				]
 			],
 			"error" : false,

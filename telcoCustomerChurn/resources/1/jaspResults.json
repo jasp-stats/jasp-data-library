@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -157,20 +157,20 @@
 					"Yes"
 				],
 				[
-					0.73421501706484638,
-					0.26578498293515357
+					0.73463012920630411,
+					0.26536987079369589
 				],
 				[
-					0.73644444444444446,
-					0.26355555555555554
+					0.73558118899733804,
+					0.26441881100266196
 				],
 				[
-					0.7371225577264654,
-					0.26287744227353466
+					0.72404614019520852,
+					0.27595385980479148
 				],
 				[
-					0.72475106685633006,
-					0.27524893314366999
+					0.74005681818181823,
+					0.25994318181818182
 				]
 			],
 			"error" : false,
@@ -630,7 +630,7 @@
 			"data" : 
 			[
 				[
-					49
+					21
 				],
 				[
 					"rectangular"
@@ -639,19 +639,19 @@
 					"Euclidean"
 				],
 				[
-					4500
+					4508
 				],
 				[
-					1126
+					1127
 				],
 				[
-					1406
+					1408
 				],
 				[
-					0.81261101243339251
+					0.80567879325643299
 				],
 				[
-					0.79374110953058319
+					0.80752840909090917
 				]
 			],
 			"error" : false,
@@ -993,12 +993,12 @@
 					"Yes"
 				],
 				[
-					895,
-					166
+					921,
+					150
 				],
 				[
-					124,
-					221
+					121,
+					216
 				]
 			],
 			"error" : false,
@@ -1290,8 +1290,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_2_t1757495896702.png",
+			"filePathPng" : "resources/1/_4_t1770823619994.png",
 			"height" : 300,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/1/_5_t1770823620302.json",
 			"messages" : [],
 			"name" : "errorVsKPlot",
 			"nestedOptionMustBe" : {},
@@ -1522,7 +1525,7 @@
 						"limits" : 
 						[
 							0,
-							8438.3999999999996
+							8451.6000000000004
 						],
 						"limitsType" : "manual",
 						"range" : 
@@ -1582,8 +1585,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_0_t1757495895365.png",
+			"filePathPng" : "resources/1/_0_t1770823618288.png",
 			"height" : 30,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/1/_1_t1770823618604.json",
 			"messages" : [],
 			"name" : "plotDataSplit",
 			"nestedOptionMustBe" : {},
@@ -1765,8 +1771,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_1_t1757495896515.png",
+			"filePathPng" : "resources/1/_2_t1770823619604.png",
 			"height" : 300,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/1/_3_t1770823619944.json",
 			"messages" : [],
 			"name" : "rocCurve",
 			"nestedOptionMustBe" : {},

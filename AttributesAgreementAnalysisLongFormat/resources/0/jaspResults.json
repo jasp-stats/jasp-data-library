@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -803,8 +803,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1757502558932.png",
+					"filePathPng" : "resources/0/_0_t1770827314294.png",
 					"height" : 500,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_1_t1770827314614.json",
 					"messages" : [],
 					"name" : "PlotVs",
 					"nestedOptionMustBe" : {},
@@ -903,8 +906,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1757502559115.png",
+					"filePathPng" : "resources/0/_2_t1770827314660.png",
 					"height" : 500,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_3_t1770827314921.json",
 					"messages" : [],
 					"name" : "PlotWithin",
 					"nestedOptionMustBe" : {},

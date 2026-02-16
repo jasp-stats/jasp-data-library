@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -23,8 +23,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1757502613451.png",
+					"filePathPng" : "resources/0/_0_t1770827384778.png",
 					"height" : 500,
+					"interactive" : false,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "",
 					"messages" : [],
 					"name" : "plot",
 					"nestedOptionMustBe" : {},
@@ -611,8 +614,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1757502613931.png",
+					"filePathPng" : "resources/0/_1_t1770827385310.png",
 					"height" : 500,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_2_t1770827385676.json",
 					"messages" : [],
 					"name" : "Yield",
 					"nestedOptionMustBe" : {},

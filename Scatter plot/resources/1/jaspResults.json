@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -511,7 +511,6 @@
 							{
 								"breaks" : 
 								[
-									1,
 									2,
 									3,
 									4,
@@ -527,7 +526,6 @@
 								],
 								"labels" : 
 								[
-									"1",
 									"2",
 									"3",
 									"4",
@@ -535,13 +533,13 @@
 								],
 								"limits" : 
 								[
-									1.10385397473195,
-									4.9119014778174499
+									1.2209313262564401,
+									4.8431754066608796
 								],
 								"limitsType" : "data",
 								"range" : 
 								[
-									1,
+									2,
 									5,
 									1
 								],
@@ -576,8 +574,8 @@
 								],
 								"limits" : 
 								[
-									1.6493179071694599,
-									4.6918854268888701
+									1.78020837688819,
+									4.4166666666666696
 								],
 								"limitsType" : "data",
 								"range" : 
@@ -596,8 +594,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1757493221882.png",
+					"filePathPng" : "resources/1/_0_t1770822252360.png",
 					"height" : 300,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/1/_1_t1770822253281.json",
 					"messages" : [],
 					"name" : "tidyPlot_Plot 1",
 					"nestedOptionMustBe" : {},

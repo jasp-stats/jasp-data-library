@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.2) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -268,8 +268,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1757669596517.png",
+			"filePathPng" : "resources/0/_0_t1770824082684.png",
 			"height" : 490,
+			"interactive" : false,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "",
 			"messages" : [],
 			"name" : "forestPlot",
 			"nestedOptionMustBe" : {},
@@ -975,39 +978,39 @@
 							"JaspColumn_2_Encoded (overt)"
 						],
 						[
-							-0.29195841116423865,
-							0.69482787266326795,
-							0.53795490123278555
+							-0.29195841117145127,
+							0.69482787268041712,
+							0.53795490122232859
 						],
 						[
-							0.11755480089685998,
-							0.089910294312265923,
-							0.14389774544987405
+							0.11755480089085724,
+							0.089910294298180024,
+							0.14389774543504977
 						],
 						[
-							-0.72528343886696256,
-							0.29094190153813326,
-							-0.01860328249170673
+							-0.72528343873646839,
+							0.29094190164548572,
+							-0.018603282459838555
 						],
 						[
-							0.14136661653848526,
-							1.0987138437884028,
-							1.0945130849572777
+							0.1413666163935659,
+							1.0987138437153485,
+							1.0945130849044957
 						],
 						[
-							-2.4835941104642472,
-							7.7280124370416701,
-							3.7384526043194959
+							-2.4835941106524233,
+							7.7280124384431241,
+							3.7384526046319602
 						],
 						[
-							2.3977156867955784,
-							1.9145171291592513,
-							2.2554995467596393
+							2.3977156876421555,
+							1.9145171292849985,
+							2.2554995466852943
 						],
 						[
-							0.11022263541611316,
-							0.018461220112891228,
-							0.053554519213264117
+							0.11022263536331725,
+							0.018461220103275826,
+							0.053554519207074741
 						]
 					],
 					"error" : false,
@@ -1033,7 +1036,8 @@
 						"confidenceIntervals" : true,
 						"confidenceIntervalsLevel" : 0.94999999999999996,
 						"includeFullDatasetInSubgroupAnalysis" : false,
-						"metaregressionCoefficientEstimates" : true
+						"metaregressionCoefficientEstimates" : true,
+						"standardErrors" : true
 					},
 					"optionMustContain" : {},
 					"position" : 3,
@@ -1248,16 +1252,16 @@
 							"JaspColumn_2_Encoded"
 						],
 						[
-							35.404948972155267
+							35.404948984707886
 						],
 						[
 							2.0
 						],
 						[
-							0.8840309689743171
+							0.88403096890734845
 						],
 						[
-							0.14328009255134228
+							0.14328009254551549
 						]
 					],
 					"error" : false,
@@ -1596,6 +1600,7 @@
 							"est" : "sf:4;dp:3",
 							"lCi" : "sf:4;dp:3",
 							"lPi" : "sf:4;dp:3",
+							"se" : "sf:4;dp:3",
 							"uCi" : "sf:4;dp:3",
 							"uPi" : "sf:4;dp:3"
 						},
@@ -1630,6 +1635,7 @@
 						[
 							"par",
 							"est",
+							"se",
 							"lCi",
 							"uCi",
 							"lPi",
@@ -1676,6 +1682,7 @@
 							"lCi" : "Lower",
 							"lPi" : "Lower",
 							"par" : "",
+							"se" : "Standard Error",
 							"uCi" : "Upper",
 							"uPi" : "Upper"
 						},
@@ -1703,6 +1710,7 @@
 							"lCi" : "number",
 							"lPi" : "number",
 							"par" : "string",
+							"se" : "number",
 							"uCi" : "number",
 							"uPi" : "number"
 						},
@@ -1725,6 +1733,9 @@
 						],
 						[
 							"0.3199415"
+						],
+						[
+							"0.09193274"
 						],
 						[
 							"0.1223349"
@@ -1773,6 +1784,7 @@
 						"heterogeneityTau2" : true,
 						"includeFullDatasetInSubgroupAnalysis" : false,
 						"predictionIntervals" : true,
+						"standardErrors" : true,
 						"transformEffectSize" : "none"
 					},
 					"optionMustContain" : {},
@@ -1818,13 +1830,14 @@
 						"title" : "rowTitles",
 						"type" : "list"
 					},
-					"showSpecifiedColumnsOnly" : false,
+					"showSpecifiedColumnsOnly" : true,
 					"specifiedColumns" : 
 					[
 						"est",
 						"lCi",
 						"lPi",
 						"par",
+						"se",
 						"uCi",
 						"uPi"
 					],
@@ -1983,9 +1996,9 @@
 							"F\u2098(2, 0.88) = 35.40"
 						],
 						[
-							8.4702480222659231e-108,
-							0.0037924195643720625,
-							0.14328009255134228
+							8.4702480222646539e-108,
+							0.0037924195639103576,
+							0.14328009254551549
 						]
 					],
 					"error" : false,
@@ -2438,12 +2451,12 @@
 									"JaspColumn_17_Encoded/JaspColumn_5_Encoded"
 								],
 								[
-									0.074754455462985897,
-									0.13869403697774677
+									0.074754455508836859,
+									0.13869403697770674
 								],
 								[
-									0.27341261028523517,
-									0.37241648322509407
+									0.2734126103690846,
+									0.37241648322504034
 								],
 								[
 									17,
@@ -3267,6 +3280,7 @@
 		"seed" : 1,
 		"setSeed" : false,
 		"showMetaforRCode" : true,
+		"standardErrors" : true,
 		"studyLabels" : "",
 		"studyLabels.types" : [],
 		"subgroup" : "",

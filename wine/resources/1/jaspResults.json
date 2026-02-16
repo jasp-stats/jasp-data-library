@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -1060,8 +1060,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_0_t1757495905042.png",
+			"filePathPng" : "resources/1/_0_t1770823629235.png",
 			"height" : 300,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/1/_1_t1770823629820.json",
 			"messages" : [],
 			"name" : "optimPlot",
 			"nestedOptionMustBe" : {},
@@ -1143,10 +1146,11 @@
 						"breaks" : 
 						[
 							-6,
-							-3,
+							-4,
+							-2,
 							0,
-							3,
-							6
+							2,
+							4
 						],
 						"breaksType" : "range",
 						"expand" : 
@@ -1159,22 +1163,23 @@
 						"labels" : 
 						[
 							"-6",
-							"-3",
+							"-4",
+							"-2",
 							"0",
-							"3",
-							"6"
+							"2",
+							"4"
 						],
 						"limits" : 
 						[
 							-6,
-							6
+							4
 						],
 						"limitsType" : "breaks",
 						"range" : 
 						[
 							-6,
-							6,
-							3
+							4,
+							2
 						],
 						"title" : null,
 						"titleType" : "NULL"
@@ -1231,8 +1236,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_1_t1757495905541.png",
+			"filePathPng" : "resources/1/_2_t1770823630121.png",
 			"height" : 300,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/1/_3_t1770823630336.json",
 			"messages" : [],
 			"name" : "plot2dCluster",
 			"nestedOptionMustBe" : {},

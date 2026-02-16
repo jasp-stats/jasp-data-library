@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -823,8 +823,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_1_t1757495822690.png",
+			"filePathPng" : "resources/0/_2_t1770823548353.png",
 			"height" : 500,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/0/_3_t1770823548789.json",
 			"messages" : [],
 			"name" : "decisionTreePlot",
 			"nestedOptionMustBe" : {},
@@ -1061,8 +1064,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1757495822342.png",
+			"filePathPng" : "resources/0/_0_t1770823547651.png",
 			"height" : 30,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/0/_1_t1770823548109.json",
 			"messages" : [],
 			"name" : "plotDataSplit",
 			"nestedOptionMustBe" : {},

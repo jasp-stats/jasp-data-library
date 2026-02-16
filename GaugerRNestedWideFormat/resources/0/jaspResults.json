@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -75,8 +75,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_6_t1757502597435.png",
+			"filePathPng" : "resources/0/_12_t1770827363276.png",
 			"height" : 600,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/0/_13_t1770827363555.json",
 			"messages" : [],
 			"name" : "NRoperatorGraph",
 			"nestedOptionMustBe" : {},
@@ -185,8 +188,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_3_t1757502597159.png",
+					"filePathPng" : "resources/0/_6_t1770827362542.png",
 					"height" : 300,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_7_t1770827362735.json",
 					"messages" : [],
 					"name" : "Operator A",
 					"nestedOptionMustBe" : {},
@@ -284,8 +290,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_4_t1757502597244.png",
+					"filePathPng" : "resources/0/_8_t1770827362768.png",
 					"height" : 300,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_9_t1770827362980.json",
 					"messages" : [],
 					"name" : "Operator B",
 					"nestedOptionMustBe" : {},
@@ -383,8 +392,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_5_t1757502597336.png",
+					"filePathPng" : "resources/0/_10_t1770827363014.png",
 					"height" : 300,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_11_t1770827363217.json",
 					"messages" : [],
 					"name" : "Operator C",
 					"nestedOptionMustBe" : {},
@@ -506,8 +518,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1757502596246.png",
+					"filePathPng" : "resources/0/_0_t1770827360720.png",
 					"height" : 500,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_1_t1770827361146.json",
 					"messages" : [],
 					"name" : "Plot",
 					"nestedOptionMustBe" : {},
@@ -689,26 +704,26 @@
 							89.0
 						],
 						[
-							1.6722222222222136,
-							883.38333333333333,
-							7.6666666666666687,
-							892.72222222222217
+							1.6722222222222158,
+							883.38333333333321,
+							7.6666666666666545,
+							892.72222222222206
 						],
 						[
-							0.83611111111110681,
-							32.717901234567904,
-							0.12777777777777782,
+							0.83611111111110792,
+							32.717901234567897,
+							0.12777777777777757,
 							""
 						],
 						[
-							0.02555515725524957,
-							256.05314009661828,
+							0.025555157255249608,
+							256.05314009661873,
 							"",
 							""
 						],
 						[
 							0.97479215983860046,
-							2.0049444102067628e-52,
+							2.0049444102066489e-52,
 							"",
 							""
 						]
@@ -927,15 +942,15 @@
 							"Total variation"
 						],
 						[
-							0.12777777777777782,
-							0.12777777777777782,
+							0.12777777777777757,
+							0.12777777777777757,
 							0.0,
-							10.863374485596708,
-							10.991152263374486
+							10.863374485596706,
+							10.991152263374484
 						],
 						[
-							1.1625512477301239,
-							1.1625512477301239,
+							1.1625512477301216,
+							1.1625512477301216,
 							0.0,
 							98.837448752269879,
 							100.0
@@ -1156,22 +1171,22 @@
 							"Total variation"
 						],
 						[
-							0.35746017649212036,
-							0.35746017649212036,
+							0.35746017649211997,
+							0.35746017649211997,
 							0.0,
-							3.2959633622958719,
+							3.2959633622958715,
 							3.3152906755478448
 						],
 						[
-							2.1447610589527222,
-							2.1447610589527222,
+							2.14476105895272,
+							2.14476105895272,
 							0.0,
-							19.775780173775232,
+							19.775780173775228,
 							19.89174405328707
 						],
 						[
-							10.782166979462541,
-							10.782166979462541,
+							10.782166979462531,
+							10.782166979462531,
 							0.0,
 							99.417025077332639,
 							100.0
@@ -1404,8 +1419,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1757502596522.png",
+					"filePathPng" : "resources/0/_2_t1770827361325.png",
 					"height" : 500,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_3_t1770827361769.json",
 					"messages" : [],
 					"name" : "plot",
 					"nestedOptionMustBe" : {},
@@ -1787,8 +1805,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1757502596887.png",
+					"filePathPng" : "resources/0/_4_t1770827361958.png",
 					"height" : 500,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_5_t1770827362350.json",
 					"messages" : [],
 					"name" : "plot",
 					"nestedOptionMustBe" : {},

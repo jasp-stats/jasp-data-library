@@ -327,9 +327,11 @@
 						"fields" : 
 						{
 							"SE" : "sf:4;dp:3",
+							"VIF" : "sf:4;dp:3",
 							"p" : "dp:3;p:.001",
 							"standCoeff" : "sf:4;dp:3",
 							"t" : "sf:4;dp:3",
+							"tolerance" : "dp:3",
 							"unstandCoeff" : "sf:4;dp:3"
 						},
 						"listType" : "string",
@@ -368,10 +370,10 @@
 							"standCoeff",
 							"t",
 							"p",
-							"lower",
-							"upper",
 							"tolerance",
 							"VIF",
+							"lower",
+							"upper",
 							"vovksellke",
 							".isNewGroup"
 						],
@@ -384,7 +386,11 @@
 						"error" : false,
 						"errorMessage" : "",
 						"escapeHtml" : true,
-						"fields" : {},
+						"fields" : 
+						{
+							"VIF" : "Collinearity Statistics",
+							"tolerance" : "Collinearity Statistics"
+						},
 						"listType" : "string",
 						"messages" : [],
 						"name" : "",
@@ -407,11 +413,13 @@
 						"fields" : 
 						{
 							"SE" : "Standard Error",
+							"VIF" : "VIF",
 							"model" : "Model",
 							"name" : "",
 							"p" : "p",
 							"standCoeff" : "Standardized",
 							"t" : "t",
+							"tolerance" : "Tolerance",
 							"unstandCoeff" : "Unstandardized"
 						},
 						"listType" : "string",
@@ -435,11 +443,13 @@
 						"fields" : 
 						{
 							"SE" : "number",
+							"VIF" : "number",
 							"model" : "string",
 							"name" : "string",
 							"p" : "pvalue",
 							"standCoeff" : "number",
 							"t" : "number",
+							"tolerance" : "number",
 							"unstandCoeff" : "number"
 						},
 						"listType" : "string",
@@ -506,20 +516,6 @@
 							0.24505989036968817
 						],
 						[
-							2.5326001359206205,
-							0.0099803976702675934,
-							0.098618536127324755,
-							-0.039705683765796675,
-							-0.031160181763637634
-						],
-						[
-							2.7378462926508074,
-							1.1697728370710703,
-							0.23851474800578809,
-							0.10833681951442076,
-							0.12136383086309213
-						],
-						[
 							null,
 							null,
 							0.64924537085213374,
@@ -532,6 +528,20 @@
 							1.540249718973739,
 							1.8554924265304067,
 							1.5501265912610473
+						],
+						[
+							2.5326001359206205,
+							0.0099803976702675934,
+							0.098618536127324755,
+							-0.039705683765796675,
+							-0.031160181763637634
+						],
+						[
+							2.7378462926508074,
+							1.1697728370710703,
+							0.23851474800578809,
+							0.10833681951442076,
+							0.12136383086309213
 						],
 						[
 							4.0448823385594596e+120,
@@ -563,7 +573,7 @@
 						"coefficientCi" : false,
 						"coefficientCiLevel" : 0.94999999999999996,
 						"coefficientEstimate" : true,
-						"collinearityStatistic" : false,
+						"collinearityStatistic" : true,
 						"vovkSellke" : false
 					},
 					"optionMustContain" : {},
@@ -610,318 +620,17 @@
 					"specifiedColumns" : 
 					[
 						"SE",
+						"VIF",
 						"model",
 						"name",
 						"p",
 						"standCoeff",
 						"t",
+						"tolerance",
 						"unstandCoeff"
 					],
 					"status" : "complete",
 					"title" : "Coefficients",
-					"transposeTable" : false,
-					"transposeWithOvertitle" : false,
-					"type" : "table"
-				},
-				"collinearityTable" : 
-				{
-					"citations" : [],
-					"colCombines" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"model" : true
-						},
-						"listType" : "bool",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "",
-						"type" : "list"
-					},
-					"colFormats" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"(Intercept)" : "number",
-							"JaspColumn_3_Encoded" : "number",
-							"JaspColumn_6_Encoded" : "number",
-							"JaspColumn_9_Encoded" : "number",
-							"condIndex" : "sf:4;dp:3",
-							"eigenvalue" : "sf:4;dp:3"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colFormats",
-						"type" : "list"
-					},
-					"colNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : 
-						[
-							"model",
-							"dimension",
-							"eigenvalue",
-							"condIndex",
-							"(Intercept)",
-							"JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded",
-							"JaspColumn_3_Encoded",
-							".isNewGroup"
-						],
-						"title" : "colNames",
-						"type" : "list"
-					},
-					"colOvertitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"(Intercept)" : "Variance Proportions",
-							"JaspColumn_3_Encoded" : "Variance Proportions",
-							"JaspColumn_6_Encoded" : "Variance Proportions",
-							"JaspColumn_9_Encoded" : "Variance Proportions"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colOvertitles",
-						"type" : "list"
-					},
-					"colRowCombinations" : [],
-					"colTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"(Intercept)" : "(Intercept)",
-							"JaspColumn_3_Encoded" : "JaspColumn_3_Encoded",
-							"JaspColumn_6_Encoded" : "JaspColumn_6_Encoded",
-							"JaspColumn_9_Encoded" : "JaspColumn_9_Encoded",
-							"condIndex" : "Condition Index",
-							"dimension" : "Dimension",
-							"eigenvalue" : "Eigenvalue",
-							"model" : "Model"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTitles",
-						"type" : "list"
-					},
-					"colTypes" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : 
-						{
-							"(Intercept)" : "number",
-							"JaspColumn_3_Encoded" : "number",
-							"JaspColumn_6_Encoded" : "number",
-							"JaspColumn_9_Encoded" : "number",
-							"condIndex" : "number",
-							"dimension" : "integer",
-							"eigenvalue" : "number",
-							"model" : "string"
-						},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "colTypes",
-						"type" : "list"
-					},
-					"data" : 
-					[
-						[
-							"M\u2081",
-							"M\u2081",
-							"M\u2081",
-							"M\u2081"
-						],
-						[
-							1,
-							2,
-							3,
-							4
-						],
-						[
-							3.9453399845120956,
-							0.02161944548410611,
-							0.019455452545571149,
-							0.013585117458226612
-						],
-						[
-							1.0,
-							13.508898595825105,
-							14.240379012658853,
-							17.041605915651708
-						],
-						[
-							0.001598452929091553,
-							0.63780716141483418,
-							0.044309501668257409,
-							0.31628488398781679
-						],
-						[
-							0.0015289006257229191,
-							0.1018352286705634,
-							0.63366828250590246,
-							0.26296758819781124
-						],
-						[
-							0.0014380902979492121,
-							0.35790498778227597,
-							0.097871013260388259,
-							0.54278590865938658
-						],
-						[
-							0.0013668428571062634,
-							0.021667997775540133,
-							0.41100374964851777,
-							0.5659614097188358
-						],
-						[
-							true,
-							false,
-							false,
-							false
-						]
-					],
-					"error" : false,
-					"errorMessage" : "",
-					"escapeHtml" : true,
-					"expectedColumnCount" : 0,
-					"expectedRowCount" : 0,
-					"footnotes" : 
-					[
-						{
-							"cols" : null,
-							"rows" : null,
-							"symbol" : "<em>Note.</em>",
-							"text" : "The intercept model is omitted, as no meaningful information can be shown."
-						}
-					],
-					"messages" : [],
-					"name" : "collinearityTable",
-					"nestedOptionMustBe" : {},
-					"nestedOptionMustContain" : {},
-					"optionMustBe" : 
-					{
-						"collinearityDiagnostic" : true
-					},
-					"optionMustContain" : {},
-					"position" : 8,
-					"rowNames" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "rowNames",
-						"type" : "list"
-					},
-					"rowTitles" : 
-					{
-						"citations" : [],
-						"error" : false,
-						"errorMessage" : "",
-						"escapeHtml" : true,
-						"fields" : {},
-						"listType" : "string",
-						"messages" : [],
-						"name" : "",
-						"nestedOptionMustBe" : {},
-						"nestedOptionMustContain" : {},
-						"optionMustBe" : {},
-						"optionMustContain" : {},
-						"position" : 9999,
-						"rows" : [],
-						"title" : "rowTitles",
-						"type" : "list"
-					},
-					"showSpecifiedColumnsOnly" : false,
-					"specifiedColumns" : 
-					[
-						"(Intercept)",
-						"JaspColumn_3_Encoded",
-						"JaspColumn_6_Encoded",
-						"JaspColumn_9_Encoded",
-						"condIndex",
-						"dimension",
-						"eigenvalue",
-						"model"
-					],
-					"status" : "complete",
-					"title" : "Collinearity Diagnostics",
 					"transposeTable" : false,
 					"transposeWithOvertitle" : false,
 					"type" : "table"
@@ -1057,11 +766,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_11_t1769009309079.png",
+					"filePathPng" : "resources/3/_11_t1770822850650.png",
 					"height" : 400,
 					"interactive" : true,
 					"interactiveConvertError" : "",
-					"interactiveJsonData" : "resources/3/_12_t1769009309391.json",
+					"interactiveJsonData" : "resources/3/_12_t1770822850855.json",
 					"messages" : [],
 					"name" : "residualsQQPlot",
 					"nestedOptionMustBe" : {},
@@ -1194,11 +903,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/3/_5_t1769009308117.png",
+							"filePathPng" : "resources/3/_5_t1770822849782.png",
 							"height" : 400,
 							"interactive" : true,
 							"interactiveConvertError" : "",
-							"interactiveJsonData" : "resources/3/_6_t1769009308368.json",
+							"interactiveJsonData" : "resources/3/_6_t1770822850003.json",
 							"messages" : [],
 							"name" : "hse",
 							"nestedOptionMustBe" : {},
@@ -1317,11 +1026,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/3/_1_t1769009307483.png",
+							"filePathPng" : "resources/3/_1_t1770822848910.png",
 							"height" : 400,
 							"interactive" : true,
 							"interactiveConvertError" : "",
-							"interactiveJsonData" : "resources/3/_2_t1769009307751.json",
+							"interactiveJsonData" : "resources/3/_2_t1770822849231.json",
 							"messages" : [],
 							"name" : "hsm",
 							"nestedOptionMustBe" : {},
@@ -1446,11 +1155,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/3/_3_t1769009307818.png",
+							"filePathPng" : "resources/3/_3_t1770822849295.png",
 							"height" : 400,
 							"interactive" : true,
 							"interactiveConvertError" : "",
-							"interactiveJsonData" : "resources/3/_4_t1769009308054.json",
+							"interactiveJsonData" : "resources/3/_4_t1770822849720.json",
 							"messages" : [],
 							"name" : "hss",
 							"nestedOptionMustBe" : {},
@@ -1583,11 +1292,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_9_t1769009308761.png",
+					"filePathPng" : "resources/3/_9_t1770822850365.png",
 					"height" : 400,
 					"interactive" : true,
 					"interactiveConvertError" : "",
-					"interactiveJsonData" : "resources/3/_10_t1769009309020.json",
+					"interactiveJsonData" : "resources/3/_10_t1770822850586.json",
 					"messages" : [],
 					"name" : "residualsVsHistPlot",
 					"nestedOptionMustBe" : {},
@@ -1712,11 +1421,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/3/_7_t1769009308432.png",
+					"filePathPng" : "resources/3/_7_t1770822850069.png",
 					"height" : 400,
 					"interactive" : true,
 					"interactiveConvertError" : "",
-					"interactiveJsonData" : "resources/3/_8_t1769009308687.json",
+					"interactiveJsonData" : "resources/3/_8_t1770822850298.json",
 					"messages" : [],
 					"name" : "residualsVsPredPlot",
 					"nestedOptionMustBe" : {},
@@ -2037,12 +1746,11 @@
 			{
 				"anovaTable" : 2,
 				"coeffTable" : 3,
-				"collinearityTable" : 4,
 				"model" : 0,
-				"residualsQQPlot" : 8,
-				"residualsVsCovContainer" : 5,
-				"residualsVsHistPlot" : 7,
-				"residualsVsPredPlot" : 6,
+				"residualsQQPlot" : 7,
+				"residualsVsCovContainer" : 4,
+				"residualsVsHistPlot" : 6,
+				"residualsVsPredPlot" : 5,
 				"summaryTable" : 1
 			},
 			"error" : false,
@@ -2118,7 +1826,7 @@
 				"weights.types" : []
 			},
 			"optionMustContain" : {},
-			"order_increment" : 9,
+			"order_increment" : 8,
 			"position" : 1,
 			"title" : "",
 			"type" : "container"
@@ -2176,8 +1884,8 @@
 		"coefficientCi" : false,
 		"coefficientCiLevel" : 0.94999999999999996,
 		"coefficientEstimate" : true,
-		"collinearityDiagnostic" : true,
-		"collinearityStatistic" : false,
+		"collinearityDiagnostic" : false,
+		"collinearityStatistic" : true,
 		"covarianceMatrix" : false,
 		"covarianceRatio" : false,
 		"covariates" : 

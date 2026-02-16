@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,8 +18,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_0_t1757502472688.png",
+			"filePathPng" : "resources/2/_0_t1770827103197.png",
 			"height" : 320,
+			"interactive" : true,
+			"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\"",
+			"interactiveJsonData" : "",
 			"messages" : [],
 			"name" : "historyPlot",
 			"nestedOptionMustBe" : {},
@@ -219,20 +222,20 @@
 							"2020-08-13"
 						],
 						[
-							-0.97794218073473549,
-							2.4531811262477587
+							-0.97726680873474625,
+							2.4496026000922848
 						],
 						[
-							0.077967507858857768,
-							0.1384322177791377
+							0.080189489614667805,
+							0.14211106467058141
 						],
 						[
-							-1.1261409017241426,
-							2.175273834442915
+							-1.1287180147715212,
+							2.1582861981838439
 						],
 						[
-							-0.82705388477342268,
-							2.7172355322759731
+							-0.82150356579127604,
+							2.7162011577973382
 						]
 					],
 					"error" : false,
@@ -366,13 +369,20 @@
 						{
 							"aspectRatio" : 0.0,
 							"citations" : [],
-							"editOptions" : null,
+							"editOptions" : 
+							{
+								"errorType" : "fatalError",
+								"reasonNotEditable" : "Plot editing terminated unexpectedly. Fatal error in plotEditingOptions: Computing plotEditingOptions gave an error: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\" To receive assistance with this problem, please report the message above at: https://jasp-stats.org/bug-reports"
+							},
 							"environmentName" : "plot_1",
-							"error" : true,
-							"errorMessage" : "'recursive' must be a length-1 vector",
+							"error" : false,
+							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "",
+							"filePathPng" : "resources/2/_1_t1770827103417.png",
 							"height" : 320,
+							"interactive" : true,
+							"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\"",
+							"interactiveJsonData" : "",
 							"messages" : [],
 							"name" : "prophetOverallForecastPlot",
 							"nestedOptionMustBe" : {},
@@ -401,13 +411,20 @@
 						{
 							"aspectRatio" : 0.0,
 							"citations" : [],
-							"editOptions" : null,
+							"editOptions" : 
+							{
+								"errorType" : "fatalError",
+								"reasonNotEditable" : "Plot editing terminated unexpectedly. Fatal error in plotEditingOptions: Computing plotEditingOptions gave an error: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\" To receive assistance with this problem, please report the message above at: https://jasp-stats.org/bug-reports"
+							},
 							"environmentName" : "plot_2",
-							"error" : true,
-							"errorMessage" : "'recursive' must be a length-1 vector",
+							"error" : false,
+							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "",
+							"filePathPng" : "resources/2/_2_t1770827103675.png",
 							"height" : 320,
+							"interactive" : true,
+							"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\"",
+							"interactiveJsonData" : "",
 							"messages" : [],
 							"name" : "prophetTrendForecastPlot",
 							"nestedOptionMustBe" : {},
@@ -613,20 +630,20 @@
 							14.0
 						],
 						[
-							0.11099693523213493,
-							0.11658136401586784,
-							0.10517848354231241,
-							0.14762350836024779,
-							0.15006061363505774,
-							0.15388040615650334,
-							0.17640049899196081,
-							0.15917788483730519,
-							0.15403948015613766,
-							0.14607691502856252,
-							0.1891496849431889,
-							0.18124884833029845,
-							0.1954884693075746,
-							0.20773515154736705
+							0.11109870539988595,
+							0.11604033615713277,
+							0.10494425802392744,
+							0.14806122686686002,
+							0.15041086140098617,
+							0.15422481374177627,
+							0.17683350518001581,
+							0.15957316752151718,
+							0.15375963814873692,
+							0.14573426481519502,
+							0.18954453027620005,
+							0.18153559475663436,
+							0.19585306694074231,
+							0.20782421729006015
 						]
 					],
 					"error" : false,
@@ -726,6 +743,7 @@
 											{
 												"breaks" : 
 												[
+													0.29999999999999999,
 													0.40000000000000002,
 													0.5,
 													0.59999999999999998,
@@ -742,6 +760,7 @@
 												],
 												"labels" : 
 												[
+													"0.3",
 													"0.4",
 													"0.5",
 													"0.6",
@@ -750,13 +769,13 @@
 												],
 												"limits" : 
 												[
-													0.40000000000000002,
+													0.29999999999999999,
 													0.80000000000000004
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
-													0.40000000000000002,
+													0.29999999999999999,
 													0.80000000000000004,
 													0.10000000000000001
 												],
@@ -776,8 +795,7 @@
 													4,
 													6,
 													8,
-													10,
-													12
+													10
 												],
 												"breaksType" : "range",
 												"expand" : 
@@ -794,19 +812,18 @@
 													"4",
 													"6",
 													"8",
-													"10",
-													"12"
+													"10"
 												],
 												"limits" : 
 												[
 													0,
-													12
+													10
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
 													0,
-													12,
+													10,
 													2
 												],
 												"title" : "Density",
@@ -819,8 +836,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_2_t1757502472988.png",
+									"filePathPng" : "resources/2/_4_t1770827104139.png",
 									"height" : 320,
+									"interactive" : true,
+									"interactiveConvertError" : "",
+									"interactiveJsonData" : "resources/2/_5_t1770827104539.json",
 									"messages" : [],
 									"name" : "k",
 									"nestedOptionMustBe" : {},
@@ -939,8 +959,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_3_t1757502473083.png",
+									"filePathPng" : "resources/2/_6_t1770827104571.png",
 									"height" : 320,
+									"interactive" : true,
+									"interactiveConvertError" : "",
+									"interactiveJsonData" : "resources/2/_7_t1770827104807.json",
 									"messages" : [],
 									"name" : "m",
 									"nestedOptionMustBe" : {},
@@ -1020,9 +1043,13 @@
 												"breaks" : 
 												[
 													0,
-													50,
+													20,
+													40,
+													60,
+													80,
 													100,
-													150
+													120,
+													140
 												],
 												"breaksType" : "range",
 												"expand" : 
@@ -1035,21 +1062,25 @@
 												"labels" : 
 												[
 													"0",
-													"50",
+													"20",
+													"40",
+													"60",
+													"80",
 													"100",
-													"150"
+													"120",
+													"140"
 												],
 												"limits" : 
 												[
 													0,
-													150
+													140
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
 													0,
-													150,
-													50
+													140,
+													20
 												],
 												"title" : "Density",
 												"titleType" : "character"
@@ -1061,8 +1092,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_4_t1757502473181.png",
+									"filePathPng" : "resources/2/_8_t1770827104839.png",
 									"height" : 320,
+									"interactive" : true,
+									"interactiveConvertError" : "",
+									"interactiveJsonData" : "resources/2/_9_t1770827105081.json",
 									"messages" : [],
 									"name" : "sigma_obs",
 									"nestedOptionMustBe" : {},
@@ -1140,8 +1174,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_1_t1757502472831.png",
+							"filePathPng" : "resources/2/_3_t1770827103927.png",
 							"height" : 320,
+							"interactive" : true,
+							"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\"",
+							"interactiveJsonData" : "",
 							"messages" : [],
 							"name" : "Weekly",
 							"nestedOptionMustBe" : {},
@@ -1356,39 +1393,39 @@
 							"Residual variance (sigma)"
 						],
 						[
-							0.58104018353094755,
-							0.24677577255327718,
-							0.071555695255314897
+							0.5808971538293386,
+							0.24662279227135209,
+							0.071545886004818343
 						],
 						[
-							0.045088478793940769,
-							0.012256116967265486,
-							0.003276080775568149
+							0.045932221068579603,
+							0.012251512756739065,
+							0.0032651875875003319
 						],
 						[
-							0.4909394632593817,
-							0.22372631158026904,
-							0.065686228953939621
+							0.49068758269176838,
+							0.22338851882594091,
+							0.065482320335899499
 						],
 						[
-							0.66559857371012199,
-							0.27157925381874548,
-							0.07853204354931885
+							0.66723569122564519,
+							0.27133389560149929,
+							0.078138761500355855
 						],
 						[
-							1.0009039949413836,
-							1.0002080337268169,
-							1.0000690792971352
+							1.0022975981187563,
+							1.0017099253845356,
+							1.0008609676718163
 						],
 						[
-							1822.0,
-							2178.0,
-							4340.0
+							1560.0,
+							1987.0,
+							3447.0
 						],
 						[
-							2078.0,
-							2676.0,
-							3014.0
+							2360.0,
+							2648.0,
+							2483.0
 						]
 					],
 					"error" : false,

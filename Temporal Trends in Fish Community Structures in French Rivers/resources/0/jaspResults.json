@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.2) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -539,6 +539,7 @@
 							"est" : "sf:4;dp:3",
 							"lCi" : "sf:4;dp:3",
 							"lPi" : "sf:4;dp:3",
+							"se" : "sf:4;dp:3",
 							"uCi" : "sf:4;dp:3",
 							"uPi" : "sf:4;dp:3"
 						},
@@ -573,6 +574,7 @@
 						[
 							"par",
 							"est",
+							"se",
 							"lCi",
 							"uCi",
 							"lPi",
@@ -619,6 +621,7 @@
 							"lCi" : "Lower",
 							"lPi" : "Lower",
 							"par" : "",
+							"se" : "Standard Error",
 							"uCi" : "Upper",
 							"uPi" : "Upper"
 						},
@@ -646,6 +649,7 @@
 							"lCi" : "number",
 							"lPi" : "number",
 							"par" : "string",
+							"se" : "number",
 							"uCi" : "number",
 							"uPi" : "number"
 						},
@@ -668,6 +672,9 @@
 						],
 						[
 							"182.1199"
+						],
+						[
+							"31.2808"
 						],
 						[
 							"118.5497"
@@ -702,6 +709,7 @@
 						"heterogeneityTau2" : true,
 						"includeFullDatasetInSubgroupAnalysis" : false,
 						"predictionIntervals" : true,
+						"standardErrors" : true,
 						"transformEffectSize" : "none"
 					},
 					"optionMustContain" : {},
@@ -747,13 +755,14 @@
 						"title" : "rowTitles",
 						"type" : "list"
 					},
-					"showSpecifiedColumnsOnly" : false,
+					"showSpecifiedColumnsOnly" : true,
 					"specifiedColumns" : 
 					[
 						"est",
 						"lCi",
 						"lPi",
 						"par",
+						"se",
 						"uCi",
 						"uPi"
 					],
@@ -910,8 +919,8 @@
 							"t(34) = 5.82"
 						],
 						[
-							7.5025796578006053e-24,
-							1.4660843756201886e-06
+							7.5025796578005245e-24,
+							1.4660843765074942e-06
 						]
 					],
 					"error" : false,
@@ -1377,11 +1386,11 @@
 									"\u03c1"
 								],
 								[
-									3425.5861923002299,
-									12.875526468391
+									3425.5861908185202,
+									12.8755264678167
 								],
 								[
-									58.528507518133701,
+									58.528507505475602,
 									""
 								]
 							],
@@ -1639,12 +1648,12 @@
 									"JaspColumn_20_Encoded/JaspColumn_26_Encoded"
 								],
 								[
-									7158.3491673525714,
-									1.5106128181012111e-05
+									7158.3491692221596,
+									1.5106158255137264e-05
 								],
 								[
-									84.60702788393273,
-									0.0038866602862884878
+									84.6070278949814,
+									0.0038866641551769383
 								],
 								[
 									11,
@@ -2478,6 +2487,7 @@
 		"seed" : 1,
 		"setSeed" : false,
 		"showMetaforRCode" : true,
+		"standardErrors" : true,
 		"studyLabels" : "",
 		"studyLabels.types" : [],
 		"subgroup" : "",

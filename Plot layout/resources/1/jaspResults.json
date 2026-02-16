@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.2) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -69,8 +69,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_2_t1757669884457.png",
+					"filePathPng" : "resources/1/_4_t1770822234446.png",
 					"height" : 300,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/1/_5_t1770822234898.json",
 					"messages" : [],
 					"name" : "plotGrid",
 					"nestedOptionMustBe" : {},
@@ -935,8 +938,8 @@
 								],
 								"limits" : 
 								[
-									32.011997758783401,
-									59.883955070376402
+									32.100000000000001,
+									59.761128295911497
 								],
 								"limitsType" : "data",
 								"range" : 
@@ -955,8 +958,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1757669883954.png",
+					"filePathPng" : "resources/1/_0_t1770822233508.png",
 					"height" : 300,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/1/_1_t1770822233903.json",
 					"messages" : [],
 					"name" : "tidyPlot_Plot 1",
 					"nestedOptionMustBe" : {},
@@ -1767,8 +1773,8 @@
 								],
 								"limits" : 
 								[
-									31.743443121919402,
-									60.004702901523601
+									31.7385684708692,
+									60.035327637316698
 								],
 								"limitsType" : "data",
 								"range" : 
@@ -1810,7 +1816,7 @@
 								],
 								"limits" : 
 								[
-									12.5561874753945,
+									12.5561874753946,
 									21.5
 								],
 								"limitsType" : "data",
@@ -1830,8 +1836,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_1_t1757669884223.png",
+					"filePathPng" : "resources/1/_2_t1770822233930.png",
 					"height" : 300,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/1/_3_t1770822234378.json",
 					"messages" : [],
 					"name" : "tidyPlot_Plot 2",
 					"nestedOptionMustBe" : {},

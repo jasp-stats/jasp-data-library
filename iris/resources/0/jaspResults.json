@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -89,8 +89,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_1_t1757495803726.png",
+					"filePathPng" : "resources/0/_2_t1770823526746.png",
 					"height" : 600,
+					"interactive" : true,
+					"interactiveConvertError" : "",
+					"interactiveJsonData" : "resources/0/_3_t1770823527407.json",
 					"messages" : [],
 					"name" : "oneFigure",
 					"nestedOptionMustBe" : {},
@@ -830,9 +833,10 @@
 					{
 						"breaks" : 
 						[
-							-2,
+							-8,
+							-4,
 							0,
-							2
+							4
 						],
 						"breaksType" : "range",
 						"expand" : 
@@ -844,21 +848,22 @@
 						],
 						"labels" : 
 						[
-							"-2",
+							"-8",
+							"-4",
 							"0",
-							"2"
+							"4"
 						],
 						"limits" : 
 						[
-							-3,
-							3
+							-8,
+							6
 						],
 						"limitsType" : "manual",
 						"range" : 
 						[
-							-2,
-							2,
-							2
+							-8,
+							4,
+							4
 						],
 						"title" : null,
 						"titleType" : "NULL"
@@ -913,8 +918,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1757495803549.png",
+			"filePathPng" : "resources/0/_0_t1770823526239.png",
 			"height" : 300,
+			"interactive" : true,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "resources/0/_1_t1770823526692.json",
 			"messages" : [],
 			"name" : "plot2dCluster",
 			"nestedOptionMustBe" : {},

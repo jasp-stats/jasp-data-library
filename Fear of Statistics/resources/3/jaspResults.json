@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -202,15 +202,15 @@
 						"escapeHtml" : true,
 						"fields" : 
 						{
-							"lower2" : "Coefficient \u03b1          (if item dropped)",
+							"lower2" : "Cronbach's \u03b1           (if item dropped)",
 							"lower5" : "Item-rest correlation",
 							"lower6" : "Mean",
 							"lower8" : "SD",
-							"pointEstimate2" : "Coefficient \u03b1          (if item dropped)",
+							"pointEstimate2" : "Cronbach's \u03b1           (if item dropped)",
 							"pointEstimate5" : "Item-rest correlation",
 							"pointEstimate6" : "Mean",
 							"pointEstimate8" : "SD",
-							"upper2" : "Coefficient \u03b1          (if item dropped)",
+							"upper2" : "Cronbach's \u03b1           (if item dropped)",
 							"upper5" : "Item-rest correlation",
 							"upper6" : "Mean",
 							"upper8" : "SD"
@@ -321,7 +321,7 @@
 						[
 							0.78947225380021147,
 							0.78697039500941557,
-							0.78271430964086919,
+							0.78271430964086908,
 							0.79471788027970325,
 							0.78350283187957193,
 							0.78003170051232218,
@@ -331,7 +331,7 @@
 						[
 							0.81392985467535572,
 							0.81222934262176216,
-							0.8082895016050039,
+							0.80828950160500401,
 							0.81857267356327479,
 							0.80896691278694643,
 							0.80551643804167383,
@@ -782,7 +782,7 @@
 					"data" : 
 					[
 						[
-							"Coefficient \u03b1",
+							"Cronbach's \u03b1",
 							"Average interitem correlation",
 							"Mean",
 							"SD"
@@ -794,7 +794,7 @@
 							5.1223484899762006
 						],
 						[
-							0.0055868751594596493,
+							0.0055868751594596528,
 							"",
 							0.10102249337037947,
 							0.067255048591668448
@@ -1030,6 +1030,7 @@
 		"bootstrapType" : "nonParametric",
 		"ciLevel" : 0.94999999999999996,
 		"coefficientType" : "unstandardized",
+		"hiddenScaleThreshold" : 10,
 		"intervalMethod" : "analytic",
 		"intervalMethodVar" : "chisq",
 		"itemCiLevel" : 0.94999999999999996,
@@ -1092,6 +1093,6 @@
 	"order_increment" : 1,
 	"position" : 9999,
 	"relativePathKeep" : "resources/3/state",
-	"title" : "Unidimensional Reliability",
+	"title" : "Reliability",
 	"type" : "results"
 }

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,8 +18,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_1_t1757502888696.png",
+			"filePathPng" : "resources/2/_1_t1772207796078.png",
 			"height" : 520,
+			"interactive" : false,
+			"interactiveConvertError" : "",
+			"interactiveJsonData" : "",
 			"messages" : [],
 			"name" : "matrixPlot",
 			"nestedOptionMustBe" : {},
@@ -83,7 +86,7 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"Mean" : "sf:4;dp:3",
+					"MeanArithmetic" : "sf:4;dp:3",
 					"Std. Deviation" : "sf:4;dp:3"
 				},
 				"listType" : "string",
@@ -118,7 +121,7 @@
 					"Variable",
 					"Valid",
 					"Missing",
-					"Mean",
+					"MeanArithmetic",
 					"Std. Deviation"
 				],
 				"title" : "colNames",
@@ -152,7 +155,7 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"Mean" : "Mean",
+					"MeanArithmetic" : "Mean (arithmetic)",
 					"Missing" : "Missing",
 					"Std. Deviation" : "Std. Deviation",
 					"Valid" : "Valid",
@@ -178,7 +181,7 @@
 				"escapeHtml" : true,
 				"fields" : 
 				{
-					"Mean" : "number",
+					"MeanArithmetic" : "number",
 					"Missing" : "integer",
 					"Std. Deviation" : "number",
 					"Valid" : "integer",
@@ -239,10 +242,12 @@
 				"mad" : false,
 				"madRobust" : false,
 				"maximum" : false,
-				"mean" : true,
+				"meanArithmetic" : true,
 				"meanCi" : false,
 				"meanCiLevel" : 0.94999999999999996,
 				"meanCiMethod" : "normalModel",
+				"meanGeometric" : false,
+				"meanHarmonic" : false,
 				"median" : false,
 				"minimum" : false,
 				"missing" : true,
@@ -251,6 +256,7 @@
 				"percentiles" : false,
 				"quantilesForEqualGroups" : false,
 				"quantilesForEqualGroupsNumber" : 4,
+				"quantilesType" : "7",
 				"quartiles" : false,
 				"range" : false,
 				"sd" : true,
@@ -326,7 +332,7 @@
 			"showSpecifiedColumnsOnly" : false,
 			"specifiedColumns" : 
 			[
-				"Mean",
+				"MeanArithmetic",
 				"Missing",
 				"Std. Deviation",
 				"Valid",
@@ -367,6 +373,10 @@
 				"shouldEncode" : true
 			},
 			"heatmapVerticalAxis" : 
+			{
+				"shouldEncode" : true
+			},
+			"paretoAddCountVariable" : 
 			{
 				"shouldEncode" : true
 			},
@@ -428,17 +438,23 @@
 		"mad" : false,
 		"madRobust" : false,
 		"maximum" : false,
-		"mean" : true,
+		"meanArithmetic" : true,
 		"meanCi" : false,
 		"meanCiLevel" : 0.94999999999999996,
 		"meanCiMethod" : "normalModel",
+		"meanGeometric" : false,
+		"meanHarmonic" : false,
 		"median" : false,
 		"minimum" : false,
 		"missing" : true,
 		"mode" : false,
+		"paretoAddCountVariable" : "",
+		"paretoAddCountVariable.types" : "unknown",
 		"paretoPlot" : false,
 		"paretoPlotRule" : false,
 		"paretoPlotRuleCi" : 0.94999999999999996,
+		"paretoPlotTurnXAxisLabels" : false,
+		"paretoShiftAccumulationLine" : false,
 		"percentileValues" : [],
 		"percentiles" : false,
 		"pieChart" : false,
@@ -447,6 +463,7 @@
 		"qqPlot" : false,
 		"quantilesForEqualGroups" : false,
 		"quantilesForEqualGroupsNumber" : 4,
+		"quantilesType" : "7",
 		"quartiles" : false,
 		"range" : false,
 		"scatterPlot" : false,

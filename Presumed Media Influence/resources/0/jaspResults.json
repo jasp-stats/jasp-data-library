@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2025). JASP (Version 0.95.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
 	],
 	"data" : 
 	{
@@ -302,13 +302,13 @@
 					"Model 1"
 				],
 				[
-					850.05650537845781
+					850.05650537845759
 				],
 				[
-					864.11742715531989
+					864.11742715531966
 				],
 				[
-					-420.02825268922891
+					-420.02825268922879
 				],
 				[
 					123
@@ -522,7 +522,7 @@
 						"contrasts" : 
 						{
 							"citations" : [],
-							"environmentName" : "state_1",
+							"environmentName" : "state_7",
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
@@ -539,7 +539,7 @@
 						"fittedModel" : 
 						{
 							"citations" : [],
-							"environmentName" : "state_5",
+							"environmentName" : "state_11",
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
@@ -556,7 +556,7 @@
 						"graph" : 
 						{
 							"citations" : [],
-							"environmentName" : "state_0",
+							"environmentName" : "state_6",
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
@@ -573,7 +573,7 @@
 						"modProbes" : 
 						{
 							"citations" : [],
-							"environmentName" : "state_2",
+							"environmentName" : "state_8",
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
@@ -590,7 +590,7 @@
 						"resCovGraph" : 
 						{
 							"citations" : [],
-							"environmentName" : "state_3",
+							"environmentName" : "state_9",
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
@@ -607,7 +607,7 @@
 						"syntax" : 
 						{
 							"citations" : [],
-							"environmentName" : "state_4",
+							"environmentName" : "state_10",
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
@@ -973,7 +973,7 @@
 									"Front"
 								],
 								[
-									0.25435419085438071,
+									0.25435419085438077,
 									0.24133546431803299
 								],
 								[
@@ -981,7 +981,7 @@
 									0.1268974886580691
 								],
 								[
-									1.0066116401466279,
+									1.0066116401466281,
 									1.9018143453439182
 								],
 								[
@@ -989,12 +989,12 @@
 									0.057195430190053465
 								],
 								[
-									-0.30724851200508302,
-									0.014811320802749564
+									-0.25888339998847926,
+									0.026653758580643339
 								],
 								[
-									0.6947630939035957,
-									0.53328547542674398
+									0.73977456704025446,
+									0.5768376732036653
 								]
 							],
 							"error" : false,
@@ -1288,18 +1288,18 @@
 									"JaspColumn_15_Encoded"
 								],
 								[
-									0.25435419085438071,
+									0.25435419085438077,
 									0.50644848342832394,
 									0.47652519893899226
 								],
 								[
 									0.25268353822863626,
-									0.095857475915469198,
-									0.23376726447837157
+									0.095857475915469226,
+									0.23376726447837154
 								],
 								[
-									1.0066116401466279,
-									5.2833488321237425,
+									1.0066116401466281,
+									5.2833488321237407,
 									2.0384599186815611
 								],
 								[
@@ -1308,14 +1308,14 @@
 									0.041503959254918232
 								],
 								[
-									-0.30724851200508302,
-									0.32299838848544721,
-									0.0076808677581338787
+									-0.25888339998847926,
+									0.33324200386706049,
+									0.040569578695033116
 								],
 								[
-									0.6947630939035957,
-									0.64903993669257765,
-									0.94070096290859695
+									0.73977456704025446,
+									0.67179686591284737,
+									0.98938238550275204
 								]
 							],
 							"error" : false,
@@ -1721,12 +1721,15 @@
 									"type" : "ScaleContinuous"
 								}
 							},
-							"environmentName" : "plot_0",
+							"environmentName" : "plot_1",
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1757502807309.png",
+							"filePathPng" : "resources/0/_2_t1772206639991.png",
 							"height" : 480,
+							"interactive" : true,
+							"interactiveConvertError" : "",
+							"interactiveJsonData" : "resources/0/_3_t1772206640262.json",
 							"messages" : [],
 							"name" : "conceptPathPlot",
 							"nestedOptionMustBe" : 

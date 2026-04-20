@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -112,11 +112,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1770822929376.png",
+					"filePathPng" : "resources/0/_0_t1776253381272.png",
 					"height" : 320,
 					"interactive" : true,
 					"interactiveConvertError" : "",
-					"interactiveJsonData" : "resources/0/_1_t1770822929705.json",
+					"interactiveJsonData" : "resources/0/_1_t1776253381618.json",
 					"messages" : [],
 					"name" : "Creativity",
 					"nestedOptionMustBe" : {},
@@ -211,11 +211,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1770822929755.png",
+					"filePathPng" : "resources/0/_2_t1776253381735.png",
 					"height" : 320,
 					"interactive" : true,
 					"interactiveConvertError" : "",
-					"interactiveJsonData" : "resources/0/_3_t1770822929975.json",
+					"interactiveJsonData" : "resources/0/_3_t1776253381942.json",
 					"messages" : [],
 					"name" : "Position",
 					"nestedOptionMustBe" : {},
@@ -505,6 +505,7 @@
 				"percentiles" : false,
 				"quantilesForEqualGroups" : false,
 				"quantilesForEqualGroupsNumber" : 4,
+				"quantilesType" : "7",
 				"quartiles" : false,
 				"range" : false,
 				"sd" : true,
@@ -703,7 +704,7 @@
 		"paretoPlot" : false,
 		"paretoPlotRule" : false,
 		"paretoPlotRuleCi" : 0.94999999999999996,
-		"paretoPlotTurnXAxisLabels" : false,
+		"paretoPlotTiltXAxisLabels" : false,
 		"paretoShiftAccumulationLine" : false,
 		"percentileValues" : [],
 		"percentiles" : false,
@@ -711,8 +712,11 @@
 		"plotHeight" : 320,
 		"plotWidth" : 480,
 		"qqPlot" : false,
+		"qqPlotCi" : false,
+		"qqPlotCiLevel" : 0.94999999999999996,
 		"quantilesForEqualGroups" : false,
 		"quantilesForEqualGroupsNumber" : 4,
+		"quantilesType" : "7",
 		"quartiles" : false,
 		"range" : false,
 		"scatterPlot" : false,

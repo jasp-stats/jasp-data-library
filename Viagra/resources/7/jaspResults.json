@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -767,11 +767,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/7/_2_t1770822512695.png",
+							"filePathPng" : "resources/7/_2_t1776253138780.png",
 							"height" : 300,
 							"interactive" : true,
 							"interactiveConvertError" : "",
-							"interactiveJsonData" : "resources/7/_3_t1770822512886.json",
+							"interactiveJsonData" : "resources/7/_3_t1776253138977.json",
 							"messages" : [],
 							"name" : "qqPlot",
 							"nestedOptionMustBe" : {},
@@ -803,7 +803,9 @@
 					"optionMustBe" : 
 					{
 						"homogeneityTests" : true,
-						"qqPlot" : true
+						"qqPlot" : true,
+						"qqPlotCi" : false,
+						"qqPlotCiLevel" : 0.94999999999999996
 					},
 					"optionMustContain" : {},
 					"order_increment" : 2,
@@ -1247,11 +1249,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/7/_4_t1770822512998.png",
+									"filePathPng" : "resources/7/_4_t1776253139083.png",
 									"height" : 300,
 									"interactive" : true,
 									"interactiveConvertError" : "",
-									"interactiveJsonData" : "resources/7/_5_t1770822513271.json",
+									"interactiveJsonData" : "resources/7/_5_t1776253139350.json",
 									"messages" : [],
 									"name" : "",
 									"nestedOptionMustBe" : {},
@@ -2371,6 +2373,8 @@
 		"predictionsSavedToData" : false,
 		"predictionsSavedToDataColumn" : "",
 		"qqPlot" : true,
+		"qqPlotCi" : false,
+		"qqPlotCiLevel" : 0.94999999999999996,
 		"rainCloudHorizontalAxis" : "",
 		"rainCloudHorizontalAxis.types" : [],
 		"rainCloudHorizontalDisplay" : false,

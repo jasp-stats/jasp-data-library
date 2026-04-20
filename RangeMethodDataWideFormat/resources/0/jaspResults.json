@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -83,17 +83,37 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_0_t1770827446373.png",
+			"filePathPng" : "resources/0/_0_t1776252745217.png",
 			"height" : 320,
 			"interactive" : true,
 			"interactiveConvertError" : "",
-			"interactiveJsonData" : "resources/0/_1_t1770827446762.json",
+			"interactiveJsonData" : "resources/0/_1_t1776252745514.json",
 			"messages" : [],
 			"name" : "ScatterOperatorParts",
 			"nestedOptionMustBe" : {},
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
+				"measurementLongFormat" : "",
+				"measurementLongFormat.types" : [],
+				"measurementsWideFormat" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded"
+				],
+				"measurementsWideFormat.types" : 
+				[
+					"scale",
+					"scale"
+				],
+				"operators" : null,
+				"partLongFormat" : "",
+				"partLongFormat.types" : [],
+				"partWideFormat" : "JaspColumn_7_Encoded",
+				"partWideFormat.types" : 
+				[
+					"ordinal"
+				],
 				"runChartPart" : true
 			},
 			"optionMustContain" : {},
@@ -203,11 +223,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_4_t1770827447316.png",
+			"filePathPng" : "resources/0/_4_t1776252746080.png",
 			"height" : 320,
 			"interactive" : true,
 			"interactiveConvertError" : "",
-			"interactiveJsonData" : "resources/0/_5_t1770827448045.json",
+			"interactiveJsonData" : "resources/0/_5_t1776252746745.json",
 			"messages" : [],
 			"name" : "ScatterOperators",
 			"nestedOptionMustBe" : {},
@@ -215,6 +235,26 @@
 			"optionMustBe" : 
 			{
 				"gaugeRRmethod" : null,
+				"measurementLongFormat" : "",
+				"measurementLongFormat.types" : [],
+				"measurementsWideFormat" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_3_Encoded"
+				],
+				"measurementsWideFormat.types" : 
+				[
+					"scale",
+					"scale"
+				],
+				"operators" : null,
+				"partLongFormat" : "",
+				"partLongFormat.types" : [],
+				"partWideFormat" : "JaspColumn_7_Encoded",
+				"partWideFormat.types" : 
+				[
+					"ordinal"
+				],
 				"rangeScatterPlotOriginLine" : null,
 				"scatterPlotMeasurement" : true,
 				"scatterPlotMeasurementFitLine" : true
@@ -597,11 +637,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1770827446851.png",
+					"filePathPng" : "resources/0/_2_t1776252745600.png",
 					"height" : 400,
 					"interactive" : true,
 					"interactiveConvertError" : "",
-					"interactiveJsonData" : "resources/0/_3_t1770827447235.json",
+					"interactiveJsonData" : "resources/0/_3_t1776252746002.json",
 					"messages" : [],
 					"name" : "plot",
 					"nestedOptionMustBe" : {},
@@ -856,7 +896,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_6_t1770827448283.png",
+					"filePathPng" : "resources/0/_6_t1776252746962.png",
 					"height" : 320,
 					"interactive" : false,
 					"interactiveConvertError" : "",

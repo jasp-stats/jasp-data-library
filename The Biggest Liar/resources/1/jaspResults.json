@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -149,11 +149,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1770822929424.png",
+					"filePathPng" : "resources/1/_0_t1776253381314.png",
 					"height" : 400,
 					"interactive" : true,
 					"interactiveConvertError" : "",
-					"interactiveJsonData" : "resources/1/_1_t1770822929726.json",
+					"interactiveJsonData" : "resources/1/_1_t1776253381613.json",
 					"messages" : [],
 					"name" : "Position_Creativity",
 					"nestedOptionMustBe" : {},
@@ -216,7 +216,7 @@
 			"optionMustContain" : {},
 			"order_increment" : 1,
 			"position" : 3,
-			"title" : "Scatter plots",
+			"title" : "Scatter Plots",
 			"type" : "container"
 		},
 		"mainTable" : 

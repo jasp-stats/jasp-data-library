@@ -2,7 +2,7 @@
 	"citations" : 
 	[
 		"Hadley Wickham (2019). stringr: Simple, Consistent Wrappers for Common String Operations. R package version 1.4.0. https://CRAN.R-project.org/package=stringr",
-		"JASP Team (2026). JASP (Version 0.96) [Computer software].",
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software].",
 		"Martyn Plummer (2018). rjags: Bayesian Graphical Models using MCMC. R package version 4-8. https://CRAN.R-project.org/package=rjags",
 		"Martyn Plummer, Nicky Best, Kate Cowles and Karen Vines (2006). CODA: Convergence Diagnosis and Output Analysis for MCMC, R News, vol 6, 7-11",
 		"Plummer, Martyn. (2003). JAGS: A Program for Analysis of Bayesian Graphical Models using Gibbs Sampling. 3rd International Workshop on Distributed Statistical Computing (DSC 2003); Vienna, Austria. 124."
@@ -12,7 +12,7 @@
 		"__goodModel" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_6",
+			"environmentName" : "state_0",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -29,7 +29,7 @@
 		"__monitorWarning" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_7",
+			"environmentName" : "state_1",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -225,44 +225,44 @@
 							"tau"
 						],
 						[
-							0.82203584220866455,
-							0.54721072875817367,
-							49.145667417397568
+							0.82364770269256249,
+							0.54368116407359968,
+							49.122553714611584
 						],
 						[
-							0.82492781039919305,
-							0.54426158308403916,
-							48.647712338333264
+							0.82714304599776911,
+							0.54086867720780885,
+							48.612638681842185
 						],
 						[
-							0.062191261092813734,
-							0.084453028103998545,
-							9.8362357869417423
+							0.061101005988469737,
+							0.084961530374654481,
+							9.9258376989453438
 						],
 						[
-							0.6887440239389957,
-							0.39164513868866235,
-							31.222481011741934
+							0.69303940882200943,
+							0.38655682834759358,
+							31.389638441586293
 						],
 						[
-							0.93490799479109821,
-							0.72575450279279508,
-							70.089513064377343
+							0.93340526240446209,
+							0.71726356190217344,
+							70.553000097325224
 						],
 						[
-							1.0020139753096156,
-							1.0020014070423029,
-							1.0030249682802614
+							1.003060981521241,
+							1.0068226395981432,
+							1.0004277713524239
 						],
 						[
-							1.0050566910104786,
-							1.0075384545945694,
-							1.0094734355576911
+							1.0060458335271796,
+							1.0129992950532032,
+							1.0004941688169684
 						],
 						[
-							995,
-							908,
-							1442
+							893,
+							922,
+							1307
 						]
 					],
 					"error" : false,
@@ -282,7 +282,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "The multivariate potential scale reduction factor is estimated at 1.002."
+							"text" : "The multivariate potential scale reduction factor is estimated at 1.004."
 						}
 					],
 					"messages" : [],
@@ -386,11 +386,11 @@
 						"name" : "Parameter",
 						"values" : 
 						[
-							"clust",
-							"alpha",
-							"phi",
+							"mu",
 							"tau",
-							"mu"
+							"phi",
+							"clust",
+							"alpha"
 						]
 					},
 					{
@@ -424,11 +424,11 @@
 					"modelOriginal" : "model {\n\n  # Mixture Model Priors on the Model Parameters:\n  alpha ~ dunif(0, 1) # flat prior on slope for predicted effect size under H1\n  tau ~ dgamma(0.001, 0.001) # vague prior on study precision\n  phi ~ dbeta(1, 1) # flat prior on the true effect rate\n\n  # Mixture Model Likelihood:\n  for(i in 1:n) {\n    replication Effect[i] ~ dnorm(mu[i] , tau) # point prediction is mu[i]\n\n    clust[i] ~ dbern(phi)\n    # if clust[i] = 0 then H0 is true, if clust[i] = 1 then H1 is true, and\n    # the replication effect is a function of the original effect:\n\n    mu[i] <- alpha * original Effect[i] * equals(clust[i], 1)\n    # when clust[i] = 0, then mu[i] = 0;\n    # when clust[i] = 0, then mu[i] = alpha * orgEffect[i]\n    }\n}\n",
 					"parameters" : 
 					[
-						"clust",
-						"alpha",
-						"phi",
+						"mu",
 						"tau",
-						"mu"
+						"phi",
+						"clust",
+						"alpha"
 					]
 				},
 				"monitoredParametersShown" : 
@@ -483,7 +483,7 @@
 		"stateMCMC" : 
 		{
 			"citations" : [],
-			"environmentName" : "state_8",
+			"environmentName" : "state_2",
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
@@ -509,11 +509,11 @@
 						"name" : "Parameter",
 						"values" : 
 						[
-							"clust",
-							"alpha",
-							"phi",
+							"mu",
 							"tau",
-							"mu"
+							"phi",
+							"clust",
+							"alpha"
 						]
 					},
 					{
@@ -547,11 +547,11 @@
 					"modelOriginal" : "model {\n\n  # Mixture Model Priors on the Model Parameters:\n  alpha ~ dunif(0, 1) # flat prior on slope for predicted effect size under H1\n  tau ~ dgamma(0.001, 0.001) # vague prior on study precision\n  phi ~ dbeta(1, 1) # flat prior on the true effect rate\n\n  # Mixture Model Likelihood:\n  for(i in 1:n) {\n    replication Effect[i] ~ dnorm(mu[i] , tau) # point prediction is mu[i]\n\n    clust[i] ~ dbern(phi)\n    # if clust[i] = 0 then H0 is true, if clust[i] = 1 then H1 is true, and\n    # the replication effect is a function of the original effect:\n\n    mu[i] <- alpha * original Effect[i] * equals(clust[i], 1)\n    # when clust[i] = 0, then mu[i] = 0;\n    # when clust[i] = 0, then mu[i] = alpha * orgEffect[i]\n    }\n}\n",
 					"parameters" : 
 					[
-						"clust",
-						"alpha",
-						"phi",
+						"mu",
 						"tau",
-						"mu"
+						"phi",
+						"clust",
+						"alpha"
 					]
 				},
 				"monitoredParametersShown" : 
@@ -707,11 +707,11 @@
 				"name" : "Parameter",
 				"values" : 
 				[
-					"clust",
-					"alpha",
-					"phi",
+					"mu",
 					"tau",
-					"mu"
+					"phi",
+					"clust",
+					"alpha"
 				]
 			},
 			{
@@ -746,11 +746,11 @@
 			"modelOriginal" : "model {\n\n  # Mixture Model Priors on the Model Parameters:\n  alpha ~ dunif(0, 1) # flat prior on slope for predicted effect size under H1\n  tau ~ dgamma(0.001, 0.001) # vague prior on study precision\n  phi ~ dbeta(1, 1) # flat prior on the true effect rate\n\n  # Mixture Model Likelihood:\n  for(i in 1:n) {\n    replication Effect[i] ~ dnorm(mu[i] , tau) # point prediction is mu[i]\n\n    clust[i] ~ dbern(phi)\n    # if clust[i] = 0 then H0 is true, if clust[i] = 1 then H1 is true, and\n    # the replication effect is a function of the original effect:\n\n    mu[i] <- alpha * original Effect[i] * equals(clust[i], 1)\n    # when clust[i] = 0, then mu[i] = 0;\n    # when clust[i] = 0, then mu[i] = alpha * orgEffect[i]\n    }\n}\n",
 			"parameters" : 
 			[
-				"clust",
-				"alpha",
-				"phi",
+				"mu",
 				"tau",
-				"mu"
+				"phi",
+				"clust",
+				"alpha"
 			]
 		},
 		"monitoredParameters" : [],

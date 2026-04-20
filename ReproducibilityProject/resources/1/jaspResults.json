@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -19,11 +19,11 @@
 						"errorType" : "validationError",
 						"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
 					},
-					"environmentName" : "plot_2",
+					"environmentName" : "plot_0",
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_2_t1772207616027.png",
+					"filePathPng" : "resources/1/_0_t1776252960187.png",
 					"height" : 320,
 					"interactive" : false,
 					"interactiveConvertError" : "",
@@ -559,7 +559,7 @@
 		"paretoPlot" : false,
 		"paretoPlotRule" : false,
 		"paretoPlotRuleCi" : 0.94999999999999996,
-		"paretoPlotTurnXAxisLabels" : false,
+		"paretoPlotTiltXAxisLabels" : false,
 		"paretoShiftAccumulationLine" : false,
 		"percentileValues" : [],
 		"percentiles" : false,
@@ -567,6 +567,8 @@
 		"plotHeight" : 320,
 		"plotWidth" : 480,
 		"qqPlot" : false,
+		"qqPlotCi" : false,
+		"qqPlotCiLevel" : 0.94999999999999996,
 		"quantilesForEqualGroups" : false,
 		"quantilesForEqualGroupsNumber" : 4,
 		"quantilesType" : "7",

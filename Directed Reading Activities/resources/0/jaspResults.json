@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -500,7 +500,9 @@
 				"naAction" : "perDependent",
 				"normalityTest" : true,
 				"pairs" : null,
-				"qqPlot" : false
+				"qqPlot" : false,
+				"qqPlotCi" : false,
+				"qqPlotCiLevel" : 0.94999999999999996
 			},
 			"optionMustContain" : {},
 			"order_increment" : 2,
@@ -937,11 +939,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1770822303876.png",
+							"filePathPng" : "resources/0/_0_t1776252793799.png",
 							"height" : 320,
 							"interactive" : true,
 							"interactiveConvertError" : "",
-							"interactiveJsonData" : "resources/0/_1_t1770822304400.json",
+							"interactiveJsonData" : "resources/0/_1_t1776252794338.json",
 							"messages" : [],
 							"name" : "drp",
 							"nestedOptionMustBe" : {},
@@ -1359,6 +1361,8 @@
 		"plotHeight" : 300,
 		"plotWidth" : 350,
 		"qqPlot" : false,
+		"qqPlotCi" : false,
+		"qqPlotCiLevel" : 0.94999999999999996,
 		"raincloudPlot" : false,
 		"raincloudPlotHorizontal" : false,
 		"student" : true,

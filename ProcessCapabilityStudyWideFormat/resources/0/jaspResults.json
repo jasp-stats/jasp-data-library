@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -28,7 +28,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_3_t1770827428691.png",
+							"filePathPng" : "resources/0/_3_t1776252728771.png",
 							"height" : 500,
 							"interactive" : false,
 							"interactiveConvertError" : "",
@@ -1167,7 +1167,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/0/_1_t1770827427842.png",
+			"filePathPng" : "resources/0/_1_t1776252728040.png",
 			"height" : 400,
 			"interactive" : false,
 			"interactiveConvertError" : "",
@@ -1256,7 +1256,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1770827428236.png",
+					"filePathPng" : "resources/0/_2_t1776252728379.png",
 					"height" : 600,
 					"interactive" : false,
 					"interactiveConvertError" : "",
@@ -1606,7 +1606,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1770827427268.png",
+					"filePathPng" : "resources/0/_0_t1776252727415.png",
 					"height" : 500,
 					"interactive" : false,
 					"interactiveConvertError" : "",
@@ -2180,6 +2180,22 @@
 		"histogramBinBoundaryDirection" : "left",
 		"histogramBinNumber" : 10.0,
 		"histogramDensityLine" : true,
+		"historicalLocation" : false,
+		"historicalLocationValue" : 1.0,
+		"historicalLogMean" : false,
+		"historicalLogMeanValue" : 1.0,
+		"historicalLogStdDev" : false,
+		"historicalLogStdDevValue" : 1.0,
+		"historicalMean" : false,
+		"historicalMeanValue" : 0.0,
+		"historicalScale" : false,
+		"historicalScaleValue" : 1.0,
+		"historicalShape" : false,
+		"historicalShapeValue" : 1.0,
+		"historicalStdDev" : false,
+		"historicalStdDevValue" : 1.0,
+		"historicalThreshold" : false,
+		"historicalThresholdValue" : 1.0,
 		"lowerSpecificationLimit" : true,
 		"lowerSpecificationLimitBoundary" : false,
 		"lowerSpecificationLimitValue" : -16.0,

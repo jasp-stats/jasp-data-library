@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -795,19 +795,19 @@
 						],
 						[
 							0.0055868751594596528,
-							"",
+							0.0087053835520247251,
 							0.10102249337037947,
 							0.067255048591668448
 						],
 						[
 							0.80988613636978446,
-							"",
+							0.35118215154900662,
 							23.670922149576427,
 							4.9860733890542628
 						],
 						[
 							0.83178628456710912,
-							"",
+							0.38530662801615828,
 							24.06692304684519,
 							5.2663373936717903
 						]
@@ -817,15 +817,7 @@
 					"escapeHtml" : true,
 					"expectedColumnCount" : 0,
 					"expectedRowCount" : 0,
-					"footnotes" : 
-					[
-						{
-							"cols" : null,
-							"rows" : null,
-							"symbol" : "<em>Note.</em>",
-							"text" : " The standard error of the average interitem correlation is not available. "
-						}
-					],
+					"footnotes" : [],
 					"messages" : [],
 					"name" : "scaleTable",
 					"nestedOptionMustBe" : {},

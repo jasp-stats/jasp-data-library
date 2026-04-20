@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -128,6 +128,8 @@
 						"squaredTerms" : [],
 						"squaredTerms.types" : [],
 						"squaredTermsCoded" : false,
+						"stepwiseMethodFactorial" : "enter",
+						"stepwiseMethodResponseSurface" : "enter",
 						"sumOfSquaresType" : "type3"
 					},
 					"optionMustContain" : {},
@@ -253,6 +255,8 @@
 						"squaredTerms" : [],
 						"squaredTerms.types" : [],
 						"squaredTermsCoded" : false,
+						"stepwiseMethodFactorial" : "enter",
+						"stepwiseMethodResponseSurface" : "enter",
 						"sumOfSquaresType" : "type3"
 					},
 					"optionMustContain" : {},
@@ -638,6 +642,8 @@
 						"squaredTerms" : [],
 						"squaredTerms.types" : [],
 						"squaredTermsCoded" : false,
+						"stepwiseMethodFactorial" : "enter",
+						"stepwiseMethodResponseSurface" : "enter",
 						"sumOfSquaresType" : "type3"
 					},
 					"optionMustContain" : {},
@@ -1053,6 +1059,8 @@
 						"squaredTerms" : [],
 						"squaredTerms.types" : [],
 						"squaredTermsCoded" : false,
+						"stepwiseMethodFactorial" : "enter",
+						"stepwiseMethodResponseSurface" : "enter",
 						"sumOfSquaresType" : "type3",
 						"tableAlias" : false,
 						"tableEquation" : false
@@ -1388,6 +1396,8 @@
 						"squaredTerms" : [],
 						"squaredTerms.types" : [],
 						"squaredTermsCoded" : false,
+						"stepwiseMethodFactorial" : "enter",
+						"stepwiseMethodResponseSurface" : "enter",
 						"sumOfSquaresType" : "type3"
 					},
 					"optionMustContain" : {},
@@ -1707,6 +1717,8 @@
 		"squaredTerms" : [],
 		"squaredTerms.types" : [],
 		"squaredTermsCoded" : false,
+		"stepwiseMethodFactorial" : "enter",
+		"stepwiseMethodResponseSurface" : "enter",
 		"sumOfSquaresType" : "type3",
 		"surfacePlotHorizontalRotation" : 330.0,
 		"surfacePlotVerticalRotation" : 20.0,

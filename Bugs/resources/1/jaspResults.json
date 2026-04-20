@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -301,6 +301,8 @@
 					{
 						"homogeneityTests" : true,
 						"qqPlot" : false,
+						"qqPlotCi" : false,
+						"qqPlotCiLevel" : 0.94999999999999996,
 						"sphericityTests" : false
 					},
 					"optionMustContain" : {},
@@ -717,11 +719,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_0_t1770822400603.png",
+									"filePathPng" : "resources/1/_0_t1776253030107.png",
 									"height" : 300,
 									"interactive" : true,
 									"interactiveConvertError" : "",
-									"interactiveJsonData" : "resources/1/_1_t1770822401190.json",
+									"interactiveJsonData" : "resources/1/_1_t1776253030585.json",
 									"messages" : [],
 									"name" : "Gender: Female",
 									"nestedOptionMustBe" : {},
@@ -813,11 +815,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_2_t1770822401232.png",
+									"filePathPng" : "resources/1/_2_t1776253030629.png",
 									"height" : 300,
 									"interactive" : true,
 									"interactiveConvertError" : "",
-									"interactiveJsonData" : "resources/1/_3_t1770822401613.json",
+									"interactiveJsonData" : "resources/1/_3_t1776253031142.json",
 									"messages" : [],
 									"name" : "Gender: Male",
 									"nestedOptionMustBe" : {},
@@ -1941,6 +1943,8 @@
 		"postHocTerms" : [],
 		"postHocTerms.types" : [],
 		"qqPlot" : false,
+		"qqPlotCi" : false,
+		"qqPlotCiLevel" : 0.94999999999999996,
 		"rainCloudHorizontalAxis" : "",
 		"rainCloudHorizontalAxis.types" : [],
 		"rainCloudHorizontalDisplay" : false,

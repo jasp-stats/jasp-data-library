@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -350,7 +350,9 @@
 					"optionMustBe" : 
 					{
 						"homogeneityTests" : false,
-						"qqPlot" : false
+						"qqPlot" : false,
+						"qqPlotCi" : false,
+						"qqPlotCiLevel" : 0.94999999999999996
 					},
 					"optionMustContain" : {},
 					"order_increment" : 0,
@@ -442,11 +444,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/4/_0_t1770822511123.png",
+									"filePathPng" : "resources/4/_0_t1776253137447.png",
 									"height" : 300,
 									"interactive" : true,
 									"interactiveConvertError" : "",
-									"interactiveJsonData" : "resources/4/_1_t1770822511524.json",
+									"interactiveJsonData" : "resources/4/_1_t1776253137833.json",
 									"messages" : [],
 									"name" : "",
 									"nestedOptionMustBe" : {},
@@ -1182,6 +1184,8 @@
 		"predictionsSavedToData" : false,
 		"predictionsSavedToDataColumn" : "",
 		"qqPlot" : false,
+		"qqPlotCi" : false,
+		"qqPlotCiLevel" : 0.94999999999999996,
 		"rainCloudHorizontalAxis" : "",
 		"rainCloudHorizontalAxis.types" : [],
 		"rainCloudHorizontalDisplay" : false,

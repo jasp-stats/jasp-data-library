@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,7 +18,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_1_t1772207796078.png",
+			"filePathPng" : "resources/2/_1_t1776253004511.png",
 			"height" : 520,
 			"interactive" : false,
 			"interactiveConvertError" : "",
@@ -214,12 +214,12 @@
 					0
 				],
 				[
-					47.830823155217821,
-					54.268730022378875
+					47.830823155302809,
+					54.268730022323943
 				],
 				[
-					26.935726689885946,
-					16.769239493426749
+					26.935726689918788,
+					16.76923949338687
 				]
 			],
 			"error" : false,
@@ -453,7 +453,7 @@
 		"paretoPlot" : false,
 		"paretoPlotRule" : false,
 		"paretoPlotRuleCi" : 0.94999999999999996,
-		"paretoPlotTurnXAxisLabels" : false,
+		"paretoPlotTiltXAxisLabels" : false,
 		"paretoShiftAccumulationLine" : false,
 		"percentileValues" : [],
 		"percentiles" : false,
@@ -461,6 +461,8 @@
 		"plotHeight" : 320,
 		"plotWidth" : 480,
 		"qqPlot" : false,
+		"qqPlotCi" : false,
+		"qqPlotCiLevel" : 0.94999999999999996,
 		"quantilesForEqualGroups" : false,
 		"quantilesForEqualGroupsNumber" : 4,
 		"quantilesType" : "7",

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -121,11 +121,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_3_t1770822947367.png",
+							"filePathPng" : "resources/1/_3_t1776253398812.png",
 							"height" : 320,
 							"interactive" : true,
 							"interactiveConvertError" : "",
-							"interactiveJsonData" : "resources/1/_4_t1770822947575.json",
+							"interactiveJsonData" : "resources/1/_4_t1776253399126.json",
 							"messages" : [],
 							"name" : "quantileResidualQqPlot",
 							"nestedOptionMustBe" : {},
@@ -308,7 +308,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1770822946296.png",
+							"filePathPng" : "resources/1/_0_t1776253397737.png",
 							"height" : 320,
 							"interactive" : true,
 							"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: No method asJSON S3 class: expression",
@@ -497,7 +497,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_7_t1770822947885.png",
+							"filePathPng" : "resources/1/_7_t1776253399458.png",
 							"height" : 320,
 							"interactive" : true,
 							"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: No method asJSON S3 class: expression",
@@ -715,9 +715,9 @@
 									11
 								],
 								[
-									2.1069828442210503,
-									-1.3690666036531489,
-									-1.0899112138778237
+									2.1069828443217471,
+									-1.3690666037449268,
+									-1.0899112136517768
 								]
 							],
 							"error" : false,
@@ -986,11 +986,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_5_t1770822947619.png",
+							"filePathPng" : "resources/1/_5_t1776253399173.png",
 							"height" : 320,
 							"interactive" : true,
 							"interactiveConvertError" : "",
-							"interactiveJsonData" : "resources/1/_6_t1770822947843.json",
+							"interactiveJsonData" : "resources/1/_6_t1776253399416.json",
 							"messages" : [],
 							"name" : "Hours",
 							"nestedOptionMustBe" : {},
@@ -1169,11 +1169,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_1_t1770822947050.png",
+							"filePathPng" : "resources/1/_1_t1776253398496.png",
 							"height" : 320,
 							"interactive" : true,
 							"interactiveConvertError" : "",
-							"interactiveJsonData" : "resources/1/_2_t1770822947308.json",
+							"interactiveJsonData" : "resources/1/_2_t1776253398747.json",
 							"messages" : [],
 							"name" : "Hours",
 							"nestedOptionMustBe" : {},
@@ -1452,28 +1452,28 @@
 					"JaspColumn_3_Encoded"
 				],
 				[
-					-3.9235965550609677,
-					0.00099923723100730859
+					-3.9235965548889711,
+					0.00099923723095283914
 				],
 				[
-					0.37795894469863134,
-					0.00011415049971377844
+					0.37795894468586,
+					0.00011415049971060442
 				],
 				[
-					-10.381012567884799,
-					8.7536824938375322
+					-10.381012567780509,
+					8.7536824936037618
 				],
 				[
-					3.0254903734942669e-25,
-					2.0650153577930626e-18
+					3.0254903767996234e-25,
+					2.0650153620726033e-18
 				],
 				[
-					-4.7044792292466875,
-					0.00078338100386343213
+					-4.7044792290470747,
+					0.00078338100381454545
 				],
 				[
-					-3.2190913946642268,
-					0.0012318787178482696
+					-3.2190913945149089,
+					0.0012318787177868851
 				]
 			],
 			"error" : false,
@@ -1779,16 +1779,16 @@
 					"Pearson"
 				],
 				[
-					10.331465659416898,
-					9.2508386656651655
+					10.331465658244824,
+					9.2508386643123508
 				],
 				[
 					9,
 					9
 				],
 				[
-					0.32432358592463573,
-					0.41444932982748778
+					0.32432358601474998,
+					0.41444932994877043
 				]
 			],
 			"error" : false,
@@ -2049,15 +2049,15 @@
 					"H\u2081"
 				],
 				[
-					112.67004915668502,
-					10.331465659416898
+					112.6700491472466,
+					10.331465658244824
 				],
 				[
-					150.1467687369902,
-					49.808185239722093
+					150.14676873699017,
+					49.8081852397221
 				],
 				[
-					150.54466400978856,
+					150.54466400978853,
 					50.603975785318838
 				],
 				[
@@ -2066,11 +2066,11 @@
 				],
 				[
 					"",
-					102.33858349726813
+					102.33858348900178
 				],
 				[
 					"",
-					4.679878746080615e-24
+					4.6798787656088646e-24
 				]
 			],
 			"error" : false,

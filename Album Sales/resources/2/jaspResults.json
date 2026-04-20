@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -469,17 +469,17 @@
 						[
 							193.19999999999999,
 							134.13993781207427,
-							0.096124485973877086
+							0.096124485973877113
 						],
 						[
 							5.706277949784865,
 							7.5365746794719914,
-							0.0096323662152301964
+							0.0096323662152301981
 						],
 						[
 							null,
 							null,
-							0.57848774198168917
+							0.57848774198168929
 						],
 						[
 							33.857446430082135,
@@ -494,12 +494,12 @@
 						[
 							181.94746785360226,
 							119.2776808211369,
-							0.077129291444523129
+							0.077129291444523143
 						],
 						[
 							204.45253214639771,
 							149.00219480301163,
-							0.11511968050323104
+							0.11511968050323108
 						],
 						[
 							null,
@@ -1109,6 +1109,8 @@
 		"plotWidth" : 480,
 		"predictionsSavedToData" : false,
 		"predictionsSavedToDataColumn" : "",
+		"qqPlotCi" : false,
+		"qqPlotCiLevel" : 0.94999999999999996,
 		"quadraticTerms" : false,
 		"rSquaredChange" : false,
 		"residualCasewiseDiagnostic" : false,

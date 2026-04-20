@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -88,11 +88,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/1/_0_t1770822435945.png",
+					"filePathPng" : "resources/1/_0_t1776253064746.png",
 					"height" : 320,
 					"interactive" : true,
 					"interactiveConvertError" : "",
-					"interactiveJsonData" : "resources/1/_1_t1770822436360.json",
+					"interactiveJsonData" : "resources/1/_1_t1776253065250.json",
 					"messages" : [],
 					"name" : "Score",
 					"nestedOptionMustBe" : {},
@@ -133,6 +133,7 @@
 			"optionMustBe" : 
 			{
 				"boxPlot" : true,
+				"quantilesType" : "7",
 				"splitBy" : "JaspColumn_2_Encoded",
 				"splitBy.types" : 
 				[
@@ -441,6 +442,7 @@
 				"percentiles" : false,
 				"quantilesForEqualGroups" : false,
 				"quantilesForEqualGroupsNumber" : 4,
+				"quantilesType" : "7",
 				"quartiles" : false,
 				"range" : false,
 				"sd" : true,
@@ -645,7 +647,7 @@
 		"paretoPlot" : false,
 		"paretoPlotRule" : false,
 		"paretoPlotRuleCi" : 0.94999999999999996,
-		"paretoPlotTurnXAxisLabels" : false,
+		"paretoPlotTiltXAxisLabels" : false,
 		"paretoShiftAccumulationLine" : false,
 		"percentileValues" : [],
 		"percentiles" : false,
@@ -653,8 +655,11 @@
 		"plotHeight" : 320,
 		"plotWidth" : 480,
 		"qqPlot" : false,
+		"qqPlotCi" : false,
+		"qqPlotCiLevel" : 0.94999999999999996,
 		"quantilesForEqualGroups" : false,
 		"quantilesForEqualGroupsNumber" : 4,
+		"quantilesType" : "7",
 		"quartiles" : false,
 		"range" : false,
 		"scatterPlot" : false,

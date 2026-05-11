@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.97) [Computer software]."
 	],
 	"data" : 
 	{
@@ -18,7 +18,7 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_0_t1776252592803.png",
+			"filePathPng" : "resources/2/_0_t1778166610175.png",
 			"height" : 320,
 			"interactive" : true,
 			"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\"",
@@ -222,20 +222,20 @@
 							"2020-08-13"
 						],
 						[
-							-0.97708038664069075,
-							2.4520858165047774
+							-0.97738208427545059,
+							2.4496488413254016
 						],
 						[
-							0.077428863352776739,
-							0.14030130805519356
+							0.077650921558548122,
+							0.14295239947500493
 						],
 						[
-							-1.1273517708802672,
-							2.1748633590008906
+							-1.1304140717564701,
+							2.1658298239494695
 						],
 						[
-							-0.82210082684619634,
-							2.7280737756043476
+							-0.82469649320366145,
+							2.7336087778719373
 						]
 					],
 					"error" : false,
@@ -378,7 +378,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_1_t1776252593004.png",
+							"filePathPng" : "resources/2/_1_t1778166610388.png",
 							"height" : 320,
 							"interactive" : true,
 							"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\"",
@@ -420,7 +420,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_2_t1776252593236.png",
+							"filePathPng" : "resources/2/_2_t1778166610631.png",
 							"height" : 320,
 							"interactive" : true,
 							"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\"",
@@ -630,20 +630,20 @@
 							14.0
 						],
 						[
-							0.11114167760742037,
-							0.11670348857059276,
-							0.10504291670031043,
-							0.14764638055968482,
-							0.14997583744903686,
-							0.15413030582018067,
-							0.17665915672989199,
-							0.15977421151540683,
-							0.15369804051568786,
-							0.14606838195936392,
-							0.18942258592481576,
-							0.18123938659250305,
-							0.19577981739198749,
-							0.20792315436294617
+							0.11099979153264425,
+							0.11613622187193601,
+							0.1051482452896476,
+							0.14771089690775813,
+							0.14990505556542114,
+							0.15400548082625298,
+							0.17671420520763001,
+							0.15937857694651705,
+							0.15408562672707032,
+							0.14604230573203428,
+							0.18933958583507107,
+							0.18158998190460141,
+							0.19598367907039202,
+							0.20778088055906122
 						]
 					],
 					"error" : false,
@@ -743,6 +743,7 @@
 											{
 												"breaks" : 
 												[
+													0.29999999999999999,
 													0.40000000000000002,
 													0.5,
 													0.59999999999999998,
@@ -759,6 +760,7 @@
 												],
 												"labels" : 
 												[
+													"0.3",
 													"0.4",
 													"0.5",
 													"0.6",
@@ -767,13 +769,13 @@
 												],
 												"limits" : 
 												[
-													0.40000000000000002,
+													0.29999999999999999,
 													0.80000000000000004
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
-													0.40000000000000002,
+													0.29999999999999999,
 													0.80000000000000004,
 													0.10000000000000001
 												],
@@ -836,11 +838,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_4_t1776252593649.png",
+									"filePathPng" : "resources/2/_4_t1778166611072.png",
 									"height" : 320,
 									"interactive" : true,
 									"interactiveConvertError" : "",
-									"interactiveJsonData" : "resources/2/_5_t1776252593907.json",
+									"interactiveJsonData" : "resources/2/_5_t1778166611342.json",
 									"messages" : [],
 									"name" : "k",
 									"nestedOptionMustBe" : {},
@@ -868,6 +870,7 @@
 											{
 												"breaks" : 
 												[
+													0.17999999999999999,
 													0.20000000000000001,
 													0.22,
 													0.23999999999999999,
@@ -885,6 +888,7 @@
 												],
 												"labels" : 
 												[
+													"0.18",
 													"0.20",
 													"0.22",
 													"0.24",
@@ -894,13 +898,13 @@
 												],
 												"limits" : 
 												[
-													0.20000000000000001,
+													0.17999999999999999,
 													0.29999999999999999
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
-													0.20000000000000001,
+													0.17999999999999999,
 													0.29999999999999999,
 													0.02
 												],
@@ -959,11 +963,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_6_t1776252593938.png",
+									"filePathPng" : "resources/2/_6_t1778166611375.png",
 									"height" : 320,
 									"interactive" : true,
 									"interactiveConvertError" : "",
-									"interactiveJsonData" : "resources/2/_7_t1776252594179.json",
+									"interactiveJsonData" : "resources/2/_7_t1778166611613.json",
 									"messages" : [],
 									"name" : "m",
 									"nestedOptionMustBe" : {},
@@ -1043,9 +1047,13 @@
 												"breaks" : 
 												[
 													0,
-													50,
+													20,
+													40,
+													60,
+													80,
 													100,
-													150
+													120,
+													140
 												],
 												"breaksType" : "range",
 												"expand" : 
@@ -1058,21 +1066,25 @@
 												"labels" : 
 												[
 													"0",
-													"50",
+													"20",
+													"40",
+													"60",
+													"80",
 													"100",
-													"150"
+													"120",
+													"140"
 												],
 												"limits" : 
 												[
 													0,
-													150
+													140
 												],
 												"limitsType" : "breaks",
 												"range" : 
 												[
 													0,
-													150,
-													50
+													140,
+													20
 												],
 												"title" : "Density",
 												"titleType" : "character"
@@ -1084,11 +1096,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/2/_8_t1776252594210.png",
+									"filePathPng" : "resources/2/_8_t1778166611646.png",
 									"height" : 320,
 									"interactive" : true,
 									"interactiveConvertError" : "",
-									"interactiveJsonData" : "resources/2/_9_t1776252594443.json",
+									"interactiveJsonData" : "resources/2/_9_t1778166611873.json",
 									"messages" : [],
 									"name" : "sigma_obs",
 									"nestedOptionMustBe" : {},
@@ -1166,7 +1178,7 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/2/_3_t1776252593449.png",
+							"filePathPng" : "resources/2/_3_t1778166610852.png",
 							"height" : 320,
 							"interactive" : true,
 							"interactiveConvertError" : "The following error occured while converting a ggplot to plotly: no applicable method for 'getAxisInfo' applied to an object of class \"c('ScaleContinuousDatetime', 'ScaleContinuous', 'Scale', 'ggproto', 'gg')\"",
@@ -1385,39 +1397,39 @@
 							"Residual variance (sigma)"
 						],
 						[
-							0.58058548008915445,
-							0.24671316577352728,
-							0.071536669364120689
+							0.58084284056917146,
+							0.24675874475510942,
+							0.071585417167094448
 						],
 						[
-							0.044429532484937771,
-							0.011937489020561458,
-							0.0032942109777064368
+							0.044531597509279972,
+							0.011932228869137737,
+							0.0033282090253106515
 						],
 						[
-							0.49147608078284877,
-							0.22331932913000718,
-							0.065529243474571411
+							0.49475231608440023,
+							0.22321964230429853,
+							0.065274465673223453
 						],
 						[
-							0.66647336256219791,
-							0.26980502561905478,
-							0.0782160439820139
+							0.66962110621684501,
+							0.2703697043291568,
+							0.078634709453966098
 						],
 						[
-							1.0020048397075694,
-							1.0024153629045669,
-							1.00061653522067
+							1.0012815846391094,
+							1.0008617643386377,
+							1.0006605317106578
 						],
 						[
-							1617.0,
-							1976.0,
-							3979.0
+							1608.0,
+							1954.0,
+							3789.0
 						],
 						[
-							2123.0,
-							2717.0,
-							2888.0
+							2262.0,
+							2400.0,
+							3111.0
 						]
 					],
 					"error" : false,

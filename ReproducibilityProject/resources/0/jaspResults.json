@@ -2,7 +2,7 @@
 	"citations" : 
 	[
 		"Hadley Wickham (2019). stringr: Simple, Consistent Wrappers for Common String Operations. R package version 1.4.0. https://CRAN.R-project.org/package=stringr",
-		"JASP Team (2026). JASP (Version 0.96.1) [Computer software].",
+		"JASP Team (2026). JASP (Version 0.97) [Computer software].",
 		"Martyn Plummer (2018). rjags: Bayesian Graphical Models using MCMC. R package version 4-8. https://CRAN.R-project.org/package=rjags",
 		"Martyn Plummer, Nicky Best, Kate Cowles and Karen Vines (2006). CODA: Convergence Diagnosis and Output Analysis for MCMC, R News, vol 6, 7-11",
 		"Plummer, Martyn. (2003). JAGS: A Program for Analysis of Bayesian Graphical Models using Gibbs Sampling. 3rd International Workshop on Distributed Statistical Computing (DSC 2003); Vienna, Austria. 124."
@@ -225,44 +225,44 @@
 							"tau"
 						],
 						[
-							0.82364770269256249,
-							0.54368116407359968,
-							49.122553714611584
+							0.82670038975759697,
+							0.54317231929203247,
+							49.582322472044616
 						],
 						[
-							0.82714304599776911,
-							0.54086867720780885,
-							48.612638681842185
+							0.82935249146606382,
+							0.53929706276965084,
+							49.101588093671452
 						],
 						[
-							0.061101005988469737,
-							0.084961530374654481,
-							9.9258376989453438
+							0.061944255072028886,
+							0.08403179544793192,
+							9.9653920253746495
 						],
 						[
-							0.69303940882200943,
-							0.38655682834759358,
-							31.389638441586293
+							0.69715836550793153,
+							0.39024374888336655,
+							31.682573324050519
 						],
 						[
-							0.93340526240446209,
-							0.71726356190217344,
-							70.553000097325224
+							0.93817694173889865,
+							0.71907507175423624,
+							70.318648358260901
 						],
 						[
-							1.003060981521241,
-							1.0068226395981432,
-							1.0004277713524239
+							1.0125624952038814,
+							1.010937789916291,
+							1.0064694166006514
 						],
 						[
-							1.0060458335271796,
-							1.0129992950532032,
-							1.0004941688169684
+							1.042483900419179,
+							1.0337915007011609,
+							1.0240087528639823
 						],
 						[
-							893,
-							922,
-							1307
+							1009,
+							932,
+							1600
 						]
 					],
 					"error" : false,
@@ -282,7 +282,7 @@
 							"cols" : null,
 							"rows" : null,
 							"symbol" : "<em>Note.</em>",
-							"text" : "The multivariate potential scale reduction factor is estimated at 1.004."
+							"text" : "The multivariate potential scale reduction factor is estimated at 1.013."
 						}
 					],
 					"messages" : [],
@@ -386,11 +386,11 @@
 						"name" : "Parameter",
 						"values" : 
 						[
-							"mu",
-							"tau",
-							"phi",
+							"alpha",
 							"clust",
-							"alpha"
+							"phi",
+							"mu",
+							"tau"
 						]
 					},
 					{
@@ -424,11 +424,11 @@
 					"modelOriginal" : "model {\n\n  # Mixture Model Priors on the Model Parameters:\n  alpha ~ dunif(0, 1) # flat prior on slope for predicted effect size under H1\n  tau ~ dgamma(0.001, 0.001) # vague prior on study precision\n  phi ~ dbeta(1, 1) # flat prior on the true effect rate\n\n  # Mixture Model Likelihood:\n  for(i in 1:n) {\n    replication Effect[i] ~ dnorm(mu[i] , tau) # point prediction is mu[i]\n\n    clust[i] ~ dbern(phi)\n    # if clust[i] = 0 then H0 is true, if clust[i] = 1 then H1 is true, and\n    # the replication effect is a function of the original effect:\n\n    mu[i] <- alpha * original Effect[i] * equals(clust[i], 1)\n    # when clust[i] = 0, then mu[i] = 0;\n    # when clust[i] = 0, then mu[i] = alpha * orgEffect[i]\n    }\n}\n",
 					"parameters" : 
 					[
-						"mu",
-						"tau",
-						"phi",
+						"alpha",
 						"clust",
-						"alpha"
+						"phi",
+						"mu",
+						"tau"
 					]
 				},
 				"monitoredParametersShown" : 
@@ -509,11 +509,11 @@
 						"name" : "Parameter",
 						"values" : 
 						[
-							"mu",
-							"tau",
-							"phi",
+							"alpha",
 							"clust",
-							"alpha"
+							"phi",
+							"mu",
+							"tau"
 						]
 					},
 					{
@@ -547,11 +547,11 @@
 					"modelOriginal" : "model {\n\n  # Mixture Model Priors on the Model Parameters:\n  alpha ~ dunif(0, 1) # flat prior on slope for predicted effect size under H1\n  tau ~ dgamma(0.001, 0.001) # vague prior on study precision\n  phi ~ dbeta(1, 1) # flat prior on the true effect rate\n\n  # Mixture Model Likelihood:\n  for(i in 1:n) {\n    replication Effect[i] ~ dnorm(mu[i] , tau) # point prediction is mu[i]\n\n    clust[i] ~ dbern(phi)\n    # if clust[i] = 0 then H0 is true, if clust[i] = 1 then H1 is true, and\n    # the replication effect is a function of the original effect:\n\n    mu[i] <- alpha * original Effect[i] * equals(clust[i], 1)\n    # when clust[i] = 0, then mu[i] = 0;\n    # when clust[i] = 0, then mu[i] = alpha * orgEffect[i]\n    }\n}\n",
 					"parameters" : 
 					[
-						"mu",
-						"tau",
-						"phi",
+						"alpha",
 						"clust",
-						"alpha"
+						"phi",
+						"mu",
+						"tau"
 					]
 				},
 				"monitoredParametersShown" : 
@@ -707,11 +707,11 @@
 				"name" : "Parameter",
 				"values" : 
 				[
-					"mu",
-					"tau",
-					"phi",
+					"alpha",
 					"clust",
-					"alpha"
+					"phi",
+					"mu",
+					"tau"
 				]
 			},
 			{
@@ -746,11 +746,11 @@
 			"modelOriginal" : "model {\n\n  # Mixture Model Priors on the Model Parameters:\n  alpha ~ dunif(0, 1) # flat prior on slope for predicted effect size under H1\n  tau ~ dgamma(0.001, 0.001) # vague prior on study precision\n  phi ~ dbeta(1, 1) # flat prior on the true effect rate\n\n  # Mixture Model Likelihood:\n  for(i in 1:n) {\n    replication Effect[i] ~ dnorm(mu[i] , tau) # point prediction is mu[i]\n\n    clust[i] ~ dbern(phi)\n    # if clust[i] = 0 then H0 is true, if clust[i] = 1 then H1 is true, and\n    # the replication effect is a function of the original effect:\n\n    mu[i] <- alpha * original Effect[i] * equals(clust[i], 1)\n    # when clust[i] = 0, then mu[i] = 0;\n    # when clust[i] = 0, then mu[i] = alpha * orgEffect[i]\n    }\n}\n",
 			"parameters" : 
 			[
-				"mu",
-				"tau",
-				"phi",
+				"alpha",
 				"clust",
-				"alpha"
+				"phi",
+				"mu",
+				"tau"
 			]
 		},
 		"monitoredParameters" : [],

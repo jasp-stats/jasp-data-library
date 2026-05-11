@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.96.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.97) [Computer software]."
 	],
 	"data" : 
 	{
@@ -49,8 +49,8 @@
 								],
 								"limits" : 
 								[
-									-0.054951906281833801,
-									5.0543197869167997
+									-0.0537447110594561,
+									5.05387073918246
 								],
 								"limitsType" : "data",
 								"range" : 
@@ -94,7 +94,7 @@
 								],
 								"limits" : 
 								[
-									1.70712271850556,
+									1.71240810042247,
 									4.1358012552841004
 								],
 								"limitsType" : "data",
@@ -114,11 +114,11 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_0_t1776252432907.png",
+					"filePathPng" : "resources/0/_0_t1778166150830.png",
 					"height" : 320,
 					"interactive" : true,
 					"interactiveConvertError" : "",
-					"interactiveJsonData" : "resources/0/_1_t1776252434797.json",
+					"interactiveJsonData" : "resources/0/_1_t1778166152748.json",
 					"messages" : [],
 					"name" : "curveplot",
 					"nestedOptionMustBe" : {},
@@ -1568,7 +1568,7 @@
 					"error" : false,
 					"errorMessage" : "",
 					"escapeHtml" : true,
-					"filePathPng" : "resources/0/_2_t1776252435968.png",
+					"filePathPng" : "resources/0/_2_t1778166153936.png",
 					"height" : 500,
 					"interactive" : false,
 					"interactiveConvertError" : "",

@@ -769,11 +769,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/1/_0_t1778167117823.png",
+							"filePathPng" : "resources/1/_0_t1780065852937.png",
 							"height" : 300,
 							"interactive" : true,
 							"interactiveConvertError" : "",
-							"interactiveJsonData" : "resources/1/_1_t1778167118102.json",
+							"interactiveJsonData" : "resources/1/_1_t1780065853226.json",
 							"messages" : [],
 							"name" : "qqPlot",
 							"nestedOptionMustBe" : {},
@@ -898,11 +898,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/1/_2_t1778167118422.png",
+									"filePathPng" : "resources/1/_2_t1780065853550.png",
 									"height" : 300,
 									"interactive" : true,
 									"interactiveConvertError" : "",
-									"interactiveJsonData" : "resources/1/_3_t1778167118728.json",
+									"interactiveJsonData" : "resources/1/_3_t1780065853859.json",
 									"messages" : [],
 									"name" : "",
 									"nestedOptionMustBe" : {},
@@ -1452,10 +1452,10 @@
 									0.039200052392588634
 								],
 								[
-									0.0090218125196206093
+									0.010588604721264975
 								],
 								[
-									0.13702369654677368
+									0.12516396327737364
 								],
 								[
 									0.025978034764963704
@@ -1464,7 +1464,7 @@
 									0.0
 								],
 								[
-									0.11448317295660108
+									0.10484953338420444
 								]
 							],
 							"error" : false,
@@ -1786,6 +1786,10 @@
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
+			{
+				"shouldEncode" : true
+			},
+			"randomFactors" : 
 			{
 				"shouldEncode" : true
 			},

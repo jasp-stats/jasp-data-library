@@ -696,11 +696,11 @@
 							"error" : false,
 							"errorMessage" : "",
 							"escapeHtml" : true,
-							"filePathPng" : "resources/0/_0_t1778167039230.png",
+							"filePathPng" : "resources/0/_0_t1780065771860.png",
 							"height" : 300,
 							"interactive" : true,
 							"interactiveConvertError" : "",
-							"interactiveJsonData" : "resources/0/_1_t1778167039502.json",
+							"interactiveJsonData" : "resources/0/_1_t1780065772144.json",
 							"messages" : [],
 							"name" : "qqPlot",
 							"nestedOptionMustBe" : {},
@@ -828,11 +828,11 @@
 									"error" : false,
 									"errorMessage" : "",
 									"escapeHtml" : true,
-									"filePathPng" : "resources/0/_2_t1778167039631.png",
+									"filePathPng" : "resources/0/_2_t1780065772279.png",
 									"height" : 300,
 									"interactive" : true,
 									"interactiveConvertError" : "",
-									"interactiveJsonData" : "resources/0/_3_t1778167040109.json",
+									"interactiveJsonData" : "resources/0/_3_t1780065772778.json",
 									"messages" : [],
 									"name" : "",
 									"nestedOptionMustBe" : {},
@@ -1506,6 +1506,10 @@
 				"shouldEncode" : true
 			},
 			"rainCloudSeparatePlots" : 
+			{
+				"shouldEncode" : true
+			},
+			"randomFactors" : 
 			{
 				"shouldEncode" : true
 			},

@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.97) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.97.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -193,11 +193,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_0_t1778165873949.png",
+			"filePathPng" : "resources/1/_0_t1780067601733.png",
 			"height" : 30,
 			"interactive" : true,
 			"interactiveConvertError" : "",
-			"interactiveJsonData" : "resources/1/_1_t1778165874212.json",
+			"interactiveJsonData" : "resources/1/_1_t1780067601995.json",
 			"messages" : [],
 			"name" : "plotDataSplit",
 			"nestedOptionMustBe" : {},
@@ -397,11 +397,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/1/_2_t1778165874234.png",
+			"filePathPng" : "resources/1/_2_t1780067602024.png",
 			"height" : 300,
 			"interactive" : true,
 			"interactiveConvertError" : "",
-			"interactiveJsonData" : "resources/1/_3_t1778165874470.json",
+			"interactiveJsonData" : "resources/1/_3_t1780067602271.json",
 			"messages" : [],
 			"name" : "predictedPerformancePlot",
 			"nestedOptionMustBe" : {},
@@ -856,7 +856,7 @@
 			"data" : 
 			[
 				[
-					14
+					27
 				],
 				[
 					0.10000000000000001
@@ -874,10 +874,10 @@
 					79
 				],
 				[
-					18.907081814065688
+					14.180376660197991
 				],
 				[
-					15.817668710384211
+					23.405588792545597
 				]
 			],
 			"error" : false,

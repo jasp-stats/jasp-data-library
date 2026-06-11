@@ -1,0 +1,41 @@
+# =====================================================================
+#  Source-of-truth Quarto config for The JASP Data Library.
+#
+#  Edit THIS file for any configuration change. GenerateMDs.R reads it,
+#  replaces the single CHAPTERS_PLACEHOLDER line with the generated
+#  chapter list, and writes _quarto.yml. Do not edit _quarto.yml by hand
+#  (it is overwritten on every build).
+# =====================================================================
+project:
+  type: book
+  output-dir: docs
+  resources:
+    - assets/
+
+book:
+  title: "The JASP Data Library"
+  author: "The JASP Team"
+  favicon: assets/jasp-icon.svg
+  search: true
+  repo-url: https://github.com/jasp-stats/jasp-data-library
+  repo-branch: gh-pages
+  repo-actions: [source, issue]
+  page-footer:
+    center: "The JASP Data Library · example data sets for teaching and learning statistics"
+  chapters:
+CHAPTERS_PLACEHOLDER
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    grid:
+      sidebar-width: 300px
+
+editor: visual
+new_session: false
+url_sanitize: false

@@ -1,0 +1,183 @@
+/*-- scss:defaults --*/
+// =====================================================================
+//  The JASP Data Library — theme
+//  Brand palette taken from the official JASP assets (jasp-desktop):
+//    green  #8cc63e   blue #14a1e3 / #1d99dc   dark #231f20
+// =====================================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+// --- Brand colours -------------------------------------------------
+$jasp-blue:        #14a1e3;
+$jasp-blue-dark:   #0f87bd;
+$jasp-green:       #8cc63e;
+$jasp-green-mid:   #5d9b27;   // darker green that reads with white text
+$jasp-green-dark:  #4e8420;
+$jasp-orange:      #e07b39;
+$jasp-orange-dark: #c8662a;
+$jasp-ink:         #2f4858;   // headings / body ink (slate-blue)
+
+// --- Bootstrap overrides -------------------------------------------
+$primary:                 $jasp-blue;
+$body-color:              $jasp-ink;
+$font-family-sans-serif:  'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$headings-font-weight:    700;
+$headings-color:          $jasp-ink;
+
+$link-color:              $jasp-blue-dark;
+$link-hover-color:        $jasp-orange-dark;
+
+// Card / surface tints reused in rules below
+$surface-card:   #f4f9fc;
+$surface-side:   #eaf4fb;
+$border-soft:    #e1ecf3;
+
+
+/*-- scss:rules --*/
+// =====================================================================
+//  Dataset cards (replaces the old borderless 3-column markdown tables)
+// =====================================================================
+.dataset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+  gap: 1.1rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.dataset-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  background: $surface-card;
+  border: 1px solid $border-soft;
+  border-radius: 14px;
+  padding: 1.1rem 1.15rem 1.2rem;
+  box-shadow: 0 1px 2px rgba(47, 72, 88, 0.06);
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+}
+
+.dataset-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(20, 161, 227, 0.16);
+  border-color: lighten($jasp-blue, 28%);
+}
+
+.dataset-card .dataset-title {
+  margin: 0;
+  font-size: 1.06rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: $jasp-ink;
+}
+
+.dataset-card .dataset-desc {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: #5b6b78;
+}
+
+// Download buttons -----------------------------------------------------
+.dataset-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: auto;            // push buttons to the bottom of the card
+}
+
+.ds-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.34rem 0.7rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff !important;
+  border-radius: 8px;
+  text-decoration: none !important;
+  transition: background-color 0.14s ease, transform 0.14s ease;
+}
+.ds-btn:hover  { transform: translateY(-1px); color: #fff !important; }
+.ds-btn .bi    { font-size: 0.95em; }
+
+.ds-jasp { background: $jasp-blue; }
+.ds-jasp:hover { background: $jasp-blue-dark; }
+.ds-csv  { background: $jasp-green-mid; }
+.ds-csv:hover  { background: $jasp-green-dark; }
+.ds-html { background: $jasp-orange; }
+.ds-html:hover { background: $jasp-orange-dark; }
+
+// =====================================================================
+//  Sidebar (chapter navigation) — soft branded background
+// =====================================================================
+.sidebar.sidebar-navigation,
+#quarto-sidebar {
+  background-color: $surface-side !important;
+}
+#quarto-sidebar .sidebar-title,
+#quarto-sidebar .title {
+  color: $jasp-ink;
+  font-weight: 900;
+}
+// JASP wordmark at the top of the sidebar
+#quarto-sidebar .sidebar-header::before {
+  content: "";
+  display: block;
+  height: 44px;
+  margin: 0.2rem 0 0.9rem;
+  background: url("assets/jasp-logo.svg") left center / contain no-repeat;
+}
+
+// =====================================================================
+//  Category page headings — wave accent under the chapter title
+// =====================================================================
+main.content > section.level1 > h1:first-of-type,
+#title-block-header h1.title {
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid $jasp-green;
+}
+
+// =====================================================================
+//  Hero banner (index landing page)
+// =====================================================================
+.jasp-hero {
+  position: relative;
+  margin: -1rem 0 1.5rem;
+  padding: 2.4rem 2rem 3.2rem;
+  text-align: center;
+  background: linear-gradient(160deg, #eaf6fd 0%, #f2faf0 100%);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.jasp-hero::after {                 // blue wave hugging the hero bottom
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 38px;
+  background: url("assets/wave-blue.svg") bottom center / cover no-repeat;
+}
+.jasp-hero .hero-logo {
+  height: 92px;
+  margin-bottom: 1rem;
+  background: url("assets/jasp-logo.svg") center / contain no-repeat;
+}
+.jasp-hero .hero-tagline {
+  font-size: 1.15rem;
+  color: $jasp-ink;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+// =====================================================================
+//  Page footer wave (every page)
+// =====================================================================
+main.content::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 60px;
+  margin-top: 3rem;
+  background: url("assets/wave-green.svg") center bottom / 100% auto no-repeat;
+  opacity: 0.85;
+}

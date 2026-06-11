@@ -1,0 +1,68 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Permissions needed to deploy to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout data library (this repo)
+        uses: actions/checkout@v4
+        with:
+          path: datalib
+
+      - name: Checkout jasp-desktop (categories + descriptions)
+        uses: actions/checkout@v4
+        with:
+          repository: jasp-stats/jasp-desktop
+          ref: stable
+          path: jasp-desktop
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3.2'
+
+      - name: Install R packages
+        run: Rscript -e 'install.packages("jsonlite", repos = "https://cloud.r-project.org")'
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Build website
+        working-directory: datalib/website
+        env:
+          DATALIB_DIR: ${{ github.workspace }}/datalib
+          JASP_DESKTOP_DIR: ${{ github.workspace }}/jasp-desktop
+        run: |
+          Rscript GenerateMDs.R
+          quarto render
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: datalib/website/docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

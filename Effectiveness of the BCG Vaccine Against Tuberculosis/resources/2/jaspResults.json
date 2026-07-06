@@ -1,7 +1,7 @@
 {
 	"citations" : 
 	[
-		"JASP Team (2026). JASP (Version 0.97.1) [Computer software]."
+		"JASP Team (2026). JASP (Version 0.98.1) [Computer software]."
 	],
 	"data" : 
 	{
@@ -109,11 +109,11 @@
 			"error" : false,
 			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "resources/2/_2_t1780067860562.png",
+			"filePathPng" : "resources/2/_3_t1783333763238.png",
 			"height" : 350,
 			"interactive" : true,
 			"interactiveConvertError" : "",
-			"interactiveJsonData" : "resources/2/_3_t1780067860842.json",
+			"interactiveJsonData" : "resources/2/_4_t1783333763522.json",
 			"messages" : [],
 			"name" : "bubblePlot",
 			"nestedOptionMustBe" : {},
@@ -1680,13 +1680,17 @@
 		{
 			"aspectRatio" : 0.0,
 			"citations" : [],
-			"editOptions" : null,
+			"editOptions" : 
+			{
+				"errorType" : "validationError",
+				"reasonNotEditable" : "This plot cannot be edited because it consists of multiple smaller figures."
+			},
 			"environmentName" : "plot_1",
-			"error" : true,
-			"errorMessage" : "Error in `[.data.frame`(forestInformation, , leftPanelStudyInformation$value,  : \n  undefined columns selected\n",
+			"error" : false,
+			"errorMessage" : "",
 			"escapeHtml" : true,
-			"filePathPng" : "",
-			"height" : 320,
+			"filePathPng" : "resources/2/_2_t1783333762738.png",
+			"height" : 470,
 			"interactive" : false,
 			"interactiveConvertError" : "",
 			"interactiveJsonData" : "",
@@ -1696,8 +1700,60 @@
 			"nestedOptionMustContain" : {},
 			"optionMustBe" : 
 			{
+				"advancedAdd" : null,
+				"advancedContinuityCorrection" : null,
+				"advancedDropStudiesWithNoCasesOrEvents" : null,
+				"advancedExtendMetaforCall" : false,
+				"advancedExtendMetaforCallCode" : "",
+				"advancedTo" : null,
 				"bayesFactorType" : null,
+				"clustering" : "",
+				"clustering.types" : [],
+				"clusteringSmallSampleCorrection" : true,
+				"clusteringUseClubSandwich" : true,
+				"computeCovarianceMatrix" : true,
 				"confidenceIntervalsLevel" : 0.94999999999999996,
+				"diagnosticsCasewiseDiagnosticsRerunWithoutInfluentialCases" : null,
+				"effectSize" : "JaspColumn_12_Encoded",
+				"effectSize.types" : 
+				[
+					"scale"
+				],
+				"effectSizeMeasure" : null,
+				"effectSizeModelIncludeIntercept" : true,
+				"effectSizeModelTerms" : 
+				[
+					{
+						"components" : 
+						[
+							"JaspColumn_0_Encoded"
+						]
+					},
+					{
+						"components" : 
+						[
+							"JaspColumn_5_Encoded"
+						]
+					}
+				],
+				"effectSizeModelTerms.types" : 
+				[
+					"scale",
+					"nominal"
+				],
+				"effectSizeStandardError" : "JaspColumn_18_Encoded",
+				"effectSizeStandardError.types" : 
+				[
+					"scale"
+				],
+				"eventsGroup1" : null,
+				"eventsGroup2" : null,
+				"fixParametersTau2" : false,
+				"fixParametersTau2Value" : 1.0,
+				"fixParametersWeights" : false,
+				"fixParametersWeightsVariable" : "",
+				"fixParametersWeightsVariable.types" : "unknown",
+				"fixedEffectTest" : "knha",
 				"forestPlotAllignLeftPanel" : "right",
 				"forestPlotAuxiliaryAddVerticalLine" : true,
 				"forestPlotAuxiliaryAddVerticalLine2" : false,
@@ -1804,11 +1860,11 @@
 						"title" : "Year",
 						"value" : 
 						[
-							"JaspColumn_36_Encoded"
+							"JaspColumn_38_Encoded"
 						],
 						"value.types" : 
 						[
-							"scale"
+							"nominal"
 						],
 						"width" : 1.0
 					},
@@ -1830,11 +1886,11 @@
 						"title" : "Latitude",
 						"value" : 
 						[
-							"JaspColumn_0_Encoded"
+							"JaspColumn_2_Encoded"
 						],
 						"value.types" : 
 						[
-							"scale"
+							"nominal"
 						],
 						"width" : 1.0
 					}
@@ -1844,16 +1900,91 @@
 				"forestPlotSubgroupFullDatasetModelInformation" : true,
 				"forestPlotSubgroupPanelsWithinSubgroup" : false,
 				"forestPlotTestsInRightPanel" : false,
-				"transformEffectSize" : "none"
+				"heterogeneityModelIncludeIntercept" : true,
+				"heterogeneityModelLink" : "log",
+				"heterogeneityModelTerms" : [],
+				"heterogeneityModelTerms.types" : [],
+				"method" : "restrictedML",
+				"optimizerConvergenceRelativeTolerance" : false,
+				"optimizerConvergenceRelativeToleranceValue" : 1e-08,
+				"optimizerConvergenceTolerance" : false,
+				"optimizerConvergenceToleranceValue" : 1.0000000000000001e-05,
+				"optimizerFinalTrustRegionRadius" : false,
+				"optimizerFinalTrustRegionRadiusValue" : 1.0,
+				"optimizerInitialTau2" : false,
+				"optimizerInitialTau2Value" : 1.0,
+				"optimizerInitialTrustRegionRadius" : false,
+				"optimizerInitialTrustRegionRadiusValue" : 1.0,
+				"optimizerMaximumEvaluations" : false,
+				"optimizerMaximumEvaluationsValue" : 250,
+				"optimizerMaximumIterations" : false,
+				"optimizerMaximumIterationsValue" : 150,
+				"optimizerMaximumRestarts" : false,
+				"optimizerMaximumRestartsValue" : 3,
+				"optimizerMaximumTau2" : false,
+				"optimizerMaximumTau2Value" : 100.0,
+				"optimizerMethod" : "nlminb",
+				"optimizerMinimumTau2" : false,
+				"optimizerMinimumTau2Value" : 9.9999999999999995e-07,
+				"optimizerStepAdjustment" : false,
+				"optimizerStepAdjustmentValue" : 1.0,
+				"permutationTest" : false,
+				"permutationTestIteration" : 1000,
+				"permutationTestType" : "approximate",
+				"personTimeGroup1" : null,
+				"personTimeGroup2" : null,
+				"predictors" : 
+				[
+					"JaspColumn_0_Encoded",
+					"JaspColumn_5_Encoded"
+				],
+				"predictors.types" : 
+				[
+					"scale",
+					"nominal"
+				],
+				"randomEffects" : null,
+				"randomEffectsSpecification" : null,
+				"sampleSizeGroup1" : null,
+				"sampleSizeGroup2" : null,
+				"seed" : 1,
+				"setSeed" : false,
+				"subgroup" : "",
+				"subgroup.types" : [],
+				"successesGroup1" : null,
+				"successesGroup2" : null,
+				"transformEffectSize" : "none",
+				"varianceCovarianceMatrixCheckPositiveDefiniteness" : null,
+				"varianceCovarianceMatrixCluster" : null,
+				"varianceCovarianceMatrixConstruct" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixConstructType" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrix" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixFilePath" : null,
+				"varianceCovarianceMatrixConstructTypeCorrelationMatrixValue" : null,
+				"varianceCovarianceMatrixCorrelationMatrix" : null,
+				"varianceCovarianceMatrixFile" : null,
+				"varianceCovarianceMatrixForcePositiveDefiniteness" : null,
+				"varianceCovarianceMatrixGroup1" : null,
+				"varianceCovarianceMatrixGroupSize1" : null,
+				"varianceCovarianceMatrixGroupSize2" : null,
+				"varianceCovarianceMatrixSubcluster" : null,
+				"varianceCovarianceMatrixTime1" : null,
+				"varianceCovarianceMatrixTime2" : null,
+				"varianceCovarianceMatrixTimeLag1Correlation" : null,
+				"varianceCovarianceMatrixType" : null,
+				"weightedEstimation" : true
 			},
 			"optionMustContain" : {},
-			"position" : 4,
+			"position" : 5,
 			"resizedByUser" : false,
 			"revision" : 0,
 			"status" : "complete",
 			"title" : "Forest Plot",
 			"type" : "plot",
-			"width" : 320
+			"width" : 1050
 		},
 		"metaregressionContainer" : 
 		{
@@ -3572,11 +3703,11 @@
 				"title" : "Year",
 				"value" : 
 				[
-					"JaspColumn_36_Encoded"
+					"JaspColumn_38_Encoded"
 				],
 				"value.types" : 
 				[
-					"scale"
+					"nominal"
 				],
 				"width" : 1.0
 			},
@@ -3598,11 +3729,11 @@
 				"title" : "Latitude",
 				"value" : 
 				[
-					"JaspColumn_0_Encoded"
+					"JaspColumn_2_Encoded"
 				],
 				"value.types" : 
 				[
-					"scale"
+					"nominal"
 				],
 				"width" : 1.0
 			}
